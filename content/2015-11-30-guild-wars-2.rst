@@ -1,0 +1,84 @@
+:title: Guild Wars 2
+:date: 2015-11-30 10:00
+:category: blog
+:tags: gw2, juegos
+:author: Diego
+:excerpt: Guild Wars 2
+:disqus_identifier: Guild Wars 2
+:status: draft
+
+Volví a jugar al GW2 después de mucho tiempo. Es un buen MMO, al que llegué
+buscando una alternativa al WoW. El sistema de pago es más cómodo: sólo hay que
+comprar el juego una vez y no hace falta pagar por mes. Hay limitaciones, como
+el número inicial de personajes que se pueden crear (5), y el negocio de la
+compañía está ahí: vende ampliaciones de personaje, de casillas del banco, etc.
+Igual es posible jugar relativamente cómodos sin gastar más que la inversión
+inicial (hace menos de un mes salió la primera expansión, que como no exploré en
+su totalidad, me sigue resultando suficiente.
+
+El juego es muy complejo, y tiene distintos modos de pasarla bien. En general
+las mecánicas son: misiones individuales, descubrimiento del mapa, batallas
+multijugadores (servidor contra dos servidores enemigos), mazmorras, farmeo de
+materias primas, uso de la bolsa de comercio, etc. 
+
+Ahora mismo estoy interesado en aumentar la cantidad de oro de mis personajes,
+para poder realizar algunas ampliaciones y mejoras que me permitan jugar con
+mayor comodidad (quiero un nuevo pj, bolsas más grandes, banco más grande). Todo
+esto se puede comprar con dinero del mundo real, pero también con oro y gemas
+(monedas virtuales del juego).
+
+Las estrategias para ganar dinero son:
+
+ - Flipping de items (comprar barato y vender caro) usando el "trading post"
+   (puesto de comercio).
+ - Matar world bosses (jefes de mundo) y obtener las recompensas.
+ - Jugar en grupo una mazmorra y obtener los premios que otorga.
+ - Completar las misiones diarias.
+ - Fabricar artesanías y venderlas.
+ - Farmear materias primas u otros elementos: actualmente entre lo más rentable
+   parece estar el farmeo de items en Silverwastes, un mapa para personajes de
+   nivel 80.
+ - Convertir elementos baratos en materiales más caros usando la forja mística.
+
+El flipping de items es bastante complicado porque el mercado es común a todos
+los servidores (hay mucha gente jugando). Hay tantos items, y los precios
+fluctúan, que es dificil reconocer qué es conveniente comprar y vender. Además,
+con poco oro sólo se puede hacer flipping de materiales relativamente baratos,
+con lo cual la ganancia absoluta es baja (aún cuando el porcentaje sea alto).
+
+Para matar jefes del mundo hay que estar atento a su aparición (cada 15 minutos
+se activa una cadena que lleva a un boss) y además haber descubierto las partes
+del mapa donde ocurren, para poder viajar hacia el lugar rápidamente. Hay
+páginas web que tienen timers que indican el boss que está por aparecer, el
+lugar y la hora. Se puede buscar en google (gw2 boss timer):
+
+  - `Efficiency`_: es el más sencillo, sólo tiene la información del loot y la
+    ubicación pero sin enlaces, con lo cual hay que buscar en otro lado dónde
+    encontrar en el mapa el nombre del lugar que menciona. 
+  - `GW2 World Boss Timer by that_shaman`_: tiene la información del loot y el
+    lugar con el link que se puede copiar y pegar dentro del juego para indicar
+    el waypoint a tomar para llegar rápido al lugar.
+  - `GW2 Timer`_: muy completo, con links a videos (y la información estándar:
+    loot y ubicación). Tiene una interface compleja, no entiendo toda la
+    información que presenta:
+
+      * Una cadena (chain) es una serie de eventos dentro del juego, que
+        culminan con la aparición de un boss.
+      * Al clickear el ícono del boss, centra el mapa en el waypoint que lleva
+        al mismo.
+      * Al clickear sobre el waypoint que aparece junto al ícono del boss (¡no
+        es el waypoint en el mapa!) se copia al clipboard para poder pegarlo en
+        el chat.
+      * Las marcas verde, amarilla y roja dentro del reloj indican el horario de
+        inicio, la finalización más rápida (algún zerg de mundo) y la
+        finalización promedio. También van apareciendo las fases que componen
+        cada cadena, y se van coloreando de acuerdo a si ya se completaron o no.
+
+Esto se hace largo, mejor dejo para continuar otro día.
+
+
+
+    
+.. _GW2 Timer: http://gw2timer.com/?enu_Language=en
+.. _Efficiency: https://gw2efficiency.com/worldbosses
+.. _GW2 World Boss Timer by that_shaman: http://dulfy.net/2014/04/23/event-timer/

@@ -1,0 +1,28 @@
+:title: Parcial de Bio2/DyM
+:date: 2014-11-14 14:00
+:category: blog
+:tags: humor, facultad, alumnos
+:author: El Diego Efe
+:excerpt: Parcial
+:disqus_identifier: parcial
+:status: draft
+
+Durante el último cuatrimestre no desaproveché la oportunidad de
+fotografiar (para conservar como memoria) un parcial representativo de
+la claridad y capacidad de síntesis de los estudiantes de Bio2/DyM. No
+importa el nombre del autor en particular de este perfecto trabajo,
+aunque consta en la esquina inferior izquierda, junto a su dirección
+de e-mail.
+
+.. figure:: https://farm9.staticflickr.com/8566/16290317462_913493d3a2_b.jpg
+   :scale: 100%
+   :width: 75%
+   :align: center
+   :alt: parcial
+   :target: https://farm9.staticflickr.com/8566/16290317462_877f064c28_o.jpg
+
+   Parcial de Bio2/DyM
+
+`Link a los comentarios en fb`_
+
+.. _Link a los comentarios en fb: https://www.facebook.com/photo.php?fbid=10204746147030036&set=a.1244263583211.38494.1128026759&type=1&theater
