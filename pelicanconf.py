@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Diego Fainstein'
 SITENAME = u'Certezas Dudosas'
 SITESUBTITLE = u'todo lo liquido se desvanece en el estomago'
-SITEURL = 'http://eldiegoefe.github.io'
+SITEURL = 'https://eldiegoefe.github.io'
 TIMEZONE = 'America/Argentina/Buenos_Aires'
 DEFAULT_LANG = u'es'
 # DEFAULT_DATE_FORMAT = '%a %d %B %Y'
@@ -99,7 +99,7 @@ AUTHOR_SAVE_AS = ''
 
 RECENT_ARTICLES_COUNT = 30
 COMMENTS_INTRO = u'No te vayas sin comentar algo del post, de las noticias del día, del clima, que se yo...'
-SITE_LICENSE = u'Podes usar el contenido de este blog si pones un link hacia http://eldiegoefe.github.io/'
+SITE_LICENSE = u'Podes usar el contenido de este blog si pones un link hacia https://eldiegoefe.github.io/'
 SITE_DESCRIPTION = u'Blog de Diego Fainstein'
 EMAIL_SUBSCRIPTION_LABEL = u'Suscripción'
 EMAIL_FIELD_PLACEHOLDER = u'¿dirección de e-mail?'
