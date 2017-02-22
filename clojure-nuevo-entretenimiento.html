@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="El Diego Efe" />
+        <meta name="copyright" content="El Diego Efe" />
+
+        <meta name="description" content="En el mundo Emacs se menciona bastante el lenguaje Clojure, como un dialecto de Lisp que corre sobre el Java Virtual Machine, lo cual constituye para mi un dato casi completamente inutil, puesto que desconozco Java y su JVM. De cualquier manera, mientras continúo leyendo ANSI Common Lisp, me dieron …
+" />
+<meta name="keywords" content="lisp, clojure, tecnicismos, " />
+        <title>Clojure, nuevo&nbsp;entretenimiento  · Certezas Dudosas
+</title>
+        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://eldiegoefe.github.io/theme/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://eldiegoefe.github.io/theme/css/solarizedlight.css" media="screen">
+        <link rel="shortcut icon" href="http://eldiegoefe.github.io/theme/images/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-144x144.png" />
+        <link rel="icon" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-144x144.png" />
+        <link href="http://eldiegoefe.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Certezas Dudosas - Full RSS Feed" />
+        <link href="http://eldiegoefe.github.io/feeds/blog.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - blog Category RSS Feed" />
+        <link href="http://eldiegoefe.github.io/feeds/politica.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - politica Category RSS Feed" />
+        <link href="http://eldiegoefe.github.io/feeds/salud.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - salud Category RSS Feed" />
+        <link href="http://eldiegoefe.github.io/feeds/tecnicismos.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - tecnicismos Category RSS Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://eldiegoefe.github.io/"><span class=site-name>Certezas Dudosas</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://eldiegoefe.github.io">Home</a></li>
+                            <li ><a href="http://eldiegoefe.github.io/categories.html">Categories</a></li>
+                            <li ><a href="http://eldiegoefe.github.io/tags.html">Tags</a></li>
+                            <li ><a href="http://eldiegoefe.github.io/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://eldiegoefe.github.io/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page_header span10 offset2">
+    <h1><a href="http://eldiegoefe.github.io/clojure-nuevo-entretenimiento.html"> Clojure, nuevo&nbsp;entretenimiento  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            <p>En el mundo Emacs se menciona bastante el lenguaje Clojure, como un
+dialecto de Lisp que corre sobre el Java Virtual Machine, lo cual
+constituye para mi un dato casi completamente inutil, puesto que
+desconozco Java y su <span class="caps">JVM</span>. De cualquier manera, mientras continúo
+leyendo <span class="caps">ANSI</span> Common Lisp, me dieron ganas de probar, así que guardo
+aquí las instrucciones de instalación para usar Clojure con Emacs en&nbsp;Linux.</p>
+<p>La cuestión no es tan complicada, primero verificamos desde un
+terminal que Java está&nbsp;instalado:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> java -version
+<span class="go">java version &quot;1.7.0_65&quot;</span>
+<span class="go">OpenJDK Runtime Environment (IcedTea 2.5.2) (Arch Linux build 7.u65_2.5.2-3-x86_64)</span>
+<span class="go">OpenJDK 64-Bit Server VM (build 24.65-b04, mixed mode)</span>
+</pre></div>
+<p>Como en mi caso obtuve el mensaje precedente, no me tuve que preocupar
+de instalar&nbsp;Java.</p>
+<p>Las instrucciones de instalación están en <a class="reference external" href="http://clojure-doc.org/articles/tutorials/emacs.html">Clojure with Emacs</a>. En
+resumen, lo que hice fue visitar la página de <a class="reference external" href="http://leiningen.org/">Leiningen</a> y&nbsp;entonces:</p>
+<ul class="simple">
+<li>Bajar el script de bash (de nombre &#8220;<em>lein</em>&#8220;)</li>
+<li>Copiarlo en una carpeta (<em>~/programas/lein/</em>)</li>
+<li>Ir a <em>/usr/bin</em> y crear allí un symlink a lein (con &#8220;<em>sudo ln -s
+~/programas/lein/lein</em>&#8220;). El directorio /usr/bin está en el <span class="caps">PATH</span> así
+que todo lo que ahí se almacena puede ser encontrado para su
+ejecución. El symlink guardado allí apunta al programa en la
+dirección donde lo guardamos, así que ahora podremos ejecutar lein
+desde cualquier&nbsp;lugar.</li>
+<li>Pero aún falta volver ejecutable el script (con &#8220;<em>chmod a+x lein</em>&#8220;)</li>
+<li>Finalmente hay que ejecutar lein, lo cual hace que se baje Leiningen
+y se instale en el directorio <em>~/.lein</em>.</li>
+</ul>
+<p>El directorio creado originalmente (~/programas/lein) debe permanecer
+porque allí sigue estando lein, que se ejecutará siempre que se cree
+un proyecto (lo que se baja en ~/.lein no lo&nbsp;sustituye).</p>
+<p><em>Agregado</em>: no hace falta copiar <em>lein</em> en un directorio como <em>~/programas/lein/</em> y luego armar un symlink desde <em>/usr/bin</em>, se puede directamente copiar lein en este último y&nbsp;listo.</p>
+<p>En Emacs instalé <span class="caps">CIDER</span>, y además como tengo Prelude habilité en el
+archivo prelude-modules.el la linea (require &#8216;prelude-clojure). Así
+que si no lo instalaba yo, el mismo Prelude hubiese bajado <span class="caps">CIDER</span>.</p>
+<p>El tutorial de Clojure with Emacs indica que hay que ejecutar estas
+dos órdenes desde un terminal (el resultado es la creación de un
+proyecto llamado <em>command-line-args</em> dentro de un subdirectorio que se
+ubica dentro del directorio actual en que se encuentra el&nbsp;terminal):</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> lein new command-line-args
+<span class="gp">$</span> <span class="nb">cd</span> command-line-args
+</pre></div>
+<p>Luego desde Emacs se abre el archivo /command-line-args/project.clj y
+se lo edita para agregar al texto que ya tiene, la siguiente linea
+(siempre según el&nbsp;tutorial):</p>
+<div class="highlight"><pre><span></span><span class="ss">:profiles</span> <span class="p">{</span><span class="ss">:dev</span> <span class="p">{</span><span class="ss">:plugins</span> <span class="p">[[</span><span class="nv">cider/cider-nrepl</span> <span class="s">&quot;0.7.0&quot;</span><span class="p">]]}}</span>
+</pre></div>
+<p>Hay que cambiar la versión que allí se coloca, puesto que ya no será
+la &#8220;0.7.0&#8221;. En el <a class="reference external" href="https://github.com/clojure-emacs/cider-nrepl">github de cider-nrepl</a> figura la última versión.
+Una vez que hayamos agregado esta linea hay que guardar el archivo y
+hacer desde allí mismo <strong>M-x cider-jack-in</strong>. Si todo va bien se abre
+un buffer con el prompt del&nbsp;repl.</p>
+<p>Tuve que dar varias vueltas hasta que esto último funcionó porque
+aparecían mensajes de error antes de abrir el buffer o en el mismo
+buffer. Lo que sucede es que debe coincidir la versión del cider-nrepl
+con la versión de cider instalada. Cuando sustituía &#8220;0.7.0&#8221; por
+&#8220;0.8.2&#8221; daba un mensaje diciendo que no encontraba esa versión para
+bajar desde los repositorios y cuando intentaba con &#8220;0.8.1&#8221; me&nbsp;decía</p>
+<pre class="literal-block">
+WARNING: CIDERs version (0.8.2-snapshot) does not match cider-nrepl version (0.8.1)
+</pre>
+<p>Todo se solucionó cuando en vez de poner &#8220;0.8.2&#8221; escribí
+&#8220;0.8.2-<span class="caps">SNAPSHOT</span>&#8221; (por eso hay que prestar atención a cuál es la
+versión de <span class="caps">CIDER</span> que está instalada y copiar el mismo código, el cual
+seguramente coincide con la versión que indica el <a class="reference external" href="https://github.com/clojure-emacs/cider-nrepl">github de
+cider-nrepl</a>). Y <strong>ojo, es todo con mayúsculas</strong>, no importa cómo
+aparezca la versión de <span class="caps">CIDER</span>. Y&nbsp;voilá:</p>
+<div class="highlight"><pre><span></span><span class="c1">; CIDER 0.8.2alpha (package: 20141126.715) (Java 1.7.0_65, Clojure 1.6.0, nREPL 0.2.6)</span>
+<span class="nv">user&gt;</span>
+</pre></div>
+<p>Para averiguar la versión instalada de&nbsp;cider:</p>
+<div class="highlight"><pre><span></span>M-x cider-version
+</pre></div>
+<div class="section" id="un-nuevo-comienzo">
+<h2>Un nuevo&nbsp;comienzo</h2>
+<p>Ahora, con todo listo para usarse, podemos seguir algún tutorial, como
+el de <a class="reference external" href="http://www.braveclojure.com/">Clojure for the brave and true</a>. El primer capítulo ya nos
+permite probar las cosas más básicas, como armar un proyecto nuevo con
+<em>lein</em>, armar el ejecutable java para distribuir, y jugar con el&nbsp;repl.</p>
+</div>
+
+<section>
+<p id="comment-message">No te vayas sin comentar algo del post, de las noticias del día, del clima, que se yo... </p>
+<div class="accordion" id="accordion2">
+    <div class="accordion-group">
+        <div class="accordion-heading">
+            <a class="accordion-toggle disqus-comment-count" data-toggle="collapse" data-parent="#accordion2"
+                    data-disqus-identifier="clojure nuevo entretenimiento"
+                href="http://eldiegoefe.github.io/clojure-nuevo-entretenimiento.html#disqus_thread">
+                Comments
+            </a>
+        </div>
+        <div id="disqus_thread" class="accordion-body collapse">
+            <div class="accordion-inner">
+                <div class="comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'certezasdudosas';
+        var disqus_identifier = 'clojure nuevo entretenimiento';
+    var disqus_url = 'http://eldiegoefe.github.io/clojure-nuevo-entretenimiento.html';
+
+    (function() {
+         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+            <aside>
+            <hr/>
+            <nav>
+            <ul class="articles_timeline">
+ 
+                <li class="previous_article">« <a href="http://eldiegoefe.github.io/la-fotografia-en-la-era-de-lo-memorable.html" title="Previous: La fotografía en la era de lo&nbsp;memorable">La fotografía en la era de lo&nbsp;memorable</a></li>
+ 
+                <li class="next_article"><a href="http://eldiegoefe.github.io/artes-marciales.html" title="Next: Artes&nbsp;marciales">Artes&nbsp;marciales</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+ 
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2014-11-27T10:00:00-03:00">nov 27, 2014</time>
+ 
+            <h4>Last Updated</h4>
+            <div class="last_updated">2017-01-08 10:00:00-03:00</div>
+            <h4>Category</h4>
+            <a class="category-link" href="/categories.html#tecnicismos-ref">tecnicismos</a> 
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article"> 
+                <li><a href="/tags.html#clojure-ref">clojure
+                    <span>1</span>
+</a></li>
+                <li><a href="/tags.html#lisp-ref">lisp
+                    <span>2</span>
+</a></li>
+            </ul>
+
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-subtitle"><span class="site-name">Certezas Dudosas</span> - todo lo liquido se desvanece en el estomago</li>
+        <li class="elegant-license">Podes usar el contenido de este blog si pones un link hacia http://eldiegoefe.github.io/</li>
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+<script type="text/javascript">
+    var disqus_shortname = 'certezasdudosas';
+
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+        <script  language="javascript" type="text/javascript">
+            function uncollapse() {
+                var hash_str = window.location.hash;
+                if (window.location.hash.match(/^#comment-\d+$/))
+                {
+                    var hash_str = '#disqus_thread';
+                }
+                $(hash_str).collapse({
+                    toggle: true
+                    })
+            }
+        </script>
+
+        <script type="text/javascript" language="JavaScript">
+            uncollapse(); 
+        </script>
+    </body>
+</html>

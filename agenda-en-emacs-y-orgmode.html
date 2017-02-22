@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="El Diego Efe" />
+        <meta name="copyright" content="El Diego Efe" />
+
+        <meta name="description" content="Configuracion En el archivo de configuracion de Emacs hay que incluir varios elementos para poder usar la agenda adecuadamente. Se pueden seleccionar individualmente los archivos que forman parte de la agenda: (setq org-agenda-files (list "~/mis-archivos-org/apuntes-varios.org" "~/mis-archivos-org/acomodar.org")) O sino utilizar un directorio completo: (setq org-agenda-files '("~/mis-archivos-org")) Se …
+" />
+<meta name="keywords" content="emacs, org-mode, agenda, gtd, tecnicismos, " />
+        <title>Agenda en Emacs y&nbsp;OrgMode  · Certezas Dudosas
+</title>
+        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://eldiegoefe.github.io/theme/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://eldiegoefe.github.io/theme/css/solarizedlight.css" media="screen">
+        <link rel="shortcut icon" href="http://eldiegoefe.github.io/theme/images/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-144x144.png" />
+        <link rel="icon" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-144x144.png" />
+        <link href="http://eldiegoefe.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Certezas Dudosas - Full RSS Feed" />
+        <link href="http://eldiegoefe.github.io/feeds/blog.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - blog Category RSS Feed" />
+        <link href="http://eldiegoefe.github.io/feeds/politica.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - politica Category RSS Feed" />
+        <link href="http://eldiegoefe.github.io/feeds/salud.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - salud Category RSS Feed" />
+        <link href="http://eldiegoefe.github.io/feeds/tecnicismos.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - tecnicismos Category RSS Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://eldiegoefe.github.io/"><span class=site-name>Certezas Dudosas</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://eldiegoefe.github.io">Home</a></li>
+                            <li ><a href="http://eldiegoefe.github.io/categories.html">Categories</a></li>
+                            <li ><a href="http://eldiegoefe.github.io/tags.html">Tags</a></li>
+                            <li ><a href="http://eldiegoefe.github.io/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://eldiegoefe.github.io/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page_header span10 offset2">
+    <h1><a href="http://eldiegoefe.github.io/agenda-en-emacs-y-orgmode.html"> Agenda en Emacs y&nbsp;OrgMode  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            <div class="section" id="configuracion">
+<h2>Configuracion</h2>
+<p>En el archivo de configuracion de Emacs hay que incluir varios elementos para
+poder usar la agenda&nbsp;adecuadamente.</p>
+<p>Se pueden seleccionar individualmente los archivos que forman parte de la&nbsp;agenda:</p>
+<div class="highlight"><pre><span></span><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-files</span> <span class="p">(</span><span class="nb">list</span> <span class="s">&quot;~/mis-archivos-org/apuntes-varios.org&quot;</span>
+                             <span class="s">&quot;~/mis-archivos-org/acomodar.org&quot;</span><span class="p">))</span>
+</pre></div>
+<p>O sino utilizar un directorio&nbsp;completo:</p>
+<div class="highlight"><pre><span></span><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-files</span> <span class="o">&#39;</span><span class="p">(</span><span class="s">&quot;~/mis-archivos-org&quot;</span><span class="p">))</span>
+</pre></div>
+<p>Se puede utilizar un archivo en particular para ir anotando al vuelo las ideas
+que se nos ocurren. Este archivo lo podremos abrir con <em>org-capture</em> (C-c c).
+Esto nos permite volcar lo que tenemos en la cabeza y dejar para después su
+clasificación, de manera de no perder la idea e interrumpir nuestro flujo de
+trabajo lo menos posible. La nota se cierra con C-c C-c y se vuelve al mismo
+buffer donde estabamos al iniciar la&nbsp;captura.</p>
+<div class="highlight"><pre><span></span><span class="p">(</span><span class="k">setq</span> <span class="nv">org-default-notes-file</span> <span class="s">&quot;~/mis-archivos-org/inbox.org&quot;</span><span class="p">)</span>
+</pre></div>
+<p>Para abrir el inbox.org desde cualquier buffer se puede asignar un&nbsp;atajo:</p>
+<div class="highlight"><pre><span></span><span class="c1">;; asigna &quot;C-c o&quot; para abrir mi inbox.org sin tener que buscarlo</span>
+<span class="p">(</span><span class="nv">global-set-key</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&quot;C-c o&quot;</span><span class="p">)</span>
+                <span class="p">(</span><span class="k">lambda</span> <span class="p">()</span> <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span> <span class="p">(</span><span class="nv">find-file</span> <span class="s">&quot;~/org/inbox.org&quot;</span><span class="p">)))</span>
+</pre></div>
+<p>Estos son otros comandos de configuración de org-mode que tengo seteados. Salvo
+el primero, el resto puede entenderse por&nbsp;inspección:</p>
+<div class="highlight"><pre><span></span><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-include-diary</span> <span class="no">t</span><span class="p">)</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-deadline-warning-days</span> <span class="mi">7</span><span class="p">)</span>
+
+<span class="c1">;; Palabras clave para los TODO</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-todo-keywords</span>
+      <span class="o">&#39;</span><span class="p">((</span><span class="nc">sequence</span> <span class="s">&quot;TODO(t)&quot;</span> <span class="s">&quot;NEXT(n)&quot;</span> <span class="s">&quot;ESPERANDO(w@)&quot;</span> <span class="s">&quot;HIBERNANDO(h@)&quot;</span>
+                  <span class="s">&quot;|&quot;</span> <span class="s">&quot;CANCELADO(c@)&quot;</span> <span class="s">&quot;COMPLETADO(f@)&quot;</span><span class="p">)))</span>
+
+<span class="c1">;; Colores de los TODO</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-todo-keyword-faces</span>
+      <span class="o">&#39;</span><span class="p">((</span><span class="s">&quot;TODO&quot;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&quot;deep sky blue&quot;</span> <span class="ss">:background</span> <span class="s">&quot;dim gray&quot;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
+        <span class="p">(</span><span class="s">&quot;NEXT&quot;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&quot;tomato&quot;</span> <span class="ss">:background</span> <span class="s">&quot;dim gray&quot;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
+        <span class="c1">;; (&quot;ACCIONFUTURA&quot; . &quot;salmon&quot;)</span>
+        <span class="c1">;; (&quot;AVANCEPARCIAL&quot; . &quot;medium spring green&quot;)</span>
+        <span class="p">(</span><span class="s">&quot;ESPERANDO&quot;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&quot;orange&quot;</span> <span class="ss">:background</span> <span class="s">&quot;dim gray&quot;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
+        <span class="p">(</span><span class="s">&quot;HIBERNANDO&quot;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&quot;salmon&quot;</span> <span class="ss">:background</span> <span class="s">&quot;dim gray&quot;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
+        <span class="p">(</span><span class="s">&quot;CANCELADO&quot;</span> <span class="o">.</span> <span class="s">&quot;yellow&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&quot;COMPLETADO&quot;</span> <span class="o">.</span> <span class="s">&quot;green&quot;</span><span class="p">)))</span>
+
+ <span class="c1">;; Tags</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-tag-persistent-alist</span>
+      <span class="o">&#39;</span><span class="p">((</span><span class="s">&quot;@casa&quot;</span> <span class="o">.</span> <span class="nv">?1</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&quot;@laburo&quot;</span> <span class="o">.</span> <span class="nv">?2</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&quot;tiempolibre&quot;</span> <span class="o">.</span> <span class="nv">?3</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&quot;compras&quot;</span> <span class="o">.</span> <span class="nv">?6</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&quot;nota&quot;</span> <span class="o">.</span> <span class="nv">?7</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&quot;creat&quot;</span> <span class="o">.</span> <span class="nv">?8</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&quot;prj&quot;</span> <span class="o">.</span> <span class="nv">?9</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&quot;someday&quot;</span> <span class="o">.</span> <span class="nv">?0</span><span class="p">)))</span>
+
+<span class="c1">;; Colores de los tags</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-tag-faces</span>
+      <span class="o">&#39;</span><span class="p">((</span><span class="s">&quot;@casa&quot;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&quot;firebrick&quot;</span> <span class="ss">:weight</span> <span class="nv">bold</span> <span class="ss">:inherit</span> <span class="nv">s-variable-pitch</span><span class="p">))</span>
+        <span class="p">(</span><span class="s">&quot;@laburo&quot;</span> <span class="o">.</span> <span class="s">&quot;light sea green&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&quot;tiempolibre&quot;</span> <span class="o">.</span> <span class="s">&quot;deep sky blue&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&quot;compras&quot;</span> <span class="o">.</span> <span class="s">&quot;spring green&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&quot;oblig&quot;</span> <span class="o">.</span> <span class="s">&quot;light coral&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&quot;creat&quot;</span> <span class="o">.</span> <span class="s">&quot;olive drab&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&quot;prj&quot;</span> <span class="o">.</span> <span class="s">&quot;cornflower blue&quot;</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&quot;someday&quot;</span> <span class="o">.</span> <span class="s">&quot;orchid&quot;</span><span class="p">)))</span>
+</pre></div>
+<p>Estas son las plantillas correspondientes a los distintos tipos de notas
+configuradas para guardarse en archivos como inbox.org, diario-personal, etc.
+Cada nota puede tener una estructura particular, en algunos casos importa
+colocar una fecha, una etiqueta, un deadline,&nbsp;etc:</p>
+<div class="highlight"><pre><span></span><span class="c1">;; Capture templates for: TODO tasks, Notes, appointments, phone calls,</span>
+<span class="c1">;; meetings, and org-protocol</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-capture-templates</span>
+      <span class="p">(</span><span class="k">quote</span> <span class="p">((</span><span class="s">&quot;a&quot;</span> <span class="s">&quot;tarea&quot;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&quot;~/mis-archivos-org/inbox.org&quot;</span><span class="p">)</span>
+               <span class="s">&quot;* TODO %^{Brief Description} %^g\n\n%?\n\nAgregado: %T&quot;</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&quot;t&quot;</span> <span class="s">&quot;todo&quot;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&quot;~/mis-archivos-org/inbox.org&quot;</span><span class="p">)</span>
+               <span class="s">&quot;* TODO %?\n%U\n%a\n&quot;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&quot;n&quot;</span> <span class="s">&quot;nota&quot;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&quot;~/mis-archivos-org/inbox.org&quot;</span><span class="p">)</span>
+               <span class="s">&quot;* %? :NOTE:\nAgregado: %T\n\n&quot;</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&quot;j&quot;</span> <span class="s">&quot;journal&quot;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file+datetree</span> <span class="s">&quot;~/mis-archivos-org/diario-personal.org&quot;</span><span class="p">)</span>
+               <span class="s">&quot;* %?\n%T\n&quot;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&quot;l&quot;</span> <span class="s">&quot;laboratorio&quot;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file+datetree</span> <span class="s">&quot;~/mis-archivos-org/laboratorio-diario.org&quot;</span><span class="p">)</span>
+               <span class="s">&quot;* %?\n%t\n&quot;</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&quot;e&quot;</span> <span class="s">&quot;ejercicios&quot;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file+datetree</span> <span class="s">&quot;~/mis-archivos-org/cosas-saludables.org&quot;</span><span class="p">)</span>
+               <span class="s">&quot;* %?\n%T\n&quot;</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&quot;r&quot;</span> <span class="s">&quot;respond&quot;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&quot;~/mis-archivos-org/inbox.org&quot;</span><span class="p">)</span>
+               <span class="s">&quot;* NEXT Respond to %:from on %:subject\nSCHEDULED: %t\n%U\n%a\n&quot;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span> <span class="ss">:immediate-finish</span> <span class="no">t</span><span class="p">)</span>
+              <span class="c1">;; b: modificado de http://members.optusnet.com.au/~charles57/GTD/gtd_workflow.html</span>
+              <span class="p">(</span><span class="s">&quot;w&quot;</span> <span class="s">&quot;org-protocol&quot;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&quot;~/mis-archivos-org/inbox.org&quot;</span><span class="p">)</span>
+               <span class="s">&quot;* TODO Review %c\n%U\n&quot;</span> <span class="ss">:immediate-finish</span> <span class="no">t</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&quot;m&quot;</span> <span class="s">&quot;Meeting&quot;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&quot;~/mis-archivos-org/inbox.org&quot;</span><span class="p">)</span>
+               <span class="s">&quot;* MEETING with %? :MEETING:\n%U&quot;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&quot;p&quot;</span> <span class="s">&quot;Phone call&quot;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&quot;~/mis-archivos-org/inbox.org&quot;</span><span class="p">)</span>
+               <span class="s">&quot;* PHONE %? :PHONE:\n%U&quot;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&quot;h&quot;</span> <span class="s">&quot;Habit&quot;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&quot;~/mis-archivos-org/inbox.org&quot;</span><span class="p">)</span>
+</pre></div>
+<p>Finalmente, para acceder a la agenda hay que invocar el comando <em>org-agenda</em> o
+configurar una combinación de teclas para su ejecución, habitualmente se usa C-c&nbsp;a:</p>
+<div class="highlight"><pre><span></span><span class="p">(</span><span class="nv">global-set-key</span> <span class="s">&quot;\C-ca&quot;</span> <span class="ss">&#39;org-agenda</span><span class="p">)</span>
+</pre></div>
+<p>Allí aparece un menú con las distintas opciones de visualización. A continuación
+se describen las opciones (es un resumen de la sección <a class="reference external" href="http://orgmode.org/manual/Built_002din-agenda-views.html#Built_002din-agenda-views">Built in agenda views</a>.</p>
+<div class="section" id="vista-1">
+<h3>Vista&nbsp;1</h3>
+<p>org-agenda-list (C-c a a): muestra la vista de agenda para el número de días
+fijado por la variable org-agenda-span (que puede contener un número o uno de
+los valores siguientes: day, week, month, year). Por defecto esta variable está
+elegida en &#8220;week&#8221; (mostrará una semana). Si se invoca el comando con un prefijo
+numérico se incluyen esa cantidad de días. Por ejemplo con C-u 3 0 C-c a a se
+mostrará una agenda para los siguientes 30 días. Para agendas semanales, se
+empieza por defecto en el lunes&nbsp;previo.</p>
+</div>
+<div class="section" id="vista-2">
+<h3>Vista&nbsp;2</h3>
+<p>org-todo-list (C-c a t): es la lista global de &#8220;<span class="caps">TODO</span>&#8221;s, muestra en un solo lugar
+todos los items marcados como pendientes (<span class="caps">TODO</span>).</p>
+<p>org-todo-list (C-c a T): es una variación que pregunta por una keyword y lista
+entonces todos los items marcados con esa keyword (por ejemplo: <span class="caps">CANCELADO</span> o
+<span class="caps">COMPLETADO</span>, etc). Se pueden incluir varias keywords usando el caracter &#8220;|&#8221; (que
+es un <span class="caps">OR</span>).</p>
+<p>Para acortar la lista de TODOs hay dos&nbsp;modos:</p>
+<ol class="arabic simple">
+<li>sacar de la lista aquellos TODOs que estén marcados como schedule y deadline,
+para lo cual hay que configurar las variables
+org-agenda-todo-ignore-scheduled, org-agenda-todo-ignore-deadlines,
+org-agenda-todo-ignore-timestamp y/o&nbsp;org-agenda-todo-ignore-with-date.</li>
+<li>los items <span class="caps">TODO</span> pueden tener subniveles con las distintas subtareas. En estos
+casos puede ser suficiente listar sólo los niveles de mayor importancia y
+omitir los subniveles. Para ello hay que configurar las variable&nbsp;org-agenda-todo-list-sublevels.</li>
+</ol>
+</div>
+<div class="section" id="vista-3">
+<h3>Vista&nbsp;3</h3>
+<p>org-tags-view (C-c a m): muestra una lista de acuerdo a etiquetas (tags) o
+propiedades, que se seleccionan de una&nbsp;lista.</p>
+<p>org-tags-view (C-c a M): es parecido, pero además requiere que la etiqueta sea
+un <span class="caps">TODO</span> (y que este <span class="caps">TODO</span> no haya sido <span class="caps">COMPLETADO</span>).</p>
+<p>Hay muchos detalles sobre la construcción de criterios de búsqueda más complejos
+en <a class="reference external" href="http://orgmode.org/manual/Matching-tags-and-properties.html#Matching-tags-and-properties">este link del manual</a>.</p>
+</div>
+<div class="section" id="vista-4">
+<h3>Vista&nbsp;4</h3>
+<p>org-timeline (C-c a L): resume todos los items marcados con fecha,
+principalmente usado para dar un panorama de los eventos de un&nbsp;proyecto.</p>
+<p>Si se usa un prefijo (C-u) se muestran todos los TODOs sin completar que también
+estén listados debajo del mismo&nbsp;día.</p>
+</div>
+<div class="section" id="vista-5">
+<h3>Vista&nbsp;5</h3>
+<p>org-search-view (C-c a s): es una herramienta para búsqueda de texto,
+particularmente útil para encontrar notas. Admite búsquedas literales y usando
+&#8220;regexp&#8221;. Ver detalles de búsqueda <a class="reference external" href="http://orgmode.org/manual/Search-view.html#Search-view">en el manual</a>.</p>
+</div>
+<div class="section" id="vista-6">
+<h3>Vista&nbsp;6</h3>
+<p>org-agenda-list-stuck-projects (C-c a #): al seguir un sistema como <span class="caps">GTD</span> (de
+David Allen), hay que revisar regularmente que todos los proyectos se muevan. Un
+proyecto estancado es uno que no tiene definidas las &#8220;próximas acciones&#8221;, de
+modo que nunca aparecería en la lista de TODOs que produce&nbsp;org-mode.</p>
+<p>Para personalizar el modo de identificar y encontrar proyectos estancados se
+utiliza C-c a !. Por defecto supone que todos los proyectos son headlines de
+nivel 2, y que no están estancados si tiene al menos una entrada marcada con
+alguna de las tres keywords: <span class="caps">TODO</span>, <span class="caps">NEXT</span>, <span class="caps">NEXTACTION</span>.</p>
+<p>Ver más detalles sobre esta configuración en <a class="reference external" href="http://orgmode.org/manual/Stuck-projects.html#Stuck-projects">stuck projects</a>.</p>
+</div>
+</div>
+
+<section>
+<p id="comment-message">No te vayas sin comentar algo del post, de las noticias del día, del clima, que se yo... </p>
+<div class="accordion" id="accordion2">
+    <div class="accordion-group">
+        <div class="accordion-heading">
+            <a class="accordion-toggle disqus-comment-count" data-toggle="collapse" data-parent="#accordion2"
+                    data-disqus-identifier="Agenda en Emacs y OrgMode"
+                href="http://eldiegoefe.github.io/agenda-en-emacs-y-orgmode.html#disqus_thread">
+                Comments
+            </a>
+        </div>
+        <div id="disqus_thread" class="accordion-body collapse">
+            <div class="accordion-inner">
+                <div class="comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'certezasdudosas';
+        var disqus_identifier = 'Agenda en Emacs y OrgMode';
+    var disqus_url = 'http://eldiegoefe.github.io/agenda-en-emacs-y-orgmode.html';
+
+    (function() {
+         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+            <aside>
+            <hr/>
+            <nav>
+            <ul class="articles_timeline">
+ 
+                <li class="previous_article">« <a href="http://eldiegoefe.github.io/comandante-emacs-dired-mode.html" title="Previous: Comandante Emacs&nbsp;(dired-mode)">Comandante Emacs&nbsp;(dired-mode)</a></li>
+ 
+                <li class="next_article"><a href="http://eldiegoefe.github.io/una-noche-de-enero-con-el-relampago-verde.html" title="Next: Una noche de enero con el Relámpago&nbsp;Verde">Una noche de enero con el Relámpago&nbsp;Verde</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+ 
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2014-12-29T10:00:00-03:00">dic 29, 2014</time>
+ 
+            <h4>Last Updated</h4>
+            <div class="last_updated">2016-01-06 00:00:00-03:00</div>
+            <h4>Category</h4>
+            <a class="category-link" href="/categories.html#tecnicismos-ref">tecnicismos</a> 
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article"> 
+                <li><a href="/tags.html#agenda-ref">agenda
+                    <span>2</span>
+</a></li>
+                <li><a href="/tags.html#emacs-ref">emacs
+                    <span>16</span>
+</a></li>
+                <li><a href="/tags.html#gtd-ref">gtd
+                    <span>1</span>
+</a></li>
+                <li><a href="/tags.html#org-mode-ref">org-mode
+                    <span>4</span>
+</a></li>
+            </ul>
+
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-subtitle"><span class="site-name">Certezas Dudosas</span> - todo lo liquido se desvanece en el estomago</li>
+        <li class="elegant-license">Podes usar el contenido de este blog si pones un link hacia http://eldiegoefe.github.io/</li>
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+<script type="text/javascript">
+    var disqus_shortname = 'certezasdudosas';
+
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+        <script  language="javascript" type="text/javascript">
+            function uncollapse() {
+                var hash_str = window.location.hash;
+                if (window.location.hash.match(/^#comment-\d+$/))
+                {
+                    var hash_str = '#disqus_thread';
+                }
+                $(hash_str).collapse({
+                    toggle: true
+                    })
+            }
+        </script>
+
+        <script type="text/javascript" language="JavaScript">
+            uncollapse(); 
+        </script>
+    </body>
+</html>

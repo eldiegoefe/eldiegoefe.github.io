@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="El Diego Efe" />
+        <meta name="copyright" content="El Diego Efe" />
+
+        <meta name="description" content="Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora usaba la versión online del compilador con una FRDM-KL25Z, que es una placa anterior y de menores prestaciones, pero igualmente muy popular (de las primeras en funcionar con MBED). El problema del compilador …
+" />
+<meta name="keywords" content="mbed, c++, emacs, electronica, tutorial, tecnicismos, " />
+        <title>Uso de <span class="caps">MBED</span> desde la linea de comandos (<span class="caps">CLI</span>)  · Certezas Dudosas
+</title>
+        <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://eldiegoefe.github.io/theme/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http://eldiegoefe.github.io/theme/css/solarizedlight.css" media="screen">
+        <link rel="shortcut icon" href="http://eldiegoefe.github.io/theme/images/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-144x144.png" />
+        <link rel="icon" href="http://eldiegoefe.github.io/theme/images/apple-touch-icon-144x144.png" />
+        <link href="http://eldiegoefe.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Certezas Dudosas - Full RSS Feed" />
+        <link href="http://eldiegoefe.github.io/feeds/blog.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - blog Category RSS Feed" />
+        <link href="http://eldiegoefe.github.io/feeds/politica.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - politica Category RSS Feed" />
+        <link href="http://eldiegoefe.github.io/feeds/salud.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - salud Category RSS Feed" />
+        <link href="http://eldiegoefe.github.io/feeds/tecnicismos.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - tecnicismos Category RSS Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http://eldiegoefe.github.io/"><span class=site-name>Certezas Dudosas</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http://eldiegoefe.github.io">Home</a></li>
+                            <li ><a href="http://eldiegoefe.github.io/categories.html">Categories</a></li>
+                            <li ><a href="http://eldiegoefe.github.io/tags.html">Tags</a></li>
+                            <li ><a href="http://eldiegoefe.github.io/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http://eldiegoefe.github.io/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page_header span10 offset2">
+    <h1><a href="http://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli.html"> Uso de <span class="caps">MBED</span> desde la linea de comandos (<span class="caps">CLI</span>)  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            <p>Empecé a probar el uso de la plataforma <span class="caps">MBED</span> con la placa <span class="caps">FRDM</span>-<span class="caps">K64F</span>. Hasta ahora
+usaba <a class="reference external" href="https://developer.mbed.org/">la versión online del compilador</a> con una <span class="caps">FRDM</span>-<span class="caps">KL25Z</span>, que es una placa
+anterior y de menores prestaciones, pero igualmente muy popular (de las primeras
+en funcionar con <span class="caps">MBED</span>). El problema del compilador online no es que haya que
+estar conectado a la web (lo vengo usando desde hace mucho y nunca tuve
+problemas de acceso) sino sus limitadas prestaciones como editor de texto. Por
+ejemplo, no encontré manera de comentar y des-comentar múltiples lineas de
+código simultaneamente, algo que necesito hacer con frecuencia. Por esto mismo
+prefiero el editor que uso para el resto de mis actividades: Emacs, y esto lo
+puedo hacer con el nuevo compilador&nbsp;offline.</p>
+<p>Las instrucciones para usar el compilador desde la linea de comandos (mbed-cli)
+las extraje del video que está más abajo y de la documentación. Sin embargo lo
+resumo en esta entrada para tener el paso-a-paso como referencia rápida. Por
+esto mismo, hay mucha información que no está incluida en este post y que pueden
+encontrar en la <a class="reference external" href="https://docs.mbed.com/docs/mbed-os-handbook/en/5.1/dev_tools/cli/">documentación de mbed-cli</a> (como por ejemplo las instrucciones
+de&nbsp;instalación).</p>
+<div class="youtube"><iframe src="https://www.youtube.com/embed/PI1Kq9RSN_Y" width="560" height="315" allowfullscreen seamless frameBorder="0"></iframe></div><div class="section" id="inicializar-un-nuevo-programa">
+<h2>Inicializar un nuevo&nbsp;programa</h2>
+<p>Al inicializar un nuevo programa se crea un directorio con el nombre que le
+asignamos. Este directorio aparece como hijo de nuestro directorio actual, así
+que antes de ejecutar el comando hay que posicionarse en la ubicación&nbsp;deseada.</p>
+<div class="section" id="para-mbed-os-5">
+<h3>Para <span class="caps">MBED</span> <span class="caps">OS</span>&nbsp;5</h3>
+<div class="highlight"><pre><span></span><span class="gp">$</span> mbed new nombre-programa
+<span class="gp">$</span> <span class="nb">cd</span> nombre-programa
+</pre></div>
+</div>
+<div class="section" id="para-mbed-os-2">
+<h3>Para <span class="caps">MBED</span> <span class="caps">OS</span>&nbsp;2</h3>
+<div class="highlight"><pre><span></span><span class="gp">$</span> mbed new nombre-programa --mbedlib
+<span class="gp">$</span> <span class="nb">cd</span> nombre-programa
+</pre></div>
+</div>
+</div>
+<div class="section" id="mostrar-las-librerias-instaladas">
+<h2>Mostrar las librerías&nbsp;instaladas</h2>
+<p>Al inicializarse un programa, como mínimo se importan las librerías de <span class="caps">MBED</span>, ya
+sean las del <span class="caps">OS</span> 5 o del <span class="caps">OS</span> 2 (son diferentes entre sí). Para&nbsp;verlas:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> mbed ls -a
+</pre></div>
+</div>
+<div class="section" id="seleccion-de-placa-y-toolchain">
+<h2>Selección de placa y&nbsp;toolchain</h2>
+<p>Hay que conectar la placa <span class="caps">MBED</span> mediante su conector <span class="caps">USB</span> <strong>OpenSDA</strong> (el que se
+usa para programarla) y ejecutar el siguiente comando, que nos dará información
+que necesitaremos para seleccionar placa y&nbsp;toolchain:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> mbed detect
+
+<span class="go">[mbed] Detected K64F, port /dev/ttyACM0, mounted /media/diego/MBED</span>
+<span class="go">[mbed] Supported toolchains for K64F</span>
+<span class="go">+--------+-----------+-----------+-----------+-----------+-----------+</span>
+<span class="go">| Target | mbed OS 2 | mbed OS 5 |    ARM    |  GCC_ARM  |    IAR    |</span>
+<span class="go">+--------+-----------+-----------+-----------+-----------+-----------+</span>
+<span class="go">| K64F   | Supported | Supported | Supported | Supported | Supported |</span>
+<span class="go">+--------+-----------+-----------+-----------+-----------+-----------+</span>
+<span class="go">Supported targets: 1</span>
+<span class="go">Supported toolchains: 3</span>
+</pre></div>
+<p>El sistema indica que encontró la <span class="caps">K64F</span> y cuáles son los <em>toolchains</em> que
+disponemos para trabajar con ella. <strong>Si conecto la placa <span class="caps">KL25Z</span> el sistema no la
+detecta, parece que el sistema sólo es compatible con las placas más nuevas</strong>.</p>
+<p>Para seleccionar la placa de destino donde correrá nuestro&nbsp;programa:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> mbed target K64F
+</pre></div>
+<p>Para elegir el toolchain GCC_ARM&nbsp;usamos:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> mbed toolchain GCC_ARM
+</pre></div>
+<p>Si pedimos el estado actual de la configuración veremos lo siguiente (si la
+ejecución del comando <em>mbed new</em> se realizó desde&nbsp;/home/diego/mis-proyectos):</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> mbed config --list
+
+<span class="go">[mbed] Global config:</span>
+<span class="go">No global configuration is set</span>
+
+<span class="go">[mbed] Local config (/home/diego/mis-proyectos/nombre-programa):</span>
+<span class="go">TOOLCHAIN=GCC_ARM</span>
+<span class="go">TARGET=K64F</span>
+</pre></div>
+</div>
+<div class="section" id="creacion-de-programa">
+<h2>Creación de&nbsp;programa</h2>
+<p>En el directorio raíz del proyecto es necesario crear un archivo llamado
+<em>main.cpp</em> que contendrá el programa escrito en C++. Por ejemplo, este programa
+enciende y apaga un <span class="caps">LED</span> de la placa (usando <span class="caps">OS</span>&nbsp;2):</p>
+<div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&quot;mbed.h&quot;</span><span class="cp"></span>
+
+<span class="n">DigitalOut</span> <span class="nf">rojo</span><span class="p">(</span><span class="n">LED1</span><span class="p">);</span>
+
+<span class="kt">void</span> <span class="nf">togglearLed</span><span class="p">(</span><span class="n">DigitalOut</span> <span class="n">led</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">led</span> <span class="o">=</span> <span class="o">!</span><span class="n">led</span><span class="p">;</span>
+    <span class="n">wait</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span> <span class="c1">// togglearLed</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">while</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">togglearLed</span><span class="p">(</span><span class="n">rojo</span><span class="p">);</span>
+        <span class="n">togglearLed</span><span class="p">(</span><span class="n">rojo</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="section" id="compilacion-y-ejecucion-del-programa">
+<h2>Compilación y ejecución del&nbsp;programa</h2>
+<p>La compilación se realiza con el siguiente&nbsp;comando:</p>
+<div class="highlight"><pre><span></span><span class="gp">$</span> mbed compile
+</pre></div>
+<p><strong>Luego hay que copiar el archivo generado por el compilador en la placa <span class="caps">MBED</span></strong>.
+Este archivo (cuyo nombre corresponde al utilizado durante la inicialización del
+proyecto: &#8220;nombre-programa&#8221; y cuya extensión es .bin) se encuentra dentro del
+directorio <span class="caps">BUILD</span>/<span class="caps">K64F</span>/GCC_ARM. Obviamente este path corresponde a la placa y al
+toolchain elegidos en un paso anterior. La placa <span class="caps">MBED</span> aparece como un disco en
+el navegador de archivos. En Linux Mint 18 este disco está montado en
+/media/diego/<span class="caps">MBED</span>.</p>
+<p>Luego hay que esperar que se produzca la transferencia del archivo .bin hacia la
+placa <span class="caps">MBED</span> (parpadea un <span class="caps">LED</span> verde que está junto al conector <span class="caps">USB</span> de la placa) y
+tras algunos segundos (siempre se abre un nuevo navegador de archivos, como
+cuando conectamos un pendrive, en la ubicación del <span class="caps">MBED</span>) podemos resetear la
+placa para que se inicie la ejecución de nuestro programa. Si cargamos el
+programa que está copiado en el paso anterior veremos parpadear el led rojo a
+una frecuencia de 0.5&nbsp;Hz.</p>
+<p>Si modificamos el programa en main.cpp hay que volver a compilarlo, copiar el
+nombre-programa.bin hacia la placa <span class="caps">MBED</span>, esperar que se complete la
+transferencia y resetearla. Este es el bucle que repetiremos hasta lograr que
+nuestro programa funcione de la manera&nbsp;deseada.</p>
+</div>
+<div class="section" id="resumen">
+<h2>Resumen</h2>
+<div class="highlight"><pre><span></span><span class="gp">$</span> mbed new nombre-programa <span class="o">(</span>--mbedlib<span class="o">)</span>
+<span class="gp">$</span> <span class="nb">cd</span> nombre-programa
+<span class="gp">$</span> mbed ls -a
+<span class="gp">$</span> mbed detect
+<span class="gp">$</span> mbed target K64F
+<span class="gp">$</span> mbed toolchain GCC_ARM
+<span class="gp">$</span> mbed config --list
+<span class="gp">$</span> mbed compile
+</pre></div>
+<p>Finalmente copiar el archivo .bin al <span class="caps">MBED</span>, esperar que finalice la transferencia
+y resetear la&nbsp;placa.</p>
+</div>
+
+<section>
+<p id="comment-message">No te vayas sin comentar algo del post, de las noticias del día, del clima, que se yo... </p>
+<div class="accordion" id="accordion2">
+    <div class="accordion-group">
+        <div class="accordion-heading">
+            <a class="accordion-toggle disqus-comment-count" data-toggle="collapse" data-parent="#accordion2"
+                    data-disqus-identifier="Uso de MBED desde la linea de comandos (CLI)"
+                href="http://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli.html#disqus_thread">
+                Comments
+            </a>
+        </div>
+        <div id="disqus_thread" class="accordion-body collapse">
+            <div class="accordion-inner">
+                <div class="comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'certezasdudosas';
+        var disqus_identifier = 'Uso de MBED desde la linea de comandos (CLI)';
+    var disqus_url = 'http://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli.html';
+
+    (function() {
+         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+            <aside>
+            <hr/>
+            <nav>
+            <ul class="articles_timeline">
+ 
+                <li class="previous_article">« <a href="http://eldiegoefe.github.io/bibliografia-sobre-tejido-a-maquina.html" title="Previous: Bibliografía sobre tejido a&nbsp;máquina">Bibliografía sobre tejido a&nbsp;máquina</a></li>
+ 
+                <li class="next_article"><a href="http://eldiegoefe.github.io/carpinteria-a-pleno.html" title="Next: Carpintería a&nbsp;pleno">Carpintería a&nbsp;pleno</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+ 
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2016-11-04T10:00:00-03:00">nov 4, 2016</time>
+            <h4>Category</h4>
+            <a class="category-link" href="/categories.html#tecnicismos-ref">tecnicismos</a> 
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article"> 
+                <li><a href="/tags.html#c++-ref">c++
+                    <span>1</span>
+</a></li>
+                <li><a href="/tags.html#electronica-ref">electronica
+                    <span>2</span>
+</a></li>
+                <li><a href="/tags.html#emacs-ref">emacs
+                    <span>16</span>
+</a></li>
+                <li><a href="/tags.html#mbed-ref">mbed
+                    <span>2</span>
+</a></li>
+                <li><a href="/tags.html#tutorial-ref">tutorial
+                    <span>12</span>
+</a></li>
+            </ul>
+
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-subtitle"><span class="site-name">Certezas Dudosas</span> - todo lo liquido se desvanece en el estomago</li>
+        <li class="elegant-license">Podes usar el contenido de este blog si pones un link hacia http://eldiegoefe.github.io/</li>
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+<script type="text/javascript">
+    var disqus_shortname = 'certezasdudosas';
+
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+        <script  language="javascript" type="text/javascript">
+            function uncollapse() {
+                var hash_str = window.location.hash;
+                if (window.location.hash.match(/^#comment-\d+$/))
+                {
+                    var hash_str = '#disqus_thread';
+                }
+                $(hash_str).collapse({
+                    toggle: true
+                    })
+            }
+        </script>
+
+        <script type="text/javascript" language="JavaScript">
+            uncollapse(); 
+        </script>
+    </body>
+</html>
