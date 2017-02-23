@@ -1,0 +1,7 @@
+*~
+*#
+*.pid
+.#*
+.directory
+output/
+__pycache__/

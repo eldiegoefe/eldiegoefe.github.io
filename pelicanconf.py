@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Diego Fainstein'
 SITENAME = u'Certezas Dudosas'
 SITESUBTITLE = u'todo lo liquido se desvanece en el estomago'
-SITEURL = 'https://eldiegoefe.github.io'
+SITEURL = 'http://eldiegoefe.github.io'
 TIMEZONE = 'America/Argentina/Buenos_Aires'
 DEFAULT_LANG = u'es'
 # DEFAULT_DATE_FORMAT = '%a %d %B %Y'
@@ -30,12 +30,12 @@ LINKS =  (
 
 # Social widget
 SOCIAL = (('Twitter', 'http://twitter.com/eldiegoefe'),
-          ('Github', 'https://github.com/eldiegoefe'),
+          ('Github', 'http://github.com/eldiegoefe'),
           ('Facebook', 'http://www.facebook.com/eldiegoefe'),
-          ('Flickr', 'https://www.flickr.com/photos/eldiegoefe/'),
+          ('Flickr', 'http://www.flickr.com/photos/eldiegoefe/'),
           ('Instagram', 'http://instagram.com/eldiegoefe'),
-          ('Google+', 'https://plus.google.com/+DiegoEfe'),
-          ('Diaspora', 'https://www.joindiaspora.com/u/eldiegoefe'),
+          ('Google+', 'http://plus.google.com/+DiegoEfe'),
+          ('Diaspora', 'http://www.joindiaspora.com/u/eldiegoefe'),
 )
 
 DEFAULT_PAGINATION = 20
@@ -65,7 +65,7 @@ CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 DISQUS_SITENAME = "certezasdudosas"
 
 # Instrucciones para la instalacion del plugin para videos de youtube
-# en https://github.com/kura/pelican_youtube
+# en http://github.com/kura/pelican_youtube
 PLUGIN_PATHS = ['../pelican-plugins']
 
 LOAD_CONTENT_CACHE = False
@@ -99,7 +99,7 @@ AUTHOR_SAVE_AS = ''
 
 RECENT_ARTICLES_COUNT = 30
 COMMENTS_INTRO = u'No te vayas sin comentar algo del post, de las noticias del día, del clima, que se yo...'
-SITE_LICENSE = u'Podes usar el contenido de este blog si pones un link hacia https://eldiegoefe.github.io/'
+SITE_LICENSE = u'Podes usar el contenido de este blog si pones un link hacia http://eldiegoefe.github.io/'
 SITE_DESCRIPTION = u'Blog de Diego Fainstein'
 EMAIL_SUBSCRIPTION_LABEL = u'Suscripción'
 EMAIL_FIELD_PLACEHOLDER = u'¿dirección de e-mail?'

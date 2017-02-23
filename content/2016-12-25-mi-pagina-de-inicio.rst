@@ -7,6 +7,7 @@
 :excerpt: inicio
 :disqus_identifier: inicio
 
+                    
 Frecuentes
 ----------
 
@@ -150,3 +151,22 @@ Calistenia / Deportes
 - `DareBee`_
 
 .. _DareBee: http://darebee.com
+
+Homestead
+---------
+
+- `Mother Earth News`_
+- `The Fewell Homestead`_
+- `Homesteaders of America`_
+- `The Frugal Chicken`_
+- `Rise and Shine Rabbitry`_
+- `The Elliott Homestead`_
+
+.. _The Elliott Homestead: http://theelliotthomestead.com
+.. _Rise and Shine Rabbitry: https://riseandshinerabbitry.com
+.. _The Frugal Chicken: http://thefrugalchicken.com
+.. _Homesteaders of America: http://homesteadersofamerica.com
+.. _The Fewell Homestead: http://www.thefewellhomestead.com
+.. _Mother Earth News: http://www.motherearthnews.com
+
+
