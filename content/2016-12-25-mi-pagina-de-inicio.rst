@@ -81,9 +81,11 @@ Utiles
 - `Evernote`_
 - `Ergodox Configurator`_
 - `ProxyBay`_
+- `TParser`_
 - `Google Translate`_
 - `Ergodox Configurator`_
 
+.. _TParser: http://tparser.org
 .. _Ergodox Configurator: https://www.massdrop.com/configurator/ergodox
 .. _Google Translate: https://translate.google.com/
 .. _Avax Home: https://avxhome.se/
@@ -169,4 +171,63 @@ Homestead
 .. _The Fewell Homestead: http://www.thefewellhomestead.com
 .. _Mother Earth News: http://www.motherearthnews.com
 
+Carpintería
+===========
 
+Comercios
+---------
+
+- `Workshop Heaven`_
+- `Infinity Tools`_
+- `Amazon (España)`_
+- `Dictum`_
+- `Hock Tools`_
+- `Lee Valley`_
+- `Lie Nielsen`_
+- `Axminster`_
+- `Rutlands`_
+- `Gubia Pe`_
+- `Old Tools`_
+- `Highland Woodworking`_
+- `Fine Tools`_
+- `Woodcraft`_
+- `Comercial Pazos`_
+
+.. _Comercial Pazos: http://www.comercialpazos.com
+.. _Woodcraft: https://www.woodcraft.com
+.. _Fine Tools: https://www.fine-tools.com
+.. _Highland Woodworking: http://www.highlandwoodworking.com
+.. _Old Tools: http://www.oldtools.co.uk
+.. _Gubia Pe: http://www.gubia.pe
+.. _Rutlands: http://www.rutlands.co.uk
+.. _Axminster: http://www.axminster.co.uk
+.. _Lie Nielsen: https://www.lie-nielsen.com/
+.. _Lee Valley: http://www.leevalley.com/en/
+.. _Hock Tools: http://hocktools.com
+.. _Dictum: https://www.dictum.com/en/
+.. _Amazon (España): https://www.amazon.es
+.. _Infinity Tools: https://www.infinitytools.com
+.. _Workshop Heaven: https://www.workshopheaven.com
+
+Blogs
+-----
+
+- `Artisan Flamingo`_
+- `Carpintería para aficionados`_
+- `Brico-Carpintería`_
+- `Sandal Woods`_
+- `The wood whisperer`_
+- `She works wood`_
+- `La cabra en la escalera`_
+- `La casa rota`_
+- `Técnicas básicas de ebanistería`_
+
+.. _Técnicas básicas de ebanistería: http://ebanisterialuislaca.blogspot.com.ar
+.. _La casa rota: http://lacasarota.com/blog/
+.. _La cabra en la escalera: https://lacabraenlaescalera.wordpress.com
+.. _She works wood: https://sheworkswood.com
+.. _The wood whisperer: http://www.thewoodwhisperer.com
+.. _Sandal Woods: http://sandal-woodsblog.com
+.. _Brico-Carpintería: http://brico-carpinteria.blogspot.com.ar
+.. _Carpintería para aficionados: http://carpinteriaparaaficionados.blogspot.com.ar/
+.. _Artisan Flamingo: https://web.archive.org/web/20120306021939/http://artisanflamingo.blogspot.com/

@@ -1,12 +1,11 @@
 
-:title: Suscripciones de YouTube
+:title: YouTube
 :date: 2016-11-26 10:00
 :category: blog
 :tags: youtube, videos, recomendaciones, links
 :author: El Diego Efe
-:excerpt: Suscripciones de YouTube
-:disqus_identifier: Suscripciones de YouTube
-:status: draft
+:excerpt: YouTube
+:disqus_identifier: YouTube
 
 Cannabis
 ========

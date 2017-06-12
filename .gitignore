@@ -3,5 +3,5 @@
 *.pid
 .#*
 .directory
-output/
+output
 __pycache__/
