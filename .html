@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="El Diego Efe" />
-        <meta name="copyright" content="El Diego Efe" />
+        <meta name="author" content="Diego Fainstein" />
+        <meta name="copyright" content="Diego Fainstein" />
 
-        <meta name="description" content="Actualización (Feb-2017): es muy facil usar el programa OBS Studio para grabar en la computadora tanto la pantalla como la webcam, micrófono, etc. Funciona en Linux, Window$ y Mac. Empecé a grabar tutoriales para usar IPython Notebook. Traté de hacerlo con la aplicación recordMyDesktop, pero el modo de seleccionar la …
+        <meta name="description" content="Ciencia y realidad Los docentes y científicos que conozco asumen la existencia de una realidad física objetiva, independiente de los seres humanos, de nuestras percepciones y de nuestros sentidos. La mayoría, sino todos, son realistas duros, creen que el universo es tal cual lo registramos con nuestros equipos. Los instrumentos …
 " />
-<meta name="keywords" content="youtube, video, tutorial, tecnicismos, " />
-        <title>Grabacion de screencasts para tutoriales de&nbsp;YouTube  · Certezas Dudosas
+<meta name="keywords" content=", misc, " />
+        <title>  · Certezas Dudosas
 </title>
         <link href="https://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
@@ -24,6 +24,7 @@
         <link rel="icon" href="https://eldiegoefe.github.io/theme/images/apple-touch-icon-144x144.png" />
         <link href="https://eldiegoefe.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Certezas Dudosas - Full RSS Feed" />
         <link href="https://eldiegoefe.github.io/feeds/blog.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - blog Category RSS Feed" />
+        <link href="https://eldiegoefe.github.io/feeds/misc.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - misc Category RSS Feed" />
         <link href="https://eldiegoefe.github.io/feeds/politica.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - politica Category RSS Feed" />
         <link href="https://eldiegoefe.github.io/feeds/salud.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - salud Category RSS Feed" />
         <link href="https://eldiegoefe.github.io/feeds/tecnicismos.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - tecnicismos Category RSS Feed" />
@@ -58,75 +59,86 @@
 <article>
 <div class="row-fluid">
     <header class="page_header span10 offset2">
-    <h1><a href="https://eldiegoefe.github.io/grabacion-de-screencasts-para-tutoriales-de-youtube.html"> Grabacion de screencasts para tutoriales de&nbsp;YouTube  </a></h1>
+    <h1><a href="https://eldiegoefe.github.io/.html">   </a></h1>
     </header>
 </div>
 
 <div class="row-fluid">
         <div class="span8 offset2 article-content">
 
-            <p><strong>Actualización (Feb-2017)</strong>: es muy facil usar el programa <a class="reference external" href="https://obsproject.com"><span class="caps">OBS</span> Studio</a> para
-grabar en la computadora tanto la pantalla como la webcam, micrófono, etc.
-Funciona en Linux, Window$ y&nbsp;Mac.</p>
-<hr class="docutils" />
-<p>Empecé a grabar tutoriales para usar IPython Notebook. Traté de
-hacerlo con la aplicación recordMyDesktop, pero el modo de seleccionar
-la parte de la pantalla a grabar resulta muy imprecisa, es
-practicamente imposible determinar la región con&nbsp;precisión.</p>
-<p>Luego encontré este buen tutorial: <a class="reference external" href="http://nienhueser.de/blog/?p=469">Creating Screencasts in
-Linux</a>. Ahí hay dos datos&nbsp;importantes:</p>
-<ol class="arabic simple">
-<li>Conviene grabar una región cuyo razón de aspecto sea 16:9 (para que
-salga bien en un monitor wide). De la tabla de posibles tamaños
-aceptados por YouTube prefiero la de&nbsp;1280x720.</li>
-<li>Se pueden usar las opciones de ventana de <span class="caps">KDE</span> (a las cuales se
-accede con click derecho sobre el título de la ventana / Más
-acciones / Preferencias especiales de la ventana) para darle al
-navegador un tamaño de ventana (y un offset desde la esquina
-superior izquierda) igual al tamaño deseado para la grabación. De
-este modo se fuerza la ventana a un tamaño tal que ocupe todo el
-area de grabación, de modo de evitar incluir en el video cosas&nbsp;innecesarias.</li>
-</ol>
-<p>Para la grabación empecé a usar la aplicación ffmpeg, en linea de
-comando, tal como lo sugiere la página de Dennis Nienhüser que cité
-más&nbsp;arriba.</p>
-<p>Hice cambios en las opciones citadas por Dennis, para grabar también
-el sonido&nbsp;agregué:</p>
-<blockquote>
-<p>-f&nbsp;alsa</p>
-<p>-ac 2: se usan 2 &#8220;audiochannels&#8221;&nbsp;(ac)</p>
-<p>-ab 128k:&nbsp;bitrate</p>
-<p>-acodec pcm_s16le: un codec de grabación de&nbsp;audio</p>
-<p>-i hw:1 - para seleccionar &#8220;input&nbsp;device&#8221;</p>
-</blockquote>
-<p>Para saber cuál es la tarjeta de sonido se utiliza el comando <em>arecord
--l</em>, y dado que quiero grabar con la webcam <span class="caps">USB</span> uso hw:1 (porque es la
-&#8220;card 1&#8221;). El resultado en mi <span class="caps">PC</span> es el&nbsp;siguiente:</p>
-<div class="highlight"><pre><span></span><span class="go">**** List of CAPTURE Hardware Devices ****</span>
-<span class="go">card 0: PCH [HDA Intel PCH], device 0: VT2020 Analog [VT2020 Analog]</span>
-<span class="go">  Subdevices: 1/1</span>
-<span class="go">  Subdevice #0: subdevice #0</span>
-<span class="go">card 0: PCH [HDA Intel PCH], device 2: VT2020 Alt Analog [VT2020 Alt Analog]</span>
-<span class="go">  Subdevices: 1/1</span>
-<span class="go">  Subdevice #0: subdevice #0</span>
-<span class="go">card 1: U0x46d0x825 [USB Device 0x46d:0x825], device 0: USB Audio [USB Audio]</span>
-<span class="go">  Subdevices: 1/1</span>
-<span class="go">  Subdevice #0: subdevice #0</span>
-</pre></div>
-<p>Usé el programa <a class="reference external" href="https://trac.ffmpeg.org/wiki/Capture/ALSA">alsamixer</a> (ejecutado desde la línea de comando y
-que funciona en modo texto) para seleccionar la placa de sonido,
-aunque al final no se si tiene algo que ver el haber logrado grabar
-video y sonido con lo hecho desde esta&nbsp;aplicación.</p>
-<p>La orden que finalmente usé (va todo junto, es una sola&nbsp;linea):</p>
-<div class="highlight"><pre><span></span><span class="go">ffmpeg -f alsa -ac 2 -ab 128k -acodec pcm_s16le -i hw:1 -f x11grab</span>
-<span class="go">-show_region 1 -y -r 30 -s 1280x720 -i :0.0+0,0 -vcodec libx264</span>
-<span class="go">screencast.avi</span>
-</pre></div>
-<p>Tener cuidado con el nombre del archivo (en este ejemplo es
-screencast.avi), porque sino se va cambiando entre grabaciones
-sucesivas se va&nbsp;sobreescribiendo.</p>
-<p>En la notebook con Linux Mint 17 tuve que instalar ffmpeg siguiendo
-las instrucciones de <a class="reference external" href="http://ask.fclose.com/1036/how-to-install-ffmpeg-on-linux-mint-17-qiana">esta página</a>.</p>
+            <p>Ciencia y&nbsp;realidad</p>
+<p>Los docentes y científicos que conozco asumen la existencia de una realidad
+física objetiva, independiente de los seres humanos, de nuestras percepciones y
+de nuestros sentidos. La mayoría, sino todos, son realistas duros, creen que el
+universo es tal cual lo registramos con nuestros equipos. Los instrumentos que
+sensan el mundo que nos rodea muestran píxeles y lineas que se dibujan en un
+monitor o números en un panel digital, a través de los cuales vemos proteinas
+cambiando de forma, iones que se desplazan a través de una membrana de
+permeabilidad selectiva, impulsos nerviosos que llegan a células que responden
+contrayéndose. Entrenados en la interpretación de estas observaciones
+indirectas, tercerizadas mediante máquinas, de las cuales son testigos una y
+otra vez, desarrollan una familiaridad con las teorías que describen los
+fenómenos asociados con sus percepciones hasta generar la certeza de que
+comprenden una parte y acechan sobre lo que falta desentrañar. En lo que Kuhn
+llamaría un período de ciencia normal los investigadores desarrollan
+progresivamente el conocimiento de su campo, mediante teorías y experimentos
+cada vez más explicativos. No parecen ser instrumentalistas que creen que su
+representación de la realidad funciona, sino que creen reconocer la realidad
+misma, palpan la correspondencia entre sus afirmaciones y la estructura de lo
+que&nbsp;investigan.</p>
+<p>Los experimentos se diseñan para obtener información útil sobre un proceso. Para
+ello se establecen condiciones de manera que la variación controlada de un solo
+parámetro sea el que provoca los cambios que se pueden registrar con los
+instrumentos de medición. Por ejemplo, se registra la diferencia de potencial
+entre el interior y el exterior de una célula inmersa en una solución que la
+mantiene con vida, pero siempre con la misma concentración circundante de
+ácidos, sustancias nutritivas como la glucosa, aniones y cationes, etc. Gracias
+a la alteración selectiva de una sola variable durante un experimento se puede
+investigar, por ejemplo, cómo responde el potencial eléctrico del interior
+celular a cambios en la temperatura, sabiendo que el resto de las condiciones
+permanecen constantes. La información obtenida se analiza en busca de relaciones
+entre la variable testeada y distintos parámetros del registro, con el propósito
+de encontrar correlaciones y causalidades. También se realizan experimentos para
+ver el mismo fenómeno con diferentes técnicas, lo cual puede ofrecer información
+nueva. Si el planteo de un experimento fuera caótico, o si estuviese diseñado
+inadecuadamente, los resultados no permitirían concluir&nbsp;nada.</p>
+<p>De acuerdo a lo que se investiga, la realidad puede describirse con esquemas,
+ecuaciones, modelos, analogías, fotografías, registros temporales de la
+evolución de distintas variables, reglas, tablas de probabilidades,&nbsp;etc.</p>
+<p>Si un fenómeno ocurre tiene una o varias causas y distintos efectos, y no tiene
+mucho sentido realizar suposiciones que resulten irracionales a la luz de
+nuestros saberes actuales. Esto es así porque se pretende eficiencia en el
+proceso de develar lo desconocido. Hay un marco teórico a la luz del cual se
+interpretan los resultados. Si hay que describir cómo se limita la cantidad de
+iones de calcio que ingresan a la célula cardíaca cuando llega un impulso
+nervioso, una explicación relacionada con las fuerzas sutiles del lado oscuro o
+con la memoria cuántica de la flecha del tiempo sería impublicable, salvo en
+revistas de ficción o en publicaciones de dudosa calidad científica. Se supone
+también que la naturaleza funciona con regularidad, es decir que –por ejemplo–
+un canal de calcio en la membrana celular siempre se comporta de la misma manera
+frente a condiciones semejantes. Además, hay ciertas limitaciones en cuanto a
+las variables a las cuales puede atribuirse participación en el fenómeno, de
+acuerdo al conocimiento&nbsp;actual.</p>
+<p>No hay en este esquema de trabajo lugar para afirmaciones relativistas extremas,
+tales como que es válida cualquier interpretación laxa de los resultados
+obtenidos. Primero por la suposición realista de que la naturaleza funciona de
+alguna forma coherente y regular (incluyendo los fenómenos probabilísticos y
+caóticos que también presentan rasgos de coherencia y regularidad), y segundo
+por la evaluación a la que es sometida la investigación y de la cual depende su
+aceptación y propagación. Si bien los científicos aceptan que las teorías tienen
+diverso grado de aproximación a la realidad, que lo establecido actualmente está
+sometido a cambios, y que sus modelos descriptivos o explicativos pueden
+eventualmente mejorarse, no advierten de estas salvedades en las conversaciones&nbsp;cotidianas.</p>
+<p>Los jueces de esta verdad son los pares, principalmente los revisores de los
+artículos que aparecen en las revistas especializadas y también los evaluadores
+en las instituciones que otorgan el presupuesto para continuar las
+investigaciones. Frecuentemente cuando un artículo es rechazado o cuando se
+pierde un subsidio los autores dudan sobre la imparcialidad o la pericia de los
+evaluadores antes que de la debilidad de los propios argumentos. No voy a
+desarrollar estos aspectos sociológicos de la investigación científica, aunque
+me resultan muy interesantes y explicativos de la&nbsp;actividad.</p>
+<p>Queda así planteado un escenario, el de la creación de conocimiento científico.
+Ya veremos cómo sigue la&nbsp;obra.</p>
 
 <section>
 <p id="comment-message">No te vayas sin comentar algo del post, de las noticias del día, del clima, que se yo... </p>
@@ -134,8 +146,7 @@ las instrucciones de <a class="reference external" href="http://ask.fclose.com/1
     <div class="accordion-group">
         <div class="accordion-heading">
             <a class="accordion-toggle disqus-comment-count" data-toggle="collapse" data-parent="#accordion2"
-                    data-disqus-identifier="grabacion de screencasts"
-                href="https://eldiegoefe.github.io/grabacion-de-screencasts-para-tutoriales-de-youtube.html#disqus_thread">
+                href="https://eldiegoefe.github.io/.html#disqus_thread">
                 Comments
             </a>
         </div>
@@ -145,8 +156,8 @@ las instrucciones de <a class="reference external" href="http://ask.fclose.com/1
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'certezasdudosas';
-        var disqus_identifier = 'grabacion de screencasts';
-    var disqus_url = 'https://eldiegoefe.github.io/grabacion-de-screencasts-para-tutoriales-de-youtube.html';
+        var disqus_identifier = 'https://eldiegoefe.github.io/.html';
+    var disqus_url = 'https://eldiegoefe.github.io/.html';
 
     (function() {
          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -166,9 +177,7 @@ las instrucciones de <a class="reference external" href="http://ask.fclose.com/1
             <nav>
             <ul class="articles_timeline">
  
-                <li class="previous_article">« <a href="https://eldiegoefe.github.io/instalando-ipython-en-mageia.html" title="Previous: Instalando IPython en&nbsp;Mageia">Instalando IPython en&nbsp;Mageia</a></li>
- 
-                <li class="next_article"><a href="https://eldiegoefe.github.io/de-jpg-a-pdf.html" title="Next: De jpg a&nbsp;pdf">De jpg a&nbsp;pdf</a> »</li>
+                <li class="previous_article">« <a href="https://eldiegoefe.github.io/ciencia-con-problemas-capitales.html" title="Previous: Ciencia con problemas&nbsp;capitales">Ciencia con problemas&nbsp;capitales</a></li>
             </ul>
             </nav>
             </aside>
@@ -177,21 +186,9 @@ las instrucciones de <a class="reference external" href="http://ask.fclose.com/1
         <div class="span2" style="float:right;font-size:0.9em;">
  
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2014-09-23T10:00:00-03:00">sep 23, 2014</time>
+            <time pubdate="pubdate" datetime="2017-05-12T00:00:00-03:00">may 12, 2017</time>
             <h4>Category</h4>
-            <a class="category-link" href="/categories.html#tecnicismos-ref">tecnicismos</a> 
-            <h4>Tags</h4>
-            <ul class="list-of-tags tags-in-article"> 
-                <li><a href="/tags.html#tutorial-ref">tutorial
-                    <span>12</span>
-</a></li>
-                <li><a href="/tags.html#video-ref">video
-                    <span>1</span>
-</a></li>
-                <li><a href="/tags.html#youtube-ref">youtube
-                    <span>2</span>
-</a></li>
-            </ul>
+            <a class="category-link" href="/categories.html#misc-ref">misc</a> 
 
         </div>
         </section>
