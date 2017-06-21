@@ -60,11 +60,11 @@ sdb      8:16   0 119,2G  0 disk
 ├─sdb2   8:18   0 118,7G  0 part
 └─sdb3   8:19   0   450M  0 part
 sdc      8:32   0 931,5G  0 disk
-└─sdc1   8:33   0 931,5G  0 part /media/diego/Biblioteca2
+└─sdc1   8:33   0 931,5G  0 part /media/diego/biblioteca
 sdd      8:48   0 931,5G  0 disk
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Generalmente el comando RSync se ejecuta con estos&amp;nbsp;modificadores:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ rsync -avh --progress --delete /folderfrom /folderto
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ rsync -avh --progress --delete /desde /hacia
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Donde:&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -76,10 +76,12 @@ dispositivos, atributos, permisos, ownerships,&amp;nbsp;etc.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;h&lt;/strong&gt;: human&amp;nbsp;readable.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;progress&lt;/strong&gt;: muestra el progreso de la&amp;nbsp;transferencia.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;delete&lt;/strong&gt;: borra los archivos en destino que no están en el&amp;nbsp;origen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/desde&lt;/strong&gt;: directorio de&amp;nbsp;origen&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;/hacia&lt;/strong&gt;: directorio de&amp;nbsp;destino&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Leyendo el manual de RSync encontramos dos modos distintos de copiar un
 directorio hacia un destino, siendo la diferencia el uso de un &lt;em&gt;trailing slash&lt;/em&gt;
-(el símbolo&amp;nbsp;):&lt;/p&gt;
+(el símbolo&amp;nbsp;\):&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rsync -av /src/foo /dest
 rsync -av /src/foo/ /dest/foo
 &lt;/pre&gt;&lt;/div&gt;
@@ -93,8 +95,7 @@ directorio para tal efecto en el disco&amp;nbsp;externo:&lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Para efectuar la copia de las fotos que tengo ubicadas dentro de /home/diego/fotos,
 el comando&amp;nbsp;será:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ rsync -avh --progress --delete /home/diego/imagenes/
-/media/diego/biblioteca/fotos
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ rsync -avh --progress --delete ~/imagenes/ /media/diego/biblioteca/fotos
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;La primera vez que ejecute esta orden consumirá más tiempo porque RSync debe
 copiar todos los archivos, ya que el destino estaba vacío. Sin embargo, en

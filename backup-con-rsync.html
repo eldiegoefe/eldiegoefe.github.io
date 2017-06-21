@@ -123,11 +123,11 @@ sdb      8:16   0 119,2G  0 disk
 ├─sdb2   8:18   0 118,7G  0 part
 └─sdb3   8:19   0   450M  0 part
 sdc      8:32   0 931,5G  0 disk
-└─sdc1   8:33   0 931,5G  0 part /media/diego/Biblioteca2
+└─sdc1   8:33   0 931,5G  0 part /media/diego/biblioteca
 sdd      8:48   0 931,5G  0 disk
 </pre></div>
 <p>Generalmente el comando RSync se ejecuta con estos&nbsp;modificadores:</p>
-<div class="highlight"><pre><span></span>$ rsync -avh --progress --delete /folderfrom /folderto
+<div class="highlight"><pre><span></span>$ rsync -avh --progress --delete /desde /hacia
 </pre></div>
 <p>Donde:</p>
 <ul class="simple">
@@ -139,10 +139,12 @@ dispositivos, atributos, permisos, ownerships,&nbsp;etc.</li>
 <li><strong>h</strong>: human&nbsp;readable.</li>
 <li><strong>progress</strong>: muestra el progreso de la&nbsp;transferencia.</li>
 <li><strong>delete</strong>: borra los archivos en destino que no están en el&nbsp;origen.</li>
+<li><strong>/desde</strong>: directorio de&nbsp;origen</li>
+<li><strong>/hacia</strong>: directorio de&nbsp;destino</li>
 </ul>
 <p>Leyendo el manual de RSync encontramos dos modos distintos de copiar un
 directorio hacia un destino, siendo la diferencia el uso de un <em>trailing slash</em>
-(el símbolo&nbsp;):</p>
+(el símbolo&nbsp;\):</p>
 <div class="highlight"><pre><span></span>rsync -av /src/foo /dest
 rsync -av /src/foo/ /dest/foo
 </pre></div>
@@ -156,8 +158,7 @@ directorio para tal efecto en el disco&nbsp;externo:</p>
 </pre></div>
 <p>Para efectuar la copia de las fotos que tengo ubicadas dentro de /home/diego/fotos,
 el comando&nbsp;será:</p>
-<div class="highlight"><pre><span></span>$ rsync -avh --progress --delete /home/diego/imagenes/
-/media/diego/biblioteca/fotos
+<div class="highlight"><pre><span></span>$ rsync -avh --progress --delete ~/imagenes/ /media/diego/biblioteca/fotos
 </pre></div>
 <p>La primera vez que ejecute esta orden consumirá más tiempo porque RSync debe
 copiar todos los archivos, ya que el destino estaba vacío. Sin embargo, en
