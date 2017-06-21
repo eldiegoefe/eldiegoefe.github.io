@@ -174,6 +174,16 @@ Homestead
 Carpintería
 ===========
 
+Foros y bibliografia
+--------------------
+
+- `Woodworkers Heaven`_
+- `Foro de la madera`_
+
+.. _Foro de la madera: http://www.foromadera.com
+.. _Woodworkers Heaven: http://www.cro-wood.com
+
+ 
 Comercios
 ---------
 
