@@ -75,7 +75,7 @@ discos montados:
    ├─sdb2   8:18   0 118,7G  0 part 
    └─sdb3   8:19   0   450M  0 part 
    sdc      8:32   0 931,5G  0 disk 
-   └─sdc1   8:33   0 931,5G  0 part /media/diego/Biblioteca2
+   └─sdc1   8:33   0 931,5G  0 part /media/diego/biblioteca
    sdd      8:48   0 931,5G  0 disk 
 
 
@@ -83,7 +83,7 @@ Generalmente el comando RSync se ejecuta con estos modificadores:
 
 .. code-block:: terminal
 
-   $ rsync -avh --progress --delete /folderfrom /folderto
+   $ rsync -avh --progress --delete /desde /hacia
 
 Donde:
 
@@ -95,10 +95,12 @@ Donde:
 - **h**: human readable.
 - **progress**: muestra el progreso de la transferencia.
 - **delete**: borra los archivos en destino que no están en el origen.
+- **/desde**: directorio de origen
+- **/hacia**: directorio de destino
 
 Leyendo el manual de RSync encontramos dos modos distintos de copiar un
 directorio hacia un destino, siendo la diferencia el uso de un *trailing slash*
-(el símbolo \):
+(el símbolo \\):
 
 .. code-block:: terminal
 
@@ -122,8 +124,7 @@ el comando será:
 
 .. code-block:: terminal
 
-   $ rsync -avh --progress --delete /home/diego/imagenes/
-   /media/diego/biblioteca/fotos
+   $ rsync -avh --progress --delete ~/imagenes/ /media/diego/biblioteca/fotos
 
 La primera vez que ejecute esta orden consumirá más tiempo porque RSync debe
 copiar todos los archivos, ya que el destino estaba vacío. Sin embargo, en
