@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Certezas Dudosas</title><link>https://eldiegoefe.github.io/</link><description>todo lo liquido se desvanece en el estomago</description><lastBuildDate>Fri, 17 Feb 2017 10:00:00 -0300</lastBuildDate><item><title>Ciencia con problemas capitales</title><link>https://eldiegoefe.github.io/ciencia-con-problemas-capitales.html</link><description>&lt;p&gt;Sigue el conflicto en Argentina por las políticas científicas del nuevo gobierno
+<rss version="2.0"><channel><title>Certezas Dudosas</title><link>https://eldiegoefe.github.io/</link><description>todo lo liquido se desvanece en el estomago</description><lastBuildDate>Wed, 21 Jun 2017 10:00:00 -0300</lastBuildDate><item><title>Backup con RSync</title><link>https://eldiegoefe.github.io/backup-con-rsync.html</link><description>&lt;p&gt;RSync es un programa que permite copiar archivos, pero a diferencia de un
+copiado común, compara los archivos de origen y destino y sólo realiza la
+transferencia de la diferencia entre ambos: si son iguales no transfiere nada,
+si es un archivo de texto y se agregó sólo un caracter …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Wed, 21 Jun 2017 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2017-06-21:/backup-con-rsync.html</guid><category>rsync</category><category>backup</category></item><item><title>Ciencia con problemas capitales</title><link>https://eldiegoefe.github.io/ciencia-con-problemas-capitales.html</link><description>&lt;p&gt;Sigue el conflicto en Argentina por las políticas científicas del nuevo gobierno
 y el viejo ministro. Al recorte en el número de ingresantes al Conicet se suman
 disposiciones que perjudican a quienes no pueden enmarcar sus proyectos de
 investigación dentro de las ciencias aplicadas que produzcan un beneficio social
