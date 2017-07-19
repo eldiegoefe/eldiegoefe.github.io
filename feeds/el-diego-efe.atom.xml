@@ -81,7 +81,7 @@ dispositivos, atributos, permisos, ownerships,&amp;nbsp;etc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Leyendo el manual de RSync encontramos dos modos distintos de copiar un
 directorio hacia un destino, siendo la diferencia el uso de un &lt;em&gt;trailing slash&lt;/em&gt;
-(el símbolo&amp;nbsp;\):&lt;/p&gt;
+(el símbolo&amp;nbsp;/):&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rsync -av /src/foo /dest
 rsync -av /src/foo/ /dest/foo
 &lt;/pre&gt;&lt;/div&gt;
@@ -8179,6 +8179,14 @@ aunque mas no sea de nuevas maquinas e invenciones&amp;nbsp;ficticias.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://lacabraenlaescalera.wordpress.com"&gt;La cabra en la&amp;nbsp;escalera&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://lacasarota.com/blog/"&gt;La casa&amp;nbsp;rota&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://ebanisterialuislaca.blogspot.com.ar"&gt;Técnicas básicas de&amp;nbsp;ebanistería&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="foros"&gt;
+&lt;h2&gt;Foros&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.foromadera.com/"&gt;El foro de la&amp;nbsp;madera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.hechoxnosotrosmismos.net/foro/"&gt;Hecho x nostros&amp;nbsp;mismos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.hechoxnosotrosmismos.com/"&gt;Hecho x nostros mismos&amp;nbsp;(viejo)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 </content><category term="links"></category></entry></feed>
