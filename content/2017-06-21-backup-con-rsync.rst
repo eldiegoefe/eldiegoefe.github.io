@@ -100,7 +100,7 @@ Donde:
 
 Leyendo el manual de RSync encontramos dos modos distintos de copiar un
 directorio hacia un destino, siendo la diferencia el uso de un *trailing slash*
-(el símbolo \\):
+(el símbolo /):
 
 .. code-block:: terminal
 

@@ -241,3 +241,16 @@ Blogs
 .. _Brico-Carpintería: http://brico-carpinteria.blogspot.com.ar
 .. _Carpintería para aficionados: http://carpinteriaparaaficionados.blogspot.com.ar/
 .. _Artisan Flamingo: https://web.archive.org/web/20120306021939/http://artisanflamingo.blogspot.com/
+
+Foros
+-----
+
+- `El foro de la madera`_
+- `Hecho x nostros mismos`_
+- `Hecho x nostros mismos (viejo)`_
+
+.. _Hecho x nostros mismos (viejo): http://www.hechoxnosotrosmismos.com/
+.. _Hecho x nostros mismos: http://www.hechoxnosotrosmismos.net/foro/
+.. _El foro de la madera: http://www.foromadera.com/
+
+ 
