@@ -202,7 +202,9 @@ Comercios
 - `Fine Tools`_
 - `Woodcraft`_
 - `Comercial Pazos`_
+- `Tools from Japan`_
 
+.. _Tools from Japan: http://www.toolsfromjapan.com
 .. _Comercial Pazos: http://www.comercialpazos.com
 .. _Woodcraft: https://www.woodcraft.com
 .. _Fine Tools: https://www.fine-tools.com

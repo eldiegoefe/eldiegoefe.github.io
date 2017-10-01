@@ -65,10 +65,12 @@ algunos pocos ejemplos.
 Simplificando un poco la realidad puede afirmarse que existen seis posiciones
 principales en las que se encuentran los contendientes durante un match de BJJ.
 El tiempo de la lucha se divide entre los momentos en que las mismas se van
-desarrollando y los momentos de transición entre ellas. Excepto en *la guardia*,
-en la que no hay mucha ventaja o desventaja entre ambos luchadores, en el resto
-de las situaciones un contendiente está en una posición dominante y el otro en
-una posición más comprometida y limitada. Las posiciones son:
+desarrollando y los momentos de transición entre ellas. En cada una de las
+siguientes posiciones, ambos contendientes viven distinta realidad: uno se
+encuentra en posición más dominante, tiene a disposición mayores posibilidades
+de ataque para concluir la pelea y está relativamente más a salvo mientras que
+el otro tiene posibilidades más limitadas y debe trabajar para salir de la
+situación de peligro. Las posiciones son:
 
 - Guardia (puede ser cerrada, abierta o media)
 - Control lateral, side control, 100 kilos
