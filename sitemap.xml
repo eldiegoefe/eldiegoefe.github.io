@@ -5,29 +5,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://eldiegoefe.github.io/</loc>
-<lastmod>2017-10-01T17:14:55-00:00</lastmod>
+<lastmod>2017-10-19T16:55:34-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/archives.html</loc>
-<lastmod>2017-10-01T17:14:55-00:00</lastmod>
+<lastmod>2017-10-19T16:55:34-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/tags.html</loc>
-<lastmod>2017-10-01T17:14:55-00:00</lastmod>
+<lastmod>2017-10-19T16:55:34-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/categories.html</loc>
-<lastmod>2017-10-01T17:14:55-00:00</lastmod>
+<lastmod>2017-10-19T16:55:34-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://eldiegoefe.github.io/casitas-y-minimalismo.html</loc>
+<lastmod>2017-10-18T10:00:00-03:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
