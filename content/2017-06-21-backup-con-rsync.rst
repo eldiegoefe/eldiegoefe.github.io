@@ -117,14 +117,20 @@ directorio para tal efecto en el disco externo:
 
 .. code-block:: terminal
 
-   $ mkdir /media/diego/biblioteca/fotos
+   $ mkdir /media/diego/biblioteca/mantener-backup/fotos-diego
 
-Para efectuar la copia de las fotos que tengo ubicadas dentro de /home/diego/fotos,
-el comando será:
+Para efectuar la copia de las fotos que tengo ubicadas dentro de
+/home/diego/fotos, el comando será:
 
 .. code-block:: terminal
 
-   $ rsync -avh --progress --delete ~/imagenes/ /media/diego/biblioteca/fotos
+   $ rsync -avh --progress --delete ~/fotos/ /media/diego/biblioteca/mantener-backup/fotos-diego
+
+Otro ejemplo es la copia que hago de mi colección de libros organizados con Calibre:
+
+.. code-block:: terminal
+
+   $ rsync -avh --progress --delete ~/calibre/ /media/diego/biblioteca/espejo-del-rigido/calibre
 
 La primera vez que ejecute esta orden consumirá más tiempo porque RSync debe
 copiar todos los archivos, ya que el destino estaba vacío. Sin embargo, en
