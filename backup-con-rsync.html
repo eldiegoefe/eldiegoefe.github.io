@@ -154,11 +154,14 @@ del directorio foo, y entonces para mantener la estructura en el destino,
 debemos copiarlo dentro de un directorio foo (no directamente en&nbsp;dest).</p>
 <p>Para copiar todas mis fotos, lo que tengo que hacer es crear (por única vez) un
 directorio para tal efecto en el disco&nbsp;externo:</p>
-<div class="highlight"><pre><span></span>$ mkdir /media/diego/biblioteca/fotos
+<div class="highlight"><pre><span></span>$ mkdir /media/diego/biblioteca/mantener-backup/fotos-diego
 </pre></div>
-<p>Para efectuar la copia de las fotos que tengo ubicadas dentro de /home/diego/fotos,
-el comando&nbsp;será:</p>
-<div class="highlight"><pre><span></span>$ rsync -avh --progress --delete ~/imagenes/ /media/diego/biblioteca/fotos
+<p>Para efectuar la copia de las fotos que tengo ubicadas dentro de
+/home/diego/fotos, el comando&nbsp;será:</p>
+<div class="highlight"><pre><span></span>$ rsync -avh --progress --delete ~/fotos/ /media/diego/biblioteca/mantener-backup/fotos-diego
+</pre></div>
+<p>Otro ejemplo es la copia que hago de mi colección de libros organizados con&nbsp;Calibre:</p>
+<div class="highlight"><pre><span></span>$ rsync -avh --progress --delete ~/calibre/ /media/diego/biblioteca/espejo-del-rigido/calibre
 </pre></div>
 <p>La primera vez que ejecute esta orden consumirá más tiempo porque RSync debe
 copiar todos los archivos, ya que el destino estaba vacío. Sin embargo, en
