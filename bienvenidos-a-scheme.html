@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="El Diego Efe" />
+        <meta name="copyright" content="El Diego Efe" />
+
+        <meta name="description" content="Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp que me cautivó en 2014, viajé hasta otro universo computacional y …
+" />
+<meta name="keywords" content="scheme, lisp, clojure, programacion, tecnicismos, " />
+        <title>Bienvenidos a&nbsp;Scheme  · Certezas Dudosas
+</title>
+        <link href="https://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/css/solarizedlight.css" media="screen">
+        <link rel="shortcut icon" href="https://eldiegoefe.github.io/theme/images/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="https://eldiegoefe.github.io/theme/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="https://eldiegoefe.github.io/theme/images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="https://eldiegoefe.github.io/theme/images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="https://eldiegoefe.github.io/theme/images/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="https://eldiegoefe.github.io/theme/images/apple-touch-icon-144x144.png" />
+        <link rel="icon" href="https://eldiegoefe.github.io/theme/images/apple-touch-icon-144x144.png" />
+        <link href="https://eldiegoefe.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Certezas Dudosas - Full RSS Feed" />
+        <link href="https://eldiegoefe.github.io/feeds/blog.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - blog Category RSS Feed" />
+        <link href="https://eldiegoefe.github.io/feeds/politica.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - politica Category RSS Feed" />
+        <link href="https://eldiegoefe.github.io/feeds/salud.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - salud Category RSS Feed" />
+        <link href="https://eldiegoefe.github.io/feeds/tecnicismos.rss.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - tecnicismos Category RSS Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="https://eldiegoefe.github.io/"><span class=site-name>Certezas Dudosas</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="https://eldiegoefe.github.io">Home</a></li>
+                            <li ><a href="https://eldiegoefe.github.io/categories.html">Categories</a></li>
+                            <li ><a href="https://eldiegoefe.github.io/tags.html">Tags</a></li>
+                            <li ><a href="https://eldiegoefe.github.io/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="https://eldiegoefe.github.io/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page_header span10 offset2">
+    <h1><a href="https://eldiegoefe.github.io/bienvenidos-a-scheme.html"> Bienvenidos a&nbsp;Scheme  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            <p>Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y
+esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad
+Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp
+que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a
+toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado
+para simular la inteligencia humana, creado por John McCarthy en la década
+del&nbsp;50.</p>
+<div class="figure align-center">
+<a class="reference external image-reference" href="https://c1.staticflickr.com/5/4541/38650993086_6356f41de4_o.jpg"><img alt="John McCarthy" src="https://c1.staticflickr.com/5/4541/38650993086_6356f41de4_o.jpg" style="width: 100.0%;" /></a>
+</div>
+<p>Salvo que seas un hongo, o que hayas sido fascinado por la retórica kirchnerista
+y/o la capacidad de gestión del macrismo con la consiguiente pérdida correlativa
+de capacidades cognitivas, aprender sobre programación en Lisp te provoca una
+masiva liberación de norepinefrina y serotonina, un insoportable deseo de
+visitar Las Toninas y de comer pan dulce con muchas pasas de uva como el que
+venden en la granjita de al lado de&nbsp;casa.</p>
+<p>Scheme es un dialecto muy utilizado en ámbitos educativos. Se que es más pequeño
+y sencillo que Common Lisp, y no se qué diferencias tiene con Clojure y Racket y
+otros herederos del LISt Processor (de ahí el nombre del lenguaje McCartista).
+El tema es que los cursos introductorios de &#8220;Computer Science&#8221; en las
+universidades más prestigiosas del mundo (Berkeley, <span class="caps">MIT</span>, La Matanza, Stanford,
+etc) lo utilizan o lo utilizaban hasta hace muy poco. De hecho, justamente
+llegué a Scheme buscando bibliografía para estudiar programación y Lisp. Me
+encontré en la web varios libros y cursos&nbsp;recomendados:</p>
+<ul class="simple">
+<li>el curso <span class="caps">CS</span> 61A dictado en Berkeley por Brian&nbsp;Harvey.</li>
+<li>el libro &#8220;<a class="reference external" href="https://mitpress.mit.edu/sicp/full-text/book/book.html">Structure and Interpretation of Computer Programs</a>&#8221; (comunmente
+llamado <span class="caps">SICP</span>) de Harold Abelson, Gerald Jay Sussman y Julie Sussman. <span class="caps">GJ</span>
+Sussman fue uno de los dos diseñadores originales de Scheme, junto a su
+discípulo Guy L. Steele&nbsp;Jr.</li>
+<li>el libro &#8220;Scheme and the Art of Programming&#8221; de George Springer y Daniel&nbsp;Friedman</li>
+<li>el libro &#8220;<a class="reference external" href="https://people.eecs.berkeley.edu/~bh/ss-toc2.html">Simply Scheme</a>&#8221; de Brian Harvey y Matthew Wright. Debajo pueden
+ver la tapa de la primera&nbsp;edición.</li>
+<li>la serie de libros &#8220;The Little Schemer&#8221;, &#8220;The Reasoned Schemer&#8221;, &#8220;The Seasoned
+Schemer&#8221; de Daniel Friedman, Matthias Felleisen, William Byrd y Oleg&nbsp;Kiselyov.</li>
+</ul>
+<p>Las clases del 2008 y 2011 del <span class="caps">CS</span> 61A dictadas por <a class="reference external" href="https://people.eecs.berkeley.edu/~bh/">Brian Harvey</a> pueden verse
+online (hagan click en los años 2008 y 2011 para llegar). Sus clases son muy
+claras y entretenidas. Tanto en estas clases como en la bibliografía el énfasis
+está puesto en estudiar / encontrar / desarrollar / identificar los conceptos
+con los cuales generar abstracciones para resolver problemas con la computadora,
+más que en enseñar la sintaxis de un lenguaje de programación. También está
+disponible online <a class="reference external" href="https://cs61a.org">el curso <span class="caps">CS</span> 61A actual</a> (cuyo lenguaje principal es
+Python 3) con acceso a todo el material con el que cuentan los alumnos
+(generoso, abrumador, envidiable, es impresionante el interés por enseñar que
+tienen esos equipos de profesores y auxiliares). Acá pueden ver la primera clase
+del 2008 (desde YouTube, el curso también puede verse en <a class="reference external" href="https://archive.org/details/ucberkeley-webcast-PL6879A8466C44A5D5">Computer Science 61A
+Spring 2008 en el sitio archive.org</a> entre otros&nbsp;sitios).</p>
+<div class="youtube"><iframe src="https://www.youtube.com/embed/xWZb9U92rgo" width="560" height="315" allowfullscreen seamless frameBorder="0"></iframe></div><p>También está online el curso completo &#8220;Structure and Interpretation of Computer
+Science&#8221; basado en el libro homónimo, con <a class="reference external" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/">las clases de 1986 en video</a> (la
+primera edición del libro es de 1985, y la segunda de 1996, esta última es la
+que está online y aparece en un link más arriba). Hay que acostumbrarse al hecho
+de que sean grabaciones viejas de menor calidad a los tutoriales en 1080p de
+YouTube que se ven actualmente, pero el contenido lo&nbsp;merece.</p>
+<p>Se me hizo un lío hasta descubrir por dónde empezar, con tanto material
+extraordinario. El <span class="caps">SICP</span> es el libro clásico que todo el mundo recomienda en los
+foros, pero no es sencillo. Por suerte descubrí que el libro de Harvey-Wright se
+propone como precuela (lo dicen en el prólogo) y es recomendable leerlo antes,
+como preparación para el de&nbsp;Abelson-Sussman.</p>
+<div class="figure align-center">
+<img alt="Simply Scheme" src="https://c1.staticflickr.com/5/4563/38677380062_73929181b2_o.jpg" style="width: 50.0%;" />
+</div>
+<p>También está buenísimo &#8220;The Little Schemer&#8221; que lo tenía guardado desde hace
+mucho. Apenas voy por la mitad, pero ya mismo puedo recomendarlo porque me
+parece muy apropiado para entender, por ejemplo, la recursividad y cómo usarla,
+algo central en <span class="caps">LISP</span>. El texto está organizado con la estructura de <a class="reference external" href="https://es.wikipedia.org/wiki/Enseñanza_programada">enseñanza
+programada</a>. En esta modalidad (que conocí en una serie de libros que tenía mi
+hermano, &#8220;<a class="reference external" href="https://www.amazon.com/Curso-programado-cálculo-Sucesiones-infinitas/dp/8429150552">Curso Programado de Cálculo</a>&#8221; de Editorial Reverté, que usé en la
+secundaria cuando quise prepararme para la universidad) la información se
+presenta secuencialmente en pequeños párrafos que contienen problemas o frases
+para resolver y completar. En la misma hoja están las soluciones a los problemas
+y las palabras faltantes. El lector trata de responder y completar los espacios
+en blanco mientras tapa las respuestas, de manera que cuando termina puede
+comparar sus resultados con las soluciones correctas. Será conductista pero es
+muy entretenido, la presentación va avanzando en pasos muy pequeños y al menos a
+mi me genera un estímulo muy agradable ir descubriendo la coincidencia o
+cercanía de las respuestas propias a las indicadas por el autor. Estaría bueno
+que haya más libros con esta&nbsp;modalidad.</p>
+<div class="figure align-center">
+<a class="reference external image-reference" href="https://c1.staticflickr.com/5/4531/38677094272_e1e5c22557_h.jpg"><img alt="the little schemer" src="https://c1.staticflickr.com/5/4531/38677094272_d56db10a21_b.jpg" style="width: 100.0%;" /></a>
+<p class="caption">Una página del libro de enseñanza&nbsp;programada</p>
+</div>
+<p>Por suerte todos estos libros están disponibles gratuitamente o se consiguen con
+algún torrent, porque por un lado no están disponibles en Argentina, y sus
+precios (en <a class="reference external" href="https://www.bookdepository.com">BookDepository</a>, que no cobra el costo de envío, Amazon no los
+envía a nuestro país) son altísimos. <span class="caps">SICP</span> cuesta casi 1000 <span class="caps">ARS</span>, Simply Scheme
+más de 1300 <span class="caps">ARS</span>, The Little Schemer casi 700 <span class="caps">ARS</span>,&nbsp;etc.</p>
+<p>En un próximo post voy a explicar cómo uso Scheme desde el shell o desde Emacs
+para probar los pequeños programas que los libros tienen de ejemplo o los que
+surgen de los problemas que&nbsp;proponen.</p>
+
+<section>
+<p id="comment-message">No te vayas sin comentar algo del post, de las noticias del día, del clima, que se yo... </p>
+<div class="accordion" id="accordion2">
+    <div class="accordion-group">
+        <div class="accordion-heading">
+            <a class="accordion-toggle disqus-comment-count" data-toggle="collapse" data-parent="#accordion2"
+                    data-disqus-identifier="Bienvenidos a Scheme"
+                href="https://eldiegoefe.github.io/bienvenidos-a-scheme.html#disqus_thread">
+                Comments
+            </a>
+        </div>
+        <div id="disqus_thread" class="accordion-body collapse">
+            <div class="accordion-inner">
+                <div class="comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'certezasdudosas';
+        var disqus_identifier = 'Bienvenidos a Scheme';
+    var disqus_url = 'https://eldiegoefe.github.io/bienvenidos-a-scheme.html';
+
+    (function() {
+         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+            <aside>
+            <hr/>
+            <nav>
+            <ul class="articles_timeline">
+ 
+                <li class="previous_article">« <a href="https://eldiegoefe.github.io/casitas-y-minimalismo.html" title="Previous: Casitas y&nbsp;minimalismo">Casitas y&nbsp;minimalismo</a></li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+ 
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2017-11-28T10:00:00-03:00">nov 28, 2017</time>
+            <h4>Category</h4>
+            <a class="category-link" href="/categories.html#tecnicismos-ref">tecnicismos</a> 
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article"> 
+                <li><a href="/tags.html#clojure-ref">clojure
+                    <span>2</span>
+</a></li>
+                <li><a href="/tags.html#lisp-ref">lisp
+                    <span>3</span>
+</a></li>
+                <li><a href="/tags.html#programacion-ref">programacion
+                    <span>3</span>
+</a></li>
+                <li><a href="/tags.html#scheme-ref">scheme
+                    <span>1</span>
+</a></li>
+            </ul>
+
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-subtitle"><span class="site-name">Certezas Dudosas</span> - todo lo liquido se desvanece en el estomago</li>
+        <li class="elegant-license">Podes usar el contenido de este blog si pones un link hacia https://eldiegoefe.github.io/</li>
+        <li class="elegant-power">Powered by <a href="https://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="https://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="https://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="https://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+<script type="text/javascript">
+    var disqus_shortname = 'certezasdudosas';
+
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+        <script  language="javascript" type="text/javascript">
+            function uncollapse() {
+                var hash_str = window.location.hash;
+                if (window.location.hash.match(/^#comment-\d+$/))
+                {
+                    var hash_str = '#disqus_thread';
+                }
+                $(hash_str).collapse({
+                    toggle: true
+                    })
+            }
+        </script>
+
+        <script type="text/javascript" language="JavaScript">
+            uncollapse(); 
+        </script>
+    </body>
+</html>
