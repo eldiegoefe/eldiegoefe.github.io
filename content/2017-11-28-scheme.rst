@@ -42,27 +42,30 @@ encontré en la web varios libros y cursos recomendados:
 - el libro "`Structure and Interpretation of Computer Programs`_" (comunmente
   llamado SICP) de Harold Abelson, Gerald Jay Sussman y Julie Sussman. GJ
   Sussman fue uno de los dos diseñadores originales de Scheme, junto a su
-  discípulo Guy L. Steele Jr.
+  discípulo Guy L. Steele Jr (que diseñó y documentó también otros lenguajes).
+  Mientras ellos elaboran nuevos lenguajes uno apenas puede lidiar con el
+  ordenamiento de las estanterías del lavadero.
 - el libro "Scheme and the Art of Programming" de George Springer y Daniel Friedman
 - el libro "`Simply Scheme`_" de Brian Harvey y Matthew Wright. Debajo pueden
   ver la tapa de la primera edición.
 - la serie de libros "The Little Schemer", "The Reasoned Schemer", "The Seasoned
   Schemer" de Daniel Friedman, Matthias Felleisen, William Byrd y Oleg Kiselyov.
 
-Las clases del 2008 y 2011 del CS 61A dictadas por `Brian Harvey`_ pueden verse
-online (hagan click en los años 2008 y 2011 para llegar). Sus clases son muy
-claras y entretenidas. Tanto en estas clases como en la bibliografía el énfasis
-está puesto en estudiar / encontrar / desarrollar / identificar los conceptos
-con los cuales generar abstracciones para resolver problemas con la computadora,
-más que en enseñar la sintaxis de un lenguaje de programación. También está
-disponible online `el curso CS 61A actual`_ (cuyo lenguaje principal es
-Python 3) con acceso a todo el material con el que cuentan los alumnos
-(generoso, abrumador, envidiable, es impresionante el interés por enseñar que
-tienen esos equipos de profesores y auxiliares). Acá pueden ver la primera clase
-del 2008 (desde YouTube, el curso también puede verse en `Computer Science 61A
-Spring 2008 en el sitio archive.org`_ entre otros sitios).
+Las clases del `2008`_ y `2011`_ del CS 61A dictadas por `Brian Harvey`_ pueden
+verse online (hagan click en los años `2008`_ y `2011`_ para llegar). Sus clases
+son muy claras y entretenidas. Tanto en estas clases como en la bibliografía el
+énfasis está puesto en estudiar / encontrar / desarrollar / identificar los
+conceptos con los cuales generar abstracciones para resolver problemas con la
+computadora, más que en enseñar la sintaxis de un lenguaje de programación.
+También está disponible online `el curso CS 61A actual`_ (cuyo lenguaje
+principal es Python 3) con acceso a todo el material con el que cuentan los
+alumnos (generoso, abrumador, envidiable, es impresionante el interés por
+enseñar que tienen esos equipos de profesores y auxiliares). Acá pueden ver la
+primera clase del 2008 (desde YouTube).
 
-.. _Computer Science 61A Spring 2008 en el sitio archive.org: https://archive.org/details/ucberkeley-webcast-PL6879A8466C44A5D5
+.. _2008: https://archive.org/details/ucberkeley-webcast-PL6879A8466C44A5D5
+.. _2011: http://www.infocobuild.com/education/audio-video-courses/computer-science/cs61a-spring2011-berkeley.html
+.. _Computer Science 61A Spring 2008 en el sitio archive.org:
 .. _Brian Harvey: https://people.eecs.berkeley.edu/~bh/
 .. _el curso CS 61A actual: https://cs61a.org
 

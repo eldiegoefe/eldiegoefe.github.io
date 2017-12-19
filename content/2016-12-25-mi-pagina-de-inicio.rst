@@ -14,7 +14,9 @@ Frecuentes
 - `Gmail`_
 - `Mercado Libre`_
 - `Wikipedia`_
+- `Mi lista de canales de YouTube`_
 
+.. _Mi lista de canales de YouTube: |filename|/2016-11-26-youtube.rst
 .. _Wikipedia: https://en.wikipedia.org/wiki/Main_Page
 .. _Gmail: https://mail.google.com/mail/u/0/#inbox
 .. _Mercado Libre: http://www.mercadolibre.com.ar/

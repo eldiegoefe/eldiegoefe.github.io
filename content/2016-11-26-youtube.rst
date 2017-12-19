@@ -18,89 +18,169 @@ Cannabis
 Carpintería
 ===========
 
-- `Ana White`_
-- `Angelatedo`_
+Los más vistos (por mi)
+-----------------------
+
 - `April Wilkerson`_
-- `Enredando No Garaxe`_
-- `Beachside Hank`_
-- `Bellevue Woodshop`_
-- `Despelothier`_
-- `Dmitriy Lutsenko`_
-- `Fine Woodworking`_
 - `Frank Howarth`_
-- `Furniture Workshop`_
-- `Holzwerken`_
-- `I am Stankoff`_
-- `Incra Tools`_
-- `Ishitani Furniture`_
 - `Izzy Swan`_
-- `Jack Houweling`_
 - `Jay Bates 1`_, `Jay Bates 2`_
-- `Jeremy Schmidt`_
-- `Jim Steinbrecher`_
+- `Jack Houweling`_
 - `John Heisz`_
-- `Luis Lovon`_
-- `Make Something`_
 - `Marius Hornberger`_
 - `Matthias Wandel`_
-- `Monkwerks`_
-- `McCauley's Design`_
-- `Mr Carters Account`_
-- `Rockler`_
 - `Ron Paulk`_
-- `Sailing and Such`_
-- `Steve Carmichael`_
 - `Steve Ramsey`_
-- `The Apprentice and the Journeyman`_
+
+.. _April Wilkerson: https://www.youtube.com/user/AprilWilkersonDIY
+.. _Frank Howarth: https://www.youtube.com/user/urbanTrash
+.. _Izzy Swan: https://www.youtube.com/user/rusticman1973
+.. _Jack Houweling: https://www.youtube.com/user/Jacka440
+.. _Jay Bates 1: https://www.youtube.com/user/Jayscustomcreations
+.. _Jay Bates 2: https://www.youtube.com/user/JCCshorts
+.. _John Heisz: https://www.youtube.com/user/jpheisz
+.. _Marius Hornberger: https://www.youtube.com/channel/UCn7lavsPdVGV0qmEEBT6NyA
+.. _Matthias Wandel: https://www.youtube.com/user/Matthiaswandel
+.. _Ron Paulk: https://www.youtube.com/user/crpaulk
+.. _Steve Ramsey: https://www.youtube.com/user/stevinmarin
+
+Híbridos (herramientas eléctricas + manuales)
+---------------------------------------------
+
+- `Fine Woodworking`_ (de la revista homónima: podcasts, proyectos, shop tours, etc)
+- `Monkwerks`_
+- `The Samurai Carpenter`_
 - `The Wood Whisperer`_
-- `William Ng`_
-- `Wooden Toolman`_
-- `Woodworking Plus`_
-- `Wood Work Web`_
+
+.. _Fine Woodworking: https://www.youtube.com/user/FineWoodworking
+.. _Monkwerks: https://www.youtube.com/user/monk1998
+.. _The Samurai Carpenter: https://www.youtube.com/channel/UC06fO6LNH_AUgjbmqaZRV5Q
+.. _The Wood Whisperer: https://www.youtube.com/user/TheWoodWhisperer
+
+Handtools
+---------
+
+- `Paul Sellers`_
+- `Renaissance WW`_
+- `Rob Cosman`_
+- `The English Woodworker`_
+- `Tom Fidgen`_ (The Unplugged Woodshop)
+- `Wood and Shop`_
+- `Wood by Wright`_
+- `Woodworking Masterclass`_
 - `Worth the Effort`_
 
+.. _Paul Sellers: https://www.youtube.com/channel/UCc3EpWncNq5QL0QhwUNQb7w
+.. _Renaissance WW: https://www.youtube.com/user/RenaissanceWW
+.. _Rob Cosman: https://www.youtube.com/user/robc45
+.. _The English Woodworker: https://www.youtube.com/channel/UCK9d9JGoPgPGXX8oVxCxjcg
+.. _Tom Fidgen: https://www.youtube.com/channel/UCaWR_UvszqJ0xIJYXcep3_w
+.. _Wood and Shop: https://www.youtube.com/user/WoodAndShop
+.. _Wood by Wright: https://www.youtube.com/channel/UCbMtJOly6TpO5MQQnNwkCHg
+.. _Woodworking Masterclass: https://www.youtube.com/user/woodmasterclass
 .. _Worth the Effort: https://www.youtube.com/user/wortheffort
-.. _Wood Work Web: https://www.youtube.com/user/knecht105
-.. _Woodworking Plus: https://www.youtube.com/channel/UC9ahr_ahIl8vDgCD7x3TYcA
-.. _Wooden Toolman: https://www.youtube.com/user/Woodentoolcompany2
-.. _William Ng: https://www.youtube.com/user/wnwoodworks
-.. _The Wood Whisperer: https://www.youtube.com/user/TheWoodWhisperer
-.. _The Apprentice and the Journeyman: https://www.youtube.com/user/AppJourneyman
-.. _Steve Ramsey: https://www.youtube.com/user/stevinmarin
-.. _Steve Carmichael: https://www.youtube.com/user/carmichaelworkshop
-.. _Sailing and Such: https://www.youtube.com/user/SailingandSuch
-.. _Ron Paulk: https://www.youtube.com/user/crpaulk
-.. _Rockler: https://www.youtube.com/user/RocklerWoodworking
-.. _Mr Carters Account: https://www.youtube.com/user/MrCartersAccount
-.. _Monkwerks: https://www.youtube.com/user/monk1998
-.. _McCauley's Design: https://www.youtube.com/channel/UCMzsLPeyQvCcSyCRX0w9Cdg
-.. _Matthias Wandel: https://www.youtube.com/user/Matthiaswandel
-.. _Marius Hornberger: https://www.youtube.com/channel/UCn7lavsPdVGV0qmEEBT6NyA
-.. _Make Something: https://www.youtube.com/user/DrunkenWoodworker
-.. _Luis Lovon: https://www.youtube.com/user/luislovon
-.. _John Heisz: https://www.youtube.com/user/jpheisz
-.. _Jim Steinbrecher: https://www.youtube.com/user/steinie44
-.. _Jeremy Schmidt: https://www.youtube.com/channel/UC0T7tvy44mlQCjaTtparOZw
-.. _Jay Bates 2: https://www.youtube.com/user/JCCshorts
-.. _Jay Bates 1: https://www.youtube.com/user/Jayscustomcreations
-.. _Jack Houweling: https://www.youtube.com/user/Jacka440
-.. _Izzy Swan: https://www.youtube.com/user/rusticman1973
-.. _Ishitani Furniture: https://www.youtube.com/channel/UC7FkqjV8SU5I8FCHXQSQe9Q
-.. _Incra Tools: https://www.youtube.com/user/incratools
-.. _I am Stankoff: https://www.youtube.com/channel/UC7oREAvodLajK1bOCcwudjA
-.. _Holzwerken: https://www.youtube.com/user/HolzWerkenTV
-.. _Furniture Workshop: https://www.youtube.com/user/FurnitureWorkshop
-.. _Frank Howarth: https://www.youtube.com/user/urbanTrash
-.. _Fine Woodworking: https://www.youtube.com/user/FineWoodworking
-.. _Enredando No Garaxe: https://www.youtube.com/user/Enredandonogaraxe
-.. _Dmitriy Lutsenko: https://www.youtube.com/channel/UCndKRG9ufNGggPrZclvj2cg
-.. _Despelothier: https://www.youtube.com/user/Despelothier
-.. _Bellevue Woodshop: https://www.youtube.com/user/bellevuesnekkeri
-.. _Beachside Hank: https://www.youtube.com/user/BeachsideHank
-.. _April Wilkerson: https://www.youtube.com/user/AprilWilkersonDIY
-.. _Angelatedo: https://www.youtube.com/user/angelatedo
-.. _Ana White: https://www.youtube.com/user/knockoffwood
 
+Latinos
+-------
+
+- `Andrés Barnett`_ (Chile)
+- `Angelatedo`_
+- `Carpintero del Desierto`_ (Chile)
+- `Cinco a ocho`_ (Colombia)
+- `Customs Handmade`_ (Argentina)
+- `Despelothier`_ (España)
+- `Elías Maximiliano`_ (Argentina)
+- `Enredando No Garaxe`_ (España)
+- `Luis Lovon`_ (Perú)
+- `Proyecto Mueble`_ (Argentina)
+- `Moré Hace`_ (Argentina)
+
+.. _Andrés Barnett: https://www.youtube.com/user/Botobito
+.. _Angelatedo: https://www.youtube.com/user/angelatedo
+.. _Carpintero del Desierto: https://www.youtube.com/channel/UC23OMNvG6_5hiPBasJuElpw
+.. _Cinco a ocho: https://www.youtube.com/channel/UCR2wMFkT8EV9g5y3vJhC0xA
+.. _Customs Handmade: https://www.youtube.com/channel/UC5r4Wd8x8oz6SzWD5fPvgdQ
+.. _Despelothier: https://www.youtube.com/user/Despelothier
+.. _Elías Maximiliano: https://www.youtube.com/channel/UC6R69jZGtzO8uYtTjSHEa5A
+.. _Enredando No Garaxe: https://www.youtube.com/user/Enredandonogaraxe
+.. _Luis Lovon: https://www.youtube.com/user/luislovon
+.. _Moré Hace: https://www.youtube.com/channel/UCApqGP5v_xpIuRpjryz2JTA 
+.. _Proyecto Mueble: https://www.youtube.com/channel/UC20qHzhbXQ3yxD2C1oc83Ew
+
+Más
+---
+
+- `Ana White`_ (hace Tiny Houses)
+- `BearKat Wood`_ (proyectos, hand tools)
+- `Bellevue Woodshop`_ (cosas para el workshop)
+- `Dmitriy Lutsenko`_ (proyectos pequeños)
+- `Dustin Penner`_ (proyectos)
+- `Furniture Workshop`_ (proyectos)
+- `Garage Woodworks`_ (proyectos)
+- `Holzwerken`_ (power tools, jigs, proyectos, todo en alemán)
+- `Incra Tools`_ (puras cosas de Incra, obvio)
+- `Ishitani Furniture`_ (proyectos, muebles minimalistas/japoneses)
+- `Jeremy Schmidt`_
+- `Jim Steinbrecher`_
+- `John Zhu`_ (hand tools, proyectos)
+- `KRT Wood`_ (proyectos elaborados)
+- `Make Something`_ (ideas, proyectos)
+- `McCauley's Design`_ (proyectos, máquinas)
+- `Mirock's Woodshop`_ (ingeniosos dispositivos, workshop)
+- `Rag'n'Bone Brown`_ (proyectos)
+- `Rockler`_ (proyectos, how-tos, máquinas) 
+- `Shop Built`_ (proyectos, jigs, workshop)
+- `Simple Cove`_ (lindos proyectos, workshop)
+- `Steve Carmichael`_ (proyectos)
+- `The Apprentice and the Journeyman`_ (técnicas, jigs, workshop)
+- `William Ng`_ (técnicas)
+- `Wooden Toolman`_ (máquinas, máquinas caseras)
+- `Wood Work Web`_ (host: Colin Knecht, jigs, workshop)
+
+.. _Ana White: https://www.youtube.com/user/knockoffwood
+.. _BearKat Wood: https://www.youtube.com/channel/UCYxF90R-MdZpxLfJNe2InpA
+.. _Bellevue Woodshop: https://www.youtube.com/user/bellevuesnekkeri
+.. _Dmitriy Lutsenko: https://www.youtube.com/channel/UCndKRG9ufNGggPrZclvj2cg
+.. _Dustin Penner: https://www.youtube.com/channel/UCi5vt68L_LY7SWnZeO1ky0w
+.. _Furniture Workshop: https://www.youtube.com/user/FurnitureWorkshop
+.. _Garage Woodworks: https://www.youtube.com/user/GarageWoodworks
+.. _Holzwerken: https://www.youtube.com/user/HolzWerkenTV
+.. _Incra Tools: https://www.youtube.com/user/incratools
+.. _Ishitani Furniture: https://www.youtube.com/channel/UC7FkqjV8SU5I8FCHXQSQe9Q
+.. _Jeremy Schmidt: https://www.youtube.com/channel/UC0T7tvy44mlQCjaTtparOZw
+.. _Jim Steinbrecher: https://www.youtube.com/user/steinie44
+.. _John Zhu: https://www.youtube.com/channel/UCmiUiQOuuqK9lvsclPgCCvQ
+.. _KRT Wood: https://www.youtube.com/user/krtwoodworking
+.. _Make Something: https://www.youtube.com/user/DrunkenWoodworker
+.. _McCauley's Design: https://www.youtube.com/channel/UCMzsLPeyQvCcSyCRX0w9Cdg
+.. _Mirock's Woodshop: https://www.youtube.com/channel/UCJFCZ2slzAMjP6ChFxYPv6A
+.. _Rag'n'Bone Brown: https://www.youtube.com/channel/UCVyE_6jEtVZGmYGXtUOL5FQ
+.. _Rockler: https://www.youtube.com/user/RocklerWoodworking
+.. _Shop Built: https://www.youtube.com/channel/UCZBqq0o54ShN5cSTflT2MnQ
+.. _Simple Cove: https://www.youtube.com/channel/UCmlRWK6jRFi2No_gDBDjwow
+.. _Steve Carmichael: https://www.youtube.com/user/carmichaelworkshop
+.. _The Apprentice and the Journeyman: https://www.youtube.com/user/AppJourneyman
+.. _William Ng: https://www.youtube.com/user/wnwoodworks
+.. _Wooden Toolman: https://www.youtube.com/user/Woodentoolcompany2
+.. _Wood Work Web: https://www.youtube.com/user/knecht105
+
+Inactivos (desde 2015 o antes)
+------------------------------------
+
+- `Beachside Hank`_
+- `Mr Carters Account`_ (tornillos de madera, prensas)
+
+.. _Beachside Hank: https://www.youtube.com/user/BeachsideHank
+.. _Mr Carters Account: https://www.youtube.com/user/MrCartersAccount
+
+Borrados
+--------
+
+- `I am Stankoff`_
+- `Woodworking Plus`_
+
+.. _I am Stankoff: https://www.youtube.com/channel/UC7oREAvodLajK1bOCcwudjA
+.. _Woodworking Plus: https://www.youtube.com/channel/UC9ahr_ahIl8vDgCD7x3TYcA
 
 Cerámica
 ========
@@ -569,6 +649,8 @@ Otros
 - `iBio Education`_
 - `Improv Everywhere`_
 - `Khan Academy`_
+- Trip Smith (ex- `Sailing and Such`_): antes hacía carpintería, ahora es más de
+  camping y kayakismo.
 - `TED Ed`_
 - `The School of Life`_
 - `Veritasium`_
@@ -578,6 +660,7 @@ Otros
 .. _Veritasium: https://www.youtube.com/user/1veritasium
 .. _The School of Life: https://www.youtube.com/user/schooloflifechannel
 .. _TED Ed: https://www.youtube.com/user/TEDEducation
+.. _Sailing and Such: https://www.youtube.com/user/SailingandSuch
 .. _Khan Academy: https://www.youtube.com/user/khanacademy
 .. _Improv Everywhere: https://www.youtube.com/user/ImprovEverywhere
 .. _iBio Education: https://www.youtube.com/user/iBioEducation
