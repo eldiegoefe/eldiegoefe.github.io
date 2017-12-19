@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Certezas Dudosas</title><link>https://eldiegoefe.github.io/</link><description>todo lo liquido se desvanece en el estomago</description><lastBuildDate>Tue, 28 Nov 2017 10:00:00 -0300</lastBuildDate><item><title>Bienvenidos a Scheme</title><link>https://eldiegoefe.github.io/bienvenidos-a-scheme.html</link><description>&lt;p&gt;Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y
+<rss version="2.0"><channel><title>Certezas Dudosas</title><link>https://eldiegoefe.github.io/</link><description>todo lo liquido se desvanece en el estomago</description><lastBuildDate>Fri, 01 Dec 2017 10:00:00 -0300</lastBuildDate><item><title>Instalación y configuración de Emacs</title><link>https://eldiegoefe.github.io/instalacion-y-configuracion-de-emacs.html</link><description>&lt;p&gt;Estos son los pasos que sigo cuando instalo Emacs y Spacemacs, junto con el
+archivo de configuración que guardo en un repositorio&amp;nbsp;privado.&lt;/p&gt;
+&lt;div class="section" id="paso-1-modos-de-instalacion"&gt;
+&lt;h2&gt;Paso 1: Modos de&amp;nbsp;instalación&lt;/h2&gt;
+&lt;div class="section" id="opcion-a-repositorio-con-la-ultima-version-de-emacs"&gt;
+&lt;h3&gt;Opción A: repositorio con la última versión de&amp;nbsp;Emacs&lt;/h3&gt;
+&lt;p&gt;Esta es la manera más facil de instalación, para un un sistema descendiente …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Fri, 01 Dec 2017 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2017-12-01:/instalacion-y-configuracion-de-emacs.html</guid><category>emacs</category></item><item><title>Bienvenidos a Scheme</title><link>https://eldiegoefe.github.io/bienvenidos-a-scheme.html</link><description>&lt;p&gt;Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y
 esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad
 Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp
 que me cautivó en 2014, viajé hasta otro universo computacional y …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Tue, 28 Nov 2017 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2017-11-28:/bienvenidos-a-scheme.html</guid><category>scheme</category><category>lisp</category><category>clojure</category><category>programacion</category></item><item><title>Casitas y minimalismo</title><link>https://eldiegoefe.github.io/casitas-y-minimalismo.html</link><description>&lt;p&gt;Espero el colapso universal, pero es aburrida la inactividad. Por eso consumo,
@@ -48,29 +54,27 @@ excesivamente relleno que puedan estar los churros, las letras y …&lt;/p&gt;&l
 &lt;/div&gt;
 &lt;div class="section" id="carpinteria"&gt;
 &lt;h2&gt;Carpintería&lt;/h2&gt;
+&lt;div class="section" id="los-mas-vistos-por-mi"&gt;
+&lt;h3&gt;Los más vistos (por&amp;nbsp;mi)&lt;/h3&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/knockoffwood"&gt;Ana&amp;nbsp;White&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/angelatedo"&gt;Angelatedo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/AprilWilkersonDIY"&gt;April&amp;nbsp;Wilkerson&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Enredandonogaraxe"&gt;Enredando No&amp;nbsp;Garaxe&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/BeachsideHank"&gt;Beachside&amp;nbsp;Hank&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/bellevuesnekkeri"&gt;Bellevue&amp;nbsp;Woodshop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Despelothier"&gt;Despelothier&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCndKRG9ufNGggPrZclvj2cg"&gt;Dmitriy&amp;nbsp;Lutsenko&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/FineWoodworking"&gt;Fine&amp;nbsp;Woodworking&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/urbanTrash"&gt;Frank&amp;nbsp;Howarth&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/FurnitureWorkshop"&gt;Furniture&amp;nbsp;Workshop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/HolzWerkenTV"&gt;Holzwerken&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC7oREAvodLajK1bOCcwudjA"&gt;I am&amp;nbsp;Stankoff&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/incratools"&gt;Incra&amp;nbsp;Tools&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC7FkqjV8SU5I8FCHXQSQe9Q"&gt;Ishitani&amp;nbsp;Furniture&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/rusticman1973"&gt;Izzy&amp;nbsp;Swan&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Jacka440"&gt;Jack&amp;nbsp;Houweling&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Jayscustomcreations"&gt;Jay Bates 1&lt;/a&gt;, &lt;a class="reference external" href="https://www.youtube.com/user/JCCshorts"&gt;Jay Bates&amp;nbsp;2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC0T7tvy44mlQCjaTtparOZw"&gt;Jeremy&amp;nbsp;Schmidt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/steinie44"&gt;Jim&amp;nbsp;Steinbrecher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Jacka440"&gt;Jack&amp;nbsp;Houweling&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/jpheisz"&gt;John&amp;nbsp;Heisz&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/luislovon"&gt;Luis …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Sat, 26 Nov 2016 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2016-11-26:/youtube.html</guid><category>youtube</category><category>videos</category><category>recomendaciones</category><category>links</category></item><item><title>FreeCAD</title><link>https://eldiegoefe.github.io/freecad.html</link><description>&lt;p&gt;Para proyectar diseños en madera los carpinteros de YouTube suelen usar
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCn7lavsPdVGV0qmEEBT6NyA"&gt;Marius&amp;nbsp;Hornberger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Matthiaswandel"&gt;Matthias&amp;nbsp;Wandel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/crpaulk"&gt;Ron&amp;nbsp;Paulk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/stevinmarin"&gt;Steve&amp;nbsp;Ramsey&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="hibridos-herramientas-electricas-manuales"&gt;
+&lt;h3&gt;Híbridos (herramientas eléctricas +&amp;nbsp;manuales)&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/FineWoodworking"&gt;Fine Woodworking&lt;/a&gt; (de la revista homónima: podcasts, proyectos, shop tours,&amp;nbsp;etc)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/monk1998"&gt;Monkwerks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC06fO6LNH_AUgjbmqaZRV5Q"&gt;The …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Sat, 26 Nov 2016 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2016-11-26:/youtube.html</guid><category>youtube</category><category>videos</category><category>recomendaciones</category><category>links</category></item><item><title>FreeCAD</title><link>https://eldiegoefe.github.io/freecad.html</link><description>&lt;p&gt;Para proyectar diseños en madera los carpinteros de YouTube suelen usar
 SketchUp, que es un software de Google que sólo funciona en Windows y Mac.
 Busqué algún programa que pueda usar con el mismo fin pero en Linux, y encontré
 FreeCAD. Estoy siguiendo un buen tutorial en castellano en &lt;a class="reference external" href="https://www.youtube.com/user/obijuancube"&gt;el …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Fri, 25 Nov 2016 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2016-11-25:/freecad.html</guid><category>freecad</category></item><item><title>Carpintería a pleno</title><link>https://eldiegoefe.github.io/carpinteria-a-pleno.html</link><description>&lt;p&gt;Aunque actualmente no tengo espacio para hacer cosas con madera, me puse a
@@ -439,20 +443,17 @@ Artist en la página &lt;a class="reference external" href="http://matplotlib.or
 &lt;h3&gt;&lt;strong&gt;matplotlib.pyplot&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;a module in matplotlib provides the state machine interface …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Sun, 03 Aug 2014 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2014-08-03:/apuntes-sobre-matplotlib.html</guid><category>matplotlib</category><category>python</category><category>graficacion</category></item><item><title>¿Por qué los palestinos continúan apoyando a Hamas a pesar de sus pérdidas devastadoras?</title><link>https://eldiegoefe.github.io/por-que-los-palestinos-continuan-apoyando-a-hamas-a-pesar-de-sus-perdidas-devastadoras.html</link><description>&lt;p&gt;&lt;strong&gt;Sé de muchos palestinos a quienes les disgusta Hamas. Para ellos, sin embargo, la guerra de Gaza es sobre el bloqueo, parte de su propia guerra de independencia. Los israelíes rechazan darse cuenta de&amp;nbsp;eso.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;En &amp;#8220;The Fog of War&amp;#8221; (&lt;a class="reference external" href="https://www.youtube.com/watch?v=Sh1UBy1Brh4"&gt;Niebla de Guerra&lt;/a&gt;), excelente documental de Errol Morris, el ex …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Fri, 01 Aug 2014 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2014-08-01:/por-que-los-palestinos-continuan-apoyando-a-hamas-a-pesar-de-sus-perdidas-devastadoras.html</guid><category>guerra</category><category>israel</category><category>palestina</category><category>judios</category><category>opinion</category><category>politica</category></item><item><title>Cheat sheet para programación</title><link>https://eldiegoefe.github.io/cheat-sheet-para-programacion.html</link><description>&lt;div class="section" id="enlaces"&gt;
-&lt;h2&gt;Enlaces:&lt;/h2&gt;
-&lt;p&gt;Armé un snippet para colocar links más fácilmente (&lt;a class="reference external" href="https://eldiegoefe.github.io/emacs-y-restructuredtext.html"&gt;lo pueden ver
-aca&lt;/a&gt;), pero igual dejo acá la sintaxis para poner hiperlinks en&amp;nbsp;restructuredText:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-External hyperlinks, like Python_.
-
-.. _Python: http://www.python.org/
-
-External hyperlinks, like `Python &amp;lt;http://www.python.org/&amp;gt;`_.
-
-Wikipedia es `mi sitio favorito`_.
-
-.. _mi sitio …&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Thu, 31 Jul 2014 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2014-07-31:/cheat-sheet-para-programacion.html</guid><category>blog</category><category>restructuredtext</category><category>cheat sheet</category><category>emacs</category></item><item><title>Comunicacion USB con mbed</title><link>https://eldiegoefe.github.io/comunicacion-usb-con-mbed.html</link><description>&lt;p&gt;La comunicación mediante &lt;span class="caps"&gt;USB&lt;/span&gt; con microcontroladores me viene
+&lt;p&gt;En &amp;#8220;The Fog of War&amp;#8221; (&lt;a class="reference external" href="https://www.youtube.com/watch?v=Sh1UBy1Brh4"&gt;Niebla de Guerra&lt;/a&gt;), excelente documental de Errol Morris, el ex …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Fri, 01 Aug 2014 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2014-08-01:/por-que-los-palestinos-continuan-apoyando-a-hamas-a-pesar-de-sus-perdidas-devastadoras.html</guid><category>guerra</category><category>israel</category><category>palestina</category><category>judios</category><category>opinion</category><category>politica</category></item><item><title>Comandos de Emacs y Spacemacs para recordar</title><link>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar.html</link><description>&lt;div class="section" id="yasnippets-company"&gt;
+&lt;h2&gt;Yasnippets /&amp;nbsp;Company&lt;/h2&gt;
+&lt;p&gt;En &lt;a class="reference external" href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings"&gt;la documentación de Spacemacs&lt;/a&gt; están los keybindings. No funciona más &lt;span class="caps"&gt;SPC&lt;/span&gt; i
+s (que mostraba una lista de snippets habilitados para el modo&amp;nbsp;actual).&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;reemplaza la clave previa al punto por el contenido del snippet correspondiente:&amp;nbsp;M-/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="busqueda"&gt;
+&lt;h2&gt;Búsqueda&lt;/h2&gt;
+&lt;p&gt;La búsqueda habitual con i-search (C-s) se potencia al …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Thu, 31 Jul 2014 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2014-07-31:/comandos-de-emacs-y-spacemacs-para-recordar.html</guid><category>blog</category><category>restructuredtext</category><category>cheat sheet</category><category>emacs</category></item><item><title>Comunicacion USB con mbed</title><link>https://eldiegoefe.github.io/comunicacion-usb-con-mbed.html</link><description>&lt;p&gt;La comunicación mediante &lt;span class="caps"&gt;USB&lt;/span&gt; con microcontroladores me viene
 resultando un escollo permanente. El protocolo en sí tiene una
 complejidad que requiere más tiempo de estudio para comprenderlo que
 el que estoy dispuesto a dedicarle, sobre todo porque empecé a leer
@@ -532,6 +533,7 @@ uno era …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elem
 &lt;li&gt;&lt;a class="reference external" href="https://mail.google.com/mail/u/0/#inbox"&gt;Gmail&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.mercadolibre.com.ar/"&gt;Mercado&amp;nbsp;Libre&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Main_Page"&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://eldiegoefe.github.io/youtube.html"&gt;Mi lista de canales de&amp;nbsp;YouTube&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="redes"&gt;
@@ -585,7 +587,4 @@ uno era …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elem
 &lt;div class="section" id="juegos"&gt;
 &lt;h2&gt;Juegos&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Búsquedas en &lt;a class="reference external" href="https://www.google.com.ar/search?q=site%3Agames.chruker.dk&amp;amp;sourceid=opera&amp;amp;ie=UTF-8&amp;amp;oe=UTF-8&amp;amp;gfe_rd=cr&amp;amp;ei=CLSoV_qVNamB8Qfi-6igBg"&gt;Chruker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://wiki.braveineve.com"&gt;Brave&amp;nbsp;Collective&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://eve-central.com"&gt;Eve&amp;nbsp;Central&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://wiki.eveuniversity.org/Main_Page"&gt;Eve …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Fri, 01 Jan 2010 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2010-01-01:/inicio.html</guid><category>links</category></item></channel></rss>
+&lt;li&gt;Búsquedas en …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Fri, 01 Jan 2010 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2010-01-01:/inicio.html</guid><category>links</category></item></channel></rss>

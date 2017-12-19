@@ -1,5 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Certezas Dudosas - El Diego Efe</title><link href="https://eldiegoefe.github.io/" rel="alternate"></link><link href="https://eldiegoefe.github.io/feeds/el-diego-efe.atom.xml" rel="self"></link><id>https://eldiegoefe.github.io/</id><updated>2017-11-28T10:00:00-03:00</updated><entry><title>Bienvenidos a Scheme</title><link href="https://eldiegoefe.github.io/bienvenidos-a-scheme.html" rel="alternate"></link><published>2017-11-28T10:00:00-03:00</published><updated>2017-11-28T10:00:00-03:00</updated><author><name>El Diego Efe</name></author><id>tag:eldiegoefe.github.io,2017-11-28:/bienvenidos-a-scheme.html</id><summary type="html">&lt;p&gt;Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Certezas Dudosas - El Diego Efe</title><link href="https://eldiegoefe.github.io/" rel="alternate"></link><link href="https://eldiegoefe.github.io/feeds/el-diego-efe.atom.xml" rel="self"></link><id>https://eldiegoefe.github.io/</id><updated>2017-12-01T10:00:00-03:00</updated><entry><title>Instalación y configuración de Emacs</title><link href="https://eldiegoefe.github.io/instalacion-y-configuracion-de-emacs.html" rel="alternate"></link><published>2017-12-01T10:00:00-03:00</published><updated>2017-12-01T10:00:00-03:00</updated><author><name>El Diego Efe</name></author><id>tag:eldiegoefe.github.io,2017-12-01:/instalacion-y-configuracion-de-emacs.html</id><summary type="html">&lt;p&gt;Estos son los pasos que sigo cuando instalo Emacs y Spacemacs, junto con el
+archivo de configuración que guardo en un repositorio&amp;nbsp;privado.&lt;/p&gt;
+&lt;div class="section" id="paso-1-modos-de-instalacion"&gt;
+&lt;h2&gt;Paso 1: Modos de&amp;nbsp;instalación&lt;/h2&gt;
+&lt;div class="section" id="opcion-a-repositorio-con-la-ultima-version-de-emacs"&gt;
+&lt;h3&gt;Opción A: repositorio con la última versión de&amp;nbsp;Emacs&lt;/h3&gt;
+&lt;p&gt;Esta es la manera más facil de instalación, para un un sistema descendiente …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Estos son los pasos que sigo cuando instalo Emacs y Spacemacs, junto con el
+archivo de configuración que guardo en un repositorio&amp;nbsp;privado.&lt;/p&gt;
+&lt;div class="section" id="paso-1-modos-de-instalacion"&gt;
+&lt;h2&gt;Paso 1: Modos de&amp;nbsp;instalación&lt;/h2&gt;
+&lt;div class="section" id="opcion-a-repositorio-con-la-ultima-version-de-emacs"&gt;
+&lt;h3&gt;Opción A: repositorio con la última versión de&amp;nbsp;Emacs&lt;/h3&gt;
+&lt;p&gt;Esta es la manera más facil de instalación, para un un sistema descendiente de
+Debian (Ubuntu, Mint,&amp;nbsp;etc).&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ sudo add-apt-repository ppa:ubuntu-elisp/ppa
+$ sudo apt-get update
+$ sudo apt-get install emacs-snapshot emacs-snapshot-el
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="opcion-b-compilacion-desde-un-terminal"&gt;
+&lt;h3&gt;Opción B: compilación desde un&amp;nbsp;terminal&lt;/h3&gt;
+&lt;p&gt;Bajar la versión a instalar desde &lt;a class="reference external" href="http://ftp.gnu.org/gnu/emacs/"&gt;http://ftp.gnu.org/gnu/emacs/&lt;/a&gt; son dos archivos
+.tar.gz y .tar.gz.sig (o sino .tar.xz y .tar.xz.sig). Tiene la ventaja de
+optimizar el programa de acuerdo a la máquina específica en la que va a&amp;nbsp;correr.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ tar -xf emacs-??.?.tar.gz            &lt;span class="p"&gt;;&lt;/span&gt; descomprimir el archivo
+$ &lt;span class="nb"&gt;cd&lt;/span&gt; emacs-??.?                        &lt;span class="p"&gt;;&lt;/span&gt; entrar al directorio
+$ sudo apt-get install build-essential &lt;span class="p"&gt;;&lt;/span&gt; instalar dependencias
+$ sudo apt-get build-dep emacs24       &lt;span class="p"&gt;;&lt;/span&gt; instalar dependencias
+$ ./configure       &lt;span class="p"&gt;;&lt;/span&gt; preparar para compilar
+$ make              &lt;span class="p"&gt;;&lt;/span&gt; compilar
+$ sudo make install &lt;span class="p"&gt;;&lt;/span&gt; instalar
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr class="docutils" /&gt;
+&lt;div class="section" id="paso-2-instalar-spacemacs"&gt;
+&lt;h2&gt;Paso 2: Instalar&amp;nbsp;Spacemacs&lt;/h2&gt;
+&lt;p&gt;Las instrucciones son muy fáciles y están en el &lt;a class="reference external" href="https://github.com/syl20bnr/spacemacs"&gt;github de spacemacs&lt;/a&gt;. Hay que borrar (o guardar en otro
+lado) el directorio ~/.emacs.d/ y luego clonar spacemacs allí con la siguiente&amp;nbsp;orden:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Spacemacs se instalará recién la próxima vez que se inicie&amp;nbsp;Emacs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr class="docutils" /&gt;
+&lt;div class="section" id="paso-3-clonar-archivo-de-configuracion"&gt;
+&lt;h2&gt;Paso 3: Clonar archivo de&amp;nbsp;configuración&lt;/h2&gt;
+&lt;p&gt;En un repositorio de Bitbucket tengo guardados los archivos de configuración de
+distintos programas o sistemas. Principalmente las del sistema operativo y de
+Emacs. Les recomiendo hacer lo mismo, para no tener que reconfigurar el sistema
+de vuelta tras cada&amp;nbsp;reinstalación.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ git clone https://bitbucket.org/mi-usuario/mis-configs
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Luego hay que colocar symlinks desde los lugares en los que estos archivos de
+configuración deberían ser encontrados por el sistema, hacia los archivos en
+cuestión dentro del directorio&amp;nbsp;~/mis-configs.&lt;/p&gt;
+&lt;p&gt;La fórmula es: ln -s /path/to/file&amp;nbsp;/path/to/symlink&lt;/p&gt;
+&lt;p&gt;Por&amp;nbsp;ejemplo:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ ln -s ~/.spacemacs ~/.mis-configs/.spacemacs
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr class="docutils" /&gt;
+&lt;div class="section" id="paso-4-iniciar-emacs"&gt;
+&lt;h2&gt;Paso 4: Iniciar&amp;nbsp;Emacs&lt;/h2&gt;
+&lt;p&gt;Se va a actualizar spacemacs de acuerdo a las configuraciones que recuperamos
+del repositorio. Quizás haya que salir y volver a entrar a Emacs varias veces
+hasta que la instalación se complete&amp;nbsp;exitosamente.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="emacs"></category></entry><entry><title>Bienvenidos a Scheme</title><link href="https://eldiegoefe.github.io/bienvenidos-a-scheme.html" rel="alternate"></link><published>2017-11-28T10:00:00-03:00</published><updated>2017-11-28T10:00:00-03:00</updated><author><name>El Diego Efe</name></author><id>tag:eldiegoefe.github.io,2017-11-28:/bienvenidos-a-scheme.html</id><summary type="html">&lt;p&gt;Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y
 esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad
 Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp
 que me cautivó en 2014, viajé hasta otro universo computacional y …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y
@@ -31,25 +98,26 @@ encontré en la web varios libros y cursos&amp;nbsp;recomendados:&lt;/p&gt;
 &lt;li&gt;el libro &amp;#8220;&lt;a class="reference external" href="https://mitpress.mit.edu/sicp/full-text/book/book.html"&gt;Structure and Interpretation of Computer Programs&lt;/a&gt;&amp;#8221; (comunmente
 llamado &lt;span class="caps"&gt;SICP&lt;/span&gt;) de Harold Abelson, Gerald Jay Sussman y Julie Sussman. &lt;span class="caps"&gt;GJ&lt;/span&gt;
 Sussman fue uno de los dos diseñadores originales de Scheme, junto a su
-discípulo Guy L. Steele&amp;nbsp;Jr.&lt;/li&gt;
+discípulo Guy L. Steele Jr (que diseñó y documentó también otros lenguajes).
+Mientras ellos elaboran nuevos lenguajes uno apenas puede lidiar con el
+ordenamiento de las estanterías del&amp;nbsp;lavadero.&lt;/li&gt;
 &lt;li&gt;el libro &amp;#8220;Scheme and the Art of Programming&amp;#8221; de George Springer y Daniel&amp;nbsp;Friedman&lt;/li&gt;
 &lt;li&gt;el libro &amp;#8220;&lt;a class="reference external" href="https://people.eecs.berkeley.edu/~bh/ss-toc2.html"&gt;Simply Scheme&lt;/a&gt;&amp;#8221; de Brian Harvey y Matthew Wright. Debajo pueden
 ver la tapa de la primera&amp;nbsp;edición.&lt;/li&gt;
 &lt;li&gt;la serie de libros &amp;#8220;The Little Schemer&amp;#8221;, &amp;#8220;The Reasoned Schemer&amp;#8221;, &amp;#8220;The Seasoned
 Schemer&amp;#8221; de Daniel Friedman, Matthias Felleisen, William Byrd y Oleg&amp;nbsp;Kiselyov.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Las clases del 2008 y 2011 del &lt;span class="caps"&gt;CS&lt;/span&gt; 61A dictadas por &lt;a class="reference external" href="https://people.eecs.berkeley.edu/~bh/"&gt;Brian Harvey&lt;/a&gt; pueden verse
-online (hagan click en los años 2008 y 2011 para llegar). Sus clases son muy
-claras y entretenidas. Tanto en estas clases como en la bibliografía el énfasis
-está puesto en estudiar / encontrar / desarrollar / identificar los conceptos
-con los cuales generar abstracciones para resolver problemas con la computadora,
-más que en enseñar la sintaxis de un lenguaje de programación. También está
-disponible online &lt;a class="reference external" href="https://cs61a.org"&gt;el curso &lt;span class="caps"&gt;CS&lt;/span&gt; 61A actual&lt;/a&gt; (cuyo lenguaje principal es
-Python 3) con acceso a todo el material con el que cuentan los alumnos
-(generoso, abrumador, envidiable, es impresionante el interés por enseñar que
-tienen esos equipos de profesores y auxiliares). Acá pueden ver la primera clase
-del 2008 (desde YouTube, el curso también puede verse en &lt;a class="reference external" href="https://archive.org/details/ucberkeley-webcast-PL6879A8466C44A5D5"&gt;Computer Science 61A
-Spring 2008 en el sitio archive.org&lt;/a&gt; entre otros&amp;nbsp;sitios).&lt;/p&gt;
+&lt;p&gt;Las clases del &lt;a class="reference external" href="https://archive.org/details/ucberkeley-webcast-PL6879A8466C44A5D5"&gt;2008&lt;/a&gt; y &lt;a class="reference external" href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs61a-spring2011-berkeley.html"&gt;2011&lt;/a&gt; del &lt;span class="caps"&gt;CS&lt;/span&gt; 61A dictadas por &lt;a class="reference external" href="https://people.eecs.berkeley.edu/~bh/"&gt;Brian Harvey&lt;/a&gt; pueden
+verse online (hagan click en los años &lt;a class="reference external" href="https://archive.org/details/ucberkeley-webcast-PL6879A8466C44A5D5"&gt;2008&lt;/a&gt; y &lt;a class="reference external" href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs61a-spring2011-berkeley.html"&gt;2011&lt;/a&gt; para llegar). Sus clases
+son muy claras y entretenidas. Tanto en estas clases como en la bibliografía el
+énfasis está puesto en estudiar / encontrar / desarrollar / identificar los
+conceptos con los cuales generar abstracciones para resolver problemas con la
+computadora, más que en enseñar la sintaxis de un lenguaje de programación.
+También está disponible online &lt;a class="reference external" href="https://cs61a.org"&gt;el curso &lt;span class="caps"&gt;CS&lt;/span&gt; 61A actual&lt;/a&gt; (cuyo lenguaje
+principal es Python 3) con acceso a todo el material con el que cuentan los
+alumnos (generoso, abrumador, envidiable, es impresionante el interés por
+enseñar que tienen esos equipos de profesores y auxiliares). Acá pueden ver la
+primera clase del 2008 (desde&amp;nbsp;YouTube).&lt;/p&gt;
 &lt;div class="youtube"&gt;&lt;iframe src="https://www.youtube.com/embed/xWZb9U92rgo" width="560" height="315" allowfullscreen seamless frameBorder="0"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;También está online el curso completo &amp;#8220;Structure and Interpretation of Computer
 Science&amp;#8221; basado en el libro homónimo, con &lt;a class="reference external" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/"&gt;las clases de 1986 en video&lt;/a&gt; (la
 primera edición del libro es de 1985, y la segunda de 1996, esta última es la
@@ -1008,29 +1076,27 @@ mejores iglesias de Diagonal&amp;nbsp;73.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="carpinteria"&gt;
 &lt;h2&gt;Carpintería&lt;/h2&gt;
+&lt;div class="section" id="los-mas-vistos-por-mi"&gt;
+&lt;h3&gt;Los más vistos (por&amp;nbsp;mi)&lt;/h3&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/knockoffwood"&gt;Ana&amp;nbsp;White&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/angelatedo"&gt;Angelatedo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/AprilWilkersonDIY"&gt;April&amp;nbsp;Wilkerson&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Enredandonogaraxe"&gt;Enredando No&amp;nbsp;Garaxe&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/BeachsideHank"&gt;Beachside&amp;nbsp;Hank&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/bellevuesnekkeri"&gt;Bellevue&amp;nbsp;Woodshop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Despelothier"&gt;Despelothier&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCndKRG9ufNGggPrZclvj2cg"&gt;Dmitriy&amp;nbsp;Lutsenko&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/FineWoodworking"&gt;Fine&amp;nbsp;Woodworking&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/urbanTrash"&gt;Frank&amp;nbsp;Howarth&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/FurnitureWorkshop"&gt;Furniture&amp;nbsp;Workshop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/HolzWerkenTV"&gt;Holzwerken&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC7oREAvodLajK1bOCcwudjA"&gt;I am&amp;nbsp;Stankoff&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/incratools"&gt;Incra&amp;nbsp;Tools&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC7FkqjV8SU5I8FCHXQSQe9Q"&gt;Ishitani&amp;nbsp;Furniture&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/rusticman1973"&gt;Izzy&amp;nbsp;Swan&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Jacka440"&gt;Jack&amp;nbsp;Houweling&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Jayscustomcreations"&gt;Jay Bates 1&lt;/a&gt;, &lt;a class="reference external" href="https://www.youtube.com/user/JCCshorts"&gt;Jay Bates&amp;nbsp;2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC0T7tvy44mlQCjaTtparOZw"&gt;Jeremy&amp;nbsp;Schmidt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/steinie44"&gt;Jim&amp;nbsp;Steinbrecher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Jacka440"&gt;Jack&amp;nbsp;Houweling&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/jpheisz"&gt;John&amp;nbsp;Heisz&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/luislovon"&gt;Luis …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="cannabis"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCn7lavsPdVGV0qmEEBT6NyA"&gt;Marius&amp;nbsp;Hornberger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Matthiaswandel"&gt;Matthias&amp;nbsp;Wandel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/crpaulk"&gt;Ron&amp;nbsp;Paulk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/stevinmarin"&gt;Steve&amp;nbsp;Ramsey&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="hibridos-herramientas-electricas-manuales"&gt;
+&lt;h3&gt;Híbridos (herramientas eléctricas +&amp;nbsp;manuales)&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/FineWoodworking"&gt;Fine Woodworking&lt;/a&gt; (de la revista homónima: podcasts, proyectos, shop tours,&amp;nbsp;etc)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/monk1998"&gt;Monkwerks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC06fO6LNH_AUgjbmqaZRV5Q"&gt;The …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="cannabis"&gt;
 &lt;h2&gt;Cannabis&lt;/h2&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCxujVPvwusVMxnPqQ0gTnyA"&gt;Grow&amp;nbsp;Barato&lt;/a&gt;&lt;/li&gt;
@@ -1038,48 +1104,105 @@ mejores iglesias de Diagonal&amp;nbsp;73.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="carpinteria"&gt;
 &lt;h2&gt;Carpintería&lt;/h2&gt;
+&lt;div class="section" id="los-mas-vistos-por-mi"&gt;
+&lt;h3&gt;Los más vistos (por&amp;nbsp;mi)&lt;/h3&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/knockoffwood"&gt;Ana&amp;nbsp;White&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/angelatedo"&gt;Angelatedo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/AprilWilkersonDIY"&gt;April&amp;nbsp;Wilkerson&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Enredandonogaraxe"&gt;Enredando No&amp;nbsp;Garaxe&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/BeachsideHank"&gt;Beachside&amp;nbsp;Hank&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/bellevuesnekkeri"&gt;Bellevue&amp;nbsp;Woodshop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Despelothier"&gt;Despelothier&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCndKRG9ufNGggPrZclvj2cg"&gt;Dmitriy&amp;nbsp;Lutsenko&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/FineWoodworking"&gt;Fine&amp;nbsp;Woodworking&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/urbanTrash"&gt;Frank&amp;nbsp;Howarth&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/FurnitureWorkshop"&gt;Furniture&amp;nbsp;Workshop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/HolzWerkenTV"&gt;Holzwerken&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC7oREAvodLajK1bOCcwudjA"&gt;I am&amp;nbsp;Stankoff&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/incratools"&gt;Incra&amp;nbsp;Tools&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC7FkqjV8SU5I8FCHXQSQe9Q"&gt;Ishitani&amp;nbsp;Furniture&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/rusticman1973"&gt;Izzy&amp;nbsp;Swan&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Jacka440"&gt;Jack&amp;nbsp;Houweling&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Jayscustomcreations"&gt;Jay Bates 1&lt;/a&gt;, &lt;a class="reference external" href="https://www.youtube.com/user/JCCshorts"&gt;Jay Bates&amp;nbsp;2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC0T7tvy44mlQCjaTtparOZw"&gt;Jeremy&amp;nbsp;Schmidt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/steinie44"&gt;Jim&amp;nbsp;Steinbrecher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Jacka440"&gt;Jack&amp;nbsp;Houweling&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/jpheisz"&gt;John&amp;nbsp;Heisz&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/luislovon"&gt;Luis&amp;nbsp;Lovon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/DrunkenWoodworker"&gt;Make&amp;nbsp;Something&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCn7lavsPdVGV0qmEEBT6NyA"&gt;Marius&amp;nbsp;Hornberger&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Matthiaswandel"&gt;Matthias&amp;nbsp;Wandel&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/monk1998"&gt;Monkwerks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCMzsLPeyQvCcSyCRX0w9Cdg"&gt;McCauley&amp;#8217;s&amp;nbsp;Design&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/MrCartersAccount"&gt;Mr Carters&amp;nbsp;Account&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/RocklerWoodworking"&gt;Rockler&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/crpaulk"&gt;Ron&amp;nbsp;Paulk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/SailingandSuch"&gt;Sailing and&amp;nbsp;Such&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/carmichaelworkshop"&gt;Steve&amp;nbsp;Carmichael&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/stevinmarin"&gt;Steve&amp;nbsp;Ramsey&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/AppJourneyman"&gt;The Apprentice and the&amp;nbsp;Journeyman&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="hibridos-herramientas-electricas-manuales"&gt;
+&lt;h3&gt;Híbridos (herramientas eléctricas +&amp;nbsp;manuales)&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/FineWoodworking"&gt;Fine Woodworking&lt;/a&gt; (de la revista homónima: podcasts, proyectos, shop tours,&amp;nbsp;etc)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/monk1998"&gt;Monkwerks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC06fO6LNH_AUgjbmqaZRV5Q"&gt;The Samurai&amp;nbsp;Carpenter&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/TheWoodWhisperer"&gt;The Wood&amp;nbsp;Whisperer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/wnwoodworks"&gt;William&amp;nbsp;Ng&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Woodentoolcompany2"&gt;Wooden&amp;nbsp;Toolman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC9ahr_ahIl8vDgCD7x3TYcA"&gt;Woodworking&amp;nbsp;Plus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/knecht105"&gt;Wood Work&amp;nbsp;Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="handtools"&gt;
+&lt;h3&gt;Handtools&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCc3EpWncNq5QL0QhwUNQb7w"&gt;Paul&amp;nbsp;Sellers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/RenaissanceWW"&gt;Renaissance &lt;span class="caps"&gt;WW&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/robc45"&gt;Rob&amp;nbsp;Cosman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCK9d9JGoPgPGXX8oVxCxjcg"&gt;The English&amp;nbsp;Woodworker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCaWR_UvszqJ0xIJYXcep3_w"&gt;Tom Fidgen&lt;/a&gt; (The Unplugged&amp;nbsp;Woodshop)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/WoodAndShop"&gt;Wood and&amp;nbsp;Shop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCbMtJOly6TpO5MQQnNwkCHg"&gt;Wood by&amp;nbsp;Wright&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/woodmasterclass"&gt;Woodworking&amp;nbsp;Masterclass&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/wortheffort"&gt;Worth the&amp;nbsp;Effort&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="latinos"&gt;
+&lt;h3&gt;Latinos&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Botobito"&gt;Andrés Barnett&lt;/a&gt;&amp;nbsp;(Chile)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/angelatedo"&gt;Angelatedo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC23OMNvG6_5hiPBasJuElpw"&gt;Carpintero del Desierto&lt;/a&gt;&amp;nbsp;(Chile)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCR2wMFkT8EV9g5y3vJhC0xA"&gt;Cinco a ocho&lt;/a&gt;&amp;nbsp;(Colombia)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC5r4Wd8x8oz6SzWD5fPvgdQ"&gt;Customs Handmade&lt;/a&gt;&amp;nbsp;(Argentina)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Despelothier"&gt;Despelothier&lt;/a&gt;&amp;nbsp;(España)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC6R69jZGtzO8uYtTjSHEa5A"&gt;Elías Maximiliano&lt;/a&gt;&amp;nbsp;(Argentina)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Enredandonogaraxe"&gt;Enredando No Garaxe&lt;/a&gt;&amp;nbsp;(España)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/luislovon"&gt;Luis Lovon&lt;/a&gt;&amp;nbsp;(Perú)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC20qHzhbXQ3yxD2C1oc83Ew"&gt;Proyecto Mueble&lt;/a&gt;&amp;nbsp;(Argentina)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCApqGP5v_xpIuRpjryz2JTA"&gt;Moré Hace&lt;/a&gt;&amp;nbsp;(Argentina)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mas"&gt;
+&lt;h3&gt;Más&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/knockoffwood"&gt;Ana White&lt;/a&gt; (hace Tiny&amp;nbsp;Houses)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCYxF90R-MdZpxLfJNe2InpA"&gt;BearKat Wood&lt;/a&gt; (proyectos, hand&amp;nbsp;tools)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/bellevuesnekkeri"&gt;Bellevue Woodshop&lt;/a&gt; (cosas para el&amp;nbsp;workshop)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCndKRG9ufNGggPrZclvj2cg"&gt;Dmitriy Lutsenko&lt;/a&gt; (proyectos&amp;nbsp;pequeños)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCi5vt68L_LY7SWnZeO1ky0w"&gt;Dustin Penner&lt;/a&gt;&amp;nbsp;(proyectos)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/FurnitureWorkshop"&gt;Furniture Workshop&lt;/a&gt;&amp;nbsp;(proyectos)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/GarageWoodworks"&gt;Garage Woodworks&lt;/a&gt;&amp;nbsp;(proyectos)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/HolzWerkenTV"&gt;Holzwerken&lt;/a&gt; (power tools, jigs, proyectos, todo en&amp;nbsp;alemán)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/incratools"&gt;Incra Tools&lt;/a&gt; (puras cosas de Incra,&amp;nbsp;obvio)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC7FkqjV8SU5I8FCHXQSQe9Q"&gt;Ishitani Furniture&lt;/a&gt; (proyectos, muebles&amp;nbsp;minimalistas/japoneses)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC0T7tvy44mlQCjaTtparOZw"&gt;Jeremy&amp;nbsp;Schmidt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/steinie44"&gt;Jim&amp;nbsp;Steinbrecher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCmiUiQOuuqK9lvsclPgCCvQ"&gt;John Zhu&lt;/a&gt; (hand tools,&amp;nbsp;proyectos)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/krtwoodworking"&gt;&lt;span class="caps"&gt;KRT&lt;/span&gt; Wood&lt;/a&gt; (proyectos&amp;nbsp;elaborados)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/DrunkenWoodworker"&gt;Make Something&lt;/a&gt; (ideas,&amp;nbsp;proyectos)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCMzsLPeyQvCcSyCRX0w9Cdg"&gt;McCauley&amp;#8217;s Design&lt;/a&gt; (proyectos,&amp;nbsp;máquinas)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCJFCZ2slzAMjP6ChFxYPv6A"&gt;Mirock&amp;#8217;s Woodshop&lt;/a&gt; (ingeniosos dispositivos,&amp;nbsp;workshop)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCVyE_6jEtVZGmYGXtUOL5FQ"&gt;Rag&amp;#8217;n&amp;#8217;Bone Brown&lt;/a&gt;&amp;nbsp;(proyectos)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/RocklerWoodworking"&gt;Rockler&lt;/a&gt; (proyectos, how-tos,&amp;nbsp;máquinas)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCZBqq0o54ShN5cSTflT2MnQ"&gt;Shop Built&lt;/a&gt; (proyectos, jigs,&amp;nbsp;workshop)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCmlRWK6jRFi2No_gDBDjwow"&gt;Simple Cove&lt;/a&gt; (lindos proyectos,&amp;nbsp;workshop)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/carmichaelworkshop"&gt;Steve Carmichael&lt;/a&gt;&amp;nbsp;(proyectos)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/AppJourneyman"&gt;The Apprentice and the Journeyman&lt;/a&gt; (técnicas, jigs,&amp;nbsp;workshop)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/wnwoodworks"&gt;William Ng&lt;/a&gt;&amp;nbsp;(técnicas)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/Woodentoolcompany2"&gt;Wooden Toolman&lt;/a&gt; (máquinas, máquinas&amp;nbsp;caseras)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/knecht105"&gt;Wood Work Web&lt;/a&gt; (host: Colin Knecht, jigs,&amp;nbsp;workshop)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="inactivos-desde-2015-o-antes"&gt;
+&lt;h3&gt;Inactivos (desde 2015 o&amp;nbsp;antes)&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/BeachsideHank"&gt;Beachside&amp;nbsp;Hank&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/MrCartersAccount"&gt;Mr Carters Account&lt;/a&gt; (tornillos de madera,&amp;nbsp;prensas)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="borrados"&gt;
+&lt;h3&gt;Borrados&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC7oREAvodLajK1bOCcwudjA"&gt;I am&amp;nbsp;Stankoff&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC9ahr_ahIl8vDgCD7x3TYcA"&gt;Woodworking&amp;nbsp;Plus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="ceramica"&gt;
 &lt;h2&gt;Cerámica&lt;/h2&gt;
@@ -1380,6 +1503,8 @@ mejores iglesias de Diagonal&amp;nbsp;73.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/iBioEducation"&gt;iBio&amp;nbsp;Education&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/ImprovEverywhere"&gt;Improv&amp;nbsp;Everywhere&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/khanacademy"&gt;Khan&amp;nbsp;Academy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Trip Smith (ex- &lt;a class="reference external" href="https://www.youtube.com/user/SailingandSuch"&gt;Sailing and Such&lt;/a&gt;): antes hacía carpintería, ahora es más de
+camping y&amp;nbsp;kayakismo.&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/TEDEducation"&gt;&lt;span class="caps"&gt;TED&lt;/span&gt;&amp;nbsp;Ed&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/schooloflifechannel"&gt;The School of&amp;nbsp;Life&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/1veritasium"&gt;Veritasium&lt;/a&gt;&lt;/li&gt;
@@ -7211,21 +7336,70 @@ Un palestino llora cerca de los escombros de su casa después de la última rond
 &lt;p&gt;&lt;a class="reference external" href="http://972mag.com/why-do-palestinians-continue-to-support-hamas-despite-such-devastating-loses/94080/"&gt;Link al artículo original (en inglés)&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Publicado: 22 de Julio de&amp;nbsp;2014&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Traducción: El Diego Efe y&amp;nbsp;GoogleTranslator.&lt;/em&gt;&lt;/p&gt;
-</content><category term="guerra"></category><category term="israel"></category><category term="palestina"></category><category term="judios"></category><category term="opinion"></category><category term="politica"></category></entry><entry><title>Cheat sheet para programación</title><link href="https://eldiegoefe.github.io/cheat-sheet-para-programacion.html" rel="alternate"></link><published>2014-07-31T10:00:00-03:00</published><updated>2014-07-31T10:00:00-03:00</updated><author><name>El Diego Efe</name></author><id>tag:eldiegoefe.github.io,2014-07-31:/cheat-sheet-para-programacion.html</id><summary type="html">&lt;div class="section" id="enlaces"&gt;
-&lt;h2&gt;Enlaces:&lt;/h2&gt;
-&lt;p&gt;Armé un snippet para colocar links más fácilmente (&lt;a class="reference external" href="https://eldiegoefe.github.io/emacs-y-restructuredtext.html"&gt;lo pueden ver
-aca&lt;/a&gt;), pero igual dejo acá la sintaxis para poner hiperlinks en&amp;nbsp;restructuredText:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-External hyperlinks, like Python_.
-
-.. _Python: http://www.python.org/
-
-External hyperlinks, like `Python &amp;lt;http://www.python.org/&amp;gt;`_.
-
-Wikipedia es `mi sitio favorito`_.
-
-.. _mi sitio …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="enlaces"&gt;
-&lt;h2&gt;Enlaces:&lt;/h2&gt;
+</content><category term="guerra"></category><category term="israel"></category><category term="palestina"></category><category term="judios"></category><category term="opinion"></category><category term="politica"></category></entry><entry><title>Comandos de Emacs y Spacemacs para recordar</title><link href="https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar.html" rel="alternate"></link><published>2014-07-31T10:00:00-03:00</published><updated>2014-07-31T10:00:00-03:00</updated><author><name>El Diego Efe</name></author><id>tag:eldiegoefe.github.io,2014-07-31:/comandos-de-emacs-y-spacemacs-para-recordar.html</id><summary type="html">&lt;div class="section" id="yasnippets-company"&gt;
+&lt;h2&gt;Yasnippets /&amp;nbsp;Company&lt;/h2&gt;
+&lt;p&gt;En &lt;a class="reference external" href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings"&gt;la documentación de Spacemacs&lt;/a&gt; están los keybindings. No funciona más &lt;span class="caps"&gt;SPC&lt;/span&gt; i
+s (que mostraba una lista de snippets habilitados para el modo&amp;nbsp;actual).&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;reemplaza la clave previa al punto por el contenido del snippet correspondiente:&amp;nbsp;M-/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="busqueda"&gt;
+&lt;h2&gt;Búsqueda&lt;/h2&gt;
+&lt;p&gt;La búsqueda habitual con i-search (C-s) se potencia al …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="yasnippets-company"&gt;
+&lt;h2&gt;Yasnippets /&amp;nbsp;Company&lt;/h2&gt;
+&lt;p&gt;En &lt;a class="reference external" href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings"&gt;la documentación de Spacemacs&lt;/a&gt; están los keybindings. No funciona más &lt;span class="caps"&gt;SPC&lt;/span&gt; i
+s (que mostraba una lista de snippets habilitados para el modo&amp;nbsp;actual).&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;reemplaza la clave previa al punto por el contenido del snippet correspondiente:&amp;nbsp;M-/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="busqueda"&gt;
+&lt;h2&gt;Búsqueda&lt;/h2&gt;
+&lt;p&gt;La búsqueda habitual con i-search (C-s) se potencia al instalar &lt;a class="reference external" href="https://github.com/abo-abo/swiper"&gt;swiper&lt;/a&gt;, que
+ofrece un listado de las lineas del documento donde se encuentran los resultados
+de la&amp;nbsp;búsqueda.&lt;/p&gt;
+&lt;p&gt;También se puede buscar con evil-search-forward (/) que es una variante de
+i-search, pero sólo va a la próxima aparición de la búsqueda y hay que recordar
+cómo ir a los resultados siguientes (C-s) y anteriores (C-r). Es menos&amp;nbsp;visual.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="movimiento"&gt;
+&lt;h2&gt;Movimiento&lt;/h2&gt;
+&lt;p&gt;Se puede saltar facilmente a letras o lineas que aparezcan en pantalla. Dentro
+de Spacemacs las opciones para este tipo de salto están bajo el prefijo &lt;span class="caps"&gt;SPC&lt;/span&gt; j.
+El sistema de búsqueda funciona así: primero se determina qué elemento se busca
+(un caracter, una linea, etc). En caso de que sean letras se ingresa cuál es la
+letra buscada. Como resultado el sistema resalta la ubicación de cada letra o
+linea y muestra en cada lugar un código de dos letras, que se deben pulsar para
+llegar hasta allí. Para ir&amp;nbsp;a:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;un caracter: &lt;span class="caps"&gt;SPC&lt;/span&gt; j j caracter. Por ejemplo, para mostrar las letras z: &lt;span class="caps"&gt;SPC&lt;/span&gt; j
+j&amp;nbsp;z.&lt;/li&gt;
+&lt;li&gt;una linea: &lt;span class="caps"&gt;SPC&lt;/span&gt; j l&amp;nbsp;linea.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Otros movimientos&amp;nbsp;habituales:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;gg: se mueve al principio del&amp;nbsp;documento&lt;/li&gt;
+&lt;li&gt;15 gg: se mueve a la línea 15. Obviamente &amp;#8216;15&amp;#8217; es un&amp;nbsp;ejemplo.&lt;/li&gt;
+&lt;li&gt;G: se mueve al final del&amp;nbsp;documento&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ventanas"&gt;
+&lt;h2&gt;Ventanas&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;dividir ventana verticalmente: &lt;span class="caps"&gt;SPC&lt;/span&gt; w&amp;nbsp;/&lt;/li&gt;
+&lt;li&gt;dividir ventana horizontalmente: &lt;span class="caps"&gt;SPC&lt;/span&gt; w&amp;nbsp;-&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="dired"&gt;
+&lt;h2&gt;Dired&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;convertir buffer en texto editable: C-x&amp;nbsp;C-q&lt;/li&gt;
+&lt;li&gt;aceptar los cambios realizados y finalizar edición: C-c&amp;nbsp;C-c&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="enlaces"&gt;
+&lt;h2&gt;Enlaces&lt;/h2&gt;
 &lt;p&gt;Armé un snippet para colocar links más fácilmente (&lt;a class="reference external" href="https://eldiegoefe.github.io/emacs-y-restructuredtext.html"&gt;lo pueden ver
 aca&lt;/a&gt;), pero igual dejo acá la sintaxis para poner hiperlinks en&amp;nbsp;restructuredText:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
@@ -7242,11 +7416,22 @@ Wikipedia es `mi sitio favorito`_.
 &lt;/div&gt;
 &lt;div class="section" id="indentacion"&gt;
 &lt;h2&gt;Indentación&lt;/h2&gt;
-&lt;p&gt;comando: indent-region. Indenta todo, pero no resguarda las
-indentaciones que el bloque pudo haber tenido, como es usual en los
-códigos de&amp;nbsp;programación.&lt;/p&gt;
-&lt;p&gt;comando: indent-code-rigidly. Mueve todo el bloque a la derecha,
-manteniendo las indentaciones que el bloque haya tenido&amp;nbsp;antes.&lt;/p&gt;
+&lt;p&gt;Primero se selecciona un bloque de texto y&amp;nbsp;luego:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;indent-region. Indenta todo, pero no resguarda las indentaciones que el bloque
+pudo haber tenido, como es usual en los códigos de&amp;nbsp;programación.&lt;/li&gt;
+&lt;li&gt;indent-rigidly (C-x &lt;span class="caps"&gt;TAB&lt;/span&gt;, &lt;span class="caps"&gt;SPC&lt;/span&gt; x &lt;span class="caps"&gt;TAB&lt;/span&gt;). Mueve todo el bloque manteniendo las
+indentaciones que el bloque haya tenido antes. El movimiento se determina
+presionando las flechas (o las teclas &amp;#8216;h&amp;#8217; y &amp;#8216;l&amp;#8217;) luego de invocar el&amp;nbsp;comando.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ayuda"&gt;
+&lt;h2&gt;Ayuda&lt;/h2&gt;
+&lt;p&gt;Para pedir ayuda sobre una&amp;nbsp;función:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Si se sabe el nombre: C-h f&amp;nbsp;nombre-de-la-función&lt;/li&gt;
+&lt;li&gt;Si se sabe el keybinding: C-h k&amp;nbsp;keybinding&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="caracteres"&gt;
 &lt;h2&gt;Caracteres&lt;/h2&gt;
@@ -8472,6 +8657,7 @@ aunque mas no sea de nuevas maquinas e invenciones&amp;nbsp;ficticias.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://mail.google.com/mail/u/0/#inbox"&gt;Gmail&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.mercadolibre.com.ar/"&gt;Mercado&amp;nbsp;Libre&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Main_Page"&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://eldiegoefe.github.io/youtube.html"&gt;Mi lista de canales de&amp;nbsp;YouTube&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="redes"&gt;
@@ -8525,15 +8711,13 @@ aunque mas no sea de nuevas maquinas e invenciones&amp;nbsp;ficticias.&lt;/p&gt;
 &lt;div class="section" id="juegos"&gt;
 &lt;h2&gt;Juegos&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Búsquedas en &lt;a class="reference external" href="https://www.google.com.ar/search?q=site%3Agames.chruker.dk&amp;amp;sourceid=opera&amp;amp;ie=UTF-8&amp;amp;oe=UTF-8&amp;amp;gfe_rd=cr&amp;amp;ei=CLSoV_qVNamB8Qfi-6igBg"&gt;Chruker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://wiki.braveineve.com"&gt;Brave&amp;nbsp;Collective&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://eve-central.com"&gt;Eve&amp;nbsp;Central&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://wiki.eveuniversity.org/Main_Page"&gt;Eve …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="frecuentes"&gt;
+&lt;li&gt;Búsquedas en …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="frecuentes"&gt;
 &lt;h2&gt;Frecuentes&lt;/h2&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://mail.google.com/mail/u/0/#inbox"&gt;Gmail&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.mercadolibre.com.ar/"&gt;Mercado&amp;nbsp;Libre&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Main_Page"&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://eldiegoefe.github.io/youtube.html"&gt;Mi lista de canales de&amp;nbsp;YouTube&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="redes"&gt;
