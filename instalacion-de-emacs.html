@@ -6,10 +6,10 @@
         <meta name="author" content="El Diego Efe" />
         <meta name="copyright" content="El Diego Efe" />
 
-        <meta name="description" content="Este es el primer snippet diseñado para automatizar el encabezado de las paginas hechas en restructuredText, para facilitarme la escritura de este blog. Hay mucha ayuda en la página de Capitao Morte (supongo que es su autor). 1 2 3 4 5 6 7 8 9 10 11 12 13 …
+        <meta name="description" content="Esta secuencia de comandos funciona es para sistemas descendientes de Debian (Ubuntu, Mint, etc) Opción 1: instalar un repositorio (PPA) que provee la última versión de Emacs: $ sudo add-apt-repository ppa:ubuntu-elisp/ppa sudo apt-get update sudo $ apt-get install emacs-snapshot emacs-snapshot-el Opción 2: bajar el programa y compilarlo bajar la versión …
 " />
-<meta name="keywords" content="emacs, yasnippets, tecnicismos, " />
-        <title>Primer&nbsp;snippet  · Certezas Dudosas
+<meta name="keywords" content="emacs, tecnicismos, " />
+        <title>Instalación de&nbsp;Emacs  · Certezas Dudosas
 </title>
         <link href="https://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
@@ -58,87 +58,67 @@
 <article>
 <div class="row-fluid">
     <header class="page_header span10 offset2">
-    <h1><a href="https://eldiegoefe.github.io/primer-snippet.html"> Primer&nbsp;snippet  </a></h1>
+    <h1><a href="https://eldiegoefe.github.io/instalacion-de-emacs.html"> Instalación de&nbsp;Emacs  </a></h1>
     </header>
 </div>
 
 <div class="row-fluid">
         <div class="span8 offset2 article-content">
 
-            <p>Este es el primer snippet diseñado para automatizar el encabezado de
-las paginas hechas en restructuredText, para facilitarme la escritura
-de este blog. Hay mucha ayuda en la <a class="reference external" href="http://capitaomorte.github.io/yasnippet/">página de Capitao Morte</a>
-(supongo que es su&nbsp;autor).</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14</pre></div></td><td class="code"><div class="highlight"><pre><span></span># -<span class="ge">*- mode: snippet; require-final-newline: nil -*</span>-
-# name: encabezado
-# key: enc
-# expand-env: ((yas-indent-line &#39;fixed))
-# --
-
-<span class="nc">:title:</span> <span class="nf">${1:titulo}</span>
-<span class="nc">:date:</span> <span class="nf">${2:2014}-{3:10}-{4:31} {5:10:00}</span>
-<span class="nc">:category:</span> <span class="nf">${6:$$(yas-choose-value &#39;(&quot;blog&quot; &quot;politica&quot; &quot;salud&quot; &quot;tecnicismos&quot;))}</span>
-<span class="nc">:tags:</span> <span class="nf">$7</span>
-<span class="nc">:author:</span> <span class="nf">El Diego Efe</span>
-<span class="nc">:excerpt:</span> <span class="nf">$1</span>
-
-$0
+            <p>Esta secuencia de comandos funciona es para sistemas descendientes de Debian
+(Ubuntu, Mint,&nbsp;etc)</p>
+<div class="section" id="opcion-1-instalar-un-repositorio-ppa-que-provee-la-ultima-version-de-emacs">
+<h2>Opción 1: instalar un repositorio (<span class="caps">PPA</span>) que provee la última versión de&nbsp;Emacs:</h2>
+<div class="highlight"><pre><span></span>$ sudo add-apt-repository ppa:ubuntu-elisp/ppa sudo apt-get update sudo
+$ apt-get install emacs-snapshot emacs-snapshot-el
 </pre></div>
-</td></tr></table><p>En la linea 14 la instrucción $0 se agregó porque en algún lado decía
-que suele ponerse para indicar el lugar de salida cuando se termina de
-ejecutar el&nbsp;snippet.</p>
-<p>La linea 4 está para que la indentación aparezca correcta al
-ejecutarse el snippet, ya que sin
-esta linea aparecían unas tabulaciones&nbsp;erróneas.</p>
-<p><strong>¿Dónde guardar el&nbsp;archivo?</strong></p>
-<p>No conviene guardar el snippet nuevo en el directorio donde se
-almacena automáticamente el paquete <em>yasnippets</em> porque al actualizar
-este paquete se perderá nuestra&nbsp;creación.</p>
-<p>Hay que verificar el valor de la variable donde se almacenan los
-directorios para los snippets personalizados (mediante <strong>M-x
-customize-variable yas-snippet-dirs</strong>). Al chequear veo que uno de los
-directorios es <em>~/.emacs.d/snippets</em> pero cuando me fijo con el
-navegador encuentro que aún no existe, así que lo creo (desde <strong>M-x
-dired</strong>). Luego también creo un subdirectorio para mantener la lógica
-de los nombres bajo
-<em>~/.emacs.d/elpa/yasnippet-<span class="caps">XXXXXXXX</span>.<span class="caps">XXXX</span>/snippets</em>, donde a cada modo
-mayor se le asigna un subdirectorio. Por lo tanto, para mi ultra
-magnífico snippet de restructuredText, corresponde guardarlo así (sin
-ninguna&nbsp;extensión):</p>
-<div class="highlight"><pre><span></span>~/.emacs.d/snippets/rst-mode/encabezado
+</div>
+<div class="section" id="opcion-2-bajar-el-programa-y-compilarlo">
+<h2>Opción 2: bajar el programa y&nbsp;compilarlo</h2>
+<p>bajar la versión a instalar desde <a class="reference external" href="http://ftp.gnu.org/gnu/emacs/">http://ftp.gnu.org/gnu/emacs/</a> son dos
+archivos .tar.gz y .tar.gz.sig o sino .tar.xz y&nbsp;.tar.xz.sig</p>
+<p>descomprimir el tar.gz o el tar.xz&nbsp;con:</p>
+<div class="highlight"><pre><span></span>$ tar -xf emacs-??.?.tar.gz
 </pre></div>
-<p><strong>Otra cosa</strong>: para poder colocar código con números
-de línea en estas páginas (escritas con restructuredText) hay
-que tener en cuenta lo&nbsp;siguiente:</p>
-<blockquote>
-<ul class="simple">
-<li>debajo del <strong>.. code-block::</strong> se debe incluir la directiva
-<strong>:linenos:</strong>. No se si es un bug, pero esa directiva debe estar
-alineada con la palabra <strong>code</strong> para que funcione, y todo el
-bloque de código debe también respetar esta alineación. Para
-tabular un bloque de texto manteniendo las indentaciones que ya
-tiene se puede usar <em>M-x indent-rigidly</em>.</li>
-<li>el nombre del lenguaje en <strong>.. code-block::</strong> parece que debe ir en
-minúsculas, para que sea reconocido y funcione el coloreado con
-pygments. En el caso de restructuredText la palabra clave que
-funcionó (por prueba y error) es rest. (Editado: luego encontré la
-página con los &#8220;lexers&#8221; válidos: <a class="reference external" href="http://pygments.org/docs/lexers/">Available lexers</a>, y vi que
-también eran válidos rst y&nbsp;restructuredtext).</li>
-</ul>
-</blockquote>
+<p>entrar al directorio donde se descomprimieron los archivos: cd&nbsp;emacs-??.?</p>
+<p>instalar dependencias: sudo apt-get install build-essential sudo apt-get
+build-dep&nbsp;emacs24</p>
+<p>compilar el&nbsp;programa:</p>
+<div class="highlight"><pre><span></span>$ ./configure make sudo make install
+</pre></div>
+</div>
+<div class="section" id="instalar-spacemacs">
+<h2>Instalar&nbsp;spacemacs</h2>
+<p>Las instrucciones son muy fáciles y están en <a class="reference external" href="https://github.com/syl20bnr/spacemacs">github de
+spacemacs</a>. Hay que borrar (o
+guardar en otro lado) el directorio ~/.emacs.d/ y luego clonar spacemacs
+allí con la siguiente&nbsp;orden:</p>
+<div class="highlight"><pre><span></span>$ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+</pre></div>
+<p>Spacemacs se instalará solo la próxima vez que se inicie&nbsp;Emacs.</p>
+</div>
+<div class="section" id="clonar-mis-configuraciones">
+<h2>Clonar mis&nbsp;configuraciones</h2>
+<p>En un repositorio de Bitbucket tengo guardados los archivos de
+configuración de distintos programas o sistemas. Principalmente las del
+sistema operativo y de Emacs. Les recomiendo hacer lo mismo, para no
+tener que reconfigurar el sistema de vuelta tras cada&nbsp;reinstalación.</p>
+<div class="highlight"><pre><span></span>$ git clone https://bitbucket.org/mi-usuario/mis-configs
+</pre></div>
+<p>Luego hay que colocar symlinks desde los lugares en los que estos
+archivos de configuración deberían ser encontrados por el sistema, hacia
+los archivos en cuestión dentro del directorio&nbsp;~/mis-configs.</p>
+<p>La fórmula es: ln -s /path/to/file&nbsp;/path/to/symlink</p>
+<p>Por&nbsp;ejemplo:</p>
+<div class="highlight"><pre><span></span>$ ln -s ~/.spacemacs ~/.mis-configs/.spacemacs
+</pre></div>
+</div>
+<div class="section" id="iniciar-emacs">
+<h2>Iniciar&nbsp;Emacs</h2>
+<p>Se va a actualizar spacemacs de acuerdo a las configuraciones que
+recuperamos del repositorio. Quizás haya que salir y volver a entrar a
+Emacs varias veces hasta que la instalación se complete&nbsp;exitosamente.</p>
+</div>
 
 <section>
 <p id="comment-message">No te vayas sin comentar algo del post, de las noticias del día, del clima, que se yo... </p>
@@ -146,8 +126,8 @@ también eran válidos rst y&nbsp;restructuredtext).</li>
     <div class="accordion-group">
         <div class="accordion-heading">
             <a class="accordion-toggle disqus-comment-count" data-toggle="collapse" data-parent="#accordion2"
-                    data-disqus-identifier="primer snippet"
-                href="https://eldiegoefe.github.io/primer-snippet.html#disqus_thread">
+                    data-disqus-identifier="Instalación de Emacs"
+                href="https://eldiegoefe.github.io/instalacion-de-emacs.html#disqus_thread">
                 Comments
             </a>
         </div>
@@ -157,8 +137,8 @@ también eran válidos rst y&nbsp;restructuredtext).</li>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'certezasdudosas';
-        var disqus_identifier = 'primer snippet';
-    var disqus_url = 'https://eldiegoefe.github.io/primer-snippet.html';
+        var disqus_identifier = 'Instalación de Emacs';
+    var disqus_url = 'https://eldiegoefe.github.io/instalacion-de-emacs.html';
 
     (function() {
          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -178,9 +158,7 @@ también eran válidos rst y&nbsp;restructuredtext).</li>
             <nav>
             <ul class="articles_timeline">
  
-                <li class="previous_article">« <a href="https://eldiegoefe.github.io/instalacion-de-linux.html" title="Previous: Instalacion de&nbsp;Linux">Instalacion de&nbsp;Linux</a></li>
- 
-                <li class="next_article"><a href="https://eldiegoefe.github.io/a-punto-para-lisp.html" title="Next: A punto para&nbsp;Lisp">A punto para&nbsp;Lisp</a> »</li>
+                <li class="previous_article">« <a href="https://eldiegoefe.github.io/bienvenidos-a-scheme.html" title="Previous: Bienvenidos a&nbsp;Scheme">Bienvenidos a&nbsp;Scheme</a></li>
             </ul>
             </nav>
             </aside>
@@ -189,16 +167,13 @@ también eran válidos rst y&nbsp;restructuredtext).</li>
         <div class="span2" style="float:right;font-size:0.9em;">
  
             <h4>Published</h4>
-            <time pubdate="pubdate" datetime="2014-08-10T10:02:00-03:00">ago 10, 2014</time>
+            <time pubdate="pubdate" datetime="2017-12-01T10:00:00-03:00">dic 1, 2017</time>
             <h4>Category</h4>
             <a class="category-link" href="/categories.html#tecnicismos-ref">tecnicismos</a> 
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article"> 
                 <li><a href="/tags.html#emacs-ref">emacs
                     <span>17</span>
-</a></li>
-                <li><a href="/tags.html#yasnippets-ref">yasnippets
-                    <span>1</span>
 </a></li>
             </ul>
 
