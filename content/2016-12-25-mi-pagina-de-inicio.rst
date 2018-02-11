@@ -49,22 +49,32 @@ Contenidos
 ----------
 
 - `Feedly`_
+- `LifeHack`_
+- `LifeHacker`_
+- `Make use of`_
+- `Makezine`_
+- `Medium`_
 - `Pocket`_
 - `Reddit`_
   - `BodyWeightFitness`_
   - `Flexibility`_
-- `LifeHacker`_
-- `Medium`_
+- `SmarterWare`_
+- `Steve Pavlina`_
 - `Uses This`_
 
-.. _Uses This: https://usesthis.com
-.. _Medium: https://medium.com
-.. _LifeHacker: http://lifehacker.com
-.. _Flexibility: https://www.reddit.com/r/flexibility/
 .. _BodyWeightFitness: https://www.reddit.com/r/bodyweightfitness/
-.. _Reddit: https://www.reddit.com
-.. _Pocket: https://getpocket.com/a/queue/
 .. _Feedly: http://feedly.com/i/my
+.. _Flexibility: https://www.reddit.com/r/flexibility/
+.. _LifeHack: https://www.lifehack.org
+.. _LifeHacker: http://lifehacker.com
+.. _Make use of: https://www.makeuseof.com
+.. _Makezine: https://makezine.com
+.. _Medium: https://medium.com
+.. _Pocket: https://getpocket.com/a/queue/
+.. _Reddit: https://www.reddit.com
+.. _SmarterWare: http://smarterware.org
+.. _Steve Pavlina: https://www.stevepavlina.com
+.. _Uses This: https://usesthis.com
 
 Noticias
 --------
@@ -79,21 +89,26 @@ Noticias
 Utiles
 ------
 
-- `Avax Home`_
 - `Evernote`_
 - `Ergodox Configurator`_
-- `ProxyBay`_
-- `TParser`_
 - `Google Translate`_
-- `Ergodox Configurator`_
 
-.. _TParser: http://tparser.org
 .. _Ergodox Configurator: https://www.massdrop.com/configurator/ergodox
 .. _Google Translate: https://translate.google.com/
-.. _Avax Home: https://avxhome.se/
-.. _ProxyBay: https://proxybay.one
 .. _Evernote: https://evernote.com
-.. _Ergodox Configurator: https://www.massdrop.com/configurator/ergodox
+
+Descargas
+---------
+
+- `Avax Home`_
+- `Ebook 777`_
+- `ProxyBay`_
+- `TParser`_
+
+.. _Avax Home: https://avxhome.se/
+.. _Ebook 777: http://www.ebook777.com
+.. _ProxyBay: https://proxybay.one
+.. _TParser: http://tparser.org
 
 Juegos
 ------
@@ -105,10 +120,10 @@ Juegos
 - `FCON Forum`_
 
 .. _Brave Collective: https://wiki.braveineve.com
-.. _Chruker: https://www.google.com.ar/search?q=site%3Agames.chruker.dk&sourceid=opera&ie=UTF-8&oe=UTF-8&gfe_rd=cr&ei=CLSoV_qVNamB8Qfi-6igBg
+.. _Chruker: https://www.google.com.ar/search?q=site%3Agames.chruker.dk&sourceid=opera&ie=UTF-8&ohttp://www.woodworkforums.comeminimal=UTF-8&gfe_rd=cr&ei=CLSoV_qVNamB8Qfi-6igBg
 .. _Eve Central: https://eve-central.com
 .. _Eve University: http://wiki.eveuniversity.org/Main_Page
-.. _FCON Forum: https://forums.fcon.us 
+.. _FCON Forum: https://f/everything-woodworking-book/orums.fcon.us 
 
 
 Repositorios
@@ -176,14 +191,18 @@ Homestead
 Carpintería
 ===========
 
+Más enlaces de carpintería en: `Mi lista de canales de YouTube`_.
+
 Foros y bibliografia
 --------------------
 
 - `Woodworkers Heaven`_
 - `Foro de la madera`_
+- `Woodwork Forum`_ (Australia)
 
 .. _Foro de la madera: http://www.foromadera.com
 .. _Woodworkers Heaven: http://www.cro-wood.com
+.. _Woodwork Forum: http://www.woodworkforums.com
 
  
 Comercios
@@ -258,3 +277,10 @@ Foros
 .. _El foro de la madera: http://www.foromadera.com/
 
  
+Otros foros
+-----------
+
+- `El Cuartito DIYer`_
+
+.. _El Cuartito DIYer: http://foro.cuartitodiyer.com
+

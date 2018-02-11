@@ -21,24 +21,34 @@ Carpintería
 Los más vistos (por mi)
 -----------------------
 
-- `April Wilkerson`_
-- `Frank Howarth`_
-- `Izzy Swan`_
-- `Jay Bates 1`_, `Jay Bates 2`_
+- `April Wilkerson`_ / `wilkerdos.com`_
+- `Izzy Swan`_ / `Izzy Swan`_ (website)
 - `Jack Houweling`_
-- `John Heisz`_
+- `Jay Bates 1`_, `Jay Bates 2`_ / `Jay's Custom Creations`_
+- `John Heisz`_ (canal principal) / `I build it`_ (más amplio en temas, videos más detallistas) / `I build it Home Improvement`_ / `I build it scrap bin`_ / `ibuildit.ca`_
 - `Marius Hornberger`_
 - `Matthias Wandel`_
 - `Ron Paulk`_
 - `Steve Ramsey`_
 
 .. _April Wilkerson: https://www.youtube.com/user/AprilWilkersonDIY
-.. _Frank Howarth: https://www.youtube.com/user/urbanTrash
+.. _wilkerdos.com: https://wilkerdos.com
+
 .. _Izzy Swan: https://www.youtube.com/user/rusticman1973
+.. _Izzy Swan: https://www.izzyswan.com
+
 .. _Jack Houweling: https://www.youtube.com/user/Jacka440
+
 .. _Jay Bates 1: https://www.youtube.com/user/Jayscustomcreations
 .. _Jay Bates 2: https://www.youtube.com/user/JCCshorts
+.. _Jay's Custom Creations: https://jayscustomcreations.com
+
 .. _John Heisz: https://www.youtube.com/user/jpheisz
+.. _I build it: https://www.youtube.com/channel/UCzGbp-rRVNwyFhn9gHoZr5g
+.. _I build it Home Improvement: https://www.youtube.com/user/IBuildItHome
+.. _I build it scrap bin: https://www.youtube.com/channel/UCaJsEh2_YxWHMcjASs4cJcA
+.. _ibuildit.ca: https://ibuildit.ca
+
 .. _Marius Hornberger: https://www.youtube.com/channel/UCn7lavsPdVGV0qmEEBT6NyA
 .. _Matthias Wandel: https://www.youtube.com/user/Matthiaswandel
 .. _Ron Paulk: https://www.youtube.com/user/crpaulk
@@ -68,7 +78,7 @@ Handtools
 - `Wood and Shop`_
 - `Wood by Wright`_
 - `Woodworking Masterclass`_
-- `Worth the Effort`_
+- `wortheffort`_ / `wortheffort.com`_
 
 .. _Paul Sellers: https://www.youtube.com/channel/UCc3EpWncNq5QL0QhwUNQb7w
 .. _Renaissance WW: https://www.youtube.com/user/RenaissanceWW
@@ -78,7 +88,8 @@ Handtools
 .. _Wood and Shop: https://www.youtube.com/user/WoodAndShop
 .. _Wood by Wright: https://www.youtube.com/channel/UCbMtJOly6TpO5MQQnNwkCHg
 .. _Woodworking Masterclass: https://www.youtube.com/user/woodmasterclass
-.. _Worth the Effort: https://www.youtube.com/user/wortheffort
+.. _wortheffort: https://www.youtube.com/user/wortheffort
+.. _wortheffort.com: https://wortheffort.com
 
 Latinos
 -------
@@ -109,12 +120,14 @@ Latinos
 
 Más
 ---
+- `Video Woodworkers`_ (enlaces a muchos carpinteros)
 
 - `Ana White`_ (hace Tiny Houses)
 - `BearKat Wood`_ (proyectos, hand tools)
 - `Bellevue Woodshop`_ (cosas para el workshop)
 - `Dmitriy Lutsenko`_ (proyectos pequeños)
 - `Dustin Penner`_ (proyectos)
+- `Frank Howarth`_ / `Frank Makes`_
 - `Furniture Workshop`_ (proyectos)
 - `Garage Woodworks`_ (proyectos)
 - `Holzwerken`_ (power tools, jigs, proyectos, todo en alemán)
@@ -137,11 +150,14 @@ Más
 - `Wooden Toolman`_ (máquinas, máquinas caseras)
 - `Wood Work Web`_ (host: Colin Knecht, jigs, workshop)
 
+.. _Video Woodworkers: http://videowoodworkers.com
 .. _Ana White: https://www.youtube.com/user/knockoffwood
 .. _BearKat Wood: https://www.youtube.com/channel/UCYxF90R-MdZpxLfJNe2InpA
 .. _Bellevue Woodshop: https://www.youtube.com/user/bellevuesnekkeri
 .. _Dmitriy Lutsenko: https://www.youtube.com/channel/UCndKRG9ufNGggPrZclvj2cg
 .. _Dustin Penner: https://www.youtube.com/channel/UCi5vt68L_LY7SWnZeO1ky0w
+.. _Frank Howarth: https://www.youtube.com/user/urbanTrash
+.. _Frank Makes: http://www.frankmakes.com
 .. _Furniture Workshop: https://www.youtube.com/user/FurnitureWorkshop
 .. _Garage Woodworks: https://www.youtube.com/user/GarageWoodworks
 .. _Holzwerken: https://www.youtube.com/user/HolzWerkenTV
