@@ -101,11 +101,13 @@ Descargas
 ---------
 
 - `Avax Home`_
+- `b-ok`_
 - `Ebook 777`_
 - `ProxyBay`_
 - `TParser`_
 
 .. _Avax Home: https://avxhome.se/
+.. _b-ok: http://b-ok.org
 .. _Ebook 777: http://www.ebook777.com
 .. _ProxyBay: https://proxybay.one
 .. _TParser: http://tparser.org

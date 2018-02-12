@@ -22,25 +22,25 @@ Los más vistos (por mi)
 -----------------------
 
 - `April Wilkerson`_ / `wilkerdos.com`_
-- `Izzy Swan`_ / `Izzy Swan`_ (website)
+- `Izzy Swan`_ / `Izzy Web`_
 - `Jack Houweling`_
-- `Jay Bates 1`_, `Jay Bates 2`_ / `Jay's Custom Creations`_
+- `Jay Bates`_, `Vlog and Non Project Videos`_ / `Jay's Custom Creations`_
 - `John Heisz`_ (canal principal) / `I build it`_ (más amplio en temas, videos más detallistas) / `I build it Home Improvement`_ / `I build it scrap bin`_ / `ibuildit.ca`_
-- `Marius Hornberger`_
-- `Matthias Wandel`_
+- `Matthias Wandel`_ / `woodgears.ca`_
 - `Ron Paulk`_
-- `Steve Ramsey`_
+- `Stumpy Nubs`_ / `stumpynubs.com`_
+- `Steve Ramsey`_ / `Home & Garden`_ / `vlog`_
 
 .. _April Wilkerson: https://www.youtube.com/user/AprilWilkersonDIY
 .. _wilkerdos.com: https://wilkerdos.com
 
 .. _Izzy Swan: https://www.youtube.com/user/rusticman1973
-.. _Izzy Swan: https://www.izzyswan.com
+.. _Izzy Web: https://www.izzyswan.com
 
 .. _Jack Houweling: https://www.youtube.com/user/Jacka440
 
-.. _Jay Bates 1: https://www.youtube.com/user/Jayscustomcreations
-.. _Jay Bates 2: https://www.youtube.com/user/JCCshorts
+.. _Jay Bates: https://www.youtube.com/user/Jayscustomcreations
+.. _Vlog and Non Project Videos: https://www.youtube.com/user/JCCshorts
 .. _Jay's Custom Creations: https://jayscustomcreations.com
 
 .. _John Heisz: https://www.youtube.com/user/jpheisz
@@ -49,10 +49,18 @@ Los más vistos (por mi)
 .. _I build it scrap bin: https://www.youtube.com/channel/UCaJsEh2_YxWHMcjASs4cJcA
 .. _ibuildit.ca: https://ibuildit.ca
 
-.. _Marius Hornberger: https://www.youtube.com/channel/UCn7lavsPdVGV0qmEEBT6NyA
 .. _Matthias Wandel: https://www.youtube.com/user/Matthiaswandel
+.. _woodgears.ca: http://woodgears.ca
+
 .. _Ron Paulk: https://www.youtube.com/user/crpaulk
+
+.. _Stumpy Nubs: https://www.youtube.com/user/StumpyNubsWorkshop
+.. _stumpynubs.com: http://www.stumpynubs.com
+
 .. _Steve Ramsey: https://www.youtube.com/user/stevinmarin
+.. _Home & Garden: https://www.youtube.com/user/steveinmarin/videos
+.. _vlog: https://www.youtube.com/user/steveinmarin/videos
+
 
 Híbridos (herramientas eléctricas + manuales)
 ---------------------------------------------
@@ -70,6 +78,7 @@ Híbridos (herramientas eléctricas + manuales)
 Handtools
 ---------
 
+- `Adrian Preda`_
 - `Paul Sellers`_
 - `Renaissance WW`_
 - `Rob Cosman`_
@@ -80,6 +89,7 @@ Handtools
 - `Woodworking Masterclass`_
 - `wortheffort`_ / `wortheffort.com`_
 
+.. _Adrian Preda: https://www.youtube.com/channel/UC0HkNaD01K5VNzE87eMAEvw
 .. _Paul Sellers: https://www.youtube.com/channel/UCc3EpWncNq5QL0QhwUNQb7w
 .. _Renaissance WW: https://www.youtube.com/user/RenaissanceWW
 .. _Rob Cosman: https://www.youtube.com/user/robc45
@@ -96,6 +106,7 @@ Latinos
 
 - `Andrés Barnett`_ (Chile)
 - `Angelatedo`_
+- `Artesanía Almería`_ (España)
 - `Carpintero del Desierto`_ (Chile)
 - `Cinco a ocho`_ (Colombia)
 - `Customs Handmade`_ (Argentina)
@@ -108,6 +119,7 @@ Latinos
 
 .. _Andrés Barnett: https://www.youtube.com/user/Botobito
 .. _Angelatedo: https://www.youtube.com/user/angelatedo
+.. _Artesanía Almería: https://www.youtube.com/channel/UCgM1kx9M--qHUGZcEWwjDpA
 .. _Carpintero del Desierto: https://www.youtube.com/channel/UC23OMNvG6_5hiPBasJuElpw
 .. _Cinco a ocho: https://www.youtube.com/channel/UCR2wMFkT8EV9g5y3vJhC0xA
 .. _Customs Handmade: https://www.youtube.com/channel/UC5r4Wd8x8oz6SzWD5fPvgdQ
@@ -138,6 +150,7 @@ Más
 - `John Zhu`_ (hand tools, proyectos)
 - `KRT Wood`_ (proyectos elaborados)
 - `Make Something`_ (ideas, proyectos)
+- `Marius Hornberger`_
 - `McCauley's Design`_ (proyectos, máquinas)
 - `Mirock's Woodshop`_ (ingeniosos dispositivos, workshop)
 - `Rag'n'Bone Brown`_ (proyectos)
@@ -168,6 +181,7 @@ Más
 .. _John Zhu: https://www.youtube.com/channel/UCmiUiQOuuqK9lvsclPgCCvQ
 .. _KRT Wood: https://www.youtube.com/user/krtwoodworking
 .. _Make Something: https://www.youtube.com/user/DrunkenWoodworker
+.. _Marius Hornberger: https://www.youtube.com/channel/UCn7lavsPdVGV0qmEEBT6NyA
 .. _McCauley's Design: https://www.youtube.com/channel/UCMzsLPeyQvCcSyCRX0w9Cdg
 .. _Mirock's Woodshop: https://www.youtube.com/channel/UCJFCZ2slzAMjP6ChFxYPv6A
 .. _Rag'n'Bone Brown: https://www.youtube.com/channel/UCVyE_6jEtVZGmYGXtUOL5FQ
