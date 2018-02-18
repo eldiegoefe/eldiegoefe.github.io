@@ -149,7 +149,7 @@ Más
 - `Jim Steinbrecher`_
 - `John Zhu`_ (hand tools, proyectos)
 - `KRT Wood`_ (proyectos elaborados)
-- `Make Something`_ (ideas, proyectos)
+- `Make Something`_ (David Picciuto: ideas, proyectos)
 - `Marius Hornberger`_
 - `McCauley's Design`_ (proyectos, máquinas)
 - `Mirock's Woodshop`_ (ingeniosos dispositivos, workshop)
@@ -193,6 +193,114 @@ Más
 .. _William Ng: https://www.youtube.com/user/wnwoodworks
 .. _Wooden Toolman: https://www.youtube.com/user/Woodentoolcompany2
 .. _Wood Work Web: https://www.youtube.com/user/knecht105
+
+Para conocer
+------------
+
+- `Bert de Weert`_
+- `Carl Jacobson`_ (lathe)
+- `Chris Salomone`_
+- `Click Spring`_ (mecanismos)
+- `daddyfixesit 2016`_ (budget middleclass woodworking)
+- `David Barron Furniture`_ (joinery, handtools)
+- `David Waelder`_
+- `DIY Creators`_
+- `Homemade Modern`_
+- `Jackman Works`_
+- `Jon Peters Art & Home`_
+- `Jordan Crawford`_
+- `Kevin Caron`_
+- `Kyle Toth`_
+- `Make it Extreme`_
+- `Modern Builds`_
+- `Mr Chickadee`_
+- `Not Just Sawdust`_
+- `Paul Jenkins`_
+- `Peter Brown`_ (proyectos creativos)
+- `Robs Woodshop`_
+- `Scott Turner`_
+- `The Woodpecker`_ (Alain Vaillancourt)
+- `Wm. Walker Co.`_
+- `Wranglestar`_ (great talk)
+
+
+.. _Chris Salomone: https://www.youtube.com/channel/UC1V-DYqsaj764uBis9-UDug/videos
+.. _Jon Peters Art & Home: https://www.youtube.com/user/jonpeters1000/videos
+.. _Carl Jacobson: https://www.youtube.com/user/haydenHD/videos
+.. _Peter Brown: https://www.youtube.com/user/kludge1977/videos
+.. _Tips From a Shipwright: https://www.youtube.com/user/TipsfromaShipWright/videos
+.. _Wranglestar: https://www.youtube.com/user/wranglerstar/videos
+.. _Jackman Works: https://www.youtube.com/user/JackmanCarpentry/videos
+.. _Wm. Walker Co.: https://www.youtube.com/channel/UCievvwx_-UU-rP28103rUCw/videos
+.. _David Barron Furniture: https://www.youtube.com/user/DavidBarronFurniture/videos
+.. _daddyfixesit 2016: https://www.youtube.com/channel/UCYMYGWLfmMAo5fwkqP9I5yg/videos
+.. _Homemade Modern: https://www.youtube.com/channel/UC6pdMJwtkbCNoQRwbaNt77A
+.. _Modern Builds: https://www.youtube.com/channel/UCIxAaCJ84uefATKmazDyIjw/videos
+.. _Kyle Toth: https://www.youtube.com/user/HomedepotKt/videos
+.. _David Waelder: https://www.youtube.com/user/DavidWaelder/videos
+.. _Click Spring: https://www.youtube.com/channel/UCworsKCR-Sx6R6-BnIjS2MA/videos
+.. _DIY Creators: https://www.youtube.com/channel/UChKlSK39lLg8eZHIX0iVzLA/videos
+.. _Scott Turner: https://www.youtube.com/user/Mrkeepontrying/videos
+.. _Not Just Sawdust: https://www.youtube.com/channel/UC0x8SbjDOIWZM2kAvVEx2hg/videos
+.. _Bert de Weert: https://www.youtube.com/channel/UCn9w4wb-MYSqbWEjenIC1FQ/video
+.. _Mr Chickadee: https://www.youtube.com/channel/UCHkYrJ2Fbe7pBjEZvkFzi3A/videos
+.. _The Woodpecker: https://www.youtube.com/user/lgosseuxdbois
+.. _Kevin Caron: https://www.youtube.com/user/kevincaron
+.. _Jordan Crawford: https://www.youtube.com/user/JordsWoodShop/videos
+.. _Make it Extreme: https://www.youtube.com/channel/UCkhZ3X6pVbrEs_VzIPfwWgQ/videos
+.. _Paul Jenkins: https://www.youtube.com/user/vikingcode/videos
+.. _Robs Woodshop: https://www.youtube.com/channel/UCaozoIoGs6fKrElnwXHicPA/videos
+
+Francés
+-------
+
+- `Le PicBois`_
+- `Samuel Mamias`_ (francés)
+
+.. _Le PicBois: https://www.youtube.com/channel/UCcM_SykaFqrxVnq52MjI6UA/videos
+.. _Samuel Mamias: https://www.youtube.com/channel/UC9fGq2-6FaftcegcIadLf6A/videos
+
+Portugués
+---------
+
+- `Tudo de Paletes`_
+- `Oficina de Casa`_
+- `Adilson Pinheiro`_
+- `Dimas Goiano`_
+- `Eduardo Casa Grande`_
+- `Marcenaria Amadora`_
+
+.. _Tudo de Paletes: https://www.youtube.com/channel/UC17W4Yc5Ejexhp5Mb_hhUXQ/videos
+.. _Oficina de Casa: https://www.youtube.com/user/OficinaDeCasaComBr/videos
+.. _Adilson Pinheiro: https://www.youtube.com/user/Adilsonpinheiro/videos
+.. _Dimas Goiano: https://www.youtube.com/user/dimasgoiano/videos
+.. _Eduardo Casa Grande: https://www.youtube.com/user/eduardokasagrande/videos
+.. _Marcenaria Amadora: https://www.youtube.com/user/MarcenariaAmadora/videos
+
+Woodturners
+-----------
+
+- `Keith Fenner`_
+- `SV Seeker`_
+
+.. _Keith Fenner: https://www.youtube.com/user/KEF791/videos
+.. _SV Seeker: https://www.youtube.com/user/submarineboat/videos
+
+Machinists
+----------
+
+- `Mr Crispin`_
+
+.. _Mr Crispin: https://www.youtube.com/user/MrCrispin96/videos
+
+Blacksmithing
+-------------
+
+- `Torbjörn Åhman`_
+- `Walter Sorrels`_ (fabricación de cuchillos, formones, espadas)
+
+.. _Torbjörn Åhman: https://www.youtube.com/user/torbjornahman/videos
+.. _Walter Sorrels: https://www.youtube.com/user/slappybuckshot/videos
 
 Inactivos (desde 2015 o antes)
 ------------------------------------

@@ -195,14 +195,16 @@ Carpintería
 
 Más enlaces de carpintería en: `Mi lista de canales de YouTube`_.
 
-Foros y bibliografia
---------------------
+Foros, utilidades y bibliografia
+--------------------------------
 
-- `Woodworkers Heaven`_
 - `Foro de la madera`_
+- `Sketchup`_
+- `Woodworkers Heaven`_
 - `Woodwork Forum`_ (Australia)
 
 .. _Foro de la madera: http://www.foromadera.com
+.. _Sketchup: https://app.sketchup.com/app?hl=en
 .. _Woodworkers Heaven: http://www.cro-wood.com
 .. _Woodwork Forum: http://www.woodworkforums.com
 
@@ -250,6 +252,7 @@ Blogs
 - `Artisan Flamingo`_
 - `Carpintería para aficionados`_
 - `Brico-Carpintería`_
+- `Experimento casa`_
 - `Sandal Woods`_
 - `The wood whisperer`_
 - `She works wood`_
@@ -263,6 +266,7 @@ Blogs
 .. _She works wood: https://sheworkswood.com
 .. _The wood whisperer: http://www.thewoodwhisperer.com
 .. _Sandal Woods: http://sandal-woodsblog.com
+.. _Experimento casa: https://experimentocasa.com
 .. _Brico-Carpintería: http://brico-carpinteria.blogspot.com.ar
 .. _Carpintería para aficionados: http://carpinteriaparaaficionados.blogspot.com.ar/
 .. _Artisan Flamingo: https://web.archive.org/web/20120306021939/http://artisanflamingo.blogspot.com/
