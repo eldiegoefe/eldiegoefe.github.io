@@ -125,7 +125,6 @@ pelican-quickstart y además editar manualmente el archivo para
 completar los datos, queda así:
 
 .. code-block:: python
-   :linenos:
 
    #!/usr/bin/env python
    # -*- coding: utf-8 -*- #
@@ -167,7 +166,6 @@ Y el contenido de publishconf.py queda así:
 
 
 .. code-block:: python
-   :linenos:
 
    #!/usr/bin/env python
    # -*- coding: utf-8 -*- #
@@ -253,19 +251,33 @@ agregado de nuevos archivos *.md* o *.rst*, tanto como la modificación
 de los existentes) se refleja inmediatamente en cómo se ve el sitio
 desde el servidor local.
 
-Para usarlo se requiere prestar atención:
+Para usarlo se requiere prestar atención. Activar el entorno virtual *blogs* en
+dos terminales distintos. A continuación lo muestro con el uso de pyenv, aunque
+no haya explicado nada antes sobre esta alternativa de manejo de virtualenvs.
+Vayamos al grano, en un terminal ejecutar esto:
 
-1. Activar el entorno virtual *blogs* en dos terminales distintos
-   (debe estar activo virtualenvwrapper en ambos y ejecuta en cada uno
-   *workon blogs*).
+.. code-block:: console
 
-2. En un terminal hay que ejecutar **make regenerate** y en el otro
-   **make serve**.
+   $ pyenv activate blogs
+   (blogs)$ cd ~/blogs/eldiegoefe.github.io/
+   (blogs)$ make regenerate
+
+En otro terminal, hacer lo propio:
+
+.. code-block:: console
+
+   $ pyenv activate blogs
+   (blogs)$ cd ~/blogs/eldiegoefe.github.io/
+   (blogs)$ make serve
 
 De este modo el sitio se regenera ante cualquier edición de su
 contenido, y permanece accesible en http://localhost:8000 (no hay que
 olvidar que el navegador debe recargar las páginas editadas para ver
-los cambios).
+los cambios). Tengan presente que si hay algún error, el *regenerate* finaliza
+indicando cuál fue el problema (lo muestra en el terminal) y por más que
+actualicemos la página en el navegador no veremos cambios. Habrá que corregir
+los errores de las páginas que estemos modificando y luego volver a ejecutar
+el *make regenerate*.
 
 Subir el sitio al repositorio remoto
 ====================================

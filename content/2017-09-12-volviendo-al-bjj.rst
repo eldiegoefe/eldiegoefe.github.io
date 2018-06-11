@@ -22,7 +22,7 @@ Fue así que decidí comprometerme con una actividad con horario fijo, por más 
 rehuyo de todo tipo de obligaciones horarias. Después de dos años de inactividad
 marcial volví a entrenar en Jiu Jitsu Brasileño (BJJ) en una academia local (a
 metros de las 5 esquinas, en Paraná, gracias a la insistencia de mi nunca tan
-bien ponderado amigo personal multitarea *el Gabi*, que también me asiste en con
+bien ponderado amigo personal multitarea *el Gabi*, que también me asiste en
 reparaciones hogareñas, labores de herrería y carpintería, contratataciones al
 0800-elGabi). Hasta ahora fui a tres clases y estoy contento. Los alumnos son
 respetuosos y nadie se excedió en los intentos de estrangularme o dislocarme las

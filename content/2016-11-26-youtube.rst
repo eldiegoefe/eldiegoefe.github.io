@@ -90,7 +90,7 @@ Handtools
 - `wortheffort`_ / `wortheffort.com`_
 
 .. _Adrian Preda: https://www.youtube.com/channel/UC0HkNaD01K5VNzE87eMAEvw
-.. _Paul Sellers: https://www.youtube.com/channel/UCc3EpWncNq5QL0QhwUNQb7w
+.. _Paul Sellers: https://www.youtube.com/ceste me parece que es la postahannel/UCc3EpWncNq5QL0QhwUNQb7w
 .. _Renaissance WW: https://www.youtube.com/user/RenaissanceWW
 .. _Rob Cosman: https://www.youtube.com/user/robc45
 .. _The English Woodworker: https://www.youtube.com/channel/UCK9d9JGoPgPGXX8oVxCxjcg
@@ -198,7 +198,6 @@ Para conocer
 ------------
 
 - `Bert de Weert`_
-- `Carl Jacobson`_ (lathe)
 - `Chris Salomone`_
 - `Click Spring`_ (mecanismos)
 - `daddyfixesit 2016`_ (budget middleclass woodworking)
@@ -224,9 +223,9 @@ Para conocer
 - `Wranglestar`_ (great talk)
 
 
+.. _Bert de Weert: https://www.youtube.com/channel/UCn9w4wb-MYSqbWEjenIC1FQ/videos
 .. _Chris Salomone: https://www.youtube.com/channel/UC1V-DYqsaj764uBis9-UDug/videos
 .. _Jon Peters Art & Home: https://www.youtube.com/user/jonpeters1000/videos
-.. _Carl Jacobson: https://www.youtube.com/user/haydenHD/videos
 .. _Peter Brown: https://www.youtube.com/user/kludge1977/videos
 .. _Tips From a Shipwright: https://www.youtube.com/user/TipsfromaShipWright/videos
 .. _Wranglestar: https://www.youtube.com/user/wranglerstar/videos
@@ -242,9 +241,8 @@ Para conocer
 .. _DIY Creators: https://www.youtube.com/channel/UChKlSK39lLg8eZHIX0iVzLA/videos
 .. _Scott Turner: https://www.youtube.com/user/Mrkeepontrying/videos
 .. _Not Just Sawdust: https://www.youtube.com/channel/UC0x8SbjDOIWZM2kAvVEx2hg/videos
-.. _Bert de Weert: https://www.youtube.com/channel/UCn9w4wb-MYSqbWEjenIC1FQ/video
 .. _Mr Chickadee: https://www.youtube.com/channel/UCHkYrJ2Fbe7pBjEZvkFzi3A/videos
-.. _The Woodpecker: https://www.youtube.com/user/lgosseuxdbois
+.. _The Woodpecker: https://www.youtube.com/user/lgosseuxdbois/videos
 .. _Kevin Caron: https://www.youtube.com/user/kevincaron
 .. _Jordan Crawford: https://www.youtube.com/user/JordsWoodShop/videos
 .. _Make it Extreme: https://www.youtube.com/channel/UCkhZ3X6pVbrEs_VzIPfwWgQ/videos
@@ -255,7 +253,7 @@ Francés
 -------
 
 - `Le PicBois`_
-- `Samuel Mamias`_ (francés)
+- `Samuel Mamias`_ 
 
 .. _Le PicBois: https://www.youtube.com/channel/UCcM_SykaFqrxVnq52MjI6UA/videos
 .. _Samuel Mamias: https://www.youtube.com/channel/UC9fGq2-6FaftcegcIadLf6A/videos
@@ -280,9 +278,11 @@ Portugués
 Woodturners
 -----------
 
+- `Carl Jacobson`_ (lathe)
 - `Keith Fenner`_
 - `SV Seeker`_
 
+.. _Carl Jacobson: https://www.youtube.com/user/haydenHD/videos
 .. _Keith Fenner: https://www.youtube.com/user/KEF791/videos
 .. _SV Seeker: https://www.youtube.com/user/submarineboat/videos
 
@@ -449,6 +449,7 @@ BJJ y MMA
 - `BJJ Scout`_
 - `BJJ Weekly`_
 - `Charlie from the plaza`_
+- `Chewjitsu`_
 - `Gracie Breakdown`_
 - `Guilherme and Rafael Mendes`_
 - `Kurt Osiander Move of the Week`_
@@ -456,7 +457,14 @@ BJJ y MMA
 - `Roy Dean`_
 - `Stephan Kesting`_
 - `Stephen Whittier`_
+- `The Grappling Academy`_
 
+.. _Art of Jiu Jitsu Academy: https://www.youtube.com/channel/UCJNi-p8f0nnB3cf_ujYm3Fg
+.. _BJJ Joe: https://www.youtube.com/user/joelovesfishin
+.. _BJJ Scout: https://www.youtube.com/user/BJJSCOUT
+.. _BJJ Weekly: https://www.youtube.com/user/bjjweekly
+.. _Charlie from the plaza: https://www.youtube.com/user/CharlieMcShaneFilms
+.. _Chewjitsu: https://www.youtube.com/user/chewybjj/videos
 .. _Stephen Whittier: https://www.youtube.com/user/nexusma1
 .. _Stephan Kesting: https://www.youtube.com/user/StephanKesting
 .. _Roy Dean: https://www.youtube.com/user/uchideshi
@@ -464,11 +472,7 @@ BJJ y MMA
 .. _Kurt Osiander Move of the Week: https://www.youtube.com/user/ralphgracie
 .. _Guilherme and Rafael Mendes: https://www.youtube.com/user/mendesbros
 .. _Gracie Breakdown: https://www.youtube.com/user/GracieBreakdown
-.. _Art of Jiu Jitsu Academy: https://www.youtube.com/channel/UCJNi-p8f0nnB3cf_ujYm3Fg
-.. _BJJ Weekly: https://www.youtube.com/user/bjjweekly
-.. _BJJ Joe: https://www.youtube.com/user/joelovesfishin
-.. _BJJ Scout: https://www.youtube.com/user/BJJSCOUT
-.. _Charlie from the plaza: https://www.youtube.com/user/CharlieMcShaneFilms
+.. _The Grappling Academy: https://www.youtube.com/channel/UCA5inPIH7dvYLAcAg5Wt8mg/videos
 
 Fitness
 -------
@@ -518,6 +522,7 @@ Calistenia
 - `Calisthenics vs Age`_
 - `El Eggs`_
 - `GymRa`_
+- `Red Delta Project`_
 
 .. _GymRa: https://www.youtube.com/user/Gymra1
 .. _El Eggs: https://www.youtube.com/user/twioxkickz
@@ -526,15 +531,66 @@ Calistenia
 .. _Calisthenics Kingz: https://www.youtube.com/user/calisthenicskingz/
 .. _Calisthenics and Weight Training: https://www.youtube.com/user/fitnessclown
 .. _Calisthenics vs Age: https://www.youtube.com/channel/UCMyKsbZZfBL2YM575sINW5w
+.. _Red Delta Project: https://www.youtube.com/user/RedDeltaproject/videos
 
 Yoga
 ----
 
+- `Cody`_ (Dylan Werner y muchos más).
+- `Ekhart Yoga YouTube`_
 - `Kino Yoga`_
 - `Neil Keleher`_
+- `Yoga with Adriene`_
+- `Yoga with Tim`_
 
-.. _Neil Keleher: https://www.youtube.com/user/neilkeleher
+.. _Cody: https://www.youtube.com/channel/UCsksmxdgJtJp18iMYQpJg0A
+.. _Ekhart Yoga YouTube: https://www.youtube.com/user/yogatic/videos
 .. _Kino Yoga: https://www.youtube.com/user/KinoYoga
+.. _Neil Keleher: https://www.youtube.com/user/neilkeleher
+.. _Yoga with Adriene: https://www.youtube.com/user/yogawithadriene/videos
+.. _Yoga with Tim: https://www.youtube.com/user/yogawithtim/videos
+
+Yoga (sitios pagos y gratuitos)
+-------------------------------
+
+- `Antranik Yoga`_
+- `CodyApp`_ (pago)
+- `DoYogaWithMe`_
+- `Ekhart Yoga`_
+- `Gaia`_
+- `OmStars`_
+- `oneOeight`_
+- `The Yoga Collective`_
+- `Udaya`_
+- `Yoga Anytime`_
+- `YogaGlo`_ (pago)
+- `Yoga International`_
+- `Yoga Vibes`_
+- `Yogis Anonymous`_
+
+.. _Antranik Yoga: http://antranik.org/yoga-at-home/
+.. _CodyApp: https://www.codyapp.com
+.. _DoYogaWithMe: https://www.doyogawithme.com
+.. _Ekhart Yoga: https://www.ekhartyoga.com
+.. _Gaia: https://www.gaia.com
+.. _OmStars: https://omstars.com
+.. _oneOeight: https://oneoeight.com
+.. _The Yoga Collective: https://www.theyogacollective.com
+.. _Udaya: https://udaya.com
+.. _Yoga Anytime: https://www.yogaanytime.com
+.. _YogaGlo: https://www.yogaglo.com
+.. _Yoga International: https://yogainternational.com
+.. _Yoga Vibes: https://www.yogavibes.com
+.. _Yogis Anonymous: https://yogisanonymous.com/
+
+Yoga Apps
+---------
+
+- `Down Dog`_
+- `Yoga Studio`_
+
+.. _Yoga Studio: http://www.yogastudioapp.com/
+.. _Down Dog: https://www.downdogapp.com/
 
 Home Improvement
 ================

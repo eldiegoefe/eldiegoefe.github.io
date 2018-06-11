@@ -15,11 +15,13 @@ Frecuentes
 - `Mercado Libre`_
 - `Wikipedia`_
 - `Mi lista de canales de YouTube`_
+- `Book Depository`_
 
 .. _Mi lista de canales de YouTube: |filename|/2016-11-26-youtube.rst
 .. _Wikipedia: https://en.wikipedia.org/wiki/Main_Page
 .. _Gmail: https://mail.google.com/mail/u/0/#inbox
 .. _Mercado Libre: http://www.mercadolibre.com.ar/
+.. _Book Depository: https://www.bookdepository.com
 
 Redes
 -----
@@ -103,14 +105,18 @@ Descargas
 - `Avax Home`_
 - `b-ok`_
 - `Ebook 777`_
+- `epublibre`_
 - `ProxyBay`_
 - `TParser`_
+- `Unblocked`_
 
 .. _Avax Home: https://avxhome.se/
 .. _b-ok: http://b-ok.org
 .. _Ebook 777: http://www.ebook777.com
+.. _epublibre: https://epublibre.org/inicio/index
 .. _ProxyBay: https://proxybay.one
 .. _TParser: http://tparser.org
+.. _Unblocked: https://unblocked.mx/
 
 Juegos
 ------

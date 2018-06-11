@@ -2,7 +2,7 @@
 :title: Backup con RSync
 :date: 2017-06-21 10:00
 :category: tecnicismos
-:tags: rsync, backup
+:tags: rsync, backup, linux
 :author: El Diego Efe
 :excerpt: Backup con RSync
 :disqus_identifier: Backup con RSync
@@ -104,8 +104,8 @@ directorio hacia un destino, siendo la diferencia el uso de un *trailing slash*
 
 .. code-block:: terminal
 
-   rsync -av /src/foo /dest
-   rsync -av /src/foo/ /dest/foo
+   rsync -av /origen/foo /destino
+   rsync -av /origen/foo/ /destino/foo
 
 En el primer caso se copia el directorio foo dentro del directorio destino dest.
 En cambio con el trailing slash indicamos que lo que se copia es el contenido
@@ -132,9 +132,18 @@ Otro ejemplo es la copia que hago de mi colección de libros organizados con Cal
 
    $ rsync -avh --progress --delete ~/calibre/ /media/diego/biblioteca/espejo-del-rigido/calibre
 
-La primera vez que ejecute esta orden consumirá más tiempo porque RSync debe
-copiar todos los archivos, ya que el destino estaba vacío. Sin embargo, en
-ejecuciones posteriores se compararán los directorios de origen y destino, y
-sólo se copiará aquello que haya cambiado (o se borrarán aquellos archivos en el
-directorio de destino que se hayan eliminado del directorio de origen). Con este
-modo de hacer backup, me cambió la vida.
+               
+Un último ejemplo: de un rígido externo a otro (porque hay que hacer backup del
+backup de vez en cuando).
+
+.. code-block:: terminal
+
+   $ rsync -avh --progress --delete /media/diego/biblioteca/mantener-backup/ /media/diego/backup/mantener-backup
+   $ rsync -avh --progress --delete /media/diego/biblioteca/fotos-videos/ /media/diego/backup/fotos-videos
+
+La primera vez que se ejecute rsync, cuando el destino está vacío, consumirá más
+tiempo porque debe copiar todos los archivos. Sin embargo, en ejecuciones
+posteriores se compararán los directorios de origen y destino, y sólo se copiará
+aquello que haya cambiado (o se borrarán aquellos archivos en el directorio de
+destino que se hayan eliminado del directorio de origen). Este modo de hacer
+backup me cambió la vida.
