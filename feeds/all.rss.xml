@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Certezas Dudosas</title><link>https://eldiegoefe.github.io/</link><description>todo lo liquido se desvanece en el estomago</description><lastBuildDate>Fri, 01 Dec 2017 10:00:00 -0300</lastBuildDate><item><title>Instalación y configuración de Emacs</title><link>https://eldiegoefe.github.io/instalacion-y-configuracion-de-emacs.html</link><description>&lt;p&gt;Estos son los pasos que sigo cuando instalo Emacs y Spacemacs, junto con el
+<rss version="2.0"><channel><title>Certezas Dudosas</title><link>https://eldiegoefe.github.io/</link><description>todo lo liquido se desvanece en el estomago</description><lastBuildDate>Thu, 19 Apr 2018 10:00:00 -0300</lastBuildDate><item><title>Instalacion de PyQt</title><link>https://eldiegoefe.github.io/instalacion-de-pyqt.html</link><description>&lt;p&gt;Este es un post-ayudamemoria para la instalación de PyQt en un entorno virtual.
+Tengo la impresión de que lo escribí ya en el blog pero no lo encuentro ni con
+los buscadores más buscados (ag, ack,&amp;nbsp;pt):&lt;/p&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p class="first"&gt;Activar el virtualenv, asumiendo que están instalados pyenv y
+pyenv-virtualenvs (también tendría que …&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Thu, 19 Apr 2018 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2018-04-19:/instalacion-de-pyqt.html</guid><category>python</category><category>pyqtgraph</category><category>pyqt</category><category>qt</category><category>sip</category><category>software</category></item><item><title>Enlaces sobre Yoga</title><link>https://eldiegoefe.github.io/enlaces-sobre-yoga.html</link><description>&lt;div class="section" id="youtube"&gt;
+&lt;h2&gt;YouTube&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/davidgarrigues/videos"&gt;Asana Kitchen with David&amp;nbsp;Garrigues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/brendamedinayoga/videos"&gt;Brenda&amp;nbsp;Medina&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC3BdB0N91D2PBGDc9GkYoHw/videos"&gt;Cosmin&amp;nbsp;Yogi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/yogatic/videos"&gt;Ekhart Yoga&amp;nbsp;YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/lesleyfightmaster/videos"&gt;Fightmaster&amp;nbsp;Yoga&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/KinoYoga"&gt;Kino&amp;nbsp;Yoga&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/neilkeleher"&gt;Neil&amp;nbsp;Keleher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/YogaGoa/videos"&gt;Purple Valley Ashtanga&amp;nbsp;Yoga&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/yogawithadriene/videos"&gt;Yoga with&amp;nbsp;Adriene&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/yogawithtim/videos"&gt;Yoga with&amp;nbsp;Tim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Argentina:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/AshtangaBaires/videos"&gt;Ashtanga&amp;nbsp;Baires&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCmypYsSN-8a5-u-AlCJgQfw"&gt;Ashtanga Santa&amp;nbsp;Fe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCPaXhfmVRniwtjBWPfFj-YQ/videos"&gt;Ashtanga Yoga&amp;nbsp;Córdoba&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/german222full/videos"&gt;Germán&amp;nbsp;Garro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCOeAKujhAaoQKMxSWa3ZcVw"&gt;Sambara Escuela de&amp;nbsp;Yoga&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="blogs-journals-zines"&gt;
+&lt;h2&gt;Blogs, Journals,&amp;nbsp;Zines&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://antranik.org/yoga-at-home/"&gt;Antranik&amp;nbsp;Yoga&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://argentinaashtangaproject.wordpress.com"&gt;Argentina …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Wed, 21 Mar 2018 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2018-03-21:/enlaces-sobre-yoga.html</guid><category>yoga</category></item><item><title>Instalación y configuración de Emacs</title><link>https://eldiegoefe.github.io/instalacion-y-configuracion-de-emacs.html</link><description>&lt;p&gt;Estos son los pasos que sigo cuando instalo Emacs y Spacemacs, junto con el
 archivo de configuración que guardo en un repositorio&amp;nbsp;privado.&lt;/p&gt;
 &lt;div class="section" id="paso-1-modos-de-instalacion"&gt;
 &lt;h2&gt;Paso 1: Modos de&amp;nbsp;instalación&lt;/h2&gt;
@@ -26,7 +58,7 @@ abrumadora si aparecen muchos subdirectorios anidados con incierto contenido
 dentro de los …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Sun, 03 Sep 2017 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2017-09-03:/peso-de-los-directorios-en-linux.html</guid><category>linux</category></item><item><title>Backup con RSync</title><link>https://eldiegoefe.github.io/backup-con-rsync.html</link><description>&lt;p&gt;RSync es un programa que permite copiar archivos, pero a diferencia de un
 copiado común, compara los archivos de origen y destino y sólo realiza la
 transferencia de la diferencia entre ambos: si son iguales no transfiere nada,
-si es un archivo de texto y se agregó sólo un caracter …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Wed, 21 Jun 2017 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2017-06-21:/backup-con-rsync.html</guid><category>rsync</category><category>backup</category></item><item><title>Ciencia con problemas capitales</title><link>https://eldiegoefe.github.io/ciencia-con-problemas-capitales.html</link><description>&lt;p&gt;Sigue el conflicto en Argentina por las políticas científicas del nuevo gobierno
+si es un archivo de texto y se agregó sólo un caracter …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Wed, 21 Jun 2017 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2017-06-21:/backup-con-rsync.html</guid><category>rsync</category><category>backup</category><category>linux</category></item><item><title>Ciencia con problemas capitales</title><link>https://eldiegoefe.github.io/ciencia-con-problemas-capitales.html</link><description>&lt;p&gt;Sigue el conflicto en Argentina por las políticas científicas del nuevo gobierno
 y el viejo ministro. Al recorte en el número de ingresantes al Conicet se suman
 disposiciones que perjudican a quienes no pueden enmarcar sus proyectos de
 investigación dentro de las ciencias aplicadas que produzcan un beneficio social
@@ -521,6 +553,7 @@ uno era …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elem
 &lt;li&gt;&lt;a class="reference external" href="http://www.mercadolibre.com.ar/"&gt;Mercado&amp;nbsp;Libre&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Main_Page"&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://eldiegoefe.github.io/youtube.html"&gt;Mi lista de canales de&amp;nbsp;YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.bookdepository.com"&gt;Book&amp;nbsp;Depository&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="redes"&gt;
@@ -569,8 +602,4 @@ uno era …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elem
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://evernote.com"&gt;Evernote&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.massdrop.com/configurator/ergodox"&gt;Ergodox&amp;nbsp;Configurator&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://translate.google.com/"&gt;Google&amp;nbsp;Translate&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="section" id="descargas"&gt;
-&lt;h2&gt;Descargas …&lt;/h2&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Fri, 01 Jan 2010 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2010-01-01:/inicio.html</guid><category>links</category></item></channel></rss>
+&lt;li&gt;&lt;a class="reference external" href="https://translate.google.com/"&gt;Google …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Fri, 01 Jan 2010 10:00:00 -0300</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2010-01-01:/inicio.html</guid><category>links</category></item></channel></rss>

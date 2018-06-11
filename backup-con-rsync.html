@@ -8,7 +8,7 @@
 
         <meta name="description" content="RSync es un programa que permite copiar archivos, pero a diferencia de un copiado común, compara los archivos de origen y destino y sólo realiza la transferencia de la diferencia entre ambos: si son iguales no transfiere nada, si es un archivo de texto y se agregó sólo un caracter …
 " />
-<meta name="keywords" content="rsync, backup, tecnicismos, " />
+<meta name="keywords" content="rsync, backup, linux, tecnicismos, " />
         <title>Backup con&nbsp;RSync  · Certezas Dudosas
 </title>
         <link href="https://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
@@ -145,8 +145,8 @@ dispositivos, atributos, permisos, ownerships,&nbsp;etc.</li>
 <p>Leyendo el manual de RSync encontramos dos modos distintos de copiar un
 directorio hacia un destino, siendo la diferencia el uso de un <em>trailing slash</em>
 (el símbolo&nbsp;/):</p>
-<div class="highlight"><pre><span></span>rsync -av /src/foo /dest
-rsync -av /src/foo/ /dest/foo
+<div class="highlight"><pre><span></span>rsync -av /origen/foo /destino
+rsync -av /origen/foo/ /destino/foo
 </pre></div>
 <p>En el primer caso se copia el directorio foo dentro del directorio destino dest.
 En cambio con el trailing slash indicamos que lo que se copia es el contenido
@@ -163,12 +163,17 @@ directorio para tal efecto en el disco&nbsp;externo:</p>
 <p>Otro ejemplo es la copia que hago de mi colección de libros organizados con&nbsp;Calibre:</p>
 <div class="highlight"><pre><span></span>$ rsync -avh --progress --delete ~/calibre/ /media/diego/biblioteca/espejo-del-rigido/calibre
 </pre></div>
-<p>La primera vez que ejecute esta orden consumirá más tiempo porque RSync debe
-copiar todos los archivos, ya que el destino estaba vacío. Sin embargo, en
-ejecuciones posteriores se compararán los directorios de origen y destino, y
-sólo se copiará aquello que haya cambiado (o se borrarán aquellos archivos en el
-directorio de destino que se hayan eliminado del directorio de origen). Con este
-modo de hacer backup, me cambió la&nbsp;vida.</p>
+<p>Un último ejemplo: de un rígido externo a otro (porque hay que hacer backup del
+backup de vez en&nbsp;cuando).</p>
+<div class="highlight"><pre><span></span>$ rsync -avh --progress --delete /media/diego/biblioteca/mantener-backup/ /media/diego/backup/mantener-backup
+$ rsync -avh --progress --delete /media/diego/biblioteca/fotos-videos/ /media/diego/backup/fotos-videos
+</pre></div>
+<p>La primera vez que se ejecute rsync, cuando el destino está vacío, consumirá más
+tiempo porque debe copiar todos los archivos. Sin embargo, en ejecuciones
+posteriores se compararán los directorios de origen y destino, y sólo se copiará
+aquello que haya cambiado (o se borrarán aquellos archivos en el directorio de
+destino que se hayan eliminado del directorio de origen). Este modo de hacer
+backup me cambió la&nbsp;vida.</p>
 
 <section>
 <p id="comment-message">No te vayas sin comentar algo del post, de las noticias del día, del clima, que se yo... </p>
@@ -226,6 +231,9 @@ modo de hacer backup, me cambió la&nbsp;vida.</p>
             <ul class="list-of-tags tags-in-article"> 
                 <li><a href="/tags.html#backup-ref">backup
                     <span>1</span>
+</a></li>
+                <li><a href="/tags.html#linux-ref">linux
+                    <span>6</span>
 </a></li>
                 <li><a href="/tags.html#rsync-ref">rsync
                     <span>1</span>
