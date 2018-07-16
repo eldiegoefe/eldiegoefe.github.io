@@ -31,7 +31,25 @@ concepción" es puro bolazo. Me gustó escuchar en las exposiciones de los
 invitados a las sesiones del Congreso toda esta cuestión explicada en
 profundidad.
 
----
+Aca los saluda algo que los cristianos definen como persona. ¿Será momento ya de
+inscribirlo como monotributista en AFIP? 
+
+.. image:: https://c2.staticflickr.com/2/1786/42530250575_4d0bae3beb_b.jpg
+   :scale: 100%
+   :width: 100%
+   :align: center
+   :alt: persona
+   :target: embryology.med.unsw.edu.au/embryology/index.php/Carnegie_Embryos
+
+--
+
+Date: Wed, 22 Dec 2010 01:11:31 -0300
+
+Subject: Ser o no ser: el caso de los embriones y las personas
+
+From: Diego Fainstein <correodeldiego@gmail.com>
+
+To: UNER Debate <unerdebate@googlegroups.com>
 
 Escribo para discutir un argumento que leo repetidamente y que me parece erroneo
 (ya lo expuse antes, sólo lo repito). Los que se oponen al aborto dicen que el
@@ -102,3 +120,9 @@ frente a la desesperante situación de la práctica clandestina del aborto). Me
 despido más que nada porque ya se hizo muy largo. Un abrazo,
 
 Diego
+
+.. youtube:: V0c5yfNFNcU
+            :height: 315
+            :width: 560
+
+
