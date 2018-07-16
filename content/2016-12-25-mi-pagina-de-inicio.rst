@@ -118,8 +118,8 @@ Descargas
 .. _TParser: http://tparser.org
 .. _Unblocked: https://unblocked.mx/
 
-Juegos
-------
+Eve-Online
+----------
 
 - Búsquedas en `Chruker`_
 - `Brave Collective`_
@@ -132,6 +132,19 @@ Juegos
 .. _Eve Central: https://eve-central.com
 .. _Eve University: http://wiki.eveuniversity.org/Main_Page
 .. _FCON Forum: https://f/everything-woodworking-book/orums.fcon.us 
+
+GW2
+---
+
+- `GW2 Efficiency`_
+- `MetaBattle`_
+- `Snow Crows`_
+- Canal de YouTube: `Kyosika`_
+
+.. _Kyosika: https://www.youtube.com/user/Yosika123/videos
+.. _Snow Crows: https://www.snowcrows.com
+.. _MetaBattle: http://metabattle.com
+.. _GW2 Efficiency: https://gw2efficiency.com
 
 
 Repositorios
