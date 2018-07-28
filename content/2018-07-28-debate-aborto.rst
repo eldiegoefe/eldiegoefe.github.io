@@ -42,8 +42,8 @@ materno, privando de *serhumanidad* al embrión sin implantar). Este argumento e
 el nucleo racional de su discurso y es simultaneamente `una mera opinión`_. Hay
 muchos otros argumentos de igual o mejor validez para definir el inicio de la
 existencia de una persona y por ende, su derecho a la vida, de modo tal que
-sería absurdo elegir este dogma para fundamentar una ley que regula las
-decisiones de todos los que no profesamos esa fe.
+sería absurdo elegir este dogma particular para fundamentar una ley que regula
+las decisiones de todos los que no profesamos esa fe.
 
 .. _una mera opinión: |filename|/2018-07-15-viejo-mail-sobre-aborto.rst
 
@@ -51,7 +51,7 @@ El debate resulta también de interés para pensar dificultades técnicas asocia
 a este modo de tomar decisiones colectivas. Por ejemplo: ¿cuántos argumentos
 puede haber a favor y en contra de este proyecto de ley? Se mencionaron
 estadísticas, hechos científicos, creencias religiosas, experiencias personales,
-hechos históricos, mitos, reflexiones filosóficas, expresiones del sentido
+eventos históricos, mitos, reflexiones filosóficas, expresiones del sentido
 común, etc. Se necesitaron muchos discursos para darle lugar a tanta
 información. El tema es que la repetición fue imposible de evitar, y si
 hubiésemos estado obligados a escuchar todo de todos (como los legisladores que
@@ -63,7 +63,7 @@ espermatozoide y óvulo y espiritu santurrón de 380V de salvaje voltaje y pura
 potencia PMPO.
 
 Mi interés no está en promover la eficiencia y evitar la repetición infinita. De
-hecho la repetición puede ser que sirva para permita el ingreso de algún
+hecho la repetición puede ser que sirva para permitir el ingreso de algún
 argumento que somos reacios a considerar sólo por la falta de familiaridad que
 tenemos con el mismo. Lo que sí estaría bueno sería un sistema de valoración de
 la fundamentación propuesta. Por ejemplo, una vez avanzado el debate, si alguien
@@ -110,13 +110,13 @@ de libros con ficciones que me encantan...", etc.
 Finalmente dejo un tema para discutir proximamente. Sabemos que la democracia
 requiere ciertas condiciones para su buen funcionamiento, principalmente que los
 ciudadanos sean educados, que puedan utilizar la razón para fundamentar sus
-ideas, que no estén sometidos a actuar en contra de su bienestar por ignorancia
-u obligados por el poder que otros tienen sobre sus vidas. ¿Tendríamos que dejar
-que las cosas sigan como hasta ahora y sólo modificar el nombre de nuestro
-sistema de gobierno actual? ¿La crítica a la democracia actual me convierte en
-partidario del voto calificado? Eso lo veremos en un próximo capítulo.
-Continuará... Pero mientras tanto, a dúo con el fetito de gafas clamamos desde
-la piscina del Persona Resort: ¡que sea ley!
+ideas, que no estén sometidos por su propia ignorancia a actuar en contra de su
+bienestar o condicionados por el poder que otros tienen sobre sus vidas.
+¿Tendríamos que dejar que las cosas sigan como hasta ahora y sólo modificar el
+nombre de nuestro sistema de gobierno actual? ¿La crítica a la democracia actual
+me convierte en partidario del voto calificado? Eso lo veremos en un próximo
+capítulo. Continuará... Pero mientras tanto, a dúo con el fetito de gafas
+clamamos desde la piscina del Persona Resort: ¡que sea ley!
 
 .. image:: https://c1.staticflickr.com/1/939/41875494450_31b5a72013_b.jpg
    :scale: 100%
