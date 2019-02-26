@@ -692,9 +692,13 @@ Guitarra
 Lecciones de música
 -------------------
 
+- `Beat Making`_
+- `Sight-reading (Jane)`_
 - `Music Education For All`_
 - `Studio Arts Rock School`_
 
+.. _Beat Making: https://deviantnoise.com/music-production/beat-making/
+.. _Sight-reading (Jane): https://sites.google.com/site/pianoandmathtutorials/sight-reading-lessons
 .. _Studio Arts Rock School: https://www.youtube.com/user/studioartsrockschool
 .. _Music Education For All: https://www.youtube.com/user/kcandfen
 
@@ -706,6 +710,7 @@ Músicos y músicas
 - `Deep Mix Nation`_
 - `DJ Dimsa`_
 - `DJ Bolivia`_
+- `Jaime Altozano`_
 - `Just Instrumental Music`_
 - `Keep It Underground`_
 - `Lucas Mauro`_
@@ -717,6 +722,7 @@ Músicos y músicas
 .. _Lucas Mauro: https://www.youtube.com/user/LucasMauro01
 .. _Keep It Underground: https://www.youtube.com/user/aliasmike2002
 .. _Just Instrumental Music: https://www.youtube.com/user/livedreams2
+.. _Jaime Altozano: https://www.youtube.com/channel/UCa3DVlGH2_QhvwuWlPa6MDQ/videos
 .. _DJ Bolivia: https://www.youtube.com/user/djbolivia
 .. _DJ Dimsa: https://www.youtube.com/user/DJDimsa
 .. _Deep Mix Nation: https://www.youtube.com/user/DeepMixNation
@@ -779,6 +785,14 @@ Producción
 .. _Busy Works Beats: https://www.youtube.com/user/busyworksbeats
 .. _Coldman Beats: https://www.youtube.com/user/ColdmanBeats
 .. _Cuckoo Music: https://www.youtube.com/user/cuckoomusic
+
+Audacity
+--------
+
+- `unfa`_
+
+.. _unfa: https://www.youtube.com/user/unfa00/videos
+
 
 Podcasting
 ==========

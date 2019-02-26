@@ -16,7 +16,9 @@ Frecuentes
 - `Wikipedia`_
 - `Mi lista de canales de YouTube`_
 - `Book Depository`_
+- `Links sobre música`_
 
+.. _Links sobre música: |filename|/2018-10-20-enlaces-sobre-musica.rst
 .. _Mi lista de canales de YouTube: |filename|/2016-11-26-youtube.rst
 .. _Wikipedia: https://en.wikipedia.org/wiki/Main_Page
 .. _Gmail: https://mail.google.com/mail/u/0/#inbox
