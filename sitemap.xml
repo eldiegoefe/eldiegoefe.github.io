@@ -5,29 +5,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://eldiegoefe.github.io/</loc>
-<lastmod>2019-06-02T14:19:24-00:00</lastmod>
+<lastmod>2019-07-23T20:46:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/archives.html</loc>
-<lastmod>2019-06-02T14:19:24-00:00</lastmod>
+<lastmod>2019-07-23T20:46:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/tags.html</loc>
-<lastmod>2019-06-02T14:19:24-00:00</lastmod>
+<lastmod>2019-07-23T20:46:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/categories.html</loc>
-<lastmod>2019-06-02T14:19:24-00:00</lastmod>
+<lastmod>2019-07-23T20:46:51-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://eldiegoefe.github.io/acuarela.html</loc>
+<lastmod>2019-07-23T10:00:00-03:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
