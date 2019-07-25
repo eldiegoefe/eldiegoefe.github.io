@@ -1,4 +1,6 @@
-:title: Primer snippet
+Primer snippet
+##############
+
 :date: 2014-08-10 10:02
 :category: tecnicismos
 :tags: emacs, yasnippets

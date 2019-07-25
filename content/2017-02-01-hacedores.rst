@@ -1,4 +1,6 @@
-:title: Hacedores
+Hacedores
+#########
+
 :date: 2017-02-01 10:00
 :category: blog
 :tags: arte, autoaprendizaje, educacion, hobbies, links, recomendaciones, reflexiones

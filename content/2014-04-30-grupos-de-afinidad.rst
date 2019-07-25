@@ -1,4 +1,6 @@
-:title: Grupos de afinidad
+Grupos de afinidad
+##################
+
 :date: 2014-04-30 10:00
 :category: blog
 :tags: relatos, anarquismo

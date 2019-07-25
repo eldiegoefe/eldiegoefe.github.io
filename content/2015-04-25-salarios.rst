@@ -1,4 +1,6 @@
-:title: ¿Cuánto debe ganar un docente, un médico, un investigador?
+¿Cuánto debe ganar un docente, un médico, un investigador?
+##########################################################
+
 :date: 2015-04-25 10:00
 :category: politica
 :tags: salarios, trabajadores, politica, universidad, opinion, educacion

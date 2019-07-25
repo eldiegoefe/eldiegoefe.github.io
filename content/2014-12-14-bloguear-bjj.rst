@@ -1,4 +1,6 @@
-:title: Bloguearás tu BJJ
+Bloguearás tu BJJ
+#################
+
 :date: 2014-12-14 10:00
 :category: salud
 :tags: bjj, artes marciales, deportes, fitness, links

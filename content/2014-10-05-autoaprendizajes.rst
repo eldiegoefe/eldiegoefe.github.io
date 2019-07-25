@@ -1,4 +1,6 @@
-:title: Autoaprendizajes
+Autoaprendizajes
+################
+
 :date: 2014-10-10 10:00
 :category: blog
 :tags: python, emacs, linux, autonomia, autoaprendizaje

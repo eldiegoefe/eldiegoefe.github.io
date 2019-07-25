@@ -1,4 +1,6 @@
-:title: Piratas en las anomalías del Caribe
+Piratas en las anomalías del Caribe
+###################################
+
 :date: 2016-07-11 10:00
 :category: juegos
 :tags: eveonline, guias

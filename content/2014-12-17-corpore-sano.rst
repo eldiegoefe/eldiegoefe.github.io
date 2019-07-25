@@ -1,4 +1,6 @@
-:title: Corpore sano
+Corpore sano
+############
+
 :date: 2014-12-17 10:00
 :category: salud
 :tags: fitness, deportes, calistenia

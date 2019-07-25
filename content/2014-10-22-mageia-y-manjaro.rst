@@ -1,4 +1,6 @@
-:title: Mageia y Manjaro
+Mageia y Manjaro
+################
+
 :date: 2014-10-22 10:00
 :category: tecnicismos
 :tags: mageia, manjaro, particiones, terminal

@@ -1,5 +1,6 @@
+Backup con RSync
+################
 
-:title: Backup con RSync
 :date: 2017-06-21 10:00
 :category: tecnicismos
 :tags: rsync, backup, linux

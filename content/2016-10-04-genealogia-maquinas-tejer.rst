@@ -1,4 +1,6 @@
-:title: Para una genealogía de las máquinas de tejer
+Para una genealogía de las máquinas de tejer
+############################################
+
 :date: 2016-10-04 10:00
 :category: blog
 :tags: tejido, maquinas de tejer, machine knitting

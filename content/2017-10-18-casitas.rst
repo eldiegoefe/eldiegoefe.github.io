@@ -1,4 +1,6 @@
-:title: Casitas y minimalismo
+Casitas y minimalismo
+#####################
+
 :date: 2017-10-18 10:00
 :category: blog
 :tags: tiny-houses, minimalismo, tecnologia, autonomia

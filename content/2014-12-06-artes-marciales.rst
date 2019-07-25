@@ -1,4 +1,6 @@
-:title: Artes marciales
+Artes marciales
+###############
+
 :date: 2014-12-06 10:00
 :category: salud
 :tags: artes marciales, bjj, pakua, taichi, deportes, fitness

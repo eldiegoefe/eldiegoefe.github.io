@@ -1,4 +1,6 @@
-:title: Diccionarios en Python
+Diccionarios en Python
+######################
+
 :date: 2014-10-23 10:00
 :category: tecnicismos
 :tags: python, diccionarios

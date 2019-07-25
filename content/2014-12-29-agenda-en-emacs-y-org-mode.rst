@@ -1,4 +1,6 @@
-:title: Agenda en Emacs y OrgMode
+Agenda en Emacs y OrgMode
+#########################
+
 :date: 2014-12-29 10:00
 :modified: 2016-01-06 
 :category: tecnicismos

@@ -1,4 +1,6 @@
-:title: Qué maravilla es Emacs
+Qué maravilla es Emacs
+######################
+
 :date: 2014-12-28 10:00
 :category: tecnicismos
 :tags: emacs

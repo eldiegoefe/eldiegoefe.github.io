@@ -1,4 +1,6 @@
-:title: La productividad no es mala palabra
+La productividad no es mala palabra
+###################################
+
 :date: 2015-12-30 10:00
 :category: blog
 :tags: gtd, productividad

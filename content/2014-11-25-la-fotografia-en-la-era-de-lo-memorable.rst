@@ -1,4 +1,6 @@
-:title: La fotografía en la era de lo memorable
+La fotografía en la era de lo memorable
+#######################################
+
 :date: 2014-11-25 10:00
 :category: blog
 :tags: reflexiones, fotos

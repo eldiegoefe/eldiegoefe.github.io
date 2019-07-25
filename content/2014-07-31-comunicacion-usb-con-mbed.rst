@@ -1,4 +1,6 @@
-:title: Comunicacion USB con mbed
+Comunicacion USB con mbed
+#########################
+
 :date: 2014-07-31 10:00
 :category: tecnicismos
 :tags: mbed, usb, python, electronica

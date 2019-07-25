@@ -1,4 +1,6 @@
-:title: BJJ - Omoplata
+BJJ - Omoplata
+##############
+
 :date: 2015-04-18 10:00
 :category: salud
 :tags: bjj, omoplata, ataques

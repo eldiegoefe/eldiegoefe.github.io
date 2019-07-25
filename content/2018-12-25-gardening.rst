@@ -1,4 +1,6 @@
-:title: Huerta y jardinería
+Huerta y jardinería
+###################
+
 :date: 2018-12-25 10:00
 :category: blog
 :tags: huerta, jardinería

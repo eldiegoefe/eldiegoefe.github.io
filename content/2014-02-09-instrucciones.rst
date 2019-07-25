@@ -1,4 +1,6 @@
-:title: Instrucciones para armar un blog geek
+Instrucciones para armar un blog geek
+#####################################
+
 :date: 2014-02-09 10:30
 :category: tecnicismos
 :tags: jekyll, blog, octopress, tutorial

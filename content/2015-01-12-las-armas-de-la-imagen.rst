@@ -1,4 +1,6 @@
-:title: Hay equipo para fotografiar
+Hay equipo para fotografiar
+###########################
+
 :date: 2015-01-12 10:00
 :category: blog
 :tags: fotografia

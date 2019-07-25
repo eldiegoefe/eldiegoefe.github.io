@@ -1,4 +1,6 @@
-:title: Sugerencia respecto de los tutoriales de Emacs
+Sugerencia respecto de los tutoriales de Emacs
+##############################################
+
 :date: 2015-05-18 10:00
 :category: tecnicismos
 :tags: emacs

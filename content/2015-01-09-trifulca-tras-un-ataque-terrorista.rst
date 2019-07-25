@@ -1,4 +1,6 @@
-:title: Trifulca digital tras un ataque terrorista
+Trifulca digital tras un ataque terrorista
+##########################################
+
 :date: 2015-01-09 10:00
 :category: politica
 :tags: opinion, reflexiones, politica, islam, guerra, humor, israel, judios

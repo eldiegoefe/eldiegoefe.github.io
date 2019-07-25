@@ -1,4 +1,6 @@
-:title: Primeros pasos en Julia
+Primeros pasos en Julia
+#######################
+
 :date: 2014-10-25 10:00
 :category: tecnicismos
 :tags: julia

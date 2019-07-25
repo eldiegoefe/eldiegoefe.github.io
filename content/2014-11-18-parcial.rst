@@ -1,4 +1,6 @@
-:title: Parcial de Bio2/DyM
+Parcial de Bio2/DyM
+###################
+
 :date: 2014-11-14 14:00
 :category: blog
 :tags: humor, facultad, alumnos

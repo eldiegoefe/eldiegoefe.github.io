@@ -1,4 +1,6 @@
-:title: Generar pdf en español desde org-mode
+Generar pdf en español desde org-mode
+#####################################
+
 :date: 2014-08-06 10:00
 :category: tecnicismos
 :tags: emacs, org-mode, pdf

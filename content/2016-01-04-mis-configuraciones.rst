@@ -1,4 +1,6 @@
-:title: Mis configuraciones del sistema
+Mis configuraciones del sistema
+###############################
+
 :date: 2016-01-04 10:00
 :category: tecnicismos
 :tags: linux, emacs

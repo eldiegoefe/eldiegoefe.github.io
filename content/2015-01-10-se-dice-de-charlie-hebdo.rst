@@ -1,4 +1,6 @@
-:title: Se dice de Charlie Hebdo
+Se dice de Charlie Hebdo
+########################
+
 :date: 2015-01-10 10:00
 :category: politica
 :tags: opinion, politica

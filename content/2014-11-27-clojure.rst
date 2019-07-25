@@ -1,4 +1,6 @@
-:title: Clojure, nuevo entretenimiento
+Clojure, nuevo entretenimiento
+##############################
+
 :date: 2014-11-27 10:00
 :modified: 2017-01-08 10:00
 :category: tecnicismos

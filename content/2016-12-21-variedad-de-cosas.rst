@@ -1,5 +1,6 @@
+Variedad de cosas 01
+####################
 
-:title: Variedad de cosas 01
 :date: 2016-12-21 10:00
 :category: blog
 :tags: variedades

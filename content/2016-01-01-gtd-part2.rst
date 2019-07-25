@@ -1,4 +1,6 @@
-:title: Getting Things Done (Part II)
+Getting Things Done (Part II)
+#############################
+
 :date: 2016-01-01 11:00
 :category: blog
 :tags: gtd, productividad

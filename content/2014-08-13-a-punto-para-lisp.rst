@@ -1,4 +1,6 @@
-:title: A punto para Lisp
+A punto para Lisp
+#################
+
 :date: 2014-08-13 10:00
 :category: tecnicismos
 :tags: lisp, programacion, common-lisp

@@ -1,4 +1,6 @@
-:title: Instalando IPython en Mageia
+Instalando IPython en Mageia
+############################
+
 :date: 2014-08-22 10:00
 :category: tecnicismos
 :tags: ipython, mageia, root, pip, instalacion

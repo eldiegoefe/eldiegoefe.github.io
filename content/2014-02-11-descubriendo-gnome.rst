@@ -1,4 +1,6 @@
-:title: Descubriendo Gnome
+Descubriendo Gnome
+##################
+
 :date: 2014-02-09 11:00
 :category: tecnicismos
 :tags: linux, fedora, gnome, kde

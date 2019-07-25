@@ -1,4 +1,6 @@
-:title: Dónde están los programas en Linux
+Dónde están los programas en Linux
+##################################
+
 :date: 2014-02-09 10:30
 :category: tecnicismos
 :tags: linux, fedora

@@ -1,4 +1,6 @@
-:title: Keybindings conflictivos en Emacs
+Keybindings conflictivos en Emacs
+#################################
+
 :date: 2014-08-17 10:00
 :category: tecnicismos
 :tags: emacs, keybindings

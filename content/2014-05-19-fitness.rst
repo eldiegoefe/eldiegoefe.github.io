@@ -1,4 +1,6 @@
-:title: Fitness, freeletics, calistenia y afines
+Fitness, freeletics, calistenia y afines
+########################################
+
 :date: 2014-05-19 10:00
 :category: salud
 :tags: relatos, calistenia, deportes, fitness, taichi, pakua

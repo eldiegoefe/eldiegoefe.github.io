@@ -1,5 +1,6 @@
+La única verdad es la incertidumbre (II)
+########################################
 
-:title: La única verdad es la incertidumbre (II)
 :date: 2018-07-17 10:00
 :category: blog
 :tags: ciencia, tecnologia, educacion

@@ -1,4 +1,6 @@
-:title: Grabacion de screencasts para tutoriales de YouTube
+Grabacion de screencasts para tutoriales de YouTube
+###################################################
+
 :date: 2014-09-23 10:00
 :category: tecnicismos
 :tags: youtube, video, tutorial

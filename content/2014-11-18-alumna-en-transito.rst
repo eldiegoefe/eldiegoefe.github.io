@@ -1,4 +1,6 @@
-:title: Alumna en tránsito al TP de Temperatura
+Alumna en tránsito al TP de Temperatura
+#######################################
+
 :date: 2014-11-18 10:00
 :category: blog
 :tags: fotos, humor, facultad

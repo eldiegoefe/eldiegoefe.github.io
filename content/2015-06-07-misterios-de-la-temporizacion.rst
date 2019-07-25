@@ -1,4 +1,6 @@
-:title: Misterios de la temporización
+Misterios de la temporización
+#############################
+
 :date: 2015-06-07 10:00
 :category: blog
 :tags: tiempo, reflexiones

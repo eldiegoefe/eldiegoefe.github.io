@@ -1,4 +1,6 @@
-:title: Instalacion de PyQt
+Instalacion de PyQt
+###################
+
 :date: 2018-04-19 10:00
 :category: tecnicismos
 :tags: python, pyqtgraph, pyqt, qt, sip, software

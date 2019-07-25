@@ -1,4 +1,6 @@
-:title: Productividad negativa
+Productividad negativa
+######################
+
 :date: 2015-10-21 10:00
 :category: politica
 :tags: blog

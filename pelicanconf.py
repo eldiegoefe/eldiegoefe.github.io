@@ -7,17 +7,24 @@ SITENAME = u'Certezas Dudosas'
 SITESUBTITLE = u'todo lo liquido se desvanece en el estomago'
 SITEURL = 'https://eldiegoefe.github.io'
 TIMEZONE = 'America/Argentina/Buenos_Aires'
-DEFAULT_LANG = u'es'
-# DEFAULT_DATE_FORMAT = '%a %d %B %Y'
+
+PATH = 'content'
+
+TIMEZONE = 'Europe/Paris'
+
+DEFAULT_LANG = 'es'
 DEFAULT_DATE_FORMAT = '%Y %B %d %a'
 DATE_FORMATS = {
     'en': ('en_US','%Y, %B %d %a'),
     'jp': ('ja_JP','%Y-%m-%d(%a)'),
 }
+
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
+# FEED_ALL_ATOM = None
+# CATEGORY_FEED_ATOM = None
+# TRANSLATION_FEED_ATOM = None
+# AUTHOR_FEED_ATOM = None
+# AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS =  (
@@ -34,9 +41,9 @@ SOCIAL = (('Twitter', 'https://twitter.com/eldiegoefe'),
           ('Facebook', 'https://www.facebook.com/eldiegoefe'),
           ('Flickr', 'https://www.flickr.com/photos/eldiegoefe/'),
           ('Instagram', 'https://instagram.com/eldiegoefe'),
-          ('Google+', 'https://plus.google.com/+DiegoEfe'),
           ('Diaspora', 'https://www.joindiaspora.com/u/eldiegoefe'),
 )
+
 
 DEFAULT_PAGINATION = 20
 
@@ -44,7 +51,8 @@ DEFAULT_PAGINATION = 20
 # Los posts con fecha futura se toman como drafts
 # WITH_FUTURE_DATES = False
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = False
+
+RELATIVE_URLS = False 
 
 # THEME = "/home/user/pelican-themes/theme-name"
 # Mis agregados
@@ -61,7 +69,7 @@ THEME = "../pelican-elegant"
 
 
 FEED_ALL_RSS = 'feeds/all.rss.xml'
-CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+CATEGORY_FEED_RSS = 'feeds/{slug}.rss.xml'
 DISQUS_SITENAME = "certezasdudosas"
 
 # Instrucciones para la instalacion del plugin para videos de youtube

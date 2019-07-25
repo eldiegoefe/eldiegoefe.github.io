@@ -1,5 +1,6 @@
+La inutilidad de la ciencia
+###########################
 
-:title: La inutilidad de la ciencia
 :date: 2017-01-11 10:00
 :category: blog
 :tags: ciencia, opinion, politica, reflexiones, trabajadores

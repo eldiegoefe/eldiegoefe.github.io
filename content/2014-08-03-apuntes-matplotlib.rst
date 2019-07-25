@@ -1,4 +1,6 @@
-:title: Apuntes sobre matplotlib
+Apuntes sobre matplotlib
+########################
+
 :date: 2014-08-03 10:00
 :category: tecnicismos
 :tags: matplotlib, python, graficacion

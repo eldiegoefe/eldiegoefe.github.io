@@ -1,4 +1,6 @@
-:title: Panel frontal del software
+Panel frontal del software
+##########################
+
 :date: 2016-09-01 10:00
 :category: tecnicismos
 :tags: python, pyqtgraph, pyqt, qt, software

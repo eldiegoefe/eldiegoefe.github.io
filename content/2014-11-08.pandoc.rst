@@ -1,4 +1,6 @@
-:title: Pandoc, conversión de org-mode a restructuredtext
+Pandoc, conversión de org-mode a restructuredtext
+#################################################
+
 :date: 2014-11-08 10:00
 :category: tecnicismos
 :tags: emacs, org-mode, restructuredtext, pandoc, manjaro

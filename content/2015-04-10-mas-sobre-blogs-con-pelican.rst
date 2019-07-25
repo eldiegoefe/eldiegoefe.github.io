@@ -1,4 +1,6 @@
-:title: Más sobre blogs con Pelican
+Más sobre blogs con Pelican
+###########################
+
 :date: 2015-04-10 10:00
 :category: blog
 :tags: blog, pelican

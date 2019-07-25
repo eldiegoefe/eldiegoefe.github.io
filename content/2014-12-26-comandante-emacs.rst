@@ -1,4 +1,6 @@
-:title: Comandante Emacs (dired-mode)
+Comandante Emacs (dired-mode)
+#############################
+
 :date: 2014-12-26 10:00
 :category: tecnicismos
 :tags: emacs, dired

@@ -1,5 +1,6 @@
+De vuelta al colegio de BJJ
+###########################
 
-:title: De vuelta al colegio de BJJ
 :date: 2017-09-12 10:00
 :category: salud
 :tags: bjj

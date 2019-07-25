@@ -1,4 +1,6 @@
-:title: Divagaciones de un yogui (2)
+Divagaciones de un yogui (2)
+############################
+
 :date: 2019-02-26 10:00
 :category: salud
 :tags: yoga, fitness, espiritualidad

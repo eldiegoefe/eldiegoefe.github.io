@@ -1,5 +1,6 @@
+Journaling
+##########
 
-:title: Journaling
 :date: 2016-11-26 10:00
 :category: blog
 :tags: journaling, notebooks, youtube, videos, recomendaciones, links

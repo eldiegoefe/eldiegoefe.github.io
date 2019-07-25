@@ -1,5 +1,6 @@
+Flask desde Emacs
+#################
 
-:title: Flask desde Emacs
 :date: 2016-11-17 10:00
 :category: tecnicismos
 :tags: emacs, flask, virtual-envs, git, magit

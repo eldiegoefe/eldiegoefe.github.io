@@ -1,4 +1,6 @@
-:title: Libros y consejos de lectura
+Libros y consejos de lectura
+############################
+
 :date: 2019-06-02 10:00
 :category: blog
 :tags: literatura, tecnicas

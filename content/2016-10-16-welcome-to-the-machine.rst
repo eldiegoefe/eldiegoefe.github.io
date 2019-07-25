@@ -1,4 +1,6 @@
-:title: Bienvenido a la máquina
+Bienvenido a la máquina
+#######################
+
 :date: 2016-10-16 10:00
 :category: blog
 :tags: tejido, maquinas de tejer, machine knitting, lady tricot 

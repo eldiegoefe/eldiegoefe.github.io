@@ -1,5 +1,6 @@
+Ciencia con problemas capitales
+###############################
 
-:title: Ciencia con problemas capitales
 :date: 2017-02-17 10:00
 :category: blog
 :tags: ciencia, politica

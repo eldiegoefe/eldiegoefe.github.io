@@ -1,5 +1,6 @@
+Peso de los directorios en Linux
+################################
 
-:title: Peso de los directorios en Linux
 :date: 2017-09-03 10:00
 :category: tecnicismos
 :tags: linux

@@ -1,4 +1,6 @@
-:title: Emacs y restructuredText
+Emacs y restructuredText
+########################
+
 :date: 2014-10-07 10:00
 :category: tecnicismos
 :tags: emacs, restructuredtext, keybindings

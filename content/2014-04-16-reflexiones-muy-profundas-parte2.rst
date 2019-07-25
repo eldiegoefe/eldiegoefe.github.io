@@ -1,4 +1,6 @@
-:title: Modos de arruinar la educación superior (Parte II)
+Modos de arruinar la educación superior (Parte II)
+##################################################
+
 :date: 2014-04-16 10:00
 :category: politica
 :tags: educacion, universidad, cronica
@@ -98,4 +100,4 @@ debates?
 
 Justo sonó el timbre y me toca salir al recreo. Saludos!
 
-   Diego (Efe para lxs amigxs)
+Diego (Efe para lxs amigxs)

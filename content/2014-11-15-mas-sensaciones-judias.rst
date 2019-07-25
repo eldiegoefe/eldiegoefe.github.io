@@ -1,4 +1,6 @@
-:title: Sensaciones sobre la memoria
+Sensaciones sobre la memoria
+############################
+
 :date: 2014-11-15 10:00
 :category: blog
 :tags: memoria, judaismo, conflictos

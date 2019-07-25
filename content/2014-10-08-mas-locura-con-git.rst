@@ -1,4 +1,6 @@
-:title: Más locura con Git
+Más locura con Git
+##################
+
 :date: 2014-10-08 10:00
 :category: tecnicismos
 :tags: git, control de versiones, cheat sheet

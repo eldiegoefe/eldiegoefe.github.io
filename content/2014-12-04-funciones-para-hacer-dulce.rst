@@ -1,4 +1,6 @@
-:title: Funciones para hacer dulce
+Funciones para hacer dulce
+##########################
+
 :date: 2014-12-04 12:00
 :category: tecnicismos
 :tags: clojure, lisp, programacion

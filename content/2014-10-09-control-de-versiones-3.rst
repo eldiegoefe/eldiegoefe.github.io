@@ -1,4 +1,6 @@
-:title: Tutorial sobre control de versiones (parte 3)
+Tutorial sobre control de versiones (parte 3)
+#############################################
+
 :date: 2014-10-09 10:00
 :category: tecnicismos
 :tags: git, control de versiones, tutorial

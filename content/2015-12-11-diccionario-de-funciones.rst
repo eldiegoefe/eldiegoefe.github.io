@@ -1,5 +1,6 @@
+Diccionario de funciones
+########################
 
-:title: Diccionario de funciones
 :date: 2015-12-11 10:00
 :category: tecnicismos
 :tags: python, diccionarios, funciones

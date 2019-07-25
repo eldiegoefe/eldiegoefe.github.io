@@ -1,4 +1,6 @@
-:title: Trabajo Practico de ECG
+Trabajo Practico de ECG
+#######################
+
 :date: 2014-11-17 10:00
 :category: blog
 :tags: humor, facultad, alumnos

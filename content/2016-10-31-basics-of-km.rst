@@ -1,5 +1,6 @@
+Algunos apuntes sobre máquinas de tejer
+#######################################
 
-:title: Algunos apuntes sobre máquinas de tejer
 :date: 2016-10-31 10:00
 :category: blog
 :tags: maquinas-tejer

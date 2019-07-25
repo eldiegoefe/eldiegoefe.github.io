@@ -1,4 +1,6 @@
-:title: Ciencia y realidad
+Ciencia y realidad
+##################
+
 :date: 2017-05-01 10:30
 :category: blog
 :tags: epistemologia, ciencia, filosofia

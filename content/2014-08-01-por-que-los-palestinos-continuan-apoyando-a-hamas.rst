@@ -1,4 +1,6 @@
-:title: ¿Por qué los palestinos continúan apoyando a Hamas a pesar de sus pérdidas devastadoras?
+¿Por qué los palestinos continúan apoyando a Hamas a pesar de sus pérdidas devastadoras?
+########################################################################################
+
 :date: 2014-08-01 10:00
 :category: politica
 :tags: guerra, israel, palestina, judios, opinion, politica

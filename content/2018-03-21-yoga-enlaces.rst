@@ -1,4 +1,6 @@
-:title: Enlaces sobre Yoga
+Enlaces sobre Yoga
+##################
+
 :date: 2018-03-21 10:00
 :category: salud
 :tags: yoga

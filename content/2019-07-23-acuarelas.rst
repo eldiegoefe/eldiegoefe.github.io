@@ -1,4 +1,6 @@
-:title: Acuarela
+Acuarela
+########
+
 :date: 2019-07-23 10:00
 :category: blog
 :tags: acuarela, arte, dibujo, hobbies

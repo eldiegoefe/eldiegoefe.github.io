@@ -1,4 +1,6 @@
-:title: Molestos clicks del mouse (digiKam tips)
+Molestos clicks del mouse (digiKam tips)
+########################################
+
 :date: 2015-01-16 10:00
 :category: blog
 :tags: digikam, fotografia, tips, tutorial

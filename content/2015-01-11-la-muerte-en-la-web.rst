@@ -1,4 +1,6 @@
-:title: La muerte visita a la música (en la web)
+La muerte visita a la música (en la web)
+########################################
+
 :date: 2015-01-11 10:00
 :category: blog
 :tags: internet, musica

@@ -1,5 +1,6 @@
+Instalación y configuración de Emacs 
+####################################
 
-:title: Instalación y configuración de Emacs 
 :date: 2017-12-01 10:00
 :category: tecnicismos
 :tags: emacs

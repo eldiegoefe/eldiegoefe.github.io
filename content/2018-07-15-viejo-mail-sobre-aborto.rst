@@ -1,4 +1,6 @@
-:title: Vieja intervención sobre el aborto
+Vieja intervención sobre el aborto
+##################################
+
 :date: 2018-07-15 10:00
 :category: politica
 :tags: aborto, filosofia

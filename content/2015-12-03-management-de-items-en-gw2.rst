@@ -1,4 +1,6 @@
-:title: Management de items en GW2
+Management de items en GW2
+##########################
+
 :date: 2015-12-03 10:00
 :category: blog
 :tags: juegos, gw2

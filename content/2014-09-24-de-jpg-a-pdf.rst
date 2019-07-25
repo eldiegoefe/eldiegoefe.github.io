@@ -1,4 +1,6 @@
-:title: De jpg a pdf
+De jpg a pdf
+############
+
 :date: 2014-09-24 10:00
 :category: tecnicismos
 :tags: imagenes, pdf

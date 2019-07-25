@@ -1,4 +1,6 @@
-:title: La única verdad es el absurdo
+La única verdad es el absurdo
+#############################
+
 :date: 2015-10-31 10:00
 :category: politica
 :tags: democracia

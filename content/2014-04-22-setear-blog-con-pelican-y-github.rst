@@ -1,4 +1,6 @@
-:title: Blog con Pelican y GitHub
+Blog con Pelican y GitHub
+#########################
+
 :date: 2014-04-22 10:00
 :category: tecnicismos
 :tags: tutorial, blog, git, pelican

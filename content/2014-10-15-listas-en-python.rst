@@ -1,4 +1,6 @@
-:title: Listas en Python
+Listas en Python
+################
+
 :date: 2014-10-15 10:00
 :category: tecnicismos
 :tags: python, listas

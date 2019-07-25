@@ -1,5 +1,6 @@
+Apuntes sobre la ciencia y las papas fritas
+###########################################
 
-:title: Apuntes sobre la ciencia y las papas fritas
 :date: 2016-11-17 10:00
 :category: blog
 :tags: ciencia, epistemologia

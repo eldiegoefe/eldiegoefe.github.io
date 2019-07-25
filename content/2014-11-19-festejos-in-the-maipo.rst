@@ -1,4 +1,6 @@
-:title: Festejos in The Maipo
+Festejos in The Maipo
+#####################
+
 :date: 2014-11-19 22:00
 :category: blog
 :tags: fotos, sociales, pakua

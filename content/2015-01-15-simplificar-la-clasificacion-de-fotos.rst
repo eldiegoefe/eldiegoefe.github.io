@@ -1,4 +1,6 @@
-:title: Cómo simplificar la clasificación de fotos
+Cómo simplificar la clasificación de fotos
+##########################################
+
 :date: 2015-01-15 10:00
 :category: blog
 :tags: fotografia, digikam, tutorial

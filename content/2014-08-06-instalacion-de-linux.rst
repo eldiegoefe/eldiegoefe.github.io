@@ -1,4 +1,6 @@
-:title: Instalacion de Linux
+Instalacion de Linux
+####################
+
 :date: 2014-08-06 11:00
 :category: tecnicismos
 :tags: linux, mint

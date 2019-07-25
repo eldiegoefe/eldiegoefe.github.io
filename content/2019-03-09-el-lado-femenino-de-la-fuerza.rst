@@ -1,4 +1,6 @@
-:title: El lado femenino de la Fuerza
+El lado femenino de la Fuerza
+#############################
+
 :date: 2019-03-09 10:00
 :category: blog
 :tags: feminismo, entrenamiento, salud, fitness

@@ -1,4 +1,6 @@
-:title: Sincronizando con Git
+Sincronizando con Git
+#####################
+
 :date: 2014-07-31 10:00
 :category: tecnicismos
 :tags: git, blog

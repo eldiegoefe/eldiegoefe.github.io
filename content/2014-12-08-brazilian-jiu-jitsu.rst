@@ -1,4 +1,6 @@
-:title: Brazilian Jiu-Jitsu
+Brazilian Jiu-Jitsu
+###################
+
 :date: 2014-12-08 10:00
 :category: salud
 :tags: bjj, artes marciales, fitness, deportes

@@ -1,4 +1,6 @@
-:title: Charla de Pasi Sahlberg - Educacion en Finlandia
+Charla de Pasi Sahlberg - Educacion en Finlandia
+################################################
+
 :date: 2014-11-17 14:00
 :category: blog
 :tags: educacion, facultad

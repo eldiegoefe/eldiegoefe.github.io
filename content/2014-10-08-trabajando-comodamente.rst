@@ -1,4 +1,6 @@
-:title: Escritorio cómodo y atajos de teclado
+Escritorio cómodo y atajos de teclado
+#####################################
+
 :date: 2014-10-08 11:00
 :category: tecnicismos
 :tags: edicion, workflow, emacs, kde

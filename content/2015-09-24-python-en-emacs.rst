@@ -1,4 +1,6 @@
-:title: Python en Emacs y otros atajos
+Python en Emacs y otros atajos
+##############################
+
 :date: 2015-09-24 10:00
 :category: tecnicismos
 :tags: python, emacs, keybindings, spacemacs

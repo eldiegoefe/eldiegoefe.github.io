@@ -1,4 +1,6 @@
-:title: Why so serious?
+Why so serious?
+###############
+
 :date: 2014-11-18 18:00
 :category: blog
 :tags: humor, fotos

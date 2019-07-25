@@ -1,4 +1,6 @@
-:title: Aprender a lo Hansel y Gretel
+Aprender a lo Hansel y Gretel
+#############################
+
 :date: 2014-02-09 10:00
 :category: tecnicismos
 :tags: relatos, programacion

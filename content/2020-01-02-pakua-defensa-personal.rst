@@ -1,4 +1,6 @@
-:title: Pakua, defensa personal
+Pakua, defensa personal
+#######################
+
 :date: 2020-01-02 10:00
 :category: salud
 :tags: pakua, artes marciales

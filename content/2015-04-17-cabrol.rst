@@ -1,4 +1,6 @@
-:title: Los garabatos de Cabrol
+Los garabatos de Cabrol
+#######################
+
 :date: 2015-04-17 10:00
 :category: blog
 :tags: comic, historieta, arte, genios

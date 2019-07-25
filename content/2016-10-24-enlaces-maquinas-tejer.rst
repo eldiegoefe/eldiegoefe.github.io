@@ -1,4 +1,6 @@
-:title: Bibliografía sobre tejido a máquina
+Bibliografía sobre tejido a máquina
+###################################
+
 :date: 2016-10-24 10:00
 :category: blog
 :tags: tejido, maquinas de tejer, machine knitting

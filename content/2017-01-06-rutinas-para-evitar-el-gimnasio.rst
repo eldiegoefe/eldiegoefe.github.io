@@ -1,4 +1,6 @@
-:title: Rutinas para evitar el gimnasio
+Rutinas para evitar el gimnasio
+###############################
+
 :date: 2017-01-06 10:00
 :category: blog
 :tags: fitness, deportes, calistenia

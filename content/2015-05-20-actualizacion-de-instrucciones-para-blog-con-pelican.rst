@@ -1,5 +1,6 @@
-:title: Actualización de las instrucciones para armar un blog con
-        Pelican y GitHub
+Actualización de las instrucciones para armar un blog con Pelican y GitHub
+##########################################################################
+
 :date: 2015-05-20 10:00
 :category: tecnicismos
 :tags: tutorial, blog, git, pelican

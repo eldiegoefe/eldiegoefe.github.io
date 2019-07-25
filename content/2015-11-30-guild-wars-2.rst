@@ -1,4 +1,6 @@
-:title: Guild Wars 2
+Guild Wars 2
+############
+
 :date: 2015-11-30 10:00
 :category: blog
 :tags: gw2, juegos

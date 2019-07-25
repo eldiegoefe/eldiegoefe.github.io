@@ -1,4 +1,6 @@
-:title: Una noche de enero con el Relámpago Verde
+Una noche de enero con el Relámpago Verde
+#########################################
+
 :date: 2015-01-08 23:00
 :category: blog
 :tags: cine, cronica

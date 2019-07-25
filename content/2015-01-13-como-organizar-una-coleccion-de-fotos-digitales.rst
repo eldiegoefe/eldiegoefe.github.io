@@ -1,4 +1,6 @@
-:title: Organizar una coleccion de fotos digitales
+Organizar una coleccion de fotos digitales
+##########################################
+
 :date: 2015-01-13 10:00
 :category: blog
 :tags: fotografia, digikam, darktable, tutorial

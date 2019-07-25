@@ -1,4 +1,6 @@
-:title: Crear colecciones y albumes en digiKam
+Crear colecciones y albumes en digiKam
+######################################
+
 :date: 2015-01-15 10:00
 :category: blog
 :tags: fotografia, digikam, tutorial

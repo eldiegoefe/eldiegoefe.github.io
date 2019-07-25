@@ -1,4 +1,6 @@
-:title: Enlaces sobre música
+Enlaces sobre música
+####################
+
 :date: 2001-01-02 10:00
 :category: blog
 :tags: relatos

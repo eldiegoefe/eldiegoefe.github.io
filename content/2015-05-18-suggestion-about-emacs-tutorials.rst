@@ -1,4 +1,6 @@
-:title: Suggestion about Emacs tutorials
+Suggestion about Emacs tutorials
+################################
+
 :date: 2015-05-18 10:00
 :category: tecnicismos
 :tags: emacs

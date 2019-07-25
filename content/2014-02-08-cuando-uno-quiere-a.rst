@@ -1,4 +1,6 @@
-:title: Cuando uno quiere A y termina haciendo B
+Cuando uno quiere A y termina haciendo B
+########################################
+
 :date: 2014-02-11 10:30
 :category: tecnicismos
 :tags: boot, instalacion, windows, grub

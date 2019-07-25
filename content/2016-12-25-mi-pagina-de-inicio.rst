@@ -1,5 +1,6 @@
+Inicio
+######
 
-:title: Inicio
 :date: 2010-01-01 10:00
 :category: blog
 :tags: links

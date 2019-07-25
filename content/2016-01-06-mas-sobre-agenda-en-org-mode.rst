@@ -1,4 +1,6 @@
-:title: Más sobre agenda en org-mode
+Más sobre agenda en org-mode
+############################
+
 :date: 2016-01-07 10:00
 :category: tecnicismos
 :tags: emacs, org-mode, agenda

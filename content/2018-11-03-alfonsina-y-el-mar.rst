@@ -1,11 +1,13 @@
-:title: Alfonsina y el Mar
+Alfonsina y el Mar
+##################
+
 :date: 2018-11-03 10:00
 :category: blog
 :tags: musica, canciones
 :author: El Diego Efe
 :excerpt: Alfonsina y el Mar
 :disqus_identifier: Alfonsina y el Mar
-:status: draft
+
 
 Por la blanda arena
 Que lame el mar

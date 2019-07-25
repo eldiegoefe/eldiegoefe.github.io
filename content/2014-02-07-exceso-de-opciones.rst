@@ -1,4 +1,6 @@
-:title: Exceso de opciones
+Exceso de opciones
+~~~~~~~~~~~~~~~~~~
+
 :date: 2014-02-07 10:00
 :category: blog
 :tags: relatos

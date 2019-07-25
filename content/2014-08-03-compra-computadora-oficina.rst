@@ -1,4 +1,6 @@
-:title: Compra de computadora de oficina
+Compra de computadora de oficina
+################################
+
 :date: 2014-08-03 10:30
 :category: tecnicismos
 :tags: computadoras, compras

@@ -1,4 +1,6 @@
-:title: Tutorial de Org-mode (parte 1)
+Tutorial de Org-mode (parte 1)
+##############################
+
 :date: 2014-10-31 10:00
 :category: tecnicismos
 :tags: org-mode, emacs

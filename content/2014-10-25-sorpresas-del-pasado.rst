@@ -1,4 +1,6 @@
-:title: Sorpresas del pasado
+Sorpresas del pasado
+####################
+
 :date: 2014-10-25 11:00
 :category: blog
 :tags: fotos, recuerdos, recomendaciones

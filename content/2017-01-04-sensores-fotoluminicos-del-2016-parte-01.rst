@@ -1,5 +1,6 @@
+Sensores fotolumínicos del 2016 - Parte 01
+##########################################
 
-:title: Sensores fotolumínicos del 2016 - Parte 01
 :date: 2017-01-04 10:00
 :category: blog
 :tags: fotografia, fotos

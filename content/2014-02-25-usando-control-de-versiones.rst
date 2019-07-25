@@ -1,4 +1,6 @@
-:title: Usando control de versiones
+Usando control de versiones
+###########################
+
 :date: 2014-02-09 10:00
 :category: tecnicismos
 :tags: git, control de versiones, cheat sheet

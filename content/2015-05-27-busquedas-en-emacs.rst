@@ -1,4 +1,6 @@
-:title: Búsquedas con isearch en Emacs
+Búsquedas con isearch en Emacs
+##############################
+
 :date: 2015-05-27 10:00
 :category: tecnicismos
 :tags: emacs, isearch, busquedas
