@@ -5,756 +5,763 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://eldiegoefe.github.io/</loc>
-<lastmod>2019-11-01T16:31:41-00:00</lastmod>
+<lastmod>2019-11-01T17:13:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/archives.html</loc>
-<lastmod>2019-11-01T16:31:41-00:00</lastmod>
+<lastmod>2019-11-01T17:13:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/tags.html</loc>
-<lastmod>2019-11-01T16:31:41-00:00</lastmod>
+<lastmod>2019-11-01T17:13:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/categories.html</loc>
-<lastmod>2019-11-01T16:31:41-00:00</lastmod>
+<lastmod>2019-11-01T17:13:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/abandonemos-la-era-de-la-reproduccion-imperativa.html</loc>
-<lastmod>2019-10-01T10:00:00-03:00</lastmod>
+<lastmod>2019-10-01T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/acuarela.html</loc>
-<lastmod>2019-07-23T10:00:00-03:00</lastmod>
+<lastmod>2019-07-23T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/libros-y-consejos-de-lectura.html</loc>
-<lastmod>2019-06-02T10:00:00-03:00</lastmod>
+<lastmod>2019-06-02T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/el-lado-femenino-de-la-fuerza.html</loc>
-<lastmod>2019-03-09T10:00:00-03:00</lastmod>
+<lastmod>2019-03-09T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/divagaciones-de-un-yogui.html</loc>
-<lastmod>2019-02-25T10:00:00-03:00</lastmod>
+<lastmod>2019-02-25T10:00:00+01:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://eldiegoefe.github.io/alfonsina-y-el-mar.html</loc>
+<lastmod>2018-11-03T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/aborto-y-reglas-para-un-debate.html</loc>
-<lastmod>2018-07-28T10:00:00-03:00</lastmod>
+<lastmod>2018-07-28T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/la-unica-verdad-es-la-incertidumbre-ii.html</loc>
-<lastmod>2018-07-17T10:00:00-03:00</lastmod>
+<lastmod>2018-07-17T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/vieja-intervencion-sobre-el-aborto.html</loc>
-<lastmod>2018-07-15T10:00:00-03:00</lastmod>
+<lastmod>2018-07-15T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/instalacion-de-pyqt.html</loc>
-<lastmod>2018-04-19T10:00:00-03:00</lastmod>
+<lastmod>2018-04-19T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/enlaces-sobre-yoga.html</loc>
-<lastmod>2018-03-21T10:00:00-03:00</lastmod>
+<lastmod>2018-03-21T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/instalacion-y-configuracion-de-emacs.html</loc>
-<lastmod>2017-12-01T10:00:00-03:00</lastmod>
+<lastmod>2017-12-01T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/bienvenidos-a-scheme.html</loc>
-<lastmod>2017-11-28T10:00:00-03:00</lastmod>
+<lastmod>2017-11-28T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/casitas-y-minimalismo.html</loc>
-<lastmod>2017-10-18T10:00:00-03:00</lastmod>
+<lastmod>2017-10-18T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/la-unica-verdad-es-la-incertidumbre-i.html</loc>
-<lastmod>2017-10-01T10:00:00-03:00</lastmod>
+<lastmod>2017-10-01T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/de-vuelta-al-colegio-de-bjj.html</loc>
-<lastmod>2017-09-12T10:00:00-03:00</lastmod>
+<lastmod>2017-09-12T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/peso-de-los-directorios-en-linux.html</loc>
-<lastmod>2017-09-03T10:00:00-03:00</lastmod>
+<lastmod>2017-09-03T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/backup-con-rsync.html</loc>
-<lastmod>2017-06-21T10:00:00-03:00</lastmod>
+<lastmod>2017-06-21T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/ciencia-con-problemas-capitales.html</loc>
-<lastmod>2017-02-17T10:00:00-03:00</lastmod>
+<lastmod>2017-02-17T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/hacedores.html</loc>
-<lastmod>2017-02-01T10:00:00-03:00</lastmod>
+<lastmod>2017-02-01T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/la-inutilidad-de-la-ciencia.html</loc>
-<lastmod>2017-01-11T10:00:00-03:00</lastmod>
+<lastmod>2017-01-11T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/rutinas-para-evitar-el-gimnasio.html</loc>
-<lastmod>2017-01-06T10:00:00-03:00</lastmod>
+<lastmod>2017-01-06T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/sensores-fotoluminicos-del-2016-parte-01.html</loc>
-<lastmod>2017-01-04T10:00:00-03:00</lastmod>
+<lastmod>2017-01-04T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/youtube.html</loc>
-<lastmod>2016-11-26T10:00:00-03:00</lastmod>
+<lastmod>2016-11-26T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/freecad.html</loc>
-<lastmod>2016-11-25T10:00:00-03:00</lastmod>
+<lastmod>2016-11-25T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/carpinteria-a-pleno.html</loc>
-<lastmod>2016-11-24T10:00:00-03:00</lastmod>
+<lastmod>2016-11-24T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli.html</loc>
-<lastmod>2016-11-04T10:00:00-03:00</lastmod>
+<lastmod>2016-11-04T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/bibliografia-sobre-tejido-a-maquina.html</loc>
-<lastmod>2016-10-24T10:00:00-03:00</lastmod>
+<lastmod>2016-10-24T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/bienvenido-a-la-maquina.html</loc>
-<lastmod>2016-10-16T10:00:00-03:00</lastmod>
+<lastmod>2016-10-16T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/para-una-genealogia-de-las-maquinas-de-tejer.html</loc>
-<lastmod>2016-10-04T10:00:00-03:00</lastmod>
+<lastmod>2016-10-04T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/panel-frontal-del-software.html</loc>
-<lastmod>2016-09-01T10:00:00-03:00</lastmod>
+<lastmod>2016-09-01T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/mas-sobre-agenda-en-org-mode.html</loc>
-<lastmod>2016-01-07T10:00:00-03:00</lastmod>
+<lastmod>2016-01-07T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/diccionario-de-funciones.html</loc>
-<lastmod>2015-12-11T10:00:00-03:00</lastmod>
+<lastmod>2015-12-11T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/la-unica-verdad-es-el-absurdo.html</loc>
-<lastmod>2015-10-31T10:00:00-03:00</lastmod>
+<lastmod>2015-10-31T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/productividad-negativa.html</loc>
-<lastmod>2015-10-21T10:00:00-03:00</lastmod>
+<lastmod>2015-10-21T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos.html</loc>
-<lastmod>2015-09-24T10:00:00-03:00</lastmod>
+<lastmod>2015-09-24T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/misterios-de-la-temporizacion.html</loc>
-<lastmod>2015-06-07T10:00:00-03:00</lastmod>
+<lastmod>2015-06-07T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/busquedas-con-isearch-en-emacs.html</loc>
-<lastmod>2015-05-27T10:00:00-03:00</lastmod>
+<lastmod>2015-05-27T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/actualizacion-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github.html</loc>
-<lastmod>2015-05-20T10:00:00-03:00</lastmod>
+<lastmod>2015-05-20T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/sugerencia-respecto-de-los-tutoriales-de-emacs.html</loc>
-<lastmod>2015-05-18T10:00:00-03:00</lastmod>
+<lastmod>2015-05-18T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/suggestion-about-emacs-tutorials.html</loc>
-<lastmod>2015-05-18T10:00:00-03:00</lastmod>
+<lastmod>2015-05-18T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/cuanto-debe-ganar-un-docente-un-medico-un-investigador.html</loc>
-<lastmod>2015-04-25T10:00:00-03:00</lastmod>
+<lastmod>2015-04-25T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/los-garabatos-de-cabrol.html</loc>
-<lastmod>2015-04-17T10:00:00-03:00</lastmod>
+<lastmod>2015-04-17T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/mas-sobre-blogs-con-pelican.html</loc>
-<lastmod>2015-04-10T10:00:00-03:00</lastmod>
+<lastmod>2015-04-10T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/molestos-clicks-del-mouse-digikam-tips.html</loc>
-<lastmod>2015-01-16T10:00:00-03:00</lastmod>
+<lastmod>2015-01-16T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/crear-colecciones-y-albumes-en-digikam.html</loc>
-<lastmod>2015-01-15T10:00:00-03:00</lastmod>
+<lastmod>2015-01-15T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/organizar-una-coleccion-de-fotos-digitales.html</loc>
-<lastmod>2015-01-13T10:00:00-03:00</lastmod>
+<lastmod>2015-01-13T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/la-muerte-visita-a-la-musica-en-la-web.html</loc>
-<lastmod>2015-01-11T10:00:00-03:00</lastmod>
+<lastmod>2015-01-11T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/se-dice-de-charlie-hebdo.html</loc>
-<lastmod>2015-01-10T10:00:00-03:00</lastmod>
+<lastmod>2015-01-10T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/trifulca-digital-tras-un-ataque-terrorista.html</loc>
-<lastmod>2015-01-09T10:00:00-03:00</lastmod>
+<lastmod>2015-01-09T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/una-noche-de-enero-con-el-relampago-verde.html</loc>
-<lastmod>2015-01-08T23:00:00-03:00</lastmod>
+<lastmod>2015-01-08T23:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/agenda-en-emacs-y-orgmode.html</loc>
-<lastmod>2016-01-06T00:00:00-03:00</lastmod>
+<lastmod>2016-01-06T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/comandante-emacs-dired-mode.html</loc>
-<lastmod>2014-12-26T10:00:00-03:00</lastmod>
+<lastmod>2014-12-26T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/corpore-sano.html</loc>
-<lastmod>2014-12-17T10:00:00-03:00</lastmod>
+<lastmod>2014-12-17T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/bloguearas-tu-bjj.html</loc>
-<lastmod>2014-12-14T10:00:00-03:00</lastmod>
+<lastmod>2014-12-14T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/brazilian-jiu-jitsu.html</loc>
-<lastmod>2014-12-08T10:00:00-03:00</lastmod>
+<lastmod>2014-12-08T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/artes-marciales.html</loc>
-<lastmod>2014-12-06T10:00:00-03:00</lastmod>
+<lastmod>2014-12-06T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/clojure-nuevo-entretenimiento.html</loc>
-<lastmod>2017-01-08T10:00:00-03:00</lastmod>
+<lastmod>2017-01-08T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/la-fotografia-en-la-era-de-lo-memorable.html</loc>
-<lastmod>2014-11-25T10:00:00-03:00</lastmod>
+<lastmod>2014-11-25T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/alumna-en-transito-al-tp-de-temperatura.html</loc>
-<lastmod>2014-11-18T10:00:00-03:00</lastmod>
+<lastmod>2014-11-18T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/charla-de-pasi-sahlberg-educacion-en-finlandia.html</loc>
-<lastmod>2014-11-17T14:00:00-03:00</lastmod>
+<lastmod>2014-11-17T14:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/trabajo-practico-de-ecg.html</loc>
-<lastmod>2014-11-17T10:00:00-03:00</lastmod>
+<lastmod>2014-11-17T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/pandoc-conversion-de-org-mode-a-restructuredtext.html</loc>
-<lastmod>2014-11-08T10:00:00-03:00</lastmod>
+<lastmod>2014-11-08T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/sorpresas-del-pasado.html</loc>
-<lastmod>2014-10-25T11:00:00-03:00</lastmod>
+<lastmod>2014-10-25T11:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/mageia-y-manjaro.html</loc>
-<lastmod>2014-10-22T10:00:00-03:00</lastmod>
+<lastmod>2014-10-22T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/listas-en-python.html</loc>
-<lastmod>2014-10-15T10:00:00-03:00</lastmod>
+<lastmod>2014-10-15T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4.html</loc>
-<lastmod>2014-10-10T11:00:00-03:00</lastmod>
+<lastmod>2014-10-10T11:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/autoaprendizajes.html</loc>
-<lastmod>2014-10-10T10:00:00-03:00</lastmod>
+<lastmod>2014-10-10T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3.html</loc>
-<lastmod>2014-10-09T10:00:00-03:00</lastmod>
+<lastmod>2014-10-09T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/escritorio-comodo-y-atajos-de-teclado.html</loc>
-<lastmod>2014-10-08T11:00:00-03:00</lastmod>
+<lastmod>2014-10-08T11:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/mas-locura-con-git.html</loc>
-<lastmod>2014-10-08T10:00:00-03:00</lastmod>
+<lastmod>2014-10-08T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2.html</loc>
-<lastmod>2014-10-08T10:00:00-03:00</lastmod>
+<lastmod>2014-10-08T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/emacs-y-restructuredtext.html</loc>
-<lastmod>2014-10-07T10:00:00-03:00</lastmod>
+<lastmod>2014-10-07T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1.html</loc>
-<lastmod>2014-10-06T10:00:00-03:00</lastmod>
+<lastmod>2014-10-06T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/de-jpg-a-pdf.html</loc>
-<lastmod>2014-09-24T10:00:00-03:00</lastmod>
+<lastmod>2014-09-24T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/grabacion-de-screencasts-para-tutoriales-de-youtube.html</loc>
-<lastmod>2014-09-23T10:00:00-03:00</lastmod>
+<lastmod>2014-09-23T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/instalando-ipython-en-mageia.html</loc>
-<lastmod>2014-08-22T10:00:00-03:00</lastmod>
+<lastmod>2014-08-22T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/keybindings-conflictivos-en-emacs.html</loc>
-<lastmod>2014-08-17T10:00:00-03:00</lastmod>
+<lastmod>2014-08-17T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/a-punto-para-lisp.html</loc>
-<lastmod>2014-08-13T10:00:00-03:00</lastmod>
+<lastmod>2014-08-13T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/primer-snippet.html</loc>
-<lastmod>2014-08-10T10:02:00-03:00</lastmod>
+<lastmod>2014-08-10T10:02:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/instalacion-de-linux.html</loc>
-<lastmod>2014-08-06T11:00:00-03:00</lastmod>
+<lastmod>2014-08-06T11:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/generar-pdf-en-espanol-desde-org-mode.html</loc>
-<lastmod>2014-08-06T10:00:00-03:00</lastmod>
+<lastmod>2014-08-06T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/compra-de-computadora-de-oficina.html</loc>
-<lastmod>2014-08-03T10:30:00-03:00</lastmod>
+<lastmod>2014-08-03T10:30:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/apuntes-sobre-matplotlib.html</loc>
-<lastmod>2014-08-03T10:00:00-03:00</lastmod>
+<lastmod>2014-08-03T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/por-que-los-palestinos-continuan-apoyando-a-hamas-a-pesar-de-sus-perdidas-devastadoras.html</loc>
-<lastmod>2014-08-01T10:00:00-03:00</lastmod>
+<lastmod>2014-08-01T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar.html</loc>
-<lastmod>2014-07-31T10:00:00-03:00</lastmod>
+<lastmod>2014-07-31T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/comunicacion-usb-con-mbed.html</loc>
-<lastmod>2014-07-31T10:00:00-03:00</lastmod>
+<lastmod>2014-07-31T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/sincronizando-con-git.html</loc>
-<lastmod>2014-07-31T10:00:00-03:00</lastmod>
+<lastmod>2014-07-31T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/israel-tiene-alternativas-a-esta-guerra-por-noam-sheizaf.html</loc>
-<lastmod>2014-07-25T10:00:00-03:00</lastmod>
+<lastmod>2014-07-25T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/acerca-de-la-guerra-en-gaza-33.html</loc>
-<lastmod>2014-07-21T10:00:00-03:00</lastmod>
+<lastmod>2014-07-21T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/acerca-de-la-guerra-en-gaza-23.html</loc>
-<lastmod>2014-07-20T10:00:00-03:00</lastmod>
+<lastmod>2014-07-20T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/acerca-de-la-guerra-en-gaza-13.html</loc>
-<lastmod>2014-07-19T10:00:00-03:00</lastmod>
+<lastmod>2014-07-19T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/fitness-freeletics-calistenia-y-afines.html</loc>
-<lastmod>2014-05-19T10:00:00-03:00</lastmod>
+<lastmod>2014-05-19T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/grupos-de-afinidad.html</loc>
-<lastmod>2014-04-30T10:00:00-03:00</lastmod>
+<lastmod>2014-04-30T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/blog-con-pelican-y-github.html</loc>
-<lastmod>2014-04-22T10:00:00-03:00</lastmod>
+<lastmod>2014-04-22T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/modos-de-arruinar-la-educacion-superior-parte-ii.html</loc>
-<lastmod>2014-04-16T10:00:00-03:00</lastmod>
+<lastmod>2014-04-16T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/modos-de-arruinar-la-educacion-superior-parte-i.html</loc>
-<lastmod>2014-04-15T10:00:00-03:00</lastmod>
+<lastmod>2014-04-15T10:00:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/cuando-uno-quiere-a-y-termina-haciendo-b.html</loc>
-<lastmod>2014-02-11T10:30:00-03:00</lastmod>
+<lastmod>2014-02-11T10:30:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/descubriendo-gnome.html</loc>
-<lastmod>2014-02-09T11:00:00-03:00</lastmod>
+<lastmod>2014-02-09T11:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/donde-estan-los-programas-en-linux.html</loc>
-<lastmod>2014-02-09T10:30:00-03:00</lastmod>
+<lastmod>2014-02-09T10:30:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/instrucciones-para-armar-un-blog-geek.html</loc>
-<lastmod>2014-02-09T10:30:00-03:00</lastmod>
+<lastmod>2014-02-09T10:30:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/aprender-a-lo-hansel-y-gretel.html</loc>
-<lastmod>2014-02-09T10:00:00-03:00</lastmod>
+<lastmod>2014-02-09T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/usando-control-de-versiones.html</loc>
-<lastmod>2014-02-09T10:00:00-03:00</lastmod>
+<lastmod>2014-02-09T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/exceso-de-opciones.html</loc>
-<lastmod>2014-02-07T10:00:00-03:00</lastmod>
+<lastmod>2014-02-07T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://eldiegoefe.github.io/inicio.html</loc>
-<lastmod>2010-01-01T10:00:00-03:00</lastmod>
+<lastmod>2010-01-01T10:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
