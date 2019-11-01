@@ -37,14 +37,14 @@ planos, por el temor a la enfermedad y a la muerte, por la enfermedad y la
 muerte (son cosas distintas), por la degradación de la naturaleza, por el
 desenfreno del capitalismo, por la ausencia de propósitos claros en nuestras
 vidas y la difundida tendencia a creer en estupideces como la religión y el
-fútbol. Quienes creen que la pasan bien suelen confundir felicidad con
+fútbol. Quienes afirman que la pasan bien suelen confundir felicidad con
 ignorancia. Me resultaría perverso traer una conciencia a un mundo que
 experimento así.
 
 La cantidad de cosas que pueden salir mal con una criatura es alarmante. Por
 ejemplo, te puede salir un hije que defienda el capitalismo con rostro humano o
-uno que tenga miedo de batirse en un duelo a muerte y tengas que sacrificarlo
-para evitarle la mala sangre, como en Los Gauchos Judíos.
+uno que tenga miedo de batirse en un duelo a muerte y tengas que sacrificarlo,
+como en Los Gauchos Judíos.
 
 .. image:: https://live.staticflickr.com/65535/48997591752_3ea2a102fd_b.jpg
    :scale: 100%
@@ -59,17 +59,18 @@ si hablamos de proteinas como de todas las formas de la cultura, y por supuesto
 de techo y obra social.
 
 La patria potestad de los niños tendría que ser de toda la sociedad, al menos de
-todos los que quisieran ejercerla colaborando en sus crianzas. De paso todos los
-que quieran experimentar la paternidad pueden ponerla en práctica sin tener que
+todos los que quieran ejercerla colaborando en las crianzas. Todos los que
+quieran experimentar la paternidad podrían ponerla en práctica sin tener que
 pasar por el engorroso y traumático proceso de la instalación de un hijo y la
-responsabilidad exclusiva por mantener al día sus antivirus. Como en las
-culturas originarios en las que se desconoce quiénes son los padres de las
-criaturas y por ende los hijos de todos reciben cuidados igualitarios y se acaba
-con el problema de la propiedad y la herencia.
+responsabilidad exclusiva por mantener al día sus antivirus. Así es como
+funcionan algunas culturas originarias en las que se desconoce quiénes son los
+padres de las criaturas y por ende los hijos de todos reciben cuidados
+igualitarios y no hay problemas de propiedades, celos, desamor y herencias.
 
 Los hijos también son excelentes excusas para justificar casi cualquier
-decisión. Asegurar su supervivencia promueve un abanico de acciones extremas, la
-ejecución de actos perversos así como también determinaciones épicas. El
+decisión. Asegurar su supervivencia promueve un abanico de acciones extremas, y
+aunque permiten llevar adelante determinaciones épicas también justifican, al
+menos en la mente de los perpetradores, la ejecución de actos perversos. El
 bienestar de la descendencia reina sobre los límites de las humanidad.
 
 Me parece que la planificación familiar explícita es imperativa como terapia
