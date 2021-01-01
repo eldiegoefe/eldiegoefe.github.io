@@ -4,6 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./theme/css/elegant.prod.9e9d5ce754.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="./theme/css/custom.css" media="screen">
+
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
         <meta name="author" content="El Diego Efe" />
 
         <meta name="description" content="RSync es un programa que permite copiar archivos, pero a diferencia de un copiado común, compara los archivos de origen y destino y sólo realiza la transferencia de la diferencia entre ambos: si son iguales no transfiere nada, si es un archivo de texto y se agregó sólo un caracter …
@@ -15,7 +21,7 @@
 <meta name="keywords" content="rsync, backup, linux, tecnicismos, " />
 
 <meta property="og:title" content="Backup con RSync "/>
-<meta property="og:url" content="https://eldiegoefe.github.io/backup-con-rsync.html" />
+<meta property="og:url" content="./backup-con-rsync.html" />
 <meta property="og:description" content="RSync es un programa que permite copiar archivos, pero a diferencia de un copiado común, compara los archivos de origen y destino y sólo realiza la transferencia de la diferencia entre ambos: si son iguales no transfiere nada, si es un archivo de texto y se agregó sólo un caracter …" />
 <meta property="og:site_name" content="Certezas Dudosas" />
 <meta property="og:article:author" content="El Diego Efe" />
@@ -25,13 +31,6 @@
 
         <title>Backup con RSync  · Certezas Dudosas
 </title>
-        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/css/pygments.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/tipuesearch/tipuesearch.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/css/elegant.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/css/admonition.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/css/custom.css" media="screen">
-
         <link href="https://eldiegoefe.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - Full Atom Feed" />
         <link href="https://eldiegoefe.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Certezas Dudosas - Full RSS Feed" />
 
@@ -47,18 +46,18 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </a>
-                        <a class="brand" href="https://eldiegoefe.github.io/"><span class=site-name>Certezas Dudosas</span></a>
+                        <a class="brand" href="./"><span class=site-name>Certezas Dudosas</span></a>
                         <div class="nav-collapse collapse">
                             <ul class="nav pull-right top-menu">
                                 <li >
                                     <a href=
-                                       https://eldiegoefe.github.io
+                                       .
                                     >Home</a>
                                 </li>
-                                <li ><a href="https://eldiegoefe.github.io/categories.html">Categories</a></li>
-                                <li ><a href="https://eldiegoefe.github.io/tags.html">Tags</a></li>
-                                <li ><a href="https://eldiegoefe.github.io/archives.html">Archives</a></li>
-                                <li><form class="navbar-search" action="https://eldiegoefe.github.io/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                                <li ><a href="./categories.html">Categories</a></li>
+                                <li ><a href="./tags.html">Tags</a></li>
+                                <li ><a href="./archives.html">Archives</a></li>
+                                <li><form class="navbar-search" action="./search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
                             </ul>
                         </div>
                     </div>
@@ -72,7 +71,7 @@
 <div class="row-fluid">
     <header class="page-header span10 offset2">
         <h1>
-            <a href="https://eldiegoefe.github.io/backup-con-rsync.html">
+            <a href="./backup-con-rsync.html">
                 Backup con&nbsp;RSync
             </a>
         </h1>
@@ -180,8 +179,7 @@ directorio para tal efecto en el disco&nbsp;externo:</p>
 <p>Otro ejemplo es la copia que hago de mi colección de libros organizados con&nbsp;Calibre:</p>
 <div class="highlight"><pre><span></span>$ rsync -avh --progress --delete ~/calibre/ /media/diego/biblioteca/espejo-del-rigido/calibre
 </pre></div>
-<p>Un último ejemplo: de un rígido externo a otro (porque hay que hacer backup del
-backup de vez en&nbsp;cuando).</p>
+<p>De un rígido externo a otro (porque hay que hacer backup del backup de vez en&nbsp;cuando):</p>
 <div class="highlight"><pre><span></span>$ rsync -avh --progress --delete /media/diego/biblioteca/mantener-backup/ /media/diego/backup/mantener-backup
 $ rsync -avh --progress --delete /media/diego/biblioteca/fotos-videos/ /media/diego/backup/fotos-videos
 </pre></div>
@@ -191,12 +189,29 @@ posteriores se compararán los directorios de origen y destino, y sólo se copia
 aquello que haya cambiado (o se borrarán aquellos archivos en el directorio de
 destino que se hayan eliminado del directorio de origen). Este modo de hacer
 backup me cambió la&nbsp;vida.</p>
+<hr class="docutils" />
+<p>A continuación, un ejemplo modificado de <a class="reference external" href="https://superuser.com/questions/576687/how-to-print-files-that-would-have-been-changed-using-rsync">StackExchange</a>: sirve para verificar
+con un &#8220;dry-run&#8221; cuáles serán los cambios que se realizarán, sin que se
+materialicen. Para efectuar realmente los cambios hay que borrar &#8220;&#8212;dry-run&#8221; y
+ejecutar de nuevo la&nbsp;orden.</p>
+<p>El &#8220;delete-after&#8221; realiza el borrado de los archivos en el destino (aquellos que
+no están en el origen) recién después de que se haya completado la copia. El
+directorio de origen y el del final están probados para un caso particular en mi
+instalación de Manjaro (18/11/2020), así que cada uno tendrá que modificarlo de
+acuerdo a sus&nbsp;ubicaciones.</p>
+<div class="highlight"><pre><span></span>$ rsync -avhi --dry-run --progress --delete-after ~/Calibre/
+/run/media/diego/biblioteca/espejo-del-rigido/calibre/general/ | egrep -v
+&quot;sending incremental file list&quot; | egrep -v &quot;^\
+</pre></div>
 
 
 
+             
+ 
             
             
             
+
 
 
 
@@ -210,11 +225,11 @@ backup me cambió la&nbsp;vida.</p>
     <div class="accordion" id="accordion2">
         <div class="accordion-group">
             <div class="accordion-heading">
-                <a class="accordion-toggle disqus-comment-count comment-count"
+                <a class="accordion-toggle disqus-comment-count comment-count collapsed"
                    data-toggle="collapse"
                    data-parent="#accordion2"
                    data-disqus-identifier="Backup con RSync"
-                   href="https://eldiegoefe.github.io/backup-con-rsync.html#comment_thread"
+                   href="./backup-con-rsync.html#comment_thread"
                    id="comment-accordion-toggle">
                     Comments
                 </a>
@@ -233,7 +248,7 @@ backup me cambió la&nbsp;vida.</p>
     }());
 
     var disqus_identifier = 'Backup con RSync';
-    var disqus_url = 'https://eldiegoefe.github.io/backup-con-rsync.html';
+    var disqus_url = './backup-con-rsync.html';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -246,6 +261,8 @@ backup me cambió la&nbsp;vida.</p>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
+
+
                     </div>
                 </div>
             </div>
@@ -255,36 +272,35 @@ backup me cambió la&nbsp;vida.</p>
 
             <hr/>
         </div>
-        <section>
-        <div class="span2" style="float:right;font-size:0.9em;">
+        <section id="article-sidebar" class="span2">
             <h4>Published</h4>
-            <time itemprop="dateCreated" datetime="2017-06-21T10:00:00+02:00">jun 21, 2017</time>
+            <time itemprop="dateCreated" datetime="2017-06-21T10:00:00+02:00">2017 junio 21 mié</time>
             <h4>Category</h4>
-            <a class="category-link" href="https://eldiegoefe.github.io/categories.html#tecnicismos-ref">tecnicismos</a>
+            <a class="category-link" href="./categories.html#tecnicismos-ref">tecnicismos</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="https://eldiegoefe.github.io/tags.html#backup-ref">backup
-                    <span>1</span>
+                <li><a href="./tags.html#backup-ref">backup
+                    <span class="superscript">1</span>
 </a></li>
-                <li><a href="https://eldiegoefe.github.io/tags.html#linux-ref">linux
-                    <span>6</span>
+                <li><a href="./tags.html#linux-ref">linux
+                    <span class="superscript">6</span>
 </a></li>
-                <li><a href="https://eldiegoefe.github.io/tags.html#rsync-ref">rsync
-                    <span>1</span>
+                <li><a href="./tags.html#rsync-ref">rsync
+                    <span class="superscript">1</span>
 </a></li>
             </ul>
 <h4>Contact</h4>
 <div id="sidebar-social-link">
-    <a href="https://twitter.com/eldiegoefe" title="" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/eldiegoefe" title="" target="_blank" rel="nofollow noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" aria-label="Twitter" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#1da1f3"/><path fill="#fff" d="M437 152a72 72 0 0 1-40 12 72 72 0 0 0 32-40 72 72 0 0 1-45 17 72 72 0 0 0-122 65 200 200 0 0 1-145-74 72 72 0 0 0 22 94 72 72 0 0 1-32-7 72 72 0 0 0 56 69 72 72 0 0 1-32 1 72 72 0 0 0 67 50 200 200 0 0 1-105 29 200 200 0 0 0 309-179 200 200 0 0 0 35-37"/></svg>
     </a>
-    <a href="https://github.com/eldiegoefe" title="" target="_blank" rel="nofollow">
+    <a href="https://github.com/eldiegoefe" title="" target="_blank" rel="nofollow noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" aria-label="GitHub" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#1B1817"/><path fill="#fff" d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"/></svg>
     </a>
-    <a href="https://www.facebook.com/eldiegoefe" title="" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/eldiegoefe" title="" target="_blank" rel="nofollow noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" aria-label="Facebook" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#1877f2"/><path d="M355.6 330l11.4-74h-71v-48c0-20.2 9.9-40 41.7-40H370v-63s-29.3-5-57.3-5c-58.5 0-96.7 35.4-96.7 99.6V256h-65v74h65v182h80V330h59.6z" fill="#fff"/></svg>
     </a>
-    <a href="https://instagram.com/eldiegoefe" title="" target="_blank" rel="nofollow">
+    <a href="https://instagram.com/eldiegoefe" title="" target="_blank" rel="nofollow noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" aria-label="Instagram" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#d43377"/><g fill="none" stroke="#fff" stroke-width="29"><rect height="296" rx="78" width="296" x="108" y="108"/><circle cx="256" cy="256" r="69"/></g><circle cx="343" cy="169" fill="#fff" r="19"/></svg>
     </a>
 </div>
@@ -300,11 +316,75 @@ backup me cambió la&nbsp;vida.</p>
 
 
 
-        </div>
         </section>
 </div>
 </article>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>                    </div>
                     <div class="span1"></div>
                 </div>
             </div>
@@ -321,11 +401,12 @@ backup me cambió la&nbsp;vida.</p>
 
 
     <div id="fpowered">
-        Powered by: <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow">Pelican</a>
-        Theme: <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow">Elegant</a>
+        Powered by: <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow noopener noreferrer">Pelican</a>
+        Theme: <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow noopener noreferrer">Elegant</a>
     </div>
 </footer>            <script src="//code.jquery.com/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script src="./theme/js/elegant.prod.9e9d5ce754.js"></script>
         <script>
             function validateForm(query)
             {

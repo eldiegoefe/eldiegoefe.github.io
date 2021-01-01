@@ -392,8 +392,7 @@ directorio para tal efecto en el disco&amp;nbsp;externo:&lt;/p&gt;
 &lt;p&gt;Otro ejemplo es la copia que hago de mi colección de libros organizados con&amp;nbsp;Calibre:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ rsync -avh --progress --delete ~/calibre/ /media/diego/biblioteca/espejo-del-rigido/calibre
 &lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Un último ejemplo: de un rígido externo a otro (porque hay que hacer backup del
-backup de vez en&amp;nbsp;cuando).&lt;/p&gt;
+&lt;p&gt;De un rígido externo a otro (porque hay que hacer backup del backup de vez en&amp;nbsp;cuando):&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ rsync -avh --progress --delete /media/diego/biblioteca/mantener-backup/ /media/diego/backup/mantener-backup
 $ rsync -avh --progress --delete /media/diego/biblioteca/fotos-videos/ /media/diego/backup/fotos-videos
 &lt;/pre&gt;&lt;/div&gt;
@@ -403,6 +402,20 @@ posteriores se compararán los directorios de origen y destino, y sólo se copia
 aquello que haya cambiado (o se borrarán aquellos archivos en el directorio de
 destino que se hayan eliminado del directorio de origen). Este modo de hacer
 backup me cambió la&amp;nbsp;vida.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;A continuación, un ejemplo modificado de &lt;a class="reference external" href="https://superuser.com/questions/576687/how-to-print-files-that-would-have-been-changed-using-rsync"&gt;StackExchange&lt;/a&gt;: sirve para verificar
+con un &amp;#8220;dry-run&amp;#8221; cuáles serán los cambios que se realizarán, sin que se
+materialicen. Para efectuar realmente los cambios hay que borrar &amp;#8220;&amp;#8212;dry-run&amp;#8221; y
+ejecutar de nuevo la&amp;nbsp;orden.&lt;/p&gt;
+&lt;p&gt;El &amp;#8220;delete-after&amp;#8221; realiza el borrado de los archivos en el destino (aquellos que
+no están en el origen) recién después de que se haya completado la copia. El
+directorio de origen y el del final están probados para un caso particular en mi
+instalación de Manjaro (18/11/2020), así que cada uno tendrá que modificarlo de
+acuerdo a sus&amp;nbsp;ubicaciones.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ rsync -avhi --dry-run --progress --delete-after ~/Calibre/
+/run/media/diego/biblioteca/espejo-del-rigido/calibre/general/ | egrep -v
+&amp;quot;sending incremental file list&amp;quot; | egrep -v &amp;quot;^\
+&lt;/pre&gt;&lt;/div&gt;
 </content><category term="tecnicismos"></category><category term="rsync"></category><category term="backup"></category><category term="linux"></category></entry><entry><title>FreeCAD</title><link href="https://eldiegoefe.github.io/freecad.html" rel="alternate"></link><published>2016-11-25T10:00:00+01:00</published><updated>2016-11-25T10:00:00+01:00</updated><author><name>El Diego Efe</name></author><id>tag:eldiegoefe.github.io,2016-11-25:/freecad.html</id><summary type="html">&lt;p&gt;Para proyectar diseños en madera los carpinteros de YouTube suelen usar
 SketchUp, que es un software de Google que sólo funciona en Windows y Mac.
 Busqué algún programa que pueda usar con el mismo fin pero en Linux, y encontré
@@ -631,7 +644,7 @@ del ejemplo tiene un boton, una etiqueta y un&amp;nbsp;PlotWidget.&lt;/p&gt;
 &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;PyQt4&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;QtCore&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;QtGui&lt;/span&gt;
 &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;panel&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Ui_VentanaPrincipal&lt;/span&gt;
 
-&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
 
 &lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Window&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;QtGui&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;QMainWindow&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
     &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="fm"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
@@ -948,10 +961,11 @@ pendiente escribir el tutorial correspondiente). Creamos un entorno
 llamado &lt;em&gt;blogs&lt;/em&gt; y dentro de él instalamos Pelican y también otras
 herramientas que utilizaremos&amp;nbsp;posteriormente:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; mkvirtualenv blogs
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; pip install pelican
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; pip install beautifulsoup4
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; pip install pelican-youtube
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; pip install ghp-import
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install pelican
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install beautifulsoup4
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install pelican-youtube
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install ghp-import
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pip install typogrify
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="estructura-de-directorios"&gt;
@@ -969,10 +983,10 @@ organización será la&amp;nbsp;siguiente:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Para ello debemos ejecutar las siguientes instrucciones (supongo que
 el entorno virtual sigue activado, lo cual se refleja en el&amp;nbsp;prompt):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; mkdir ~/misBlogs
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; ~/misBlogs
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git clone --recursive https://github.com/getpelican/pelican-themes
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git clone --recursive https://github.com/getpelican/pelican-plugins
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; mkdir ~/misBlogs
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; ~/misBlogs
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git clone --recursive https://github.com/getpelican/pelican-themes
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git clone --recursive https://github.com/getpelican/pelican-plugins
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Aún falta crear el directorio para los archivos del blog. Para ello
 creamos un repositorio vacío en GitHub. Este sitio ofrece la dirección
@@ -983,7 +997,7 @@ completamente ajeno, de lo contrario este tutorial parecerá sánscrito
 avanzado. El repositorio recientemente creado debe clonarse en el
 directorio que fijamos anteriormente, si seguimos de la secuencia de
 comandos anteriores sólo debemos&amp;nbsp;tipear:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git clone https://github.com/nombreUsuario/nombreUsuario.github.io
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git clone https://github.com/nombreUsuario/nombreUsuario.github.io
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;En el archivo .gitignore (dentro del directorio
 ~/misBlogs/nombreUsuario.github.io) se deben colocar todos los
@@ -1003,10 +1017,10 @@ de configuración de Pelican para nuestro sitio, los archivos de texto
 con el contenido de cada post que vayamos escribiendo, etc. La rama
 &lt;em&gt;gh-pages&lt;/em&gt; es necesaria para el procedimiento de generación del sitio
 estático. Creamos entonces ambas ramas y cambiamos hacia &lt;strong&gt;source&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; nombreUsuario.github.io
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git branch gh-pages
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git branch &lt;span class="nb"&gt;source&lt;/span&gt;
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git checkout &lt;span class="nb"&gt;source&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; nombreUsuario.github.io
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git branch gh-pages
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git branch &lt;span class="nb"&gt;source&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git checkout &lt;span class="nb"&gt;source&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="ejecucion-inicial-de-pelican"&gt;
@@ -1015,7 +1029,7 @@ estático. Creamos entonces ambas ramas y cambiamos hacia &lt;strong&gt;source&l
 del sitio (nombreUsuario.github.io) se debe ejecutar por única vez la
 orden &lt;strong&gt;pelican-quickstart&lt;/strong&gt; para que se generen los archivos de
 configurción de Pelican (va el guión entre las dos&amp;nbsp;palabras):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; pelican-quickstart
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pelican-quickstart
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Tras ese comando, y tras contestar todas las preguntas que aparecen,
 no solamente se guarda la configuración deseada (en los archivos
@@ -1039,9 +1053,9 @@ completar los datos, queda&amp;nbsp;así:&lt;/p&gt;
 &lt;span class="n"&gt;DEFAULT_LANG&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;es&amp;#39;&lt;/span&gt;
 
 &lt;span class="c1"&gt;# Feed generation is usually not desired when developing&lt;/span&gt;
-&lt;span class="n"&gt;FEED_ALL_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
-&lt;span class="n"&gt;CATEGORY_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
-&lt;span class="n"&gt;TRANSLATION_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
+&lt;span class="n"&gt;FEED_ALL_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;
+&lt;span class="n"&gt;CATEGORY_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;
+&lt;span class="n"&gt;TRANSLATION_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;
 
 &lt;span class="c1"&gt;# Blogroll&lt;/span&gt;
 &lt;span class="n"&gt;LINKS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt;  &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Pelican&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;http://getpelican.com/&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
@@ -1075,12 +1089,12 @@ completar los datos, queda&amp;nbsp;así:&lt;/p&gt;
 &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pelicanconf&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;
 
 &lt;span class="n"&gt;SITEURL&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;http://nombreUsuario.github.io&amp;#39;&lt;/span&gt;
-&lt;span class="n"&gt;RELATIVE_URLS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;False&lt;/span&gt;
+&lt;span class="n"&gt;RELATIVE_URLS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;False&lt;/span&gt;
 
 &lt;span class="n"&gt;FEED_ALL_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;feeds/all.atom.xml&amp;#39;&lt;/span&gt;
 &lt;span class="n"&gt;CATEGORY_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;feeds/&lt;/span&gt;&lt;span class="si"&gt;%s&lt;/span&gt;&lt;span class="s1"&gt;.atom.xml&amp;#39;&lt;/span&gt;
 
-&lt;span class="n"&gt;DELETE_OUTPUT_DIRECTORY&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;True&lt;/span&gt;
+&lt;span class="n"&gt;DELETE_OUTPUT_DIRECTORY&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;
 
 &lt;span class="c1"&gt;# Following items are often useful when publishing&lt;/span&gt;
 
@@ -1119,8 +1133,8 @@ todos los archivos del directorio &lt;em&gt;content&lt;/em&gt;, produce los arch
 &lt;em&gt;html&lt;/em&gt; y los aloja en el directorio &lt;em&gt;output&lt;/em&gt;) se logra con &lt;strong&gt;make
 html&lt;/strong&gt; y luego se ejecuta un servidor local con &lt;strong&gt;make serve&lt;/strong&gt; que
 permite visitar el blog en la dirección &lt;a class="reference external" href="http://localhost:8000"&gt;http://localhost:8000&lt;/a&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; make html
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; make serve
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; make html
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; make serve
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;En la primera corrida puede haber problemas de formato, sin embargo
 tras subir el sitio al repositorio externo, se corrobora que la página
@@ -1139,13 +1153,13 @@ dos terminales distintos. A continuación lo muestro con el uso de pyenv, aunque
 no haya explicado nada antes sobre esta alternativa de manejo de virtualenvs.
 Vayamos al grano, en un terminal ejecutar&amp;nbsp;esto:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pyenv activate blogs
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; ~/blogs/eldiegoefe.github.io/
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; make regenerate
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; ~/blogs/eldiegoefe.github.io/
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; make regenerate
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;En otro terminal, hacer lo&amp;nbsp;propio:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; pyenv activate blogs
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; ~/blogs/eldiegoefe.github.io/
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; make serve
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; ~/blogs/eldiegoefe.github.io/
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; make serve
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;De este modo el sitio se regenera ante cualquier edición de su
 contenido, y permanece accesible en &lt;a class="reference external" href="http://localhost:8000"&gt;http://localhost:8000&lt;/a&gt; (no hay que
@@ -1161,8 +1175,8 @@ el &lt;em&gt;make regenerate&lt;/em&gt;.&lt;/p&gt;
 &lt;h2&gt;Subir el sitio al repositorio&amp;nbsp;remoto&lt;/h2&gt;
 &lt;p&gt;Una vez que estamos conformes con el contenido vamos a agregar todo al
 branch &lt;strong&gt;source&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git add .
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git commit -m &lt;span class="s2"&gt;&amp;quot;Commit inicial de la rama source&amp;quot;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git add .
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git commit -m &lt;span class="s2"&gt;&amp;quot;Commit inicial de la rama source&amp;quot;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;De este modo nuestros archivos ya quedaron almacenados en la rama
 &lt;strong&gt;source&lt;/strong&gt; de nuestro repositorio local. Pero lo que se verá al
@@ -1175,10 +1189,10 @@ ejecutarlo) hacia la rama &amp;#8220;gh-pages&amp;#8221; (que también ya creamo
 anteriormente, porque somos gente muy prevenida&amp;#8230;). Finalmente se
 debe hacer un merge desde la rama &lt;strong&gt;master&lt;/strong&gt; con la rama &lt;strong&gt;gh-pages&lt;/strong&gt;
 y subir todo al repositorio externo. Estos son los pasos&amp;nbsp;mencionados:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; ghp-import output
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git checkout master
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git merge gh-pages
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git push --all
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ghp-import output
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git checkout master
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git merge gh-pages
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git push --all
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Hay que esperar un rato hasta que el sitio esté accesible (sólo la
 primera vez, las siguientes actualizaciones que se hagan permiten
@@ -1196,17 +1210,17 @@ el entorno virtual correcto para que funcione Pelican y las órdenes
 como &lt;em&gt;make html&lt;/em&gt; y &lt;em&gt;make serve&lt;/em&gt;.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;source&lt;/span&gt; /usr/local/bin/virtualenvwrapper.sh
 &lt;span class="gp"&gt;$&lt;/span&gt; workon blogs
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; ~/misBlogs/nombreUsuario.github.io/
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git checkout &lt;span class="nb"&gt;source&lt;/span&gt;
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; content
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; ~/misBlogs/nombreUsuario.github.io/
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git checkout &lt;span class="nb"&gt;source&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; content
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Con las órdenes anteriores se activó el entorno virtual, nos
 aseguramos de estar en la rama &lt;strong&gt;source&lt;/strong&gt; y llegamos al directorio
 &lt;em&gt;content&lt;/em&gt; que es donde debemos almacenar los archivos de contenido
 (&lt;em&gt;.rst&lt;/em&gt; o &lt;em&gt;.md&lt;/em&gt;)&lt;/p&gt;
 &lt;p&gt;Generamos el blog y arrancamos el servidor local&amp;nbsp;con:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; make html
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; make serve
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; make html
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; make serve
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Visitamos el blog con nuestro navegador en la dirección
 &lt;a class="reference external" href="http://localhost:8000"&gt;http://localhost:8000&lt;/a&gt;&lt;/p&gt;
@@ -1216,12 +1230,12 @@ con Ctrl-c Ctrl-c y luego de editar los cambios volvemos a ejecutar
 regenerate&lt;/em&gt; y &lt;em&gt;make serve&lt;/em&gt; en dos terminales distintos, como expliqué
 antes). Una vez que estemos conformes con el contenido tenemos que
 ejecutar las siguientes órdenes para subir el blog al repositorio&amp;nbsp;externo:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git add .
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git commit -m &lt;span class="s2"&gt;&amp;quot;mensaje del commit&amp;quot;&lt;/span&gt;
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; ghp-import output
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git checkout master
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git merge -X theirs gh-pages
-&lt;span class="gp"&gt;(blogs)$&lt;/span&gt; git push --all
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git add .
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git commit -m &lt;span class="s2"&gt;&amp;quot;mensaje del commit&amp;quot;&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ghp-import output
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git checkout master
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git merge -X theirs gh-pages
+&lt;span class="gp gp-VirtualEnv"&gt;(blogs)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git push --all
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="atencion-navegacion-offline"&gt;
@@ -1253,6 +1267,13 @@ en las instrucciones de &lt;a class="reference external" href="http://xlson.com/
 generar las llaves &lt;span class="caps"&gt;SSH&lt;/span&gt; (&lt;span class="caps"&gt;SSH&lt;/span&gt; keys) están en &lt;a class="reference external" href="https://help.github.com/articles/generating-ssh-keys/"&gt;esta ayuda de GitHub&lt;/a&gt;,
 mientras que el cambio propiamente dicho se explica en &lt;a class="reference external" href="https://help.github.com/articles/changing-a-remote-s-url/"&gt;Changing a
 remote&amp;#8217;s &lt;span class="caps"&gt;URL&lt;/span&gt;&lt;/a&gt;, también en&amp;nbsp;GitHub.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="problemas-con-youtube"&gt;
+&lt;h2&gt;Problemas con&amp;nbsp;Youtube&lt;/h2&gt;
+&lt;p&gt;El plugin &lt;strong&gt;pelican-youtube&lt;/strong&gt; puede generar errores al correr un &lt;em&gt;make html&lt;/em&gt;. En
+ese caso verificar si además de estar instalado con pip, no figura entre los
+plugins de la carpeta &lt;em&gt;?/pelican-plugins&lt;/em&gt;, en cuyo caso una solución posible es
+borrarlo de este último sitio (y cada vez que actualicemos ese repositorio de&amp;nbsp;plugins)&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="tecnicismos"></category><category term="tutorial"></category><category term="blog"></category><category term="git"></category><category term="pelican"></category></entry><entry><title>Sugerencia respecto de los tutoriales de Emacs</title><link href="https://eldiegoefe.github.io/sugerencia-respecto-de-los-tutoriales-de-emacs.html" rel="alternate"></link><published>2015-05-18T10:00:00+02:00</published><updated>2015-05-18T10:00:00+02:00</updated><author><name>El Diego Efe</name></author><id>tag:eldiegoefe.github.io,2015-05-18:/sugerencia-respecto-de-los-tutoriales-de-emacs.html</id><summary type="html">&lt;p&gt;To read this entry in english: &lt;a class="reference external" href="https://eldiegoefe.github.io/suggestion-about-emacs-tutorials.html"&gt;click&amp;nbsp;here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Leo bastantes blogs sobre Emacs desde que empecé el viaje de aprender
@@ -1502,7 +1523,7 @@ Krusader especialmente para &lt;span class="caps"&gt;KDE&lt;/span&gt;, etc). Es 
 sirven de inicio y de destino para poder copiar y mover archivos,
 crear directorios, navegarlos,&amp;nbsp;etc.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;a class="reference external image-reference" href="https://farm9.staticflickr.com/8641/15493512904_ccc0fd6445_b.jpg"&gt;&lt;img alt="dired pelado (sin dired+)" src="https://farm9.staticflickr.com/8641/15493512904_ccc0fd6445_b.jpg" style="width: 75.0%;" /&gt;&lt;/a&gt;
+&lt;a class="reference external image-reference" href="https://live.staticflickr.com/7526/15668751884_91dbcb31e4_o.png"&gt;&lt;img alt="dired pelado (sin dired+)" src="https://live.staticflickr.com/7526/15668751884_b2fa8f9d5b_c.jpg" style="width: 75.0%;" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;Buffer mostrando un directorio con&amp;nbsp;dired-mode&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Lo primero que hice fue instalar un paquete que amplía las opciones
@@ -1516,25 +1537,24 @@ configuración de Emacs (init.el, custom.el o el que estemos
 utilizando) es imprescindible agregar la orden&amp;nbsp;siguiente:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;require&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;dired+&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Para correr el modo basta hacer &lt;strong&gt;M-x dired&lt;/strong&gt; (yo creo que con esto se
-carga ya con los agregados de dired+, que por ejemplo enriquece los
-menúes de dired, así que viendo estos menúes uno puede darse cuenta si
-está cargada la extensión o no). El buffer de dired que se abre
-muestra los nombres de los archivos del directorio elegido (ver en la
-figura siguiente), pero parece que por defecto se activa el
-ocultamiento de toda otra información. Hay que ejecutar
-dired-hide-details-mode (con el &lt;strong&gt;(&lt;/strong&gt; es decir &lt;strong&gt;S-8&lt;/strong&gt; en la
-distribución de teclado en castellano) para que se vea toda la info
-del archivo, incluyendo fecha, permisos,&amp;nbsp;etc.&lt;/p&gt;
+&lt;p&gt;Para correr el modo basta hacer &lt;strong&gt;M-x dired&lt;/strong&gt; (yo creo que con esto se carga ya
+con los agregados de dired+, que por ejemplo enriquece los menúes de dired, así
+que viendo estos menúes uno puede darse cuenta si está cargada la extensión o
+no). El buffer de dired que se abre muestra los nombres de los archivos del
+directorio elegido (ver en la figura siguiente), pero parece que por defecto se
+activa el ocultamiento de toda otra información. Hay que ejecutar
+dired-hide-details-mode para que se vea toda la info del archivo, incluyendo
+fecha, permisos,&amp;nbsp;etc.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;a class="reference external image-reference" href="https://farm8.staticflickr.com/7580/16290334112_66dd0af6b1_o.png"&gt;&lt;img alt="dired+ sin detalles" src="https://farm8.staticflickr.com/7580/16290334112_66dd0af6b1_o.png" style="width: 75.0%;" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;Buffer con dired+ suprimiendo detalles de los&amp;nbsp;archivos&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;Por ahora no encuentro el modo de colorear distinto a las directorios
-y a los archivos con distinta extensión. Intenté con el paquete
-dired-rainbow y pude colorear distinto los archivos con diferentes
-extensiones, pero no se cómo hacer con los directorios (porque no
-tienen extensión), así que lo desinstalé. Pero copio debajo el código
+&lt;p&gt;Por ahora no encuentro el modo de colorear distinto a las directorios y a los
+archivos con distinta extensión (observación al 11/2020: en Doom Emacs aparecen
+cosas con diversos colores, por ejemplo los permisos, las fechas, los tamaños de
+los archivos). Intenté con el paquete dired-rainbow y pude colorear distinto los
+archivos con diferentes extensiones, pero no se cómo hacer con los directorios
+(porque no tienen extensión), así que lo desinstalé. Pero copio debajo el código
 de prueba que funcionó, para no&amp;nbsp;perderlo:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;require&lt;/span&gt; &lt;span class="ss"&gt;&amp;#39;dired-rainbow&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
@@ -1561,6 +1581,14 @@ archivos (visibles y ocultos) con los&amp;nbsp;directorios.&lt;/p&gt;
 &lt;a class="reference external image-reference" href="https://farm8.staticflickr.com/7527/16105034929_69b43c99f9_o.png"&gt;&lt;img alt="doble buffer con dired+" src="https://farm8.staticflickr.com/7527/16105034929_742a1aeac2_b.jpg" style="width: 100.0%;" /&gt;&lt;/a&gt;
 &lt;p class="caption"&gt;Dos buffers coloridos con&amp;nbsp;dired+.&lt;/p&gt;
 &lt;/div&gt;
+&lt;p&gt;Edición del nombre de archivos y&amp;nbsp;directorios&lt;/p&gt;
+&lt;p&gt;El buffer se puede volver editable para habilitar el cambio de nombre de
+archivos y directorios, del mismo modo en que se edita un buffer normal de
+texto. La función que vuelve editable el buffer es dired-toggle-read-only que
+por defecto se ejecuta con C-x C-q y en Doom Emacs directamente con &amp;#8220;i&amp;#8221; (insert
+mode). Al correr la función prestar atención al minibuffer porque indica la
+manera de salir de este modo de edición, confirmando los cambios (vanilla: C-c
+C-c; Doom: Z Z) o cancelándolos (vanilla: C-c C-k; Doom: Z&amp;nbsp;Q).&lt;/p&gt;
 &lt;p&gt;Las funciones más comunes y sus atajos de teclado (son case-sensitive)
 están en la tabla siguiente, a modo de ejemplo, pero hay muchas más
 opciones en los menúes de dired+, que son varios: Dir, Mark, Regexp,
@@ -1578,23 +1606,56 @@ es una buena forma de&amp;nbsp;aprender.&lt;/p&gt;
 &lt;tr&gt;&lt;td&gt;Marcar archivo&lt;/td&gt;
 &lt;td&gt;m&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Desmarcar archivo&lt;/td&gt;
+&lt;td&gt;u&lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Marcar por extensión&lt;/td&gt;
 &lt;td&gt;*.&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Desmarcar archivo&lt;/td&gt;
-&lt;td&gt;u&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;Marcar directorios&lt;/td&gt;
+&lt;td&gt;*/&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Desmarcar todos&lt;/td&gt;
 &lt;td&gt;U&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Toggle&lt;/td&gt;
+&lt;tr&gt;&lt;td&gt;Invertir selección&lt;/td&gt;
 &lt;td&gt;t&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Dividir en 2 paneles&lt;/td&gt;
+&lt;td&gt;C-w v&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ir al otro panel&lt;/td&gt;
+&lt;td&gt;C-w w&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Copiar&lt;/td&gt;
 &lt;td&gt;C&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Mover/renombrar&lt;/td&gt;
 &lt;td&gt;R&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Full/simple view&lt;/td&gt;
+&lt;td&gt;( ó S-8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Entrar directorio&lt;/td&gt;
+&lt;td&gt;&lt;span class="caps"&gt;ENTER&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Directorio anterior&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Crear directorio&lt;/td&gt;
+&lt;td&gt;+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Marcar para borrar&lt;/td&gt;
+&lt;td&gt;d&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Run acciones marcadas&lt;/td&gt;
+&lt;td&gt;x&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Buffer editable&lt;/td&gt;
+&lt;td&gt;C-x C-q&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Idem con Doom&lt;/td&gt;
+&lt;td&gt;i&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -1792,7 +1853,7 @@ problemas con las distribuciones que les vengo&amp;nbsp;comentando.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;To traverse&lt;/em&gt; es el verbo que se refiere al acceso secuencial de los
 elementos de una lista. La siguiente es una forma de &amp;#8220;traversear&amp;#8221; una&amp;nbsp;lista:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;cheese&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;cheeses&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-       &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;cheese&lt;/span&gt;
+       &lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;cheese&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Si se necesita modificar algún elemento de la lista …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Apuntes del capítulo 10. Lists, de Think&amp;nbsp;Python.&lt;/p&gt;
 &lt;div class="section" id="traversing"&gt;
@@ -1800,7 +1861,7 @@ elementos de una lista. La siguiente es una forma de &amp;#8220;traversear&amp;#
 &lt;p&gt;&lt;em&gt;To traverse&lt;/em&gt; es el verbo que se refiere al acceso secuencial de los
 elementos de una lista. La siguiente es una forma de &amp;#8220;traversear&amp;#8221; una&amp;nbsp;lista:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;cheese&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;cheeses&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-       &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;cheese&lt;/span&gt;
+       &lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;cheese&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Si se necesita modificar algún elemento de la lista es mejor&amp;nbsp;hacer:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;numbers&lt;/span&gt;&lt;span class="p"&gt;)):&lt;/span&gt;
@@ -1814,26 +1875,26 @@ elementos de una lista. La siguiente es una forma de &amp;#8220;traversear&amp;#
 &lt;p&gt;Ambas formas tienen&amp;nbsp;diferencias:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;t1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="n"&gt;t2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;t1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t1&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t1&lt;/span&gt;
 &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t2&lt;/span&gt;
-&lt;span class="bp"&gt;None&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t2&lt;/span&gt;
+&lt;span class="kc"&gt;None&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;El método &lt;em&gt;append&lt;/em&gt; modifica la lista sobre la cual se aplica pero
 tiene salida&amp;nbsp;None.&lt;/p&gt;
 &lt;p&gt;El operador &lt;em&gt;+&lt;/em&gt; sí tiene una&amp;nbsp;salida:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;t1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="n"&gt;t2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;t1&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t1&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t1&lt;/span&gt;
 &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t2&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t2&lt;/span&gt;
 &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Se puede agregar una lista (t2) a otra lista (t1) con &lt;em&gt;extend&lt;/em&gt;:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;t1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt; &lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="n"&gt;t2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="n"&gt;t1&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;extend&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;t2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t1&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t1&lt;/span&gt;
 &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -1871,9 +1932,9 @@ una combinación de map, filter y&amp;nbsp;reduce.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pop&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t&lt;/span&gt;
 &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;
 &lt;span class="mi"&gt;4&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;ul class="simple"&gt;
@@ -1881,7 +1942,7 @@ una combinación de map, filter y&amp;nbsp;reduce.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="k"&gt;del&lt;/span&gt; &lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t&lt;/span&gt;
 &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Obs: pueden usarse slices. del t[1:3] &amp;#8212;-&amp;gt; [2,&amp;nbsp;16]&lt;/p&gt;
@@ -1890,7 +1951,7 @@ una combinación de map, filter y&amp;nbsp;reduce.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;remove&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;t&lt;/span&gt;
 &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
@@ -3537,7 +3598,7 @@ mensaje, así que sabemos que lo hizo&amp;nbsp;exitosamente:&lt;/p&gt;
 &lt;span class="go"&gt;  (setq inferior-lisp-program &amp;quot;sbcl&amp;quot;)&lt;/span&gt;
 
 
-&lt;span class="go"&gt;(&amp;quot;quicklisp-slime-helper&amp;quot;)&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(&amp;quot;quicklisp-slime-helper&amp;quot;)&lt;/span&gt;
 &lt;span class="go"&gt;*&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Yo no tengo archivo ~/.emacs porque instalé Prelude, así que esas tres
@@ -3603,12 +3664,12 @@ de este blog. Hay mucha ayuda en la &lt;a class="reference external" href="http:
 # expand-env: ((yas-indent-line &amp;#39;fixed))
 # --
 
-&lt;span class="nc"&gt;:title:&lt;/span&gt; &lt;span class="nf"&gt;${1:titulo}&lt;/span&gt;
-&lt;span class="nc"&gt;:date:&lt;/span&gt; &lt;span class="nf"&gt;${2:2014}-{3:10}-{4:31} {5:10:00}&lt;/span&gt;
-&lt;span class="nc"&gt;:category:&lt;/span&gt; &lt;span class="nf"&gt;${6:$$(yas-choose-value &amp;#39;(&amp;quot;blog&amp;quot; &amp;quot;politica&amp;quot; &amp;quot;salud&amp;quot; &amp;quot;tecnicismos&amp;quot;))}&lt;/span&gt;
-&lt;span class="nc"&gt;:tags:&lt;/span&gt; &lt;span class="nf"&gt;$7&lt;/span&gt;
-&lt;span class="nc"&gt;:author:&lt;/span&gt; &lt;span class="nf"&gt;El Diego Efe&lt;/span&gt;
-&lt;span class="nc"&gt;:excerpt:&lt;/span&gt; &lt;span class="nf"&gt;$1&lt;/span&gt;
+&lt;span class="nc"&gt;:title:&lt;/span&gt; ${1:titulo}
+&lt;span class="nc"&gt;:date:&lt;/span&gt; ${2:2014}-{3:10}-{4:31} {5:10:00}
+&lt;span class="nc"&gt;:category:&lt;/span&gt; ${6:$$(yas-choose-value &amp;#39;(&amp;quot;blog&amp;quot; &amp;quot;politica&amp;quot; &amp;quot;salud&amp;quot; &amp;quot;tecnicismos&amp;quot;))}
+&lt;span class="nc"&gt;:tags:&lt;/span&gt; $7
+&lt;span class="nc"&gt;:author:&lt;/span&gt; El Diego Efe
+&lt;span class="nc"&gt;:excerpt:&lt;/span&gt; $1
 
 $0
 &lt;/pre&gt;&lt;/div&gt;
@@ -3944,29 +4005,37 @@ el dibujo la jerarquía de Figure y Canvas aparecen distinto en los dos
 gráficos, no se si es un&amp;nbsp;error&amp;#8230;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</content><category term="tecnicismos"></category><category term="matplotlib"></category><category term="python"></category><category term="graficacion"></category></entry><entry><title>Comandos de Emacs y Spacemacs para recordar</title><link href="https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar.html" rel="alternate"></link><published>2014-07-31T10:00:00+02:00</published><updated>2014-07-31T10:00:00+02:00</updated><author><name>El Diego Efe</name></author><id>tag:eldiegoefe.github.io,2014-07-31:/comandos-de-emacs-y-spacemacs-para-recordar.html</id><summary type="html">&lt;p&gt;Yasnippets / Company ==================== En &lt;a class="reference external" href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings"&gt;la documentación de Spacemacs&lt;/a&gt;
-están los keybindings. No funciona más &lt;span class="caps"&gt;SPC&lt;/span&gt; i s (que mostraba una lista de
-snippets habilitados para el modo&amp;nbsp;actual).&lt;/p&gt;
+</content><category term="tecnicismos"></category><category term="matplotlib"></category><category term="python"></category><category term="graficacion"></category></entry><entry><title>Comandos de Emacs y Spacemacs para recordar</title><link href="https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar.html" rel="alternate"></link><published>2014-07-31T10:00:00+02:00</published><updated>2014-07-31T10:00:00+02:00</updated><author><name>El Diego Efe</name></author><id>tag:eldiegoefe.github.io,2014-07-31:/comandos-de-emacs-y-spacemacs-para-recordar.html</id><summary type="html">&lt;div class="section" id="yasnippets-company"&gt;
+&lt;h2&gt;Yasnippets /&amp;nbsp;Company&lt;/h2&gt;
+&lt;p&gt;En &lt;a class="reference external" href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings"&gt;la documentación de Spacemacs&lt;/a&gt; están los keybindings. No funciona más &lt;span class="caps"&gt;SPC&lt;/span&gt; i
+s (que mostraba una lista de snippets habilitados para el modo&amp;nbsp;actual).&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;reemplaza la clave previa al punto por el contenido del snippet
 correspondiente:&amp;nbsp;M-/&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Búsqueda&amp;nbsp;========&lt;/p&gt;
-&lt;p&gt;La búsqueda habitual con i-search (C-s) se potencia al …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Yasnippets / Company ==================== En &lt;a class="reference external" href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings"&gt;la documentación de Spacemacs&lt;/a&gt;
-están los keybindings. No funciona más &lt;span class="caps"&gt;SPC&lt;/span&gt; i s (que mostraba una lista de
-snippets habilitados para el modo&amp;nbsp;actual).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="busqueda"&gt;
+&lt;h2&gt;Búsqueda&lt;/h2&gt;
+&lt;p&gt;La búsqueda habitual con i-search (C-s) se potencia al …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="yasnippets-company"&gt;
+&lt;h2&gt;Yasnippets /&amp;nbsp;Company&lt;/h2&gt;
+&lt;p&gt;En &lt;a class="reference external" href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings"&gt;la documentación de Spacemacs&lt;/a&gt; están los keybindings. No funciona más &lt;span class="caps"&gt;SPC&lt;/span&gt; i
+s (que mostraba una lista de snippets habilitados para el modo&amp;nbsp;actual).&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;reemplaza la clave previa al punto por el contenido del snippet
 correspondiente:&amp;nbsp;M-/&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Búsqueda&amp;nbsp;========&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="busqueda"&gt;
+&lt;h2&gt;Búsqueda&lt;/h2&gt;
 &lt;p&gt;La búsqueda habitual con i-search (C-s) se potencia al instalar &lt;a class="reference external" href="https://github.com/abo-abo/swiper"&gt;swiper&lt;/a&gt;, que
 ofrece un listado de las lineas del documento donde se encuentran los resultados
 de la&amp;nbsp;búsqueda.&lt;/p&gt;
 &lt;p&gt;También se puede buscar con evil-search-forward (/) que es una variante de
 i-search, pero sólo va a la próxima aparición de la búsqueda y hay que recordar
 cómo ir a los resultados siguientes (C-s) y anteriores (C-r). Es menos&amp;nbsp;visual.&lt;/p&gt;
-&lt;p&gt;Movimiento&amp;nbsp;==========&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="movimiento"&gt;
+&lt;h2&gt;Movimiento&lt;/h2&gt;
 &lt;p&gt;Se puede saltar facilmente a letras o lineas que aparezcan en pantalla. Dentro
 de Spacemacs las opciones para este tipo de salto están bajo el prefijo &lt;span class="caps"&gt;SPC&lt;/span&gt; j.
 El sistema de búsqueda funciona así: primero se determina qué elemento se busca
@@ -3985,17 +4054,23 @@ j&amp;nbsp;z.&lt;/li&gt;
 &lt;li&gt;15 gg: se mueve a la línea 15. Obviamente &amp;#8216;15&amp;#8217; es un&amp;nbsp;ejemplo.&lt;/li&gt;
 &lt;li&gt;G: se mueve al final del&amp;nbsp;documento&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Ventanas&amp;nbsp;========&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ventanas"&gt;
+&lt;h2&gt;Ventanas&lt;/h2&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;dividir ventana verticalmente: &lt;span class="caps"&gt;SPC&lt;/span&gt; w&amp;nbsp;/&lt;/li&gt;
 &lt;li&gt;dividir ventana horizontalmente: &lt;span class="caps"&gt;SPC&lt;/span&gt; w&amp;nbsp;-&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Dired&amp;nbsp;=====&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="dired"&gt;
+&lt;h2&gt;Dired&lt;/h2&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;convertir buffer en texto editable: C-x&amp;nbsp;C-q&lt;/li&gt;
 &lt;li&gt;aceptar los cambios realizados y finalizar edición: C-c&amp;nbsp;C-c&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Enlaces&amp;nbsp;=======&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="enlaces"&gt;
+&lt;h2&gt;Enlaces&lt;/h2&gt;
 &lt;p&gt;Armé un snippet para colocar links más fácilmente (&lt;a class="reference external" href="https://eldiegoefe.github.io/emacs-y-restructuredtext.html"&gt;lo pueden ver aca&lt;/a&gt;), pero
 igual dejo acá la sintaxis para poner hiperlinks en&amp;nbsp;restructuredText:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
@@ -4009,7 +4084,9 @@ Wikipedia es `mi sitio favorito`_.
 
 .. _mi sitio favorito: http://www.wikipedia.org/
 &lt;/pre&gt;
-&lt;p&gt;Indentación&amp;nbsp;===========&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="indentacion"&gt;
+&lt;h2&gt;Indentación&lt;/h2&gt;
 &lt;p&gt;Primero se selecciona un bloque de texto y&amp;nbsp;luego:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;indent-region. Indenta todo, pero no resguarda las indentaciones que el bloque
@@ -4018,13 +4095,17 @@ pudo haber tenido, como es usual en los códigos de&amp;nbsp;programación.&lt;/
 indentaciones que el bloque haya tenido antes. El movimiento se determina
 presionando las flechas (o las teclas &amp;#8216;h&amp;#8217; y &amp;#8216;l&amp;#8217;) luego de invocar el&amp;nbsp;comando.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Ayuda&amp;nbsp;=====&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ayuda"&gt;
+&lt;h2&gt;Ayuda&lt;/h2&gt;
 &lt;p&gt;Para pedir ayuda sobre una&amp;nbsp;función:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Si se sabe el nombre: C-h f&amp;nbsp;nombre-de-la-función&lt;/li&gt;
 &lt;li&gt;Si se sabe el keybinding: C-h k&amp;nbsp;keybinding&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Caracteres&amp;nbsp;==========&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="caracteres"&gt;
+&lt;h2&gt;Caracteres&lt;/h2&gt;
 &lt;p&gt;Todo esto cambia de acuerdo al teclado (en el &lt;a class="reference external" href="http://deskthority.net/wiki/ErgoDox"&gt;Ergodox&lt;/a&gt; tengo teclas
 programables) y con la distribución elegida. De todos modos, actualmente son las
 siguientes: (uso la letra M para referirme más precisamente al Alt&amp;nbsp;Derecho)&lt;/p&gt;
@@ -4033,6 +4114,7 @@ siguientes: (uso la letra M para referirme más precisamente al Alt&amp;nbsp;Der
 &lt;/pre&gt;
 &lt;div class="figure align-center"&gt;
 &lt;a class="reference external image-reference" href="https://farm9.staticflickr.com/8577/16108048537_d0db2cc098_o.jpg"&gt;&lt;img alt="ergodox" src="https://farm9.staticflickr.com/8577/16108048537_1601cc1b60_b.jpg" style="width: 100.0%;" /&gt;&lt;/a&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </content><category term="tecnicismos"></category><category term="blog"></category><category term="restructuredtext"></category><category term="cheat sheet"></category><category term="emacs"></category></entry><entry><title>Comunicacion USB con mbed</title><link href="https://eldiegoefe.github.io/comunicacion-usb-con-mbed.html" rel="alternate"></link><published>2014-07-31T10:00:00+02:00</published><updated>2014-07-31T10:00:00+02:00</updated><author><name>El Diego Efe</name></author><id>tag:eldiegoefe.github.io,2014-07-31:/comunicacion-usb-con-mbed.html</id><summary type="html">&lt;p&gt;La comunicación mediante &lt;span class="caps"&gt;USB&lt;/span&gt; con microcontroladores me viene
 resultando un escollo permanente. El protocolo en sí tiene una
@@ -4113,10 +4195,10 @@ space, while blocking will wait until there is&amp;nbsp;space.&lt;/p&gt;
 
 &lt;span class="c1"&gt;# handler called when a report is received&lt;/span&gt;
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;rx_handler&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-    &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;recv: &amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;recv: &amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;
 
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;tx_handler&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-    &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;env: &amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;env: &amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;
 
 
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;findHIDDevice&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mbed_vendor_id&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;mbed_product_id&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
@@ -4124,7 +4206,7 @@ space, while blocking will wait until there is&amp;nbsp;space.&lt;/p&gt;
     &lt;span class="n"&gt;hid_device&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;usb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;core&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;idVendor&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;mbed_vendor_id&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;idProduct&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;mbed_product_id&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
     &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="n"&gt;hid_device&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-        &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;No device connected&amp;quot;&lt;/span&gt;
+        &lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;No device connected&amp;quot;&lt;/span&gt;
     &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
         &lt;span class="n"&gt;sys&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;stdout&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;mbed found&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
         &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;hid_device&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;is_kernel_driver_active&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
@@ -4142,7 +4224,7 @@ space, while blocking will wait until there is&amp;nbsp;space.&lt;/p&gt;
 
         &lt;span class="n"&gt;endpoint&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;hid_device&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;][(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)][&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 
-        &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
             &lt;span class="n"&gt;data&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mh"&gt;0x0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt;
 
             &lt;span class="c1"&gt;#read the data&lt;/span&gt;
@@ -4249,7 +4331,7 @@ Jerome&lt;/a&gt;. Para instalar Pelican se puede usar &amp;#8220;pip&amp;#8221;,
 más detalles, pero como referencia veloz basta decir que se puede
 hacer sencillamente (en la rama &amp;#8220;source&amp;#8221; y desde el &lt;span class="caps"&gt;ENV&lt;/span&gt; que se creará
 más&amp;nbsp;adelante):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; pip install pelican
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; pip install pelican
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;La idea para trabajar Pelican con Git es tener un directorio para el
 repositorio con el nombre de la página, y dentro de él un directorio
@@ -4300,8 +4382,8 @@ se puede agregar este&amp;nbsp;renglón:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;Con git status veremos que estamos en la rama &amp;#8220;master&amp;#8221; y que falta el
 commit para agregar el archivo .gitignore. Entonces&amp;nbsp;hacemos:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; git add .
-&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; git commit -m &lt;span class="s2"&gt;&amp;quot;Commit inicial&amp;quot;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; git add .
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; git commit -m &lt;span class="s2"&gt;&amp;quot;Commit inicial&amp;quot;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Nuestra rama local de master queda adelantada respecto de la rama
 master en el repo externo. Esto lo avisa el sistema ante la última
@@ -4309,17 +4391,17 @@ orden&amp;nbsp;ingresada.&lt;/p&gt;
 &lt;p&gt;Dado que al repositorio externo no vamos a necesitar subir los
 archivos de Pelican y los que surjan de la configuración del sitio,
 entonces instalamos este programa en una nueva rama que llamaré&amp;nbsp;&amp;#8220;source&amp;#8221;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; git branch &lt;span class="nb"&gt;source&lt;/span&gt;
-&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; git checkout &lt;span class="nb"&gt;source&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; git branch &lt;span class="nb"&gt;source&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; git checkout &lt;span class="nb"&gt;source&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;(alternativamente estas dos instrucciones se pueden condensar en una
 sola: git checkout -b&amp;nbsp;source)&lt;/p&gt;
 &lt;p&gt;Para instalar Pelican hay 3 opciones (y no hay que olvidarse que se
 instala en el &lt;span class="caps"&gt;ENV&lt;/span&gt;). Hay que estar atento a que no haya errores, porque
 sino se instala mal y, por ejemplo, más tarde puede no funcionar &amp;#8220;make&amp;nbsp;serve&amp;#8221;.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; pip install pelican     &lt;span class="c1"&gt;# opción 1&lt;/span&gt;
-&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; easy_install pelican    &lt;span class="c1"&gt;# opción 2&lt;/span&gt;
-&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; pip install -e git://github.com/getpelican/pelican#egg&lt;span class="o"&gt;=&lt;/span&gt;pelican
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; pip install pelican     &lt;span class="c1"&gt;# opción 1&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; easy_install pelican    &lt;span class="c1"&gt;# opción 2&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; pip install -e git://github.com/getpelican/pelican#egg&lt;span class="o"&gt;=&lt;/span&gt;pelican
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;La primera vez tras la instalación se debe ejecutar la orden
 &lt;strong&gt;pelican-quickstart&lt;/strong&gt; para configurarlo (va el guión entre las dos
@@ -4378,9 +4460,9 @@ completar los datos, queda&amp;nbsp;así:&lt;/p&gt;
 &lt;span class="n"&gt;DEFAULT_LANG&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="sa"&gt;u&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;es&amp;#39;&lt;/span&gt;
 
 &lt;span class="c1"&gt;# Feed generation is usually not desired when developing&lt;/span&gt;
-&lt;span class="n"&gt;FEED_ALL_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
-&lt;span class="n"&gt;CATEGORY_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
-&lt;span class="n"&gt;TRANSLATION_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
+&lt;span class="n"&gt;FEED_ALL_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;
+&lt;span class="n"&gt;CATEGORY_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;
+&lt;span class="n"&gt;TRANSLATION_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;
 
 &lt;span class="c1"&gt;# Blogroll&lt;/span&gt;
 &lt;span class="n"&gt;LINKS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt;  &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Pelican&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;http://getpelican.com/&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
@@ -4437,12 +4519,12 @@ completar los datos, queda&amp;nbsp;así:&lt;/p&gt;
 &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pelicanconf&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;
 
 &lt;span class="n"&gt;SITEURL&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;http://nombreUsuario.github.io&amp;#39;&lt;/span&gt;
-&lt;span class="n"&gt;RELATIVE_URLS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;False&lt;/span&gt;
+&lt;span class="n"&gt;RELATIVE_URLS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;False&lt;/span&gt;
 
 &lt;span class="n"&gt;FEED_ALL_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;feeds/all.atom.xml&amp;#39;&lt;/span&gt;
 &lt;span class="n"&gt;CATEGORY_FEED_ATOM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;feeds/&lt;/span&gt;&lt;span class="si"&gt;%s&lt;/span&gt;&lt;span class="s1"&gt;.atom.xml&amp;#39;&lt;/span&gt;
 
-&lt;span class="n"&gt;DELETE_OUTPUT_DIRECTORY&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;True&lt;/span&gt;
+&lt;span class="n"&gt;DELETE_OUTPUT_DIRECTORY&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;
 
 &lt;span class="c1"&gt;# Following items are often useful when publishing&lt;/span&gt;
 
@@ -4455,8 +4537,8 @@ contenido (para que ver algo cuando cargue el&amp;nbsp;blog).&lt;/p&gt;
 &lt;p&gt;Genero el sitio con make html (procesa todos los archivos del
 directorio content y aloja el sitio resultante en el directorio
 output) y ejecuto el servidor local con make&amp;nbsp;serve:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; make html
-&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; make serve
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; make html
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; make serve
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;El sitio lo puedo visitar en &lt;a class="reference external" href="http://localhost:8000"&gt;http://localhost:8000&lt;/a&gt;. Veo que tiene un
 problema para encontrar el &lt;span class="caps"&gt;CSS&lt;/span&gt;, no sale bien formateado. Sin embargo,
@@ -4467,12 +4549,12 @@ en el sitio, es usar la siguientes dos instrucciones, la primera
 combina &lt;em&gt;make html&lt;/em&gt; junto con &lt;em&gt;make serve&lt;/em&gt; (el sitio se regenera ante
 cualquier edición de su contenido, y permanece accesible en el
 localhost) y la segunda es para detener el&amp;nbsp;servicio.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; make devserver
-&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; ./develop_server.sh stop
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; make devserver
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; ./develop_server.sh stop
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Voy a agregar todo al branch&amp;nbsp;source:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; git add .
-&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; git commit -m &lt;span class="s2"&gt;&amp;quot;Commit inicial de la rama source&amp;quot;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; git add .
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; git commit -m &lt;span class="s2"&gt;&amp;quot;Commit inicial de la rama source&amp;quot;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Lo que sigue es casi textual de la página de &lt;a class="reference external" href="http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/"&gt;la página de Nicholas&lt;/a&gt;,
 se explica como hacer push del sitio al repositorio&amp;nbsp;externo:&lt;/p&gt;
@@ -4485,14 +4567,14 @@ ejecutarlo) hacia la rama &amp;#8220;gh-pages&amp;#8221;. Por eso es necesario d
 puesta a punto inicial, crear una rama con ese nombre antes de correr
 el script, y luego hacer un merge desde la rama &amp;#8220;master&amp;#8221; con la rama&amp;nbsp;&amp;#8220;gh-pages&amp;#8221;&lt;/p&gt;
 &lt;p&gt;Si no está instalado ghp-import, se puede instalar&amp;nbsp;con:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; pip install ghp-import
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; pip install ghp-import
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Finalmente, eston son los pasos&amp;nbsp;restantes:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(ENV)$&lt;/span&gt; git branch gh-pages   &lt;span class="c1"&gt;# crea la rama gh-branches&lt;/span&gt;
-&lt;span class="gp"&gt;(ENV)$&lt;/span&gt; ghp-import output     &lt;span class="c1"&gt;# exporta la carpeta output desde la rama actual (source) hacia la rama gh-pages&lt;/span&gt;
-&lt;span class="gp"&gt;(ENV)$&lt;/span&gt; git checkout master   &lt;span class="c1"&gt;# cambia el head a la rama master&lt;/span&gt;
-&lt;span class="gp"&gt;(ENV)$&lt;/span&gt; git merge gh-pages    &lt;span class="c1"&gt;#&lt;/span&gt;
-&lt;span class="gp"&gt;(ENV)$&lt;/span&gt; git push --all        &lt;span class="c1"&gt;#&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git branch gh-pages   &lt;span class="c1"&gt;# crea la rama gh-branches&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ghp-import output     &lt;span class="c1"&gt;# exporta la carpeta output desde la rama actual (source) hacia la rama gh-pages&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git checkout master   &lt;span class="c1"&gt;# cambia el head a la rama master&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git merge gh-pages    &lt;span class="c1"&gt;#&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git push --all        &lt;span class="c1"&gt;#&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Cuando hice el merge creo que no estaba más .gitignore en la rama
 master. Así que lo creé de vuelta, tuve que agregarlo y&amp;nbsp;comitearlo.&lt;/p&gt;
@@ -4511,21 +4593,21 @@ deben ser guardados en el directorio &amp;#8220;content&amp;#8221;) es necesario
 los siguientes pasos (suponiendo que uno está actualmente en la rama&amp;nbsp;&amp;#8220;source&amp;#8221;:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; /path/to/blog/ENV
 &lt;span class="gp"&gt;$&lt;/span&gt; . bin/activate    &lt;span class="c1"&gt;# activa el entorno para que funcionen los progs de python (make serve, ghp-import, etc)&lt;/span&gt;
-&lt;span class="gp"&gt;(ENV)$&lt;/span&gt; make html             &lt;span class="c1"&gt;# genera los archivos html que van a la carpeta &amp;quot;output&amp;quot;&lt;/span&gt;
-&lt;span class="gp"&gt;(ENV)$&lt;/span&gt; ghp-import output     &lt;span class="c1"&gt;# exporta la carpeta output desde la rama actual (source) hacia la rama gh-pages&lt;/span&gt;
-&lt;span class="gp"&gt;(ENV)$&lt;/span&gt; git add .             &lt;span class="c1"&gt;# sin add y commit no podremos cambiar a otra rama&lt;/span&gt;
-&lt;span class="gp"&gt;(ENV)$&lt;/span&gt; git commit -m &lt;span class="s2"&gt;&amp;quot;mensaje del commit&amp;quot;&lt;/span&gt;
-&lt;span class="gp"&gt;(ENV)$&lt;/span&gt; git checkout master   &lt;span class="c1"&gt;# cambia el head a la rama master&lt;/span&gt;
-&lt;span class="gp"&gt;(ENV)$&lt;/span&gt; git merge gh-pages    &lt;span class="c1"&gt;#&lt;/span&gt;
-&lt;span class="gp"&gt;(ENV)$&lt;/span&gt; git push --all        &lt;span class="c1"&gt;#&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; make html             &lt;span class="c1"&gt;# genera los archivos html que van a la carpeta &amp;quot;output&amp;quot;&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; ghp-import output     &lt;span class="c1"&gt;# exporta la carpeta output desde la rama actual (source) hacia la rama gh-pages&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git add .             &lt;span class="c1"&gt;# sin add y commit no podremos cambiar a otra rama&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git commit -m &lt;span class="s2"&gt;&amp;quot;mensaje del commit&amp;quot;&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git checkout master   &lt;span class="c1"&gt;# cambia el head a la rama master&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git merge gh-pages    &lt;span class="c1"&gt;#&lt;/span&gt;
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; git push --all        &lt;span class="c1"&gt;#&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="ultimos-detalles"&gt;
 &lt;h3&gt;Ultimos&amp;nbsp;detalles&lt;/h3&gt;
 &lt;p&gt;Para usar el tema Elegant hay que instalar Beautiful Soup y para usar
 el plugin que permite &lt;a class="reference external" href="https://pypi.python.org/pypi/pelican_youtube"&gt;embeber videos de youtube&lt;/a&gt;  hay que&amp;nbsp;instalarlo:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; pip install beautifulsoup4
-&lt;span class="gp"&gt;(ENV) $&lt;/span&gt; pip install pelican-youtube
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; pip install beautifulsoup4
+&lt;span class="gp gp-VirtualEnv"&gt;(ENV)&lt;/span&gt; &lt;span class="gp"&gt;$&lt;/span&gt; pip install pelican-youtube
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="problemas-con-github"&gt;
