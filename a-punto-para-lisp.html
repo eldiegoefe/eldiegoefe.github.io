@@ -4,6 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./theme/css/elegant.prod.9e9d5ce754.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="./theme/css/custom.css" media="screen">
+
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
         <meta name="author" content="El Diego Efe" />
 
         <meta name="description" content="Cuando empecé a leer Practical Common Lisp, de Peter Seibel, tras escuchar el reportaje de Sacha Chua a Bozhidar Batsov, tuve algunos inconvenientes para poder instalar Lisp en mi compu, hasta que encontré el tutorial Installing Common Lisp…. Estas notas resumen la información del video (sus instrucciones se muestran en …
@@ -15,7 +21,7 @@
 <meta name="keywords" content="lisp, programacion, common-lisp, tecnicismos, " />
 
 <meta property="og:title" content="A punto para Lisp "/>
-<meta property="og:url" content="https://eldiegoefe.github.io/a-punto-para-lisp.html" />
+<meta property="og:url" content="./a-punto-para-lisp.html" />
 <meta property="og:description" content="Cuando empecé a leer Practical Common Lisp, de Peter Seibel, tras escuchar el reportaje de Sacha Chua a Bozhidar Batsov, tuve algunos inconvenientes para poder instalar Lisp en mi compu, hasta que encontré el tutorial Installing Common Lisp…. Estas notas resumen la información del video (sus instrucciones se muestran en …" />
 <meta property="og:site_name" content="Certezas Dudosas" />
 <meta property="og:article:author" content="El Diego Efe" />
@@ -25,13 +31,6 @@
 
         <title>A punto para Lisp  · Certezas Dudosas
 </title>
-        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/css/pygments.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/tipuesearch/tipuesearch.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/css/elegant.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/css/admonition.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/css/custom.css" media="screen">
-
         <link href="https://eldiegoefe.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - Full Atom Feed" />
         <link href="https://eldiegoefe.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Certezas Dudosas - Full RSS Feed" />
 
@@ -47,18 +46,18 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </a>
-                        <a class="brand" href="https://eldiegoefe.github.io/"><span class=site-name>Certezas Dudosas</span></a>
+                        <a class="brand" href="./"><span class=site-name>Certezas Dudosas</span></a>
                         <div class="nav-collapse collapse">
                             <ul class="nav pull-right top-menu">
                                 <li >
                                     <a href=
-                                       https://eldiegoefe.github.io
+                                       .
                                     >Home</a>
                                 </li>
-                                <li ><a href="https://eldiegoefe.github.io/categories.html">Categories</a></li>
-                                <li ><a href="https://eldiegoefe.github.io/tags.html">Tags</a></li>
-                                <li ><a href="https://eldiegoefe.github.io/archives.html">Archives</a></li>
-                                <li><form class="navbar-search" action="https://eldiegoefe.github.io/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                                <li ><a href="./categories.html">Categories</a></li>
+                                <li ><a href="./tags.html">Tags</a></li>
+                                <li ><a href="./archives.html">Archives</a></li>
+                                <li><form class="navbar-search" action="./search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
                             </ul>
                         </div>
                     </div>
@@ -72,7 +71,7 @@
 <div class="row-fluid">
     <header class="page-header span10 offset2">
         <h1>
-            <a href="https://eldiegoefe.github.io/a-punto-para-lisp.html">
+            <a href="./a-punto-para-lisp.html">
                 A punto para&nbsp;Lisp
             </a>
         </h1>
@@ -161,7 +160,7 @@ mensaje, así que sabemos que lo hizo&nbsp;exitosamente:</p>
 <span class="go">  (setq inferior-lisp-program &quot;sbcl&quot;)</span>
 
 
-<span class="go">(&quot;quicklisp-slime-helper&quot;)</span>
+<span class="gp gp-VirtualEnv">(&quot;quicklisp-slime-helper&quot;)</span>
 <span class="go">*</span>
 </pre></div>
 <p>Yo no tengo archivo ~/.emacs porque instalé Prelude, así que esas tres
@@ -191,9 +190,12 @@ compila con C-c&nbsp;C-c):</p>
 
 
 
+             
+ 
             
             
             
+
 
 
 
@@ -207,11 +209,11 @@ compila con C-c&nbsp;C-c):</p>
     <div class="accordion" id="accordion2">
         <div class="accordion-group">
             <div class="accordion-heading">
-                <a class="accordion-toggle disqus-comment-count comment-count"
+                <a class="accordion-toggle disqus-comment-count comment-count collapsed"
                    data-toggle="collapse"
                    data-parent="#accordion2"
                    data-disqus-identifier="a punto para lisp"
-                   href="https://eldiegoefe.github.io/a-punto-para-lisp.html#comment_thread"
+                   href="./a-punto-para-lisp.html#comment_thread"
                    id="comment-accordion-toggle">
                     Comments
                 </a>
@@ -230,7 +232,7 @@ compila con C-c&nbsp;C-c):</p>
     }());
 
     var disqus_identifier = 'a punto para lisp';
-    var disqus_url = 'https://eldiegoefe.github.io/a-punto-para-lisp.html';
+    var disqus_url = './a-punto-para-lisp.html';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -243,6 +245,8 @@ compila con C-c&nbsp;C-c):</p>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
+
+
                     </div>
                 </div>
             </div>
@@ -252,36 +256,35 @@ compila con C-c&nbsp;C-c):</p>
 
             <hr/>
         </div>
-        <section>
-        <div class="span2" style="float:right;font-size:0.9em;">
+        <section id="article-sidebar" class="span2">
             <h4>Published</h4>
-            <time itemprop="dateCreated" datetime="2014-08-13T10:00:00+02:00">ago 13, 2014</time>
+            <time itemprop="dateCreated" datetime="2014-08-13T10:00:00+02:00">2014 agosto 13 mié</time>
             <h4>Category</h4>
-            <a class="category-link" href="https://eldiegoefe.github.io/categories.html#tecnicismos-ref">tecnicismos</a>
+            <a class="category-link" href="./categories.html#tecnicismos-ref">tecnicismos</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="https://eldiegoefe.github.io/tags.html#common-lisp-ref">common-lisp
-                    <span>1</span>
+                <li><a href="./tags.html#common-lisp-ref">common-lisp
+                    <span class="superscript">1</span>
 </a></li>
-                <li><a href="https://eldiegoefe.github.io/tags.html#lisp-ref">lisp
-                    <span>3</span>
+                <li><a href="./tags.html#lisp-ref">lisp
+                    <span class="superscript">3</span>
 </a></li>
-                <li><a href="https://eldiegoefe.github.io/tags.html#programacion-ref">programacion
-                    <span>3</span>
+                <li><a href="./tags.html#programacion-ref">programacion
+                    <span class="superscript">3</span>
 </a></li>
             </ul>
 <h4>Contact</h4>
 <div id="sidebar-social-link">
-    <a href="https://twitter.com/eldiegoefe" title="" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/eldiegoefe" title="" target="_blank" rel="nofollow noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" aria-label="Twitter" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#1da1f3"/><path fill="#fff" d="M437 152a72 72 0 0 1-40 12 72 72 0 0 0 32-40 72 72 0 0 1-45 17 72 72 0 0 0-122 65 200 200 0 0 1-145-74 72 72 0 0 0 22 94 72 72 0 0 1-32-7 72 72 0 0 0 56 69 72 72 0 0 1-32 1 72 72 0 0 0 67 50 200 200 0 0 1-105 29 200 200 0 0 0 309-179 200 200 0 0 0 35-37"/></svg>
     </a>
-    <a href="https://github.com/eldiegoefe" title="" target="_blank" rel="nofollow">
+    <a href="https://github.com/eldiegoefe" title="" target="_blank" rel="nofollow noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" aria-label="GitHub" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#1B1817"/><path fill="#fff" d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"/></svg>
     </a>
-    <a href="https://www.facebook.com/eldiegoefe" title="" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/eldiegoefe" title="" target="_blank" rel="nofollow noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" aria-label="Facebook" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#1877f2"/><path d="M355.6 330l11.4-74h-71v-48c0-20.2 9.9-40 41.7-40H370v-63s-29.3-5-57.3-5c-58.5 0-96.7 35.4-96.7 99.6V256h-65v74h65v182h80V330h59.6z" fill="#fff"/></svg>
     </a>
-    <a href="https://instagram.com/eldiegoefe" title="" target="_blank" rel="nofollow">
+    <a href="https://instagram.com/eldiegoefe" title="" target="_blank" rel="nofollow noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" aria-label="Instagram" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#d43377"/><g fill="none" stroke="#fff" stroke-width="29"><rect height="296" rx="78" width="296" x="108" y="108"/><circle cx="256" cy="256" r="69"/></g><circle cx="343" cy="169" fill="#fff" r="19"/></svg>
     </a>
 </div>
@@ -297,11 +300,75 @@ compila con C-c&nbsp;C-c):</p>
 
 
 
-        </div>
         </section>
 </div>
 </article>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>                    </div>
                     <div class="span1"></div>
                 </div>
             </div>
@@ -318,11 +385,12 @@ compila con C-c&nbsp;C-c):</p>
 
 
     <div id="fpowered">
-        Powered by: <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow">Pelican</a>
-        Theme: <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow">Elegant</a>
+        Powered by: <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow noopener noreferrer">Pelican</a>
+        Theme: <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow noopener noreferrer">Elegant</a>
     </div>
 </footer>            <script src="//code.jquery.com/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script src="./theme/js/elegant.prod.9e9d5ce754.js"></script>
         <script>
             function validateForm(query)
             {

@@ -4,9 +4,15 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./theme/css/elegant.prod.9e9d5ce754.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="./theme/css/custom.css" media="screen">
+
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
         <meta name="author" content="El Diego Efe" />
 
-        <meta name="description" content="Yasnippets / Company ==================== En la documentación de Spacemacs están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual). reemplaza la clave previa al punto por el contenido del snippet correspondiente: M-/ Búsqueda ======== La búsqueda habitual con i-search (C-s) se potencia al …
+        <meta name="description" content="Yasnippets / Company En la documentación de Spacemacs están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual). reemplaza la clave previa al punto por el contenido del snippet correspondiente: M-/ Búsqueda La búsqueda habitual con i-search (C-s) se potencia al …
 " />
         <meta name="twitter:creator" content="@eldiegoefe">
         <meta property="og:type" content="article" />
@@ -15,23 +21,16 @@
 <meta name="keywords" content="blog, restructuredtext, cheat sheet, emacs, tecnicismos, " />
 
 <meta property="og:title" content="Comandos de Emacs y Spacemacs para recordar "/>
-<meta property="og:url" content="https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar.html" />
-<meta property="og:description" content="Yasnippets / Company ==================== En la documentación de Spacemacs están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual). reemplaza la clave previa al punto por el contenido del snippet correspondiente: M-/ Búsqueda ======== La búsqueda habitual con i-search (C-s) se potencia al …" />
+<meta property="og:url" content="./comandos-de-emacs-y-spacemacs-para-recordar.html" />
+<meta property="og:description" content="Yasnippets / Company En la documentación de Spacemacs están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual). reemplaza la clave previa al punto por el contenido del snippet correspondiente: M-/ Búsqueda La búsqueda habitual con i-search (C-s) se potencia al …" />
 <meta property="og:site_name" content="Certezas Dudosas" />
 <meta property="og:article:author" content="El Diego Efe" />
 <meta property="og:article:published_time" content="2014-07-31T10:00:00+02:00" />
 <meta name="twitter:title" content="Comandos de Emacs y Spacemacs para recordar ">
-<meta name="twitter:description" content="Yasnippets / Company ==================== En la documentación de Spacemacs están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual). reemplaza la clave previa al punto por el contenido del snippet correspondiente: M-/ Búsqueda ======== La búsqueda habitual con i-search (C-s) se potencia al …">
+<meta name="twitter:description" content="Yasnippets / Company En la documentación de Spacemacs están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual). reemplaza la clave previa al punto por el contenido del snippet correspondiente: M-/ Búsqueda La búsqueda habitual con i-search (C-s) se potencia al …">
 
         <title>Comandos de Emacs y Spacemacs para recordar  · Certezas Dudosas
 </title>
-        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/css/pygments.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/tipuesearch/tipuesearch.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/css/elegant.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/css/admonition.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="https://eldiegoefe.github.io/theme/css/custom.css" media="screen">
-
         <link href="https://eldiegoefe.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - Full Atom Feed" />
         <link href="https://eldiegoefe.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Certezas Dudosas - Full RSS Feed" />
 
@@ -47,18 +46,18 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </a>
-                        <a class="brand" href="https://eldiegoefe.github.io/"><span class=site-name>Certezas Dudosas</span></a>
+                        <a class="brand" href="./"><span class=site-name>Certezas Dudosas</span></a>
                         <div class="nav-collapse collapse">
                             <ul class="nav pull-right top-menu">
                                 <li >
                                     <a href=
-                                       https://eldiegoefe.github.io
+                                       .
                                     >Home</a>
                                 </li>
-                                <li ><a href="https://eldiegoefe.github.io/categories.html">Categories</a></li>
-                                <li ><a href="https://eldiegoefe.github.io/tags.html">Tags</a></li>
-                                <li ><a href="https://eldiegoefe.github.io/archives.html">Archives</a></li>
-                                <li><form class="navbar-search" action="https://eldiegoefe.github.io/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                                <li ><a href="./categories.html">Categories</a></li>
+                                <li ><a href="./tags.html">Tags</a></li>
+                                <li ><a href="./archives.html">Archives</a></li>
+                                <li><form class="navbar-search" action="./search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
                             </ul>
                         </div>
                     </div>
@@ -72,7 +71,7 @@
 <div class="row-fluid">
     <header class="page-header span10 offset2">
         <h1>
-            <a href="https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar.html">
+            <a href="./comandos-de-emacs-y-spacemacs-para-recordar.html">
                 Comandos de Emacs y Spacemacs para&nbsp;recordar
             </a>
         </h1>
@@ -82,21 +81,26 @@
 <div class="row-fluid">
         <div class="span8 offset2 article-content">
             
-            <p>Yasnippets / Company ==================== En <a class="reference external" href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings">la documentación de Spacemacs</a>
-están los keybindings. No funciona más <span class="caps">SPC</span> i s (que mostraba una lista de
-snippets habilitados para el modo&nbsp;actual).</p>
+            <div class="section" id="yasnippets-company">
+<h2>Yasnippets /&nbsp;Company</h2>
+<p>En <a class="reference external" href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings">la documentación de Spacemacs</a> están los keybindings. No funciona más <span class="caps">SPC</span> i
+s (que mostraba una lista de snippets habilitados para el modo&nbsp;actual).</p>
 <ul class="simple">
 <li>reemplaza la clave previa al punto por el contenido del snippet
 correspondiente:&nbsp;M-/</li>
 </ul>
-<p>Búsqueda&nbsp;========</p>
+</div>
+<div class="section" id="busqueda">
+<h2>Búsqueda</h2>
 <p>La búsqueda habitual con i-search (C-s) se potencia al instalar <a class="reference external" href="https://github.com/abo-abo/swiper">swiper</a>, que
 ofrece un listado de las lineas del documento donde se encuentran los resultados
 de la&nbsp;búsqueda.</p>
 <p>También se puede buscar con evil-search-forward (/) que es una variante de
 i-search, pero sólo va a la próxima aparición de la búsqueda y hay que recordar
 cómo ir a los resultados siguientes (C-s) y anteriores (C-r). Es menos&nbsp;visual.</p>
-<p>Movimiento&nbsp;==========</p>
+</div>
+<div class="section" id="movimiento">
+<h2>Movimiento</h2>
 <p>Se puede saltar facilmente a letras o lineas que aparezcan en pantalla. Dentro
 de Spacemacs las opciones para este tipo de salto están bajo el prefijo <span class="caps">SPC</span> j.
 El sistema de búsqueda funciona así: primero se determina qué elemento se busca
@@ -115,18 +119,24 @@ j&nbsp;z.</li>
 <li>15 gg: se mueve a la línea 15. Obviamente &#8216;15&#8217; es un&nbsp;ejemplo.</li>
 <li>G: se mueve al final del&nbsp;documento</li>
 </ul>
-<p>Ventanas&nbsp;========</p>
+</div>
+<div class="section" id="ventanas">
+<h2>Ventanas</h2>
 <ul class="simple">
 <li>dividir ventana verticalmente: <span class="caps">SPC</span> w&nbsp;/</li>
 <li>dividir ventana horizontalmente: <span class="caps">SPC</span> w&nbsp;-</li>
 </ul>
-<p>Dired&nbsp;=====</p>
+</div>
+<div class="section" id="dired">
+<h2>Dired</h2>
 <ul class="simple">
 <li>convertir buffer en texto editable: C-x&nbsp;C-q</li>
 <li>aceptar los cambios realizados y finalizar edición: C-c&nbsp;C-c</li>
 </ul>
-<p>Enlaces&nbsp;=======</p>
-<p>Armé un snippet para colocar links más fácilmente (<a class="reference external" href="https://eldiegoefe.github.io/emacs-y-restructuredtext.html">lo pueden ver aca</a>), pero
+</div>
+<div class="section" id="enlaces">
+<h2>Enlaces</h2>
+<p>Armé un snippet para colocar links más fácilmente (<a class="reference external" href="./emacs-y-restructuredtext.html">lo pueden ver aca</a>), pero
 igual dejo acá la sintaxis para poner hiperlinks en&nbsp;restructuredText:</p>
 <pre class="literal-block">
 External hyperlinks, like Python_.
@@ -139,7 +149,9 @@ Wikipedia es `mi sitio favorito`_.
 
 .. _mi sitio favorito: http://www.wikipedia.org/
 </pre>
-<p>Indentación&nbsp;===========</p>
+</div>
+<div class="section" id="indentacion">
+<h2>Indentación</h2>
 <p>Primero se selecciona un bloque de texto y&nbsp;luego:</p>
 <ul class="simple">
 <li>indent-region. Indenta todo, pero no resguarda las indentaciones que el bloque
@@ -148,13 +160,17 @@ pudo haber tenido, como es usual en los códigos de&nbsp;programación.</li>
 indentaciones que el bloque haya tenido antes. El movimiento se determina
 presionando las flechas (o las teclas &#8216;h&#8217; y &#8216;l&#8217;) luego de invocar el&nbsp;comando.</li>
 </ul>
-<p>Ayuda&nbsp;=====</p>
+</div>
+<div class="section" id="ayuda">
+<h2>Ayuda</h2>
 <p>Para pedir ayuda sobre una&nbsp;función:</p>
 <ul class="simple">
 <li>Si se sabe el nombre: C-h f&nbsp;nombre-de-la-función</li>
 <li>Si se sabe el keybinding: C-h k&nbsp;keybinding</li>
 </ul>
-<p>Caracteres&nbsp;==========</p>
+</div>
+<div class="section" id="caracteres">
+<h2>Caracteres</h2>
 <p>Todo esto cambia de acuerdo al teclado (en el <a class="reference external" href="http://deskthority.net/wiki/ErgoDox">Ergodox</a> tengo teclas
 programables) y con la distribución elegida. De todos modos, actualmente son las
 siguientes: (uso la letra M para referirme más precisamente al Alt&nbsp;Derecho)</p>
@@ -164,12 +180,16 @@ siguientes: (uso la letra M para referirme más precisamente al Alt&nbsp;Derecho
 <div class="figure align-center">
 <a class="reference external image-reference" href="https://farm9.staticflickr.com/8577/16108048537_d0db2cc098_o.jpg"><img alt="ergodox" src="https://farm9.staticflickr.com/8577/16108048537_1601cc1b60_b.jpg" style="width: 100.0%;" /></a>
 </div>
+</div>
 
 
 
+             
+ 
             
             
             
+
 
 
 
@@ -183,11 +203,11 @@ siguientes: (uso la letra M para referirme más precisamente al Alt&nbsp;Derecho
     <div class="accordion" id="accordion2">
         <div class="accordion-group">
             <div class="accordion-heading">
-                <a class="accordion-toggle disqus-comment-count comment-count"
+                <a class="accordion-toggle disqus-comment-count comment-count collapsed"
                    data-toggle="collapse"
                    data-parent="#accordion2"
                    data-disqus-identifier="comandos de emacs y spacemacs para recordar"
-                   href="https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar.html#comment_thread"
+                   href="./comandos-de-emacs-y-spacemacs-para-recordar.html#comment_thread"
                    id="comment-accordion-toggle">
                     Comments
                 </a>
@@ -206,7 +226,7 @@ siguientes: (uso la letra M para referirme más precisamente al Alt&nbsp;Derecho
     }());
 
     var disqus_identifier = 'comandos de emacs y spacemacs para recordar';
-    var disqus_url = 'https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar.html';
+    var disqus_url = './comandos-de-emacs-y-spacemacs-para-recordar.html';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -219,6 +239,8 @@ siguientes: (uso la letra M para referirme más precisamente al Alt&nbsp;Derecho
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
+
+
                     </div>
                 </div>
             </div>
@@ -228,39 +250,38 @@ siguientes: (uso la letra M para referirme más precisamente al Alt&nbsp;Derecho
 
             <hr/>
         </div>
-        <section>
-        <div class="span2" style="float:right;font-size:0.9em;">
+        <section id="article-sidebar" class="span2">
             <h4>Published</h4>
-            <time itemprop="dateCreated" datetime="2014-07-31T10:00:00+02:00">jul 31, 2014</time>
+            <time itemprop="dateCreated" datetime="2014-07-31T10:00:00+02:00">2014 julio 31 jue</time>
             <h4>Category</h4>
-            <a class="category-link" href="https://eldiegoefe.github.io/categories.html#tecnicismos-ref">tecnicismos</a>
+            <a class="category-link" href="./categories.html#tecnicismos-ref">tecnicismos</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="https://eldiegoefe.github.io/tags.html#blog-ref">blog
-                    <span>7</span>
+                <li><a href="./tags.html#blog-ref">blog
+                    <span class="superscript">7</span>
 </a></li>
-                <li><a href="https://eldiegoefe.github.io/tags.html#cheat-sheet-ref">cheat sheet
-                    <span>3</span>
+                <li><a href="./tags.html#cheat-sheet-ref">cheat sheet
+                    <span class="superscript">3</span>
 </a></li>
-                <li><a href="https://eldiegoefe.github.io/tags.html#emacs-ref">emacs
-                    <span>17</span>
+                <li><a href="./tags.html#emacs-ref">emacs
+                    <span class="superscript">17</span>
 </a></li>
-                <li><a href="https://eldiegoefe.github.io/tags.html#restructuredtext-ref">restructuredtext
-                    <span>3</span>
+                <li><a href="./tags.html#restructuredtext-ref">restructuredtext
+                    <span class="superscript">3</span>
 </a></li>
             </ul>
 <h4>Contact</h4>
 <div id="sidebar-social-link">
-    <a href="https://twitter.com/eldiegoefe" title="" target="_blank" rel="nofollow">
+    <a href="https://twitter.com/eldiegoefe" title="" target="_blank" rel="nofollow noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" aria-label="Twitter" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#1da1f3"/><path fill="#fff" d="M437 152a72 72 0 0 1-40 12 72 72 0 0 0 32-40 72 72 0 0 1-45 17 72 72 0 0 0-122 65 200 200 0 0 1-145-74 72 72 0 0 0 22 94 72 72 0 0 1-32-7 72 72 0 0 0 56 69 72 72 0 0 1-32 1 72 72 0 0 0 67 50 200 200 0 0 1-105 29 200 200 0 0 0 309-179 200 200 0 0 0 35-37"/></svg>
     </a>
-    <a href="https://github.com/eldiegoefe" title="" target="_blank" rel="nofollow">
+    <a href="https://github.com/eldiegoefe" title="" target="_blank" rel="nofollow noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" aria-label="GitHub" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#1B1817"/><path fill="#fff" d="M335 499c14 0 12 17 12 17H165s-2-17 12-17c13 0 16-6 16-12l-1-50c-71 16-86-28-86-28-12-30-28-37-28-37-24-16 1-16 1-16 26 2 40 26 40 26 22 39 59 28 74 22 2-17 9-28 16-35-57-6-116-28-116-126 0-28 10-51 26-69-3-6-11-32 3-67 0 0 21-7 70 26 42-12 86-12 128 0 49-33 70-26 70-26 14 35 6 61 3 67 16 18 26 41 26 69 0 98-60 120-117 126 10 8 18 24 18 48l-1 70c0 6 3 12 16 12z"/></svg>
     </a>
-    <a href="https://www.facebook.com/eldiegoefe" title="" target="_blank" rel="nofollow">
+    <a href="https://www.facebook.com/eldiegoefe" title="" target="_blank" rel="nofollow noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" aria-label="Facebook" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#1877f2"/><path d="M355.6 330l11.4-74h-71v-48c0-20.2 9.9-40 41.7-40H370v-63s-29.3-5-57.3-5c-58.5 0-96.7 35.4-96.7 99.6V256h-65v74h65v182h80V330h59.6z" fill="#fff"/></svg>
     </a>
-    <a href="https://instagram.com/eldiegoefe" title="" target="_blank" rel="nofollow">
+    <a href="https://instagram.com/eldiegoefe" title="" target="_blank" rel="nofollow noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" aria-label="Instagram" role="img" viewBox="0 0 512 512"><rect width="512" height="512" rx="15%" fill="#d43377"/><g fill="none" stroke="#fff" stroke-width="29"><rect height="296" rx="78" width="296" x="108" y="108"/><circle cx="256" cy="256" r="69"/></g><circle cx="343" cy="169" fill="#fff" r="19"/></svg>
     </a>
 </div>
@@ -276,11 +297,75 @@ siguientes: (uso la letra M para referirme más precisamente al Alt&nbsp;Derecho
 
 
 
-        </div>
         </section>
 </div>
 </article>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>                    </div>
                     <div class="span1"></div>
                 </div>
             </div>
@@ -297,11 +382,12 @@ siguientes: (uso la letra M para referirme más precisamente al Alt&nbsp;Derecho
 
 
     <div id="fpowered">
-        Powered by: <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow">Pelican</a>
-        Theme: <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow">Elegant</a>
+        Powered by: <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow noopener noreferrer">Pelican</a>
+        Theme: <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow noopener noreferrer">Elegant</a>
     </div>
 </footer>            <script src="//code.jquery.com/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script src="./theme/js/elegant.prod.9e9d5ce754.js"></script>
         <script>
             function validateForm(query)
             {

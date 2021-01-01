@@ -120,7 +120,7 @@ que se produzca la instalación desde una consola con &lt;strong&gt;sudo urpmi
 &lt;p&gt;&lt;em&gt;To traverse&lt;/em&gt; es el verbo que se refiere al acceso secuencial de los
 elementos de una lista. La siguiente es una forma de &amp;#8220;traversear&amp;#8221; una&amp;nbsp;lista:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;cheese&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;cheeses&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-       &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;cheese&lt;/span&gt;
+       &lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;cheese&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Si se necesita modificar algún elemento de la lista …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Wed, 15 Oct 2014 10:00:00 +0200</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2014-10-15:/listas-en-python.html</guid><category>tecnicismos</category><category>python</category><category>listas</category></item><item><title>Tutorial sobre control de versiones (parte 4)</title><link>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4.html</link><description>&lt;div class="section" id="indice-del-tutorial"&gt;
 &lt;h2&gt;Indice del&amp;nbsp;Tutorial&lt;/h2&gt;
@@ -280,15 +280,18 @@ Artist en la página &lt;a class="reference external" href="http://matplotlib.or
 &lt;div class="section" id="matplotlib-pyplot"&gt;
 &lt;h3&gt;&lt;strong&gt;matplotlib.pyplot&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;a module in matplotlib provides the state machine interface …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Sun, 03 Aug 2014 10:00:00 +0200</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2014-08-03:/apuntes-sobre-matplotlib.html</guid><category>tecnicismos</category><category>matplotlib</category><category>python</category><category>graficacion</category></item><item><title>Comandos de Emacs y Spacemacs para recordar</title><link>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar.html</link><description>&lt;p&gt;Yasnippets / Company ==================== En &lt;a class="reference external" href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings"&gt;la documentación de Spacemacs&lt;/a&gt;
-están los keybindings. No funciona más &lt;span class="caps"&gt;SPC&lt;/span&gt; i s (que mostraba una lista de
-snippets habilitados para el modo&amp;nbsp;actual).&lt;/p&gt;
+&lt;li&gt;a module in matplotlib provides the state machine interface …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Sun, 03 Aug 2014 10:00:00 +0200</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2014-08-03:/apuntes-sobre-matplotlib.html</guid><category>tecnicismos</category><category>matplotlib</category><category>python</category><category>graficacion</category></item><item><title>Comandos de Emacs y Spacemacs para recordar</title><link>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar.html</link><description>&lt;div class="section" id="yasnippets-company"&gt;
+&lt;h2&gt;Yasnippets /&amp;nbsp;Company&lt;/h2&gt;
+&lt;p&gt;En &lt;a class="reference external" href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings"&gt;la documentación de Spacemacs&lt;/a&gt; están los keybindings. No funciona más &lt;span class="caps"&gt;SPC&lt;/span&gt; i
+s (que mostraba una lista de snippets habilitados para el modo&amp;nbsp;actual).&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;reemplaza la clave previa al punto por el contenido del snippet
 correspondiente:&amp;nbsp;M-/&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Búsqueda&amp;nbsp;========&lt;/p&gt;
-&lt;p&gt;La búsqueda habitual con i-search (C-s) se potencia al …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Thu, 31 Jul 2014 10:00:00 +0200</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2014-07-31:/comandos-de-emacs-y-spacemacs-para-recordar.html</guid><category>tecnicismos</category><category>blog</category><category>restructuredtext</category><category>cheat sheet</category><category>emacs</category></item><item><title>Comunicacion USB con mbed</title><link>https://eldiegoefe.github.io/comunicacion-usb-con-mbed.html</link><description>&lt;p&gt;La comunicación mediante &lt;span class="caps"&gt;USB&lt;/span&gt; con microcontroladores me viene
+&lt;/div&gt;
+&lt;div class="section" id="busqueda"&gt;
+&lt;h2&gt;Búsqueda&lt;/h2&gt;
+&lt;p&gt;La búsqueda habitual con i-search (C-s) se potencia al …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Thu, 31 Jul 2014 10:00:00 +0200</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2014-07-31:/comandos-de-emacs-y-spacemacs-para-recordar.html</guid><category>tecnicismos</category><category>blog</category><category>restructuredtext</category><category>cheat sheet</category><category>emacs</category></item><item><title>Comunicacion USB con mbed</title><link>https://eldiegoefe.github.io/comunicacion-usb-con-mbed.html</link><description>&lt;p&gt;La comunicación mediante &lt;span class="caps"&gt;USB&lt;/span&gt; con microcontroladores me viene
 resultando un escollo permanente. El protocolo en sí tiene una
 complejidad que requiere más tiempo de estudio para comprenderlo que
 el que estoy dispuesto a dedicarle, sobre todo porque empecé a leer
