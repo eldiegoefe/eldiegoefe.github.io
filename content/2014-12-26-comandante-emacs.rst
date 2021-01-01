@@ -15,12 +15,12 @@ Krusader especialmente para KDE, etc). Es decir: dos paneles que
 sirven de inicio y de destino para poder copiar y mover archivos,
 crear directorios, navegarlos, etc.
 
-.. figure:: https://farm9.staticflickr.com/8641/15493512904_ccc0fd6445_b.jpg
+.. figure:: https://live.staticflickr.com/7526/15668751884_b2fa8f9d5b_c.jpg
    :scale: 100%
    :width: 75%
    :align: center
    :alt: dired pelado (sin dired+)
-   :target: https://farm9.staticflickr.com/8641/15493512904_ccc0fd6445_b.jpg
+   :target: https://live.staticflickr.com/7526/15668751884_91dbcb31e4_o.png
 
    Buffer mostrando un directorio con dired-mode
 
@@ -38,16 +38,14 @@ utilizando) es imprescindible agregar la orden siguiente:
 
    (require 'dired+)
 
-Para correr el modo basta hacer **M-x dired** (yo creo que con esto se
-carga ya con los agregados de dired+, que por ejemplo enriquece los
-menúes de dired, así que viendo estos menúes uno puede darse cuenta si
-está cargada la extensión o no). El buffer de dired que se abre
-muestra los nombres de los archivos del directorio elegido (ver en la
-figura siguiente), pero parece que por defecto se activa el
-ocultamiento de toda otra información. Hay que ejecutar
-dired-hide-details-mode (con el **(** es decir **S-8** en la
-distribución de teclado en castellano) para que se vea toda la info
-del archivo, incluyendo fecha, permisos, etc.
+Para correr el modo basta hacer **M-x dired** (yo creo que con esto se carga ya
+con los agregados de dired+, que por ejemplo enriquece los menúes de dired, así
+que viendo estos menúes uno puede darse cuenta si está cargada la extensión o
+no). El buffer de dired que se abre muestra los nombres de los archivos del
+directorio elegido (ver en la figura siguiente), pero parece que por defecto se
+activa el ocultamiento de toda otra información. Hay que ejecutar
+dired-hide-details-mode para que se vea toda la info del archivo, incluyendo
+fecha, permisos, etc.
 
 .. figure:: https://farm8.staticflickr.com/7580/16290334112_66dd0af6b1_o.png
    :scale: 100%
@@ -58,11 +56,12 @@ del archivo, incluyendo fecha, permisos, etc.
 
    Buffer con dired+ suprimiendo detalles de los archivos
 
-Por ahora no encuentro el modo de colorear distinto a las directorios
-y a los archivos con distinta extensión. Intenté con el paquete
-dired-rainbow y pude colorear distinto los archivos con diferentes
-extensiones, pero no se cómo hacer con los directorios (porque no
-tienen extensión), así que lo desinstalé. Pero copio debajo el código
+Por ahora no encuentro el modo de colorear distinto a las directorios y a los
+archivos con distinta extensión (observación al 11/2020: en Doom Emacs aparecen
+cosas con diversos colores, por ejemplo los permisos, las fechas, los tamaños de
+los archivos). Intenté con el paquete dired-rainbow y pude colorear distinto los
+archivos con diferentes extensiones, pero no se cómo hacer con los directorios
+(porque no tienen extensión), así que lo desinstalé. Pero copio debajo el código
 de prueba que funcionó, para no perderlo:
 
 .. code-block:: cl
@@ -101,6 +100,16 @@ archivos (visibles y ocultos) con los directorios.
 
    Dos buffers coloridos con dired+.
 
+Edición del nombre de archivos y directorios
+
+El buffer se puede volver editable para habilitar el cambio de nombre de
+archivos y directorios, del mismo modo en que se edita un buffer normal de
+texto. La función que vuelve editable el buffer es dired-toggle-read-only que
+por defecto se ejecuta con C-x C-q y en Doom Emacs directamente con "i" (insert
+mode). Al correr la función prestar atención al minibuffer porque indica la
+manera de salir de este modo de edición, confirmando los cambios (vanilla: C-c
+C-c; Doom: Z Z) o cancelándolos (vanilla: C-c C-k; Doom: Z Q).
+
 Las funciones más comunes y sus atajos de teclado (son case-sensitive)
 están en la tabla siguiente, a modo de ejemplo, pero hay muchas más
 opciones en los menúes de dired+, que son varios: Dir, Mark, Regexp,
@@ -112,19 +121,40 @@ es una buena forma de aprender.
 +----------------------+-----------+
 | Marcar archivo       | m         |
 +----------------------+-----------+
+| Desmarcar archivo    | u         |
++----------------------+-----------+
 | Marcar por extensión | \*.       |
 +----------------------+-----------+
-| Desmarcar archivo    | u         |
+| Marcar directorios   | \*/       |
 +----------------------+-----------+
 | Desmarcar todos      | U         |
 +----------------------+-----------+
-| Toggle               | t         |
+| Invertir selección   | t         |
++----------------------+-----------+
+| Dividir en 2 paneles | C-w v     |
++----------------------+-----------+
+| Ir al otro panel     | C-w w     |
 +----------------------+-----------+
 | Copiar               | C         |
 +----------------------+-----------+
 | Mover/renombrar      | R         |
 +----------------------+-----------+
-
+| Full/simple view     | ( ó S-8   |
++----------------------+-----------+
+| Entrar directorio    | ENTER     |
++----------------------+-----------+
+| Directorio anterior  | \-        |
++----------------------+-----------+
+| Crear directorio     | \+        |
++----------------------+-----------+
+| Marcar para borrar   | d         |
++----------------------+-----------+
+| Run acciones marcadas| x         |
++----------------------+-----------+
+| Buffer editable      | C-x C-q   |
++----------------------+-----------+
+| Idem con Doom        | i         |
++----------------------+-----------+
 
 .. _la página de dired+: http://www.emacswiki.org/emacs/DiredPlus
 .. _una pregunta en Emacs Exchange: http://emacs.stackexchange.com/questions/5765/how-to-view-files-ordered-by-extension-in-dired

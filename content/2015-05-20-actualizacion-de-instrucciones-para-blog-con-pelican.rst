@@ -36,6 +36,8 @@ herramientas que utilizaremos posteriormente:
    (blogs)$ pip install beautifulsoup4
    (blogs)$ pip install pelican-youtube
    (blogs)$ pip install ghp-import
+   (blogs)$ pip install typogrify
+
 
 Estructura de directorios
 =========================
@@ -408,3 +410,12 @@ remote's URL`_, también en GitHub.
 .. _Nicholas Tan Jerome: http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/
 .. _es este: http://pelican.readthedocs.org/
 .. _la página de Nicholas: http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/
+
+Problemas con Youtube
+=====================
+
+El plugin **pelican-youtube** puede generar errores al correr un *make html*. En
+ese caso verificar si además de estar instalado con pip, no figura entre los
+plugins de la carpeta *?/pelican-plugins*, en cuyo caso una solución posible es
+borrarlo de este último sitio (y cada vez que actualicemos ese repositorio de
+plugins)

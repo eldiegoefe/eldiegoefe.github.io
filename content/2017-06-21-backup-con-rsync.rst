@@ -134,8 +134,8 @@ Otro ejemplo es la copia que hago de mi colección de libros organizados con Cal
    $ rsync -avh --progress --delete ~/calibre/ /media/diego/biblioteca/espejo-del-rigido/calibre
 
                
-Un último ejemplo: de un rígido externo a otro (porque hay que hacer backup del
-backup de vez en cuando).
+De un rígido externo a otro (porque hay que hacer backup del backup de vez en
+cuando):
 
 .. code-block:: terminal
 
@@ -148,3 +148,24 @@ posteriores se compararán los directorios de origen y destino, y sólo se copia
 aquello que haya cambiado (o se borrarán aquellos archivos en el directorio de
 destino que se hayan eliminado del directorio de origen). Este modo de hacer
 backup me cambió la vida.
+
+-----
+
+A continuación, un ejemplo modificado de StackExchange_: sirve para verificar
+con un "dry-run" cuáles serán los cambios que se realizarán, sin que se
+materialicen. Para efectuar realmente los cambios hay que borrar "--dry-run" y
+ejecutar de nuevo la orden.
+
+El "delete-after" realiza el borrado de los archivos en el destino (aquellos que
+no están en el origen) recién después de que se haya completado la copia. El
+directorio de origen y el del final están probados para un caso particular en mi
+instalación de Manjaro (18/11/2020), así que cada uno tendrá que modificarlo de
+acuerdo a sus ubicaciones.
+
+.. code-block:: terminal
+
+   $ rsync -avhi --dry-run --progress --delete-after ~/Calibre/
+   /run/media/diego/biblioteca/espejo-del-rigido/calibre/general/ | egrep -v
+   "sending incremental file list" | egrep -v "^\
+
+.. _StackExchange: https://superuser.com/questions/576687/how-to-print-files-that-would-have-been-changed-using-rsync

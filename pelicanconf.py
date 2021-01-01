@@ -52,12 +52,12 @@ DEFAULT_PAGINATION = 20
 # WITH_FUTURE_DATES = False
 # Uncomment following line if you want document-relative URLs when developing
 
-RELATIVE_URLS = False 
+RELATIVE_URLS = True
 
 # THEME = "/home/user/pelican-themes/theme-name"
 # Mis agregados
 
-THEME = "../pelican-elegant"
+THEME = "../elegant"
 
 # THEME = "notmyidea"    # es un tema built-in
 # THEME = "foundation-default-colours"
@@ -92,12 +92,14 @@ TWITTER_USERNAME = 'eldiegoefe'
 
 # Elegant requiere los siguientes seteos
 
-PLUGINS = ['sitemap', 'extract_toc', 'tipue_search', 'pelican_youtube']
+PLUGINS = ['sitemap', 'extract_toc', 'tipue_search',
+           'pelican_youtube'
+           ]
 # el plugin pelican_youtube lo tenia desde antes de Elegant
 
 MARKDOWN = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
-STATIC_PATHS = ['theme/images', 'images']
+# STATIC_PATHS = ['theme/images', 'images']
 TAG_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''

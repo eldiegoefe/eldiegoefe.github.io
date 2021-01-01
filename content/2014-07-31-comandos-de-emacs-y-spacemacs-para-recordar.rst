@@ -8,9 +8,11 @@ Comandos de Emacs y Spacemacs para recordar
 :excerpt: Comandos de Emacs y Spacemacs para recordar
 :disqus_identifier: comandos de emacs y spacemacs para recordar
 
-Yasnippets / Company ==================== En `la documentación de Spacemacs`_
-están los keybindings. No funciona más SPC i s (que mostraba una lista de
-snippets habilitados para el modo actual).
+Yasnippets / Company
+====================
+
+En `la documentación de Spacemacs`_ están los keybindings. No funciona más SPC i
+s (que mostraba una lista de snippets habilitados para el modo actual).
 
 - reemplaza la clave previa al punto por el contenido del snippet
   correspondiente: M-/
@@ -18,7 +20,8 @@ snippets habilitados para el modo actual).
 .. _la documentación de Spacemacs:
    https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings
 
-Búsqueda ========
+Búsqueda
+========
 
 La búsqueda habitual con i-search (C-s) se potencia al instalar `swiper`_, que
 ofrece un listado de las lineas del documento donde se encuentran los resultados
@@ -30,7 +33,8 @@ cómo ir a los resultados siguientes (C-s) y anteriores (C-r). Es menos visual.
 
 .. _swiper: https://github.com/abo-abo/swiper
 
-Movimiento ==========
+Movimiento
+==========
 
 Se puede saltar facilmente a letras o lineas que aparezcan en pantalla. Dentro
 de Spacemacs las opciones para este tipo de salto están bajo el prefijo SPC j.
@@ -50,17 +54,20 @@ Otros movimientos habituales:
 - 15 gg: se mueve a la línea 15. Obviamente '15' es un ejemplo.
 - G: se mueve al final del documento
 
-Ventanas ========
+Ventanas
+========
 
 - dividir ventana verticalmente: SPC w /
 - dividir ventana horizontalmente: SPC w -
 
-Dired =====
+Dired
+=====
 
 - convertir buffer en texto editable: C-x C-q
 - aceptar los cambios realizados y finalizar edición: C-c C-c
 
-Enlaces =======
+Enlaces
+=======
 
 Armé un snippet para colocar links más fácilmente (`lo pueden ver aca`_), pero
 igual dejo acá la sintaxis para poner hiperlinks en restructuredText:
@@ -80,7 +87,8 @@ igual dejo acá la sintaxis para poner hiperlinks en restructuredText:
     .. _mi sitio favorito: http://www.wikipedia.org/
 
 
-Indentación ===========
+Indentación
+===========
 
 Primero se selecciona un bloque de texto y luego:
 
@@ -91,14 +99,16 @@ Primero se selecciona un bloque de texto y luego:
   indentaciones que el bloque haya tenido antes. El movimiento se determina
   presionando las flechas (o las teclas 'h' y 'l') luego de invocar el comando.
 
-Ayuda =====
+Ayuda
+=====
 
 Para pedir ayuda sobre una función:
 
 - Si se sabe el nombre: C-h f nombre-de-la-función
 - Si se sabe el keybinding: C-h k keybinding
 
-Caracteres ==========
+Caracteres
+==========
 
 Todo esto cambia de acuerdo al teclado (en el `Ergodox`_ tengo teclas
 programables) y con la distribución elegida. De todos modos, actualmente son las

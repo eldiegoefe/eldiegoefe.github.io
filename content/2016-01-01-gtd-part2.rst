@@ -2,12 +2,12 @@ Getting Things Done (Part II)
 #############################
 
 :date: 2016-01-01 11:00
+:modified: 2020-11-23 18:00
 :category: blog
 :tags: gtd, productividad
 :author: El Diego Efe
 :excerpt: Getting Things Done (Part II)
 :disqus_identifier: Getting Things Done (Part II)
-:status: draft
 
 Serie de artículos sobre Getting Things Done:
 
