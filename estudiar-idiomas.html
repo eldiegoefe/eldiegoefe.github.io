@@ -12,24 +12,24 @@
 
         <meta name="author" content="El Diego Efe" />
 
-        <meta name="description" content="Estos son algunos apuntes extraidos principalmente del tutorial de Artist en la página http://matplotlib.org/users/artists.html matplotlib Matplotlib is the whole package pylab a module in matplotlib installed alongside matplotlib preferred for interactive calculations and plotting matplotlib.pyplot a module in matplotlib provides the state machine interface …
+        <meta name="description" content="Todo comenzó de manera incierta y desdibujada, en un sitio alejado del camino central de esta historia. Uno cree que elige su destino y que al menos sabe hacia dónde se dirige, pero nuestro camino es una diadema de singularidades espontáneas, estamos permanentemente rodeados de caos y espejismos, y a …
 " />
         <meta name="twitter:creator" content="@eldiegoefe">
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta name="keywords" content="matplotlib, python, graficacion, tecnicismos, " />
+<meta name="keywords" content="idiomas, aleman, blog, " />
 
-<meta property="og:title" content="Apuntes sobre matplotlib "/>
-<meta property="og:url" content="https://eldiegoefe.github.io/apuntes-sobre-matplotlib.html" />
-<meta property="og:description" content="Estos son algunos apuntes extraidos principalmente del tutorial de Artist en la página http://matplotlib.org/users/artists.html matplotlib Matplotlib is the whole package pylab a module in matplotlib installed alongside matplotlib preferred for interactive calculations and plotting matplotlib.pyplot a module in matplotlib provides the state machine interface …" />
+<meta property="og:title" content="Estudiar idiomas "/>
+<meta property="og:url" content="https://eldiegoefe.github.io/estudiar-idiomas.html" />
+<meta property="og:description" content="Todo comenzó de manera incierta y desdibujada, en un sitio alejado del camino central de esta historia. Uno cree que elige su destino y que al menos sabe hacia dónde se dirige, pero nuestro camino es una diadema de singularidades espontáneas, estamos permanentemente rodeados de caos y espejismos, y a …" />
 <meta property="og:site_name" content="Certezas Dudosas" />
 <meta property="og:article:author" content="El Diego Efe" />
-<meta property="og:article:published_time" content="2014-08-03T10:00:00+02:00" />
-<meta name="twitter:title" content="Apuntes sobre matplotlib ">
-<meta name="twitter:description" content="Estos son algunos apuntes extraidos principalmente del tutorial de Artist en la página http://matplotlib.org/users/artists.html matplotlib Matplotlib is the whole package pylab a module in matplotlib installed alongside matplotlib preferred for interactive calculations and plotting matplotlib.pyplot a module in matplotlib provides the state machine interface …">
+<meta property="og:article:published_time" content="2021-01-31T10:00:00+01:00" />
+<meta name="twitter:title" content="Estudiar idiomas ">
+<meta name="twitter:description" content="Todo comenzó de manera incierta y desdibujada, en un sitio alejado del camino central de esta historia. Uno cree que elige su destino y que al menos sabe hacia dónde se dirige, pero nuestro camino es una diadema de singularidades espontáneas, estamos permanentemente rodeados de caos y espejismos, y a …">
 
-        <title>Apuntes sobre matplotlib  · Certezas Dudosas
+        <title>Estudiar idiomas  · Certezas Dudosas
 </title>
         <link href="https://eldiegoefe.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Certezas Dudosas - Full Atom Feed" />
         <link href="https://eldiegoefe.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Certezas Dudosas - Full RSS Feed" />
@@ -71,8 +71,8 @@
 <div class="row-fluid">
     <header class="page-header span10 offset2">
         <h1>
-            <a href="https://eldiegoefe.github.io/apuntes-sobre-matplotlib.html">
-                Apuntes sobre&nbsp;matplotlib
+            <a href="https://eldiegoefe.github.io/estudiar-idiomas.html">
+                Estudiar&nbsp;idiomas
             </a>
         </h1>
     </header>
@@ -81,83 +81,110 @@
 <div class="row-fluid">
         <div class="span8 offset2 article-content">
             
-            <p>Estos son algunos apuntes extraidos principalmente del tutorial de
-Artist en la página <a class="reference external" href="http://matplotlib.org/users/artists.html">http://matplotlib.org/users/artists.html</a></p>
-<div class="section" id="matplotlib">
-<h2><strong>matplotlib</strong></h2>
-<p>Matplotlib is the whole&nbsp;package</p>
-<div class="section" id="pylab">
-<h3><strong>pylab</strong></h3>
-<ul class="simple">
-<li>a module in&nbsp;matplotlib</li>
-<li>installed alongside&nbsp;matplotlib</li>
-<li>preferred for interactive calculations and&nbsp;plotting</li>
-</ul>
-</div>
-<div class="section" id="matplotlib-pyplot">
-<h3><strong>matplotlib.pyplot</strong></h3>
-<ul class="simple">
-<li>a module in matplotlib provides the state machine interface to the
-underlying plotting library in&nbsp;matplotlib</li>
-<li>combines the pyplot functionality (for plotting) with numpy
-functionality in a single&nbsp;namespace</li>
-<li>figures and axes are implicitly and automatically created to achieve
-the desired&nbsp;plot</li>
-<li>preferred for&nbsp;scripting</li>
-</ul>
-</div>
-</div>
-<div class="section" id="artist">
-<h2>Artist</h2>
-<p>Artist has three&nbsp;layers:</p>
-<ol class="arabic simple">
-<li>matplotlib.backend_bases.FigureCanvas: area onto which the figure
-is&nbsp;drawn</li>
-<li>matplotlib.backend_bases.Renderer: object which knows how to draw
-on the&nbsp;FigureCanvas</li>
-<li>matplotlib.artist.Artist: object that knows how to use a renderer
-to paint onto the canvas (el usuario típico usa esto el 95% del&nbsp;tiempo)</li>
-</ol>
-<p>1 and 2 handle all the details of talking to user interface toolkits&nbsp;(Qt4)</p>
-<p>3 handles all the high level constructs like representing and laying
-out the figure, text and&nbsp;lines</p>
-<div class="section" id="artist-types">
-<h3>Artist&nbsp;types</h3>
-<ul class="simple">
-<li>primitive: standard graphical objects we want to paint onto our
-canvas (Line2D, Rectangle, Text, AxesImages,&nbsp;etc)</li>
-<li>containers: places to put the primitives (Axis, Axes,&nbsp;Figure)</li>
-</ul>
-</div>
-<div class="section" id="standard-use">
-<h3>Standard&nbsp;use</h3>
-<p>Create a Figure instance use the Figure to create one or more Axes or
-Subplot instances use the <strong>Axes</strong> (plotting area into which most of
-the objects go) instance <strong>helper methods</strong> (plot(), text(), hist(),
-etc) to create the <strong>primitives</strong> (Line2D, Text,&nbsp;Rectangle).</p>
-<p><strong>Helper&nbsp;methods</strong></p>
-<blockquote>
-will take your data (numpy arrays, strings) and create primitive
-Artists instances as needed (Line2D, etc), add them to the relevant
-containers and draw them when requested</blockquote>
-<p><strong>Subplots</strong></p>
-<blockquote>
-a special case of an Axes that lives in a regular rows by columns
-grid of subplots instances.</blockquote>
-<p><strong>Axes</strong></p>
-<blockquote>
-if you want to create an Axes at an arbitrary location, simply use
-the add_axes() method which takes a list of [left, bottom, width,
-height] values in 0-1 relative coordinates.</blockquote>
-<div class="figure align-center">
-<a class="reference external image-reference" href="https://farm8.staticflickr.com/7562/15668742154_478eb826ce_o.jpg"><img alt="Dibujito contradictorio" src="https://farm8.staticflickr.com/7562/15668742154_5fa9d2804e_b.jpg" style="width: 100.0%;" /></a>
-</div>
-<p>Había hecho este dibujito cuando estaba viendo este tema, para
-aplicarlo a un programa para linealizar termistores, pero veo que en
-el dibujo la jerarquía de Figure y Canvas aparecen distinto en los dos
-gráficos, no se si es un&nbsp;error&#8230;</p>
-</div>
-</div>
+            <p>Todo comenzó de manera incierta y desdibujada, en un sitio alejado del camino
+central de esta historia. Uno cree que elige su destino y que al menos sabe
+hacia dónde se dirige, pero nuestro camino es una diadema de singularidades
+espontáneas, estamos permanentemente rodeados de caos y espejismos, y a pesar o
+gracias a ello, a veces tenemos una suerte descomunal y llegamos a recorrer
+lugares impensados que nos alegran la vida. Al principio mi interés estaba
+centrado en aprender sobre diseño, no podía sospechar que iba a terminar
+embarcado en el estudio de un idioma. La culpa de todo es del algoritmo de
+YouTube que me recomendó un video sobre el diseñador Nils Holger Moormann,
+quien habiéndose recibido de abogado decidió dedicarse al diseño de muebles,
+los cuales son muy funcionales y estructuralmente&nbsp;originales.</p>
+<div class="youtube"><iframe src="https://www.youtube.com/embed/a6SB9e-s1QE" width="800" height="450" allowfullscreen seamless frameBorder="0"></iframe></div><p>La curiosidad me llevó a buscar más información sobre el diseño alemán, y era
+ineludible leer sobre la <a class="reference external" href="https://es.wikipedia.org/wiki/Escuela_de_la_Bauhaus">Escuela Bauhaus</a>. En el proceso de recorrer libros y
+blogs de diseño llegué a una página que me gustó tanto como para navegar hacia
+los datos biográficos de su autora. Allí decía que para leer libros que le
+interesaban sobre diseño estudió alemán <strong>y que no le había resultado tan
+difícil</strong>. Esta sola frase en un rincón impensado de la World Wide Web alteró
+una vida, la mia, la de un sujeto perdido en cualquier lugar del mundo, no tan
+lejos de Aldea Spatzenkutter ni Ingeniero Maschwitz. Todas nuestras acciones,
+por más ínfimas que sean pueden tener efecto en los demás, ya mismo, en el
+futuro y hasta quizás en el pasado (si <a class="reference external" href="https://dark-netflix.fandom.com/wiki/Jonas_Kahnwald">Jonas Kahnwald</a> se despierta cruzado),
+así que les diría que tengan cuidado con los rastros que dejan en este universo.
+Antes de despedirme del diseño, les dejo enlaces a un sitio con hermosos
+materiales: <a class="reference external" href="https://www.design-is-fine.org">Design is fine</a> y al arquitectónico instagram de <a class="reference external" href="https://www.instagram.com/alejandrocsome/">alejandrocsome
+(Bauhasaurus)</a>.</p>
+<p>Impulsado por la necesidad de contrastar esta optimista afirmación sobre la
+facilidad de estudiar alemán, me puse a buscar videos para valorar si se trataba
+de algo absurdo, y descubrí que la exacerbada dificultad que asociamos a
+aprender idiomas siendo adultos es apenas un prejuicio. <strong>De hecho, ni siquiera
+es irrisoria, a cualquier edad, la posibilidad de convertirnos en políglotas</strong>.
+No estoy diciendo que sea fácil, sino que es un proceso sólo limitado por
+nuestro deseo y por los métodos que apliquemos para llevarlo adelante, que por
+supuesto requieren tiempo y determinación (realmente es difícil aprender idiomas
+siendo un explotado del sistema, pero si actualmente invertís una hora diaria en
+mirar la tele o en actividades similares, podrías hacerte un favor y optar por
+dedicar ese tiempo a estudiar algo liberador). Respecto de nuestra experiencia
+previa en los espacios de enseñanza formal (yo estudié francés durante 5 años en
+la escuela secundaria sin ningún éxito) dejémosla suspendida para analizar
+eventualmente los métodos a&nbsp;evitar.</p>
+<p>Antes de continuar, un mensaje para quienes no hablan/entienden inglés. Si bien
+el castellano es el segundo idioma con más hablantes en el mundo después del
+mandarín (contando sólo la primera lengua, la que cada uno de nosotros aprende
+al nacer, <a class="reference external" href="https://es.wikipedia.org/wiki/Anexo:Idiomas_por_el_total_de_hablantes">acá pueden ver la tabla de posiciones</a>), el inglés es actualmente la
+lengua franca del conocimiento y la comunicación mundial, el anfitrión que aloja
+la mayor cantidad y calidad de material informativo, educativo y de
+entretenimiento. La inversión que requiere su aprendizaje (ya lo vamos a ver:
+quizás unos cuantos meses, posiblemente un par de años, incluso si el estudio es
+más esporádico y nos demoramos un lustro también sería razonable) lo van a
+recuperar con creces gracias al enorme volumen de material disponible en ese
+idioma, con el que van a poder recibir alguna respuesta a sus inquietudes
+actuales y ejercitar la curiosidad por el universo que los rodea, empezando por
+la infinita variedad de videos que comparte por YouTube gente <strong>de todo el
+mundo</strong>, con infinitos intereses y&nbsp;saberes.</p>
+<p>Para incorporar un idioma, así como para atravesar el estudio de cualquier tema,
+no hay un método universal puesto que aprendemos de distintas maneras. Las
+técnicas que unos disfrutan pueden ser de pesadilla para otros, y si bien el
+laberinto que plantea esta búsqueda puede entretenernos y apartarnos de nuestro
+objetivo para siempre (tampoco sería una pérdida, estaríamos aprendiendo sobre
+educación), entiendo que es una buena inversión de tiempo indagar acerca de las
+opciones disponibles, que tampoco son&nbsp;infinitas.</p>
+<p>Voy a armar otra página con enlaces a recursos sobre aprendizaje de idiomas. Acá
+solamente les comento sobre uno de los libros que elegí para estudiar, de la
+editorial Assimil fundada en 1929. En foros y videos muchas opiniones valoran
+sus cursos antiguos, así que me puse a buscarlos y pude conseguir la versión
+inglesa y castellana de su curso de alemán: &#8220;German without toil&#8221; (1965) y &#8220;El
+alemán sin esfuerzo&#8221; (1975), por suerte con las grabaciones originales, ruidos
+de la púa sobre el disco incluidos. Vean la imagen de abajo: sobre la página
+izquierda aparece el texto en alemán junto con una transcripción fonética de
+algunas palabras (las que aparecen por primera vez) y sobre la página
+enfrentada, a la derecha, su traducción a nuestra lengua junto con notas
+explicativas. Son 6 lecciones de este tipo y luego una séptima que no introduce
+nuevo material en alemán sino que incluye una revisión de algunos puntos ya
+desarrollados y notas extra. Esta estructura (6+1) se repite 18 veces hasta el
+final del libro, ya que son un total de 126 lecciones. Cada día de estudio
+tenemos que estudiar una lección, y el modo de hacerlo también lo voy a comentar
+en otro posteo, así que para completar el curso se necesitan unos 4 meses como
+mínimo. Ambas versiones bilingues (alemán-inglés y alemán-español) son
+idénticas, salvo algunas diferencias menores en las notas aclaratorias. Sobre el
+final del libro hay un apéndice gramatical, pero la clave del curso es evitar
+centrar el estudio en este aspecto del lenguaje, y enfocarnos en experimentar
+directamente el lenguaje hablado y&nbsp;escrito.</p>
+<a class="reference external image-reference" href="https://live.staticflickr.com/65535/50871907052_2f16ffce54_o.jpg"><img alt="lección 17" class="align-center" src="https://live.staticflickr.com/65535/50871907052_f10936bb1d_b.jpg" style="width: 100.0%;" /></a>
+<p>Stephen Krashen es un científico muy referenciado por políglotas y estudiantes
+de diversos lenguajes. Según sus estudios adquirimos un lenguaje al exponernos
+continuamente a &#8220;entradas comprensibles&#8221; (<em>comprehensible input</em>) en el idioma a
+aprender (<em>target language</em>). ¿Cómo hacemos comprensible un lenguaje que todavía
+no sabemos? Usando al principio materiales que tengan un contexto inteligible,
+esto es que haya información visual o auditiva que permita completar el
+significado, por ejemplo expresiones faciales, emociones expresadas en forma no
+verbal, dicho en forma más general: una escena interpretable y deducible (¿un
+dibujito animado para niños?), o quizás suficiente información en nuestro propio
+idioma para permitirnos la comprensión (así entiendo al curso que describí
+antes). Luego, a medida que aprendemos, pasamos a textos, películas y audios que
+contengan lo que ya sabemos y agreguen una pequeña dosis de palabras nuevas.
+Idealmente debemos comprender alrededor de un 80% del texto al cual nos
+enfrentamos. Estos ejemplos provienen de mi interpretación de sus propuestas,
+por lo cual si realmente quieren saber lo que dice este buen lingüista van a
+tener que hacer algunas búsquedas (y posiblemente aprender inglés). Para empezar
+les dejo una buena entrevista (en inglés) en el canal Matt vs Japan (un capo el
+joven Matt, que aprendió japonés, lo habla fluidísimo y dedica su canal al
+aprendizaje de&nbsp;idiomas):</p>
+<div class="youtube"><iframe src="https://www.youtube.com/embed/_VYfpL6lcjE" width="800" height="450" allowfullscreen seamless frameBorder="0"></iframe></div><p>Bueno weys, chavas, weones, chamas, gurises y gurisas, nos vemos en el próximo
+episodio de esta serie, tengo unas cuantas cosas más para compartir sobre este
+tema. ¡Arrivederci, bis&nbsp;später!</p>
 
 
 
@@ -183,8 +210,8 @@ gráficos, no se si es un&nbsp;error&#8230;</p>
                 <a class="accordion-toggle disqus-comment-count comment-count collapsed"
                    data-toggle="collapse"
                    data-parent="#accordion2"
-                   data-disqus-identifier="apuntes matplotlib"
-                   href="https://eldiegoefe.github.io/apuntes-sobre-matplotlib.html#comment_thread"
+                   data-disqus-identifier="Estudiar idiomas"
+                   href="https://eldiegoefe.github.io/estudiar-idiomas.html#comment_thread"
                    id="comment-accordion-toggle">
                     Comments
                 </a>
@@ -202,8 +229,8 @@ gráficos, no se si es un&nbsp;error&#8230;</p>
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
 
-    var disqus_identifier = 'apuntes matplotlib';
-    var disqus_url = 'https://eldiegoefe.github.io/apuntes-sobre-matplotlib.html';
+    var disqus_identifier = 'Estudiar idiomas';
+    var disqus_url = 'https://eldiegoefe.github.io/estudiar-idiomas.html';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -229,19 +256,16 @@ gráficos, no se si es un&nbsp;error&#8230;</p>
         </div>
         <section id="article-sidebar" class="span2">
             <h4>Published</h4>
-            <time itemprop="dateCreated" datetime="2014-08-03T10:00:00+02:00">2014 agosto 03 dom</time>
+            <time itemprop="dateCreated" datetime="2021-01-31T10:00:00+01:00">2021 enero 31 dom</time>
             <h4>Category</h4>
-            <a class="category-link" href="https://eldiegoefe.github.io/categories.html#tecnicismos-ref">tecnicismos</a>
+            <a class="category-link" href="https://eldiegoefe.github.io/categories.html#blog-ref">blog</a>
             <h4>Tags</h4>
             <ul class="list-of-tags tags-in-article">
-                <li><a href="https://eldiegoefe.github.io/tags.html#graficacion-ref">graficacion
+                <li><a href="https://eldiegoefe.github.io/tags.html#aleman-ref">aleman
                     <span class="superscript">1</span>
 </a></li>
-                <li><a href="https://eldiegoefe.github.io/tags.html#matplotlib-ref">matplotlib
+                <li><a href="https://eldiegoefe.github.io/tags.html#idiomas-ref">idiomas
                     <span class="superscript">1</span>
-</a></li>
-                <li><a href="https://eldiegoefe.github.io/tags.html#python-ref">python
-                    <span class="superscript">8</span>
 </a></li>
             </ul>
 <h4>Contact</h4>
