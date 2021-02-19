@@ -62,7 +62,7 @@ Blogs, Journals, Zines
 .. _Argentina Ashtanga Project: https://argentinaashtangaproject.wordpress.com
 .. _Claudia Yoga: http://www.claudiayoga.com/
 .. _Elephant Journal: https://www.elephantjournal.com
-.. _Grimmly: http://grimmly2007.blogspot.com.ar
+.. _Grimmly: grimmly1997.blogspot.com
 .. _Mercedes Laynez: http://www.mercedeslaynez.es
 .. _Practicing Ashtanga: http://practicingashtanga.com
 
