@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Certezas Dudosas</title><link>https://eldiegoefe.github.io/</link><description>todo lo liquido se desvanece en el estomago</description><lastBuildDate>Tue, 09 Feb 2021 10:00:00 +0100</lastBuildDate><item><title>Vinyasa Krama Yoga</title><link>https://eldiegoefe.github.io/vinyasa-krama-yoga.html</link><description>&lt;p&gt;Estos son mis apuntes del primer capítulo del libro &lt;a class="reference external" href="https://www.goodreads.com/book/show/649460.The_Complete_Book_of_Vinyasa_Yoga"&gt;The Complete Book of
+<rss version="2.0"><channel><title>Certezas Dudosas</title><link>https://eldiegoefe.github.io/</link><description>todo lo liquido se desvanece en el estomago</description><lastBuildDate>Sat, 20 Feb 2021 10:00:00 +0100</lastBuildDate><item><title>Dead Humanity Walking</title><link>https://eldiegoefe.github.io/dead-humanity-walking.html</link><description>&lt;p&gt;Recuerdo la palpable angustia que sentí en los años ochenta frente a la
+posibilidad de que alguna de las grandes potencias enfrentadas en la Guerra Fría
+decidieran ser las primeras en apretar el botón rojo, dando comienzo al suicidio
+colectivo con el desastre nuclear. Fueron los últimos años de niñez …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Sat, 20 Feb 2021 10:00:00 +0100</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2021-02-20:/dead-humanity-walking.html</guid><category>blog</category></item><item><title>Vinyasa Krama Yoga</title><link>https://eldiegoefe.github.io/vinyasa-krama-yoga.html</link><description>&lt;p&gt;Estos son mis apuntes del primer capítulo del libro &lt;a class="reference external" href="https://www.goodreads.com/book/show/649460.The_Complete_Book_of_Vinyasa_Yoga"&gt;The Complete Book of
 Vinyasa Yoga&lt;/a&gt; de &lt;strong&gt;Srivatsa Ramaswami&lt;/strong&gt;, en los que presenta las posturas de
 pie del estilo de yoga que llama &lt;strong&gt;Vinyasa Krama&lt;/strong&gt;, que proviene de su maestro
 &lt;strong&gt;Tirumalai Krishnamacharya&lt;/strong&gt;, el famoso &lt;em&gt;Padre del Yoga Moderno&lt;/em&gt;. Obviamente
@@ -62,34 +65,19 @@ Tengo la impresión de que lo escribí ya en el blog pero no lo encuentro ni con
 los buscadores más buscados (ag, ack,&amp;nbsp;pt):&lt;/p&gt;
 &lt;ol class="arabic"&gt;
 &lt;li&gt;&lt;p class="first"&gt;Activar el virtualenv, asumiendo que están instalados pyenv y
-pyenv-virtualenvs (también tendría que …&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Thu, 19 Apr 2018 10:00:00 +0200</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2018-04-19:/instalacion-de-pyqt.html</guid><category>tecnicismos</category><category>python</category><category>pyqtgraph</category><category>pyqt</category><category>qt</category><category>sip</category><category>software</category></item><item><title>Enlaces sobre Yoga</title><link>https://eldiegoefe.github.io/enlaces-sobre-yoga.html</link><description>&lt;div class="section" id="youtube"&gt;
-&lt;h2&gt;YouTube&lt;/h2&gt;
+pyenv-virtualenvs (también tendría que …&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Thu, 19 Apr 2018 10:00:00 +0200</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2018-04-19:/instalacion-de-pyqt.html</guid><category>tecnicismos</category><category>python</category><category>pyqtgraph</category><category>pyqt</category><category>qt</category><category>sip</category><category>software</category></item><item><title>Enlaces sobre Yoga</title><link>https://eldiegoefe.github.io/enlaces-sobre-yoga.html</link><description>&lt;div class="section" id="ashtanga-mis-preferidos"&gt;
+&lt;h2&gt;Ashtanga - Mis&amp;nbsp;preferidos&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/davidgarrigues/videos"&gt;Asana Kitchen with David&amp;nbsp;Garrigues&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/brendamedinayoga/videos"&gt;Brenda&amp;nbsp;Medina&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UC3BdB0N91D2PBGDc9GkYoHw/videos"&gt;Cosmin&amp;nbsp;Yogi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/yogatic/videos"&gt;Ekhart Yoga&amp;nbsp;YouTube&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/lesleyfightmaster/videos"&gt;Fightmaster&amp;nbsp;Yoga&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/KinoYoga"&gt;Kino&amp;nbsp;Yoga&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/neilkeleher"&gt;Neil&amp;nbsp;Keleher&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/YogaGoa/videos"&gt;Purple Valley Ashtanga&amp;nbsp;Yoga&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/yogawithadriene/videos"&gt;Yoga with&amp;nbsp;Adriene&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/yogawithtim/videos"&gt;Yoga with&amp;nbsp;Tim&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Argentina:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/AshtangaBaires/videos"&gt;Ashtanga&amp;nbsp;Baires&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCmypYsSN-8a5-u-AlCJgQfw"&gt;Ashtanga Santa&amp;nbsp;Fe&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCPaXhfmVRniwtjBWPfFj-YQ/videos"&gt;Ashtanga Yoga&amp;nbsp;Córdoba&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/german222full/videos"&gt;Germán&amp;nbsp;Garro&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/channel/UCOeAKujhAaoQKMxSWa3ZcVw"&gt;Sambara Escuela de&amp;nbsp;Yoga&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/davidgarrigues/videos"&gt;Asana Kitchen with David&amp;nbsp;Garrigues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/user/KinoYoga"&gt;Kino&amp;nbsp;Yoga&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;div class="section" id="blogs-journals-zines"&gt;
-&lt;h2&gt;Blogs, Journals,&amp;nbsp;Zines&lt;/h2&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://antranik.org/yoga-at-home/"&gt;Antranik&amp;nbsp;Yoga&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://argentinaashtangaproject.wordpress.com"&gt;Argentina …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Wed, 21 Mar 2018 10:00:00 +0100</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2018-03-21:/enlaces-sobre-yoga.html</guid><category>salud</category><category>yoga</category></item><item><title>Instalación y configuración de Emacs</title><link>https://eldiegoefe.github.io/instalacion-y-configuracion-de-emacs.html</link><description>&lt;p&gt;Estos son los pasos que sigo cuando instalo Emacs y Spacemacs, junto con el
+&lt;div class="section" id="vinyasa-krama"&gt;
+&lt;h2&gt;Vinyasa&amp;nbsp;Krama&lt;/h2&gt;
+&lt;p&gt;No hay muchos canales de este estilo, o no los encontré aún. He visto algunos
+videos que me gustaron de profes españoles: Blanca San Román (por ejemplo esta
+&lt;a class="reference external" href="https://www.youtube.com/watch?v=sCjvxF6gHSY"&gt;Masterclass y presentación&lt;/a&gt;, creo que no …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">El Diego Efe</dc:creator><pubDate>Wed, 21 Mar 2018 10:00:00 +0100</pubDate><guid isPermaLink="false">tag:eldiegoefe.github.io,2018-03-21:/enlaces-sobre-yoga.html</guid><category>salud</category><category>yoga</category><category>salud</category></item><item><title>Instalación y configuración de Emacs</title><link>https://eldiegoefe.github.io/instalacion-y-configuracion-de-emacs.html</link><description>&lt;p&gt;Estos son los pasos que sigo cuando instalo Emacs y Spacemacs, junto con el
 archivo de configuración que guardo en un repositorio&amp;nbsp;privado.&lt;/p&gt;
 &lt;div class="section" id="paso-1-modos-de-instalacion"&gt;
 &lt;h2&gt;Paso 1: Modos de&amp;nbsp;instalación&lt;/h2&gt;
