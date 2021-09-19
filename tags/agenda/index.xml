@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>agenda - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/agenda/</link>
+        <description>agenda - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/agenda/" rel="self" type="application/rss+xml" /><item>
+    <title>Más sobre agenda en org-mode</title>
+    <link>http://www.certezasdudosas.com/2016-01-06-mas-sobre-agenda-en-org-mode/</link>
+    <pubDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-01-06-mas-sobre-agenda-en-org-mode/</guid>
+    <description><![CDATA[Más sobre agenda en org-mode]]></description>
+</item>
+<item>
+    <title>Agenda en Emacs y OrgMode</title>
+    <link>http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/</link>
+    <pubDate>Mon, 29 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/</guid>
+    <description><![CDATA[Agenda en Emacs y OrgMode]]></description>
+</item>
+</channel>
+</rss>

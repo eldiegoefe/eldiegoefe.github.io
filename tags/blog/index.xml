@@ -1,0 +1,55 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>blog - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/blog/</link>
+        <description>blog - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 21 Oct 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/blog/" rel="self" type="application/rss+xml" /><item>
+    <title>Productividad negativa</title>
+    <link>http://www.certezasdudosas.com/2015-10-21-productividad-negativa/</link>
+    <pubDate>Wed, 21 Oct 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2015-10-21-productividad-negativa/</guid>
+    <description><![CDATA[Productividad negativa]]></description>
+</item>
+<item>
+    <title>Actualización de las instrucciones para armar un blog con Pelican y GitHub</title>
+    <link>http://www.certezasdudosas.com/2015-05-20-actualizacion-de-instrucciones-para-blog-con-pelican/</link>
+    <pubDate>Wed, 20 May 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2015-05-20-actualizacion-de-instrucciones-para-blog-con-pelican/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2015/pelican-color.png" referrerpolicy="no-referrer">
+            </div>Actualización de las instrucciones para armar un blog con Pelican y Github Personal Pages.]]></description>
+</item>
+<item>
+    <title>Más sobre blogs con Pelican</title>
+    <link>http://www.certezasdudosas.com/2015-04-10-mas-sobre-blogs-con-pelican/</link>
+    <pubDate>Fri, 10 Apr 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2015-04-10-mas-sobre-blogs-con-pelican/</guid>
+    <description><![CDATA[mas sobre blogs con pelican]]></description>
+</item>
+<item>
+    <title>Comandos de Emacs y Spacemacs para recordar</title>
+    <link>http://www.certezasdudosas.com/2014-07-31-comandos-de-emacs-y-spacemacs-para-recordar/</link>
+    <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-07-31-comandos-de-emacs-y-spacemacs-para-recordar/</guid>
+    <description><![CDATA[Comandos de Emacs y Spacemacs para recordar]]></description>
+</item>
+<item>
+    <title>Sincronizando con Git</title>
+    <link>http://www.certezasdudosas.com/2014-07-31-sincronizando-con-git/</link>
+    <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-07-31-sincronizando-con-git/</guid>
+    <description><![CDATA[Un detalle sobre la sincronización de ramas con Git]]></description>
+</item>
+<item>
+    <title>Blog con Pelican y GitHub</title>
+    <link>http://www.certezasdudosas.com/2014-04-22-setear-blog-con-pelican-y-github/</link>
+    <pubDate>Tue, 22 Apr 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-04-22-setear-blog-con-pelican-y-github/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2014/pelican.png" referrerpolicy="no-referrer">
+            </div>Instrucciones para setear y actualizar blog con Pelican y GitHub Personal Pages]]></description>
+</item>
+<item>
+    <title>Instrucciones para armar un blog geek</title>
+    <link>http://www.certezasdudosas.com/2014-02-09-instrucciones/</link>
+    <pubDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-02-09-instrucciones/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2014/blog.jpg" referrerpolicy="no-referrer">
+            </div>Zigzagueantes instrucciones para instalar un blog con Jekyll]]></description>
+</item>
+</channel>
+</rss>

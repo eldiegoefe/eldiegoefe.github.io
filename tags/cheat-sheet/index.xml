@@ -1,0 +1,27 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>cheat sheet - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/cheat-sheet/</link>
+        <description>cheat sheet - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 08 Oct 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/cheat-sheet/" rel="self" type="application/rss+xml" /><item>
+    <title>Más locura con Git</title>
+    <link>http://www.certezasdudosas.com/2014-10-08-mas-locura-con-git/</link>
+    <pubDate>Wed, 08 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-10-08-mas-locura-con-git/</guid>
+    <description><![CDATA[Más locura con Git]]></description>
+</item>
+<item>
+    <title>Comandos de Emacs y Spacemacs para recordar</title>
+    <link>http://www.certezasdudosas.com/2014-07-31-comandos-de-emacs-y-spacemacs-para-recordar/</link>
+    <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-07-31-comandos-de-emacs-y-spacemacs-para-recordar/</guid>
+    <description><![CDATA[Comandos de Emacs y Spacemacs para recordar]]></description>
+</item>
+<item>
+    <title>Usando control de versiones</title>
+    <link>http://www.certezasdudosas.com/2014-02-25-usando-control-de-versiones/</link>
+    <pubDate>Sun, 09 Feb 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-02-25-usando-control-de-versiones/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2014/control-de-versiones.png" referrerpolicy="no-referrer">
+            </div>Mi ingreso al club del control de versiones]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,13 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>common-lisp - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/common-lisp/</link>
+        <description>common-lisp - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 13 Aug 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/common-lisp/" rel="self" type="application/rss+xml" /><item>
+    <title>A punto para Lisp</title>
+    <link>http://www.certezasdudosas.com/2014-08-13-a-punto-para-lisp/</link>
+    <pubDate>Wed, 13 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-08-13-a-punto-para-lisp/</guid>
+    <description><![CDATA[A punto para Lisp]]></description>
+</item>
+</channel>
+</rss>

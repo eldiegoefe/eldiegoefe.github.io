@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>autoaprendizaje - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/autoaprendizaje/</link>
+        <description>autoaprendizaje - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Feb 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/autoaprendizaje/" rel="self" type="application/rss+xml" /><item>
+    <title>Hacedores</title>
+    <link>http://www.certezasdudosas.com/2017-02-01-hacedores/</link>
+    <pubDate>Wed, 01 Feb 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2017-02-01-hacedores/</guid>
+    <description><![CDATA[Gracias a la proliferación de tutoriales en diversos formatos, hace años empecé a ver gente practicando artes y oficios como la carpintería, la electrónica hobbista, la permacultura, la cerámica, la calistenia, la programación en lenguajes infrecuentes, la herrería, el jiujitsu (el arte suave) y un sinfín de diversidades así. Son cosas diferentes a disciplinas que anteriormente me habían resultado más afines, como la literatura fantástica, las fisicomatemáticas, el lenguaje BASIC y el ajedrez, todas cosas más relacionadas con la mente que con las manos y el cuerpo.]]></description>
+</item>
+<item>
+    <title>Autoaprendizajes</title>
+    <link>http://www.certezasdudosas.com/2014-10-05-autoaprendizajes/</link>
+    <pubDate>Fri, 10 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-10-05-autoaprendizajes/</guid>
+    <description><![CDATA[Aprendizajes autodidactas]]></description>
+</item>
+</channel>
+</rss>

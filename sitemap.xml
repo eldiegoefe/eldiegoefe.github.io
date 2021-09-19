@@ -1,846 +1,286 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<url>
-<loc>https://eldiegoefe.github.io/</loc>
-<lastmod>2021-02-20T15:15:17-00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/tags.html</loc>
-<lastmod>2021-02-20T15:15:17-00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/categories.html</loc>
-<lastmod>2021-02-20T15:15:17-00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/archives.html</loc>
-<lastmod>2021-02-20T15:15:17-00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/search.html</loc>
-<lastmod>2021-02-20T15:15:17-00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/404.html</loc>
-<lastmod>2021-02-20T15:15:17-00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/dead-humanity-walking.html</loc>
-<lastmod>2021-02-20T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/vinyasa-krama-yoga.html</loc>
-<lastmod>2021-02-09T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/el-aleman-sin-esfuerzo.html</loc>
-<lastmod>2021-02-03T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/estudiar-idiomas.html</loc>
-<lastmod>2021-01-31T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/getting-things-done.html</loc>
-<lastmod>2020-11-30T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/historia-del-evomoralito-y-el-golpismo-feroz.html</loc>
-<lastmod>2019-11-12T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/abandonemos-la-era-de-la-reproduccion-imperativa.html</loc>
-<lastmod>2019-10-01T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/acuarela.html</loc>
-<lastmod>2019-07-23T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/libros-y-consejos-de-lectura.html</loc>
-<lastmod>2019-06-02T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/el-lado-femenino-de-la-fuerza.html</loc>
-<lastmod>2019-03-09T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/divagaciones-de-un-yogui.html</loc>
-<lastmod>2019-02-25T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/alfonsina-y-el-mar.html</loc>
-<lastmod>2018-11-03T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/aborto-y-reglas-para-un-debate.html</loc>
-<lastmod>2018-07-28T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/la-unica-verdad-es-la-incertidumbre-ii.html</loc>
-<lastmod>2018-07-17T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/vieja-intervencion-sobre-el-aborto.html</loc>
-<lastmod>2018-07-15T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/instalacion-de-pyqt.html</loc>
-<lastmod>2018-04-19T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/enlaces-sobre-yoga.html</loc>
-<lastmod>2018-03-21T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/instalacion-y-configuracion-de-emacs.html</loc>
-<lastmod>2017-12-01T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/bienvenidos-a-scheme.html</loc>
-<lastmod>2017-11-28T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/casitas-y-minimalismo.html</loc>
-<lastmod>2017-10-18T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/la-unica-verdad-es-la-incertidumbre-i.html</loc>
-<lastmod>2017-10-01T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/de-vuelta-al-colegio-de-bjj.html</loc>
-<lastmod>2017-09-12T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/peso-de-los-directorios-en-linux.html</loc>
-<lastmod>2017-09-03T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/backup-con-rsync.html</loc>
-<lastmod>2017-06-21T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/ciencia-con-problemas-capitales.html</loc>
-<lastmod>2017-02-17T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/hacedores.html</loc>
-<lastmod>2017-02-01T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/la-inutilidad-de-la-ciencia.html</loc>
-<lastmod>2017-01-11T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/rutinas-para-evitar-el-gimnasio.html</loc>
-<lastmod>2017-01-06T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/sensores-fotoluminicos-del-2016-parte-01.html</loc>
-<lastmod>2017-01-04T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/youtube.html</loc>
-<lastmod>2016-11-26T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/freecad.html</loc>
-<lastmod>2016-11-25T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/carpinteria-a-pleno.html</loc>
-<lastmod>2016-11-24T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli.html</loc>
-<lastmod>2016-11-04T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/bibliografia-sobre-tejido-a-maquina.html</loc>
-<lastmod>2016-10-24T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/bienvenido-a-la-maquina.html</loc>
-<lastmod>2016-10-16T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/para-una-genealogia-de-las-maquinas-de-tejer.html</loc>
-<lastmod>2016-10-04T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/panel-frontal-del-software.html</loc>
-<lastmod>2016-09-01T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/mas-sobre-agenda-en-org-mode.html</loc>
-<lastmod>2016-01-07T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/getting-things-done-part-iii.html</loc>
-<lastmod>2020-11-24T18:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/getting-things-done-part-ii.html</loc>
-<lastmod>2020-11-23T18:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/getting-things-done-part-i.html</loc>
-<lastmod>2020-11-22T18:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/diccionario-de-funciones.html</loc>
-<lastmod>2015-12-11T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/la-unica-verdad-es-el-absurdo.html</loc>
-<lastmod>2015-10-31T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/productividad-negativa.html</loc>
-<lastmod>2015-10-21T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos.html</loc>
-<lastmod>2015-09-24T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/misterios-de-la-temporizacion.html</loc>
-<lastmod>2015-06-07T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/busquedas-con-isearch-en-emacs.html</loc>
-<lastmod>2015-05-27T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/actualizacion-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github.html</loc>
-<lastmod>2015-05-20T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/sugerencia-respecto-de-los-tutoriales-de-emacs.html</loc>
-<lastmod>2015-05-18T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/suggestion-about-emacs-tutorials.html</loc>
-<lastmod>2015-05-18T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/cuanto-debe-ganar-un-docente-un-medico-un-investigador.html</loc>
-<lastmod>2015-04-25T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/los-garabatos-de-cabrol.html</loc>
-<lastmod>2015-04-17T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/mas-sobre-blogs-con-pelican.html</loc>
-<lastmod>2015-04-10T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/molestos-clicks-del-mouse-digikam-tips.html</loc>
-<lastmod>2015-01-16T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/crear-colecciones-y-albumes-en-digikam.html</loc>
-<lastmod>2015-01-15T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/organizar-una-coleccion-de-fotos-digitales.html</loc>
-<lastmod>2015-01-13T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/la-muerte-visita-a-la-musica-en-la-web.html</loc>
-<lastmod>2015-01-11T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/se-dice-de-charlie-hebdo.html</loc>
-<lastmod>2015-01-10T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/trifulca-digital-tras-un-ataque-terrorista.html</loc>
-<lastmod>2015-01-09T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/una-noche-de-enero-con-el-relampago-verde.html</loc>
-<lastmod>2015-01-08T23:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/agenda-en-emacs-y-orgmode.html</loc>
-<lastmod>2016-01-06T00:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/comandante-emacs-dired-mode.html</loc>
-<lastmod>2014-12-26T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/corpore-sano.html</loc>
-<lastmod>2014-12-17T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/bloguearas-tu-bjj.html</loc>
-<lastmod>2014-12-14T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/brazilian-jiu-jitsu.html</loc>
-<lastmod>2014-12-08T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/artes-marciales.html</loc>
-<lastmod>2014-12-06T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/clojure-nuevo-entretenimiento.html</loc>
-<lastmod>2017-01-08T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/la-fotografia-en-la-era-de-lo-memorable.html</loc>
-<lastmod>2014-11-25T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/alumna-en-transito-al-tp-de-temperatura.html</loc>
-<lastmod>2014-11-18T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/charla-de-pasi-sahlberg-educacion-en-finlandia.html</loc>
-<lastmod>2014-11-17T14:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/trabajo-practico-de-ecg.html</loc>
-<lastmod>2014-11-17T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/pandoc-conversion-de-org-mode-a-restructuredtext.html</loc>
-<lastmod>2014-11-08T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/sorpresas-del-pasado.html</loc>
-<lastmod>2014-10-25T11:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/mageia-y-manjaro.html</loc>
-<lastmod>2014-10-22T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/listas-en-python.html</loc>
-<lastmod>2014-10-15T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4.html</loc>
-<lastmod>2014-10-10T11:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/autoaprendizajes.html</loc>
-<lastmod>2014-10-10T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3.html</loc>
-<lastmod>2014-10-09T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/escritorio-comodo-y-atajos-de-teclado.html</loc>
-<lastmod>2014-10-08T11:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/mas-locura-con-git.html</loc>
-<lastmod>2014-10-08T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2.html</loc>
-<lastmod>2014-10-08T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/emacs-y-restructuredtext.html</loc>
-<lastmod>2014-10-07T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1.html</loc>
-<lastmod>2014-10-06T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/de-jpg-a-pdf.html</loc>
-<lastmod>2014-09-24T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/grabacion-de-screencasts-para-tutoriales-de-youtube.html</loc>
-<lastmod>2014-09-23T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/instalando-ipython-en-mageia.html</loc>
-<lastmod>2014-08-22T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/keybindings-conflictivos-en-emacs.html</loc>
-<lastmod>2014-08-17T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/a-punto-para-lisp.html</loc>
-<lastmod>2014-08-13T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/primer-snippet.html</loc>
-<lastmod>2014-08-10T10:02:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/instalacion-de-linux.html</loc>
-<lastmod>2014-08-06T11:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/generar-pdf-en-espanol-desde-org-mode.html</loc>
-<lastmod>2014-08-06T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/compra-de-computadora-de-oficina.html</loc>
-<lastmod>2014-08-03T10:30:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/apuntes-sobre-matplotlib.html</loc>
-<lastmod>2014-08-03T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/por-que-los-palestinos-continuan-apoyando-a-hamas-a-pesar-de-sus-perdidas-devastadoras.html</loc>
-<lastmod>2014-08-01T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar.html</loc>
-<lastmod>2014-07-31T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/comunicacion-usb-con-mbed.html</loc>
-<lastmod>2014-07-31T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/sincronizando-con-git.html</loc>
-<lastmod>2014-07-31T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/israel-tiene-alternativas-a-esta-guerra-por-noam-sheizaf.html</loc>
-<lastmod>2014-07-25T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/acerca-de-la-guerra-en-gaza-33.html</loc>
-<lastmod>2014-07-21T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/acerca-de-la-guerra-en-gaza-23.html</loc>
-<lastmod>2014-07-20T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/acerca-de-la-guerra-en-gaza-13.html</loc>
-<lastmod>2014-07-19T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/fitness-freeletics-calistenia-y-afines.html</loc>
-<lastmod>2014-05-19T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/grupos-de-afinidad.html</loc>
-<lastmod>2014-04-30T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/blog-con-pelican-y-github.html</loc>
-<lastmod>2014-04-22T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/modos-de-arruinar-la-educacion-superior-parte-ii.html</loc>
-<lastmod>2014-04-16T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/modos-de-arruinar-la-educacion-superior-parte-i.html</loc>
-<lastmod>2014-04-15T10:00:00+02:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/cuando-uno-quiere-a-y-termina-haciendo-b.html</loc>
-<lastmod>2014-02-11T10:30:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/descubriendo-gnome.html</loc>
-<lastmod>2014-02-09T11:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/donde-estan-los-programas-en-linux.html</loc>
-<lastmod>2014-02-09T10:30:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/instrucciones-para-armar-un-blog-geek.html</loc>
-<lastmod>2014-02-09T10:30:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/aprender-a-lo-hansel-y-gretel.html</loc>
-<lastmod>2014-02-09T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/usando-control-de-versiones.html</loc>
-<lastmod>2014-02-09T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/exceso-de-opciones.html</loc>
-<lastmod>2014-02-07T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://eldiegoefe.github.io/inicio.html</loc>
-<lastmod>2010-01-01T10:00:00+01:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-</urlset>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>http://www.certezasdudosas.com/categories/blog/</loc><lastmod>2021-07-25T17:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/categories/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.certezasdudosas.com/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2021-02-20-dead-humanity-walking/</loc><lastmod>2021-02-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/posts/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2021-02-19-yoga-de-pie-savasana/</loc><lastmod>2021-02-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/salud/</loc><lastmod>2021-02-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/categories/salud/</loc><lastmod>2021-02-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/yoga/</loc><lastmod>2021-02-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2021-02-18-yoga-de-pie-entre-dos/</loc><lastmod>2021-02-18T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2021-02-17-yoga-de-pie-pasasana/</loc><lastmod>2021-02-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2021-02-16-yoga-de-pie-kurmasana/</loc><lastmod>2021-02-16T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2021-02-15-yoga-de-pie-utkatasana/</loc><lastmod>2021-02-15T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2021-02-14-yoga-de-pie-flexiones-hacia-adelante/</loc><lastmod>2021-02-14T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2021-02-13-yoga-de-pie-poses-laterales/</loc><lastmod>2021-02-13T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2021-02-12-yoga-de-pie-movimiento-de-los-brazos/</loc><lastmod>2021-02-12T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2021-02-11-krama-vinyasa-yoga-intro/</loc><lastmod>2021-02-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2021-02-09-vinyasa-krama-indice/</loc><lastmod>2021-02-09T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/aleman/</loc><lastmod>2021-02-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2021-02-03-assimil/</loc><lastmod>2021-02-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/idiomas/</loc><lastmod>2021-02-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2020-11-30-gtd/</loc><lastmod>2020-11-30T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/gtd/</loc><lastmod>2020-11-30T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/productividad/</loc><lastmod>2020-11-30T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/bolivia/</loc><lastmod>2019-11-12T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/golpe/</loc><lastmod>2019-11-12T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2019-11-12-historia-del-evomoralito/</loc><lastmod>2019-11-12T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/categories/politica/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2019-10-01-abandonemos-la-era/</loc><lastmod>2019-10-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/filosofia/</loc><lastmod>2019-10-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/hijos-no/</loc><lastmod>2019-10-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2019-07-23-acuarelas/</loc><lastmod>2019-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/acuarela/</loc><lastmod>2019-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/arte/</loc><lastmod>2019-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/dibujo/</loc><lastmod>2019-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/hobbies/</loc><lastmod>2019-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2019-06-02-antiguas-lecturas/</loc><lastmod>2019-06-02T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/literatura/</loc><lastmod>2019-06-02T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/tecnicas/</loc><lastmod>2019-06-02T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2019-03-09-el-lado-femenino-de-la-fuerza/</loc><lastmod>2019-03-09T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/entrenamiento/</loc><lastmod>2019-03-09T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/feminismo/</loc><lastmod>2019-03-09T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/fitness/</loc><lastmod>2019-03-09T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/deportes/</loc><lastmod>2019-02-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2019-02-25-divagaciones-de-un-yogui-01/</loc><lastmod>2019-02-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/espiritualidad/</loc><lastmod>2019-02-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/filosof%C3%ADa/</loc><lastmod>2019-02-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2018-11-03-alfonsina-y-el-mar/</loc><lastmod>2018-11-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/canciones/</loc><lastmod>2018-11-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/musica/</loc><lastmod>2018-11-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/aborto/</loc><lastmod>2018-07-28T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2018-07-28-debate-aborto/</loc><lastmod>2018-07-28T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/ciencia/</loc><lastmod>2018-07-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/educacion/</loc><lastmod>2018-07-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2018-07-17-la-unica-verdad-es-la-incertidumbre-02/</loc><lastmod>2018-07-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/tecnologia/</loc><lastmod>2018-07-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2018-07-15-viejo-mail-sobre-aborto/</loc><lastmod>2018-07-15T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2018-04-19-instalacion-de-pyqt/</loc><lastmod>2018-04-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/pyqt/</loc><lastmod>2018-04-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/pyqtgraph/</loc><lastmod>2018-04-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/python/</loc><lastmod>2018-04-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/qt/</loc><lastmod>2018-04-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/sip/</loc><lastmod>2018-04-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/software/</loc><lastmod>2018-04-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/categories/tecnicismos/</loc><lastmod>2021-07-25T17:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2018-03-21-yoga-enlaces/</loc><lastmod>2018-03-21T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/emacs/</loc><lastmod>2017-12-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2017-12-01-instalacion-y-configuracion-de-emacs/</loc><lastmod>2017-12-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2017-11-28-scheme/</loc><lastmod>2017-11-28T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/clojure/</loc><lastmod>2017-11-28T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/lisp/</loc><lastmod>2017-11-28T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/programacion/</loc><lastmod>2017-11-28T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/scheme/</loc><lastmod>2017-11-28T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/autonomia/</loc><lastmod>2017-10-18T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2017-10-18-casitas/</loc><lastmod>2017-10-18T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/minimalismo/</loc><lastmod>2017-10-18T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/tiny-houses/</loc><lastmod>2017-10-18T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2017-09-29-la-unica-verdad-es-la-incertidumbre-01/</loc><lastmod>2017-10-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/bjj/</loc><lastmod>2017-09-12T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2017-09-12-volviendo-al-bjj/</loc><lastmod>2017-09-12T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/linux/</loc><lastmod>2017-09-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2017-09-03-tamanio-de-directorios/</loc><lastmod>2017-09-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/backup/</loc><lastmod>2017-06-21T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2017-06-21-backup-con-rsync/</loc><lastmod>2017-06-21T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/rsync/</loc><lastmod>2017-06-21T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2017-02-21-ciencia-con-problemas-capitales/</loc><lastmod>2017-02-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/politica/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/autoaprendizaje/</loc><lastmod>2017-02-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2017-02-01-hacedores/</loc><lastmod>2017-02-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/links/</loc><lastmod>2017-02-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/reflexiones/</loc><lastmod>2017-02-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2017-01-11-la-inutilidad-de-la-ciencia/</loc><lastmod>2017-01-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/opinion/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/trabajadores/</loc><lastmod>2017-01-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/calistenia/</loc><lastmod>2017-01-06T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2017-01-06-rutinas-para-evitar-el-gimnasio/</loc><lastmod>2017-01-06T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/fotografia/</loc><lastmod>2017-01-04T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/fotos/</loc><lastmod>2017-01-04T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2017-01-04-sensores-fotoluminicos-del-2016-parte-01/</loc><lastmod>2017-01-04T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/recomendaciones/</loc><lastmod>2016-11-26T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/videos/</loc><lastmod>2016-11-26T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-11-26-youtube/</loc><lastmod>2016-11-26T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/youtube/</loc><lastmod>2016-11-26T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-11-24-freecad/</loc><lastmod>2016-11-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/freecad/</loc><lastmod>2016-11-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/carpinteria/</loc><lastmod>2016-11-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-11-24-carpinteria-a-pleno/</loc><lastmod>2016-11-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/madera/</loc><lastmod>2016-11-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-11-17-apuntes-sobre-la-ciencia-y-las-papas-fritas/</loc><lastmod>2016-11-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/epistemologia/</loc><lastmod>2016-11-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/flask/</loc><lastmod>2016-11-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-11-17-probando-flask/</loc><lastmod>2016-11-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/git/</loc><lastmod>2016-11-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/magit/</loc><lastmod>2016-11-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/virtual-envs/</loc><lastmod>2016-11-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/c&#43;&#43;/</loc><lastmod>2016-11-04T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/electronica/</loc><lastmod>2016-11-04T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/mbed/</loc><lastmod>2016-11-04T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/tutorial/</loc><lastmod>2021-07-25T17:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-11-04-mbed-cli/</loc><lastmod>2016-11-04T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-10-24-enlaces-maquinas-tejer/</loc><lastmod>2016-10-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/machine-knitting/</loc><lastmod>2016-10-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/maquinas-de-tejer/</loc><lastmod>2016-10-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/tejido/</loc><lastmod>2016-10-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-10-16-welcome-to-the-machine/</loc><lastmod>2016-10-16T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/lady-tricot/</loc><lastmod>2016-10-16T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-10-04-genealogia-maquinas-tejer/</loc><lastmod>2016-10-04T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-09-30-panel-frontal-del-software/</loc><lastmod>2016-09-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/agenda/</loc><lastmod>2016-01-07T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-01-06-mas-sobre-agenda-en-org-mode/</loc><lastmod>2016-01-07T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/org-mode/</loc><lastmod>2016-01-07T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-01-01-gtd-part3/</loc><lastmod>2016-01-01T12:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-01-01-gtd-part2/</loc><lastmod>2016-01-01T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-01-01-gtd-part1/</loc><lastmod>2016-01-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-12-11-diccionario-de-funciones/</loc><lastmod>2015-12-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/diccionarios/</loc><lastmod>2015-12-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/funciones/</loc><lastmod>2015-12-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/democracia/</loc><lastmod>2015-10-31T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-10-31-ballotage/</loc><lastmod>2015-10-31T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/blog/</loc><lastmod>2021-07-25T17:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-10-21-productividad-negativa/</loc><lastmod>2015-10-21T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/keybindings/</loc><lastmod>2015-09-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-09-24-python-en-emacs/</loc><lastmod>2015-09-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/spacemacs/</loc><lastmod>2015-09-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-06-07-misterios-de-la-temporizacion/</loc><lastmod>2015-06-07T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/tiempo/</loc><lastmod>2015-06-07T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/busquedas/</loc><lastmod>2015-05-27T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-05-27-busquedas-en-emacs/</loc><lastmod>2015-05-27T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/isearch/</loc><lastmod>2015-05-27T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-05-20-actualizacion-de-instrucciones-para-blog-con-pelican/</loc><lastmod>2015-05-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/pelican/</loc><lastmod>2015-05-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-05-18-sugerencia-respecto-de-los-tutoriales-de-emacs/</loc><lastmod>2015-05-18T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-05-18-suggestion-about-emacs-tutorials/</loc><lastmod>2015-05-18T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/salarios/</loc><lastmod>2015-04-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/universidad/</loc><lastmod>2015-04-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-04-25-salarios/</loc><lastmod>2015-04-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/comic/</loc><lastmod>2015-04-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/genios/</loc><lastmod>2015-04-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/historieta/</loc><lastmod>2015-04-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-04-17-cabrol/</loc><lastmod>2015-04-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-04-10-mas-sobre-blogs-con-pelican/</loc><lastmod>2015-04-10T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/digikam/</loc><lastmod>2015-01-16T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-01-16-clicks-del-mouse-digikam-tips/</loc><lastmod>2015-01-16T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/tips/</loc><lastmod>2015-01-16T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-01-16-crear-colecciones-y-albumes-en-digikam/</loc><lastmod>2015-01-15T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/darktable/</loc><lastmod>2015-01-13T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-01-13-como-organizar-una-coleccion-de-fotos-digitales/</loc><lastmod>2015-01-13T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/internet/</loc><lastmod>2015-01-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-01-11-la-muerte-en-la-web/</loc><lastmod>2015-01-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-01-10-se-dice-de-charlie-hebdo/</loc><lastmod>2015-01-10T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/guerra/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/humor/</loc><lastmod>2015-01-09T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/islam/</loc><lastmod>2015-01-09T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/israel/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/judios/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-01-09-trifulca-tras-un-ataque-terrorista/</loc><lastmod>2015-01-09T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/cine/</loc><lastmod>2015-01-08T23:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/cronica/</loc><lastmod>2015-01-08T23:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2015-01-08-noche-con-el-relampago-verde/</loc><lastmod>2015-01-08T23:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/</loc><lastmod>2016-01-06T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-12-26-comandante-emacs/</loc><lastmod>2014-12-26T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/dired/</loc><lastmod>2014-12-26T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-12-17-corpore-sano/</loc><lastmod>2014-12-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/artes-marciales/</loc><lastmod>2014-12-14T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-12-14-bloguear-bjj/</loc><lastmod>2014-12-14T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-12-08-brazilian-jiu-jitsu/</loc><lastmod>2014-12-08T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-12-06-artes-marciales/</loc><lastmod>2014-12-06T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/pakua/</loc><lastmod>2014-12-06T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/taichi/</loc><lastmod>2014-12-06T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-11-27-clojure/</loc><lastmod>2014-11-27T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-11-25-la-fotografia-en-la-era-de-lo-memorable/</loc><lastmod>2014-11-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-11-18-alumna-en-transito/</loc><lastmod>2014-11-18T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/facultad/</loc><lastmod>2014-11-18T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-11-17-charla-pasi-sahlberg/</loc><lastmod>2014-11-17T14:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/alumnos/</loc><lastmod>2014-11-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-11-17-tp-ecg/</loc><lastmod>2014-11-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/manjaro/</loc><lastmod>2014-11-08T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/pandoc/</loc><lastmod>2014-11-08T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-11-08.pandoc/</loc><lastmod>2014-11-08T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/restructuredtext/</loc><lastmod>2014-11-08T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/recuerdos/</loc><lastmod>2014-10-25T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-10-25-sorpresas-del-pasado/</loc><lastmod>2014-10-25T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-10-23-diccionarios-en-python/</loc><lastmod>2014-10-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/mageia/</loc><lastmod>2014-10-22T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-10-22-mageia-y-manjaro/</loc><lastmod>2014-10-22T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/particiones/</loc><lastmod>2014-10-22T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/terminal/</loc><lastmod>2014-10-22T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/listas/</loc><lastmod>2014-10-15T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-10-15-listas-en-python/</loc><lastmod>2014-10-15T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/control-de-versiones/</loc><lastmod>2014-10-10T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-10-10-control-de-versiones-4/</loc><lastmod>2014-10-10T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-10-05-autoaprendizajes/</loc><lastmod>2014-10-10T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-10-09-control-de-versiones-3/</loc><lastmod>2014-10-09T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/edicion/</loc><lastmod>2014-10-08T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-10-08-trabajando-comodamente/</loc><lastmod>2014-10-08T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/kde/</loc><lastmod>2014-10-08T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/workflow/</loc><lastmod>2014-10-08T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/cheat-sheet/</loc><lastmod>2014-10-08T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-10-08-mas-locura-con-git/</loc><lastmod>2014-10-08T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-10-07-control-de-versiones-2/</loc><lastmod>2014-10-08T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-10-07-emacs-y-restructuredtext/</loc><lastmod>2014-10-07T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-10-06-control-de-versiones-1/</loc><lastmod>2014-10-06T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-09-24-de-jpg-a-pdf/</loc><lastmod>2014-09-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/imagenes/</loc><lastmod>2014-09-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/pdf/</loc><lastmod>2014-09-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-09-23-grabacion-de-screencasts/</loc><lastmod>2014-09-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/video/</loc><lastmod>2014-09-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/instalacion/</loc><lastmod>2015-02-11T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-08-22-instalacion-de-ipython-en-mageia/</loc><lastmod>2014-08-22T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/ipython/</loc><lastmod>2014-08-22T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/pip/</loc><lastmod>2014-08-22T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/root/</loc><lastmod>2014-08-22T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-08-17-keybindings-conflictivos/</loc><lastmod>2014-08-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-08-13-a-punto-para-lisp/</loc><lastmod>2014-08-13T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/common-lisp/</loc><lastmod>2014-08-13T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-08-10-primer-snippet/</loc><lastmod>2014-08-10T10:02:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/yasnippets/</loc><lastmod>2014-08-10T10:02:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-08-06-instalacion-de-linux/</loc><lastmod>2014-08-06T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/mint/</loc><lastmod>2014-08-06T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-08-06-latex-en-org/</loc><lastmod>2014-08-06T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-08-03-compra-computadora-oficina/</loc><lastmod>2014-08-03T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/compras/</loc><lastmod>2014-08-03T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/computadoras/</loc><lastmod>2014-08-03T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-08-03-apuntes-matplotlib/</loc><lastmod>2014-08-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/graficacion/</loc><lastmod>2014-08-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/matplotlib/</loc><lastmod>2014-08-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/palestina/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-08-01-por-que-los-palestinos-continuan-apoyando-a-hamas/</loc><lastmod>2014-08-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-07-31-comandos-de-emacs-y-spacemacs-para-recordar/</loc><lastmod>2014-07-31T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-07-31-comunicacion-usb-con-mbed/</loc><lastmod>2014-07-31T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-07-31-sincronizando-con-git/</loc><lastmod>2014-07-31T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/usb/</loc><lastmod>2014-07-31T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-07-22-israel-tiene-alternativas/</loc><lastmod>2014-07-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-07-21-gaza-parte3/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-07-20-gaza-parte2/</loc><lastmod>2021-09-17T10:15:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-07-19-gaza-parte1/</loc><lastmod>2021-09-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-05-19-fitness/</loc><lastmod>2014-05-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/relatos/</loc><lastmod>2021-07-26T01:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/anarquismo/</loc><lastmod>2021-07-26T01:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-04-30-grupos-de-afinidad/</loc><lastmod>2021-07-26T01:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-04-22-setear-blog-con-pelican-y-github/</loc><lastmod>2014-04-22T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-04-16-reflexiones-muy-profundas-parte2/</loc><lastmod>2014-04-16T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-04-15-reflexiones-muy-profundas/</loc><lastmod>2014-04-15T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/boot/</loc><lastmod>2015-02-11T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-02-08-cuando-uno-quiere-a/</loc><lastmod>2015-02-11T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/grub/</loc><lastmod>2015-02-11T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/windows/</loc><lastmod>2015-02-11T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-02-11-descubriendo-gnome/</loc><lastmod>2014-02-09T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/fedora/</loc><lastmod>2014-02-09T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/gnome/</loc><lastmod>2014-02-09T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-02-09-donde-estan-los-programas-en-linux/</loc><lastmod>2014-02-09T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-02-09-instrucciones/</loc><lastmod>2021-07-25T17:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/jekyll/</loc><lastmod>2021-07-25T17:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/octopress/</loc><lastmod>2021-07-25T17:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-02-10-aprender-a-lo-hansel-y-gretel/</loc><lastmod>2014-02-09T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-02-25-usando-control-de-versiones/</loc><lastmod>2014-02-09T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2014-02-07-exceso-de-opciones/</loc><lastmod>2021-07-25T17:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2016-12-25-mi-pagina-de-inicio/</loc><lastmod>2010-01-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/2018-10-20-enlaces-sobre-musica/</loc><lastmod>2001-01-02T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/miniaturas/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/offline/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Agenda en Emacs y OrgMode - Certezas Dudosas</title><meta name="description" content="Mi blog en Hugo"><meta property="og:title" content="Agenda en Emacs y OrgMode" />
+<meta property="og:description" content="Agenda en Emacs y OrgMode" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/" /><meta property="og:image" content="http://www.certezasdudosas.com/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2014-12-29T10:00:00+00:00" />
+<meta property="article:modified_time" content="2016-01-06T10:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://www.certezasdudosas.com/logo.png"/>
+
+<meta name="twitter:title" content="Agenda en Emacs y OrgMode"/>
+<meta name="twitter:description" content="Agenda en Emacs y OrgMode"/>
+<meta name="application-name" content="FeelIt">
+<meta name="apple-mobile-web-app-title" content="FeelIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/" /><link rel="prev" href="http://www.certezasdudosas.com/2014-12-26-comandante-emacs/" /><link rel="next" href="http://www.certezasdudosas.com/2015-01-08-noche-con-el-relampago-verde/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Agenda en Emacs y OrgMode",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/www.certezasdudosas.com\/2014-12-29-agenda-en-emacs-y-org-mode\/"
+        },"genre": "posts","keywords": "emacs, org-mode, agenda, gtd","wordcount":  1115 ,
+        "url": "http:\/\/www.certezasdudosas.com\/2014-12-29-agenda-en-emacs-y-org-mode\/","datePublished": "2014-12-29T10:00:00+00:00","dateModified": "2016-01-06T10:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Diego Efe"
+            },"description": ""
+    }
+    </script></head><body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Certezas Dudosas">Certezas Dudosas</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a class="menu-item" href="/index.xml" title="RSS"><i class="fas fa-rss fa-fw" title="RSS"></i> </a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Certezas Dudosas">Certezas Dudosas</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="#" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><div class="menu-item"><a href="/index.xml" title="RSS"><i class="fas fa-rss fa-fw" title="RSS"></i> </a>
+                <span>&nbsp;|&nbsp;</span><a href="javascript:void(0);" class="theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div></div>
+    </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contenido</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single" data-toc="enable"><div class="single-card" ><h2 class="single-title animated flipInX">Agenda en Emacs y OrgMode</h2><div class="post-meta">
+                <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Diego Efe</a></span>&nbsp;<span class="post-category">publicado en <a href="/categories/tecnicismos/"><i class="far fa-folder fa-fw"></i>tecnicismos</a></span></div>
+                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2014-12-29">2014-12-29</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1115 palabras</span>&nbsp;
+                    <span><i class="far fa-clock fa-fw"></i>&nbsp;6 minutos</span>&nbsp;</div>
+            </div>
+            
+            <hr><div class="details toc" id="toc-static"  data-kept="true">
+                    <div class="details-summary toc-title">
+                        <span>Contenido</span>
+                        <span><i class="details-icon fas fa-angle-right"></i></span>
+                    </div>
+                    <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#configuracion">Configuracion</a>
+      <ul>
+        <li><a href="#vista-1">Vista 1</a></li>
+        <li><a href="#vista-2">Vista 2</a></li>
+        <li><a href="#vista-3">Vista 3</a></li>
+        <li><a href="#vista-4">Vista 4</a></li>
+        <li><a href="#vista-5">Vista 5</a></li>
+        <li><a href="#vista-6">Vista 6</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+                </div><div class="content" id="content"><h2 id="configuracion">Configuracion</h2>
+<p>En el archivo de configuracion de Emacs hay que incluir varios elementos
+para poder usar la agenda adecuadamente.</p>
+<p>Se pueden seleccionar individualmente los archivos que forman parte de
+la agenda:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-files</span> <span class="p">(</span><span class="nc">list</span> <span class="s">&#34;~/mis-archivos-org/apuntes-varios.org&#34;</span>
+                             <span class="s">&#34;~/mis-archivos-org/acomodar.org&#34;</span><span class="p">))</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>O sino utilizar un directorio completo:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-files</span> <span class="o">&#39;</span><span class="p">(</span><span class="s">&#34;~/mis-archivos-org&#34;</span><span class="p">))</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Se puede utilizar un archivo en particular para ir anotando al vuelo las
+ideas que se nos ocurren. Este archivo lo podremos abrir con
+<em>org-capture</em> (C-c c). Esto nos permite volcar lo que tenemos en la
+cabeza y dejar para después su clasificación, de manera de no perder la
+idea e interrumpir nuestro flujo de trabajo lo menos posible. La nota se
+cierra con C-c C-c y se vuelve al mismo buffer donde estabamos al
+iniciar la captura.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-default-notes-file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Para abrir el inbox.org desde cualquier buffer se puede asignar un
+atajo:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="c1">;; asigna &#34;C-c o&#34; para abrir mi inbox.org sin tener que buscarlo</span>
+<span class="p">(</span><span class="nv">global-set-key</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;C-c o&#34;</span><span class="p">)</span>
+                <span class="p">(</span><span class="nb">lambda</span> <span class="p">()</span> <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span> <span class="p">(</span><span class="nv">find-file</span> <span class="s">&#34;~/org/inbox.org&#34;</span><span class="p">)))</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Estos son otros comandos de configuración de org-mode que tengo
+seteados. Salvo el primero, el resto puede entenderse por inspección:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-include-diary</span> <span class="no">t</span><span class="p">)</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-deadline-warning-days</span> <span class="mi">7</span><span class="p">)</span>
+
+<span class="c1">;; Palabras clave para los TODO</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-todo-keywords</span>
+      <span class="o">&#39;</span><span class="p">((</span><span class="nc">sequence</span> <span class="s">&#34;TODO(t)&#34;</span> <span class="s">&#34;NEXT(n)&#34;</span> <span class="s">&#34;ESPERANDO(w@)&#34;</span> <span class="s">&#34;HIBERNANDO(h@)&#34;</span>
+                  <span class="s">&#34;|&#34;</span> <span class="s">&#34;CANCELADO(c@)&#34;</span> <span class="s">&#34;COMPLETADO(f@)&#34;</span><span class="p">)))</span>
+
+<span class="c1">;; Colores de los TODO</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-todo-keyword-faces</span>
+      <span class="o">&#39;</span><span class="p">((</span><span class="s">&#34;TODO&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;deep sky blue&#34;</span> <span class="ss">:background</span> <span class="s">&#34;dim gray&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
+        <span class="p">(</span><span class="s">&#34;NEXT&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;tomato&#34;</span> <span class="ss">:background</span> <span class="s">&#34;dim gray&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
+        <span class="c1">;; (&#34;ACCIONFUTURA&#34; . &#34;salmon&#34;)</span>
+        <span class="c1">;; (&#34;AVANCEPARCIAL&#34; . &#34;medium spring green&#34;)</span>
+        <span class="p">(</span><span class="s">&#34;ESPERANDO&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;orange&#34;</span> <span class="ss">:background</span> <span class="s">&#34;dim gray&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
+        <span class="p">(</span><span class="s">&#34;HIBERNANDO&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;salmon&#34;</span> <span class="ss">:background</span> <span class="s">&#34;dim gray&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
+        <span class="p">(</span><span class="s">&#34;CANCELADO&#34;</span> <span class="o">.</span> <span class="s">&#34;yellow&#34;</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&#34;COMPLETADO&#34;</span> <span class="o">.</span> <span class="s">&#34;green&#34;</span><span class="p">)))</span>
+
+ <span class="c1">;; Tags</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-tag-persistent-alist</span>
+      <span class="o">&#39;</span><span class="p">((</span><span class="s">&#34;@casa&#34;</span> <span class="o">.</span> <span class="nv">?1</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&#34;@laburo&#34;</span> <span class="o">.</span> <span class="nv">?2</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&#34;tiempolibre&#34;</span> <span class="o">.</span> <span class="nv">?3</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&#34;compras&#34;</span> <span class="o">.</span> <span class="nv">?6</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&#34;nota&#34;</span> <span class="o">.</span> <span class="nv">?7</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&#34;creat&#34;</span> <span class="o">.</span> <span class="nv">?8</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&#34;prj&#34;</span> <span class="o">.</span> <span class="nv">?9</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&#34;someday&#34;</span> <span class="o">.</span> <span class="nv">?0</span><span class="p">)))</span>
+
+<span class="c1">;; Colores de los tags</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-tag-faces</span>
+      <span class="o">&#39;</span><span class="p">((</span><span class="s">&#34;@casa&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;firebrick&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span> <span class="ss">:inherit</span> <span class="nv">s-variable-pitch</span><span class="p">))</span>
+        <span class="p">(</span><span class="s">&#34;@laburo&#34;</span> <span class="o">.</span> <span class="s">&#34;light sea green&#34;</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&#34;tiempolibre&#34;</span> <span class="o">.</span> <span class="s">&#34;deep sky blue&#34;</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&#34;compras&#34;</span> <span class="o">.</span> <span class="s">&#34;spring green&#34;</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&#34;oblig&#34;</span> <span class="o">.</span> <span class="s">&#34;light coral&#34;</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&#34;creat&#34;</span> <span class="o">.</span> <span class="s">&#34;olive drab&#34;</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&#34;prj&#34;</span> <span class="o">.</span> <span class="s">&#34;cornflower blue&#34;</span><span class="p">)</span>
+        <span class="p">(</span><span class="s">&#34;someday&#34;</span> <span class="o">.</span> <span class="s">&#34;orchid&#34;</span><span class="p">)))</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Estas son las plantillas correspondientes a los distintos tipos de notas
+configuradas para guardarse en archivos como inbox.org, diario-personal,
+etc. Cada nota puede tener una estructura particular, en algunos casos
+importa colocar una fecha, una etiqueta, un deadline, etc:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="c1">;; Capture templates for: TODO tasks, Notes, appointments, phone calls,</span>
+<span class="c1">;; meetings, and org-protocol</span>
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-capture-templates</span>
+      <span class="p">(</span><span class="k">quote</span> <span class="p">((</span><span class="s">&#34;a&#34;</span> <span class="s">&#34;tarea&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+               <span class="s">&#34;* TODO %^{Brief Description} %^g\n\n%?\n\nAgregado: %T&#34;</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&#34;t&#34;</span> <span class="s">&#34;todo&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+               <span class="s">&#34;* TODO %?\n%U\n%a\n&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&#34;n&#34;</span> <span class="s">&#34;nota&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+               <span class="s">&#34;* %? :NOTE:\nAgregado: %T\n\n&#34;</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&#34;j&#34;</span> <span class="s">&#34;journal&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file+datetree</span> <span class="s">&#34;~/mis-archivos-org/diario-personal.org&#34;</span><span class="p">)</span>
+               <span class="s">&#34;* %?\n%T\n&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&#34;l&#34;</span> <span class="s">&#34;laboratorio&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file+datetree</span> <span class="s">&#34;~/mis-archivos-org/laboratorio-diario.org&#34;</span><span class="p">)</span>
+               <span class="s">&#34;* %?\n%t\n&#34;</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&#34;e&#34;</span> <span class="s">&#34;ejercicios&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file+datetree</span> <span class="s">&#34;~/mis-archivos-org/cosas-saludables.org&#34;</span><span class="p">)</span>
+               <span class="s">&#34;* %?\n%T\n&#34;</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&#34;r&#34;</span> <span class="s">&#34;respond&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+               <span class="s">&#34;* NEXT Respond to %:from on %:subject\nSCHEDULED: %t\n%U\n%a\n&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span> <span class="ss">:immediate-finish</span> <span class="no">t</span><span class="p">)</span>
+              <span class="c1">;; b: modificado de http://members.optusnet.com.au/~charles57/GTD/gtd_workflow.html</span>
+              <span class="p">(</span><span class="s">&#34;w&#34;</span> <span class="s">&#34;org-protocol&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+               <span class="s">&#34;* TODO Review %c\n%U\n&#34;</span> <span class="ss">:immediate-finish</span> <span class="no">t</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&#34;m&#34;</span> <span class="s">&#34;Meeting&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+               <span class="s">&#34;* MEETING with %? :MEETING:\n%U&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&#34;p&#34;</span> <span class="s">&#34;Phone call&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+               <span class="s">&#34;* PHONE %? :PHONE:\n%U&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
+              <span class="p">(</span><span class="s">&#34;h&#34;</span> <span class="s">&#34;Habit&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Finalmente, para acceder a la agenda hay que invocar el comando
+<em>org-agenda</em> o configurar una combinación de teclas para su ejecución,
+habitualmente se usa C-c a:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="p">(</span><span class="nv">global-set-key</span> <span class="s">&#34;\C-ca&#34;</span> <span class="ss">&#39;org-agenda</span><span class="p">)</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Allí aparece un menú con las distintas opciones de visualización. A
+continuación se describen las opciones (es un resumen de la sección
+<a href="http://orgmode.org/manual/Built_002din-agenda-views.html#Built_002din-agenda-views" target="_blank" rel="noopener noreffer">Built in agenda
+views</a>.</p>
+<h3 id="vista-1">Vista 1</h3>
+<p>org-agenda-list (C-c a a): muestra la vista de agenda para el número de
+días fijado por la variable org-agenda-span (que puede contener un
+número o uno de los valores siguientes: day, week, month, year). Por
+defecto esta variable está elegida en &quot;week&quot; (mostrará una semana). Si
+se invoca el comando con un prefijo numérico se incluyen esa cantidad de
+días. Por ejemplo con C-u 3 0 C-c a a se mostrará una agenda para los
+siguientes 30 días. Para agendas semanales, se empieza por defecto en el
+lunes previo.</p>
+<h3 id="vista-2">Vista 2</h3>
+<p>org-todo-list (C-c a t): es la lista global de &quot;TODO&quot;s, muestra en un
+solo lugar todos los items marcados como pendientes (TODO).</p>
+<p>org-todo-list (C-c a T): es una variación que pregunta por una keyword y
+lista entonces todos los items marcados con esa keyword (por ejemplo:
+CANCELADO o COMPLETADO, etc). Se pueden incluir varias keywords usando
+el caracter &quot;|&quot; (que es un OR).</p>
+<p>Para acortar la lista de TODOs hay dos modos:</p>
+<ol>
+<li>sacar de la lista aquellos TODOs que estén marcados como schedule y
+deadline, para lo cual hay que configurar las variables
+org-agenda-todo-ignore-scheduled, org-agenda-todo-ignore-deadlines,
+org-agenda-todo-ignore-timestamp y/o
+org-agenda-todo-ignore-with-date.</li>
+<li>los items TODO pueden tener subniveles con las distintas subtareas.
+En estos casos puede ser suficiente listar sólo los niveles de mayor
+importancia y omitir los subniveles. Para ello hay que configurar
+las variable org-agenda-todo-list-sublevels.</li>
+</ol>
+<h3 id="vista-3">Vista 3</h3>
+<p>org-tags-view (C-c a m): muestra una lista de acuerdo a etiquetas (tags)
+o propiedades, que se seleccionan de una lista.</p>
+<p>org-tags-view (C-c a M): es parecido, pero además requiere que la
+etiqueta sea un TODO (y que este TODO no haya sido COMPLETADO).</p>
+<p>Hay muchos detalles sobre la construcción de criterios de búsqueda más
+complejos en <a href="http://orgmode.org/manual/Matching-tags-and-properties.html#Matching-tags-and-properties" target="_blank" rel="noopener noreffer">este link del
+manual</a>.</p>
+<h3 id="vista-4">Vista 4</h3>
+<p>org-timeline (C-c a L): resume todos los items marcados con fecha,
+principalmente usado para dar un panorama de los eventos de un proyecto.</p>
+<p>Si se usa un prefijo (C-u) se muestran todos los TODOs sin completar que
+también estén listados debajo del mismo día.</p>
+<h3 id="vista-5">Vista 5</h3>
+<p>org-search-view (C-c a s): es una herramienta para búsqueda de texto,
+particularmente útil para encontrar notas. Admite búsquedas literales y
+usando &quot;regexp&quot;. Ver detalles de búsqueda <a href="http://orgmode.org/manual/Search-view.html#Search-view" target="_blank" rel="noopener noreffer">en el
+manual</a>.</p>
+<h3 id="vista-6">Vista 6</h3>
+<p>org-agenda-list-stuck-projects (C-c a #): al seguir un sistema como GTD
+(de David Allen), hay que revisar regularmente que todos los proyectos
+se muevan. Un proyecto estancado es uno que no tiene definidas las
+&quot;próximas acciones&quot;, de modo que nunca aparecería en la lista de TODOs
+que produce org-mode.</p>
+<p>Para personalizar el modo de identificar y encontrar proyectos
+estancados se utiliza C-c a !. Por defecto supone que todos los
+proyectos son headlines de nivel 2, y que no están estancados si tiene
+al menos una entrada marcada con alguna de las tres keywords: TODO,
+NEXT, NEXTACTION.</p>
+<p>Ver más detalles sobre esta configuración en <a href="http://orgmode.org/manual/Stuck-projects.html#Stuck-projects" target="_blank" rel="noopener noreffer">stuck
+projects</a>.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info"><div class="post-info-tag"><span><a href="/tags/emacs/">emacs</a>
+                </span><span><a href="/tags/org-mode/">org-mode</a>
+                </span><span><a href="/tags/agenda/">agenda</a>
+                </span><span><a href="/tags/gtd/">gtd</a>
+                </span></div><div class="post-info-line"><div class="post-info-mod">
+                <span>Actualizado el 2016-01-06</span>
+            </div><div class="post-info-mod"><span>
+                            <a class="link-to-markdown" href="/2014-12-29-agenda-en-emacs-y-org-mode/index.md" target="_blank">Leer Markdown</a>
+                        </span></div>
+        </div><div class="post-info-share">
+            <span><a href="javascript:void(0);" title="Compartir en Twitter" data-sharer="twitter" data-url="http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/" data-title="Agenda en Emacs y OrgMode" data-via="eldiegoefe" data-hashtags="emacs,org-mode,agenda,gtd"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Facebook" data-sharer="facebook" data-url="http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/" data-hashtag="emacs"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en WhatsApp" data-sharer="whatsapp" data-url="http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/" data-title="Agenda en Emacs y OrgMode" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Line" data-sharer="line" data-url="http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/" data-title="Agenda en Emacs y OrgMode"><i class="fab fa-line fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en 微博" data-sharer="weibo" data-url="http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/" data-title="Agenda en Emacs y OrgMode"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Myspace" data-sharer="myspace" data-url="http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/" data-title="Agenda en Emacs y OrgMode" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Compartir en Blogger" data-sharer="blogger" data-url="http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/" data-title="Agenda en Emacs y OrgMode" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Evernote" data-sharer="evernote" data-url="http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/" data-title="Agenda en Emacs y OrgMode"><i class="fab fa-evernote fa-fw"></i></a></span>
+        </div></div><div class="post-nav"><a href="/2014-12-26-comandante-emacs/" class="prev" rel="prev" title="Comandante Emacs (dired-mode)"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a>
+            <a href="/2015-01-08-noche-con-el-relampago-verde/" class="next" rel="next" title="Una noche de enero con el Relámpago Verde">Next Post<i class="fas fa-angle-right fa-fw"></i></a></div></div>
+</div><div id="comments" class="single-card"></div></article></div>
+            </main>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.87.0">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+</div>
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+        .register('/sw.min.js?version=1.0.1', { scope: '/' })
+        .then(() => {
+            console.info('Certezas Dudosas\u00A0Service Worker Registered');
+        }, err => console.error('Certezas Dudosas\u00A0Service Worker registration failed: ', err));
+
+    navigator.serviceWorker
+        .ready
+        .then(() => {
+            console.info('Certezas Dudosas\u00A0Service Worker Ready');
+        });
+}
+</script>
+</footer>
+        </div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-chevron-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment-alt fa-fw"></i>
+            </a></div><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/autocomplete/autocomplete.min.js"></script><script src="/lib/lunr/lunr.min.js"></script><script src="/lib/lunr/lunr.stemmer.support.min.js"></script><script src="/lib/lunr/lunr.es.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/katex/katex.min.js"></script><script src="/lib/katex/auto-render.min.js"></script><script src="/lib/katex/copy-tex.min.js"></script><script src="/lib/katex/mhchem.min.js"></script><script src="/lib/cookieconsent/cookieconsent.min.js"></script><script>window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"De acuerdo","link":"Aprende más","message":"Este sitio web utiliza Cookies para mejorar su experiencia."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"}};</script><script src="/js/theme.min.js"></script></body></html>

@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>octopress - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/octopress/</link>
+        <description>octopress - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/octopress/" rel="self" type="application/rss+xml" /><item>
+    <title>Instrucciones para armar un blog geek</title>
+    <link>http://www.certezasdudosas.com/2014-02-09-instrucciones/</link>
+    <pubDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-02-09-instrucciones/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2014/blog.jpg" referrerpolicy="no-referrer">
+            </div>Zigzagueantes instrucciones para instalar un blog con Jekyll]]></description>
+</item>
+</channel>
+</rss>

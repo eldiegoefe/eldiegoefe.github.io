@@ -1,0 +1,27 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>fedora - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/fedora/</link>
+        <description>fedora - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 09 Feb 2014 11:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/fedora/" rel="self" type="application/rss+xml" /><item>
+    <title>Descubriendo Gnome</title>
+    <link>http://www.certezasdudosas.com/2014-02-11-descubriendo-gnome/</link>
+    <pubDate>Sun, 09 Feb 2014 11:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-02-11-descubriendo-gnome/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2014/gnome.jpg" referrerpolicy="no-referrer">
+            </div>Comentarios sobre el entorno de escritorio Gnome]]></description>
+</item>
+<item>
+    <title>Dónde están los programas en Linux</title>
+    <link>http://www.certezasdudosas.com/2014-02-09-donde-estan-los-programas-en-linux/</link>
+    <pubDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-02-09-donde-estan-los-programas-en-linux/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2014/location.jpg" referrerpolicy="no-referrer">
+            </div><p>Los directorios típicos son los siguientes, aunque hay variaciones en las
+distintas distribuciones de linux:</p>
+<ul>
+<li>[/bin] ejecutables (Essential commands that everyone needs to use at any time)</li>
+</ul>]]></description>
+</item>
+</channel>
+</rss>

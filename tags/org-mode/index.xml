@@ -1,0 +1,31 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>org-mode - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/org-mode/</link>
+        <description>org-mode - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/org-mode/" rel="self" type="application/rss+xml" /><item>
+    <title>Más sobre agenda en org-mode</title>
+    <link>http://www.certezasdudosas.com/2016-01-06-mas-sobre-agenda-en-org-mode/</link>
+    <pubDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-01-06-mas-sobre-agenda-en-org-mode/</guid>
+    <description><![CDATA[Más sobre agenda en org-mode]]></description>
+</item>
+<item>
+    <title>Agenda en Emacs y OrgMode</title>
+    <link>http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/</link>
+    <pubDate>Mon, 29 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/</guid>
+    <description><![CDATA[Agenda en Emacs y OrgMode]]></description>
+</item>
+<item>
+    <title>Pandoc, conversión de org-mode a restructuredtext</title>
+    <link>http://www.certezasdudosas.com/2014-11-08.pandoc/</link>
+    <pubDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-11-08.pandoc/</guid>
+    <description><![CDATA[Pandoc, conversión de org-mode a restructu]]></description>
+</item>
+<item>
+    <title>Generar pdf en español desde org-mode</title>
+    <link>http://www.certezasdudosas.com/2014-08-06-latex-en-org/</link>
+    <pubDate>Wed, 06 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-08-06-latex-en-org/</guid>
+    <description><![CDATA[Como generar pdf en español desde org-mode]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,32 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>programacion - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/programacion/</link>
+        <description>programacion - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 28 Nov 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/programacion/" rel="self" type="application/rss+xml" /><item>
+    <title>Bienvenidos a Scheme</title>
+    <link>http://www.certezasdudosas.com/2017-11-28-scheme/</link>
+    <pubDate>Tue, 28 Nov 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2017-11-28-scheme/</guid>
+    <description><![CDATA[Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado para simular la inteligencia humana, creado por John McCarthy en la década del 50.]]></description>
+</item>
+<item>
+    <title>A punto para Lisp</title>
+    <link>http://www.certezasdudosas.com/2014-08-13-a-punto-para-lisp/</link>
+    <pubDate>Wed, 13 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-08-13-a-punto-para-lisp/</guid>
+    <description><![CDATA[A punto para Lisp]]></description>
+</item>
+<item>
+    <title>Aprender a lo Hansel y Gretel</title>
+    <link>http://www.certezasdudosas.com/2014-02-10-aprender-a-lo-hansel-y-gretel/</link>
+    <pubDate>Sun, 09 Feb 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-02-10-aprender-a-lo-hansel-y-gretel/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2014/hansel-and-gretel.jpg" referrerpolicy="no-referrer">
+            </div><p>Aprender programación mediante un libro, sobre todo si uno le cree a la
+contra-tapa, requiere seguir capítulo a capítulo, sección a sección, todas las
+instrucciones. Es como que nos programamos para programar. Pero al copiar los
+ejemplos, incluso chequeando que no haya errores de tipeo, suelen aparecer
+problemas. Los resultados no son los esperados, aparecen errores, excepciones,
+relámpagos y huracanes.</p>]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,29 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>pelican - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/pelican/</link>
+        <description>pelican - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 20 May 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/pelican/" rel="self" type="application/rss+xml" /><item>
+    <title>Actualización de las instrucciones para armar un blog con Pelican y GitHub</title>
+    <link>http://www.certezasdudosas.com/2015-05-20-actualizacion-de-instrucciones-para-blog-con-pelican/</link>
+    <pubDate>Wed, 20 May 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2015-05-20-actualizacion-de-instrucciones-para-blog-con-pelican/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2015/pelican-color.png" referrerpolicy="no-referrer">
+            </div>Actualización de las instrucciones para armar un blog con Pelican y Github Personal Pages.]]></description>
+</item>
+<item>
+    <title>Más sobre blogs con Pelican</title>
+    <link>http://www.certezasdudosas.com/2015-04-10-mas-sobre-blogs-con-pelican/</link>
+    <pubDate>Fri, 10 Apr 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2015-04-10-mas-sobre-blogs-con-pelican/</guid>
+    <description><![CDATA[mas sobre blogs con pelican]]></description>
+</item>
+<item>
+    <title>Blog con Pelican y GitHub</title>
+    <link>http://www.certezasdudosas.com/2014-04-22-setear-blog-con-pelican-y-github/</link>
+    <pubDate>Tue, 22 Apr 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-04-22-setear-blog-con-pelican-y-github/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2014/pelican.png" referrerpolicy="no-referrer">
+            </div>Instrucciones para setear y actualizar blog con Pelican y GitHub Personal Pages]]></description>
+</item>
+</channel>
+</rss>

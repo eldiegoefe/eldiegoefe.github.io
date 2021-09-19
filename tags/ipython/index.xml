@@ -1,0 +1,13 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>ipython - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/ipython/</link>
+        <description>ipython - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Aug 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/ipython/" rel="self" type="application/rss+xml" /><item>
+    <title>Instalando IPython en Mageia</title>
+    <link>http://www.certezasdudosas.com/2014-08-22-instalacion-de-ipython-en-mageia/</link>
+    <pubDate>Fri, 22 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-08-22-instalacion-de-ipython-en-mageia/</guid>
+    <description><![CDATA[Instalando IPython en Mageia]]></description>
+</item>
+</channel>
+</rss>

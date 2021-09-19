@@ -1,0 +1,52 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>linux - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/linux/</link>
+        <description>linux - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 03 Sep 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/linux/" rel="self" type="application/rss+xml" /><item>
+    <title>Peso de los directorios en Linux</title>
+    <link>http://www.certezasdudosas.com/2017-09-03-tamanio-de-directorios/</link>
+    <pubDate>Sun, 03 Sep 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2017-09-03-tamanio-de-directorios/</guid>
+    <description><![CDATA[Se me está por llenar el disco rígido externo, donde tengo fotos, películas, documentos y demás. Un terabyte de porquerías, pero nada que quiera borrar. ¿O sí? Ir directorio por directorio es tedioso y puede volverse una tarea abrumadora si aparecen muchos subdirectorios anidados con incierto contenido dentro de los mismos.
+Se puede usar el comando du para obtener el tamaño de los directorios y encadenarlo con un sort para que el resultado aparezca ordenado por el tamaño de los mismos:]]></description>
+</item>
+<item>
+    <title>Backup con RSync</title>
+    <link>http://www.certezasdudosas.com/2017-06-21-backup-con-rsync/</link>
+    <pubDate>Wed, 21 Jun 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2017-06-21-backup-con-rsync/</guid>
+    <description><![CDATA[RSync es un programa que permite copiar archivos, pero a diferencia de un copiado común, compara los archivos de origen y destino y sólo realiza la transferencia de la diferencia entre ambos: si son iguales no transfiere nada, si es un archivo de texto y se agregó sólo un caracter, RSync envía unicamente ese caracter y reconstruye el archivo en el destino para que ambas copias sean exactamente iguales. De este modo el procedimiento es más eficiente, en particular si se copian archivos grandes.]]></description>
+</item>
+<item>
+    <title>Autoaprendizajes</title>
+    <link>http://www.certezasdudosas.com/2014-10-05-autoaprendizajes/</link>
+    <pubDate>Fri, 10 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-10-05-autoaprendizajes/</guid>
+    <description><![CDATA[Aprendizajes autodidactas]]></description>
+</item>
+<item>
+    <title>Instalacion de Linux</title>
+    <link>http://www.certezasdudosas.com/2014-08-06-instalacion-de-linux/</link>
+    <pubDate>Wed, 06 Aug 2014 11:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-08-06-instalacion-de-linux/</guid>
+    <description><![CDATA[Sobre la instalación de Linux Mint]]></description>
+</item>
+<item>
+    <title>Descubriendo Gnome</title>
+    <link>http://www.certezasdudosas.com/2014-02-11-descubriendo-gnome/</link>
+    <pubDate>Sun, 09 Feb 2014 11:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-02-11-descubriendo-gnome/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2014/gnome.jpg" referrerpolicy="no-referrer">
+            </div>Comentarios sobre el entorno de escritorio Gnome]]></description>
+</item>
+<item>
+    <title>Dónde están los programas en Linux</title>
+    <link>http://www.certezasdudosas.com/2014-02-09-donde-estan-los-programas-en-linux/</link>
+    <pubDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-02-09-donde-estan-los-programas-en-linux/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2014/location.jpg" referrerpolicy="no-referrer">
+            </div><p>Los directorios típicos son los siguientes, aunque hay variaciones en las
+distintas distribuciones de linux:</p>
+<ul>
+<li>[/bin] ejecutables (Essential commands that everyone needs to use at any time)</li>
+</ul>]]></description>
+</item>
+</channel>
+</rss>

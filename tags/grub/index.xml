@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>grub - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/grub/</link>
+        <description>grub - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 11 Feb 2014 10:30:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/grub/" rel="self" type="application/rss+xml" /><item>
+    <title>Cuando uno quiere A y termina haciendo B</title>
+    <link>http://www.certezasdudosas.com/2014-02-08-cuando-uno-quiere-a/</link>
+    <pubDate>Tue, 11 Feb 2014 10:30:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-02-08-cuando-uno-quiere-a/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/2014/ipython.png" referrerpolicy="no-referrer">
+            </div>Oscuridades en la instalación de un sistema operativo. Particiones en Linux.]]></description>
+</item>
+</channel>
+</rss>

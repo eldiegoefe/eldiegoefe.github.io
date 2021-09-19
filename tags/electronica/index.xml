@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>electronica - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/electronica/</link>
+        <description>electronica - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/electronica/" rel="self" type="application/rss+xml" /><item>
+    <title>Uso de MBED desde la linea de comandos (CLI)</title>
+    <link>http://www.certezasdudosas.com/2016-11-04-mbed-cli/</link>
+    <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-11-04-mbed-cli/</guid>
+    <description><![CDATA[Uso de MBED desde la linea de comandos (CLI)]]></description>
+</item>
+<item>
+    <title>Comunicacion USB con mbed</title>
+    <link>http://www.certezasdudosas.com/2014-07-31-comunicacion-usb-con-mbed/</link>
+    <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-07-31-comunicacion-usb-con-mbed/</guid>
+    <description><![CDATA[Intento de comunicacion usb con la placa kinetis frdm-kl25z mediante mbed y python.]]></description>
+</item>
+</channel>
+</rss>

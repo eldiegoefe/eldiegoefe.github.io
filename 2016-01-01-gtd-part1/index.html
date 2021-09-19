@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Getting Things Done (Part I) - Certezas Dudosas</title><meta name="description" content="Mi blog en Hugo"><meta property="og:title" content="Getting Things Done (Part I)" />
+<meta property="og:description" content="Getting Things Done (Part I)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.certezasdudosas.com/2016-01-01-gtd-part1/" /><meta property="og:image" content="http://www.certezasdudosas.com/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2016-01-01T10:00:00+00:00" />
+<meta property="article:modified_time" content="2016-01-01T10:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://www.certezasdudosas.com/logo.png"/>
+
+<meta name="twitter:title" content="Getting Things Done (Part I)"/>
+<meta name="twitter:description" content="Getting Things Done (Part I)"/>
+<meta name="application-name" content="FeelIt">
+<meta name="apple-mobile-web-app-title" content="FeelIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://www.certezasdudosas.com/2016-01-01-gtd-part1/" /><link rel="prev" href="http://www.certezasdudosas.com/2015-12-11-diccionario-de-funciones/" /><link rel="next" href="http://www.certezasdudosas.com/2016-01-01-gtd-part2/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Getting Things Done (Part I)",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/www.certezasdudosas.com\/2016-01-01-gtd-part1\/"
+        },"genre": "posts","keywords": "gtd, productividad","wordcount":  3624 ,
+        "url": "http:\/\/www.certezasdudosas.com\/2016-01-01-gtd-part1\/","datePublished": "2016-01-01T10:00:00+00:00","dateModified": "2016-01-01T10:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Diego Efe"
+            },"description": ""
+    }
+    </script></head><body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Certezas Dudosas">Certezas Dudosas</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a class="menu-item" href="/index.xml" title="RSS"><i class="fas fa-rss fa-fw" title="RSS"></i> </a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Certezas Dudosas">Certezas Dudosas</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="#" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><div class="menu-item"><a href="/index.xml" title="RSS"><i class="fas fa-rss fa-fw" title="RSS"></i> </a>
+                <span>&nbsp;|&nbsp;</span><a href="javascript:void(0);" class="theme-switch" title="Cambia el tema">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div></div>
+    </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contenido</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single" data-toc="enable"><div class="single-card" ><h2 class="single-title animated flipInX">Getting Things Done (Part I)</h2><div class="post-meta">
+                <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Diego Efe</a></span>&nbsp;<span class="post-category">publicado en <a href="/categories/blog/"><i class="far fa-folder fa-fw"></i>blog</a></span></div>
+                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2016-01-01">2016-01-01</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;3624 palabras</span>&nbsp;
+                    <span><i class="far fa-clock fa-fw"></i>&nbsp;18 minutos</span>&nbsp;</div>
+            </div>
+            
+            <hr><div class="details toc" id="toc-static"  data-kept="true">
+                    <div class="details-summary toc-title">
+                        <span>Contenido</span>
+                        <span><i class="details-icon fas fa-angle-right"></i></span>
+                    </div>
+                    <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introducción-personal">Introducción personal</a></li>
+    <li><a href="#chapter-1-a-new-practice-for-a-new-reality">Chapter 1: A New Practice for a New Reality.</a></li>
+    <li><a href="#chapter-2-getting-control-of-your-life-the-five-stages-of-mastering-workflow">Chapter 2: Getting Control of Your Life: The Five Stages of Mastering Workflow.</a></li>
+    <li><a href="#chapter-3-getting-projects-creatively-under-way-the-five-phases-of-project-planning">Chapter 3: Getting Projects Creatively Under Way: The Five Phases of Project Planning.</a></li>
+  </ul>
+</nav></div>
+                </div><div class="content" id="content"><p>Serie de artículos sobre Getting Things Done:</p>
+<ul>
+<li>Parte 1: este artículo.</li>
+<li><a href="http://www.certezasdudosas.com/2016-01-01-gtd-part2/" rel="">Parte 2</a></li>
+<li><a href="http://www.certezasdudosas.com/2016-01-01-gtd-part3/" rel="">Parte 3</a></li>
+</ul>
+<h2 id="introducción-personal">Introducción personal</h2>
+<p>Hay un libro muy exitoso en ventas y que atrajo mucho interés en sus
+lectores, quienes a su vez han publicado muchísimo en la web acerca del
+tema que trata: la productividad personal. A su vez, se desarrollaron
+diversos softwares y sistemas para facilitar su implementación. El autor
+es <a href="https://es.wikipedia.org/wiki/David_Allen" target="_blank" rel="noopener noreffer">David Allen</a> y el título
+es <a href="https://es.wikipedia.org/wiki/Getting_Things_Done" target="_blank" rel="noopener noreffer">Getting Things
+Done</a>, usualmente
+abreviado como GTD. En este último enlace de la wikipedia hay un resumen
+que incluye elementos que no están en mis apuntes (que fueron hechos
+sobre la versión original de principios del 2000 y ahora estoy
+actualizando), así que recomiendo leer la entrada (que está en español,
+y también la que aparece en la wikipedia en inglés, y por supuesto,
+también leer el libro original).</p>
+<p>Una vez más aclaro, para diferenciar un término cargado de connotaciones
+neoliberales, que la productividad puede abordarse no como un mecanismo
+para incrementar el nivel de explotación o autoexplotación laboral, sino
+como un conjunto de técnicas para aprovechar mejor el tiempo y la
+energía personal, con el objeto de disfrutar de la vida en un estado
+activo (esto al menos es lo que entiendo yo cuando hablo de este tema).
+El propio autor en el prólogo a la nueva edición (del 2015) hace
+referencia a la carga de &quot;negocios&quot; que tiene la palabra
+<em>productividad</em>, desacertada para lo que quiere comunicar, y explica que
+el libro -en cambio- habla sobre cómo lograr el compromiso suficiente
+con el mundo de cada uno, no necesariamente en el ámbito de los
+negocios. Incrementar la productividad involucra limpiar la cabeza de
+elementos que aportan estrés, reflexionar sobre los intereses
+personales, y encontrar el modo de organizar nuestra vida para
+dedicarnos a ellos de un modo exitoso (es decir que podamos avanzar en
+lo que nos proponemos hacer). También implica gestionar con algún nivel
+de lógica la multitud de proyectos e ideas que vamos imaginando,
+emprendiendo o dejando para después.</p>
+<hr>
+<h2 id="chapter-1-a-new-practice-for-a-new-reality">Chapter 1: A New Practice for a New Reality.</h2>
+<p>Es una justificación del método. Dice que hay que sacarse todas las
+cosas de la cabeza para que no nos preocupen. El método tiene 3
+objetivos:</p>
+<ol>
+<li>Capturar en un sistema lógico (y confiable), fuera de nuestra
+cabeza, a todas las cosas que necesitamos hacer o que tienen
+utilidad para nosotros.</li>
+<li>Decidir cuáles son las <em>próximas acciones</em> respecto de cada entrada
+de manera de contar con un inventario de las mismas, para ponerlas
+en práctica o renegociarlas en cada momento que lo necesitemos.</li>
+<li>Organizar y coordinar este contenido, teniendo en cuenta los
+múltiples niveles de compromiso con nosotros mismos y con los demás,
+en cada momento.</li>
+</ol>
+<p>Se define como <em>trabajo</em> todo lo que necesitamos y queremos hacer, en
+sentido amplio. Capaz sería mejor pensar en <em>tareas</em>, <em>ocupaciones</em>,
+<em>quehaceres</em>, pero sigo con el lenguaje de negocios (que deploro).</p>
+<p>Vaciar la cabeza de preocupaciones y recordatorios permitiría alcanzar
+un estado de &quot;mente como agua&quot; (karate), &quot;flow&quot; (según Mihály
+Csíkszentmihályi), &quot;swing&quot; (remo), &quot;in the zone&quot;, ..., palabras
+provenientes de distintas especialidades que refieren a un estado de
+concentración relajada. Describen la sensación de claridad en la acción
+sin un exceso de esfuerzo; es un estado indispensable para mantener un
+balance y una producción consistente. El balance buscado es otorgarle a
+la tarea una atención y recursos justos, ni más ni menos.</p>
+<p>La mayor parte del estrés que experimentamos proviene de compromisos que
+manejamos inapropiadamente. Incluso nos comprometemos a más de lo que
+nos damos cuenta, y cada uno de esos compromisos es atendido consciente
+o inconscientemente por una parte de nosotros. Se producen así <em>lazos
+abiertos</em> [mentales], ávidos consumidores de nuestra atención.</p>
+<p>El autor propone describir el problema/tema que nos tiene preocupados, y
+anotar en qué consistiría su finalización positiva. También definir cuál
+es la acción que debemos tomar para iniciar su resolución.
+Supuestamente, este procedimiento de aclarar nuestros pensamientos
+otorgaría un grado mayor de control, relajación y enfoque. Sin embargo,
+pienso en este ejemplo: tenemos la preocupación de que se aproxima un
+examen, el objetivo es aprobarlo y para ello debemos estudiar. No veo
+cómo la claridad de esta secuencia (que antes de pensarla sólo
+percibíamos desorganizadamente) pueda aportar felicidad (¿a qué
+felicidad se refiere?). Sin negar su utilidad, me parece exagerada la
+promesa de bienestar. Pero también démosle crédito: obviamente realizar
+el ejercicio más extensivamente con todo lo que nos preocupa tendrá el
+efecto buscado en muchos otros casos. Sería absurdo subestimar el poder
+del (auto)análisis, de la (auto)crítica y de la planificación, ya que de
+esto se trata el método. <em>Debés usar la mente para sacarte cosas de
+ella, reaccionar es automático pero pensar no lo es</em>.</p>
+<p>Habla sobre las cosas (<em>stuff</em>) que todavía no superaron el
+procedimiento reflexivo: sin procesar, esas son las que nos generan
+estrés porque están ahí indefinidamente sin que las hallamos convertido
+aún en parte de un inventario claro de acciones significativas,
+proyectos e información util (es un poco repetitivo el texto, ¿no?).</p>
+<h2 id="chapter-2-getting-control-of-your-life-the-five-stages-of-mastering-workflow">Chapter 2: Getting Control of Your Life: The Five Stages of Mastering Workflow.</h2>
+<p>Describe 5 cosas que hay que hacer respecto de los aspectos
+&quot;horizontales&quot; (concurrentes, cotidianos) de nuestras vidas:</p>
+<p>A.  Sacar todo de la cabeza registrándolo en algún lado (recolectar,
+capturar). El registro debe ser completo, no funciona si dejamos una
+parte en la cabeza y otra parte en nuestro archivo (porque no
+confiaremos en ninguno de los dos). La confianza de que no
+perderemos nada nos dará libertad para tener muchas buenas ideas.
+Necesitamos el número justo de canastas de entrada donde ir anotando
+todo (no infinitas y desparramadas, no insuficientes). Además hay
+que vaciar y procesar lo recolectado, para darle sentido (y que deje
+de ser una cosa amorfa).</p>
+<p>B.  Clarificar: procesar la colección para determinar qué significa cada
+elemento registrado y cuáles son las acciones a seguir, que van
+desde borrar el item hasta archivar la información para referencia
+posterior o ejecutar una acción que tome menos de dos minutos ya
+mismo (ver el diagrama de flujo siguiente).</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://c2.staticflickr.com/2/1638/24068590731_d716c0d9bf_b.jpg"
+        data-srcset="https://c2.staticflickr.com/2/1638/24068590731_d716c0d9bf_b.jpg, https://c2.staticflickr.com/2/1638/24068590731_d716c0d9bf_b.jpg 1.5x, https://c2.staticflickr.com/2/1638/24068590731_d716c0d9bf_b.jpg 2x"
+        data-sizes="auto"
+        alt="https://c2.staticflickr.com/2/1638/24068590731_d716c0d9bf_b.jpg"
+        title="processing" /></p>
+<p>C.  Organizar en categorías las cosas que poseen acciones a realizar</p>
+<ol>
+<li>
+<p><strong>Lista de proyectos</strong>. Un proyecto es cualquier resultado deseado que
+puede cumplirse en el término de un año y que requiere más de un paso,
+sin importar su complejidad. Es suficiente una lista maestra que los
+contenga a todos (aún desordenados), pues <strong>se utiliza para revisarlos
+regularmente asegurándose de que haya una acción pendiente (y definida)
+para cada uno de ellos</strong>. Cuando se completaron suficientes acciones
+para que el resultado se asemeje a lo que se deseaba en un principio, el
+proyecto está concluido.</p>
+</li>
+<li>
+<p><strong>Material de soporte para los proyectos</strong>: es información relevante
+organizada y separada por temas o por proyecto, por ejemplo aquellos
+detalles, planes e información que se pueden necesitar para llevar
+adelante los proyectos. En el caso de proyectos activos el material se
+revisa con mayor frecuencia para asegurar que todas las acciones
+necesarias están identificadas. El autor recomienda que este material
+soporte esté fuera de la vista. El mundo de referencias digitales debe
+mantenerse lo más simple posible, revisarse con consistencia y purgarse.
+3.  <strong>Categorías de próximas acciones</strong>: no se necesita seguir el rastro de
+acciones ya completadas (en particular las que llevan dos minutos), pues
+ya están hechas. Las que sí se siguen son:</p>
+<ul>
+<li>
+<p><em>Calendario</em>: incluye las que deben suceder en un momento
+específico. Debe contener tres tipos de elementos, las
+acciones que son específicas de un horario (reuniones), las
+acciones que son específicas de un día (no requieren un
+horario especial), y la información que es específica de un
+día y puede ser útil (direcciones para llegar a una reunión,
+actividades que otra gente tendrá ese día, eventos de
+interés, etc). También puede incluirse
+&quot;tickler-information&quot; de corto plazo como recordatorios
+para llamar a alguien por algún motivo, vencimientos,
+apertura de trámites, etc. No hay una lista de tareas
+diarias que deba ser reescrita (las acciones pendientes van
+en otra lista).</p>
+</li>
+<li>
+<p><em>Lista de próximas acciones</em>: contiene aquellas acciones
+identificadas e indelegables que llevan más de dos minutos y
+por tanto requieren ser documentadas en algún lado, y se
+realizan tan pronto se pueda (sin esperar una fecha). En
+general, cualquier persona tiene entre 50 y 150 acciones en
+esta lista, por lo que pueden dividirse en categorías.</p>
+</li>
+<li>
+<p><em>Actividades en espera</em>: aquellas que estás esperando que
+otros completen.
+4.  <strong>Elementos no accionables</strong>:
+a.  Basura: cualquier cosa que carezca de valor como referencia
+o que no implique una acción futura.
+b.  Incubación: elementos que se guardan porque en un futuro no
+inmediato se convertirán en proyectos o acciones (toca la
+sinfónica en 4 meses y no sabemos qué estaremos haciendo en
+esa época, etc). Se pueden dividir en dos tipos:</p>
+<ol>
+<li>Algún día / Quizás: proyectos a futuro que no queremos
+olvidar, y del cual queremos recordarnos con cierta
+frecuencia, digamos que por exploración creativa
+(aprender idiomas, comprar algún item, construir alguna
+cosa, listas como: libros a leer, vinos a beber, recetas
+para probar, etc).</li>
+<li>&quot;Tickler file&quot;: proyectos a futuro que sólo queremos
+recordar en alguna fecha en particular. Podría incluirse
+dentro del calendario.
+5.  <strong>Material de referencia</strong>: elementos que tienen valor
+intrínseco como información. Puede tomar dos formas: (1)
+almacenamiento por tema o area específica o (2) archivos de
+referencia general, que no pertenece a alguna categoría
+predefinida (manuales de equipos, notas de alguna reunión sobre
+un proyecto X o incluso moneda extranjera que nos quedó de un
+viaje).</li>
+</ol>
+</li>
+</ul>
+</li>
+</ol>
+<p>D.  Reflexión (reflect): dar un paso atrás para ver la imagen completa
+del trabajo y de la vida desde una perspectiva amplia, así como
+también repasar las acciones concretas a tomar, según se necesiten y
+a intervalos apropiados. Es el momento de recorrer todas las
+acciones y las opciones que se presentan ante nosotros; así, se
+incrementa radicalmente la eficacia de las opciones que tomamos
+acerca de lo que hacemos en un momento cualquiera. Lo que se revisa
+más a menudo es el calendario; es un buen hábito tras completar
+alguna acción del mismo revisar y ver qué más está pendiente. Luego
+se pasa a ver la lista de próximas acciones, que se realizan cuando
+tenemos un rato libre en el día. Si están organizadas por contexto
+(en casa, en el trabajo, etc), entran en juego sólo cuando estamos
+en el lugar y momento adecuado. La lista de proyectos, acciones en
+espera, y tareas para <em>algún día / quizás</em> se revisan con la
+frecuencia que pensemos necesaria para evitar empezar a preguntarnos
+espontaneamente sobre ellas.</p>
+<ul>
+<li>Factor de éxito crucial: la revisión semanal. Para poder confiar
+en los juicios personales rápidos e intuitivos que hacemos
+permanentemente, debemos recuperar y reconstruir nuestra
+perpectiva desde un nivel alto con alguna frecuencia. Esto
+significa que todos nuestros proyectos, planes de proyectos
+activos, próximas acciones e inclusive los <em>algún día / quizás</em>
+se deben revisar una vez por semana, lo que también ofrece una
+oportunidad para asegurar que el cerebro está despejado y que
+todos los hilos sueltos de los últimos días han sido capturados,
+clarificados y organizados. Esta actividad ofrece el tiempo de:
+<ol>
+<li>juntar y procesar todas las cosas</li>
+<li>revisar el sistema</li>
+<li>actualizar las listas</li>
+<li>llegar a estar limpios, claros, actualizados y completos</li>
+</ol>
+</li>
+</ul>
+<p>E.  Acción, abordaje. El propósito básico de este flujo de trabajo es
+facilitar la toma de buenas opciones acerca de lo que hacemos en
+cada momento. Tres modelos para la elección de actividades:</p>
+<ol>
+<li><strong>El modelo de 4 criterios</strong>: el contexto (la ubicación o la
+disponibilidad de herramientas), el tiempo disponible, la
+energía disponible (por ejemplo, hay acciones que requieren una
+reserva de energía mental fresca y creativa) y las prioridades
+(dado un contexto, tiempo y energía disponibles, ¿qué acciones
+dan la mayor retribución?).</li>
+<li><strong>El modelo triple para identificar el trabajo diario</strong>: las
+actividades que llevamos adelante cuando trabajamos son:
+<ol>
+<li>hacemos trabajo predefinido: a partir de nuestro calendario
+y lista de próximas acciones</li>
+<li>trabajamos en lo que surje: cosas imprevistas,
+insospechadas. Por ejemplo las interrupciones de nuestros
+compañeros de trabajo (sobre cosas del trabajo). Si las
+atendemos, decidimos por defecto que estas cosas son más
+importantes que cualquier otra cosa que hayamos estado
+haciendo cuando surgieron.</li>
+<li>definimos nuestro trabajo: incluye limpiar nuestra bandeja
+de entrada, mensajes, notas y analizar nuestros proyectos
+para definir las próximas acciones, además de llevar a cabo
+aquellas que toman menos de 2 minutos, deshacernos de cosas
+inútiles y ordenar las que lo necesiten, identificamos
+actividades para más adelante. Al finalizar podemos confiar
+en que nuestras listas están completas.</li>
+</ol>
+</li>
+<li><strong>El modelo de 6 niveles para revisar nuestro trabajo</strong>: la
+definición de nuestras prioridades debe tener en cuenta
+distintos niveles de perspectiva, desde lo más urgente y mundano
+hasta lo más filosófico y de largo plazo:
+<ol>
+<li><strong>Acciones inmediatas</strong>: es la lista de acciones cotidianas
+que tenemos pendientes (diligencias, llamados, etc).
+Posiblemente sean más de 100.</li>
+<li><strong>Proyectos actuales</strong>: son los proyectos de corto plazo que
+generan entre 30 y 100 de las acciones inmediatas que
+tenemos por delante. (cocinar para toda la semana, preparar
+un examen, instalar una nueva computadora).</li>
+<li><strong>Areas de interés y responsabilidades</strong>: creamos y
+aceptamos los proyectos actuales por los roles, intereses y
+responsabilidades que tenemos. Son las areas clave de
+nuestra vida y trabajo dentro de las que queremos lograr
+resultados y mantener estándares. No son cosas a completar
+sino criterios para valorar nuestras experiencias y
+compromisos, para mantener el balance y la sustentabilidad
+mientras trabajamos.</li>
+<li><strong>Metas</strong>: le agregan otra dimensión a nuestro quehacer y
+determinan un énfasis particular en algún aspecto de lo que
+hacemos (y desplazan otros), son logros que queremos estar
+experimentando en las diferentes areas de nuestra vida en 1
+o 2 años.</li>
+<li><strong>Visión</strong>: proyectar de 3 a 5 años en adelante lleva a
+pensar en categorías más grandes (estrategias de
+organización, tendencias ambientales, transiciones en el
+estilo de vida y la carrera). También hay que considerar los
+cambios del mundo externo que nos afectarán (tecnología,
+globalización, crisis ambiental).</li>
+<li><strong>Propósito y principios</strong>: la vista más general. ¿Para qué
+existimos? ¿Para qué existe nuestro trabajo formal? ¿Qué nos
+importa más por sobre todo el resto? Es la descripción del
+propósito primario que debería definir lo que hacemos.</li>
+</ol>
+</li>
+</ol>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://c2.staticflickr.com/2/1669/23524301913_cb595498b0_b.jpg"
+        data-srcset="https://c2.staticflickr.com/2/1669/23524301913_cb595498b0_b.jpg, https://c2.staticflickr.com/2/1669/23524301913_cb595498b0_b.jpg 1.5x, https://c2.staticflickr.com/2/1669/23524301913_cb595498b0_b.jpg 2x"
+        data-sizes="auto"
+        alt="https://c2.staticflickr.com/2/1669/23524301913_cb595498b0_b.jpg"
+        title="processing - otro diagrama" /></p>
+<h2 id="chapter-3-getting-projects-creatively-under-way-the-five-phases-of-project-planning">Chapter 3: Getting Projects Creatively Under Way: The Five Phases of Project Planning.</h2>
+<p>Describe el modo &quot;natural&quot; (y correcto) de hacer las cosas, que
+incluye: a) definir propósitos y principios; b) imaginar los resultados
+deseados; c) tormenta de ideas; d) organización; e) identificación de
+las acciones a realizar.</p>
+<p>Luego el modo no-natural o tradicional, que no funciona y que consiste
+en comenzar pidiendo &quot;buenas&quot; ideas (lo que produce bloqueos, ya que
+hay que tratar de tener muchas ideas, incluso malas, por lo que debería
+dejarse para cuando haya más avances), armar objetivos y outlines que
+carecen de claridad e incrementan el estrés.</p>
+<p>También el modo reactivo (que predomina), que es el modo que surge tras
+la desconfianza que genera el modo no-natural de planificar. Implica que
+surjan crisis y que la respuesta sea trabajar más, con más gente y con
+un estrés creciente.</p>
+<p>Luego presenta las 5 fases correctas:</p>
+<ol>
+<li>
+<p>definir <strong>propósitos</strong> e identificar <strong>principios</strong> (valores)</p>
+<p>A.  <em>propósitos</em>: clarifica qué es un resultado exitoso, genera
+criterios para la toma de decisiones, alinea recursos, motiva,
+aclara enfoques, expande las opciones.
+B.  <em>principios</em> (valores): se determina preguntando por ejemplo
+&quot;¿cuáles son los límites a la libertad de acción para resolver
+el proyecto?, ¿qué conducta arruinaría lo que quiero y cómo la
+prevengo?, ¿cómo queremos o necesitamos trabajar con los demás
+para asegurar el éxito de la tarea?, ¿qué comportamientos son
+aceptables?, ¿cómo debemos actuar para sacar lo mejor de
+nosotros? Mientras los propósitos proveen el juicio y la
+dirección, los principios definen los parámetros de acción y los
+criterios de excelencia de la conducta.</p>
+</li>
+<li>
+<p><strong>visión</strong>: definir en qué consiste el éxito de un proyecto
+delineando la imagen de lo que debe ocurrir para considerarlo
+terminado. La visión provee un modelo del resultado final. ¿Cómo
+será realmente el proyecto o la situación cuando se produzca
+exitosamente? Por ejemplo: los estudiantes del curso se muestran
+capaces de aplicar lo que aprendieron (este ejemplo capaz que no es
+el más adecuado, ja, ya que supone una relación lineal entre
+enseñanza y aprendizaje).</p>
+<ol>
+<li>enfoque: nuestro cerebro tiene la capacidad de concentrarse de
+modo tal que advierte cosas con mayor precisión. Estar enfocados
+favorece la creación de ideas y de patrones de pensamiento, e
+incluso nuestra fisiología responde a una imagen en nuestra
+cabeza como si fuera real. Es una tecla que enciende nuestra
+percepción de las ideas y los datos. Tenemos la habilidad de
+buscar, programada por aquello en lo que nos concentramos y, más
+primariamente, con aquello con lo que nos identificamos.
+Advertimos sólo lo que coincide con nuestro sistema de creencias
+interno y con los contextos que hemos identificado (son los
+paradigmas que tenemos incorporados). Algo automático y
+extraordinario sucede en nuestra cabeza cuando creamos y nos
+enfocamos en una imagen clara de lo que queremos.</li>
+<li>clarificar resultados: no veremos cómo hacer las cosas hasta que
+nos vemos haciéndolas. Frecuentemente necesitamos lograr algo en
+la cabeza para después volverlo realidad. Es dificultoso
+conseguirlo si no tenemos referencias suficientes y experiencia
+en el tema que abordamos. Tenemos problemas imaginando algo que
+nunca hicimos, a menos que alguien nos muestre cómo llegar allí
+(¡por eso es bueno youtube!). Necesitamos definir y redefinir
+constantemente lo que estamos tratando de lograr en muchos
+niveles diferentes, y relocalizar nuestros recursos
+consistentemente para completar estas tareas tan efectiva y
+eficientemente como sea posible. Pensar en cómo sería un
+escenario exitoso también nos motiva.</li>
+</ol>
+</li>
+<li>
+<p><strong>tormenta de ideas</strong>: para alcanzar los resultados deseados
+empezamos a imaginar el modo de llegar a ellos, se nos empiezan a
+ocurrir ideas pero desordenadamente, ideas de diversa calidad.
+Escribirlas o capturarlas de algún modo puede potenciar nuestra
+productividad y nuestro pensamiento.</p>
+<ol>
+<li>capturar y expresar nuestras ideas permite guardarlas para
+recién después ver cómo encajan. Hay muchas técnicas (una
+popular es &quot;mind mapping&quot;, de Tony Buzan, otras que menciona y
+desconozco: clustering, patterning, webbing y fish boning), pero
+cualquiera nos puede servir.</li>
+<li>cognición distribuida: al capturar las ideas podemos generar
+nuevas, como si dejáramos lugar en la mente para que se nos
+ocurran más cosas. Al externalizarlas creamos un &quot;cerebro
+expandido&quot;.</li>
+<li>técnicas para la tormenta de ideas:
+<ul>
+<li>no juzgar, desafiar, evaluar o criticar: evitar la
+autocensura, jugar.</li>
+<li>perseguir la cantidad, no la calidad: a veces podemos darnos
+cuenta de que una idea es buena recién después.</li>
+<li>colocar el análisis y la organización en un segundo plano.</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p><strong>organización</strong> de las ideas: una vez plasmadas, advertiremos
+relaciones naturales y estructuras, podremos identificar componentes
+y subcomponentes, secuencias de eventos y/o prioridades. El
+pensamiento creativo no se agota en esta fase sino que toma otra
+forma: una vez que identificamos la estructura básica, nuestra mente
+empieza a tratar de llenar los baches o de expandir la estructura.</p>
+<ul>
+<li>Las bases de la organización. Los pasos clave:
+<ul>
+<li>identificar las piezas significativas.</li>
+<li>ordenarlas por (una o más):
+<ul>
+<li>componentes</li>
+<li>secuencias</li>
+<li>prioridades</li>
+</ul>
+</li>
+<li>detallar hasta el grado requerido.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Selección de <strong>próximas acciones</strong>: la pregunta sobre qué acción
+llevar adelante físicamente, si no tuviésemos otra cosa que hacer,
+testea la madurez de nuestro pensamiento acerca del proyecto. Si no
+estamos en condiciones de responderla es porque todavía podemos
+exprimir aún más los pasos anteriores.</p>
+<p><em>Lo básico</em>:</p>
+<ul>
+<li>decidir las próximas acciones para cada una de las &quot;partes
+móviles&quot; presentes en el proyecto.</li>
+<li>decidir las siguientes acciones en el proceso de planificación,
+si es necesario.</li>
+</ul>
+<p><em>Activar las partes móviles</em>. Un proyecto está listo para
+implementarse si se han decidido las próximas acciones en cada
+frente que se puede llevar adelante sin requerir de otros
+componentes previos. A veces sólo puede avanzarse en un solo
+aspecto, pues los demás dependen de él.</p>
+<p><em>¿Más planificación?</em> A veces necesitamos más planificación para
+sentirnos cómodos con lo que sigue. Esto es en sí mismo una acción a
+llevar adelante: esbozar más ideas. El hábito de clarificar las
+próximas acciones de los proyectos, sin importar cuál es la
+situación, es fundamental para mantenerse en un estado de control
+relajado.</p>
+<p><em>Cuando la próxima acción es la de otro</em>. Cuando le toca a otra
+persona la siguiente acción de un proyecto, debemos clarificar a
+quién le corresponde (para lo cual usamos la lista de acciones en
+espera).</p>
+<p><strong>¿Cuánta planificación necesitamos?</strong> Necesitamos la planificación
+suficiente para sacarnos el proyecto de la cabeza. El autor estima
+un 80% de proyectos sencillos (que cumplen con la definición de ser
+resultados deseados que se obtienen con más de un solo paso, y que
+no necesitan más que un listado de resultados y próximas acciones).
+¿Necesitamos un plomero? ¿Comprar e instalar una nueva impresora?
+Igual haremos la planificación completa en todos ellos, pero sólo en
+nuestra cabeza, y sólo lo suficiente para reconocer las próximas
+acciones, llevarlas adelante hasta completarlo. Otro 15% pueden
+requerir alguna forma externa de tormenta de ideas (en un papel o
+software). Planificación de agenda de reuniones, vacaciones, una
+charla a la cámara de comercio local. El 5% final de proyectos
+requieren la aplicación deliberada del modelo de planificación
+natural.</p>
+<p><strong>¿Necesitamos mayor claridad?</strong> Si esto es lo que necesitamos,
+deberemos llevar nuestro pensamiento hacia arriba en la escala de
+planificación. Muchas veces estamos muy ocupados pero igual
+experimentamos confusión y falta de una dirección clara. Necesitamos
+revisar el plan o crear uno (organizarnos). Si hay falta de claridad
+en el nivel de planificación, seguramente necesitamos más tormenta
+de ideas para generar suficiente inventario de ideas y datos para
+crear confianza en el plan. Si la tormenta de ideas se aplaca con
+pensamientos borrosos, el foco se debe dirigir de vuelta hacia la
+visión de resultados. Etc.</p>
+<p><strong>¿Necesitamos que ocurran más cosas?</strong> Entonces debemos movernos
+hacia abajo en el modelo. Podemos tener entusiasmo acerca del
+propósito del proyecto pero al mismo tiempo resistencia a
+materializar lo que lleva a su cumplimiento en el mundo real. Quizás
+falte tormenta de ideas para encontrar nuevos cómo.</p>
+</li>
+</ol>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info"><div class="post-info-tag"><span><a href="/tags/gtd/">gtd</a>
+                </span><span><a href="/tags/productividad/">productividad</a>
+                </span></div><div class="post-info-line"><div class="post-info-mod">
+                <span>Actualizado el 2016-01-01</span>
+            </div><div class="post-info-mod"><span>
+                            <a class="link-to-markdown" href="/2016-01-01-gtd-part1/index.md" target="_blank">Leer Markdown</a>
+                        </span></div>
+        </div><div class="post-info-share">
+            <span><a href="javascript:void(0);" title="Compartir en Twitter" data-sharer="twitter" data-url="http://www.certezasdudosas.com/2016-01-01-gtd-part1/" data-title="Getting Things Done (Part I)" data-via="eldiegoefe" data-hashtags="gtd,productividad"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Facebook" data-sharer="facebook" data-url="http://www.certezasdudosas.com/2016-01-01-gtd-part1/" data-hashtag="gtd"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en WhatsApp" data-sharer="whatsapp" data-url="http://www.certezasdudosas.com/2016-01-01-gtd-part1/" data-title="Getting Things Done (Part I)" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Line" data-sharer="line" data-url="http://www.certezasdudosas.com/2016-01-01-gtd-part1/" data-title="Getting Things Done (Part I)"><i class="fab fa-line fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en 微博" data-sharer="weibo" data-url="http://www.certezasdudosas.com/2016-01-01-gtd-part1/" data-title="Getting Things Done (Part I)"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Myspace" data-sharer="myspace" data-url="http://www.certezasdudosas.com/2016-01-01-gtd-part1/" data-title="Getting Things Done (Part I)" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Compartir en Blogger" data-sharer="blogger" data-url="http://www.certezasdudosas.com/2016-01-01-gtd-part1/" data-title="Getting Things Done (Part I)" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Evernote" data-sharer="evernote" data-url="http://www.certezasdudosas.com/2016-01-01-gtd-part1/" data-title="Getting Things Done (Part I)"><i class="fab fa-evernote fa-fw"></i></a></span>
+        </div></div><div class="post-nav"><a href="/2015-12-11-diccionario-de-funciones/" class="prev" rel="prev" title="Diccionario de funciones"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a>
+            <a href="/2016-01-01-gtd-part2/" class="next" rel="next" title="Getting Things Done (Part II)">Next Post<i class="fas fa-angle-right fa-fw"></i></a></div></div>
+</div><div id="comments" class="single-card"></div></article></div>
+            </main>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.87.0">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+</div>
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+        .register('/sw.min.js?version=1.0.1', { scope: '/' })
+        .then(() => {
+            console.info('Certezas Dudosas\u00A0Service Worker Registered');
+        }, err => console.error('Certezas Dudosas\u00A0Service Worker registration failed: ', err));
+
+    navigator.serviceWorker
+        .ready
+        .then(() => {
+            console.info('Certezas Dudosas\u00A0Service Worker Ready');
+        });
+}
+</script>
+</footer>
+        </div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="fas fa-chevron-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="fas fa-comment-alt fa-fw"></i>
+            </a></div><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/autocomplete/autocomplete.min.js"></script><script src="/lib/lunr/lunr.min.js"></script><script src="/lib/lunr/lunr.stemmer.support.min.js"></script><script src="/lib/lunr/lunr.es.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/katex/katex.min.js"></script><script src="/lib/katex/auto-render.min.js"></script><script src="/lib/katex/copy-tex.min.js"></script><script src="/lib/katex/mhchem.min.js"></script><script src="/lib/cookieconsent/cookieconsent.min.js"></script><script>window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"De acuerdo","link":"Aprende más","message":"Este sitio web utiliza Cookies para mejorar su experiencia."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"}};</script><script src="/js/theme.min.js"></script></body></html>

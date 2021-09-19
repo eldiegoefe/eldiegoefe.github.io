@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>recomendaciones - Etiqueta - Certezas Dudosas</title>
+        <link>http://www.certezasdudosas.com/tags/recomendaciones/</link>
+        <description>recomendaciones - Etiqueta - Certezas Dudosas</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 26 Nov 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/recomendaciones/" rel="self" type="application/rss+xml" /><item>
+    <title>YouTube</title>
+    <link>http://www.certezasdudosas.com/2016-11-26-youtube/</link>
+    <pubDate>Sat, 26 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-11-26-youtube/</guid>
+    <description><![CDATA[YouTube]]></description>
+</item>
+<item>
+    <title>Sorpresas del pasado</title>
+    <link>http://www.certezasdudosas.com/2014-10-25-sorpresas-del-pasado/</link>
+    <pubDate>Sat, 25 Oct 2014 11:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-10-25-sorpresas-del-pasado/</guid>
+    <description><![CDATA[Sorpresas del pasado]]></description>
+</item>
+</channel>
+</rss>
