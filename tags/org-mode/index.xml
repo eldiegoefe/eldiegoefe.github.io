@@ -5,26 +5,28 @@
         <description>org-mode - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/org-mode/" rel="self" type="application/rss+xml" /><item>
     <title>Más sobre agenda en org-mode</title>
-    <link>http://www.certezasdudosas.com/2016-01-06-mas-sobre-agenda-en-org-mode/</link>
-    <pubDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-01-06-mas-sobre-agenda-en-org-mode/</guid>
-    <description><![CDATA[Más sobre agenda en org-mode]]></description>
+    <link>http://www.certezasdudosas.com/m%C3%A1s-sobre-agenda-en-org-mode/</link>
+    <pubDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/m%C3%A1s-sobre-agenda-en-org-mode/</guid>
+    <description><![CDATA[Para el uso de la agenda en org-mode, voy a listar las cosas que uso con frecuencia. Además, en este link hay un resumen de comandos de org-mode muy completo.
+Inserción Atajos de teclado &quot;convencionales&quot; de org-mode (funcionan con Spacemacs).
+ capturar una nota en el inbox: C-c c links: C-c C-l etiqueta de To-Do (empezado, hibernando, completado, etc): C-c C-t schedule: C-c C-s deadline: C-c C-d  Para agregar:]]></description>
 </item>
 <item>
     <title>Agenda en Emacs y OrgMode</title>
-    <link>http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/</link>
-    <pubDate>Mon, 29 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/</guid>
+    <link>http://www.certezasdudosas.com/agenda-en-emacs-y-orgmode/</link>
+    <pubDate>Mon, 29 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/agenda-en-emacs-y-orgmode/</guid>
     <description><![CDATA[Agenda en Emacs y OrgMode]]></description>
 </item>
 <item>
     <title>Pandoc, conversión de org-mode a restructuredtext</title>
-    <link>http://www.certezasdudosas.com/2014-11-08.pandoc/</link>
-    <pubDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-11-08.pandoc/</guid>
+    <link>http://www.certezasdudosas.com/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
+    <pubDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
     <description><![CDATA[Pandoc, conversión de org-mode a restructu]]></description>
 </item>
 <item>
     <title>Generar pdf en español desde org-mode</title>
-    <link>http://www.certezasdudosas.com/2014-08-06-latex-en-org/</link>
-    <pubDate>Wed, 06 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-08-06-latex-en-org/</guid>
+    <link>http://www.certezasdudosas.com/generar-pdf-en-espa%C3%B1ol-desde-org-mode/</link>
+    <pubDate>Wed, 06 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/generar-pdf-en-espa%C3%B1ol-desde-org-mode/</guid>
     <description><![CDATA[Como generar pdf en español desde org-mode]]></description>
 </item>
 </channel>

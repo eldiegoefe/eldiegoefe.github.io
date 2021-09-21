@@ -5,8 +5,8 @@
         <description>matplotlib - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 03 Aug 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/matplotlib/" rel="self" type="application/rss+xml" /><item>
     <title>Apuntes sobre matplotlib</title>
-    <link>http://www.certezasdudosas.com/2014-08-03-apuntes-matplotlib/</link>
-    <pubDate>Sun, 03 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-08-03-apuntes-matplotlib/</guid>
+    <link>http://www.certezasdudosas.com/apuntes-sobre-matplotlib/</link>
+    <pubDate>Sun, 03 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/apuntes-sobre-matplotlib/</guid>
     <description><![CDATA[Apuntes sobre graficación en Python con matplotlib]]></description>
 </item>
 </channel>

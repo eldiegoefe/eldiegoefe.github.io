@@ -5,57 +5,57 @@
         <description>python - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/python/" rel="self" type="application/rss+xml" /><item>
     <title>Instalacion de PyQt</title>
-    <link>http://www.certezasdudosas.com/2018-04-19-instalacion-de-pyqt/</link>
-    <pubDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2018-04-19-instalacion-de-pyqt/</guid>
+    <link>http://www.certezasdudosas.com/instalacion-de-pyqt/</link>
+    <pubDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/instalacion-de-pyqt/</guid>
     <description><![CDATA[Este es un post-ayudamemoria para la instalación de PyQt en un entorno virtual. Tengo la impresión de que lo escribí ya en el blog pero no lo encuentro ni con los buscadores más buscados (ag, ack, pt):
   Activar el virtualenv, asumiendo que están instalados pyenv y pyenv-virtualenvs (también tendría que agregar el tutorial para usarlos, pero es demasiado para el propósito del día de hoy, aunque &quot;hoy&quot; no tiene sentido para un texto perdido en la web).]]></description>
 </item>
 <item>
     <title>Panel frontal del software</title>
-    <link>http://www.certezasdudosas.com/2016-09-30-panel-frontal-del-software/</link>
-    <pubDate>Thu, 01 Sep 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-09-30-panel-frontal-del-software/</guid>
-    <description><![CDATA[Panel frontal del software]]></description>
+    <link>http://www.certezasdudosas.com/panel-frontal-del-software/</link>
+    <pubDate>Thu, 01 Sep 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/panel-frontal-del-software/</guid>
+    <description><![CDATA[Una vez más me encuentro ante el desafío de armar un panel para un programa de análisis de datos, hecho en Python. Lo ideal sería trabajar con lineas de comandos y no tener que estar lidiando con menúes, botones y areas de graficación, pero sería impractico para los usuarios a quienes está destinado el programa. Así que nuevamente tengo que rastrear cómo se arma una pantalla con todas estas cosas.]]></description>
 </item>
 <item>
     <title>Diccionario de funciones</title>
-    <link>http://www.certezasdudosas.com/2015-12-11-diccionario-de-funciones/</link>
-    <pubDate>Fri, 11 Dec 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2015-12-11-diccionario-de-funciones/</guid>
+    <link>http://www.certezasdudosas.com/diccionario-de-funciones/</link>
+    <pubDate>Fri, 11 Dec 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/diccionario-de-funciones/</guid>
     <description><![CDATA[Diccionario de funciones]]></description>
 </item>
 <item>
     <title>Python en Emacs y otros atajos</title>
-    <link>http://www.certezasdudosas.com/2015-09-24-python-en-emacs/</link>
-    <pubDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2015-09-24-python-en-emacs/</guid>
+    <link>http://www.certezasdudosas.com/python-en-emacs-y-otros-atajos/</link>
+    <pubDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/python-en-emacs-y-otros-atajos/</guid>
     <description><![CDATA[Python en Emacs y otros atajos]]></description>
 </item>
 <item>
     <title>Diccionarios en Python</title>
-    <link>http://www.certezasdudosas.com/2014-10-23-diccionarios-en-python/</link>
-    <pubDate>Thu, 23 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-10-23-diccionarios-en-python/</guid>
+    <link>http://www.certezasdudosas.com/diccionarios-en-python/</link>
+    <pubDate>Thu, 23 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/diccionarios-en-python/</guid>
     <description><![CDATA[Diccionarios en Python]]></description>
 </item>
 <item>
     <title>Listas en Python</title>
-    <link>http://www.certezasdudosas.com/2014-10-15-listas-en-python/</link>
-    <pubDate>Wed, 15 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-10-15-listas-en-python/</guid>
+    <link>http://www.certezasdudosas.com/listas-en-python/</link>
+    <pubDate>Wed, 15 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/listas-en-python/</guid>
     <description><![CDATA[Listas en Python]]></description>
 </item>
 <item>
     <title>Autoaprendizajes</title>
-    <link>http://www.certezasdudosas.com/2014-10-05-autoaprendizajes/</link>
-    <pubDate>Fri, 10 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-10-05-autoaprendizajes/</guid>
+    <link>http://www.certezasdudosas.com/autoaprendizajes/</link>
+    <pubDate>Fri, 10 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/autoaprendizajes/</guid>
     <description><![CDATA[Aprendizajes autodidactas]]></description>
 </item>
 <item>
     <title>Apuntes sobre matplotlib</title>
-    <link>http://www.certezasdudosas.com/2014-08-03-apuntes-matplotlib/</link>
-    <pubDate>Sun, 03 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-08-03-apuntes-matplotlib/</guid>
+    <link>http://www.certezasdudosas.com/apuntes-sobre-matplotlib/</link>
+    <pubDate>Sun, 03 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/apuntes-sobre-matplotlib/</guid>
     <description><![CDATA[Apuntes sobre graficación en Python con matplotlib]]></description>
 </item>
 <item>
     <title>Comunicacion USB con mbed</title>
-    <link>http://www.certezasdudosas.com/2014-07-31-comunicacion-usb-con-mbed/</link>
-    <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-07-31-comunicacion-usb-con-mbed/</guid>
+    <link>http://www.certezasdudosas.com/comunicacion-usb-con-mbed/</link>
+    <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/comunicacion-usb-con-mbed/</guid>
     <description><![CDATA[Intento de comunicacion usb con la placa kinetis frdm-kl25z mediante mbed y python.]]></description>
 </item>
 </channel>

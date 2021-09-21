@@ -5,14 +5,14 @@
         <description>mbed - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/mbed/" rel="self" type="application/rss+xml" /><item>
     <title>Uso de MBED desde la linea de comandos (CLI)</title>
-    <link>http://www.certezasdudosas.com/2016-11-04-mbed-cli/</link>
-    <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-11-04-mbed-cli/</guid>
-    <description><![CDATA[Uso de MBED desde la linea de comandos (CLI)]]></description>
+    <link>http://www.certezasdudosas.com/uso-de-mbed-desde-la-linea-de-comandos-cli/</link>
+    <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/uso-de-mbed-desde-la-linea-de-comandos-cli/</guid>
+    <description><![CDATA[Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora usaba la versión online del compilador con una FRDM-KL25Z, que es una (de las primeras en funcionar con MBED). El problema del compilador online no es que haya que estar conectado a la web (lo vengo usando desde hace mucho y nunca tuve problemas de acceso) sino sus limitadas prestaciones como editor de texto. Por ejemplo, no encontré manera de comentar y des-comentar múltiples lineas de código simultaneamente, algo que necesito hacer con frecuencia.]]></description>
 </item>
 <item>
     <title>Comunicacion USB con mbed</title>
-    <link>http://www.certezasdudosas.com/2014-07-31-comunicacion-usb-con-mbed/</link>
-    <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-07-31-comunicacion-usb-con-mbed/</guid>
+    <link>http://www.certezasdudosas.com/comunicacion-usb-con-mbed/</link>
+    <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/comunicacion-usb-con-mbed/</guid>
     <description><![CDATA[Intento de comunicacion usb con la placa kinetis frdm-kl25z mediante mbed y python.]]></description>
 </item>
 </channel>

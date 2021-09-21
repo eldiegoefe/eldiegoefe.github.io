@@ -5,16 +5,16 @@
         <description>pyqt - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/pyqt/" rel="self" type="application/rss+xml" /><item>
     <title>Instalacion de PyQt</title>
-    <link>http://www.certezasdudosas.com/2018-04-19-instalacion-de-pyqt/</link>
-    <pubDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2018-04-19-instalacion-de-pyqt/</guid>
+    <link>http://www.certezasdudosas.com/instalacion-de-pyqt/</link>
+    <pubDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/instalacion-de-pyqt/</guid>
     <description><![CDATA[Este es un post-ayudamemoria para la instalación de PyQt en un entorno virtual. Tengo la impresión de que lo escribí ya en el blog pero no lo encuentro ni con los buscadores más buscados (ag, ack, pt):
   Activar el virtualenv, asumiendo que están instalados pyenv y pyenv-virtualenvs (también tendría que agregar el tutorial para usarlos, pero es demasiado para el propósito del día de hoy, aunque &quot;hoy&quot; no tiene sentido para un texto perdido en la web).]]></description>
 </item>
 <item>
     <title>Panel frontal del software</title>
-    <link>http://www.certezasdudosas.com/2016-09-30-panel-frontal-del-software/</link>
-    <pubDate>Thu, 01 Sep 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-09-30-panel-frontal-del-software/</guid>
-    <description><![CDATA[Panel frontal del software]]></description>
+    <link>http://www.certezasdudosas.com/panel-frontal-del-software/</link>
+    <pubDate>Thu, 01 Sep 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/panel-frontal-del-software/</guid>
+    <description><![CDATA[Una vez más me encuentro ante el desafío de armar un panel para un programa de análisis de datos, hecho en Python. Lo ideal sería trabajar con lineas de comandos y no tener que estar lidiando con menúes, botones y areas de graficación, pero sería impractico para los usuarios a quienes está destinado el programa. Así que nuevamente tengo que rastrear cómo se arma una pantalla con todas estas cosas.]]></description>
 </item>
 </channel>
 </rss>

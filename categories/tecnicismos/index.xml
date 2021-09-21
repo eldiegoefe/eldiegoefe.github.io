@@ -5,67 +5,71 @@
         <description>tecnicismos - Categoría - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/categories/tecnicismos/" rel="self" type="application/rss+xml" /><item>
     <title>Instalacion de PyQt</title>
-    <link>http://www.certezasdudosas.com/2018-04-19-instalacion-de-pyqt/</link>
-    <pubDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2018-04-19-instalacion-de-pyqt/</guid>
+    <link>http://www.certezasdudosas.com/instalacion-de-pyqt/</link>
+    <pubDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/instalacion-de-pyqt/</guid>
     <description><![CDATA[Este es un post-ayudamemoria para la instalación de PyQt en un entorno virtual. Tengo la impresión de que lo escribí ya en el blog pero no lo encuentro ni con los buscadores más buscados (ag, ack, pt):
   Activar el virtualenv, asumiendo que están instalados pyenv y pyenv-virtualenvs (también tendría que agregar el tutorial para usarlos, pero es demasiado para el propósito del día de hoy, aunque &quot;hoy&quot; no tiene sentido para un texto perdido en la web).]]></description>
 </item>
 <item>
     <title>Instalación y configuración de Emacs</title>
-    <link>http://www.certezasdudosas.com/2017-12-01-instalacion-y-configuracion-de-emacs/</link>
-    <pubDate>Fri, 01 Dec 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2017-12-01-instalacion-y-configuracion-de-emacs/</guid>
+    <link>http://www.certezasdudosas.com/instalaci%C3%B3n-y-configuraci%C3%B3n-de-emacs/</link>
+    <pubDate>Fri, 01 Dec 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/instalaci%C3%B3n-y-configuraci%C3%B3n-de-emacs/</guid>
     <description><![CDATA[Estos son los pasos que sigo cuando instalo Emacs y Spacemacs, junto con el archivo de configuración que guardo en un repositorio privado.
 Paso 1: Modos de instalación Opción A: repositorio con la última versión de Emacs Esta es la manera más facil de instalación, para un un sistema descendiente de Debian (Ubuntu, Mint, etc).
 1 2 3  $ sudo add-apt-repository ppa:ubuntu-elisp/ppa $ sudo apt-get update $ sudo apt-get install emacs-snapshot emacs-snapshot-el   Opción B: compilación desde un terminal Bajar la versión a instalar desde http://ftp.]]></description>
 </item>
 <item>
     <title>Bienvenidos a Scheme</title>
-    <link>http://www.certezasdudosas.com/2017-11-28-scheme/</link>
-    <pubDate>Tue, 28 Nov 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2017-11-28-scheme/</guid>
+    <link>http://www.certezasdudosas.com/bienvenidos-a-scheme/</link>
+    <pubDate>Tue, 28 Nov 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/bienvenidos-a-scheme/</guid>
     <description><![CDATA[Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado para simular la inteligencia humana, creado por John McCarthy en la década del 50.]]></description>
 </item>
 <item>
     <title>Peso de los directorios en Linux</title>
-    <link>http://www.certezasdudosas.com/2017-09-03-tamanio-de-directorios/</link>
-    <pubDate>Sun, 03 Sep 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2017-09-03-tamanio-de-directorios/</guid>
+    <link>http://www.certezasdudosas.com/peso-de-los-directorios-en-linux/</link>
+    <pubDate>Sun, 03 Sep 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/peso-de-los-directorios-en-linux/</guid>
     <description><![CDATA[Se me está por llenar el disco rígido externo, donde tengo fotos, películas, documentos y demás. Un terabyte de porquerías, pero nada que quiera borrar. ¿O sí? Ir directorio por directorio es tedioso y puede volverse una tarea abrumadora si aparecen muchos subdirectorios anidados con incierto contenido dentro de los mismos.
 Se puede usar el comando du para obtener el tamaño de los directorios y encadenarlo con un sort para que el resultado aparezca ordenado por el tamaño de los mismos:]]></description>
 </item>
 <item>
     <title>Backup con RSync</title>
-    <link>http://www.certezasdudosas.com/2017-06-21-backup-con-rsync/</link>
-    <pubDate>Wed, 21 Jun 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2017-06-21-backup-con-rsync/</guid>
+    <link>http://www.certezasdudosas.com/backup-con-rsync/</link>
+    <pubDate>Wed, 21 Jun 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/backup-con-rsync/</guid>
     <description><![CDATA[RSync es un programa que permite copiar archivos, pero a diferencia de un copiado común, compara los archivos de origen y destino y sólo realiza la transferencia de la diferencia entre ambos: si son iguales no transfiere nada, si es un archivo de texto y se agregó sólo un caracter, RSync envía unicamente ese caracter y reconstruye el archivo en el destino para que ambas copias sean exactamente iguales. De este modo el procedimiento es más eficiente, en particular si se copian archivos grandes.]]></description>
 </item>
 <item>
     <title>FreeCAD</title>
-    <link>http://www.certezasdudosas.com/2016-11-24-freecad/</link>
-    <pubDate>Fri, 25 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-11-24-freecad/</guid>
-    <description><![CDATA[FreeCAD]]></description>
-</item>
-<item>
-    <title>Flask desde Emacs</title>
-    <link>http://www.certezasdudosas.com/2016-11-17-probando-flask/</link>
-    <pubDate>Thu, 17 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-11-17-probando-flask/</guid>
-    <description><![CDATA[Flask desde Emacs]]></description>
+    <link>http://www.certezasdudosas.com/freecad/</link>
+    <pubDate>Fri, 25 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/freecad/</guid>
+    <description><![CDATA[Para proyectar diseños en madera los carpinteros de YouTube suelen usar SketchUp, que es un software de Google que sólo funciona en Windows y Mac. Busqué algún programa que pueda usar con el mismo fin pero en Linux, y encontré FreeCAD. Estoy siguiendo un buen tutorial en castellano en el canal de Juan Gonzalez Gomez, aca pueden ver el primer video de la serie:
+  Algunos apuntes iniciales:
+ Luego de iniciar un nuevo proyecto seleccionar el espacio de trabajo Part.]]></description>
 </item>
 <item>
     <title>Uso de MBED desde la linea de comandos (CLI)</title>
-    <link>http://www.certezasdudosas.com/2016-11-04-mbed-cli/</link>
-    <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-11-04-mbed-cli/</guid>
-    <description><![CDATA[Uso de MBED desde la linea de comandos (CLI)]]></description>
+    <link>http://www.certezasdudosas.com/uso-de-mbed-desde-la-linea-de-comandos-cli/</link>
+    <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/uso-de-mbed-desde-la-linea-de-comandos-cli/</guid>
+    <description><![CDATA[Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora usaba la versión online del compilador con una FRDM-KL25Z, que es una (de las primeras en funcionar con MBED). El problema del compilador online no es que haya que estar conectado a la web (lo vengo usando desde hace mucho y nunca tuve problemas de acceso) sino sus limitadas prestaciones como editor de texto. Por ejemplo, no encontré manera de comentar y des-comentar múltiples lineas de código simultaneamente, algo que necesito hacer con frecuencia.]]></description>
 </item>
 <item>
     <title>Panel frontal del software</title>
-    <link>http://www.certezasdudosas.com/2016-09-30-panel-frontal-del-software/</link>
-    <pubDate>Thu, 01 Sep 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-09-30-panel-frontal-del-software/</guid>
-    <description><![CDATA[Panel frontal del software]]></description>
+    <link>http://www.certezasdudosas.com/panel-frontal-del-software/</link>
+    <pubDate>Thu, 01 Sep 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/panel-frontal-del-software/</guid>
+    <description><![CDATA[Una vez más me encuentro ante el desafío de armar un panel para un programa de análisis de datos, hecho en Python. Lo ideal sería trabajar con lineas de comandos y no tener que estar lidiando con menúes, botones y areas de graficación, pero sería impractico para los usuarios a quienes está destinado el programa. Así que nuevamente tengo que rastrear cómo se arma una pantalla con todas estas cosas.]]></description>
 </item>
 <item>
     <title>Más sobre agenda en org-mode</title>
-    <link>http://www.certezasdudosas.com/2016-01-06-mas-sobre-agenda-en-org-mode/</link>
-    <pubDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-01-06-mas-sobre-agenda-en-org-mode/</guid>
-    <description><![CDATA[Más sobre agenda en org-mode]]></description>
+    <link>http://www.certezasdudosas.com/m%C3%A1s-sobre-agenda-en-org-mode/</link>
+    <pubDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/m%C3%A1s-sobre-agenda-en-org-mode/</guid>
+    <description><![CDATA[Para el uso de la agenda en org-mode, voy a listar las cosas que uso con frecuencia. Además, en este link hay un resumen de comandos de org-mode muy completo.
+Inserción Atajos de teclado &quot;convencionales&quot; de org-mode (funcionan con Spacemacs).
+ capturar una nota en el inbox: C-c c links: C-c C-l etiqueta de To-Do (empezado, hibernando, completado, etc): C-c C-t schedule: C-c C-s deadline: C-c C-d  Para agregar:]]></description>
+</item>
+<item>
+    <title>Diccionario de funciones</title>
+    <link>http://www.certezasdudosas.com/diccionario-de-funciones/</link>
+    <pubDate>Fri, 11 Dec 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/diccionario-de-funciones/</guid>
+    <description><![CDATA[Diccionario de funciones]]></description>
 </item>
 </channel>
 </rss>

@@ -5,65 +5,67 @@
         <description>emacs - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 01 Dec 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/emacs/" rel="self" type="application/rss+xml" /><item>
     <title>Instalación y configuración de Emacs</title>
-    <link>http://www.certezasdudosas.com/2017-12-01-instalacion-y-configuracion-de-emacs/</link>
-    <pubDate>Fri, 01 Dec 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2017-12-01-instalacion-y-configuracion-de-emacs/</guid>
+    <link>http://www.certezasdudosas.com/instalaci%C3%B3n-y-configuraci%C3%B3n-de-emacs/</link>
+    <pubDate>Fri, 01 Dec 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/instalaci%C3%B3n-y-configuraci%C3%B3n-de-emacs/</guid>
     <description><![CDATA[Estos son los pasos que sigo cuando instalo Emacs y Spacemacs, junto con el archivo de configuración que guardo en un repositorio privado.
 Paso 1: Modos de instalación Opción A: repositorio con la última versión de Emacs Esta es la manera más facil de instalación, para un un sistema descendiente de Debian (Ubuntu, Mint, etc).
 1 2 3  $ sudo add-apt-repository ppa:ubuntu-elisp/ppa $ sudo apt-get update $ sudo apt-get install emacs-snapshot emacs-snapshot-el   Opción B: compilación desde un terminal Bajar la versión a instalar desde http://ftp.]]></description>
 </item>
 <item>
-    <title>Flask desde Emacs</title>
-    <link>http://www.certezasdudosas.com/2016-11-17-probando-flask/</link>
-    <pubDate>Thu, 17 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-11-17-probando-flask/</guid>
-    <description><![CDATA[Flask desde Emacs]]></description>
-</item>
-<item>
     <title>Uso de MBED desde la linea de comandos (CLI)</title>
-    <link>http://www.certezasdudosas.com/2016-11-04-mbed-cli/</link>
-    <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-11-04-mbed-cli/</guid>
-    <description><![CDATA[Uso de MBED desde la linea de comandos (CLI)]]></description>
+    <link>http://www.certezasdudosas.com/uso-de-mbed-desde-la-linea-de-comandos-cli/</link>
+    <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/uso-de-mbed-desde-la-linea-de-comandos-cli/</guid>
+    <description><![CDATA[Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora usaba la versión online del compilador con una FRDM-KL25Z, que es una (de las primeras en funcionar con MBED). El problema del compilador online no es que haya que estar conectado a la web (lo vengo usando desde hace mucho y nunca tuve problemas de acceso) sino sus limitadas prestaciones como editor de texto. Por ejemplo, no encontré manera de comentar y des-comentar múltiples lineas de código simultaneamente, algo que necesito hacer con frecuencia.]]></description>
 </item>
 <item>
     <title>Más sobre agenda en org-mode</title>
-    <link>http://www.certezasdudosas.com/2016-01-06-mas-sobre-agenda-en-org-mode/</link>
-    <pubDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2016-01-06-mas-sobre-agenda-en-org-mode/</guid>
-    <description><![CDATA[Más sobre agenda en org-mode]]></description>
+    <link>http://www.certezasdudosas.com/m%C3%A1s-sobre-agenda-en-org-mode/</link>
+    <pubDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/m%C3%A1s-sobre-agenda-en-org-mode/</guid>
+    <description><![CDATA[Para el uso de la agenda en org-mode, voy a listar las cosas que uso con frecuencia. Además, en este link hay un resumen de comandos de org-mode muy completo.
+Inserción Atajos de teclado &quot;convencionales&quot; de org-mode (funcionan con Spacemacs).
+ capturar una nota en el inbox: C-c c links: C-c C-l etiqueta de To-Do (empezado, hibernando, completado, etc): C-c C-t schedule: C-c C-s deadline: C-c C-d  Para agregar:]]></description>
 </item>
 <item>
     <title>Python en Emacs y otros atajos</title>
-    <link>http://www.certezasdudosas.com/2015-09-24-python-en-emacs/</link>
-    <pubDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2015-09-24-python-en-emacs/</guid>
+    <link>http://www.certezasdudosas.com/python-en-emacs-y-otros-atajos/</link>
+    <pubDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/python-en-emacs-y-otros-atajos/</guid>
     <description><![CDATA[Python en Emacs y otros atajos]]></description>
 </item>
 <item>
     <title>Búsquedas con isearch en Emacs</title>
-    <link>http://www.certezasdudosas.com/2015-05-27-busquedas-en-emacs/</link>
-    <pubDate>Wed, 27 May 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2015-05-27-busquedas-en-emacs/</guid>
+    <link>http://www.certezasdudosas.com/b%C3%BAsquedas-con-isearch-en-emacs/</link>
+    <pubDate>Wed, 27 May 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/b%C3%BAsquedas-con-isearch-en-emacs/</guid>
     <description><![CDATA[Búsquedas con isearch en Emacs]]></description>
 </item>
 <item>
     <title>Sugerencia respecto de los tutoriales de Emacs</title>
-    <link>http://www.certezasdudosas.com/2015-05-18-sugerencia-respecto-de-los-tutoriales-de-emacs/</link>
-    <pubDate>Mon, 18 May 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2015-05-18-sugerencia-respecto-de-los-tutoriales-de-emacs/</guid>
+    <link>http://www.certezasdudosas.com/sugerencia-respecto-de-los-tutoriales-de-emacs/</link>
+    <pubDate>Mon, 18 May 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/sugerencia-respecto-de-los-tutoriales-de-emacs/</guid>
     <description><![CDATA[Sugerencia respecto de los tutoriales de Emacs]]></description>
 </item>
 <item>
     <title>Suggestion about Emacs tutorials</title>
-    <link>http://www.certezasdudosas.com/2015-05-18-suggestion-about-emacs-tutorials/</link>
-    <pubDate>Mon, 18 May 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2015-05-18-suggestion-about-emacs-tutorials/</guid>
+    <link>http://www.certezasdudosas.com/suggestion-about-emacs-tutorials/</link>
+    <pubDate>Mon, 18 May 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/suggestion-about-emacs-tutorials/</guid>
     <description><![CDATA[Suggestion about Emacs tutorials]]></description>
 </item>
 <item>
     <title>Agenda en Emacs y OrgMode</title>
-    <link>http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/</link>
-    <pubDate>Mon, 29 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-12-29-agenda-en-emacs-y-org-mode/</guid>
+    <link>http://www.certezasdudosas.com/agenda-en-emacs-y-orgmode/</link>
+    <pubDate>Mon, 29 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/agenda-en-emacs-y-orgmode/</guid>
     <description><![CDATA[Agenda en Emacs y OrgMode]]></description>
 </item>
 <item>
     <title>Comandante Emacs (dired-mode)</title>
-    <link>http://www.certezasdudosas.com/2014-12-26-comandante-emacs/</link>
-    <pubDate>Fri, 26 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/2014-12-26-comandante-emacs/</guid>
+    <link>http://www.certezasdudosas.com/comandante-emacs-dired-mode/</link>
+    <pubDate>Fri, 26 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/comandante-emacs-dired-mode/</guid>
     <description><![CDATA[Manejo de archivos en Emacs (dired-mode)]]></description>
+</item>
+<item>
+    <title>Pandoc, conversión de org-mode a restructuredtext</title>
+    <link>http://www.certezasdudosas.com/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
+    <pubDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
+    <description><![CDATA[Pandoc, conversión de org-mode a restructu]]></description>
 </item>
 </channel>
 </rss>
