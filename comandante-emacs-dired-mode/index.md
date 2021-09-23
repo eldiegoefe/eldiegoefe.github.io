@@ -1,15 +1,13 @@
 # Comandante Emacs (dired-mode)
 
 
-
 Estuve un rato largo (¡horas!) viendo cómo usar el modo \"dired\" que tiene
 Emacs para el manejo de archivos, porque quiero usarlo al modo del viejo
 Comandante Norton (y sus clones: Total Commander en Window\$, Krusader
 especialmente para KDE, etc). Es decir: dos paneles que sirven de inicio y de
 destino para poder copiar y mover archivos, crear directorios, navegarlos, etc.
 
-![Buffer mostrando un directorio con
-dired-mode](https://live.staticflickr.com/7526/15668751884_b2fa8f9d5b_c.jpg)
+{{< figure src="https://live.staticflickr.com/7526/15668751884_b2fa8f9d5b_c.jpg" title="Buffer mostrando un directorio con dired-mode" >}}
 
 Lo primero que hice fue instalar un paquete que amplía las opciones
 disponibles llamado dired+ (dired plus) y después instalé otra extensión
@@ -35,8 +33,7 @@ siguiente), pero parece que por defecto se activa el ocultamiento de
 toda otra información. Hay que ejecutar dired-hide-details-mode para que
 se vea toda la info del archivo, incluyendo fecha, permisos, etc.
 
-![Buffer con dired+ suprimiendo detalles de los
-archivos](https://farm8.staticflickr.com/7580/16290334112_66dd0af6b1_o.png)
+{{< figure src="https://farm8.staticflickr.com/7580/16290334112_66dd0af6b1_o.png" title="Buffer con dired+ suprimiendo detalles de los archivos" >}}
 
 Por ahora no encuentro el modo de colorear distinto a las directorios y
 a los archivos con distinta extensión (observación al 11/2020: en Doom
@@ -76,8 +73,7 @@ directorios como origen y destino, sin que haga falta teclear nada. En
 este caso el ordenamiento es por nombre, así que se ven mezclados los
 archivos (visibles y ocultos) con los directorios.
 
-![Dos buffers coloridos con
-dired+.](https://farm8.staticflickr.com/7527/16105034929_742a1aeac2_b.jpg)
+{{< figure src="https://farm8.staticflickr.com/7527/16105034929_742a1aeac2_b.jpg" title="Dos buffers coloridos con dired+." >}}
 
 Edición del nombre de archivos y directorios
 

@@ -9,9 +9,10 @@ procedimiento de configuración básica, cuando digiKam se ejecuta por primera
 vez. Probablemente este álbum se llame \"/home/nombreusuario/Imágenes\", como en
 la figura siguiente.
 
-![Al iniciar el uso de digiKam hay probablemente una sola colección (y
-un mensaje de bienvenida muy informativo pero medio fiero, con fondo
-azul).](https://farm9.staticflickr.com/8569/15667544713_c7b33ac69f_h.jpg)
+**Imagen 1**: al iniciar el uso de digiKam hay probablemente una sola colección
+(y un mensaje de bienvenida muy informativo pero medio fiero, con fondo azul).
+
+{{< figure src="https://farm9.staticflickr.com/8569/15667544713_c7b33ac69f_h.jpg" title="Imagen 1" width=75% >}}
 
 Para crear un álbum las instrucciones son sencillas: hay que ir al menú
 *Album* y elegir *Nuevo (Ctrl+N)\...*, o también click con el botón
@@ -26,11 +27,12 @@ tratamos con el ratón vemos que la opción tampoco está disponible en el
 menú contextual (sólo aparece una opción \--Álbum\--que en realidad es
 el título de este menú contextual):
 
-![Un detalle ampliado de la ventana anterior. No se encuentra la opción,
-en el menú contextual, de agregar un nuevo álbum. Al hacer click derecho
-sobre Álbumes aparece el menú contextual de la figura, que sólo posee un
-título (Álbumes). ¡Qué difícil es explicar las cosas si todo se llama
-igual!](https://farm9.staticflickr.com/8683/16101480319_efb201162b_o.png)
+**Imagen 2**: Un detalle ampliado de la ventana anterior. No se encuentra la
+opción, en el menú contextual, de agregar un nuevo álbum. Al hacer click derecho
+sobre Álbumes aparece el menú contextual de la figura, que sólo posee un título
+(Álbumes). ¡Qué difícil es explicar las cosas si todo se llama igual!
+
+{{< figure src="https://farm9.staticflickr.com/8683/16101480319_efb201162b_o.png" title="Imagen 2" >}}
 
 En digiKam hay una diferencia de nomenclatura entre **Colecciones** y
 **Álbumes**, que no se explícita (a la colección a veces la nombran como
@@ -59,10 +61,11 @@ dirigirse al menú \"Settings/Configure digiKam\...\" y allí, en el panel
 de la izquierda, seleccionar el segundo icono desde arriba: \"Temas\"
 (en inglés es \"Collections\").
 
-![Una sola colección existe inicialmente, la que se creó
-(inadvertidamente) cuando atravesamos la configuración inicial de
-digiKam, durante su primera
-corrida.](https://farm8.staticflickr.com/7469/15664846264_ac27f442ea_b.jpg)
+**Imagen 3: Una sola colección existe inicialmente, la que se creó
+(inadvertidamente) cuando atravesamos la configuración inicial de digiKam,
+durante su primera corrida.**
+
+{{< figure src="https://farm8.staticflickr.com/7469/15664846264_ac27f442ea_b.jpg" title="Imagen 3" >}}
 
 Obviamente hay que presionar el botón \"Añadir colección\". Por
 colecciones locales se refiere a aquellas que estén dentro del
@@ -74,24 +77,29 @@ red local. Aquí les muestro cómo queda este menú de configuración una
 vez creada la colección /home/fotografo/fotografias (que se sintetiza
 como \~/fotografias):
 
-![Configuración luego de haber añadido una colección (o \"álbum
-raíz\").](https://farm9.staticflickr.com/8595/16099911410_27dcbd2dea_b.jpg)
+**Imagen 4: Configuración luego de haber añadido una colección (o \"álbum
+raíz\").**
+
+{{< figure src="https://farm9.staticflickr.com/8595/16099911410_27dcbd2dea_b.jpg" title="Imagen 4" >}}
 
 Volvemos a la pantalla principal de digiKam y vemos que apareció la
 nueva colección (fotografias) y al hacer click derecho con el mouse
 vemos el menú contextual, ahora completo con la opción de crear nuevos
 álbumes (dependientes de esta colección).
 
-![Colección agregada y menú
-contextual.](https://farm8.staticflickr.com/7568/16101500609_2a2ede17e6_o.png)
+**Imagen 5: Colección agregada y menú contextual.**
+
+{{< figure src="https://farm8.staticflickr.com/7568/16101500609_2a2ede17e6_o.png" title="Imagen 5" >}}
 
 A continuación les muestro otra pantalla con algunos álbumes de muestra.
 
-![Álbumes y fotografías de ejemplo. Si abren el administrador de
+**Imagen 6: Álbumes y fotografías de ejemplo. Si abren el administrador de
 archivos (que depende de la distribución de linux y el escritorio que
 usen, en KDE suele ser dolphin) verán una estructura idéntica de
 directorios: cada álbum es una carpeta
-\"física\".](https://farm9.staticflickr.com/8607/16286745132_f1665fa0b7_h.jpg)
+\"física\".**
+
+{{< figure src="https://farm9.staticflickr.com/8607/16286745132_f1665fa0b7_h.jpg" title="Imagen 6" >}}
 
 ## Cambio de idioma de digiKam
 

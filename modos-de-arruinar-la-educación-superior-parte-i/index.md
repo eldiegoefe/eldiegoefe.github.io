@@ -1,8 +1,9 @@
 # Modos de arruinar la educación superior (Parte I)
 
 
-(Esto fue un mail al foro UNER Debate, tendría que incluir todas las
-respuestas...)
+Recuento acerca de la insatisfacción por la enseñanza en la universidad (Parte
+I). (*Esto fue un mail al foro UNER Debate, tendría que incluir todas las
+respuestas\...*)
 
 Hola. Me resulta raro escribir después de tanto tiempo. En vez de convocar a
 construcciones gremiales postergadas o entretenerme con las ruinas del

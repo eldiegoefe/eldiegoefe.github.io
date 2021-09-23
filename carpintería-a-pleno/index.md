@@ -1,6 +1,7 @@
 # Carpintería a pleno
 
 
+
 Aunque actualmente no tengo espacio para hacer cosas con madera, me puse a
 revisar enlaces que guardé sobre carpintería, porque en unos meses sí voy a
 disponer de herramientas y lugar. La web, y especialmente YouTube, me han

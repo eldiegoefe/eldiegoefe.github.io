@@ -7,7 +7,8 @@
     <title>Instalacion de Linux</title>
     <link>http://www.certezasdudosas.com/instalacion-de-linux/</link>
     <pubDate>Wed, 06 Aug 2014 11:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/instalacion-de-linux/</guid>
-    <description><![CDATA[Sobre la instalación de Linux Mint]]></description>
+    <description><![CDATA[No es difícil encontrar la información para la instalación de Linux, pero hay distintas maneras y quiero dejar registrada la forma en que lo estoy haciendo actualmente. Los pasos que sigo son:
+ Bajar el ISO (el archivo imagen) de la distribución que quiero instalar, en este caso es Linux Mint 17. Formatear en FAT32 el pendrive mediante el programa GParted. Con el programa UNETBOOTIN se pasa la imagen al pendrive (hay que elegir el archivo ISO como fuente).]]></description>
 </item>
 </channel>
 </rss>

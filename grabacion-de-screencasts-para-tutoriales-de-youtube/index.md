@@ -1,5 +1,6 @@
 # Grabacion de screencasts para tutoriales de YouTube
 
+
 **Actualización (Feb-2017)**: es muy facil usar el programa OBS Studio para grabar en la computadora tanto la pantalla como la webcam, micrófono, etc. Funciona en Linux, Window$ y Mac.
 
 ------------------------------------------------------------------------

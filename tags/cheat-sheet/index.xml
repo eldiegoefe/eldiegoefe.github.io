@@ -7,21 +7,22 @@
     <title>Más locura con Git</title>
     <link>http://www.certezasdudosas.com/m%C3%A1s-locura-con-git/</link>
     <pubDate>Wed, 08 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/m%C3%A1s-locura-con-git/</guid>
-    <description><![CDATA[Más locura con Git]]></description>
+    <description><![CDATA[Hay un lindo tutorial interactivo para aprender a usar Git este Carpentry, recomendado desde el GitHub de Software Carpentry. Me gustó también el video Git for ages 4 and up (no entendí nada la presentación del expositor, pero el resto sí).
+Al sitio interactivo llegué desde Astropy, en particular de la página How to make a code contribution, que parece que vale la pena leer, porque explica el workflow que utilizan, cosa que no había encontrado hasta ahora (que te expliquen cómo es la secuencia de acciones de un trabajo, su lógica, los trucos, puede ahorrar muchos problemas asociados con la inexperiencia).]]></description>
 </item>
 <item>
     <title>Comandos de Emacs y Spacemacs para recordar</title>
     <link>http://www.certezasdudosas.com/comandos-de-emacs-y-spacemacs-para-recordar/</link>
     <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/comandos-de-emacs-y-spacemacs-para-recordar/</guid>
-    <description><![CDATA[Comandos de Emacs y Spacemacs para recordar]]></description>
+    <description><![CDATA[Yasnippets / Company En la documentación de Spacemacs están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual).
+ reemplaza la clave previa al punto por el contenido del snippet correspondiente: M-/  Búsqueda La búsqueda habitual con i-search (C-s) se potencia al instalar swiper, que ofrece un listado de las lineas del documento donde se encuentran los resultados de la búsqueda.]]></description>
 </item>
 <item>
     <title>Usando control de versiones</title>
     <link>http://www.certezasdudosas.com/usando-control-de-versiones/</link>
     <pubDate>Sun, 09 Feb 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/usando-control-de-versiones/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2014/control-de-versiones.png" referrerpolicy="no-referrer">
-            </div>Mi ingreso al club del control de versiones]]></description>
+    <description><![CDATA[(Editado: empecé a traducir un buen tutorial de Git y lo pueden ver en este nuevo post
+El año pasado conocí algo que ya se había cruzado en mi camino y no me había dado cuenta. Una necesidad lo requería: miles de versiones del mismo archivo con el nombre evolucionando con rastros de racionalidad pero en definitiva impidiendo saber si, tras dos o tres días de ausencia, me encontraba trabajando sobre la última versión o si la que decía &quot;ultima final para imprimir final b&quot; era realmente la que debía utilizar.]]></description>
 </item>
 </channel>
 </rss>

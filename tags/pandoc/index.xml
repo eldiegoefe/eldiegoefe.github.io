@@ -7,7 +7,8 @@
     <title>Pandoc, conversión de org-mode a restructuredtext</title>
     <link>http://www.certezasdudosas.com/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
     <pubDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
-    <description><![CDATA[Pandoc, conversión de org-mode a restructu]]></description>
+    <description><![CDATA[Pandoc es un software para hacer conversión de archivos de texto entre distintos lenguajes de markup. Me viene bien probarlo porque me gustaría escribir mis entradas del blog desde org-mode (que uso con mucha frecuencia) y obtener el mismo texto en versión restructuredText, que es el formato en el que escribo el blog (con Pelican).
+La instalación de Pandoc requirió un pequeño ajuste respecto de lo habitual en Manjaro, ya que el programa no estaba disponible desde los repositorios que vienen por defecto.]]></description>
 </item>
 </channel>
 </rss>

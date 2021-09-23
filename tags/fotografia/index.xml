@@ -15,19 +15,19 @@ En el Parque Urquiza de Paraná venden insumos para la grasificación personal. 
     <title>Molestos clicks del mouse (digiKam tips)</title>
     <link>http://www.certezasdudosas.com/molestos-clicks-del-mouse-digikam-tips/</link>
     <pubDate>Fri, 16 Jan 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/molestos-clicks-del-mouse-digikam-tips/</guid>
-    <description><![CDATA[Molestos clicks del mouse (digiKam tips)]]></description>
+    <description><![CDATA[Usar el mouse en digiKam puede producir caspa. Cada vez que hago un click para seleccionar un archivo abre la vista de previsualización (como al apretar F3). Este comportamiento no corresponde exclusivamente a digiKam, sino al escritorio (en mi caso KDE). Para solucionarlo (en KDE) hay que ir a Preferencias del Sistema y en la sección de Hardware entrar al panel de Dispositivos de Entrada. En la siguiente imagen puede verse el lugar donde seleccionar la opción: Una doble pulsación abre archivos y carpetas (una sola pulsación selecciona iconos).]]></description>
 </item>
 <item>
     <title>Crear colecciones y albumes en digiKam</title>
     <link>http://www.certezasdudosas.com/crear-colecciones-y-albumes-en-digikam/</link>
     <pubDate>Thu, 15 Jan 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/crear-colecciones-y-albumes-en-digikam/</guid>
-    <description><![CDATA[Crear colecciones y albumes en digiKam]]></description>
+    <description><![CDATA[Crear albumes en digiKam tiene un inconveniente que un usuario que intenta emplearlo descubre rápidamente. Es un detalle que no está bien documentado en los tutoriales que encontré en la web. El problema es el siguiente: sólo van a poder crear álbumes dentro del único álbum existente, el cual aparece tras el procedimiento de configuración básica, cuando digiKam se ejecuta por primera vez. Probablemente este álbum se llame &quot;/home/nombreusuario/Imágenes&quot;, como en la figura siguiente.]]></description>
 </item>
 <item>
     <title>Organizar una coleccion de fotos digitales</title>
     <link>http://www.certezasdudosas.com/organizar-una-coleccion-de-fotos-digitales/</link>
     <pubDate>Tue, 13 Jan 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/organizar-una-coleccion-de-fotos-digitales/</guid>
-    <description><![CDATA[Cómo organizar una coleccion de fotos digitales]]></description>
+    <description><![CDATA[La fotografía digital nos permite sacar millones de fotos sin gastar un peso en rollos, con cámaras fotográficas compactas y profesionales, teléfonos celulares y tablets. Esto que parece una ventaja puede volverse en contra si uno se vuelve el loco de la instantánea, porque los archivos se acumulan por montañas y esta abundancia supera toda posibilidad de encontrar las imágenes que merecen ser vistas de nuevo. Muchas veces te encontrás sacando varias fotos iguales o muy parecidas para después elegir la mejor, cosa que nunca sucede.]]></description>
 </item>
 </channel>
 </rss>

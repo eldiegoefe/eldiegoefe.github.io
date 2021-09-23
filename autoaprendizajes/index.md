@@ -29,8 +29,8 @@ Notebook](http://ipython.org/) (y encadenado con eso ahora descubrí el
 lenguaje [Julia](http://julialang.org/)). Aca pueden ver una imagen del
 IPython Notebook mientras lo usaba para un trabajo de Dosimetría.
 
-[![ventana del ipython notebook](https://farm8.staticflickr.com/7526/16105311107_68dd3d193b_b.jpg)](https://farm8.staticflickr.com/7526/16105311107_ddbb444a88_o.png)
-
+{{< figure src="https://farm8.staticflickr.com/7526/16105311107_68dd3d193b_b.jpg" title="ventana del ipython notebook" >}}
+   
 Hablando de lenguajes también empecé a ver algo de
 [LISP](http://es.wikipedia.org/wiki/Lisp) (el interés apareció cuando
 quise entender cómo configurar Emacs, sobre todo por esta [entrevista de

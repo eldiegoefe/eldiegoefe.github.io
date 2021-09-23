@@ -13,13 +13,14 @@
     <title>Clojure, nuevo entretenimiento</title>
     <link>http://www.certezasdudosas.com/clojure-nuevo-entretenimiento/</link>
     <pubDate>Thu, 27 Nov 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/clojure-nuevo-entretenimiento/</guid>
-    <description><![CDATA[Clojure, nuevo entretenimiento]]></description>
+    <description><![CDATA[En el mundo Emacs se menciona bastante el lenguaje Clojure, como un dialecto de Lisp que corre sobre el Java Virtual Machine, lo cual constituye para mi un dato casi completamente inutil, puesto que desconozco Java y su JVM. De cualquier manera, mientras continúo leyendo ANSI Common Lisp, me dieron ganas de probar, así que guardo aquí las instrucciones de instalación para usar Clojure con Emacs en Linux.
+La cuestión no es tan complicada, primero verificamos desde un terminal que Java está instalado:]]></description>
 </item>
 <item>
     <title>A punto para Lisp</title>
     <link>http://www.certezasdudosas.com/a-punto-para-lisp/</link>
     <pubDate>Wed, 13 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/a-punto-para-lisp/</guid>
-    <description><![CDATA[A punto para Lisp]]></description>
+    <description><![CDATA[Cuando empecé a leer Practical Common Lisp, de Peter Seibel, tras escuchar el reportaje de Sacha Chua a Bozhidar Batsov, tuve algunos inconvenientes para poder instalar Lisp en mi compu, hasta que encontré el tutorial Installing Common Lisp. Estas notas resumen la información del video (sus instrucciones se muestran en un entorno Windows mientras que mi transcripción es para Linux), para poder instalar un Lisp en cualquier máquina con Emacs:]]></description>
 </item>
 </channel>
 </rss>

@@ -7,7 +7,8 @@
     <title>Instalando IPython en Mageia</title>
     <link>http://www.certezasdudosas.com/instalando-ipython-en-mageia/</link>
     <pubDate>Fri, 22 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/instalando-ipython-en-mageia/</guid>
-    <description><![CDATA[Instalando IPython en Mageia]]></description>
+    <description><![CDATA[Para instalar IPython en Mageia, sin tener privilegios de root hay que cumplir con los siguientes pasos:
+ Contar con privilegios de root para poder correr el instalador Hay que instalar PIP Con PIP instalar IPython  Trabajar como root: Conviene agregar el usuario a la lista de usuarios con privilegios para ejecutar sudo. Las instrucciones están en Configuring sudo de Mageia. Históricamente en UNIX este es el grupo Wheels.]]></description>
 </item>
 </channel>
 </rss>

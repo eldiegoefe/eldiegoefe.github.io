@@ -15,19 +15,23 @@ Inserción Atajos de teclado &quot;convencionales&quot; de org-mode (funcionan c
     <title>Agenda en Emacs y OrgMode</title>
     <link>http://www.certezasdudosas.com/agenda-en-emacs-y-orgmode/</link>
     <pubDate>Mon, 29 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/agenda-en-emacs-y-orgmode/</guid>
-    <description><![CDATA[Agenda en Emacs y OrgMode]]></description>
+    <description><![CDATA[Configuracion En el archivo de configuracion de Emacs hay que incluir varios elementos para poder usar la agenda adecuadamente.
+Se pueden seleccionar individualmente los archivos que forman parte de la agenda:
+1 2  (setq org-agenda-files (list &#34;~/mis-archivos-org/apuntes-varios.org&#34; &#34;~/mis-archivos-org/acomodar.org&#34;))   O sino utilizar un directorio completo:
+1  (setq org-agenda-files &#39;(&#34;~/mis-archivos-org&#34;))   Se puede utilizar un archivo en particular para ir anotando al vuelo las ideas que se nos ocurren.]]></description>
 </item>
 <item>
     <title>Pandoc, conversión de org-mode a restructuredtext</title>
     <link>http://www.certezasdudosas.com/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
     <pubDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
-    <description><![CDATA[Pandoc, conversión de org-mode a restructu]]></description>
+    <description><![CDATA[Pandoc es un software para hacer conversión de archivos de texto entre distintos lenguajes de markup. Me viene bien probarlo porque me gustaría escribir mis entradas del blog desde org-mode (que uso con mucha frecuencia) y obtener el mismo texto en versión restructuredText, que es el formato en el que escribo el blog (con Pelican).
+La instalación de Pandoc requirió un pequeño ajuste respecto de lo habitual en Manjaro, ya que el programa no estaba disponible desde los repositorios que vienen por defecto.]]></description>
 </item>
 <item>
     <title>Generar pdf en español desde org-mode</title>
     <link>http://www.certezasdudosas.com/generar-pdf-en-espa%C3%B1ol-desde-org-mode/</link>
     <pubDate>Wed, 06 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/generar-pdf-en-espa%C3%B1ol-desde-org-mode/</guid>
-    <description><![CDATA[Como generar pdf en español desde org-mode]]></description>
+    <description><![CDATA[Escribí un documento en org-mode (un modo mayor de emacs), porque permite exportar en formato pdf y escribir todo en texto plano. Es realmente una maravilla, se pueden escribir fórmulas en LaTeX, y organizar la estructura del documento usando títulos precedidos de uno o más asteriscos para indicar su nivel (si es un título principal, un subtitulo, un subsubtítulo, etc.). Hasta genera automáticamente una tabla de contenidos con todos estos títulos al hacer la exportación del documento (keybinding: C-c C-e l o).]]></description>
 </item>
 </channel>
 </rss>

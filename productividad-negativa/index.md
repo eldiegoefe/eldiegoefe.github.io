@@ -45,7 +45,7 @@ están en las mismas condiciones que yo, etc) y porque me evito la
 confrontación con seres que se destacan más por una idiosincracia
 capanga que por su auténtica capacidad de liderazgo.
 
-![ergonomía del trabajo](https://c1.staticflickr.com/1/701/22476013875_debef433de_b.jpg)
+{{< figure src="https://c1.staticflickr.com/1/701/22476013875_debef433de_b.jpg" title="Ergonomía del trabajo" >}}
 
 ¿Tiene sentido requerir un horarios fijo cuando la labor implica
 creatividad? En los lugares que conozco predomina la cultura del control
@@ -109,7 +109,7 @@ funcionamiento los lugares en los que nos toca vivir a nosotros. Me
 faltaría también conocer la dinámica de fábricas recuperadas y
 cooperativas reales, seguro que tienen aportes para hacer en este tema.
 
-![linda oficina](https://c2.staticflickr.com/6/5684/22462644822_0f4f0e4668_b.jpg)
+{{< figure src="https://c2.staticflickr.com/6/5684/22462644822_0f4f0e4668_b.jpg" title="Linda oficina" >}}
 
 ¿Es o no posible desarrollar modos de organización del trabajo que sean
 menos hostiles con la vida humana? Con frecuencia son los mismos

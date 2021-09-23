@@ -3,10 +3,10 @@
 
 ## Indice del Tutorial
 
-> -   [Parte 1]({{< ref "/posts/2014/2014-10-06-control-de-versiones-1.md" >}}). Cómo armar un repositorio local
-> -   [Parte 2]({{< ref "/posts/2014/2014-10-07-control-de-versiones-2.md" >}}). Cómo subir el repositorio local al remoto
-> -   [Parte 3]({{< ref "/posts/2014/2014-10-09-control-de-versiones-3.md" >}}). Cómo colaborar en un mismo repositorio remoto
-> -   [Parte 4]({{< ref "/posts/2014/2014-10-10-control-de-versiones-4.md" >}}). Cómo resolver conflictos
+- [Parte 1]({{< ref "2014-10-06-control-de-versiones-1.md" >}}). Cómo armar un repositorio local
+- [Parte 2]({{< ref "2014-10-07-control-de-versiones-2.md" >}}). Cómo subir el repositorio local al remoto
+- [Parte 3]({{< ref "2014-10-09-control-de-versiones-3.md" >}}). Cómo colaborar en un mismo repositorio remoto
+- [Parte 4]({{< ref "2014-10-10-control-de-versiones-4.md" >}}). Cómo resolver conflictos
 
 Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés
 visitar [la página de Software
@@ -19,15 +19,13 @@ cuenta allí (que es gratis, así que a relajarse y disfrutar). Es
 bastante intuitivo el modo de crear un repositorio. Pero pongo un par de
 imágenes, a modo de muestra.
 
-![](https://farm8.staticflickr.com/7500/16103637368_e5b482f6aa_o.png){.align-center
-width="100.0%"}
+{{< figure src="https://farm8.staticflickr.com/7500/16103637368_e5b482f6aa_o.png" title="Github" >}}
 
 En la pantalla anterior hay que hacer click sobre el botón verde que
 dice \"*+ New repository*\", que nos deposita en la imagen de abajo.
 
-![](https://farm9.staticflickr.com/8661/15668754054_413938acf0_o.png){.align-center
-width="75.0%"}
-
+{{< figure src="https://farm9.staticflickr.com/8661/15668754054_413938acf0_o.png" title="Creación de un repositorio" >}}
+   
 Solamente ponemos el nombre y la descripción del repositorio. Los
 repositorios privados son pagos, así que por lo general uno elige
 \"*Public*\". No hace falta inicializarlo con un *readme*, ni agregar un
@@ -44,8 +42,7 @@ presteza y gráciles movimientos al terminal, que debería estar ubicado
 Escribimos (en mi caso estoy trabajando sobre un nuevo repositorio para
 alojar la configuración de mi Emacs):
 
-![](https://farm8.staticflickr.com/7515/16290337352_9a8d0da905_o.png){.align-center
-width="75.0%"}
+{{< figure src="https://farm8.staticflickr.com/7515/16290337352_9a8d0da905_o.png" title="Repositorio" >}}
 
 ## Setear el repositorio remoto desde nuestro repo local
 

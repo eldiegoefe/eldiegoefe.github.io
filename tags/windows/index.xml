@@ -3,13 +3,14 @@
         <title>windows - Etiqueta - Certezas Dudosas</title>
         <link>http://www.certezasdudosas.com/tags/windows/</link>
         <description>windows - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 11 Feb 2014 10:30:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/windows/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 12 Feb 2014 10:30:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/windows/" rel="self" type="application/rss+xml" /><item>
     <title>Cuando uno quiere A y termina haciendo B</title>
     <link>http://www.certezasdudosas.com/cuando-uno-quiere-a-y-termina-haciendo-b/</link>
-    <pubDate>Tue, 11 Feb 2014 10:30:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/cuando-uno-quiere-a-y-termina-haciendo-b/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2014/ipython.png" referrerpolicy="no-referrer">
-            </div>Oscuridades en la instalación de un sistema operativo. Particiones en Linux.]]></description>
+    <pubDate>Wed, 12 Feb 2014 10:30:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/cuando-uno-quiere-a-y-termina-haciendo-b/</guid>
+    <description><![CDATA[Estoy leyendo sobre IPython, que instalé en Windows a través de Anaconda.
+Durante ese viaje me enteré de que Windows tiene dos shells, el más viejo y limitado es 'cmd.exe' mientras que el recomendado es 'Windows PowerShell', ya que tiene los mismos comandos que Unix. En cualquiera de los dos, IPython se corre con la orden ipython
+Hay ayudas de IPython en:
+ Documentación Oficial StackOverflow Lista de correos  ¡Debe haber muchas más!]]></description>
 </item>
 </channel>
 </rss>

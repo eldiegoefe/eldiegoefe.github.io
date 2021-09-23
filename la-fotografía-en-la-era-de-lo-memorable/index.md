@@ -31,8 +31,7 @@ igual con la música, con la correspondencia.
 ¿Será que algún día contrataremos a un archivista digital que nos ordene
 las imágenes, los discos, las memorias?
 
-![Paraná, capital nacional de lo
-memorable](https://farm8.staticflickr.com/7503/15695246189_fb00fb5a07_b.jpg)
+{{< figure src="https://farm8.staticflickr.com/7503/15695246189_fb00fb5a07_b.jpg" title="Paraná, capital nacional de lo memorable" >}} 
 
 Fuera de los eventos sociales de los cuales queremos tener recuerdos
 (porque es fundamental registrar el porrón número dos mil setecientos y

@@ -1,7 +1,8 @@
 # Emacs y restructuredText
 
 
-Estuve escribiendo algunas entradas para el blog y encontré algunas cosas que vale la pena recordar, que quedan anotadas aca:
+Estuve escribiendo algunas entradas para el blog y encontré algunas cosas que
+vale la pena recordar, que quedan anotadas aca.
 
 El modo abbrev tendría que desactivarlo globalmente porque cada vez que escribo
 la palabra \"*con*\" (en modo restructuredText) y hago un espacio me lo expande

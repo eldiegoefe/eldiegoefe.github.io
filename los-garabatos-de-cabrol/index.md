@@ -9,7 +9,7 @@ maestría que cuesta convencerse de que habita cerca, porque los genios me
 parecen muy lejanos y Sebastián Cabrol vivió siempre a cuatro o cinco cuadras de
 mi casa, en Paraná.
 
-![pesebre](https://farm6.staticflickr.com/5057/5389455750_2d0e6550fe_b.jpg)
+{{< figure src="https://farm6.staticflickr.com/5057/5389455750_2d0e6550fe_b.jpg" title="Pesebre" >}}
 
 Seba Cabrol puede poner en blanco y negro sus pesadillas. El horror
 puebla sus páginas de comics y a mi, que no me gusta el terror y el
@@ -19,7 +19,7 @@ profundas, híbridos que son al mismo tiempo humanos, hongos, y moho, en
 los cuales late una conciencia maligna o un sufrimiento antiguo, los que
 dominan sus cuadros y mi fascinación.
 
-![hibrido](https://farm9.staticflickr.com/8459/8044900980_aee4524602_b.jpg)
+{{< figure src="https://farm9.staticflickr.com/8459/8044900980_aee4524602_b.jpg" title="Hibrido" >}}
 
 Empíricamente comprobamos que el capitalismo no nos lleva a un mundo
 justo. Intentar vivir de la historieta, entre otras formas del arte,
@@ -33,7 +33,7 @@ creaciones puedan fluir en papel ilustración a todas las bibliotecas que
 reclaman criaturas peligrosas e historias fantásticas, y así nutrirse él
 y también nosotros.
 
-![borderland](https://farm4.staticflickr.com/3930/15422240992_2426488d75_b.jpg)
+{{< figure src="https://farm4.staticflickr.com/3930/15422240992_2426488d75_b.jpg" title="Borderland" >}}
 
 Espectros, cuerpos autofagocitantes, pirámides y contraluces
 fantasmagóricos, escenarios cotidianos permeados por el enigma. El

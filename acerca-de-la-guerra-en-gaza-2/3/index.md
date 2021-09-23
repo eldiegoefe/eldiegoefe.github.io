@@ -56,6 +56,8 @@ refugiados vuelvan: ¿quiénes garantizarían que los hasta hace momentos
 combatientes suicidas se conviertan en amables vecinos fronteras
 adentro?
 
+{{< figure src="https://live.staticflickr.com/65535/51502629415_b1bcda65d3.jpg" title="La vida en Gaza" width=50% >}}
+
 La verdad también sufre recortes cuando se piensa a los combatientes
 palestinos como una fuerza gobernada por el deseo de justicia, paz y
 prosperidad. Una cosa es justificar el derecho a la resistencia frente a

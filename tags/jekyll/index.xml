@@ -7,9 +7,9 @@
     <title>Instrucciones para armar un blog geek</title>
     <link>http://www.certezasdudosas.com/instrucciones-para-armar-un-blog-geek/</link>
     <pubDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/instrucciones-para-armar-un-blog-geek/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2014/blog.jpg" referrerpolicy="no-referrer">
-            </div>Zigzagueantes instrucciones para instalar un blog con Jekyll]]></description>
+    <description><![CDATA[En mi caso, alcanzar un estado zen requiere atravesar travesías barrocas. Mientras miraba cosas de IPython llegué a Pythonic Perambulations. Me gustó el contenido (muestra cómo armar ventanas de browsers con matplotlib interactivo), me gustó el diseño y me llamó la atención el dominio github.io.
+Blogs como el de Jake Vanderplas se arman con un motor llamado Jekyll.
+(*editado: Jake migró su sitio a Pelican, que está escrito en Python. Armé un post para explicar cómo instalarlo y usarlo en conjunción con las páginas personales de GitHub, ver Blog con Pelican y Github.]]></description>
 </item>
 </channel>
 </rss>

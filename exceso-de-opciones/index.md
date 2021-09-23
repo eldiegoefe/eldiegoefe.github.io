@@ -7,7 +7,6 @@ que se vuelve difícil, así como es una tarea extremadamente compleja
 elegir un par de zapatillas, porque no hay 5 o 6 modelos como cuando uno
 era chico, sino que hay 500, y encima van cambiando (ni siquiera es
 posible conseguir las mismas zapatillas compradas hace un par de años).
-<!--more-->
 
 Por otra parte los tecnófilos tenemos afinidad por lo desconocido. Nos
 gusta experimentar y puede ocurrir \--como hoy\-- que una herramienta
@@ -18,7 +17,7 @@ un problema de transmisión de datos terminamos instalando un software
 para ensayar programación científica online con
 [IPhyton](http://ipython.org).
 
-{{< image src="/2014/demasiadas-opciones.jpg" caption="Un típico santuario de compras" width="500" height="500">}}
+{{< figure src="https://live.staticflickr.com/65535/51501594836_913be6fd61.jpg" caption="Un típico santuario de compras" width=60% >}}
 
 El trekking por estos sinuosos caminos del conocimiento puede terminar
 en ignorancia. No son pocas las veces que iniciamos la instalación y el

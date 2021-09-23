@@ -14,7 +14,9 @@ Cannabis  Grow Barato  Carpintería Los más vistos (por mi)  April Wilkerson / 
     <title>Grabacion de screencasts para tutoriales de YouTube</title>
     <link>http://www.certezasdudosas.com/grabacion-de-screencasts-para-tutoriales-de-youtube/</link>
     <pubDate>Tue, 23 Sep 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/grabacion-de-screencasts-para-tutoriales-de-youtube/</guid>
-    <description><![CDATA[Grabacion de screencasts para tutoriales de YouTube]]></description>
+    <description><![CDATA[Actualización (Feb-2017): es muy facil usar el programa OBS Studio para grabar en la computadora tanto la pantalla como la webcam, micrófono, etc. Funciona en Linux, Window$ y Mac.
+ Empecé a grabar tutoriales para usar IPython Notebook. Traté de hacerlo con la aplicación recordMyDesktop, pero el modo de seleccionar la parte de la pantalla a grabar resulta muy imprecisa, es practicamente imposible determinar la región con precisión.
+Luego encontré este buen tutorial: Creating Screencasts in Linux.]]></description>
 </item>
 </channel>
 </rss>

@@ -2,10 +2,18 @@
 
 
 
-Mi jornada se cruzó con las artes marciales en 2011. Me dolía la espalda probablemente de tanto usar el mouse (con la zurda). El kinesiólogo me recomendó comenzar con clases de Taichi, así que probé. Las clases resultaron bien: movimientos suaves, búsqueda de flexibilidad, aprendizaje de “formas”. No me extraña que mis compañeros sean mayoritariamente de la tercera edad, las clases pueden sentirse aburridas. Yo las calificaría más bien de clases tranquilas y calmas, con ejercicios que buscan trabajar la flexibilidad y la respiración, y eventualmente llegar a un estado de meditación en movimiento. Mi práctica personal está más dirigida a la dimensión física, la meditación por el momento no es algo que me resulte comprensible o alcanzable.
+Mi jornada se cruzó con las artes marciales en 2011. Me dolía la espalda
+probablemente de tanto usar el mouse (con la zurda). El kinesiólogo me recomendó
+comenzar con clases de Taichi, así que probé. Las clases resultaron bien:
+movimientos suaves, búsqueda de flexibilidad, aprendizaje de “formas”. No me
+extraña que mis compañeros sean mayoritariamente de la tercera edad, las clases
+pueden sentirse aburridas. Yo las calificaría más bien de clases tranquilas y
+calmas, con ejercicios que buscan trabajar la flexibilidad y la respiración, y
+eventualmente llegar a un estado de meditación en movimiento. Mi práctica
+personal está más dirigida a la dimensión física, la meditación por el momento
+no es algo que me resulte comprensible o alcanzable.
 
-![Práctica de
-Taichi](https://farm8.staticflickr.com/7462/16105014799_f247924608_b.jpg)
+{{< figure src="https://farm8.staticflickr.com/7462/16105014799_f247924608_b.jpg" title="Práctica de Taichi" >}}
 
 Al terminar las clases de Taichi empezaban las de arte marcial, sin
 nombre específico, con el mismo maestro. Como ya tenía confianza con él,
@@ -53,8 +61,7 @@ otras disciplinas carecen. Esto hace que se publicite el BJJ como el
 arte marcial perfecto para la defensa personal en las calles, lo cual es
 absolutamente absurdo.
 
-![Luchadores de
-JiuJitsu](https://farm9.staticflickr.com/8611/16290325742_0a17c12d87_b.jpg)
+{{< figure src="https://farm9.staticflickr.com/8611/16290325742_0a17c12d87_b.jpg" title="Luchadores de JiuJitsu" >}}
 
 En la vida real no hay reglas, el enfrentamiento puede ser con varios
 atacantes (incluso puede haber alguien oculto), puede incluir armas, el

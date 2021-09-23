@@ -13,20 +13,14 @@
     <title>A punto para Lisp</title>
     <link>http://www.certezasdudosas.com/a-punto-para-lisp/</link>
     <pubDate>Wed, 13 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/a-punto-para-lisp/</guid>
-    <description><![CDATA[A punto para Lisp]]></description>
+    <description><![CDATA[Cuando empecé a leer Practical Common Lisp, de Peter Seibel, tras escuchar el reportaje de Sacha Chua a Bozhidar Batsov, tuve algunos inconvenientes para poder instalar Lisp en mi compu, hasta que encontré el tutorial Installing Common Lisp. Estas notas resumen la información del video (sus instrucciones se muestran en un entorno Windows mientras que mi transcripción es para Linux), para poder instalar un Lisp en cualquier máquina con Emacs:]]></description>
 </item>
 <item>
     <title>Aprender a lo Hansel y Gretel</title>
     <link>http://www.certezasdudosas.com/aprender-a-lo-hansel-y-gretel/</link>
     <pubDate>Sun, 09 Feb 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/aprender-a-lo-hansel-y-gretel/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2014/hansel-and-gretel.jpg" referrerpolicy="no-referrer">
-            </div><p>Aprender programación mediante un libro, sobre todo si uno le cree a la
-contra-tapa, requiere seguir capítulo a capítulo, sección a sección, todas las
-instrucciones. Es como que nos programamos para programar. Pero al copiar los
-ejemplos, incluso chequeando que no haya errores de tipeo, suelen aparecer
-problemas. Los resultados no son los esperados, aparecen errores, excepciones,
-relámpagos y huracanes.</p>]]></description>
+    <description><![CDATA[Aprender programación mediante un libro, sobre todo si uno le cree a la contra-tapa, requiere seguir capítulo a capítulo, sección a sección, todas las instrucciones. Es como que nos programamos para programar. Pero al copiar los ejemplos, incluso chequeando que no haya errores de tipeo, suelen aparecer problemas. Los resultados no son los esperados, aparecen errores, excepciones, relámpagos y huracanes.
+Mientras sigo con las lecturas sobre IPython nos dicen que importemos el paquete NetworkX.]]></description>
 </item>
 </channel>
 </rss>

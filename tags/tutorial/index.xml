@@ -13,65 +13,62 @@
     <title>Actualización de las instrucciones para armar un blog con Pelican y GitHub</title>
     <link>http://www.certezasdudosas.com/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</link>
     <pubDate>Wed, 20 May 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2015/pelican-color.png" referrerpolicy="no-referrer">
-            </div>Actualización de las instrucciones para armar un blog con Pelican y Github Personal Pages.]]></description>
+    <description><![CDATA[El sitio oficial de Pelican, con sus intrucciones de instalación y uso es este. Originalmente, este post estuvo basado en las instrucciones de Nicholas Tan Jerome. El post original pueden verlo en este enlace pueden verlo en este enlace
+Por un lado vamos a configurar un entorno virtual de Python donde vamos a instalar Pelican, y por otro lado vamos a utilizar un directorio subdividido en un subdirectorio para nuestro blog y dos subdirectorios más para herramientas de Pelican (themes y plugins de Pelican).]]></description>
 </item>
 <item>
     <title>Molestos clicks del mouse (digiKam tips)</title>
     <link>http://www.certezasdudosas.com/molestos-clicks-del-mouse-digikam-tips/</link>
     <pubDate>Fri, 16 Jan 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/molestos-clicks-del-mouse-digikam-tips/</guid>
-    <description><![CDATA[Molestos clicks del mouse (digiKam tips)]]></description>
+    <description><![CDATA[Usar el mouse en digiKam puede producir caspa. Cada vez que hago un click para seleccionar un archivo abre la vista de previsualización (como al apretar F3). Este comportamiento no corresponde exclusivamente a digiKam, sino al escritorio (en mi caso KDE). Para solucionarlo (en KDE) hay que ir a Preferencias del Sistema y en la sección de Hardware entrar al panel de Dispositivos de Entrada. En la siguiente imagen puede verse el lugar donde seleccionar la opción: Una doble pulsación abre archivos y carpetas (una sola pulsación selecciona iconos).]]></description>
 </item>
 <item>
     <title>Crear colecciones y albumes en digiKam</title>
     <link>http://www.certezasdudosas.com/crear-colecciones-y-albumes-en-digikam/</link>
     <pubDate>Thu, 15 Jan 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/crear-colecciones-y-albumes-en-digikam/</guid>
-    <description><![CDATA[Crear colecciones y albumes en digiKam]]></description>
+    <description><![CDATA[Crear albumes en digiKam tiene un inconveniente que un usuario que intenta emplearlo descubre rápidamente. Es un detalle que no está bien documentado en los tutoriales que encontré en la web. El problema es el siguiente: sólo van a poder crear álbumes dentro del único álbum existente, el cual aparece tras el procedimiento de configuración básica, cuando digiKam se ejecuta por primera vez. Probablemente este álbum se llame &quot;/home/nombreusuario/Imágenes&quot;, como en la figura siguiente.]]></description>
 </item>
 <item>
     <title>Organizar una coleccion de fotos digitales</title>
     <link>http://www.certezasdudosas.com/organizar-una-coleccion-de-fotos-digitales/</link>
     <pubDate>Tue, 13 Jan 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/organizar-una-coleccion-de-fotos-digitales/</guid>
-    <description><![CDATA[Cómo organizar una coleccion de fotos digitales]]></description>
+    <description><![CDATA[La fotografía digital nos permite sacar millones de fotos sin gastar un peso en rollos, con cámaras fotográficas compactas y profesionales, teléfonos celulares y tablets. Esto que parece una ventaja puede volverse en contra si uno se vuelve el loco de la instantánea, porque los archivos se acumulan por montañas y esta abundancia supera toda posibilidad de encontrar las imágenes que merecen ser vistas de nuevo. Muchas veces te encontrás sacando varias fotos iguales o muy parecidas para después elegir la mejor, cosa que nunca sucede.]]></description>
 </item>
 <item>
     <title>Tutorial sobre control de versiones (parte 4)</title>
     <link>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-4/</link>
     <pubDate>Fri, 10 Oct 2014 11:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-4/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2014/control-de-versiones-4.png" referrerpolicy="no-referrer">
-            </div>Tutorial sobre control de versiones (parte 4)]]></description>
+    <description><![CDATA[Indice del Tutorial  Parte 1. Cómo armar un repositorio local Parte 2. Cómo subir el repositorio local al remoto Parte 3. Cómo colaborar en un mismo repositorio remoto Parte 4. Cómo resolver conflictos  Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés visitar la página de Software Carpentry
+Cuándo aparecen los conflictos El sistema de control de versiones permite que la gente trabaje en paralelo editando sus programas en código fuente.]]></description>
 </item>
 <item>
     <title>Tutorial sobre control de versiones (parte 3)</title>
     <link>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-3/</link>
     <pubDate>Thu, 09 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-3/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2014/control-de-versiones-3.png" referrerpolicy="no-referrer">
-            </div>Tutorial sobre control de versiones (parte 3)]]></description>
+    <description><![CDATA[Indice del Tutorial  Parte 1. Cómo armar un repositorio local Parte 2. Cómo subir el repositorio local al remoto Parte 3. Cómo colaborar en un mismo repositorio remoto Parte 4. Cómo resolver conflictos  Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés visitar la página de Software Carpentry
+Probando el cooperativismo Vamos a practicar cómo se realiza una colaboración a través de un repositorio en Github.]]></description>
 </item>
 <item>
     <title>Tutorial sobre control de versiones (parte 2)</title>
     <link>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-2/</link>
     <pubDate>Wed, 08 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-2/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2014/control-de-versiones-2.png" referrerpolicy="no-referrer">
-            </div>Tutorial sob]]></description>
+    <description><![CDATA[Indice del Tutorial  Parte 1. Cómo armar un repositorio local Parte 2. Cómo subir el repositorio local al remoto Parte 3. Cómo colaborar en un mismo repositorio remoto Parte 4. Cómo resolver conflictos  Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés visitar la página de Software Carpentry
+Armar un proyecto (repositorio) en GitHub Para subir el repositorio local a GitHub es indispensable tener una cuenta allí (que es gratis, así que a relajarse y disfrutar).]]></description>
 </item>
 <item>
     <title>Tutorial sobre control de versiones (parte 1)</title>
     <link>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-1/</link>
     <pubDate>Mon, 06 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-1/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2014/control-de-versiones-1.png" referrerpolicy="no-referrer">
-            </div>Apuntes sobre control de versiones]]></description>
+    <description><![CDATA[En el sitio de Software Carpentry hay un buen tutorial sobre el uso de sistemas de control de versiones. Estos apuntes son prácticamente la traducción de esas instrucciones.
+Indice del Tutorial  Parte 1. Cómo armar un repositorio local Parte 2. Cómo subir el repositorio local al remoto Parte 3. Cómo colaborar en un mismo repositorio remoto Parte 4. Cómo resolver conflictos  Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés visitar la página de Software Carpentry]]></description>
 </item>
 <item>
     <title>Grabacion de screencasts para tutoriales de YouTube</title>
     <link>http://www.certezasdudosas.com/grabacion-de-screencasts-para-tutoriales-de-youtube/</link>
     <pubDate>Tue, 23 Sep 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/grabacion-de-screencasts-para-tutoriales-de-youtube/</guid>
-    <description><![CDATA[Grabacion de screencasts para tutoriales de YouTube]]></description>
+    <description><![CDATA[Actualización (Feb-2017): es muy facil usar el programa OBS Studio para grabar en la computadora tanto la pantalla como la webcam, micrófono, etc. Funciona en Linux, Window$ y Mac.
+ Empecé a grabar tutoriales para usar IPython Notebook. Traté de hacerlo con la aplicación recordMyDesktop, pero el modo de seleccionar la parte de la pantalla a grabar resulta muy imprecisa, es practicamente imposible determinar la región con precisión.
+Luego encontré este buen tutorial: Creating Screencasts in Linux.]]></description>
 </item>
 </channel>
 </rss>

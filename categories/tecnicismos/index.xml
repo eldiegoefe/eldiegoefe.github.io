@@ -69,7 +69,8 @@ Inserción Atajos de teclado &quot;convencionales&quot; de org-mode (funcionan c
     <title>Diccionario de funciones</title>
     <link>http://www.certezasdudosas.com/diccionario-de-funciones/</link>
     <pubDate>Fri, 11 Dec 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/diccionario-de-funciones/</guid>
-    <description><![CDATA[Diccionario de funciones]]></description>
+    <description><![CDATA[Mientras escribo un programa para manipular imágenes de un microscopio, tuve que ver cómo ejecutar una función distinta, de acuerdo a cierto parámetro. Más concretamente, para procesar las imágenes en algunos casos se necesita un kernel, que es una matriz llena de unos y ceros organizados de acuerdo a la selección de dos parámetros: forma y tamaño. Por ejemplo, un &quot;disco&quot; de radio 3 se vería así:
+[[0 0 0 1 0 0 0] [0 1 1 1 1 1 0] [0 1 1 1 1 1 0] [1 1 1 1 1 1 1] [0 1 1 1 1 1 0] [0 1 1 1 1 1 0] [0 0 0 1 0 0 0]]  Y una matriz &quot;cuadrada&quot; de lado 3, así:]]></description>
 </item>
 </channel>
 </rss>

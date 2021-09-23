@@ -1,7 +1,13 @@
 # Organizar una coleccion de fotos digitales
 
 
-La fotografía digital nos permite sacar millones de fotos sin gastar un peso en rollos, con cámaras fotográficas compactas y profesionales, teléfonos celulares y tablets. Esto que parece una ventaja puede volverse en contra si uno se vuelve el loco de la instantánea, porque los archivos se acumulan por montañas y esta abundancia supera toda posibilidad de encontrar las imágenes que merecen ser vistas de nuevo. Muchas veces te encontrás sacando varias fotos iguales o muy parecidas para después elegir la mejor, cosa que nunca sucede.
+La fotografía digital nos permite sacar millones de fotos sin gastar un peso en
+rollos, con cámaras fotográficas compactas y profesionales, teléfonos celulares
+y tablets. Esto que parece una ventaja puede volverse en contra si uno se vuelve
+el loco de la instantánea, porque los archivos se acumulan por montañas y esta
+abundancia supera toda posibilidad de encontrar las imágenes que merecen ser
+vistas de nuevo. Muchas veces te encontrás sacando varias fotos iguales o muy
+parecidas para después elegir la mejor, cosa que nunca sucede.
 
 En unos momentos empiezo con el tutorial propiamente dicho, pero antes
 completo la idea de las dificultades. Hasta ahora guardaba mis fotos
@@ -71,11 +77,12 @@ semejantes) se puede:
 Se puede ver la foto junto con el panel de la derecha para asignarle
 descripción, calificación y etiquetas (click para ampliarla).
 
-![En el panel de la derecha, en la porción inferior, se pueden
-seleccionar las estrellas y el color que se le asigna a la foto. También
-a través de este panel se edita el título y el pie de foto, y hay otras
-pestañas para asignar
-etiquetas.](https://farm9.staticflickr.com/8683/15669102663_0e209c8861_h.jpg)
+En la imagen debajo, sobre el panel de la derecha, en la porción inferior, se
+pueden seleccionar las estrellas y el color que se le asigna a la foto. También
+a través de este panel se edita el título y el pie de foto, y hay otras pestañas
+para asignar etiquetas.
+
+{{< figure src="https://farm9.staticflickr.com/8683/15669102663_0e209c8861_h.jpg" title="Digikam" width=90% >}}
 
 ## El resto del decálogo
 

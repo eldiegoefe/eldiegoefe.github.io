@@ -1,6 +1,8 @@
 # Compra de computadora de oficina
 
-Compré una PC con estas características y precios, para uso liviano (mayormente internet, multimedia, programas de oficina, etc):
+
+Compré una PC con estas características y precios, para uso liviano (mayormente
+internet, multimedia, programas de oficina, etc):
 
 | Item                        | Precio (\$) | Detalles              |
 | :---:                       | :---:       | :---:                 |

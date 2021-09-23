@@ -1,7 +1,12 @@
 # Brazilian Jiu-Jitsu
 
 
-Cada cierto tiempo me encuentro nuevas pasiones. A veces duran, otras veces son sustituidas por otras, o por obligaciones que impiden el desarrollo de mis impulsos. El tiempo es finito, hay que saber elegir qué hacer con él. Empecé a leer cosas de Brazilian Jiu-Jitsu hace unos cuantos días y no he podido parar. Hay mucho material on-line: blogs personales, canales de YouTube, páginas de academias, enciclopedias, etc.
+Cada cierto tiempo me encuentro nuevas pasiones. A veces duran, otras veces son
+sustituidas por otras, o por obligaciones que impiden el desarrollo de mis
+impulsos. El tiempo es finito, hay que saber elegir qué hacer con él. Empecé a
+leer cosas de Brazilian Jiu-Jitsu hace unos cuantos días y no he podido parar.
+Hay mucho material on-line: blogs personales, canales de YouTube, páginas de
+academias, enciclopedias, etc.
 
 ## Atracciones
 
@@ -31,8 +36,7 @@ y otros de las artes marciales en general.
     metáfora de que el BJJ es un \"ajedrez corporal\".
 
 
-![The Jiu Jitsu
-Transformation](http://thejiujitsutransformation.files.wordpress.com/2014/07/jjt-picture-6771.jpg?w=640&h=800)
+{{< figure src="http://thejiujitsutransformation.files.wordpress.com/2014/07/jjt-picture-6771.jpg" title="The Jiu Jitsu Transformation" width=50% >}}
 
 2.  **Desafío**. El avance en el reconocimiento \"oficial\", es decir la
     graduación representada en el color del cinturón, es lento, acorde a
@@ -125,9 +129,7 @@ o directamente resultan en algo repulsivo.
     extenderlo. Hay mucha venta de clases, uniformes, y sueños, y no
     está mal estar atentos.
 
-{{< figure
-src="http://www.bjjglobetrotters.com/wp-content/uploads/2014/11/vertikal-annonce-sold-out.jpg"
->}}
+{{< figure src="http://www.bjjglobetrotters.com/wp-content/uploads/2014/11/vertikal-annonce-sold-out.jpg" title="Viajes" width=40% >}}
 
 4.  **¿Es un interés genuino?** A veces me encuentro deseando cosas que
     nunca antes me interesaron. El entusiasmo puede estar provocado

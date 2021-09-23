@@ -33,5 +33,7 @@ Hay muchas más opciones que se pueden consultar ejecutando *M-x
 describe-function isearch-forward* o directamente *C-h f
 isearch-forward*.
 
-![](https://farm8.staticflickr.com/7748/18166889492_5daac19817_b.jpg)
+{{< figure src="https://farm8.staticflickr.com/7748/18166889492_5daac19817_b.jpg" title="Isearch" >}}
+
+
 

@@ -20,43 +20,46 @@
     <title>Diccionario de funciones</title>
     <link>http://www.certezasdudosas.com/diccionario-de-funciones/</link>
     <pubDate>Fri, 11 Dec 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/diccionario-de-funciones/</guid>
-    <description><![CDATA[Diccionario de funciones]]></description>
+    <description><![CDATA[Mientras escribo un programa para manipular imágenes de un microscopio, tuve que ver cómo ejecutar una función distinta, de acuerdo a cierto parámetro. Más concretamente, para procesar las imágenes en algunos casos se necesita un kernel, que es una matriz llena de unos y ceros organizados de acuerdo a la selección de dos parámetros: forma y tamaño. Por ejemplo, un &quot;disco&quot; de radio 3 se vería así:
+[[0 0 0 1 0 0 0] [0 1 1 1 1 1 0] [0 1 1 1 1 1 0] [1 1 1 1 1 1 1] [0 1 1 1 1 1 0] [0 1 1 1 1 1 0] [0 0 0 1 0 0 0]]  Y una matriz &quot;cuadrada&quot; de lado 3, así:]]></description>
 </item>
 <item>
     <title>Python en Emacs y otros atajos</title>
     <link>http://www.certezasdudosas.com/python-en-emacs-y-otros-atajos/</link>
     <pubDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/python-en-emacs-y-otros-atajos/</guid>
-    <description><![CDATA[Python en Emacs y otros atajos]]></description>
-</item>
-<item>
-    <title>Diccionarios en Python</title>
-    <link>http://www.certezasdudosas.com/diccionarios-en-python/</link>
-    <pubDate>Thu, 23 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/diccionarios-en-python/</guid>
-    <description><![CDATA[Diccionarios en Python]]></description>
+    <description><![CDATA[Spacemacs   Anaconda-mode: Emacs tiene muchas herramientas para facilitar la programación en Python. En Spacemacs se puede activar anaconda-mode, que habilita una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información en el modeline sobre la función que se está tipeando (muestra los nombres de sus argumentos). Cosas de Anaconda para usar:
+ anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca el origen del símbolo bajo el punto. Por ejemplo: si se trata de una función, abre el archivo donde está definida y ubica el punto sobre el encabezado de la misma.]]></description>
 </item>
 <item>
     <title>Listas en Python</title>
     <link>http://www.certezasdudosas.com/listas-en-python/</link>
     <pubDate>Wed, 15 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/listas-en-python/</guid>
-    <description><![CDATA[Listas en Python]]></description>
+    <description><![CDATA[Apuntes del capítulo 10. Lists, de Think Python.
+Traversing To traverse es el verbo que se refiere al acceso secuencial de los elementos de una lista. La siguiente es una forma de &quot;traversear&quot; una lista:
+1 2  for cheese in cheeses: print cheese   Si se necesita modificar algún elemento de la lista es mejor hacer:
+1 2  for i in range(len(numbers)): numbers[i] = numers[i] * 2   Agregar elementos a una lista Se pueden agregar elementos individuales a una lista con append.]]></description>
 </item>
 <item>
     <title>Autoaprendizajes</title>
     <link>http://www.certezasdudosas.com/autoaprendizajes/</link>
     <pubDate>Fri, 10 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/autoaprendizajes/</guid>
-    <description><![CDATA[Aprendizajes autodidactas]]></description>
+    <description><![CDATA[No recuerdo en qué momento fue que pronuncié las palabras mágicas, pero cuando sea que haya ocurrido, se abrieron portales hacia temas inexplorados dentro de un mundo que creía conocer.
+En los últimos meses (¿10? ¿20?) me encontré con:
+ un lenguaje de programación fantástico por su sencillez y potencia (Python), junto con un conjunto de librerías para tareas científicas: matplotlib, numpy, pandas, etc. la idea del control de versiones (que es una herramienta magnífica para quienes escribimos todo tipo de textos que al ir corrigiendo dejan una huella dificil de seguir desde su versión inicial hacia su versión actual, ya sea que se trate de programas, entradas de blog o informes científicos o técnicos).]]></description>
 </item>
 <item>
     <title>Apuntes sobre matplotlib</title>
     <link>http://www.certezasdudosas.com/apuntes-sobre-matplotlib/</link>
     <pubDate>Sun, 03 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/apuntes-sobre-matplotlib/</guid>
-    <description><![CDATA[Apuntes sobre graficación en Python con matplotlib]]></description>
+    <description><![CDATA[Estos son algunos apuntes extraidos principalmente del tutorial de Artist.
+Matplotlib Matplotlib is the whole package
+pylab  a module in matplotlib installed alongside matplotlib preferred for interactive calculations and plotting  matplotlib.pyplot  a module in matplotlib provides the state machine interface to the underlying plotting library in matplotlib combines the pyplot functionality (for plotting) with numpy functionality in a single namespace figures and axes are implicitly and automatically created to achieve the desired plot preferred for scripting  Artist Artist has three layers:]]></description>
 </item>
 <item>
     <title>Comunicacion USB con mbed</title>
     <link>http://www.certezasdudosas.com/comunicacion-usb-con-mbed/</link>
     <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/comunicacion-usb-con-mbed/</guid>
-    <description><![CDATA[Intento de comunicacion usb con la placa kinetis frdm-kl25z mediante mbed y python.]]></description>
+    <description><![CDATA[La comunicación mediante USB con microcontroladores me viene un escollo permanente. El protocolo en sí tiene una complejidad que dispuesto a dedicarle, sobre todo porque empecé a leer varias veces sobre el mismo y siempre me encuentro dando vueltas alrededor de detalles que parecen demasiado específicos y alejados de lo que yo necesito lograr. Decidí hacer la prueba con mbed, ya que tengo una placa kinetis frdm-kl25z de freescale, con la cual hay unos ejemplos de comunicación que parecen muy sencillos.]]></description>
 </item>
 </channel>
 </rss>

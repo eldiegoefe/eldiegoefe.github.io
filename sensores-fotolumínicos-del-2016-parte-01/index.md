@@ -1,6 +1,5 @@
 # Sensores fotolumínicos del 2016 - Parte 01
 
--
 
 Estas son cuatro imágenes impresas en los sensores fotolumínicos del 2016.
 Mucho relleno

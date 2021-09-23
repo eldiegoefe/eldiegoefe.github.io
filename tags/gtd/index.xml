@@ -34,7 +34,10 @@
     <title>Agenda en Emacs y OrgMode</title>
     <link>http://www.certezasdudosas.com/agenda-en-emacs-y-orgmode/</link>
     <pubDate>Mon, 29 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/agenda-en-emacs-y-orgmode/</guid>
-    <description><![CDATA[Agenda en Emacs y OrgMode]]></description>
+    <description><![CDATA[Configuracion En el archivo de configuracion de Emacs hay que incluir varios elementos para poder usar la agenda adecuadamente.
+Se pueden seleccionar individualmente los archivos que forman parte de la agenda:
+1 2  (setq org-agenda-files (list &#34;~/mis-archivos-org/apuntes-varios.org&#34; &#34;~/mis-archivos-org/acomodar.org&#34;))   O sino utilizar un directorio completo:
+1  (setq org-agenda-files &#39;(&#34;~/mis-archivos-org&#34;))   Se puede utilizar un archivo en particular para ir anotando al vuelo las ideas que se nos ocurren.]]></description>
 </item>
 </channel>
 </rss>

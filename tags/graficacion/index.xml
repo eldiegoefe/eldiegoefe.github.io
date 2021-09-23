@@ -7,7 +7,9 @@
     <title>Apuntes sobre matplotlib</title>
     <link>http://www.certezasdudosas.com/apuntes-sobre-matplotlib/</link>
     <pubDate>Sun, 03 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/apuntes-sobre-matplotlib/</guid>
-    <description><![CDATA[Apuntes sobre graficación en Python con matplotlib]]></description>
+    <description><![CDATA[Estos son algunos apuntes extraidos principalmente del tutorial de Artist.
+Matplotlib Matplotlib is the whole package
+pylab  a module in matplotlib installed alongside matplotlib preferred for interactive calculations and plotting  matplotlib.pyplot  a module in matplotlib provides the state machine interface to the underlying plotting library in matplotlib combines the pyplot functionality (for plotting) with numpy functionality in a single namespace figures and axes are implicitly and automatically created to achieve the desired plot preferred for scripting  Artist Artist has three layers:]]></description>
 </item>
 </channel>
 </rss>

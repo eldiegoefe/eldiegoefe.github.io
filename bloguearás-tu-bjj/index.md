@@ -1,7 +1,6 @@
 # Bloguearás tu BJJ
 
 
-
 Parte del atractivo que encuentro en el Jiu-Jitsu Brasileño (BJJ) es la cantidad
 de blogs que cuentan la experiencia de aprenderlo. Vendría a ser la parte
 nerd-geek del asunto ¿Pero por qué la gente escribe sobre su BJJ y no tanto
@@ -31,8 +30,7 @@ encontrar buenos sitios es prestarle atención a la sección \"blogroll\" que
 suele aparecer en las páginas personales, y que contiene links a sitios
 recomendados por el autor del website.
 
-![El blog de
-JiuJiu.](https://farm8.staticflickr.com/7549/16105306157_04db39e7e1_b.jpg)
+{{< figure src="https://farm8.staticflickr.com/7549/16105306157_04db39e7e1_b.jpg" title="El blog de JiuJiu." >}}
 
 El blog de *JiuJiu* es un ejemplo de los sitios que relatan la
 experiencia de practicar el \"arte suave\". Julia, su autora, es
@@ -55,8 +53,7 @@ la filosofía de la disciplina y su historia, con discusiones sobre la
 calidad de sus enseñanzas, y con un formato más \"objetivo\", tipo
 periódico de noticias, por llamarlo de algún modo.
 
-![El blog de
-slideyfoot.](https://farm8.staticflickr.com/7475/16289377981_d8d9fa0bce_b.jpg)
+{{< figure src="https://farm8.staticflickr.com/7475/16289377981_d8d9fa0bce_b.jpg" title="El blog de slideyfoot." >}}
 
 El blog de *slideyfoot* incluye una sección de FAQ (preguntas
 frecuentes) sobre BJJ para principiantes, con buenas preguntas y
@@ -91,9 +88,7 @@ escriben (está bueno recibir feedback, anímense muchachxs). Leer un buen
 blog contagia muchas cosas: las ganas de entrenar, de escribir, de
 compartir puntos de vista.
 
-![Afiche típico. Vení a practicar BJJ, ¡vas a pasarla bárbaro en
-contacto íntimo con tu
-adversario!](http://2.bp.blogspot.com/-XQC2NUduFx4/VHy96zEwVuI/AAAAAAAABL4/mZmdVmaooxM/s1600/catamarca.jpg)
+{{< figure src="http://2.bp.blogspot.com/-XQC2NUduFx4/VHy96zEwVuI/AAAAAAAABL4/mZmdVmaooxM/s1600/catamarca.jpg" title="Afiche típico: vas a pasarla bárbaro en contacto íntimo con tu adversario" >}}
 
 De algún modo, la experiencia de practicar el BJJ es particular en el
 mundo anglosajón, como si para ellos incluyese el ejercicio de la

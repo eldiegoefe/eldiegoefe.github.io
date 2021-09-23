@@ -7,7 +7,7 @@
     <title>A punto para Lisp</title>
     <link>http://www.certezasdudosas.com/a-punto-para-lisp/</link>
     <pubDate>Wed, 13 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/a-punto-para-lisp/</guid>
-    <description><![CDATA[A punto para Lisp]]></description>
+    <description><![CDATA[Cuando empecé a leer Practical Common Lisp, de Peter Seibel, tras escuchar el reportaje de Sacha Chua a Bozhidar Batsov, tuve algunos inconvenientes para poder instalar Lisp en mi compu, hasta que encontré el tutorial Installing Common Lisp. Estas notas resumen la información del video (sus instrucciones se muestran en un entorno Windows mientras que mi transcripción es para Linux), para poder instalar un Lisp en cualquier máquina con Emacs:]]></description>
 </item>
 </channel>
 </rss>

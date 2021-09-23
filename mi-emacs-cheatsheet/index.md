@@ -37,3 +37,14 @@
 |       | C-x C-q | Editar buffer de Dired     |
 |       | C-c C-c | Finalizar edición y grabar |
 
+yasnippets
+
+| Yasnippets             |           |                                            |
+|------------------------+-----------+--------------------------------------------|
+| yas-visit-snippet-file | C-c & C-v | Muestra los snippets del modo mayor activo |
+| yas-new-snippet        | C-c & C-n | Crea un nuevo snippet                      |
+|                        |           |                                            |
+|                        |           |                                            |
+
+encc
+

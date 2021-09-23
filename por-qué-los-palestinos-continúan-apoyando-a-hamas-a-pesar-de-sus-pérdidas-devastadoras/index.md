@@ -99,8 +99,7 @@ al menos tratar de entender qué hay detrás de esa posición. Lo que es
 seguro es que el bombardeo de Gaza no les va a cambiar la cabeza. Todo
 lo contrario.
 
-![Un palestino llora cerca de los escombros de su
-casa](https://farm8.staticflickr.com/7477/16103802600_ce1c7a9fdc_o.jpg)
+{{< figure src="https://farm8.staticflickr.com/7477/16103802600_ce1c7a9fdc_o.jpg" title="Un palestino llora cerca de los escombros de su casa" >}}   
 
 Un palestino llora cerca de los escombros de su casa después de la
 última ronda de ataques israelíes contra Al Shaja\'ia, Ciudad de Gaza,

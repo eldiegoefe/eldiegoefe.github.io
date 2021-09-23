@@ -8,8 +8,6 @@ ejemplos, incluso chequeando que no haya errores de tipeo, suelen aparecer
 problemas. Los resultados no son los esperados, aparecen errores, excepciones,
 relámpagos y huracanes.
 
-<!--more-->
-
 Mientras sigo con las lecturas sobre IPython nos dicen que importemos el paquete
 NetworkX. Sin embargo, es desconocido para mi sistema. Busco ayuda y llego a la
 pagina de NetworkX donde están [las instrucciones de

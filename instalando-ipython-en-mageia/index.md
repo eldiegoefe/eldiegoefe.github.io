@@ -1,6 +1,8 @@
 # Instalando IPython en Mageia
 
-Para instalar IPython en Mageia, sin tener privilegios de root hay que cumplir con los siguientes pasos:
+
+Para instalar IPython en Mageia, sin tener privilegios de root hay que cumplir
+con los siguientes pasos:
 
 - Contar con privilegios de root para poder correr el instalador
 - Hay que instalar PIP

@@ -1,7 +1,6 @@
 # Molestos clicks del mouse (digiKam tips)
 
 
-
 Usar el mouse en digiKam puede producir caspa. Cada vez que hago un click para
 seleccionar un archivo abre la vista de previsualización (como al apretar F3).
 Este comportamiento no corresponde exclusivamente a digiKam, sino al escritorio
@@ -11,7 +10,8 @@ Entrada**. En la siguiente imagen puede verse el lugar donde seleccionar la
 opción: *Una doble pulsación abre archivos y carpetas (una sola pulsación
 selecciona iconos)*.
 
-![Selección de opciones en la configuración del escritorio de KDE para
-facilitar el uso de
-digiKam](https://farm8.staticflickr.com/7565/16288700001_fa3781e9e6_b.jpg)
+A continuación pueden ver la selección de opciones en la configuración del
+escritorio de KDE para facilitar el uso de digiKam.
+
+{{< figure src="https://farm8.staticflickr.com/7565/16288700001_fa3781e9e6_b.jpg" title="Configuración" >}}
 

@@ -27,6 +27,8 @@ se gestó, fines del siglo XIX con sus románticos *pogroms* rusos y
 mediados del siglo XX con su *solución final* entiendo que ese proyecto
 haya sido imprescindible para muchos.
 
+{{< figure src="https://live.staticflickr.com/65535/51501877863_b71af8c0da_c.jpg" title="Pogrom es un ataque organizado contra una población, caracterizado por saqueos, destrucción de propiedades, violaciones y asesinatos" width=50% >}}
+
 El problema de un Estado Judío es que implica una organización con leyes
 que diferencian a los ciudadanos por su condición religiosa o su
 identidad cultural (pues habemos judíos que no tenemos un ápice de

@@ -39,9 +39,8 @@ fuerza, flexibilidad y control. Probablemente sólo los mejores guerreros
 vikingos, romanos o mongoles, durante el apogeo de sus empresas
 aventureras, hubiesen sido capaces de empezar por el nivel más alto.
 
-![Los jóvenes espartanos se entrenaban desde los 7 años. Se estimulaba a las
-mujeres a entrenarse junto con los
-varones.](https://farm8.staticflickr.com/7464/15671032324_e656e857c4_b.jpg)
+{{< figure src="https://farm8.staticflickr.com/7464/15671032324_e656e857c4_b.jpg" title="Los jóvenes espartanos se entrenaban desde los 7 años. Se estimulaba a las mujeres a entrenarse junto con los varones." >}}
+   
 
 Aún para una persona en buen estado físico el autor recomienda iniciar
 la rutina con la dificultad más baja, en la que se realiza una fuerza
@@ -84,8 +83,7 @@ codos, que se quejan bastante). El nivel cinco es la flexión de brazos
 tradicional, y el nivel diez consiste en realizar las flexiones usando
 un solo brazo.
 
-![Convict Conditioning. Paul \"Coach\"
-Wade](https://farm9.staticflickr.com/8618/15671293333_b43028d418_o.png)
+{{< figure src="https://farm9.staticflickr.com/8618/15671293333_b43028d418_o.png" title="Convict Conditioning. Paul \"Coach\" Wade" >}}
 
 En los seis meses que llevo respetando esta rutina, con diferentes
 niveles de avance en los 6 ejercicios, puedo notar que estoy más fuerte

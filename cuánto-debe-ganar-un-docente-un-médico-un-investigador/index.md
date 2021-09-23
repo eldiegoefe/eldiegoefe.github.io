@@ -36,7 +36,7 @@ clase social. ¿Son propietarias o pagan alquiler? ¿Poseen obra social
 con buena cobertura o no? ¿Envían a sus hijos a escuelas públicas o
 privadas? Y así podríamos seguir\...
 
-![¿familia tipo?](https://farm8.staticflickr.com/7661/17278136045_027b9ec2e1_b.jpg)
+{{< figure src="https://farm8.staticflickr.com/7661/17278136045_027b9ec2e1_b.jpg" title="¿Familia tipo?" >}}
 
 Para poder estimar números algunas instituciones (como ciertos gremios)
 suponen que la *familia tipo* es propietaria, y cuenta con el hospital y
@@ -131,7 +131,7 @@ valor de la vivienda (con lo cual además necesitan 35000 dólares en
 ahorros). En otras palabras, el crédito es inaccesible, aún para una
 pareja de profesionales con ingresos promedio para su segmento social.
 
-![indice de accesibilidad](https://farm9.staticflickr.com/8782/16655212454_d2ca1e41ef_b.jpg)
+{{< figure src="https://farm9.staticflickr.com/8782/16655212454_d2ca1e41ef_b.jpg" title="Indice de accesibilidad" >}}
 
 Con el dato anterior respondemos cuál es el salario mínimo que deberían
 ganar los profesionales del ámbito público, los mencionados médicos del

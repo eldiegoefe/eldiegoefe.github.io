@@ -1,5 +1,6 @@
 # Listas en Python
 
+
 Apuntes del capítulo 10. Lists, de Think Python.
 
 ## Traversing

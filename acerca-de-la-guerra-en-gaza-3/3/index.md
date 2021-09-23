@@ -51,3 +51,7 @@ hasta la siguiente intifada, hasta el próximo ataque suicida, hasta el
 bloqueo inhumano que ocurra a continuación, etc. La estupidez humana no
 tiene límites. Shalom!
 
+{{< figure src="https://live.staticflickr.com/4411/36139589524_bd3aece1bd.jpg" title="¡Knishes para todes!" attr="failing_angel (flickr)" attrlink=https://flic.kr/p/X4wQT7 width=75% >}}
+
+
+

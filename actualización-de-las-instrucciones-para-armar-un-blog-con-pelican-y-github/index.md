@@ -2,7 +2,6 @@
 
  
 
-
 El sitio oficial de Pelican, con sus intrucciones de instalación y uso [es
 este](http://pelican.readthedocs.org/). Originalmente, este post estuvo basado
 en [las instrucciones de Nicholas Tan

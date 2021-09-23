@@ -1,5 +1,6 @@
 # Israel tiene alternativas a esta guerra (por Noam Sheizaf)
 
+
 Escrito por **Noam Sheizaf**. ([Artículos de Noam
 Sheizaf](http://972mag.com/author/noams/))
 
@@ -41,8 +42,7 @@ la situación actual.
 Me gustaría discutir una alternativa realista, junto con sus costos y
 riesgos.
 
-![Funeral por los 26 miembros de la familia Abu
-Jame](https://farm9.staticflickr.com/8635/16106408758_9f34e12ae5_o.jpg)
+{{< figure src="https://farm9.staticflickr.com/8635/16106408758_9f34e12ae5_o.jpg" title="Funeral por los 26 miembros de la familia Abu Jame" >}}
 
 *Funeral por los 26 miembros de la familia Abu Jame, quienes fueron
 asesinados el día anterior durante un ataque israelí sobre el barrio
@@ -108,7 +108,7 @@ caros. Un compromiso, por otro lado, no garantiza completamente la
 seguridad, pero sí presenta una oportunidad cierta para un futuro mucho
 mejor.
 
-![](https://farm8.staticflickr.com/7462/16106617720_fa415005cd_o.jpg)
+{{< figure src="https://farm8.staticflickr.com/7462/16106617720_fa415005cd_o.jpg" title="Soldiers and relatives mourn at the grave of Israeli Sergeant Banaya Rubel during his funeral on July 20, 2014 in Holon, Israel. Sergeant Rubel was killed along with another Israeli army soldier on the 12th day of the attack. (Oren Ziv/Activestills.org)" >}}
 
 Israel puede terminar la lucha ahora. Para ello, puede acordar el
 levantamiento del bloqueo a Gaza. En teoría, Egipto podría hacerlo

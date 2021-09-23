@@ -7,21 +7,15 @@
     <title>Descubriendo Gnome</title>
     <link>http://www.certezasdudosas.com/descubriendo-gnome/</link>
     <pubDate>Sun, 09 Feb 2014 11:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/descubriendo-gnome/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2014/gnome.jpg" referrerpolicy="no-referrer">
-            </div>Comentarios sobre el entorno de escritorio Gnome]]></description>
+    <description><![CDATA[Empecé a tomarle el gustito a Fedora y Gnome. Al principio (24 horas atrás) el mouse parecía haber alcanzado un inoportuno grado de independencia porque se tendía a ir a la esquina superior izquierda (la “hot corner”) y se habilitaba el menú de Actividades. Para solucionarlo encontré un sitio desde el cual se instalan las extensiones de GNOME, que es un gran descubrimiento en sí mismo.
+Primero lo primero: instale 'No Topleft Hot Corner'.]]></description>
 </item>
 <item>
     <title>Dónde están los programas en Linux</title>
     <link>http://www.certezasdudosas.com/d%C3%B3nde-est%C3%A1n-los-programas-en-linux/</link>
     <pubDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/d%C3%B3nde-est%C3%A1n-los-programas-en-linux/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2014/location.jpg" referrerpolicy="no-referrer">
-            </div><p>Los directorios típicos son los siguientes, aunque hay variaciones en las
-distintas distribuciones de linux:</p>
-<ul>
-<li>[/bin] ejecutables (Essential commands that everyone needs to use at any time)</li>
-</ul>]]></description>
+    <description><![CDATA[Los directorios típicos son los siguientes, aunque hay variaciones en las distintas distribuciones de linux:
+ [/bin] ejecutables (Essential commands that everyone needs to use at any time) [/usr] A complex hierarchy of additional programs and files. [/usr/bin] normal user executables. The commands that aren&rsquo;t essential for users but are useful [/sbin] (superuser core executables) The commands the system Administrator needs access to. [/usr/sbin] (superuser executables). The commands that aren&rsquo;t essential for Administrators but are useful.]]></description>
 </item>
 </channel>
 </rss>

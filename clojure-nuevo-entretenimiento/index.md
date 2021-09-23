@@ -1,7 +1,12 @@
 # Clojure, nuevo entretenimiento
 
 
-En el mundo Emacs se menciona bastante el lenguaje Clojure, como un dialecto de Lisp que corre sobre el Java Virtual Machine, lo cual constituye para mi un dato casi completamente inutil, puesto que desconozco Java y su JVM. De cualquier manera, mientras continúo leyendo ANSI Common Lisp, me dieron ganas de probar, así que guardo aquí las instrucciones de instalación para usar Clojure con Emacs en Linux.
+En el mundo Emacs se menciona bastante el lenguaje Clojure, como un dialecto de
+Lisp que corre sobre el Java Virtual Machine, lo cual constituye para mi un dato
+casi completamente inutil, puesto que desconozco Java y su JVM. De cualquier
+manera, mientras continúo leyendo ANSI Common Lisp, me dieron ganas de probar,
+así que guardo aquí las instrucciones de instalación para usar Clojure con Emacs
+en Linux.
 
 La cuestión no es tan complicada, primero verificamos desde un terminal
 que Java está instalado:

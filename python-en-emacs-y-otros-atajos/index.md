@@ -56,8 +56,7 @@
     quedan habilitados para usar el trigger (la abreviatura) seguido de
     TAB.
 
-![yasnippets con helm](https://c1.staticflickr.com/1/657/21855757933_5ff671a447_b.jpg){.align-center
-width="100.0%"}
+{{< figure src="https://c1.staticflickr.com/1/657/21855757933_5ff671a447_b.jpg" title="Yasnippets con Helm" >}}
 
 ## Tabulación
 

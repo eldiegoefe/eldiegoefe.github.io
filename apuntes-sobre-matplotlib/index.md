@@ -70,7 +70,9 @@ create the **primitives** (Line2D, Text, Rectangle).
 > add_axes() method which takes a list of \[left, bottom, width,
 > height\] values in 0-1 relative coordinates.
 
-![](https://farm8.staticflickr.com/7562/15668742154_5fa9d2804e_b.jpg)
+   
+{{< figure src="https://farm8.staticflickr.com/7562/15668742154_5fa9d2804e_b.jpg" title="Apuntes horrorosos" width=50% >}}
+   
 
 Había hecho este dibujito cuando estaba viendo este tema, para aplicarlo
 a un programa para linealizar termistores, pero veo que en el dibujo la

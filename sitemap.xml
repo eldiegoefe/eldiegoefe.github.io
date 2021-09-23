@@ -50,9 +50,6 @@
             <loc>http://www.certezasdudosas.com/divagaciones-de-un-yogui/</loc><lastmod>2019-02-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/tags/espiritualidad/</loc><lastmod>2019-02-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/tags/filosof%C3%ADa/</loc><lastmod>2019-02-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.certezasdudosas.com/alfonsina-y-el-mar/</loc><lastmod>2018-11-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.certezasdudosas.com/tags/canciones/</loc><lastmod>2018-11-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.certezasdudosas.com/tags/musica/</loc><lastmod>2018-11-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/tags/aborto/</loc><lastmod>2018-07-28T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/aborto-y-reglas-para-un-debate/</loc><lastmod>2018-07-28T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/tags/ciencia/</loc><lastmod>2018-07-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -166,6 +163,7 @@
             <loc>http://www.certezasdudosas.com/organizar-una-coleccion-de-fotos-digitales/</loc><lastmod>2015-01-13T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/tags/internet/</loc><lastmod>2015-01-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/la-muerte-visita-a-la-m%C3%BAsica-en-la-web/</loc><lastmod>2015-01-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.certezasdudosas.com/tags/musica/</loc><lastmod>2015-01-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/se-dice-de-charlie-hebdo/</loc><lastmod>2015-01-10T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/tags/guerra/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://www.certezasdudosas.com/tags/humor/</loc><lastmod>2015-01-09T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -199,7 +197,6 @@
             <loc>http://www.certezasdudosas.com/tags/restructuredtext/</loc><lastmod>2014-11-08T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/tags/recuerdos/</loc><lastmod>2014-10-25T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/sorpresas-del-pasado/</loc><lastmod>2014-10-25T11:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.certezasdudosas.com/diccionarios-en-python/</loc><lastmod>2014-10-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/tags/mageia/</loc><lastmod>2014-10-22T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/mageia-y-manjaro/</loc><lastmod>2014-10-22T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/tags/particiones/</loc><lastmod>2014-10-22T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -276,5 +273,4 @@
             <loc>http://www.certezasdudosas.com/exceso-de-opciones/</loc><lastmod>2021-07-25T17:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/enlaces-sobre-m%C3%BAsica/</loc><lastmod>2010-01-02T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/inicio/</loc><lastmod>2010-01-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.certezasdudosas.com/mi-emacs-cheatsheet/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.certezasdudosas.com/offline/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

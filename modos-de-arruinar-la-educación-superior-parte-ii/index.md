@@ -1,6 +1,9 @@
 # Modos de arruinar la educación superior (Parte II)
 
 
+Recuento acerca de la insatisfacción por la enseñanza en la universidad (Parte
+II).
+
 Hola, les agradezco las respuestas, realmente, y no me niego al encuentro para
 discutir estas preocupaciones compartidas. Mientras esperamos el acontecimiento
 (roguemos a Odín que incluya cerveza negra) quiero continuar --quizás me repita

@@ -11,7 +11,7 @@ olvidar.
 -   [Book Depository](https://www.bookdepository.com)
 -   [Links sobre música]({{< ref "2010-01-02-enlaces-sobre-musica.md" >}})
     
-## Redes
+## Redes Sociales
 
 -   [Diaspora](https://joindiaspora.com/stream)
 -   [Facebook](http://www.facebook.com)
@@ -61,7 +61,9 @@ olvidar.
 -   [TParser](http://tparser.org)
 -   [Unblocked](https://unblocked.mx/)
 
-## Eve-Online
+## Juegos
+
+### Eve-Online
 
 -   Búsquedas en
     [Chruker](https://www.google.com.ar/search?q=site%3Agames.chruker.dk&sourceid=opera&ie=UTF-8&ohttp://www.woodworkforums.comeminimal=UTF-8&gfe_rd=cr&ei=CLSoV_qVNamB8Qfi-6igBg)
@@ -70,7 +72,7 @@ olvidar.
 -   [Eve University](http://wiki.eveuniversity.org/Main_Page)
 -   [FCON Forum](https://f/everything-woodworking-book/orums.fcon.us)
 
-## GW2
+### GW2
 
 -   [GW2 Efficiency](https://gw2efficiency.com)
 -   [MetaBattle](http://metabattle.com)
@@ -110,19 +112,19 @@ olvidar.
 -   [Rise and Shine Rabbitry](https://riseandshinerabbitry.com)
 -   [The Elliott Homestead](http://theelliotthomestead.com)
 
-### Carpintería
+## Carpintería
 
 Más enlaces de carpintería en: [Mi lista de canales de
 YouTube](%7Cfilename%7C/2016-11-26-youtube.rst).
 
-## Foros, utilidades y bibliografia
+### Foros, utilidades y bibliografia
 
 -   [Foro de la madera](http://www.foromadera.com)
 -   [Sketchup](https://app.sketchup.com/app?hl=en)
 -   [Woodworkers Heaven](http://www.cro-wood.com)
 -   [Woodwork Forum](http://www.woodworkforums.com) (Australia)
 
-## Comercios
+### Comercios
 
 -   [Workshop Heaven](https://www.workshopheaven.com)
 -   [Infinity Tools](https://www.infinitytools.com)
@@ -141,7 +143,7 @@ YouTube](%7Cfilename%7C/2016-11-26-youtube.rst).
 -   [Comercial Pazos](http://www.comercialpazos.com)
 -   [Tools from Japan](http://www.toolsfromjapan.com)
 
-## Blogs
+### Blogs
 
 -   [Artisan
     Flamingo](https://web.archive.org/web/20120306021939/http://artisanflamingo.blogspot.com/)
@@ -157,14 +159,14 @@ YouTube](%7Cfilename%7C/2016-11-26-youtube.rst).
 -   [Técnicas básicas de
     ebanistería](http://ebanisterialuislaca.blogspot.com.ar)
 
-## Foros
+### Foros
 
 -   [El foro de la madera](http://www.foromadera.com/)
 -   [Hecho x nostros mismos](http://www.hechoxnosotrosmismos.net/foro/)
 -   [Hecho x nostros mismos
     (viejo)](http://www.hechoxnosotrosmismos.com/)
 
-## Otros foros
+### Otros foros
 
 -   [El Cuartito DIYer](http://foro.cuartitodiyer.com)
 

@@ -43,8 +43,7 @@ tecleando un número de sectores con una cantidad importante de dígitos.
 Acá pueden ver la pantalla desde la cual escribo, con la nueva
 instalación de Manjaro.
 
-![Pantalla con
-Manjaro](https://farm9.staticflickr.com/8584/16105314727_ae59b535dc_b.jpg)
+{{< figure src="https://farm9.staticflickr.com/8584/16105314727_ae59b535dc_b.jpg" title="Pantalla con Manjaro" >}}
 
 No abandoné la tarea de instalar con UEFI, a pesar de que me llevó toda
 una tarde, porque con este nuevo sistema no hay limitación en el número

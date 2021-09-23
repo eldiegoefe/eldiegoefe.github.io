@@ -7,7 +7,9 @@
     <title>De jpg a pdf</title>
     <link>http://www.certezasdudosas.com/de-jpg-a-pdf/</link>
     <pubDate>Wed, 24 Sep 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/de-jpg-a-pdf/</guid>
-    <description><![CDATA[De jpg a pdf]]></description>
+    <description><![CDATA[Encontré una muy sencilla aplicación para convertir archivos de imágenes. Si bien tiene mucha potencia, porque puede hacer mucho más, yo la usé para convertir imágenes en páginas de un archivo pdf.
+Se necesita tener instalado un paquete llamado imagemagick. Para instalarlo desde un terminal dependerá de la distribución, suele ser así:
+1 2 3  $ sudo urpmi imagemagick # desde mageia $ sudo apt-get install imagemagick # desde ubuntu, mint, etc $ sudo yum install imagemagick # desde fedora   Luego, para usarlo, también desde un terminal y en el directorio donde están guardadas las imágenes, se ejecuta convert (parece que no es lo único que instala imagemagick):]]></description>
 </item>
 </channel>
 </rss>

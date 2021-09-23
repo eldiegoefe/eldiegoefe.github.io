@@ -1,7 +1,11 @@
 # Primer snippet
 
 
-Este es el primer snippet diseñado para automatizar el encabezado de las paginas hechas en restructuredText, para facilitarme la escritura de este blog. Hay mucha ayuda en la página de Capitao Morte (supongo que es su autor).
+## Un snippet ejemplar
+
+Este es el primer snippet diseñado para automatizar el encabezado de las paginas
+hechas en restructuredText, para facilitarme la escritura de este blog. Hay
+mucha ayuda en la página de Capitao Morte (supongo que es su autor).
 
 
 ``` rest
@@ -30,29 +34,39 @@ ejecutar el snippet.
 La linea 4 está para que la indentación aparezca correcta al ejecutarse
 el snippet, ya que sin esta linea aparecían unas tabulaciones erróneas.
 
-**¿Dónde guardar el archivo?**
+## ¿Dónde guardar el archivo?
 
 No conviene guardar el snippet nuevo en el directorio donde se almacena
 automáticamente el paquete *yasnippets* porque al actualizar este
 paquete se perderá nuestra creación.
 
-Hay que verificar el valor de la variable donde se almacenan los
-directorios para los snippets personalizados (mediante **M-x
-customize-variable yas-snippet-dirs**). Al chequear veo que uno de los
-directorios es *\~/.emacs.d/snippets* pero cuando me fijo con el
-navegador encuentro que aún no existe, así que lo creo (desde **M-x
-dired**). Luego también creo un subdirectorio para mantener la lógica de
-los nombres bajo *\~/.emacs.d/elpa/yasnippet-XXXXXXXX.XXXX/snippets*,
-donde a cada modo mayor se le asigna un subdirectorio. Por lo tanto,
-para mi ultra magnífico snippet de restructuredText, corresponde
+Se puede verificar el valor de la variable donde se almacenan los
+directorios para los snippets personalizados mediante **M-x
+customize-variable yas-snippet-dirs**). 
+
+Para agregar un directorio personal al lugar donde Emacs busca los snippets,
+podemos colocar el siguiente código:
+
+``` elisp
+(setq yas-snippet-dirs (append yas-snippet-dirs
+                               '("~/directorio-equis/snippets")))
+``` 
+
+Dentro de ese directorio se deberán organizar los nuevos snippets siguiendo la
+estructura de un subdirectorio para alojar los que correspondan a cada modo:
+
+> snippets/markdown-mode
+>
+> snippets/org-mode
+>
+> snippets/rst-mode
+
+Por lo tanto, para mi ultra magnífico snippet de restructuredText, corresponde
 guardarlo así (sin ninguna extensión):
 
-``` bash
-~/.emacs.d/snippets/rst-mode/encabezado
-```
+> ~/directorio-equis/snippets/rst-mode/encabezado
 
-**Otra cosa**: para poder colocar código con números de línea usando
-restructuredText hay que tener en cuenta lo siguiente:
+## Números de linea (rst-mode)
 
 > -   debajo del **.. code-block::** se debe incluir la directiva
 >     **:linenos:**. No se si es un bug, pero esa directiva debe estar

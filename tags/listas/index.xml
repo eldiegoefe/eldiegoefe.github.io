@@ -7,7 +7,10 @@
     <title>Listas en Python</title>
     <link>http://www.certezasdudosas.com/listas-en-python/</link>
     <pubDate>Wed, 15 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/listas-en-python/</guid>
-    <description><![CDATA[Listas en Python]]></description>
+    <description><![CDATA[Apuntes del capítulo 10. Lists, de Think Python.
+Traversing To traverse es el verbo que se refiere al acceso secuencial de los elementos de una lista. La siguiente es una forma de &quot;traversear&quot; una lista:
+1 2  for cheese in cheeses: print cheese   Si se necesita modificar algún elemento de la lista es mejor hacer:
+1 2  for i in range(len(numbers)): numbers[i] = numers[i] * 2   Agregar elementos a una lista Se pueden agregar elementos individuales a una lista con append.]]></description>
 </item>
 </channel>
 </rss>

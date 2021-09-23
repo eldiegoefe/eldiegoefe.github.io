@@ -3,7 +3,6 @@
 
 ## Recuento y llegada
 
-
 Es la tercera vez que voy a ver una proyección del Relámpago Verde. La primera
 fue “Vanishing Point” (Punto de Fuga), un viaje de rarezas y alegorías que se
 puede ver sin profundidad pero que con sus personajes tan singulares y alguna
@@ -34,9 +33,7 @@ desde el fondo de la sala-patio. Sentado en la última fila veía una
 postal de siluetas negras recortadas contra la luz del rostro de
 Jennifer O\'Neill.
 
-![Inserte las siluetas con su imaginación, porque mis fotos no le hacen
-honor a esta
-sonrisa.](https://farm8.staticflickr.com/7500/16289434321_1af4cc7ca8_o.png)
+{{< figure src="https://farm8.staticflickr.com/7500/16289434321_1af4cc7ca8_o.png" title="Inserte las siluetas con su imaginación, porque mis fotos no le hacen honor a esta sonrisa" >}}
 
 Por suerte el Relámpago, más allá de sufrir la incontinencia de un
 antivirus chamuyero y la intromisión de la barra inferior del Windows
@@ -86,6 +83,5 @@ magistralmente o arruinar para la posteridad.
 Me acordé, fui una cuarta vez, para \"On the road\" (En el camino), otra
 road-movie con iniciaciones y poesía. Eligen buenas pelis los muchachos.
 
-![En mis ojos se veía
-mejor.](https://farm8.staticflickr.com/7465/16103863830_c654c4909f_b.jpg)
+{{< figure src="https://farm8.staticflickr.com/7465/16103863830_c654c4909f_b.jpg" title="En mis ojos se veía mejor" >}}
 

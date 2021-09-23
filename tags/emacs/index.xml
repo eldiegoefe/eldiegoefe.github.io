@@ -29,43 +29,52 @@ Inserción Atajos de teclado &quot;convencionales&quot; de org-mode (funcionan c
     <title>Python en Emacs y otros atajos</title>
     <link>http://www.certezasdudosas.com/python-en-emacs-y-otros-atajos/</link>
     <pubDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/python-en-emacs-y-otros-atajos/</guid>
-    <description><![CDATA[Python en Emacs y otros atajos]]></description>
+    <description><![CDATA[Spacemacs   Anaconda-mode: Emacs tiene muchas herramientas para facilitar la programación en Python. En Spacemacs se puede activar anaconda-mode, que habilita una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información en el modeline sobre la función que se está tipeando (muestra los nombres de sus argumentos). Cosas de Anaconda para usar:
+ anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca el origen del símbolo bajo el punto. Por ejemplo: si se trata de una función, abre el archivo donde está definida y ubica el punto sobre el encabezado de la misma.]]></description>
 </item>
 <item>
     <title>Búsquedas con isearch en Emacs</title>
     <link>http://www.certezasdudosas.com/b%C3%BAsquedas-con-isearch-en-emacs/</link>
     <pubDate>Wed, 27 May 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/b%C3%BAsquedas-con-isearch-en-emacs/</guid>
-    <description><![CDATA[Búsquedas con isearch en Emacs]]></description>
+    <description><![CDATA[Es una tarea habitual al editar texto el buscar caracteres o palabras. Una de las opciones que ofrece Emacs es la función de búsqueda incremental, que tiene varias formas de inicio.
+   Comando Por defecto Ergoemacs Descripción     isearch-forward C-s C-f solicita los caracteres a buscar   isearch-forward-symbol-at-point M-s . F8 . busca el símbolo bajo el cursor   isearch-forward-word M-s w F8 w busca palabras   isearch-forward-symbol M-s _ F8 _ busca símbolos (símbolos según Emacs)    Al ejecutar uno de estos comandos se entra dentro de un modo en el cual se puede repetir la misma búsqueda o modificarla (en el minibuffer aparece información relativa a este modo, por ejemplo tras ejecutar isearch-forward aparece I-search: para que el usuario ingrese las letras que desea buscar).]]></description>
 </item>
 <item>
     <title>Sugerencia respecto de los tutoriales de Emacs</title>
     <link>http://www.certezasdudosas.com/sugerencia-respecto-de-los-tutoriales-de-emacs/</link>
     <pubDate>Mon, 18 May 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/sugerencia-respecto-de-los-tutoriales-de-emacs/</guid>
-    <description><![CDATA[Sugerencia respecto de los tutoriales de Emacs]]></description>
+    <description><![CDATA[To read this entry in english: click here.
+Leo bastantes blogs sobre Emacs desde que empecé el viaje de aprender a usarlo. Hay tutoriales buenísimos para principiantes y también páginas destinadas a usuarios más avanzados. Sin embargo, en la mayoría de los sitios se repite una costumbre que desestima una de las ventajas que tiene el Todopoderoso Editor (su capacidad de personalización): las instrucciones para hacer tal o cual cosa suelen aparecer con sus atajos de teclado por defecto, como si fuese invariable que abrir un archivo (visitarlo) se haga con C-x C-f, o como si los únicos keybindings para ir a los extremos de la linea donde se ubica el cursor sean C-a y C-e, o como si realizar búsquedas incrementales requiera indefectiblemente teclear C-s.]]></description>
 </item>
 <item>
     <title>Suggestion about Emacs tutorials</title>
     <link>http://www.certezasdudosas.com/suggestion-about-emacs-tutorials/</link>
     <pubDate>Mon, 18 May 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/suggestion-about-emacs-tutorials/</guid>
-    <description><![CDATA[Suggestion about Emacs tutorials]]></description>
+    <description><![CDATA[Para leer este texto en español: click aca
+I read many Emacs blogs since I started the trip of learning it. There are great beginner's tutorials and also webpages for more advanced users. However, there's a habit I find repeatedly on the majority of sites which goes against one of the Almighty Editor advantages: instructions usually refer to default keybindings, like it was invariant that you visit files only with C-x C-f, or like the only admited shortcuts to the beginning and ending of the current line where C-a and C-e, or if the incremental search inevitable required to type C-s.]]></description>
 </item>
 <item>
     <title>Agenda en Emacs y OrgMode</title>
     <link>http://www.certezasdudosas.com/agenda-en-emacs-y-orgmode/</link>
     <pubDate>Mon, 29 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/agenda-en-emacs-y-orgmode/</guid>
-    <description><![CDATA[Agenda en Emacs y OrgMode]]></description>
+    <description><![CDATA[Configuracion En el archivo de configuracion de Emacs hay que incluir varios elementos para poder usar la agenda adecuadamente.
+Se pueden seleccionar individualmente los archivos que forman parte de la agenda:
+1 2  (setq org-agenda-files (list &#34;~/mis-archivos-org/apuntes-varios.org&#34; &#34;~/mis-archivos-org/acomodar.org&#34;))   O sino utilizar un directorio completo:
+1  (setq org-agenda-files &#39;(&#34;~/mis-archivos-org&#34;))   Se puede utilizar un archivo en particular para ir anotando al vuelo las ideas que se nos ocurren.]]></description>
 </item>
 <item>
     <title>Comandante Emacs (dired-mode)</title>
     <link>http://www.certezasdudosas.com/comandante-emacs-dired-mode/</link>
     <pubDate>Fri, 26 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/comandante-emacs-dired-mode/</guid>
-    <description><![CDATA[Manejo de archivos en Emacs (dired-mode)]]></description>
+    <description><![CDATA[Estuve un rato largo (¡horas!) viendo cómo usar el modo &quot;dired&quot; que tiene Emacs para el manejo de archivos, porque quiero usarlo al modo del viejo Comandante Norton (y sus clones: Total Commander en Window$, Krusader especialmente para KDE, etc). Es decir: dos paneles que sirven de inicio y de destino para poder copiar y mover archivos, crear directorios, navegarlos, etc.
+ Buffer mostrando un directorio con dired-mode   Lo primero que hice fue instalar un paquete que amplía las opciones disponibles llamado dired+ (dired plus) y después instalé otra extensión llamada dired-sort-menu.]]></description>
 </item>
 <item>
     <title>Pandoc, conversión de org-mode a restructuredtext</title>
     <link>http://www.certezasdudosas.com/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
     <pubDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
-    <description><![CDATA[Pandoc, conversión de org-mode a restructu]]></description>
+    <description><![CDATA[Pandoc es un software para hacer conversión de archivos de texto entre distintos lenguajes de markup. Me viene bien probarlo porque me gustaría escribir mis entradas del blog desde org-mode (que uso con mucha frecuencia) y obtener el mismo texto en versión restructuredText, que es el formato en el que escribo el blog (con Pelican).
+La instalación de Pandoc requirió un pequeño ajuste respecto de lo habitual en Manjaro, ya que el programa no estaba disponible desde los repositorios que vienen por defecto.]]></description>
 </item>
 </channel>
 </rss>

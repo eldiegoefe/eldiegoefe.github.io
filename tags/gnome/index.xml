@@ -7,9 +7,8 @@
     <title>Descubriendo Gnome</title>
     <link>http://www.certezasdudosas.com/descubriendo-gnome/</link>
     <pubDate>Sun, 09 Feb 2014 11:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/descubriendo-gnome/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/2014/gnome.jpg" referrerpolicy="no-referrer">
-            </div>Comentarios sobre el entorno de escritorio Gnome]]></description>
+    <description><![CDATA[Empecé a tomarle el gustito a Fedora y Gnome. Al principio (24 horas atrás) el mouse parecía haber alcanzado un inoportuno grado de independencia porque se tendía a ir a la esquina superior izquierda (la “hot corner”) y se habilitaba el menú de Actividades. Para solucionarlo encontré un sitio desde el cual se instalan las extensiones de GNOME, que es un gran descubrimiento en sí mismo.
+Primero lo primero: instale 'No Topleft Hot Corner'.]]></description>
 </item>
 </channel>
 </rss>

@@ -5,7 +5,6 @@ Los directorios típicos son los siguientes, aunque hay variaciones en las
 distintas distribuciones de linux:
 
 -   [/bin] ejecutables (Essential commands that everyone needs to use at any time)
-<!--more-->
 -   [/usr] A complex hierarchy of additional programs and files.
 -   [/usr/bin] normal user executables. The commands that aren't essential for
     users but are useful

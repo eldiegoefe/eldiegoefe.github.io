@@ -42,6 +42,8 @@ comercialización de música, uno de ellos es
 nuestros empobrecidos bolsillos tercermundistas), pero ahora no será
 motivo de mayores comentarios.
 
+{{< figure src="https://live.staticflickr.com/65535/51503126263_16cfe36ae1_b.jpg" title="Portada del Reino de Mondongo" width=75% >}}
+
 Volviendo a los blogs de música\... Siempre habrá melómanos en la web,
 tendré que buscarle reemplazos a los sitios que se fueron al cielo
 digital. ¿Tienen alguno para recomendar? ¿Se les ocurrió armar un blog

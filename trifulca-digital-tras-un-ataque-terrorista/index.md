@@ -14,18 +14,21 @@ argumentación viraba hacia la denuncia de las acciones terroristas de algunos
 estados (Francia, la OTAN, Israel, EEUU) y de la situación opresiva que viven
 los musulmanes en Europa. Para mi un repudio del asesinato hecho en estos
 términos resulta en una expresión de corrección política vacía puesto que se
-asemeja más a la justificación de la acción homicida.
+asemeja más a la justificación de la acción homicida. **(Lamentablemente no
+funciona más el enlace en el sitio original, pero lo encontré en [este otro
+lugar, aunque sin los comentarios](https://rebelion.org/yo-no-soy-charlie/)).**
 
-![Ilustración del artículo al que me refiero. Me gustó este comentario
-en aquel sitio, de una tal Ana: \"Estoy de acuerdo con lo dices, en
-tanto lo injusto de la situación global de los musulmanes. Sin embargo,
-podría ser que la gente sensible y crítica lee su viñeta así \"Hay en
-este mundo atroz gentes capaces de asesinar a alguien y luego reirse
-porque, (los asesinados) con su mansedumbre y su confianza en la
-humanidad, interpusieron entre ellos y los proyectiles tan solo el texto
-de su fé\" POdría ser que este señor caricaturizara al asesino y no a la
-víctima. Es humor inteligente que muchos malinterpretan.
-no?\"](https://farm8.staticflickr.com/7569/15671345523_cb872e5d64_b.jpg)
+Debajo pueden ver una de las tapas controversiales, sobre las cuales alguien
+comentó en el artículo originalmente citado (una tal Ana): *\"Estoy de acuerdo
+con lo dices, en tanto lo injusto de la situación global de los musulmanes. Sin
+embargo, podría ser que la gente sensible y crítica lee su viñeta así \"Hay en
+este mundo atroz gentes capaces de asesinar a alguien y luego reirse porque,
+(los asesinados) con su mansedumbre y su confianza en la humanidad,
+interpusieron entre ellos y los proyectiles tan solo el texto de su fé\" Podría
+ser que este señor caricaturizara al asesino y no a la víctima. Es humor
+inteligente que muchos malinterpretan. no?\"*
+
+{{< figure src="https://farm8.staticflickr.com/7569/15671345523_cb872e5d64_b.jpg" title="Tapas controversiales" >}}
 
 Frente a la ignorancia de los contenidos de la revista caben dos
 escenarios de análisis. Uno es suponer que efectivamente la revista es
@@ -46,8 +49,7 @@ movilizarnos el cerebro y ponernos a pensar. O puede no provocarnos más
 que ira y el deseo de que nunca más nos crucemos con un material así. En
 cualquier caso Je suis Charlie Hebdo.
 
-![Dibujos estigmatizantes de los musulmanes. ¡Qué raro dibujaron al
-Profeta!](https://farm8.staticflickr.com/7509/15668803754_89d49367cd_b.jpg)
+{{< figure src="https://farm8.staticflickr.com/7509/15668803754_89d49367cd_b.jpg" title="Dibujos estigmatizantes de los musulmanes. ¡Qué raro dibujaron al Profeta!" width=50% >}}
 
 El primer escenario parece más difícil. Supongamos una revista que
 estigmatiza a un grupo nacional (los \"bolitas\", los kurdos, etc) o
@@ -89,8 +91,7 @@ otro es como si me mataran a mi; en otro momento (¿mañana?) discutimos
 si Charlie y Barone se merecían ese destino. Mientras Charlie y Barone
 sigan vivos los voy a poder combatir con las armas aceptables.
 
-![Uf, espero que no maten a
-ninguno.](https://farm9.staticflickr.com/8683/15668800354_cb6c5e18dc_b.jpg)
+{{< figure src="https://farm9.staticflickr.com/8683/15668800354_cb6c5e18dc_b.jpg" title="Uf, espero que no maten a ninguno." width=65% >}}
 
 En las redes sociales un contacto (¿me?) provoca así: ¿y si el asesinado
 fuese el editor de una revista nazi en la Alemania de 1930? Es difícil
@@ -108,8 +109,7 @@ permita esto último). Mientras eso no suceda voy a seguir pensando y
 diciendo que todos esos son asesinos, corruptos, ladrones, mentirosos,
 etc.
 
-![\"Quién es el culpable de la
-guerra!\"](https://farm8.staticflickr.com/7546/16103688458_f20d0f94d3_o.jpg)
+{{< figure src="https://farm8.staticflickr.com/7546/16103688458_f20d0f94d3_o.jpg" title="\"Quién es el culpable de la guerra!\"" >}}
 
 Por otra parte, no es difícil advertir que existen diferencias visibles
 en cuanto a responsabilidad por los males del mundo entre los asesinos

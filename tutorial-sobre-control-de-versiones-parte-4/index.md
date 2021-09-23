@@ -3,10 +3,10 @@
 
 ## Indice del Tutorial
 
-> -   [Parte 1]({{< ref "/posts/2014/2014-10-06-control-de-versiones-1.md" >}}). Cómo armar un repositorio local
-> -   [Parte 2]({{< ref "/posts/2014/2014-10-07-control-de-versiones-2.md" >}}). Cómo subir el repositorio local al remoto
-> -   [Parte 3]({{< ref "/posts/2014/2014-10-09-control-de-versiones-3.md" >}}). Cómo colaborar en un mismo repositorio remoto
-> -   [Parte 4]({{< ref "/posts/2014/2014-10-10-control-de-versiones-4.md" >}}). Cómo resolver conflictos
+- [Parte 1]({{< ref "2014-10-06-control-de-versiones-1.md" >}}). Cómo armar un repositorio local
+- [Parte 2]({{< ref "2014-10-07-control-de-versiones-2.md" >}}). Cómo subir el repositorio local al remoto
+- [Parte 3]({{< ref "2014-10-09-control-de-versiones-3.md" >}}). Cómo colaborar en un mismo repositorio remoto
+- [Parte 4]({{< ref "2014-10-10-control-de-versiones-4.md" >}}). Cómo resolver conflictos
 
 Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés
 visitar [la página de Software

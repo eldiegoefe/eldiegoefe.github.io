@@ -7,7 +7,8 @@
     <title>Comandante Emacs (dired-mode)</title>
     <link>http://www.certezasdudosas.com/comandante-emacs-dired-mode/</link>
     <pubDate>Fri, 26 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/comandante-emacs-dired-mode/</guid>
-    <description><![CDATA[Manejo de archivos en Emacs (dired-mode)]]></description>
+    <description><![CDATA[Estuve un rato largo (¡horas!) viendo cómo usar el modo &quot;dired&quot; que tiene Emacs para el manejo de archivos, porque quiero usarlo al modo del viejo Comandante Norton (y sus clones: Total Commander en Window$, Krusader especialmente para KDE, etc). Es decir: dos paneles que sirven de inicio y de destino para poder copiar y mover archivos, crear directorios, navegarlos, etc.
+ Buffer mostrando un directorio con dired-mode   Lo primero que hice fue instalar un paquete que amplía las opciones disponibles llamado dired+ (dired plus) y después instalé otra extensión llamada dired-sort-menu.]]></description>
 </item>
 </channel>
 </rss>

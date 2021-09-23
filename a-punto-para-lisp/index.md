@@ -1,7 +1,14 @@
 # A punto para Lisp
 
 
-Cuando empecé a leer [Practical Common Lisp](http://www.gigamonkeys.com/book/), de Peter Seibel, tras escuchar [el reportaje de Sacha Chua a Bozhidar Batsov](https://www.youtube.com/watch?v=-8DO0_pqLNA), tuve algunos inconvenientes para poder instalar Lisp en mi compu, hasta que encontré el tutorial [Installing Common Lisp](https://www.youtube.com/watch?v=VnWVu8VVDbI). Estas notas resumen la información del video (sus instrucciones se muestran en un entorno Windows mientras que mi transcripción es para Linux), para poder instalar un Lisp en cualquier máquina con Emacs:
+Cuando empecé a leer [Practical Common Lisp](http://www.gigamonkeys.com/book/),
+de Peter Seibel, tras escuchar [el reportaje de Sacha Chua a Bozhidar
+Batsov](https://www.youtube.com/watch?v=-8DO0_pqLNA), tuve algunos
+inconvenientes para poder instalar Lisp en mi compu, hasta que encontré el
+tutorial [Installing Common Lisp](https://www.youtube.com/watch?v=VnWVu8VVDbI).
+Estas notas resumen la información del video (sus instrucciones se muestran en
+un entorno Windows mientras que mi transcripción es para Linux), para poder
+instalar un Lisp en cualquier máquina con Emacs:
 
 
 Allí dice que se puede [bajar sbcl](http://www.sbcl.org/platform-table.html)

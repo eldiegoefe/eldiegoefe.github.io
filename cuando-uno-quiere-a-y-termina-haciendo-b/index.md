@@ -5,10 +5,10 @@ Estoy leyendo sobre [IPython](http://ipython.org/), que instalé en
 Windows a través de
 [Anaconda](https://store.continuum.io/cshop/anaconda/).
 
-Durante ese viaje me enteré de que Windows tiene dos shells, el más
-viejo y limitado es \'cmd.exe\' mientras que el recomendado es \'Windows
-PowerShell\', ya que tiene los mismos comandos que Unix. En cualquiera
-de los dos, IPython se corre con la orden *ipython*
+Durante ese viaje me enteré de que Windows tiene dos shells, el más viejo y
+limitado es \'cmd.exe\' mientras que el recomendado es \'Windows PowerShell\',
+ya que tiene los mismos comandos que Unix. En cualquiera de los dos, IPython se
+corre con la orden *ipython*
 
 Hay ayudas de IPython en:
 

@@ -1,5 +1,6 @@
 # Instalacion de Linux
 
+
 No es difícil encontrar la información para la instalación de Linux, pero hay distintas maneras y quiero dejar registrada la forma en que lo estoy haciendo actualmente. Los pasos que sigo son:
 
 1.  Bajar el ISO (el archivo imagen) de la distribución que quiero
