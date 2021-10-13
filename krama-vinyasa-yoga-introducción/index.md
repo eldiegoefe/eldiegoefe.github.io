@@ -146,19 +146,18 @@ equilibrio, separar los pies al ancho de cadera, e ir reduciendo esta
 distancia en prácticas sucesivas), así que recuperaremos el equilibrio
 lentamente y luego mantendremos la posición durante 1 minuto.
 
-[![samasthiti](https://tinyurl.com/ml6yf054)](https://tinyurl.com/ml6yf054)
-
-Iyengar y Pattabhi Jois: ¡fiiiiiirmes!
-
-**La idea es reemplazar las imágenes eventualmente por fotografías
-propias, pero por ahora parece un laburo desmesurado**
-
 ## Tadasana (Montaña)
 
 También llamada Vrikshasana (Árbol) es una variación de Samasthiti,
 aunque vamos a usar los términos para representar diferentes momentos:
 Samasthiti será la postura inicial \"pasiva\" y Tadasana la postura con
 los brazos en alto.
+
+{{< figure
+src="https://live.staticflickr.com/65535/51584400158_9a240f0634_o.jpg" title="Iyengar en la sección de Tadasana de su libro Yoga, The Path To Holistic Health. A esta posición yo la llamo Samasthiti." width=50% >}}
+
+*La idea es reemplazar las imágenes eventualmente por fotografías
+propias, pero por ahora parece un laburo desmesurado*
 
 Partiendo de Samasthiti levantar los brazos extendidos a los lados del
 cuerpo, unir las palmas en la posición superior. Entrelazar los dedos y

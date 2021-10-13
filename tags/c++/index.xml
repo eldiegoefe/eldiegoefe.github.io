@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>c&#43;&#43; - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/c&#43;&#43;/</link>
+        <link>https://eldiegoefe.github.io/tags/c&#43;&#43;/</link>
         <description>c&#43;&#43; - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/c&#43;&#43;/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/c&#43;&#43;/" rel="self" type="application/rss+xml" /><item>
     <title>Uso de MBED desde la linea de comandos (CLI)</title>
-    <link>http://www.certezasdudosas.com/uso-de-mbed-desde-la-linea-de-comandos-cli/</link>
-    <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/uso-de-mbed-desde-la-linea-de-comandos-cli/</guid>
+    <link>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</link>
+    <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</guid>
     <description><![CDATA[Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora usaba la versión online del compilador con una FRDM-KL25Z, que es una (de las primeras en funcionar con MBED). El problema del compilador online no es que haya que estar conectado a la web (lo vengo usando desde hace mucho y nunca tuve problemas de acceso) sino sus limitadas prestaciones como editor de texto. Por ejemplo, no encontré manera de comentar y des-comentar múltiples lineas de código simultaneamente, algo que necesito hacer con frecuencia.]]></description>
 </item>
 </channel>

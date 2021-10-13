@@ -5,11 +5,12 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero
 olvidar.
 
 ## Frecuentes
--   [Gmail](https://mail.google.com/mail/u/0/#inbox)
--   [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
--   [Mi lista de canales de YouTube]({{< ref "2016-11-26-youtube.md" >}})
--   [Book Depository](https://www.bookdepository.com)
--   [Links sobre música]({{< ref "2010-01-02-enlaces-sobre-musica.md" >}})
+- [Gmail](https://mail.google.com/mail/u/0/#inbox)
+- [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
+- [Book Depository](https://www.bookdepository.com)
+- [Canales de YouTube]({{< ref "2010-01-03-youtube.md" >}})
+- [Links sobre música]({{< ref "2010-01-02-enlaces-sobre-musica.md" >}})
+- [Carpintería a pleno]({{< ref "2016-11-24-carpinteria-a-pleno.md" >}})
     
 ## Redes Sociales
 
@@ -26,7 +27,6 @@ olvidar.
 ## Contenidos
 
 -   [Feedly](http://feedly.com/i/my)
--   [LifeHack](https://www.lifehack.org)
 -   [LifeHacker](http://lifehacker.com)
 -   [Make use of](https://www.makeuseof.com)
 -   [Makezine](https://makezine.com)
@@ -115,7 +115,7 @@ olvidar.
 ## Carpintería
 
 Más enlaces de carpintería en: [Mi lista de canales de
-YouTube](%7Cfilename%7C/2016-11-26-youtube.rst).
+YouTube]({{ ref "2016-11-26-youtube.rst" }}).
 
 ### Foros, utilidades y bibliografia
 

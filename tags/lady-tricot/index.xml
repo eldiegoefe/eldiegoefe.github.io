@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>lady tricot - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/lady-tricot/</link>
+        <link>https://eldiegoefe.github.io/tags/lady-tricot/</link>
         <description>lady tricot - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 16 Oct 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/lady-tricot/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 16 Oct 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/lady-tricot/" rel="self" type="application/rss+xml" /><item>
     <title>Bienvenido a la máquina</title>
-    <link>http://www.certezasdudosas.com/bienvenido-a-la-m%C3%A1quina/</link>
-    <pubDate>Sun, 16 Oct 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/bienvenido-a-la-m%C3%A1quina/</guid>
+    <link>https://eldiegoefe.github.io/bienvenido-a-la-m%C3%A1quina/</link>
+    <pubDate>Sun, 16 Oct 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/bienvenido-a-la-m%C3%A1quina/</guid>
     <description><![CDATA[Estuvimos analizando la compra de una máquina de tejer con la Genia Tejedora. Al final había más opciones que la desolación de las primeras búsquedas tras las cuales no habíamos encontrado casi nada. Pero tras insistir con las búsquedas se desplegaron muchas alternativas y tuvimos que elegir: comprar máquinas nuevas (que aseguran el funcionamiento pero son caras y de calidades incomprobables en particular las de origen chino), comprar máquinas refaccionadas a particulares (mucho más baratas y con garantía de funcionamiento pero antiguas), máquinas usadas en diverso estado a través de Mercado Libre (imposible estar seguro de lo que uno recibirá).]]></description>
 </item>
 </channel>

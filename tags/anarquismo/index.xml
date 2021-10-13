@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>anarquismo - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/anarquismo/</link>
+        <link>https://eldiegoefe.github.io/tags/anarquismo/</link>
         <description>anarquismo - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 30 Apr 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/anarquismo/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 30 Apr 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/anarquismo/" rel="self" type="application/rss+xml" /><item>
     <title>Grupos de afinidad</title>
-    <link>http://www.certezasdudosas.com/grupos-de-afinidad/</link>
-    <pubDate>Wed, 30 Apr 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/grupos-de-afinidad/</guid>
+    <link>https://eldiegoefe.github.io/grupos-de-afinidad/</link>
+    <pubDate>Wed, 30 Apr 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/grupos-de-afinidad/</guid>
     <description><![CDATA[Esta es una traducción que hice desde An Anarchist FAQ, y colgué como contribución al sitio anarquista en español A las barricadas.
 Los grupos de afinidad son las organizaciones básicas que crean los anarquistas para difundir la idea anarquista. El término grupo de afinidad (affinity group) viene de la F.A.I. española (Federación Anarquista Ibérica) y se refiere a su forma de organización ideada durante sus luchas por la libertad. En su forma más básica, es un grupo (usualmente pequeño) de anarquistas que trabajan conjuntamente para difundir sus ideas al público general, utilizando la propaganda, iniciando o trabajando en campañas y difundiendo sus ideas dentro de organizaciones populares (tales como los sindicatos) y comunidades.]]></description>
 </item>

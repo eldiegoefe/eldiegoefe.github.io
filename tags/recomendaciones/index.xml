@@ -1,20 +1,21 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>recomendaciones - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/recomendaciones/</link>
+        <link>https://eldiegoefe.github.io/tags/recomendaciones/</link>
         <description>recomendaciones - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 26 Nov 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/recomendaciones/" rel="self" type="application/rss+xml" /><item>
-    <title>YouTube</title>
-    <link>http://www.certezasdudosas.com/youtube/</link>
-    <pubDate>Sat, 26 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/youtube/</guid>
-    <description><![CDATA[Esta es una lista de enlaces a canales de Youtube sobre distintas disciplinas e intereses que me gustan, ordenados por categorías.
-Cannabis  Grow Barato  Carpintería Los más vistos (por mi)  April Wilkerson / wilkerdos.com Izzy Swan / Izzy Web Jack Houweling Jay Bates, Vlog and Non Project Videos / Jay's Custom Creations John Heisz (canal principal) / I build it (más amplio en temas, videos más detallistas) / I build it Home Improvement / I build it scrap bin / ibuildit.]]></description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sat, 25 Oct 2014 11:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/recomendaciones/" rel="self" type="application/rss+xml" /><item>
+    <title>Sorpresas del pasado</title>
+    <link>https://eldiegoefe.github.io/sorpresas-del-pasado/</link>
+    <pubDate>Sat, 25 Oct 2014 11:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/sorpresas-del-pasado/</guid>
+    <description><![CDATA[Hoy apenas fue posible encontrar actividades porque el desgano y el malhumor se propagan como pseudópodos del horrendo calor. Por la ventana irremediablemente abierta entra el ruido del tránsito y canciones que deben parecerle fantásticas a los pibes de la gomería. En esta lava de incomodidad tuve la iniciativa de aprender a usar una famosa extensión de Emacs (org-mode) como agenda electrónica, y la verdad es que todo lo bueno que había escuchado resulta ser cierto.]]></description>
 </item>
 <item>
-    <title>Sorpresas del pasado</title>
-    <link>http://www.certezasdudosas.com/sorpresas-del-pasado/</link>
-    <pubDate>Sat, 25 Oct 2014 11:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/sorpresas-del-pasado/</guid>
-    <description><![CDATA[Hoy apenas fue posible encontrar actividades porque el desgano y el malhumor se propagan como pseudópodos del horrendo calor. Por la ventana irremediablemente abierta entra el ruido del tránsito y canciones que deben parecerle fantásticas a los pibes de la gomería. En esta lava de incomodidad tuve la iniciativa de aprender a usar una famosa extensión de Emacs (org-mode) como agenda electrónica, y la verdad es que todo lo bueno que había escuchado resulta ser cierto.]]></description>
+    <title>YouTube</title>
+    <link>https://eldiegoefe.github.io/youtube/</link>
+    <pubDate>Sun, 03 Jan 2010 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/youtube/</guid>
+    <description><![CDATA[Esta es una lista de enlaces a canales de Youtube sobre distintas disciplinas e intereses que me gustan, ordenados por categorías.
+Cannabis  Grow Barato  Carpintería Los más vistos (por mi)  April Wilkerson / wilkerdos.com Izzy Swan / Izzy Web Jack Houweling Jay Bates, Vlog and Non Project Videos / Jay's Custom Creations John Heisz (canal principal) / I build it (más amplio en temas, videos más detallistas) / I build it Home Improvement / I build it scrap bin / ibuildit.]]></description>
 </item>
 </channel>
 </rss>

@@ -1,26 +1,27 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>pelican - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/pelican/</link>
+        <link>https://eldiegoefe.github.io/tags/pelican/</link>
         <description>pelican - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 20 May 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/pelican/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 20 May 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/pelican/" rel="self" type="application/rss+xml" /><item>
     <title>Actualización de las instrucciones para armar un blog con Pelican y GitHub</title>
-    <link>http://www.certezasdudosas.com/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</link>
-    <pubDate>Wed, 20 May 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</guid>
+    <link>https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</link>
+    <pubDate>Wed, 20 May 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</guid>
     <description><![CDATA[El sitio oficial de Pelican, con sus intrucciones de instalación y uso es este. Originalmente, este post estuvo basado en las instrucciones de Nicholas Tan Jerome. El post original pueden verlo en este enlace pueden verlo en este enlace
 Por un lado vamos a configurar un entorno virtual de Python donde vamos a instalar Pelican, y por otro lado vamos a utilizar un directorio subdividido en un subdirectorio para nuestro blog y dos subdirectorios más para herramientas de Pelican (themes y plugins de Pelican).]]></description>
 </item>
 <item>
     <title>Más sobre blogs con Pelican</title>
-    <link>http://www.certezasdudosas.com/m%C3%A1s-sobre-blogs-con-pelican/</link>
-    <pubDate>Fri, 10 Apr 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/m%C3%A1s-sobre-blogs-con-pelican/</guid>
+    <link>https://eldiegoefe.github.io/m%C3%A1s-sobre-blogs-con-pelican/</link>
+    <pubDate>Fri, 10 Apr 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/m%C3%A1s-sobre-blogs-con-pelican/</guid>
     <description><![CDATA[Hace algún tiempo escribí sobre el modo de poner en marcha un blog usando Pelican. Con un poco más de experiencia vuelvo a comentar algunas variaciones, como para más adelante condensar los pasos en un artículo corregido y aumentado (o disminuido, dado que la idea es simplificar).
 Usar entornos virtuales de Python es muy sencillo, tanto que me acostumbré (y hasta disfruto) de realizar instalaciones de diversos programas usándolos. Entre ellos, Pelican.]]></description>
 </item>
 <item>
     <title>Blog con Pelican y GitHub</title>
-    <link>http://www.certezasdudosas.com/blog-con-pelican-y-github/</link>
-    <pubDate>Tue, 22 Apr 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/blog-con-pelican-y-github/</guid>
+    <link>https://eldiegoefe.github.io/blog-con-pelican-y-github/</link>
+    <pubDate>Tue, 22 Apr 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/blog-con-pelican-y-github/</guid>
     <description><![CDATA[Actualización Pueden ver una actualización de estas instrucciones en este nuevo post
 Instrucciones El sitio con las intrucciones sobre Pelican es este. Casi todo el contenido siguiente está basado en las instrucciones de Nicholas Tan Jerome. Para instalar Pelican se puede usar &quot;pip&quot;, más adelante hay más detalles, pero como referencia veloz basta decir que se puede hacer sencillamente (en la rama &quot;source&quot; y desde el ENV que se creará más adelante):]]></description>
 </item>

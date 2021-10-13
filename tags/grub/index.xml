@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>grub - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/grub/</link>
+        <link>https://eldiegoefe.github.io/tags/grub/</link>
         <description>grub - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 12 Feb 2014 10:30:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/grub/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 12 Feb 2014 10:30:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/grub/" rel="self" type="application/rss+xml" /><item>
     <title>Cuando uno quiere A y termina haciendo B</title>
-    <link>http://www.certezasdudosas.com/cuando-uno-quiere-a-y-termina-haciendo-b/</link>
-    <pubDate>Wed, 12 Feb 2014 10:30:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/cuando-uno-quiere-a-y-termina-haciendo-b/</guid>
+    <link>https://eldiegoefe.github.io/cuando-uno-quiere-a-y-termina-haciendo-b/</link>
+    <pubDate>Wed, 12 Feb 2014 10:30:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/cuando-uno-quiere-a-y-termina-haciendo-b/</guid>
     <description><![CDATA[Estoy leyendo sobre IPython, que instalé en Windows a través de Anaconda.
 Durante ese viaje me enteré de que Windows tiene dos shells, el más viejo y limitado es 'cmd.exe' mientras que el recomendado es 'Windows PowerShell', ya que tiene los mismos comandos que Unix. En cualquiera de los dos, IPython se corre con la orden ipython
 Hay ayudas de IPython en:

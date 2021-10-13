@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>edicion - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/edicion/</link>
+        <link>https://eldiegoefe.github.io/tags/edicion/</link>
         <description>edicion - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 08 Oct 2014 11:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/edicion/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 08 Oct 2014 11:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/edicion/" rel="self" type="application/rss+xml" /><item>
     <title>Escritorio cómodo y atajos de teclado</title>
-    <link>http://www.certezasdudosas.com/escritorio-c%C3%B3modo-y-atajos-de-teclado/</link>
-    <pubDate>Wed, 08 Oct 2014 11:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/escritorio-c%C3%B3modo-y-atajos-de-teclado/</guid>
+    <link>https://eldiegoefe.github.io/escritorio-c%C3%B3modo-y-atajos-de-teclado/</link>
+    <pubDate>Wed, 08 Oct 2014 11:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/escritorio-c%C3%B3modo-y-atajos-de-teclado/</guid>
     <description><![CDATA[Me cuesta encontrar un modo cómodo de trabajar con Emacs y otros programas en KDE. Como creo que voy encontrando cosas que me resultan funcionales, las resumo aca.
 Sirve trabajar con 4 workspaces (areas de trabajo) en KDE. En el espacio 1 tengo el navegador, en el 2 tengo Emacs y en el 4 tengo un terminal. Cambio de espacio con C-7 (espacio 1), C-8 (espacio 2), C-9 (espacio 3) y C-0 (espacio 4).]]></description>
 </item>

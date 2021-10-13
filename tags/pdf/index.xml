@@ -1,20 +1,21 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>pdf - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/pdf/</link>
+        <link>https://eldiegoefe.github.io/tags/pdf/</link>
         <description>pdf - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 24 Sep 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/pdf/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 24 Sep 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/pdf/" rel="self" type="application/rss+xml" /><item>
     <title>De jpg a pdf</title>
-    <link>http://www.certezasdudosas.com/de-jpg-a-pdf/</link>
-    <pubDate>Wed, 24 Sep 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/de-jpg-a-pdf/</guid>
+    <link>https://eldiegoefe.github.io/de-jpg-a-pdf/</link>
+    <pubDate>Wed, 24 Sep 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/de-jpg-a-pdf/</guid>
     <description><![CDATA[Encontré una muy sencilla aplicación para convertir archivos de imágenes. Si bien tiene mucha potencia, porque puede hacer mucho más, yo la usé para convertir imágenes en páginas de un archivo pdf.
 Se necesita tener instalado un paquete llamado imagemagick. Para instalarlo desde un terminal dependerá de la distribución, suele ser así:
 1 2 3  $ sudo urpmi imagemagick # desde mageia $ sudo apt-get install imagemagick # desde ubuntu, mint, etc $ sudo yum install imagemagick # desde fedora   Luego, para usarlo, también desde un terminal y en el directorio donde están guardadas las imágenes, se ejecuta convert (parece que no es lo único que instala imagemagick):]]></description>
 </item>
 <item>
     <title>Generar pdf en español desde org-mode</title>
-    <link>http://www.certezasdudosas.com/generar-pdf-en-espa%C3%B1ol-desde-org-mode/</link>
-    <pubDate>Wed, 06 Aug 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/generar-pdf-en-espa%C3%B1ol-desde-org-mode/</guid>
+    <link>https://eldiegoefe.github.io/generar-pdf-en-espa%C3%B1ol-desde-org-mode/</link>
+    <pubDate>Wed, 06 Aug 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/generar-pdf-en-espa%C3%B1ol-desde-org-mode/</guid>
     <description><![CDATA[Escribí un documento en org-mode (un modo mayor de emacs), porque permite exportar en formato pdf y escribir todo en texto plano. Es realmente una maravilla, se pueden escribir fórmulas en LaTeX, y organizar la estructura del documento usando títulos precedidos de uno o más asteriscos para indicar su nivel (si es un título principal, un subtitulo, un subsubtítulo, etc.). Hasta genera automáticamente una tabla de contenidos con todos estos títulos al hacer la exportación del documento (keybinding: C-c C-e l o).]]></description>
 </item>
 </channel>

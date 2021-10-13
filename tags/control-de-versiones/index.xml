@@ -1,47 +1,48 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>control de versiones - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/control-de-versiones/</link>
+        <link>https://eldiegoefe.github.io/tags/control-de-versiones/</link>
         <description>control de versiones - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 10 Oct 2014 11:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/control-de-versiones/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Fri, 10 Oct 2014 11:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/control-de-versiones/" rel="self" type="application/rss+xml" /><item>
     <title>Tutorial sobre control de versiones (parte 4)</title>
-    <link>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-4/</link>
-    <pubDate>Fri, 10 Oct 2014 11:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-4/</guid>
+    <link>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4/</link>
+    <pubDate>Fri, 10 Oct 2014 11:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4/</guid>
     <description><![CDATA[Indice del Tutorial  Parte 1. Cómo armar un repositorio local Parte 2. Cómo subir el repositorio local al remoto Parte 3. Cómo colaborar en un mismo repositorio remoto Parte 4. Cómo resolver conflictos  Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés visitar la página de Software Carpentry
 Cuándo aparecen los conflictos El sistema de control de versiones permite que la gente trabaje en paralelo editando sus programas en código fuente.]]></description>
 </item>
 <item>
     <title>Tutorial sobre control de versiones (parte 3)</title>
-    <link>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-3/</link>
-    <pubDate>Thu, 09 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-3/</guid>
+    <link>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3/</link>
+    <pubDate>Thu, 09 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3/</guid>
     <description><![CDATA[Indice del Tutorial  Parte 1. Cómo armar un repositorio local Parte 2. Cómo subir el repositorio local al remoto Parte 3. Cómo colaborar en un mismo repositorio remoto Parte 4. Cómo resolver conflictos  Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés visitar la página de Software Carpentry
 Probando el cooperativismo Vamos a practicar cómo se realiza una colaboración a través de un repositorio en Github.]]></description>
 </item>
 <item>
     <title>Más locura con Git</title>
-    <link>http://www.certezasdudosas.com/m%C3%A1s-locura-con-git/</link>
-    <pubDate>Wed, 08 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/m%C3%A1s-locura-con-git/</guid>
+    <link>https://eldiegoefe.github.io/m%C3%A1s-locura-con-git/</link>
+    <pubDate>Wed, 08 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/m%C3%A1s-locura-con-git/</guid>
     <description><![CDATA[Hay un lindo tutorial interactivo para aprender a usar Git este Carpentry, recomendado desde el GitHub de Software Carpentry. Me gustó también el video Git for ages 4 and up (no entendí nada la presentación del expositor, pero el resto sí).
 Al sitio interactivo llegué desde Astropy, en particular de la página How to make a code contribution, que parece que vale la pena leer, porque explica el workflow que utilizan, cosa que no había encontrado hasta ahora (que te expliquen cómo es la secuencia de acciones de un trabajo, su lógica, los trucos, puede ahorrar muchos problemas asociados con la inexperiencia).]]></description>
 </item>
 <item>
     <title>Tutorial sobre control de versiones (parte 2)</title>
-    <link>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-2/</link>
-    <pubDate>Wed, 08 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-2/</guid>
+    <link>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2/</link>
+    <pubDate>Wed, 08 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2/</guid>
     <description><![CDATA[Indice del Tutorial  Parte 1. Cómo armar un repositorio local Parte 2. Cómo subir el repositorio local al remoto Parte 3. Cómo colaborar en un mismo repositorio remoto Parte 4. Cómo resolver conflictos  Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés visitar la página de Software Carpentry
 Armar un proyecto (repositorio) en GitHub Para subir el repositorio local a GitHub es indispensable tener una cuenta allí (que es gratis, así que a relajarse y disfrutar).]]></description>
 </item>
 <item>
     <title>Tutorial sobre control de versiones (parte 1)</title>
-    <link>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-1/</link>
-    <pubDate>Mon, 06 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/tutorial-sobre-control-de-versiones-parte-1/</guid>
+    <link>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1/</link>
+    <pubDate>Mon, 06 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1/</guid>
     <description><![CDATA[En el sitio de Software Carpentry hay un buen tutorial sobre el uso de sistemas de control de versiones. Estos apuntes son prácticamente la traducción de esas instrucciones.
 Indice del Tutorial  Parte 1. Cómo armar un repositorio local Parte 2. Cómo subir el repositorio local al remoto Parte 3. Cómo colaborar en un mismo repositorio remoto Parte 4. Cómo resolver conflictos  Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés visitar la página de Software Carpentry]]></description>
 </item>
 <item>
     <title>Usando control de versiones</title>
-    <link>http://www.certezasdudosas.com/usando-control-de-versiones/</link>
-    <pubDate>Sun, 09 Feb 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/usando-control-de-versiones/</guid>
+    <link>https://eldiegoefe.github.io/usando-control-de-versiones/</link>
+    <pubDate>Sun, 09 Feb 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/usando-control-de-versiones/</guid>
     <description><![CDATA[(Editado: empecé a traducir un buen tutorial de Git y lo pueden ver en este nuevo post
 El año pasado conocí algo que ya se había cruzado en mi camino y no me había dado cuenta. Una necesidad lo requería: miles de versiones del mismo archivo con el nombre evolucionando con rastros de racionalidad pero en definitiva impidiendo saber si, tras dos o tres días de ausencia, me encontraba trabajando sobre la última versión o si la que decía &quot;ultima final para imprimir final b&quot; era realmente la que debía utilizar.]]></description>
 </item>

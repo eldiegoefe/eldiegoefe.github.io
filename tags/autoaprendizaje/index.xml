@@ -1,18 +1,19 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>autoaprendizaje - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/autoaprendizaje/</link>
+        <link>https://eldiegoefe.github.io/tags/autoaprendizaje/</link>
         <description>autoaprendizaje - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Feb 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/autoaprendizaje/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 01 Feb 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/autoaprendizaje/" rel="self" type="application/rss+xml" /><item>
     <title>Hacedores</title>
-    <link>http://www.certezasdudosas.com/hacedores/</link>
-    <pubDate>Wed, 01 Feb 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/hacedores/</guid>
+    <link>https://eldiegoefe.github.io/hacedores/</link>
+    <pubDate>Wed, 01 Feb 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/hacedores/</guid>
     <description><![CDATA[Gracias a la proliferación de tutoriales en diversos formatos, hace años empecé a ver gente practicando artes y oficios como la carpintería, la electrónica hobbista, la permacultura, la cerámica, la calistenia, la programación en lenguajes infrecuentes, la herrería, el jiujitsu (el arte suave) y un sinfín de diversidades así. Son cosas diferentes a disciplinas que anteriormente me habían resultado más afines, como la literatura fantástica, las fisicomatemáticas, el lenguaje BASIC y el ajedrez, todas cosas más relacionadas con la mente que con las manos y el cuerpo.]]></description>
 </item>
 <item>
     <title>Autoaprendizajes</title>
-    <link>http://www.certezasdudosas.com/autoaprendizajes/</link>
-    <pubDate>Fri, 10 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/autoaprendizajes/</guid>
+    <link>https://eldiegoefe.github.io/autoaprendizajes/</link>
+    <pubDate>Fri, 10 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/autoaprendizajes/</guid>
     <description><![CDATA[No recuerdo en qué momento fue que pronuncié las palabras mágicas, pero cuando sea que haya ocurrido, se abrieron portales hacia temas inexplorados dentro de un mundo que creía conocer.
 En los últimos meses (¿10? ¿20?) me encontré con:
  un lenguaje de programación fantástico por su sencillez y potencia (Python), junto con un conjunto de librerías para tareas científicas: matplotlib, numpy, pandas, etc. la idea del control de versiones (que es una herramienta magnífica para quienes escribimos todo tipo de textos que al ir corrigiendo dejan una huella dificil de seguir desde su versión inicial hacia su versión actual, ya sea que se trate de programas, entradas de blog o informes científicos o técnicos).]]></description>

@@ -1,13 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>madera - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/madera/</link>
+        <link>https://eldiegoefe.github.io/tags/madera/</link>
         <description>madera - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 24 Nov 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/madera/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Thu, 24 Nov 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/madera/" rel="self" type="application/rss+xml" /><item>
     <title>Carpintería a pleno</title>
-    <link>http://www.certezasdudosas.com/carpinter%C3%ADa-a-pleno/</link>
-    <pubDate>Thu, 24 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/carpinter%C3%ADa-a-pleno/</guid>
-    <description><![CDATA[Aunque actualmente no tengo espacio para hacer cosas con madera, me puse a revisar enlaces que guardé sobre carpintería, porque en unos meses sí voy a disponer de herramientas y lugar. La web, y especialmente YouTube, me han entusiasmado con distintas artes y oficios, que no hubiera creido que me interesara. De no ser por los videos gente común mostrando cómo trabajan la madera, las lanas, el hierro, la programación en Clojure, creo que no habría confiado demasiado en que yo podría lograr resultados aceptables en alguna de estas áreas.]]></description>
+    <link>https://eldiegoefe.github.io/carpinter%C3%ADa-a-pleno/</link>
+    <pubDate>Thu, 24 Nov 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/carpinter%C3%ADa-a-pleno/</guid>
+    <description><![CDATA[Aunque actualmente no tengo espacio para hacer cosas con madera, me puse a revisar enlaces que guardé sobre carpintería, porque en unos meses sí voy a disponer de herramientas y lugar. La web, y especialmente YouTube, me han entusiasmado con distintas artes y oficios, que no hubiera creido que me interesaran. De no ser por los videos gente común mostrando cómo trabajan la madera, las lanas, el hierro, la programación en Clojure, creo que no habría confiado demasiado en que yo podría lograr resultados aceptables en alguna de estas áreas.]]></description>
 </item>
 </channel>
 </rss>

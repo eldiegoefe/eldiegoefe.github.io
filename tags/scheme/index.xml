@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>scheme - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/scheme/</link>
+        <link>https://eldiegoefe.github.io/tags/scheme/</link>
         <description>scheme - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 28 Nov 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/scheme/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Tue, 28 Nov 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/scheme/" rel="self" type="application/rss+xml" /><item>
     <title>Bienvenidos a Scheme</title>
-    <link>http://www.certezasdudosas.com/bienvenidos-a-scheme/</link>
-    <pubDate>Tue, 28 Nov 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/bienvenidos-a-scheme/</guid>
+    <link>https://eldiegoefe.github.io/bienvenidos-a-scheme/</link>
+    <pubDate>Tue, 28 Nov 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/bienvenidos-a-scheme/</guid>
     <description><![CDATA[Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado para simular la inteligencia humana, creado por John McCarthy en la década del 50.]]></description>
 </item>
 </channel>

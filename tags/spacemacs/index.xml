@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>spacemacs - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/spacemacs/</link>
+        <link>https://eldiegoefe.github.io/tags/spacemacs/</link>
         <description>spacemacs - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/spacemacs/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/spacemacs/" rel="self" type="application/rss+xml" /><item>
     <title>Python en Emacs y otros atajos</title>
-    <link>http://www.certezasdudosas.com/python-en-emacs-y-otros-atajos/</link>
-    <pubDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/python-en-emacs-y-otros-atajos/</guid>
+    <link>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</link>
+    <pubDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</guid>
     <description><![CDATA[Spacemacs   Anaconda-mode: Emacs tiene muchas herramientas para facilitar la programación en Python. En Spacemacs se puede activar anaconda-mode, que habilita una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información en el modeline sobre la función que se está tipeando (muestra los nombres de sus argumentos). Cosas de Anaconda para usar:
  anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca el origen del símbolo bajo el punto. Por ejemplo: si se trata de una función, abre el archivo donde está definida y ubica el punto sobre el encabezado de la misma.]]></description>
 </item>

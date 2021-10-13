@@ -13,16 +13,15 @@ es trabajar el equilibrio.
 
 ## Estiramiento de los lados del cuerpo. Parsva Bhaga
 
-Empezar desde Samasthiti (con JB). Con la inhalación Ujjayi muy lenta,
-llevar los brazos sobre la cabeza, entrelazar los dedos y estirarlos.
-Empujar las manos hacia arriba producirá un estiramiento sobre ambos
-lados (parsva bhaga) del torso. Mantener Jalandhara Bhanda. Mantenerse
-en la posición de estiramiento por unos segundos. Exhalar mientras se
-sueltan los dedos y se bajan los brazos lateralmente. Culminar en
-Samasthiti. La inhalación y la exhalación deben durar 5 segundos cada
-una como mínimo, y vamos incrementando esta duración con la evolución de
-nuestras prácticas. Repetir tres veces, estirando un poco más en cada
-intento sucesivo.
+Empezar desde Samasthiti con Jalandhara Bandha (JB). Con la inhalación Ujjayi
+muy lenta, llevar los brazos sobre la cabeza, entrelazar los dedos y estirarlos.
+Empujar las manos hacia arriba producirá un estiramiento sobre ambos lados
+(parsva bhaga) del torso. Mantener Jalandhara Bhanda. Mantenerse en la posición
+de estiramiento por unos segundos. Exhalar mientras se sueltan los dedos y se
+bajan los brazos lateralmente. Culminar en Samasthiti. La inhalación y la
+exhalación deben durar 5 segundos cada una como mínimo, y vamos incrementando
+esta duración con la evolución de nuestras prácticas. Repetir tres veces,
+estirando un poco más en cada intento sucesivo.
 
 ## Estiramiento frontal del cuerpo. Purva Bhaga
 

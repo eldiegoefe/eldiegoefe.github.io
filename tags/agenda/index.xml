@@ -1,20 +1,21 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>agenda - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/agenda/</link>
+        <link>https://eldiegoefe.github.io/tags/agenda/</link>
         <description>agenda - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/agenda/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/agenda/" rel="self" type="application/rss+xml" /><item>
     <title>Más sobre agenda en org-mode</title>
-    <link>http://www.certezasdudosas.com/m%C3%A1s-sobre-agenda-en-org-mode/</link>
-    <pubDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/m%C3%A1s-sobre-agenda-en-org-mode/</guid>
+    <link>https://eldiegoefe.github.io/m%C3%A1s-sobre-agenda-en-org-mode/</link>
+    <pubDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/m%C3%A1s-sobre-agenda-en-org-mode/</guid>
     <description><![CDATA[Para el uso de la agenda en org-mode, voy a listar las cosas que uso con frecuencia. Además, en este link hay un resumen de comandos de org-mode muy completo.
 Inserción Atajos de teclado &quot;convencionales&quot; de org-mode (funcionan con Spacemacs).
  capturar una nota en el inbox: C-c c links: C-c C-l etiqueta de To-Do (empezado, hibernando, completado, etc): C-c C-t schedule: C-c C-s deadline: C-c C-d  Para agregar:]]></description>
 </item>
 <item>
     <title>Agenda en Emacs y OrgMode</title>
-    <link>http://www.certezasdudosas.com/agenda-en-emacs-y-orgmode/</link>
-    <pubDate>Mon, 29 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/agenda-en-emacs-y-orgmode/</guid>
+    <link>https://eldiegoefe.github.io/agenda-en-emacs-y-orgmode/</link>
+    <pubDate>Mon, 29 Dec 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/agenda-en-emacs-y-orgmode/</guid>
     <description><![CDATA[Configuracion En el archivo de configuracion de Emacs hay que incluir varios elementos para poder usar la agenda adecuadamente.
 Se pueden seleccionar individualmente los archivos que forman parte de la agenda:
 1 2  (setq org-agenda-files (list &#34;~/mis-archivos-org/apuntes-varios.org&#34; &#34;~/mis-archivos-org/acomodar.org&#34;))   O sino utilizar un directorio completo:

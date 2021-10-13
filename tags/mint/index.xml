@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>mint - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/mint/</link>
+        <link>https://eldiegoefe.github.io/tags/mint/</link>
         <description>mint - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 06 Aug 2014 11:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/mint/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 06 Aug 2014 11:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/mint/" rel="self" type="application/rss+xml" /><item>
     <title>Instalacion de Linux</title>
-    <link>http://www.certezasdudosas.com/instalacion-de-linux/</link>
-    <pubDate>Wed, 06 Aug 2014 11:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/instalacion-de-linux/</guid>
+    <link>https://eldiegoefe.github.io/instalacion-de-linux/</link>
+    <pubDate>Wed, 06 Aug 2014 11:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instalacion-de-linux/</guid>
     <description><![CDATA[No es difícil encontrar la información para la instalación de Linux, pero hay distintas maneras y quiero dejar registrada la forma en que lo estoy haciendo actualmente. Los pasos que sigo son:
  Bajar el ISO (el archivo imagen) de la distribución que quiero instalar, en este caso es Linux Mint 17. Formatear en FAT32 el pendrive mediante el programa GParted. Con el programa UNETBOOTIN se pasa la imagen al pendrive (hay que elegir el archivo ISO como fuente).]]></description>
 </item>

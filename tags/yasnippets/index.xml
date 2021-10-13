@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>yasnippets - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/yasnippets/</link>
+        <link>https://eldiegoefe.github.io/tags/yasnippets/</link>
         <description>yasnippets - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 10 Aug 2014 10:02:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/yasnippets/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 10 Aug 2014 10:02:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/yasnippets/" rel="self" type="application/rss+xml" /><item>
     <title>Primer snippet</title>
-    <link>http://www.certezasdudosas.com/primer-snippet/</link>
-    <pubDate>Sun, 10 Aug 2014 10:02:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/primer-snippet/</guid>
+    <link>https://eldiegoefe.github.io/primer-snippet/</link>
+    <pubDate>Sun, 10 Aug 2014 10:02:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/primer-snippet/</guid>
     <description><![CDATA[Un snippet ejemplar Este es el primer snippet diseñado para automatizar el encabezado de las paginas hechas en restructuredText, para facilitarme la escritura de este blog. Hay mucha ayuda en la página de Capitao Morte (supongo que es su autor).
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  # -*- mode: snippet; require-final-newline: nil -*-# name: encabezado# key: enc# expand-env: ((yas-indent-line &#39;fixed))# --:---title: &#34;${1:titulo}&#34;:date: ${2:2014}-{3:10}-{4:31} {5:10:00}:category: ${6:$$(yas-choose-value &#39;(&#34;blog&#34; &#34;politica&#34; &#34;salud&#34; &#34;tecnicismos&#34;))}:tags: $7 --- :author: Diego Efe:excerpt: $1$0  En la linea 14 la instrucción $0 se agregó porque en algún lado decía que suele ponerse para indicar el lugar de salida cuando se termina de ejecutar el snippet.]]></description>
 </item>

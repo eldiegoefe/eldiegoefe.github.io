@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>darktable - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/darktable/</link>
+        <link>https://eldiegoefe.github.io/tags/darktable/</link>
         <description>darktable - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 13 Jan 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/darktable/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Tue, 13 Jan 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/darktable/" rel="self" type="application/rss+xml" /><item>
     <title>Organizar una coleccion de fotos digitales</title>
-    <link>http://www.certezasdudosas.com/organizar-una-coleccion-de-fotos-digitales/</link>
-    <pubDate>Tue, 13 Jan 2015 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/organizar-una-coleccion-de-fotos-digitales/</guid>
+    <link>https://eldiegoefe.github.io/organizar-una-coleccion-de-fotos-digitales/</link>
+    <pubDate>Tue, 13 Jan 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/organizar-una-coleccion-de-fotos-digitales/</guid>
     <description><![CDATA[La fotografía digital nos permite sacar millones de fotos sin gastar un peso en rollos, con cámaras fotográficas compactas y profesionales, teléfonos celulares y tablets. Esto que parece una ventaja puede volverse en contra si uno se vuelve el loco de la instantánea, porque los archivos se acumulan por montañas y esta abundancia supera toda posibilidad de encontrar las imágenes que merecen ser vistas de nuevo. Muchas veces te encontrás sacando varias fotos iguales o muy parecidas para después elegir la mejor, cosa que nunca sucede.]]></description>
 </item>
 </channel>

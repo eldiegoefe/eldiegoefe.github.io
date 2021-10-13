@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>jekyll - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/jekyll/</link>
+        <link>https://eldiegoefe.github.io/tags/jekyll/</link>
         <description>jekyll - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/jekyll/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/jekyll/" rel="self" type="application/rss+xml" /><item>
     <title>Instrucciones para armar un blog geek</title>
-    <link>http://www.certezasdudosas.com/instrucciones-para-armar-un-blog-geek/</link>
-    <pubDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/instrucciones-para-armar-un-blog-geek/</guid>
+    <link>https://eldiegoefe.github.io/instrucciones-para-armar-un-blog-geek/</link>
+    <pubDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instrucciones-para-armar-un-blog-geek/</guid>
     <description><![CDATA[En mi caso, alcanzar un estado zen requiere atravesar travesías barrocas. Mientras miraba cosas de IPython llegué a Pythonic Perambulations. Me gustó el contenido (muestra cómo armar ventanas de browsers con matplotlib interactivo), me gustó el diseño y me llamó la atención el dominio github.io.
 Blogs como el de Jake Vanderplas se arman con un motor llamado Jekyll.
 (*editado: Jake migró su sitio a Pelican, que está escrito en Python. Armé un post para explicar cómo instalarlo y usarlo en conjunción con las páginas personales de GitHub, ver Blog con Pelican y Github.]]></description>

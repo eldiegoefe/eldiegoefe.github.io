@@ -1,19 +1,20 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>manjaro - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/manjaro/</link>
+        <link>https://eldiegoefe.github.io/tags/manjaro/</link>
         <description>manjaro - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/manjaro/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/manjaro/" rel="self" type="application/rss+xml" /><item>
     <title>Pandoc, conversión de org-mode a restructuredtext</title>
-    <link>http://www.certezasdudosas.com/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
-    <pubDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
+    <link>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
+    <pubDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
     <description><![CDATA[Pandoc es un software para hacer conversión de archivos de texto entre distintos lenguajes de markup. Me viene bien probarlo porque me gustaría escribir mis entradas del blog desde org-mode (que uso con mucha frecuencia) y obtener el mismo texto en versión restructuredText, que es el formato en el que escribo el blog (con Pelican).
 La instalación de Pandoc requirió un pequeño ajuste respecto de lo habitual en Manjaro, ya que el programa no estaba disponible desde los repositorios que vienen por defecto.]]></description>
 </item>
 <item>
     <title>Mageia y Manjaro</title>
-    <link>http://www.certezasdudosas.com/mageia-y-manjaro/</link>
-    <pubDate>Wed, 22 Oct 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/mageia-y-manjaro/</guid>
+    <link>https://eldiegoefe.github.io/mageia-y-manjaro/</link>
+    <pubDate>Wed, 22 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/mageia-y-manjaro/</guid>
     <description><![CDATA[Empezó a haber problemas para actualizar el sistema (Mageia), que mostraba un mensaje diciendo que había actualizaciones listas para instalarse, pero no hacía nada al hacer click sobre instalar. Logré que se produzca la instalación desde una consola con sudo urpmi --auto-update.
 También dejó de funcionar el programa de configuración del sistema al que se accede desde herramientas/herramientas del sistema/configure su computador. Pero en algún momento volvió a andar. :)]]></description>
 </item>

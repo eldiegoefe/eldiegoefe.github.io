@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>dired - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/dired/</link>
+        <link>https://eldiegoefe.github.io/tags/dired/</link>
         <description>dired - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 26 Dec 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/dired/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Fri, 26 Dec 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/dired/" rel="self" type="application/rss+xml" /><item>
     <title>Comandante Emacs (dired-mode)</title>
-    <link>http://www.certezasdudosas.com/comandante-emacs-dired-mode/</link>
-    <pubDate>Fri, 26 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/comandante-emacs-dired-mode/</guid>
+    <link>https://eldiegoefe.github.io/comandante-emacs-dired-mode/</link>
+    <pubDate>Fri, 26 Dec 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comandante-emacs-dired-mode/</guid>
     <description><![CDATA[Estuve un rato largo (¡horas!) viendo cómo usar el modo &quot;dired&quot; que tiene Emacs para el manejo de archivos, porque quiero usarlo al modo del viejo Comandante Norton (y sus clones: Total Commander en Window$, Krusader especialmente para KDE, etc). Es decir: dos paneles que sirven de inicio y de destino para poder copiar y mover archivos, crear directorios, navegarlos, etc.
  Buffer mostrando un directorio con dired-mode   Lo primero que hice fue instalar un paquete que amplía las opciones disponibles llamado dired+ (dired plus) y después instalé otra extensión llamada dired-sort-menu.]]></description>
 </item>

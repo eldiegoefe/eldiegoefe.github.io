@@ -1,25 +1,26 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>facultad - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/facultad/</link>
+        <link>https://eldiegoefe.github.io/tags/facultad/</link>
         <description>facultad - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 18 Nov 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/facultad/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Tue, 18 Nov 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/facultad/" rel="self" type="application/rss+xml" /><item>
     <title>Alumna en tránsito al TP de Temperatura</title>
-    <link>http://www.certezasdudosas.com/alumna-en-tr%C3%A1nsito-al-tp-de-temperatura/</link>
-    <pubDate>Tue, 18 Nov 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/alumna-en-tr%C3%A1nsito-al-tp-de-temperatura/</guid>
+    <link>https://eldiegoefe.github.io/alumna-en-tr%C3%A1nsito-al-tp-de-temperatura/</link>
+    <pubDate>Tue, 18 Nov 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/alumna-en-tr%C3%A1nsito-al-tp-de-temperatura/</guid>
     <description><![CDATA[Habitualmente la mayoría de los estudiantes de Bio2/DyM logran cumplir con los objetivos de la asignatura, puesto que al finalizar el cursado demuestran que pudieron adquirir criterios de selección de componentes y de diseño de circuitos asociados con el uso de sensores. Acá vemos una alumna -que no termino de identificar (ustedes la ubican?)- que se dirige a Oro Verde para trabajar junto a su grupo en el montaje en protoboard de su diseño del TP de Medición de Temperatura en un Sistema de Termodesinfección.]]></description>
 </item>
 <item>
     <title>Charla de Pasi Sahlberg - Educacion en Finlandia</title>
-    <link>http://www.certezasdudosas.com/charla-de-pasi-sahlberg-educacion-en-finlandia/</link>
-    <pubDate>Mon, 17 Nov 2014 14:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/charla-de-pasi-sahlberg-educacion-en-finlandia/</guid>
+    <link>https://eldiegoefe.github.io/charla-de-pasi-sahlberg-educacion-en-finlandia/</link>
+    <pubDate>Mon, 17 Nov 2014 14:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/charla-de-pasi-sahlberg-educacion-en-finlandia/</guid>
     <description><![CDATA[A todos los interesados en los problemas de la educación de todos los niveles les recomiendo leer sobre la experiencia finlandesa. Acá hay una charla de un educador y autor finés, subtitulada al castellano, que les recomiendo ver antes de correr a leer “Finnish Lessons”.
   Link a los comentarios del fb.]]></description>
 </item>
 <item>
     <title>Trabajo Practico de ECG</title>
-    <link>http://www.certezasdudosas.com/trabajo-practico-de-ecg/</link>
-    <pubDate>Mon, 17 Nov 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/trabajo-practico-de-ecg/</guid>
+    <link>https://eldiegoefe.github.io/trabajo-practico-de-ecg/</link>
+    <pubDate>Mon, 17 Nov 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/trabajo-practico-de-ecg/</guid>
     <description><![CDATA[Como ya me siento con nostalgia por el abandono de la tarea docente, voy a empezar a mostrar algunas imágenes de mi pasada labor. Acá pueden ver uno de nuestros trabajos prácticos, en el cual nuestro ayudante de cátedra Jonathan se somete al registro del electrocardiógrafo que armaron nuestros estudiantes durante el último cuatrimestre. Maxi, otro de nuestros ayudantes, no sale en la foto porque justo un instante después debió salir corriendo a llamar una ambulancia, dado que ocurrió un pequeño desperfecto con el bloque de aislación.]]></description>
 </item>
 </channel>

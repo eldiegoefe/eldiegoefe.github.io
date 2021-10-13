@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>alumnos - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/alumnos/</link>
+        <link>https://eldiegoefe.github.io/tags/alumnos/</link>
         <description>alumnos - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 17 Nov 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/alumnos/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Mon, 17 Nov 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/alumnos/" rel="self" type="application/rss+xml" /><item>
     <title>Trabajo Practico de ECG</title>
-    <link>http://www.certezasdudosas.com/trabajo-practico-de-ecg/</link>
-    <pubDate>Mon, 17 Nov 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/trabajo-practico-de-ecg/</guid>
+    <link>https://eldiegoefe.github.io/trabajo-practico-de-ecg/</link>
+    <pubDate>Mon, 17 Nov 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/trabajo-practico-de-ecg/</guid>
     <description><![CDATA[Como ya me siento con nostalgia por el abandono de la tarea docente, voy a empezar a mostrar algunas imágenes de mi pasada labor. Acá pueden ver uno de nuestros trabajos prácticos, en el cual nuestro ayudante de cátedra Jonathan se somete al registro del electrocardiógrafo que armaron nuestros estudiantes durante el último cuatrimestre. Maxi, otro de nuestros ayudantes, no sale en la foto porque justo un instante después debió salir corriendo a llamar una ambulancia, dado que ocurrió un pequeño desperfecto con el bloque de aislación.]]></description>
 </item>
 </channel>

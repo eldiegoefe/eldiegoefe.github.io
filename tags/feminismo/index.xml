@@ -1,12 +1,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>feminismo - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/feminismo/</link>
+        <link>https://eldiegoefe.github.io/tags/feminismo/</link>
         <description>feminismo - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 09 Mar 2019 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/feminismo/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sat, 09 Mar 2019 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/feminismo/" rel="self" type="application/rss+xml" /><item>
     <title>El lado femenino de la Fuerza</title>
-    <link>http://www.certezasdudosas.com/el-lado-femenino-de-la-fuerza/</link>
-    <pubDate>Sat, 09 Mar 2019 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/el-lado-femenino-de-la-fuerza/</guid>
+    <link>https://eldiegoefe.github.io/el-lado-femenino-de-la-fuerza/</link>
+    <pubDate>Sat, 09 Mar 2019 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/el-lado-femenino-de-la-fuerza/</guid>
     <description><![CDATA[Asistimos al desarrollo exponencial del movimiento de mujeres, que impulsa la igualdad de género en los derechos y en los hechos, el fin de la violencia especialmente dirigida hacia ellas y el aborto legal. Es el movimiento político contemporáneo de mayor magnitud, sucesor del movimiento piquetero como protagonista de décadas pasadas, y mucho más interesante que el vaivén partidario de la Argentina. Las izquierdas, pequeñas pero crecientes, participan activamente del movimiento de mujeres y ojalá ocurra la cadena lógica de hechos que nos lleve de la mecha antipatriarcal a la explosión en un anticapitalismo de masas.]]></description>
 </item>
 </channel>

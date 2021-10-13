@@ -1,39 +1,40 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>links - Etiqueta - Certezas Dudosas</title>
-        <link>http://www.certezasdudosas.com/tags/links/</link>
+        <link>https://eldiegoefe.github.io/tags/links/</link>
         <description>links - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 01 Feb 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="http://www.certezasdudosas.com/tags/links/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 01 Feb 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/links/" rel="self" type="application/rss+xml" /><item>
     <title>Hacedores</title>
-    <link>http://www.certezasdudosas.com/hacedores/</link>
-    <pubDate>Wed, 01 Feb 2017 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/hacedores/</guid>
+    <link>https://eldiegoefe.github.io/hacedores/</link>
+    <pubDate>Wed, 01 Feb 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/hacedores/</guid>
     <description><![CDATA[Gracias a la proliferación de tutoriales en diversos formatos, hace años empecé a ver gente practicando artes y oficios como la carpintería, la electrónica hobbista, la permacultura, la cerámica, la calistenia, la programación en lenguajes infrecuentes, la herrería, el jiujitsu (el arte suave) y un sinfín de diversidades así. Son cosas diferentes a disciplinas que anteriormente me habían resultado más afines, como la literatura fantástica, las fisicomatemáticas, el lenguaje BASIC y el ajedrez, todas cosas más relacionadas con la mente que con las manos y el cuerpo.]]></description>
 </item>
 <item>
+    <title>Carpintería a pleno</title>
+    <link>https://eldiegoefe.github.io/carpinter%C3%ADa-a-pleno/</link>
+    <pubDate>Thu, 24 Nov 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/carpinter%C3%ADa-a-pleno/</guid>
+    <description><![CDATA[Aunque actualmente no tengo espacio para hacer cosas con madera, me puse a revisar enlaces que guardé sobre carpintería, porque en unos meses sí voy a disponer de herramientas y lugar. La web, y especialmente YouTube, me han entusiasmado con distintas artes y oficios, que no hubiera creido que me interesaran. De no ser por los videos gente común mostrando cómo trabajan la madera, las lanas, el hierro, la programación en Clojure, creo que no habría confiado demasiado en que yo podría lograr resultados aceptables en alguna de estas áreas.]]></description>
+</item>
+<item>
+    <title>Bloguearás tu BJJ</title>
+    <link>https://eldiegoefe.github.io/bloguear%C3%A1s-tu-bjj/</link>
+    <pubDate>Sun, 14 Dec 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/bloguear%C3%A1s-tu-bjj/</guid>
+    <description><![CDATA[Parte del atractivo que encuentro en el Jiu-Jitsu Brasileño (BJJ) es la cantidad de blogs que cuentan la experiencia de aprenderlo. Vendría a ser la parte nerd-geek del asunto ¿Pero por qué la gente escribe sobre su BJJ y no tanto sobre su Karate o TaeKwonDo? ¿O acaso escriben y yo no lo encuentro? Con las palabras clave blog y bjj el buscador indica inmediatamente los sitios de Jiu Jiu, Georgette, Lex BJJ and Judo y Aesopian, entre muchos otros.]]></description>
+</item>
+<item>
     <title>YouTube</title>
-    <link>http://www.certezasdudosas.com/youtube/</link>
-    <pubDate>Sat, 26 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/youtube/</guid>
+    <link>https://eldiegoefe.github.io/youtube/</link>
+    <pubDate>Sun, 03 Jan 2010 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/youtube/</guid>
     <description><![CDATA[Esta es una lista de enlaces a canales de Youtube sobre distintas disciplinas e intereses que me gustan, ordenados por categorías.
 Cannabis  Grow Barato  Carpintería Los más vistos (por mi)  April Wilkerson / wilkerdos.com Izzy Swan / Izzy Web Jack Houweling Jay Bates, Vlog and Non Project Videos / Jay's Custom Creations John Heisz (canal principal) / I build it (más amplio en temas, videos más detallistas) / I build it Home Improvement / I build it scrap bin / ibuildit.]]></description>
 </item>
 <item>
-    <title>Carpintería a pleno</title>
-    <link>http://www.certezasdudosas.com/carpinter%C3%ADa-a-pleno/</link>
-    <pubDate>Thu, 24 Nov 2016 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/carpinter%C3%ADa-a-pleno/</guid>
-    <description><![CDATA[Aunque actualmente no tengo espacio para hacer cosas con madera, me puse a revisar enlaces que guardé sobre carpintería, porque en unos meses sí voy a disponer de herramientas y lugar. La web, y especialmente YouTube, me han entusiasmado con distintas artes y oficios, que no hubiera creido que me interesara. De no ser por los videos gente común mostrando cómo trabajan la madera, las lanas, el hierro, la programación en Clojure, creo que no habría confiado demasiado en que yo podría lograr resultados aceptables en alguna de estas áreas.]]></description>
-</item>
-<item>
-    <title>Bloguearás tu BJJ</title>
-    <link>http://www.certezasdudosas.com/bloguear%C3%A1s-tu-bjj/</link>
-    <pubDate>Sun, 14 Dec 2014 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/bloguear%C3%A1s-tu-bjj/</guid>
-    <description><![CDATA[Parte del atractivo que encuentro en el Jiu-Jitsu Brasileño (BJJ) es la cantidad de blogs que cuentan la experiencia de aprenderlo. Vendría a ser la parte nerd-geek del asunto ¿Pero por qué la gente escribe sobre su BJJ y no tanto sobre su Karate o TaeKwonDo? ¿O acaso escriben y yo no lo encuentro? Con las palabras clave blog y bjj el buscador indica inmediatamente los sitios de Jiu Jiu, Georgette, Lex BJJ and Judo y Aesopian, entre muchos otros.]]></description>
-</item>
-<item>
     <title>Inicio</title>
-    <link>http://www.certezasdudosas.com/inicio/</link>
-    <pubDate>Fri, 01 Jan 2010 10:00:00 &#43;0000</pubDate><guid>http://www.certezasdudosas.com/inicio/</guid>
+    <link>https://eldiegoefe.github.io/inicio/</link>
+    <pubDate>Fri, 01 Jan 2010 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/inicio/</guid>
     <description><![CDATA[Página de inicio con los enlaces a los sitios que frecuento o que no quiero olvidar.
-Frecuentes  Gmail Wikipedia Mi lista de canales de YouTube Book Depository Links sobre música  Redes Sociales  Diaspora Facebook Google+ Instagram Twitter  Emacs  Emacs StackExchange  Contenidos  Feedly LifeHack LifeHacker Make use of Makezine Medium Pocket Reddit  BodyWeightFitness Flexibility   SmarterWare Steve Pavlina Uses This  Noticias  BBC News La Nación  Utiles  Evernote Ergodox Configurator Google Translate  Descargas  Avax Home b-ok Ebook 777 epublibre ProxyBay TParser Unblocked  Juegos Eve-Online  Búsquedas en Chruker Brave Collective Eve Central Eve University FCON Forum  GW2  GW2 Efficiency MetaBattle Snow Crows Canal de YouTube: Kyosika  Repositorios  Bitbucket GitHub  Películas y Subtítulos  Argenteam Subscene  Enlaces  Diigo  Videos  YouTube Vimeo  Calistenia / Deportes  DareBee  Homestead  Mother Earth News The Fewell Homestead Homesteaders of America The Frugal Chicken Rise and Shine Rabbitry The Elliott Homestead  Carpintería Más enlaces de carpintería en: Mi lista de canales de YouTube.]]></description>
+Frecuentes  Gmail Wikipedia Book Depository Canales de YouTube Links sobre música Carpintería a pleno  Redes Sociales  Diaspora Facebook Google+ Instagram Twitter  Emacs  Emacs StackExchange  Contenidos  Feedly LifeHacker Make use of Makezine Medium Pocket Reddit  BodyWeightFitness Flexibility   SmarterWare Steve Pavlina Uses This  Noticias  BBC News La Nación  Utiles  Evernote Ergodox Configurator Google Translate  Descargas  Avax Home b-ok Ebook 777 epublibre ProxyBay TParser Unblocked  Juegos Eve-Online  Búsquedas en Chruker Brave Collective Eve Central Eve University FCON Forum  GW2  GW2 Efficiency MetaBattle Snow Crows Canal de YouTube: Kyosika  Repositorios  Bitbucket GitHub  Películas y Subtítulos  Argenteam Subscene  Enlaces  Diigo  Videos  YouTube Vimeo  Calistenia / Deportes  DareBee  Homestead  Mother Earth News The Fewell Homestead Homesteaders of America The Frugal Chicken Rise and Shine Rabbitry The Elliott Homestead  Carpintería Más enlaces de carpintería en: [Mi lista de canales de YouTube]({{ ref &ldquo;2016-11-26-youtube.]]></description>
 </item>
 </channel>
 </rss>
