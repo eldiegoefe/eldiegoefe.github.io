@@ -138,8 +138,8 @@ ubicación deseada.</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ mbed new nombre-programa
-$ cd nombre-programa
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed new nombre-programa
+<span class="gp">$ </span><span class="nb">cd</span> nombre-programa
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="para-mbed-os-2">Para MBED OS 2</h3>
@@ -149,8 +149,8 @@ $ cd nombre-programa
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ mbed new nombre-programa --mbedlib
-$ cd nombre-programa
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed new nombre-programa --mbedlib
+<span class="gp">$ </span><span class="nb">cd</span> nombre-programa
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="mostrar-las-librerías-instaladas">Mostrar las librerías instaladas</h2>
@@ -162,7 +162,7 @@ verlas:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ mbed ls -a
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed ls -a
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="selección-de-placa-y-toolchain">Selección de placa y toolchain</h2>
@@ -184,18 +184,18 @@ dará información que necesitaremos para seleccionar placa y toolchain:</p>
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ mbed detect
-
-[mbed] Detected K64F, port /dev/ttyACM0, mounted /media/diego/MBED
-[mbed] Supported toolchains for K64F
-+--------+-----------+-----------+-----------+-----------+-----------+
-| Target | mbed OS 2 | mbed OS 5 |    ARM    |  GCC_ARM  |    IAR    |
-+--------+-----------+-----------+-----------+-----------+-----------+
-| K64F   | Supported | Supported | Supported | Supported | Supported |
-+--------+-----------+-----------+-----------+-----------+-----------+
-Supported targets: 1
-Supported toolchains: 3
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed detect
+<span class="err">
+</span><span class="err"></span><span class="go">[mbed] Detected K64F, port /dev/ttyACM0, mounted /media/diego/MBED
+</span><span class="go">[mbed] Supported toolchains for K64F
+</span><span class="go">+--------+-----------+-----------+-----------+-----------+-----------+
+</span><span class="go">| Target | mbed OS 2 | mbed OS 5 |    ARM    |  GCC_ARM  |    IAR    |
+</span><span class="go">+--------+-----------+-----------+-----------+-----------+-----------+
+</span><span class="go">| K64F   | Supported | Supported | Supported | Supported | Supported |
+</span><span class="go">+--------+-----------+-----------+-----------+-----------+-----------+
+</span><span class="go">Supported targets: 1
+</span><span class="go">Supported toolchains: 3
+</span></code></pre></td></tr></table>
 </div>
 </div><p>El sistema indica que encontró la K64F y cuáles son los <em>toolchains</em> que
 disponemos para trabajar con ella. <strong>Si conecto la placa KL25Z el
@@ -207,7 +207,7 @@ placas más nuevas</strong>.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ mbed target K64F
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed target K64F
 </code></pre></td></tr></table>
 </div>
 </div><p>Para elegir el toolchain GCC_ARM usamos:</p>
@@ -216,7 +216,7 @@ placas más nuevas</strong>.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ mbed toolchain GCC_ARM
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed toolchain GCC_ARM
 </code></pre></td></tr></table>
 </div>
 </div><p>Si pedimos el estado actual de la configuración veremos lo siguiente (si
@@ -234,15 +234,15 @@ la ejecución del comando <em>mbed new</em> se realizó desde
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ mbed config --list
-
-[mbed] Global config:
-No global configuration is set
-
-[mbed] Local config (/home/diego/mis-proyectos/nombre-programa):
-TOOLCHAIN=GCC_ARM
-TARGET=K64F
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed config --list
+<span class="err">
+</span><span class="err"></span><span class="go">[mbed] Global config:
+</span><span class="go">No global configuration is set
+</span><span class="go"></span><span class="err">
+</span><span class="err"></span><span class="go">[mbed] Local config (/home/diego/mis-proyectos/nombre-programa):
+</span><span class="go">TOOLCHAIN=GCC_ARM
+</span><span class="go">TARGET=K64F
+</span></code></pre></td></tr></table>
 </div>
 </div><h2 id="creación-de-programa">Creación de programa</h2>
 <p>En el directorio raíz del proyecto es necesario crear un archivo llamado
@@ -293,7 +293,7 @@ programa enciende y apaga un LED de la placa (usando OS 2):</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ mbed compile
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed compile
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>Luego hay que copiar el archivo generado por el compilador en la placa
@@ -328,14 +328,14 @@ hasta lograr que nuestro programa funcione de la manera deseada.</p>
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ mbed new nombre-programa (--mbedlib)
-$ cd nombre-programa
-$ mbed ls -a
-$ mbed detect
-$ mbed target K64F
-$ mbed toolchain GCC_ARM
-$ mbed config --list
-$ mbed compile
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed new nombre-programa <span class="o">(</span>--mbedlib<span class="o">)</span>
+<span class="gp">$ </span><span class="nb">cd</span> nombre-programa
+<span class="gp">$ </span>mbed ls -a
+<span class="gp">$ </span>mbed detect
+<span class="gp">$ </span>mbed target K64F
+<span class="gp">$ </span>mbed toolchain GCC_ARM
+<span class="gp">$ </span>mbed config --list
+<span class="gp">$ </span>mbed compile
 </code></pre></td></tr></table>
 </div>
 </div><p>Finalmente copiar el archivo .bin al MBED, esperar que finalice la
@@ -359,8 +359,8 @@ transferencia y resetear la placa.</p>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.88.1">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
-        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>
 if ('serviceWorker' in navigator) {

@@ -155,7 +155,7 @@ sistema.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ rvm list known
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>rvm list known
 </code></pre></td></tr></table>
 </div>
 </div><p>A mi me dio un listado que incluía (pero no se limitaba) a:</p>
@@ -174,18 +174,18 @@ sistema.</p>
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"># MRI Rubies
-[ruby-]1.8.6[-p420]
-[ruby-]1.8.7[-p374]
-[ruby-]1.9.1[-p431]
-[ruby-]1.9.2[-p320]
-[ruby-]1.9.3[-p484]
-[ruby-]2.0.0-p195
-[ruby-]2.0.0[-p353]
-[ruby-]2.1.0
-[ruby-]2.1-head
-ruby-head
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp"># </span>MRI Rubies
+<span class="go">[ruby-]1.8.6[-p420]
+</span><span class="go">[ruby-]1.8.7[-p374]
+</span><span class="go">[ruby-]1.9.1[-p431]
+</span><span class="go">[ruby-]1.9.2[-p320]
+</span><span class="go">[ruby-]1.9.3[-p484]
+</span><span class="go">[ruby-]2.0.0-p195
+</span><span class="go">[ruby-]2.0.0[-p353]
+</span><span class="go">[ruby-]2.1.0
+</span><span class="go">[ruby-]2.1-head
+</span><span class="go">ruby-head
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Elegí instalar la versión 2.1.0 con la siguiente instrucción:</p>
 <div class="highlight"><div class="chroma">
@@ -193,7 +193,7 @@ ruby-head
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ rvm install 2.1.0
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>rvm install 2.1.0
 </code></pre></td></tr></table>
 </div>
 </div><p>Para ver que versión de Ruby tienen efectivamente instalada teclean:</p>
@@ -202,7 +202,7 @@ ruby-head
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ ruby -v
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>ruby -v
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="instalación-de-jekyll">Instalación de Jekyll</h2>
@@ -212,7 +212,7 @@ ruby-head
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ gem install jekyll
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>gem install jekyll
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="generación-del-nuevo-blog">Generación del nuevo blog</h2>
@@ -222,7 +222,7 @@ ruby-head
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ jekyll new el-nombre-de-mi-blog
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>jekyll new el-nombre-de-mi-blog
 </code></pre></td></tr></table>
 </div>
 </div><p>Después hay que hacer un build:</p>
@@ -231,7 +231,7 @@ ruby-head
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ jekyll build
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>jekyll build
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="blog-local">Blog local</h2>
@@ -242,7 +242,7 @@ vea tal como se desea, antes de subirlo al hosting):</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ jekyll serve --watch
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>jekyll serve --watch
 </code></pre></td></tr></table>
 </div>
 </div><p>La dirección para ver el sitio generado será <a href="http://localhost:4000" target="_blank" rel="noopener noreffer">http://localhost:4000</a> o sino
@@ -275,8 +275,8 @@ a los ataques de hackers de Indonesia.</p>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.88.1">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
-        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>
 if ('serviceWorker' in navigator) {

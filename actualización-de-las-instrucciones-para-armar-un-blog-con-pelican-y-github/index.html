@@ -131,13 +131,13 @@ instalamos Pelican y también otras herramientas que utilizaremos posteriormente
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ mkvirtualenv blogs
-(blogs)$ pip install pelican
-(blogs)$ pip install beautifulsoup4
-(blogs)$ pip install pelican-youtube
-(blogs)$ pip install ghp-import
-(blogs)$ pip install typogrify
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mkvirtualenv blogs
+<span class="go">(blogs)$ pip install pelican
+</span><span class="go">(blogs)$ pip install beautifulsoup4
+</span><span class="go">(blogs)$ pip install pelican-youtube
+</span><span class="go">(blogs)$ pip install ghp-import
+</span><span class="go">(blogs)$ pip install typogrify
+</span></code></pre></td></tr></table>
 </div>
 </div><h2 id="estructura-de-directorios">Estructura de directorios</h2>
 <p>Vamos a utilizar un directorio que va a contener tanto nuestro blog como
@@ -162,11 +162,11 @@ entorno virtual sigue activado, lo cual se refleja en el prompt):</p>
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">(blogs)$ mkdir ~/misBlogs
-(blogs)$ cd ~/misBlogs
-(blogs)$ git clone --recursive https://github.com/getpelican/pelican-themes
-(blogs)$ git clone --recursive https://github.com/getpelican/pelican-plugins
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ mkdir ~/misBlogs
+</span><span class="go">(blogs)$ cd ~/misBlogs
+</span><span class="go">(blogs)$ git clone --recursive https://github.com/getpelican/pelican-themes
+</span><span class="go">(blogs)$ git clone --recursive https://github.com/getpelican/pelican-plugins
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Aún falta crear el directorio para los archivos del blog. Para ello
 creamos un repositorio vacío en GitHub. Este sitio ofrece la dirección
@@ -182,8 +182,8 @@ anteriores sólo debemos tipear:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">(blogs)$ git clone https://github.com/nombreUsuario/nombreUsuario.github.io
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ git clone https://github.com/nombreUsuario/nombreUsuario.github.io
+</span></code></pre></td></tr></table>
 </div>
 </div><p>En el archivo .gitignore (dentro del directorio
 ~/misBlogs/nombreUsuario.github.io) se deben colocar todos los archivos
@@ -210,11 +210,11 @@ estático. Creamos entonces ambas ramas y cambiamos hacia <strong>source</strong
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">(blogs)$ cd nombreUsuario.github.io
-(blogs)$ git branch gh-pages
-(blogs)$ git branch source
-(blogs)$ git checkout source
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ cd nombreUsuario.github.io
+</span><span class="go">(blogs)$ git branch gh-pages
+</span><span class="go">(blogs)$ git branch source
+</span><span class="go">(blogs)$ git checkout source
+</span></code></pre></td></tr></table>
 </div>
 </div><h2 id="ejecución-inicial-de-pelican">Ejecución inicial de Pelican</h2>
 <p>Dentro de la recientemente creada rama <em>source</em>, dentro del directorio
@@ -226,8 +226,8 @@ configurción de Pelican (va el guión entre las dos palabras):</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">(blogs)$ pelican-quickstart
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ pelican-quickstart
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Tras ese comando, y tras contestar todas las preguntas que aparecen, no
 solamente se guarda la configuración deseada (en los archivos
@@ -400,9 +400,9 @@ en la dirección <a href="http://localhost:8000" target="_blank" rel="noopener n
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">(blogs)$ make html
-(blogs)$ make serve
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ make html
+</span><span class="go">(blogs)$ make serve
+</span></code></pre></td></tr></table>
 </div>
 </div><p>En la primera corrida puede haber problemas de formato, sin embargo tras
 subir el sitio al repositorio externo, se corrobora que la página carga
@@ -427,10 +427,10 @@ esto:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ pyenv activate blogs
-(blogs)$ cd ~/blogs/eldiegoefe.github.io/
-(blogs)$ make regenerate
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>pyenv activate blogs
+<span class="go">(blogs)$ cd ~/blogs/eldiegoefe.github.io/
+</span><span class="go">(blogs)$ make regenerate
+</span></code></pre></td></tr></table>
 </div>
 </div><p>En otro terminal, hacer lo propio:</p>
 <div class="highlight"><div class="chroma">
@@ -440,10 +440,10 @@ esto:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ pyenv activate blogs
-(blogs)$ cd ~/blogs/eldiegoefe.github.io/
-(blogs)$ make serve
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>pyenv activate blogs
+<span class="go">(blogs)$ cd ~/blogs/eldiegoefe.github.io/
+</span><span class="go">(blogs)$ make serve
+</span></code></pre></td></tr></table>
 </div>
 </div><p>De este modo el sitio se regenera ante cualquier edición de su
 contenido, y permanece accesible en <a href="http://localhost:8000" target="_blank" rel="noopener noreffer">http://localhost:8000</a> (no hay que
@@ -462,9 +462,9 @@ branch <strong>source</strong>:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">(blogs)$ git add .
-(blogs)$ git commit -m &#34;Commit inicial de la rama source&#34;
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ git add .
+</span><span class="go">(blogs)$ git commit -m &#34;Commit inicial de la rama source&#34;
+</span></code></pre></td></tr></table>
 </div>
 </div><p>De este modo nuestros archivos ya quedaron almacenados en la rama
 <strong>source</strong> de nuestro repositorio local. Pero lo que se verá al acceder
@@ -485,11 +485,11 @@ externo. Estos son los pasos mencionados:</p>
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">(blogs)$ ghp-import output
-(blogs)$ git checkout master
-(blogs)$ git merge gh-pages
-(blogs)$ git push --all
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ ghp-import output
+</span><span class="go">(blogs)$ git checkout master
+</span><span class="go">(blogs)$ git merge gh-pages
+</span><span class="go">(blogs)$ git push --all
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Hay que esperar un rato hasta que el sitio esté accesible (sólo la
 primera vez, las siguientes actualizaciones que se hagan permiten
@@ -512,12 +512,12 @@ el entorno virtual correcto para que funcione Pelican y las órdenes como
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ source /usr/local/bin/virtualenvwrapper.sh
-$ workon blogs
-(blogs)$ cd ~/misBlogs/nombreUsuario.github.io/
-(blogs)$ git checkout source
-(blogs)$ cd content
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span><span class="nb">source</span> /usr/local/bin/virtualenvwrapper.sh
+<span class="gp">$ </span>workon blogs
+<span class="go">(blogs)$ cd ~/misBlogs/nombreUsuario.github.io/
+</span><span class="go">(blogs)$ git checkout source
+</span><span class="go">(blogs)$ cd content
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Con las órdenes anteriores se activó el entorno virtual, nos aseguramos
 de estar en la rama <strong>source</strong> y llegamos al directorio <em>content</em> que es
@@ -529,9 +529,9 @@ donde debemos almacenar los archivos de contenido (<em>.rst</em> o <em>.md</em>)
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">(blogs)$ make html
-(blogs)$ make serve
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ make html
+</span><span class="go">(blogs)$ make serve
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Visitamos el blog con nuestro navegador en la dirección
 <a href="http://localhost:8000" target="_blank" rel="noopener noreffer">http://localhost:8000</a></p>
@@ -552,13 +552,13 @@ externo:</p>
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">(blogs)$ git add .
-(blogs)$ git commit -m &#34;mensaje del commit&#34;
-(blogs)$ ghp-import output
-(blogs)$ git checkout master
-(blogs)$ git merge -X theirs gh-pages
-(blogs)$ git push --all
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ git add .
+</span><span class="go">(blogs)$ git commit -m &#34;mensaje del commit&#34;
+</span><span class="go">(blogs)$ ghp-import output
+</span><span class="go">(blogs)$ git checkout master
+</span><span class="go">(blogs)$ git merge -X theirs gh-pages
+</span><span class="go">(blogs)$ git push --all
+</span></code></pre></td></tr></table>
 </div>
 </div><h2 id="atención-navegación-offline">Atención: navegación offline</h2>
 <p>Para que la navegación offline sea posible se debe editar el archivo
@@ -614,8 +614,8 @@ actualicemos ese repositorio de plugins)</p>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.88.1">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
-        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>
 if ('serviceWorker' in navigator) {

@@ -212,17 +212,17 @@ versiones no incorporó.</p>
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git status
-# On branch master
-#
-# Initial commit
-#
-# Untracked files:
-#   (use &#34;git add &lt;file&gt;...&#34; to include in what will be committed)
-#
-#    va-a-escampar.txt
-nothing added to commit but untracked files present (use &#34;git add&#34; to track)
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git status
+<span class="gp"># </span>On branch master
+<span class="gp">#
+</span><span class="gp"></span><span class="c1"># Initial commit</span>
+<span class="gp">#
+</span><span class="gp"></span><span class="c1"># Untracked files:</span>
+<span class="gp">#   </span><span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to include in what will be committed<span class="o">)</span>
+<span class="gp">#
+</span><span class="gp"></span><span class="c1">#    va-a-escampar.txt</span>
+<span class="go">nothing added to commit but untracked files present (use &#34;git add&#34; to track)
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Para agregar el archivo al proyecto se ejecuta:</p>
 <div class="highlight"><div class="chroma">
@@ -230,7 +230,7 @@ nothing added to commit but untracked files present (use &#34;git add&#34; to tr
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git add va-a-escampar.txt
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git add va-a-escampar.txt
 </code></pre></td></tr></table>
 </div>
 </div><p>Y se puede pedir el nuevo informe de situación con:</p>
@@ -248,17 +248,17 @@ nothing added to commit but untracked files present (use &#34;git add&#34; to tr
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git status
-# On branch master
-#
-# Initial commit
-#
-# Changes to be committed:
-#   (use &#34;git rm --cached &lt;file&gt;...&#34; to unstage)
-#
-#    new file:   va-a-escampar.txt
-#
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git status
+<span class="gp"># </span>On branch master
+<span class="gp">#
+</span><span class="gp"></span><span class="c1"># Initial commit</span>
+<span class="gp">#
+</span><span class="gp"></span><span class="c1"># Changes to be committed:</span>
+<span class="gp">#   </span><span class="o">(</span>use <span class="s2">&#34;git rm --cached &lt;file&gt;...&#34;</span> to unstage<span class="o">)</span>
+<span class="gp">#
+</span><span class="gp"></span><span class="c1">#    new file:   va-a-escampar.txt</span>
+<span class="gp">#
+</span></code></pre></td></tr></table>
 </div>
 </div><h2 id="comitear-es-un-verbo-muy-extraño">Comitear es un verbo muy extraño</h2>
 <p>Ahora Git ya sabe que debe ir registrando la evolución de <em>va-a-escampar.txt</em>,
@@ -278,11 +278,11 @@ describir lo que sucede, así que hablaremos de <strong>comitear</strong>.</p>
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git commit -m &#34;Empezando a transcribir la letra de La Vela&#34;
-[master (root-commit) 38b86f5] Empezando a transcribir la letra de La Vela
-1 file changed, 6 insertions(+)
-create mode 100644 va-a-escampar.txt
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git commit -m <span class="s2">&#34;Empezando a transcribir la letra de La Vela&#34;</span>
+<span class="go">[master (root-commit) 38b86f5] Empezando a transcribir la letra de La Vela
+</span><span class="go">1 file changed, 6 insertions(+)
+</span><span class="go">create mode 100644 va-a-escampar.txt
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Git guarda entonces un copia permanente de todos los archivos que están en la
 base de datos (los que fueron agregados con <strong>git add</strong> dentro del directorio
@@ -309,17 +309,17 @@ mensaje de Git al responder al commit:</p>
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git status
-# On branch master
-nothing to commit, working directory clean
-
-$ git log
-commit 38b86f5625453732e442c127f1d4678ec8550a12
-Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
-Date:   Mon Oct 6 15:35:07 2014 -0300
-
-   Empezando a transcribir la letra de La Vela
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git status
+<span class="gp"># </span>On branch master
+<span class="go">nothing to commit, working directory clean
+</span><span class="go"></span><span class="err">
+</span><span class="err"></span><span class="gp">$ </span>git log
+<span class="go">commit 38b86f5625453732e442c127f1d4678ec8550a12
+</span><span class="go">Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
+</span><span class="go">Date:   Mon Oct 6 15:35:07 2014 -0300
+</span><span class="go"></span><span class="err">
+</span><span class="err"></span><span class="go">   Empezando a transcribir la letra de La Vela
+</span></code></pre></td></tr></table>
 </div>
 </div><h2 id="cambios-o-agregados-en-un-archivo">Cambios (o agregados) en un archivo</h2>
 <blockquote>
@@ -357,15 +357,15 @@ quiere entender para seguir
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git status
-# On branch master
-# Changes not staged for commit:
-#   (use &#34;git add &lt;file&gt;...&#34; to update what will be committed)
-#   (use &#34;git checkout -- &lt;file&gt;...&#34; to discard changes in working directory)
-#
-#    modified:   va-a-escampar.txt
-#
-no changes added to commit (use &#34;git add&#34; and/or &#34;git commit -a&#34;)
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git status
+<span class="gp"># </span>On branch master
+<span class="gp"># </span>Changes not staged <span class="k">for</span> commit:
+<span class="gp">#   </span><span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to update what will be committed<span class="o">)</span>
+<span class="gp">#   </span><span class="o">(</span>use <span class="s2">&#34;git checkout -- &lt;file&gt;...&#34;</span> to discard changes in working directory<span class="o">)</span>
+<span class="gp">#
+</span><span class="gp"></span><span class="c1">#    modified:   va-a-escampar.txt</span>
+<span class="gp">#
+</span><span class="gp"></span>no changes added to commit <span class="o">(</span>use <span class="s2">&#34;git add&#34;</span> and/or <span class="s2">&#34;git commit -a&#34;</span><span class="o">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>La última linea es la frase clave: &quot;no se agregaron cambios al
@@ -393,21 +393,21 @@ archivo y la última versión comiteada.</p>
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git diff
-diff --git a/va-a-escampar.txt b/va-a-escampar.txt
-index 97ab7b0..db818ec 100644
---- a/va-a-escampar.txt
-+++ b/va-a-escampar.txt
-@@ -4,3 +4,8 @@ Hoy asume lo que venga
- sea para bien, o todo mal.
- y aunque pierda lo que tenga
- se va a morder para aguantar
-+
-+Hoy que claro ve las cosas
-+que ayer no vio, ni va a exigir
-+Sobre su pena se posa
-+quiere entender para seguir
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git diff
+<span class="go">diff --git a/va-a-escampar.txt b/va-a-escampar.txt
+</span><span class="go">index 97ab7b0..db818ec 100644
+</span><span class="go">--- a/va-a-escampar.txt
+</span><span class="go">+++ b/va-a-escampar.txt
+</span><span class="go">@@ -4,3 +4,8 @@ Hoy asume lo que venga
+</span><span class="go"> sea para bien, o todo mal.
+</span><span class="go"> y aunque pierda lo que tenga
+</span><span class="go"> se va a morder para aguantar
+</span><span class="go">+
+</span><span class="go">+Hoy que claro ve las cosas
+</span><span class="go">+que ayer no vio, ni va a exigir
+</span><span class="go">+Sobre su pena se posa
+</span><span class="go">+quiere entender para seguir
+</span></code></pre></td></tr></table>
 </div>
 </div><p>La salida es críptica porque en realidad es una serie de comandos para
 que un editor de textos pueda reconstruir un archivo a partir del otro.</p>
@@ -436,15 +436,15 @@ las diferencias (marcando con &quot;+&quot; las lineas que se agregaron).</li>
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git commit -m &#34;Agregada la segunda estrofa&#34;
-# On branch master
-# Changes not staged for commit:
-#   (use &#34;git add &lt;file&gt;...&#34; to update what will be committed)
-#   (use &#34;git checkout -- &lt;file&gt;...&#34; to discard changes in working directory)
-#
-#    modified:   va-a-escampar.txt
-#
-no changes added to commit (use &#34;git add&#34; and/or &#34;git commit -a&#34;)
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git commit -m <span class="s2">&#34;Agregada la segunda estrofa&#34;</span>
+<span class="gp"># </span>On branch master
+<span class="gp"># </span>Changes not staged <span class="k">for</span> commit:
+<span class="gp">#   </span><span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to update what will be committed<span class="o">)</span>
+<span class="gp">#   </span><span class="o">(</span>use <span class="s2">&#34;git checkout -- &lt;file&gt;...&#34;</span> to discard changes in working directory<span class="o">)</span>
+<span class="gp">#
+</span><span class="gp"></span><span class="c1">#    modified:   va-a-escampar.txt</span>
+<span class="gp">#
+</span><span class="gp"></span>no changes added to commit <span class="o">(</span>use <span class="s2">&#34;git add&#34;</span> and/or <span class="s2">&#34;git commit -a&#34;</span><span class="o">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p><strong>Ups. No se comitearon los cambios porque faltó agregarlos antes</strong>.
@@ -457,11 +457,11 @@ Entonces, haremos:</p>
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git add va-a-escampar.txt
-$ git commit -m &#34;Agregada la segunda estrofa&#34;
-[master 6ae57e3] Agregada la segunda estrofa
-1 file changed, 5 insertions(+)
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git add va-a-escampar.txt
+<span class="gp">$ </span>git commit -m <span class="s2">&#34;Agregada la segunda estrofa&#34;</span>
+<span class="go">[master 6ae57e3] Agregada la segunda estrofa
+</span><span class="go">1 file changed, 5 insertions(+)
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Git insiste en que agreguemos los archivos al conjunto de los que
 querramos comitear antes de realmente hacerlo, porque quizás no
@@ -515,23 +515,23 @@ sabe que no es escapar.
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git diff
-diff --git a/va-a-escampar.txt b/va-a-escampar.txt
-index db818ec..0c33091 100644
---- a/va-a-escampar.txt
-+++ b/va-a-escampar.txt
-@@ -9,3 +9,10 @@ Hoy que claro ve las cosas
- que ayer no vio, ni va a exigir
- Sobre su pena se posa
- quiere entender para seguir
-+
-+Llega la batalla
-+y contra él estalla
-+algún día va a escampar.
-+y como sale de esta
-+quiere la respuesta
-+sabe que no es escapar.
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git diff
+<span class="go">diff --git a/va-a-escampar.txt b/va-a-escampar.txt
+</span><span class="go">index db818ec..0c33091 100644
+</span><span class="go">--- a/va-a-escampar.txt
+</span><span class="go">+++ b/va-a-escampar.txt
+</span><span class="go">@@ -9,3 +9,10 @@ Hoy que claro ve las cosas
+</span><span class="go"> que ayer no vio, ni va a exigir
+</span><span class="go"> Sobre su pena se posa
+</span><span class="go"> quiere entender para seguir
+</span><span class="go">+
+</span><span class="go">+Llega la batalla
+</span><span class="go">+y contra él estalla
+</span><span class="go">+algún día va a escampar.
+</span><span class="go">+y como sale de esta
+</span><span class="go">+quiere la respuesta
+</span><span class="go">+sabe que no es escapar.
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Git identifica las diferencias entre el archivo y la versión intermedia
 (pero no comiteada), guardada en la <em>staging area</em> (la voy a llamar
@@ -543,8 +543,8 @@ intermedio, veremos lo siguiente:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git add va-a-escampar.txt
-$ git diff
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git add va-a-escampar.txt
+<span class="gp">$ </span>git diff
 </code></pre></td></tr></table>
 </div>
 </div><p>Ahora no hay ninguna salida, porque el archivo actualmente en edición es
@@ -570,23 +570,23 @@ igual al que guardamos en la <em>zona de preparación</em>.</p>
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git diff --staged
-diff --git a/va-a-escampar.txt b/va-a-escampar.txt
-index db818ec..0c33091 100644
---- a/va-a-escampar.txt
-+++ b/va-a-escampar.txt
-@@ -9,3 +9,10 @@ Hoy que claro ve las cosas
- que ayer no vio, ni va a exigir
- Sobre su pena se posa
- quiere entender para seguir
-+
-+Llega la batalla
-+y contra él estalla
-+algún día va a escampar.
-+y como sale de esta
-+quiere la respuesta
-+sabe que no es escapar.
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git diff --staged
+<span class="go">diff --git a/va-a-escampar.txt b/va-a-escampar.txt
+</span><span class="go">index db818ec..0c33091 100644
+</span><span class="go">--- a/va-a-escampar.txt
+</span><span class="go">+++ b/va-a-escampar.txt
+</span><span class="go">@@ -9,3 +9,10 @@ Hoy que claro ve las cosas
+</span><span class="go"> que ayer no vio, ni va a exigir
+</span><span class="go"> Sobre su pena se posa
+</span><span class="go"> quiere entender para seguir
+</span><span class="go">+
+</span><span class="go">+Llega la batalla
+</span><span class="go">+y contra él estalla
+</span><span class="go">+algún día va a escampar.
+</span><span class="go">+y como sale de esta
+</span><span class="go">+quiere la respuesta
+</span><span class="go">+sabe que no es escapar.
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Ahora nos está mostrando las diferencias entre el último cambio
 comiteado (en el almacenamiento de largo plazo) y lo que hay en la <em>zona
@@ -598,10 +598,10 @@ de preparación</em>. Guardemos estos cambios:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git commit -m &#34;Tercera estrofa agregada&#34;
-[master 8f1eec1] Tercera estrofa agregada
- 1 file changed, 7 insertions(+)
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git commit -m <span class="s2">&#34;Tercera estrofa agregada&#34;</span>
+<span class="go">[master 8f1eec1] Tercera estrofa agregada
+</span><span class="go"> 1 file changed, 7 insertions(+)
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Vemos cómo quedó:</p>
 <div class="highlight"><div class="chroma">
@@ -611,10 +611,10 @@ de preparación</em>. Guardemos estos cambios:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git status
-# On branch master
-nothing to commit, working directory clean
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git status
+<span class="gp"># </span>On branch master
+<span class="go">nothing to commit, working directory clean
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Y podemos examinar la historia de lo que fue sucediendo hasta ahora:</p>
 <div class="highlight"><div class="chroma">
@@ -639,25 +639,25 @@ nothing to commit, working directory clean
 </span><span class="lnt">18
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git log
-commit 8f1eec1836a9ace8a2cbab7e2c3341efa5c3a537
-Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
-Date:   Mon Oct 6 19:55:10 2014 -0300
-
-    Tercera estrofa agregada
-
-commit 6ae57e3d91a7a526a257df081d83a5b9be4e6d28
-Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
-Date:   Mon Oct 6 16:54:40 2014 -0300
-
-    Agregada la segunda estrofa
-
-commit 38b86f5625453732e442c127f1d4678ec8550a12
-Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
-Date:   Mon Oct 6 15:35:07 2014 -0300
-
-    Empezando a transcribir la letra de La Vela
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git log
+<span class="go">commit 8f1eec1836a9ace8a2cbab7e2c3341efa5c3a537
+</span><span class="go">Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
+</span><span class="go">Date:   Mon Oct 6 19:55:10 2014 -0300
+</span><span class="go"></span><span class="err">
+</span><span class="err"></span><span class="go">    Tercera estrofa agregada
+</span><span class="go"></span><span class="err">
+</span><span class="err"></span><span class="go">commit 6ae57e3d91a7a526a257df081d83a5b9be4e6d28
+</span><span class="go">Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
+</span><span class="go">Date:   Mon Oct 6 16:54:40 2014 -0300
+</span><span class="go"></span><span class="err">
+</span><span class="err"></span><span class="go">    Agregada la segunda estrofa
+</span><span class="go"></span><span class="err">
+</span><span class="err"></span><span class="go">commit 38b86f5625453732e442c127f1d4678ec8550a12
+</span><span class="go">Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
+</span><span class="go">Date:   Mon Oct 6 15:35:07 2014 -0300
+</span><span class="go"></span><span class="err">
+</span><span class="err"></span><span class="go">    Empezando a transcribir la letra de La Vela
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Resumiendo, cuando queremos hacer cambios en nuestro repositorio,
 primero tenemos que agregar los cambios a la <em>zona de preparación</em> (con
@@ -695,23 +695,23 @@ refiriéndonos a versiones viejas con la notación HEAD~1, HEAD~2, etc:</p>
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git diff HEAD~1 va-a-escampar.txt
-diff --git a/va-a-escampar.txt b/va-a-escampar.txt
-index db818ec..0c33091 100644
---- a/va-a-escampar.txt
-+++ b/va-a-escampar.txt
-@@ -9,3 +9,10 @@ Hoy que claro ve las cosas
- que ayer no vio, ni va a exigir
- Sobre su pena se posa
- quiere entender para seguir
-+
-+Llega la batalla
-+y contra él estalla
-+algún día va a escampar.
-+y como sale de esta
-+quiere la respuesta
-+sabe que no es escapar.
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git diff HEAD~1 va-a-escampar.txt
+<span class="go">diff --git a/va-a-escampar.txt b/va-a-escampar.txt
+</span><span class="go">index db818ec..0c33091 100644
+</span><span class="go">--- a/va-a-escampar.txt
+</span><span class="go">+++ b/va-a-escampar.txt
+</span><span class="go">@@ -9,3 +9,10 @@ Hoy que claro ve las cosas
+</span><span class="go"> que ayer no vio, ni va a exigir
+</span><span class="go"> Sobre su pena se posa
+</span><span class="go"> quiere entender para seguir
+</span><span class="go">+
+</span><span class="go">+Llega la batalla
+</span><span class="go">+y contra él estalla
+</span><span class="go">+algún día va a escampar.
+</span><span class="go">+y como sale de esta
+</span><span class="go">+quiere la respuesta
+</span><span class="go">+sabe que no es escapar.
+</span></code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -738,28 +738,28 @@ index db818ec..0c33091 100644
 </span><span class="lnt">21
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git diff HEAD~2 va-a-escampar.txt
-diff --git a/va-a-escampar.txt b/va-a-escampar.txt
-index 97ab7b0..0c33091 100644
---- a/va-a-escampar.txt
-+++ b/va-a-escampar.txt
-@@ -4,3 +4,15 @@ Hoy asume lo que venga
- sea para bien, o todo mal.
- y aunque pierda lo que tenga
- se va a morder para aguantar
-+
-+Hoy que claro ve las cosas
-+que ayer no vio, ni va a exigir
-+Sobre su pena se posa
-+quiere entender para seguir
-+
-+Llega la batalla
-+y contra él estalla
-+algún día va a escampar.
-+y como sale de esta
-+quiere la respuesta
-+sabe que no es escapar.
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git diff HEAD~2 va-a-escampar.txt
+<span class="go">diff --git a/va-a-escampar.txt b/va-a-escampar.txt
+</span><span class="go">index 97ab7b0..0c33091 100644
+</span><span class="go">--- a/va-a-escampar.txt
+</span><span class="go">+++ b/va-a-escampar.txt
+</span><span class="go">@@ -4,3 +4,15 @@ Hoy asume lo que venga
+</span><span class="go"> sea para bien, o todo mal.
+</span><span class="go"> y aunque pierda lo que tenga
+</span><span class="go"> se va a morder para aguantar
+</span><span class="go">+
+</span><span class="go">+Hoy que claro ve las cosas
+</span><span class="go">+que ayer no vio, ni va a exigir
+</span><span class="go">+Sobre su pena se posa
+</span><span class="go">+quiere entender para seguir
+</span><span class="go">+
+</span><span class="go">+Llega la batalla
+</span><span class="go">+y contra él estalla
+</span><span class="go">+algún día va a escampar.
+</span><span class="go">+y como sale de esta
+</span><span class="go">+quiere la respuesta
+</span><span class="go">+sabe que no es escapar.
+</span></code></pre></td></tr></table>
 </div>
 </div><p>De esta manera construimos una cadena de revisiones. El extremo más reciente de
 la cadena es HEAD; podemos referirnos a revisiones previas usando la notación
@@ -797,28 +797,28 @@ así que probemos esto:</p>
 </span><span class="lnt">21
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git diff 38b86f5625453732e442c127f1d4678ec8550a12 va-a-escampar.txt
-diff --git a/va-a-escampar.txt b/va-a-escampar.txt
-index 97ab7b0..0c33091 100644
---- a/va-a-escampar.txt
-+++ b/va-a-escampar.txt
-@@ -4,3 +4,15 @@ Hoy asume lo que venga
- sea para bien, o todo mal.
- y aunque pierda lo que tenga
- se va a morder para aguantar
-+
-+Hoy que claro ve las cosas
-+que ayer no vio, ni va a exigir
-+Sobre su pena se posa
-+quiere entender para seguir
-+
-+Llega la batalla
-+y contra él estalla
-+algún día va a escampar.
-+y como sale de esta
-+quiere la respuesta
-+sabe que no es escapar.
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git diff 38b86f5625453732e442c127f1d4678ec8550a12 va-a-escampar.txt
+<span class="go">diff --git a/va-a-escampar.txt b/va-a-escampar.txt
+</span><span class="go">index 97ab7b0..0c33091 100644
+</span><span class="go">--- a/va-a-escampar.txt
+</span><span class="go">+++ b/va-a-escampar.txt
+</span><span class="go">@@ -4,3 +4,15 @@ Hoy asume lo que venga
+</span><span class="go"> sea para bien, o todo mal.
+</span><span class="go"> y aunque pierda lo que tenga
+</span><span class="go"> se va a morder para aguantar
+</span><span class="go">+
+</span><span class="go">+Hoy que claro ve las cosas
+</span><span class="go">+que ayer no vio, ni va a exigir
+</span><span class="go">+Sobre su pena se posa
+</span><span class="go">+quiere entender para seguir
+</span><span class="go">+
+</span><span class="go">+Llega la batalla
+</span><span class="go">+y contra él estalla
+</span><span class="go">+algún día va a escampar.
+</span><span class="go">+y como sale de esta
+</span><span class="go">+quiere la respuesta
+</span><span class="go">+sabe que no es escapar.
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Para no tipear cadenas de 40 números, Git permite usar los primeros de la
 cadena, con el mismo resultado:</p>
@@ -827,7 +827,7 @@ cadena, con el mismo resultado:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git diff 38b86f5 va-a-escampar.txt
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git diff 38b86f5 va-a-escampar.txt
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="recuperar-versiones-antiguas">Recuperar versiones antiguas</h2>
@@ -844,9 +844,9 @@ siguiente linea:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ cat va-a-escampar.txt
-no va a escampar nada
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>cat va-a-escampar.txt
+<span class="go">no va a escampar nada
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Con <em>git status</em> nos enteramos que el archivo ha cambiado, pero esos
 cambios aún no pasaron a la <em>zona de preparación</em> (<em>staging area</em>).</p>
@@ -863,15 +863,15 @@ cambios aún no pasaron a la <em>zona de preparación</em> (<em>staging area</em
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git status
-# On branch master
-# Changes not staged for commit:
-#   (use &#34;git add &lt;file&gt;...&#34; to update what will be committed)
-#   (use &#34;git checkout -- &lt;file&gt;...&#34; to discard changes in working directory)
-#
-#    modified:   va-a-escampar.txt
-#
-no changes added to commit (use &#34;git add&#34; and/or &#34;git commit -a&#34;)
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git status
+<span class="gp"># </span>On branch master
+<span class="gp"># </span>Changes not staged <span class="k">for</span> commit:
+<span class="gp">#   </span><span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to update what will be committed<span class="o">)</span>
+<span class="gp">#   </span><span class="o">(</span>use <span class="s2">&#34;git checkout -- &lt;file&gt;...&#34;</span> to discard changes in working directory<span class="o">)</span>
+<span class="gp">#
+</span><span class="gp"></span><span class="c1">#    modified:   va-a-escampar.txt</span>
+<span class="gp">#
+</span><span class="gp"></span>no changes added to commit <span class="o">(</span>use <span class="s2">&#34;git add&#34;</span> and/or <span class="s2">&#34;git commit -a&#34;</span><span class="o">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Podemos volver atrás, dejando las cosas como estaban antes, usando <em>git
@@ -901,28 +901,28 @@ checkout</em>:</p>
 </span><span class="lnt">21
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git checkout HEAD va-a-escampar.txt
-$ cat va-a-escampar.txt
-
-Va a escampar
-
-Hoy asume lo que venga
-sea para bien, o todo mal.
-y aunque pierda lo que tenga
-se va a morder para aguantar
-
-Hoy que claro ve las cosas
-que ayer no vio, ni va a exigir
-Sobre su pena se posa
-quiere entender para seguir
-
-Llega la batalla
-y contra él estalla
-algún día va a escampar.
-y como sale de esta
-quiere la respuesta
-sabe que no es escapar.
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git checkout HEAD va-a-escampar.txt
+<span class="gp">$ </span>cat va-a-escampar.txt
+<span class="err">
+</span><span class="err"></span><span class="go">Va a escampar
+</span><span class="go"></span><span class="err">
+</span><span class="err"></span><span class="go">Hoy asume lo que venga
+</span><span class="go">sea para bien, o todo mal.
+</span><span class="go">y aunque pierda lo que tenga
+</span><span class="go">se va a morder para aguantar
+</span><span class="go"></span><span class="err">
+</span><span class="err"></span><span class="go">Hoy que claro ve las cosas
+</span><span class="go">que ayer no vio, ni va a exigir
+</span><span class="go">Sobre su pena se posa
+</span><span class="go">quiere entender para seguir
+</span><span class="go"></span><span class="err">
+</span><span class="err"></span><span class="go">Llega la batalla
+</span><span class="go">y contra él estalla
+</span><span class="go">algún día va a escampar.
+</span><span class="go">y como sale de esta
+</span><span class="go">quiere la respuesta
+</span><span class="go">sabe que no es escapar.
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Con <em>git checkout</em> se recupera una versión anterior de un archivo. En
 este caso, le estamos pidiendo a Git que recupere la versión del archivo
@@ -933,7 +933,7 @@ más atrás podríamos usar un identificador de revisión:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git checkout 38b86f5 va-a-escampar.txt
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git checkout 38b86f5 va-a-escampar.txt
 </code></pre></td></tr></table>
 </div>
 </div><p>Es importante recordar que debemos usar el número de revisión que identifica el
@@ -994,8 +994,8 @@ vacíos: a.dat</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ mkdir results
-$ touch a.dat b.dat c.dat results/a.out results/b.out
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mkdir results
+<span class="gp">$ </span>touch a.dat b.dat c.dat results/a.out results/b.out
 </code></pre></td></tr></table>
 </div>
 </div><p>Y vemos qué dice Git:</p>
@@ -1014,18 +1014,18 @@ $ touch a.dat b.dat c.dat results/a.out results/b.out
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git status
-# On branch master
-# Untracked files:
-#   (use &#34;git add &lt;file&gt;...&#34; to include in what will be committed)
-#
-#    a.dat
-#    b.dat
-#    c.dat
-#    results/
-nothing added to commit but untracked files present (use &#34;git add&#34;
-to track)
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git status
+<span class="gp"># </span>On branch master
+<span class="gp"># </span>Untracked files:
+<span class="gp">#   </span><span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to include in what will be committed<span class="o">)</span>
+<span class="gp">#
+</span><span class="gp"></span><span class="c1">#    a.dat</span>
+<span class="gp">#    </span>b.dat
+<span class="gp">#    </span>c.dat
+<span class="gp">#    </span>results/
+<span class="go">nothing added to commit but untracked files present (use &#34;git add&#34;
+</span><span class="go">to track)
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Colocar estos archivos bajo control de versiones sería un desperdicio de espacio
 en disco. Peor aún, tenerlos listados nos distraería de los cambios que
@@ -1045,10 +1045,10 @@ esto:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ cat .gitignore
-*.dat
-results/
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>cat .gitignore
+<span class="go">*.dat
+</span><span class="go">results/
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Si pedimos el status del proyecto, la salida se verá mucho más limpia
 que antes:</p>
@@ -1063,14 +1063,14 @@ que antes:</p>
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git status
-# On branch master
-# Untracked files:
-#   (use &#34;git add &lt;file&gt;...&#34; to include in what will be committed)
-#
-#    .gitignore
-nothing added to commit but untracked files present (use &#34;git add&#34; to track)
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git status
+<span class="gp"># </span>On branch master
+<span class="gp"># </span>Untracked files:
+<span class="gp">#   </span><span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to include in what will be committed<span class="o">)</span>
+<span class="gp">#
+</span><span class="gp"></span><span class="c1">#    .gitignore</span>
+<span class="go">nothing added to commit but untracked files present (use &#34;git add&#34; to track)
+</span></code></pre></td></tr></table>
 </div>
 </div><p>La única cosa que Git advierte ahora es el archivo <em>.gitignore</em> recientemente
 creado. Podríamos creer que no querríamos incorporarlo al control de versiones,
@@ -1086,12 +1086,12 @@ este archivo (oculto, pues empieza con un punto):</p>
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git add .gitignore
-$ git commit -m &#34;Agregado del archivo de ignorancias&#34;
-$ git status
-# On branch master
-nothing to commit, working directory clean
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git add .gitignore
+<span class="gp">$ </span>git commit -m <span class="s2">&#34;Agregado del archivo de ignorancias&#34;</span>
+<span class="gp">$ </span>git status
+<span class="gp"># </span>On branch master
+<span class="go">nothing to commit, working directory clean
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Como un extra, al usar <em>.gitignore</em> evitamos agregar accidentalmente archivos
 que no queremos al repositorio.</p>
@@ -1104,12 +1104,12 @@ que no queremos al repositorio.</p>
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git add a.dat
-The following paths are ignored by one of your .gitignore files:
-a.dat
-Use -f if you really want to add them.
-fatal: no files added
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git add a.dat
+<span class="go">The following paths are ignored by one of your .gitignore files:
+</span><span class="go">a.dat
+</span><span class="go">Use -f if you really want to add them.
+</span><span class="go">fatal: no files added
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Si queremos realmente pasar por alto los seteos de <em>.gitignore</em>, podemos usar
 <em>git add -f</em> para forzar a Git a agregar algo. Siempre podemos ver la situación
@@ -1130,19 +1130,19 @@ de los archivos ignorados si quisiéramos:</p>
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git status --ignored
-
-# On branch master
-# Ignored files:
-#  (use &#34;git add -f &lt;file&gt;...&#34; to include in what will be committed)
-#
-#        a.dat
-#        b.dat
-#        c.dat
-#        results/
-
-nothing to commit, working directory clean
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git status --ignored
+<span class="err">
+</span><span class="err"></span><span class="gp"># </span>On branch master
+<span class="gp"># </span>Ignored files:
+<span class="gp">#  </span><span class="o">(</span>use <span class="s2">&#34;git add -f &lt;file&gt;...&#34;</span> to include in what will be committed<span class="o">)</span>
+<span class="gp">#
+</span><span class="gp"></span><span class="c1">#        a.dat</span>
+<span class="gp">#        </span>b.dat
+<span class="gp">#        </span>c.dat
+<span class="gp">#        </span>results/
+<span class="err">
+</span><span class="err"></span><span class="go">nothing to commit, working directory clean
+</span></code></pre></td></tr></table>
 </div>
 </div><h2 id="claves">Claves</h2>
 <blockquote>
@@ -1182,8 +1182,8 @@ por el sistema de control de versiones.</p>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.88.1">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
-        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>
 if ('serviceWorker' in navigator) {

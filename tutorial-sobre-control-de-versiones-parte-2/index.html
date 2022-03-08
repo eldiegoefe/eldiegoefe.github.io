@@ -188,11 +188,11 @@ Podemos chequearlo con <em>git remote -v</em>.</p>
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git remote add origin https://github.com/eldiegoefe/emacs.git
-$ git remote -v
-origin  https://github.com/eldiegoefe/emacs.git (fetch)
-origin  https://github.com/eldiegoefe/emacs.git (push)
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git remote add origin https://github.com/eldiegoefe/emacs.git
+<span class="gp">$ </span>git remote -v
+<span class="go">origin  https://github.com/eldiegoefe/emacs.git (fetch)
+</span><span class="go">origin  https://github.com/eldiegoefe/emacs.git (push)
+</span></code></pre></td></tr></table>
 </div>
 </div><h2 id="subir-repo-local-al-remoto">Subir repo local al remoto</h2>
 <p>Ahora es superfacil subir los archivos de nuestro repositorio local
@@ -202,7 +202,7 @@ hacia el repositorio remoto (en github.com):</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git push origin master
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git push origin master
 </code></pre></td></tr></table>
 </div>
 </div><p>Cuando te dicen &quot;master&quot; es porque sos grosso, sabelo. Además
@@ -237,20 +237,20 @@ local):</p>
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git pull origin master
-warning: no common commits
-remote: Counting objects: 3, done.
-remote: Compressing objects: 100% (2/2), done.
-remote: Total 3 (delta 0), reused 0 (delta 0)
-Unpacking objects: 100% (3/3), done.
-From https://github.com/eldiegoefe/emacs
- * branch            master     -&gt; FETCH_HEAD
- * [new branch]      master     -&gt; origin/master
-Merge made by the &#39;recursive&#39; strategy.
- LICENSE | 675 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- 1 file changed, 675 insertions(+)
- create mode 100644 LICENSE
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git pull origin master
+<span class="go">warning: no common commits
+</span><span class="go">remote: Counting objects: 3, done.
+</span><span class="go">remote: Compressing objects: 100% (2/2), done.
+</span><span class="go">remote: Total 3 (delta 0), reused 0 (delta 0)
+</span><span class="go">Unpacking objects: 100% (3/3), done.
+</span><span class="go">From https://github.com/eldiegoefe/emacs
+</span><span class="go"> * branch            master     -&gt; FETCH_HEAD
+</span><span class="go"> * [new branch]      master     -&gt; origin/master
+</span><span class="go">Merge made by the &#39;recursive&#39; strategy.
+</span><span class="go"> LICENSE | 675 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+</span><span class="go"> 1 file changed, 675 insertions(+)
+</span><span class="go"> create mode 100644 LICENSE
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Cuando se agregan cosas (al repo local) hay que comitearlas, como de
 costumbre. Por eso, al ejecutar el comando anterior el sistema pide un
@@ -264,9 +264,9 @@ cual puede verse haciendo:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ ls
-custom.el  LICENSE  preload
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>ls
+<span class="go">custom.el  LICENSE  preload
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Podemos chequear el estado del repo local:</p>
 <div class="highlight"><div class="chroma">
@@ -276,10 +276,10 @@ custom.el  LICENSE  preload
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git status
-# On branch master
-nothing to commit, working directory clean
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git status
+<span class="gp"># </span>On branch master
+<span class="go">nothing to commit, working directory clean
+</span></code></pre></td></tr></table>
 </div>
 </div><h3 id="no-problem">No problem</h3>
 <p>Ahora sí volvemos a intentar subir los archivos que faltan hacia origin
@@ -296,15 +296,15 @@ nothing to commit, working directory clean
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">$ git push origin master
-Counting objects: 12, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (8/8), done.
-Writing objects: 100% (11/11), 2.88 KiB | 0 bytes/s, done.
-Total 11 (delta 2), reused 0 (delta 0)
-To https://github.com/eldiegoefe/emacs.git
-   e23c676..2c817b6  master -&gt; master
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git push origin master
+<span class="go">Counting objects: 12, done.
+</span><span class="go">Delta compression using up to 4 threads.
+</span><span class="go">Compressing objects: 100% (8/8), done.
+</span><span class="go">Writing objects: 100% (11/11), 2.88 KiB | 0 bytes/s, done.
+</span><span class="go">Total 11 (delta 2), reused 0 (delta 0)
+</span><span class="go">To https://github.com/eldiegoefe/emacs.git
+</span><span class="go">   e23c676..2c817b6  master -&gt; master
+</span></code></pre></td></tr></table>
 </div>
 </div><p>&quot;Joyines&quot;, diría el Tano. Si ahora hiciésemos un pull desde el remoto,
 no debería pasar nada porque ambos repos son iguales. Veamos:</p>
@@ -316,11 +316,11 @@ no debería pasar nada porque ambos repos son iguales. Veamos:</p>
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">git pull origin master
-From https://github.com/eldiegoefe/emacs
- * branch            master     -&gt; FETCH_HEAD
-Already up-to-date.
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">git pull origin master
+</span><span class="go">From https://github.com/eldiegoefe/emacs
+</span><span class="go"> * branch            master     -&gt; FETCH_HEAD
+</span><span class="go">Already up-to-date.
+</span></code></pre></td></tr></table>
 </div>
 </div><p>En cambio, si alguien actualizó el remoto con algún archivo nuevo, o
 modificó los existentes, al hacer el pull se incorporarían al repo local
@@ -354,8 +354,8 @@ estoy tocando de oido, mejor veamos más adelante.
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.88.1">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
-        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>
 if ('serviceWorker' in navigator) {

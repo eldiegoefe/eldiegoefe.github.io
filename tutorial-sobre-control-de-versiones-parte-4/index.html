@@ -196,16 +196,16 @@ sucede cuando intenta el <em>git push</em>:</p>
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">[eldiegoefe]$ git push origin master
-To https://github.com/eldiegoefe/emacs.git
- ! [rejected]        master -&gt; master (fetch first)
-error: failed to push some refs to &#39;https://github.com/eldiegoefe/emacs.git&#39;
-hint: Updates were rejected because the remote contains work that you do
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: (e.g., &#39;git pull ...&#39;) before pushing again.
-hint: See the &#39;Note about fast-forwards&#39; in &#39;git push --help&#39; for details.
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">[eldiegoefe]$ git push origin master
+</span><span class="go">To https://github.com/eldiegoefe/emacs.git
+</span><span class="go"> ! [rejected]        master -&gt; master (fetch first)
+</span><span class="go">error: failed to push some refs to &#39;https://github.com/eldiegoefe/emacs.git&#39;
+</span><span class="go">hint: Updates were rejected because the remote contains work that you do
+</span><span class="go">hint: not have locally. This is usually caused by another repository pushing
+</span><span class="go">hint: to the same ref. You may want to first integrate the remote changes
+</span><span class="go">hint: (e.g., &#39;git pull ...&#39;) before pushing again.
+</span><span class="go">hint: See the &#39;Note about fast-forwards&#39; in &#39;git push --help&#39; for details.
+</span></code></pre></td></tr></table>
 </div>
 </div><p>El sistema nos da un error, pero también nos dice el motivo por el cual
 fue rechazado el <em>push</em>: el remoto contiene trabajo que no poseemos
@@ -236,18 +236,18 @@ Github y fundir esos cambios remotos en nuestra copia local.</p>
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">[eldiegoefe]$ git pull origin master
-remote: Counting objects: 3, done.
-remote: Compressing objects: 100% (1/1), done.
-remote: Total 3 (delta 2), reused 3 (delta 2)
-Unpacking objects: 100% (3/3), done.
-From https://github.com/eldiegoefe/emacs
- * branch            master     -&gt; FETCH_HEAD
-   142c683..efe8a9a  master     -&gt; origin/master
-Auto-merging manifiesto.txt
-CONFLICT (content): Merge conflict in manifiesto.txt
-Automatic merge failed; fix conflicts and then commit the result.
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">[eldiegoefe]$ git pull origin master
+</span><span class="go">remote: Counting objects: 3, done.
+</span><span class="go">remote: Compressing objects: 100% (1/1), done.
+</span><span class="go">remote: Total 3 (delta 2), reused 3 (delta 2)
+</span><span class="go">Unpacking objects: 100% (3/3), done.
+</span><span class="go">From https://github.com/eldiegoefe/emacs
+</span><span class="go"> * branch            master     -&gt; FETCH_HEAD
+</span><span class="go">   142c683..efe8a9a  master     -&gt; origin/master
+</span><span class="go">Auto-merging manifiesto.txt
+</span><span class="go">CONFLICT (content): Merge conflict in manifiesto.txt
+</span><span class="go">Automatic merge failed; fix conflicts and then commit the result.
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Ahora Git nos avisa que hay un conflicto y marca el archivo donde éste
 se produce (<em>manifiesto.txt</em>). Veamos ahora el contenido de este archivo
@@ -302,17 +302,17 @@ pero Engels es más grosso todavía.
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">[eldiegoefe]$ git status
-# On branch master
-# You have unmerged paths.
-#   (fix conflicts and run &#34;git commit&#34;)
-#
-# Unmerged paths:
-#   (use &#34;git add &lt;file&gt;...&#34; to mark resolution)
-#
-#       both modified:      manifiesto.txt
-#
-no changes added to commit (use &#34;git add&#34; and/or &#34;git commit -a&#34;)
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">[eldiegoefe]$ git status
+</span><span class="go"></span><span class="gp"># </span>On branch master
+<span class="gp"># </span>You have unmerged paths.
+<span class="gp">#   </span><span class="o">(</span>fix conflicts and run <span class="s2">&#34;git commit&#34;</span><span class="o">)</span>
+<span class="gp">#
+</span><span class="gp"></span><span class="c1"># Unmerged paths:</span>
+<span class="gp">#   </span><span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to mark resolution<span class="o">)</span>
+<span class="gp">#
+</span><span class="gp"></span><span class="c1">#       both modified:      manifiesto.txt</span>
+<span class="gp">#
+</span><span class="gp"></span>no changes added to commit <span class="o">(</span>use <span class="s2">&#34;git add&#34;</span> and/or <span class="s2">&#34;git commit -a&#34;</span><span class="o">)</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Tenemos que agregar los cambios y comitearlos antes de volver a intentar
@@ -338,24 +338,24 @@ el push:</p>
 </span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">[eldiegoefe]$ git add manifiesto.txt
-
-[eldiegoefe]$ git status
-# On branch master
-# All conflicts fixed but you are still merging.
-#   (use &#34;git commit&#34; to conclude merge)
-#
-# Changes to be committed:
-#
-#       modified:   manifiesto.txt
-
-[eldiegoefe]$ git commit -m &#34;Conflicto arreglado en manifiesto.txt&#34;
-[master 4f17908] Conflicto arreglado en manifiesto.txt
-
-[eldiegoefe]$ git status
-# On branch master
-nothing to commit, working directory clean
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">[eldiegoefe]$ git add manifiesto.txt
+</span><span class="go"></span><span class="err">
+</span><span class="err"></span><span class="go">[eldiegoefe]$ git status
+</span><span class="go"></span><span class="gp"># </span>On branch master
+<span class="gp"># </span>All conflicts fixed but you are still merging.
+<span class="gp">#   </span><span class="o">(</span>use <span class="s2">&#34;git commit&#34;</span> to conclude merge<span class="o">)</span>
+<span class="gp">#
+</span><span class="gp"></span><span class="c1"># Changes to be committed:</span>
+<span class="gp">#
+</span><span class="gp"></span><span class="c1">#       modified:   manifiesto.txt</span>
+<span class="err">
+</span><span class="err"></span><span class="go">[eldiegoefe]$ git commit -m &#34;Conflicto arreglado en manifiesto.txt&#34;
+</span><span class="go">[master 4f17908] Conflicto arreglado en manifiesto.txt
+</span><span class="go"></span><span class="err">
+</span><span class="err"></span><span class="go">[eldiegoefe]$ git status
+</span><span class="go"></span><span class="gp"># </span>On branch master
+<span class="go">nothing to commit, working directory clean
+</span></code></pre></td></tr></table>
 </div>
 </div><h2 id="listo-el-pollo">Listo el pollo</h2>
 <p>Ahora sí intentamos el push:</p>
@@ -371,15 +371,15 @@ nothing to commit, working directory clean
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">[eldiegoefe]$ git push origin master
-Counting objects: 10, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (6/6), done.
-Writing objects: 100% (6/6), 665 bytes | 0 bytes/s, done.
-Total 6 (delta 4), reused 0 (delta 0)
-To https://github.com/eldiegoefe/emacs.git
-   efe8a9a..4f17908  master -&gt; master
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">[eldiegoefe]$ git push origin master
+</span><span class="go">Counting objects: 10, done.
+</span><span class="go">Delta compression using up to 4 threads.
+</span><span class="go">Compressing objects: 100% (6/6), done.
+</span><span class="go">Writing objects: 100% (6/6), 665 bytes | 0 bytes/s, done.
+</span><span class="go">Total 6 (delta 4), reused 0 (delta 0)
+</span><span class="go">To https://github.com/eldiegoefe/emacs.git
+</span><span class="go">   efe8a9a..4f17908  master -&gt; master
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Esta vez pudimos subir todo exitosamente. Ahora vamos a ver qué le pasa
 al otro usuario <em>bioingenierodiegol</em> cuando quiere actualizar su repo
@@ -400,19 +400,19 @@ local:</p>
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">[bioingenierodiegol] $ git pull origin master
-remote: Counting objects: 6, done.
-remote: Compressing objects: 100% (2/2), done.
-Unpacking objects: 100% (6/6), done.
-remote: Total 6 (delta 4), reused 6 (delta 4)
-From https://github.com/eldiegoefe/emacs
- * branch            master     -&gt; FETCH_HEAD
-   efe8a9a..4f17908  master     -&gt; origin/master
-Updating efe8a9a..4f17908
-Fast-forward
- manifiesto.txt | 3 ++-
- 1 file changed, 2 insertions(+), 1 deletion(-)
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">[bioingenierodiegol] $ git pull origin master
+</span><span class="go">remote: Counting objects: 6, done.
+</span><span class="go">remote: Compressing objects: 100% (2/2), done.
+</span><span class="go">Unpacking objects: 100% (6/6), done.
+</span><span class="go">remote: Total 6 (delta 4), reused 6 (delta 4)
+</span><span class="go">From https://github.com/eldiegoefe/emacs
+</span><span class="go"> * branch            master     -&gt; FETCH_HEAD
+</span><span class="go">   efe8a9a..4f17908  master     -&gt; origin/master
+</span><span class="go">Updating efe8a9a..4f17908
+</span><span class="go">Fast-forward
+</span><span class="go"> manifiesto.txt | 3 ++-
+</span><span class="go"> 1 file changed, 2 insertions(+), 1 deletion(-)
+</span></code></pre></td></tr></table>
 </div>
 </div><p>Sin problemas se ha cerrado el círculo, ambos usuarios tienen el mismo
 contenido en el archivo que había generado el conflicto:</p>
@@ -458,8 +458,8 @@ cambio, resalta los conflictos para que los puedan resolver.</p>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.88.1">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
-        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>
 if ('serviceWorker' in navigator) {
