@@ -4,7 +4,15 @@
         <link>https://eldiegoefe.github.io/tags/linux/</link>
         <description>linux - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 03 Sep 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/linux/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sat, 26 Mar 2022 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/linux/" rel="self" type="application/rss+xml" /><item>
+    <title>Comandos Linux</title>
+    <link>https://eldiegoefe.github.io/comandos-linux/</link>
+    <pubDate>Sat, 26 Mar 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comandos-linux/</guid>
+    <description><![CDATA[Comandos habituales en la linea de comandos de Linux Los comandos que se listan son de BASH.
+Aclaración: los puntos suspensivos indican que se pueden escribir varios nombres de archivos o directorios.
+ pwd. Print Working Directory. Muestra el directorio actual. ls -l directorios&hellip;. Listar directorios. Incluir información completa. ls -a directorios&hellip;. Listar directorios. Incluir ocultos. man comando. Información de un comando: muestra su manual de uso. cd. Cambiar directorio. cp arch1 arch2.]]></description>
+</item>
+<item>
     <title>Peso de los directorios en Linux</title>
     <link>https://eldiegoefe.github.io/peso-de-los-directorios-en-linux/</link>
     <pubDate>Sun, 03 Sep 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/peso-de-los-directorios-en-linux/</guid>

@@ -124,8 +124,8 @@ extensión) y descomprimirlo, lo cual se hace con la orden:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp"># </span>sh install.sh
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">#</span> sh install.sh
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>(<strong>necesita permisos de root</strong>, así que hay que anteponer un sudo o
 ejecutar el terminal como root). Al final aparecen algunos mensajes
@@ -138,10 +138,10 @@ parece andar bien, puesto que en la ventana puede leerse:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">SBCL has been installed:
-</span><span class="go"> binary /usr/local/bin/sbcl
-</span><span class="go"> core and contribs in /usr/local/lib/sbcl/
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">SBCL has been installed:
+</span></span></span><span class="line"><span class="cl"><span class="go"> binary /usr/local/bin/sbcl
+</span></span></span><span class="line"><span class="cl"><span class="go"> core and contribs in /usr/local/lib/sbcl/
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Luego hay que <a href="http://www.quicklisp.org/beta/" target="_blank" rel="noopener noreffer">bajar quicklisp</a>, el
 hecho de que sea &quot;beta&quot; no importa, porque anda bien así desde hace
@@ -152,8 +152,8 @@ años.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>sbcl --load quicklisp.lisp
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> sbcl --load quicklisp.lisp
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Luego hay que seguir las instrucciones que aparecen, primeramente
 teclear (el prompt dentro de Lisp en mi sistema es sólo un asterisco):</p>
@@ -162,8 +162,8 @@ teclear (el prompt dentro de Lisp en mi sistema es sólo un asterisco):</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="nf">*</span> <span class="p">(</span><span class="nv">quicklisp-quickstart:install</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="nf">*</span> <span class="p">(</span><span class="nv">quicklisp-quickstart:install</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>El sistema se pone a bajar cosas, así que supongo que es necesaria la
 conexión a internet. Finaliza con este mensaje:</p>
@@ -182,18 +182,18 @@ conexión a internet. Finaliza con este mensaje:</p>
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">==== quicklisp installed ====
-</span><span class="go"></span><span class="err">
-</span><span class="err"></span><span class="go">   To load a system, use: (ql:quickload &#34;system-name&#34;)
-</span><span class="go"></span><span class="err">
-</span><span class="err"></span><span class="go">   To find systems, use: (ql:system-apropos &#34;term&#34;)
-</span><span class="go"></span><span class="err">
-</span><span class="err"></span><span class="go">   To load Quicklisp every time you start Lisp, use: (ql:add-to-init-file)
-</span><span class="go"></span><span class="err">
-</span><span class="err"></span><span class="go">   For more information, see http://www.quicklisp.org/beta/
-</span><span class="go"></span><span class="err">
-</span><span class="err"></span><span class="go">NIL
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">==== quicklisp installed ====
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">   To load a system, use: (ql:quickload &#34;system-name&#34;)
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">   To find systems, use: (ql:system-apropos &#34;term&#34;)
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">   To load Quicklisp every time you start Lisp, use: (ql:add-to-init-file)
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">   For more information, see http://www.quicklisp.org/beta/
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">NIL
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Seguimos ejecutando en el mismo terminal la siguiente instrucción:</p>
 <div class="highlight"><div class="chroma">
@@ -201,8 +201,8 @@ conexión a internet. Finaliza con este mensaje:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="nf">*</span> <span class="p">(</span><span class="nv">ql:add-to-init-file</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="nf">*</span> <span class="p">(</span><span class="nv">ql:add-to-init-file</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Funciona independientemente del directorio desde el cual hayamos
 ejecutado el terminal. Ofrece el siguiente mensaje como resultado:</p>
@@ -222,19 +222,19 @@ ejecutado el terminal. Ofrece el siguiente mensaje como resultado:</p>
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">I will append the following lines to #P&#34;/home/diego/.sbclrc&#34;:
-</span><span class="go"></span><span class="err">
-</span><span class="err"></span><span class="go">  ;;; The following lines added by ql:add-to-init-file:
-</span><span class="go">  #-quicklisp
-</span><span class="go">  (let ((quicklisp-init (merge-pathnames &#34;quicklisp/setup.lisp&#34;
-</span><span class="go">                                         (user-homedir-pathname))))
-</span><span class="go">    (when (probe-file quicklisp-init)
-</span><span class="go">      (load quicklisp-init)))
-</span><span class="go"></span><span class="err">
-</span><span class="err"></span><span class="go">Press Enter to continue.
-</span><span class="go"></span><span class="err">
-</span><span class="err"></span><span class="gp">#</span>P<span class="s2">&#34;/home/diego/.sbclrc&#34;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">I will append the following lines to #P&#34;/home/diego/.sbclrc&#34;:
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">  ;;; The following lines added by ql:add-to-init-file:
+</span></span></span><span class="line"><span class="cl"><span class="go">  #-quicklisp
+</span></span></span><span class="line"><span class="cl"><span class="go">  (let ((quicklisp-init (merge-pathnames &#34;quicklisp/setup.lisp&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">                                         (user-homedir-pathname))))
+</span></span></span><span class="line"><span class="cl"><span class="go">    (when (probe-file quicklisp-init)
+</span></span></span><span class="line"><span class="cl"><span class="go">      (load quicklisp-init)))
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">Press Enter to continue.
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="gp">#</span>P<span class="s2">&#34;/home/diego/.sbclrc&#34;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Luego se instala slime, pero no como hacía yo desde adentro de emacs,
 sino desde el mismo terminal en el que venimos trabajando:</p>
@@ -243,8 +243,8 @@ sino desde el mismo terminal en el que venimos trabajando:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">* (ql:quickload &#34;quicklisp-slime-helper&#34;)
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">* (ql:quickload &#34;quicklisp-slime-helper&#34;)
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Nuevamente se pone a bajar cosas de la red y termina con el siguiente
 mensaje, así que sabemos que lo hizo exitosamente:</p>
@@ -263,18 +263,18 @@ mensaje, así que sabemos que lo hizo exitosamente:</p>
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">slime-helper.el installed in &#34;/home/diego/quicklisp/slime-helper.el&#34;
-</span><span class="go"></span><span class="err">
-</span><span class="err"></span><span class="go">To use, add this to your ~/.emacs:
-</span><span class="go"></span><span class="err">
-</span><span class="err"></span><span class="go">  (load (expand-file-name &#34;~/quicklisp/slime-helper.el&#34;))
-</span><span class="go">  ;; Replace &#34;sbcl&#34; with the path to your implementation
-</span><span class="go">  (setq inferior-lisp-program &#34;sbcl&#34;)
-</span><span class="go"></span><span class="err">
-</span><span class="err">
-</span><span class="err"></span><span class="go">(&#34;quicklisp-slime-helper&#34;)
-</span><span class="go">*
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">slime-helper.el installed in &#34;/home/diego/quicklisp/slime-helper.el&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">To use, add this to your ~/.emacs:
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">  (load (expand-file-name &#34;~/quicklisp/slime-helper.el&#34;))
+</span></span></span><span class="line"><span class="cl"><span class="go">  ;; Replace &#34;sbcl&#34; with the path to your implementation
+</span></span></span><span class="line"><span class="cl"><span class="go">  (setq inferior-lisp-program &#34;sbcl&#34;)
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">(&#34;quicklisp-slime-helper&#34;)
+</span></span></span><span class="line"><span class="cl"><span class="go">*
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Yo no tengo archivo ~/.emacs porque instalé Prelude, así que esas tres
 lineas (desde <strong>(load</strong> hasta <strong>&quot;sbcl&quot;)</strong>) van en el archivo de
@@ -292,9 +292,9 @@ ejemplos del capítulo 2 de Practical Common Lisp.</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="c1">; SLIME 2014-06-17</span>
-<span class="nv">CL-USER&gt;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="c1">; SLIME 2014-06-17</span>
+</span></span><span class="line"><span class="cl"><span class="nv">CL-USER&gt;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Al principio había algo diferente en el video, porque cuando se pone a
 teclear en el otro buffer, el que tiene el archivo de texto con
@@ -310,9 +310,9 @@ compila con C-c C-c):</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="p">(</span><span class="nb">defun</span> <span class="nv">hihi-world</span> <span class="p">()</span>
-  <span class="p">(</span><span class="nf">format</span> <span class="no">t</span> <span class="s">&#34;hola mundo!&#34;</span><span class="p">))</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="p">(</span><span class="nb">defun</span> <span class="nv">hihi-world</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="nf">format</span> <span class="no">t</span> <span class="s">&#34;hola mundo!&#34;</span><span class="p">))</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div></div><div class="post-footer" id="post-footer">
     <div class="post-info"><div class="post-info-tag"><span><a href="/tags/lisp/">lisp</a>
@@ -331,7 +331,7 @@ compila con C-c C-c):</p>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.93.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
         </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>

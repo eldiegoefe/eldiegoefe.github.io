@@ -168,13 +168,13 @@ computadora:</p>
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">[bioingenierodiegol]$ git clone https://github.com/eldiegoefe/emacs.git
-</span><span class="go">[bioingenierodiegol]$ cd emacs
-</span><span class="go">[bioingenierodiegol]$ git status
-</span><span class="go">On branch master
-</span><span class="go">Your branch is up-to-date with &#39;origin/master&#39;.
-</span><span class="go">nothing to commit, working directory clean
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">[bioingenierodiegol]$ git clone https://github.com/eldiegoefe/emacs.git
+</span></span></span><span class="line"><span class="cl"><span class="go">[bioingenierodiegol]$ cd emacs
+</span></span></span><span class="line"><span class="cl"><span class="go">[bioingenierodiegol]$ git status
+</span></span></span><span class="line"><span class="cl"><span class="go">On branch master
+</span></span></span><span class="line"><span class="cl"><span class="go">Your branch is up-to-date with &#39;origin/master&#39;.
+</span></span></span><span class="line"><span class="cl"><span class="go">nothing to commit, working directory clean
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Ahora tengo los mismos archivos en la compu de <em>bioingenieroDiegol</em> que
 en el repositorio de Github. Además sucede algo muy curioso, <strong>sin</strong>
@@ -187,10 +187,10 @@ haber hecho <em>git remote add origin
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">[bioingenierodiegol]$ git remote -v
-</span><span class="go">origin  https://github.com/eldiegoefe/emacs.git (fetch)
-</span><span class="go">origin  https://github.com/eldiegoefe/emacs.git (push)
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">[bioingenierodiegol]$ git remote -v
+</span></span></span><span class="line"><span class="cl"><span class="go">origin  https://github.com/eldiegoefe/emacs.git (fetch)
+</span></span></span><span class="line"><span class="cl"><span class="go">origin  https://github.com/eldiegoefe/emacs.git (push)
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Vemos que la url y el alias estaban en el repositorio. Es por convención
 que se usa el nombre de <em>origin</em> como alias. Cuando más adelante quiera
@@ -215,15 +215,15 @@ de colaboradores (porque para la clonación no necesitaba permisos).</p>
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">[bioingenierodiegol]$ touch archivo-vacio.txt
-</span><span class="go">[bioingenierodiegol]$ git add archivo-vacio.txt
-</span><span class="go">[bioingenierodiegol]$ git commit -m &#34;Agrego archivo-vacio.txt&#34;
-</span><span class="go">[bioingenierodiegol]$ git status
-</span><span class="go">On branch master
-</span><span class="go">Your branch is ahead of &#39;origin/master&#39; by 1 commit.
-</span><span class="go">  (use &#34;git push&#34; to publish your local commits)
-</span><span class="go">nothing to commit, working directory clean
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">[bioingenierodiegol]$ touch archivo-vacio.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">[bioingenierodiegol]$ git add archivo-vacio.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">[bioingenierodiegol]$ git commit -m &#34;Agrego archivo-vacio.txt&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">[bioingenierodiegol]$ git status
+</span></span></span><span class="line"><span class="cl"><span class="go">On branch master
+</span></span></span><span class="line"><span class="cl"><span class="go">Your branch is ahead of &#39;origin/master&#39; by 1 commit.
+</span></span></span><span class="line"><span class="cl"><span class="go">  (use &#34;git push&#34; to publish your local commits)
+</span></span></span><span class="line"><span class="cl"><span class="go">nothing to commit, working directory clean
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Git es muy comunicativo y nos dice lo que sucede y cómo tenemos que
 continuar. Nuestra rama <em>master</em> local está adelantada respecto de la
@@ -265,20 +265,20 @@ un pull desde el remoto:</p>
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">[eldiegoefe]$ git pull origin master
-</span><span class="go">remote: Counting objects: 2, done.
-</span><span class="go">remote: Compressing objects: 100% (1/1), done.
-</span><span class="go">remote: Total 2 (delta 1), reused 2 (delta 1)
-</span><span class="go">Unpacking objects: 100% (2/2), done.
-</span><span class="go">From https://github.com/eldiegoefe/emacs
-</span><span class="go"> * branch            master     -&gt; FETCH_HEAD
-</span><span class="go">   2c817b6..f94cdfa  master     -&gt; origin/master
-</span><span class="go">Updating 2c817b6..f94cdfa
-</span><span class="go">Fast-forward
-</span><span class="go"> archivo-vacio.txt | 0
-</span><span class="go"> 1 file changed, 0 insertions(+), 0 deletions(-)
-</span><span class="go"> create mode 100644 archivo-vacio.txt
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">[eldiegoefe]$ git pull origin master
+</span></span></span><span class="line"><span class="cl"><span class="go">remote: Counting objects: 2, done.
+</span></span></span><span class="line"><span class="cl"><span class="go">remote: Compressing objects: 100% (1/1), done.
+</span></span></span><span class="line"><span class="cl"><span class="go">remote: Total 2 (delta 1), reused 2 (delta 1)
+</span></span></span><span class="line"><span class="cl"><span class="go">Unpacking objects: 100% (2/2), done.
+</span></span></span><span class="line"><span class="cl"><span class="go">From https://github.com/eldiegoefe/emacs
+</span></span></span><span class="line"><span class="cl"><span class="go"> * branch            master     -&gt; FETCH_HEAD
+</span></span></span><span class="line"><span class="cl"><span class="go">   2c817b6..f94cdfa  master     -&gt; origin/master
+</span></span></span><span class="line"><span class="cl"><span class="go">Updating 2c817b6..f94cdfa
+</span></span></span><span class="line"><span class="cl"><span class="go">Fast-forward
+</span></span></span><span class="line"><span class="cl"><span class="go"> archivo-vacio.txt | 0
+</span></span></span><span class="line"><span class="cl"><span class="go"> 1 file changed, 0 insertions(+), 0 deletions(-)
+</span></span></span><span class="line"><span class="cl"><span class="go"> create mode 100644 archivo-vacio.txt
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>El sistema le indica que se actualizó, que un archivo cambió
 (<em>insertions</em> y <em>deletions</em> son cambios en el interior de los archivos,
@@ -319,7 +319,7 @@ repositorio local con un <em>remote</em> automáticamente llamado <em>origin</em
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.93.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
         </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>

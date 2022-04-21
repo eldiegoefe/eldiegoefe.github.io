@@ -4,7 +4,36 @@
         <link>https://eldiegoefe.github.io/posts/</link>
         <description>Todo Artículos | Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 09 Mar 2022 00:15:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 20 Apr 2022 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Formación Activista - Damián Verzeñassi</title>
+    <link>https://eldiegoefe.github.io/formaci%C3%B3n-activista-dami%C3%A1n-verze%C3%B1assi/</link>
+    <pubDate>Wed, 20 Apr 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/formaci%C3%B3n-activista-dami%C3%A1n-verze%C3%B1assi/</guid>
+    <description><![CDATA[El lunes 4 de abril de 2022, en el segundo encuentro de la Formación Activista nos encontramos con Damián Verzeñassi, médico e investigador, activista, fundador/titular de la Cátedra de Salud Socioambiental de la Facultad de Ciencias Médicas de la Universidad Nacional de Rosario y del Instituto Nacional de Salud Socioambiental. No anoté mucho, sólo algunos puntos que me parecieron más significativos en el momento. Pensé en retornar a la clase grabada para revisarla posteriormente pero sigue pendiente.]]></description>
+</item>
+<item>
+    <title>Ayuda en Emacs - Aprender o Repasar es Facil</title>
+    <link>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</link>
+    <pubDate>Sat, 02 Apr 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</guid>
+    <description><![CDATA[Indagar sobre las múltiples funciones de Emacs es una tarea inevitable. Ya sea para explorar y descubrir comandos útiles, o tras un tiempo alejados del editor durante el que nuestros músculos olvidan hasta los atajos de teclado más cotidianos.
+Por suerte Emacs cuenta con mucha documentación incorporada y si aprendemos a preguntarle, nos responderá todas nuestras dudas sin necesidad de salir a buscar respuestas en la web.
+Un problema de la información disponible online es que está centrada por lo general en los atajos de teclado que vienen por defecto en Emacs (o en los paquetes de terceros que instalemos), y entonces se vuelven inaplicables las sentencias del tipo &ldquo;para salir de Emacs se usa C-x C-c&rdquo;.]]></description>
+</item>
+<item>
+    <title>Movimientos Originales en Emacs</title>
+    <link>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</link>
+    <pubDate>Sun, 27 Mar 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</guid>
+    <description><![CDATA[Estoy volviendo a probar Emacs con los atajos de teclado originales, tras años de usar evil-mode y la edición modal propia de VIM (que está buenísima). Lo hago para independizarme de los kits como Doom Emacs y Spacemacs y así retomar el control total sobre la configuración y de paso retomar el estudio de LISP. Esto es un resumen de los atajos de teclado que deseo recordar.
+Movimientos sobre la linea    Tecla Comando Comentario     C-a move-beginning-of-line Mueve al inicio de la linea   C-e move-end-of-line Mueve al final de la linea   M-m back-to-indentation Mueve al primer caracter de la linea luego de la indentación    Movimientos de distancias cortas: caracteres y lineas    Tecla Comando Comentario     C-f forward-char Mueve un caracter hacia adelante   C-b backward-char Mueve un caracter hacia atrás   C-n next-line Mueve hacia la siguiente linea   C-p previous-line Mueve hacia la linea previa    Movimientos entre palabras    Tecla Comando Comentario     M-f forward-word Mueve una palabra hacia adelante   M-b backward-word Mueve una palabra hacia atrás    Me parece preferible usar los que aparecen abajo como &ldquo;Movimiento entre bloques&rdquo; porque saltan entre palabras igual que estos, y no hace falta estar pensando en si el prefijo es Alt o Ctrl.]]></description>
+</item>
+<item>
+    <title>Comandos Linux</title>
+    <link>https://eldiegoefe.github.io/comandos-linux/</link>
+    <pubDate>Sat, 26 Mar 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comandos-linux/</guid>
+    <description><![CDATA[Comandos habituales en la linea de comandos de Linux Los comandos que se listan son de BASH.
+Aclaración: los puntos suspensivos indican que se pueden escribir varios nombres de archivos o directorios.
+ pwd. Print Working Directory. Muestra el directorio actual. ls -l directorios&hellip;. Listar directorios. Incluir información completa. ls -a directorios&hellip;. Listar directorios. Incluir ocultos. man comando. Información de un comando: muestra su manual de uso. cd. Cambiar directorio. cp arch1 arch2.]]></description>
+</item>
+<item>
     <title>Cambio Vegano (Parte 2)</title>
     <link>https://eldiegoefe.github.io/cambio-vegano-parte-2/</link>
     <pubDate>Wed, 09 Mar 2022 00:15:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/cambio-vegano-parte-2/</guid>
@@ -39,30 +68,6 @@
     <link>https://eldiegoefe.github.io/pasasana/</link>
     <pubDate>Wed, 17 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/pasasana/</guid>
     <description><![CDATA[yoga de pie - pasasana]]></description>
-</item>
-<item>
-    <title>Kurmasana - Sentadilla de la tortuga</title>
-    <link>https://eldiegoefe.github.io/kurmasana-sentadilla-de-la-tortuga/</link>
-    <pubDate>Tue, 16 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/kurmasana-sentadilla-de-la-tortuga/</guid>
-    <description><![CDATA[yoga de pie - kurmasana]]></description>
-</item>
-<item>
-    <title>Estiramiento de cadera</title>
-    <link>https://eldiegoefe.github.io/estiramiento-de-cadera/</link>
-    <pubDate>Mon, 15 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/estiramiento-de-cadera/</guid>
-    <description><![CDATA[yoga de pie - cadera]]></description>
-</item>
-<item>
-    <title>Flexiones hacia adelante (Uttanasana)</title>
-    <link>https://eldiegoefe.github.io/flexiones-hacia-adelante-uttanasana/</link>
-    <pubDate>Sun, 14 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/flexiones-hacia-adelante-uttanasana/</guid>
-    <description><![CDATA[flexiones hacia adelante]]></description>
-</item>
-<item>
-    <title>Poses laterales (Parsva Bhangi)</title>
-    <link>https://eldiegoefe.github.io/poses-laterales-parsva-bhangi/</link>
-    <pubDate>Sat, 13 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/poses-laterales-parsva-bhangi/</guid>
-    <description><![CDATA[movimiento de los brazos]]></description>
 </item>
 </channel>
 </rss>

@@ -131,13 +131,13 @@ instalamos Pelican y también otras herramientas que utilizaremos posteriormente
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mkvirtualenv blogs
-<span class="go">(blogs)$ pip install pelican
-</span><span class="go">(blogs)$ pip install beautifulsoup4
-</span><span class="go">(blogs)$ pip install pelican-youtube
-</span><span class="go">(blogs)$ pip install ghp-import
-</span><span class="go">(blogs)$ pip install typogrify
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> mkvirtualenv blogs
+</span></span><span class="line"><span class="cl"><span class="go">(blogs)$ pip install pelican
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ pip install beautifulsoup4
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ pip install pelican-youtube
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ pip install ghp-import
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ pip install typogrify
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="estructura-de-directorios">Estructura de directorios</h2>
 <p>Vamos a utilizar un directorio que va a contener tanto nuestro blog como
@@ -162,11 +162,11 @@ entorno virtual sigue activado, lo cual se refleja en el prompt):</p>
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ mkdir ~/misBlogs
-</span><span class="go">(blogs)$ cd ~/misBlogs
-</span><span class="go">(blogs)$ git clone --recursive https://github.com/getpelican/pelican-themes
-</span><span class="go">(blogs)$ git clone --recursive https://github.com/getpelican/pelican-plugins
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(blogs)$ mkdir ~/misBlogs
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ cd ~/misBlogs
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ git clone --recursive https://github.com/getpelican/pelican-themes
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ git clone --recursive https://github.com/getpelican/pelican-plugins
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Aún falta crear el directorio para los archivos del blog. Para ello
 creamos un repositorio vacío en GitHub. Este sitio ofrece la dirección
@@ -182,8 +182,8 @@ anteriores sólo debemos tipear:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ git clone https://github.com/nombreUsuario/nombreUsuario.github.io
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(blogs)$ git clone https://github.com/nombreUsuario/nombreUsuario.github.io
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>En el archivo .gitignore (dentro del directorio
 ~/misBlogs/nombreUsuario.github.io) se deben colocar todos los archivos
@@ -210,11 +210,11 @@ estático. Creamos entonces ambas ramas y cambiamos hacia <strong>source</strong
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ cd nombreUsuario.github.io
-</span><span class="go">(blogs)$ git branch gh-pages
-</span><span class="go">(blogs)$ git branch source
-</span><span class="go">(blogs)$ git checkout source
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(blogs)$ cd nombreUsuario.github.io
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ git branch gh-pages
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ git branch source
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ git checkout source
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="ejecución-inicial-de-pelican">Ejecución inicial de Pelican</h2>
 <p>Dentro de la recientemente creada rama <em>source</em>, dentro del directorio
@@ -226,8 +226,8 @@ configurción de Pelican (va el guión entre las dos palabras):</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ pelican-quickstart
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(blogs)$ pelican-quickstart
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Tras ese comando, y tras contestar todas las preguntas que aparecen, no
 solamente se guarda la configuración deseada (en los archivos
@@ -276,41 +276,41 @@ los datos, queda así:</p>
 </span><span class="lnt">34
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="ch">#!/usr/bin/env python</span>
-<span class="c1"># -*- coding: utf-8 -*- #</span>
-<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">unicode_literals</span>
-
-<span class="n">AUTHOR</span> <span class="o">=</span> <span class="sa">u</span><span class="s1">&#39;Diego Efe&#39;</span>
-<span class="n">SITENAME</span> <span class="o">=</span> <span class="sa">u</span><span class="s1">&#39;Certezas Dudosas&#39;</span>
-<span class="n">SITEURL</span> <span class="o">=</span> <span class="s1">&#39;http://nombreUsuario.github.io&#39;</span>
-
-<span class="n">TIMEZONE</span> <span class="o">=</span> <span class="s1">&#39;America/Argentina/Buenos_Aires&#39;</span>
-
-<span class="n">DEFAULT_LANG</span> <span class="o">=</span> <span class="sa">u</span><span class="s1">&#39;es&#39;</span>
-
-<span class="c1"># Feed generation is usually not desired when developing</span>
-<span class="n">FEED_ALL_ATOM</span> <span class="o">=</span> <span class="kc">None</span>
-<span class="n">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="kc">None</span>
-<span class="n">TRANSLATION_FEED_ATOM</span> <span class="o">=</span> <span class="kc">None</span>
-
-<span class="c1"># Blogroll</span>
-<span class="n">LINKS</span> <span class="o">=</span>  <span class="p">((</span><span class="s1">&#39;Pelican&#39;</span><span class="p">,</span> <span class="s1">&#39;http://getpelican.com/&#39;</span><span class="p">),</span>
-      <span class="p">(</span><span class="s1">&#39;Python.org&#39;</span><span class="p">,</span> <span class="s1">&#39;http://python.org/&#39;</span><span class="p">),</span>
-      <span class="p">(</span><span class="s1">&#39;Jinja2&#39;</span><span class="p">,</span> <span class="s1">&#39;http://jinja.pocoo.org/&#39;</span><span class="p">),</span>
-      <span class="p">(</span><span class="s1">&#39;You can modify those links in your config file&#39;</span><span class="p">,</span> <span class="s1">&#39;#&#39;</span><span class="p">),)</span>
-
-<span class="c1"># Social widget</span>
-<span class="n">SOCIAL</span> <span class="o">=</span> <span class="p">((</span><span class="s1">&#39;Twitter&#39;</span><span class="p">,</span> <span class="s1">&#39;http://twitter.com/nombreUsuario&#39;</span><span class="p">),</span>
-      <span class="p">(</span><span class="s1">&#39;Github&#39;</span><span class="p">,</span> <span class="s1">&#39;https://github.com/nombreUsuario&#39;</span><span class="p">),</span>
-      <span class="p">(</span><span class="s1">&#39;Facebook&#39;</span><span class="p">,</span> <span class="s1">&#39;http://www.facebook.com/nombreUsuario&#39;</span><span class="p">),</span>
-      <span class="p">(</span><span class="s1">&#39;Google+&#39;</span><span class="p">,</span> <span class="s1">&#39;https://plus.google.com/+DiegoEfe&#39;</span><span class="p">),</span>
-<span class="p">)</span>
-
-<span class="n">DEFAULT_PAGINATION</span> <span class="o">=</span> <span class="mi">10</span>
-
-<span class="c1"># Uncomment following line if you want document-relative URLs when developing</span>
-<span class="c1">#RELATIVE_URLS = True</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># -*- coding: utf-8 -*- #</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">unicode_literals</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">AUTHOR</span> <span class="o">=</span> <span class="sa">u</span><span class="s1">&#39;Diego Efe&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">SITENAME</span> <span class="o">=</span> <span class="sa">u</span><span class="s1">&#39;Certezas Dudosas&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">SITEURL</span> <span class="o">=</span> <span class="s1">&#39;http://nombreUsuario.github.io&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">TIMEZONE</span> <span class="o">=</span> <span class="s1">&#39;America/Argentina/Buenos_Aires&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">DEFAULT_LANG</span> <span class="o">=</span> <span class="sa">u</span><span class="s1">&#39;es&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Feed generation is usually not desired when developing</span>
+</span></span><span class="line"><span class="cl"><span class="n">FEED_ALL_ATOM</span> <span class="o">=</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl"><span class="n">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl"><span class="n">TRANSLATION_FEED_ATOM</span> <span class="o">=</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Blogroll</span>
+</span></span><span class="line"><span class="cl"><span class="n">LINKS</span> <span class="o">=</span>  <span class="p">((</span><span class="s1">&#39;Pelican&#39;</span><span class="p">,</span> <span class="s1">&#39;http://getpelican.com/&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="s1">&#39;Python.org&#39;</span><span class="p">,</span> <span class="s1">&#39;http://python.org/&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="s1">&#39;Jinja2&#39;</span><span class="p">,</span> <span class="s1">&#39;http://jinja.pocoo.org/&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="s1">&#39;You can modify those links in your config file&#39;</span><span class="p">,</span> <span class="s1">&#39;#&#39;</span><span class="p">),)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Social widget</span>
+</span></span><span class="line"><span class="cl"><span class="n">SOCIAL</span> <span class="o">=</span> <span class="p">((</span><span class="s1">&#39;Twitter&#39;</span><span class="p">,</span> <span class="s1">&#39;http://twitter.com/nombreUsuario&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="s1">&#39;Github&#39;</span><span class="p">,</span> <span class="s1">&#39;https://github.com/nombreUsuario&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="s1">&#39;Facebook&#39;</span><span class="p">,</span> <span class="s1">&#39;http://www.facebook.com/nombreUsuario&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="s1">&#39;Google+&#39;</span><span class="p">,</span> <span class="s1">&#39;https://plus.google.com/+DiegoEfe&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">DEFAULT_PAGINATION</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Uncomment following line if you want document-relative URLs when developing</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#RELATIVE_URLS = True</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Y el contenido de publishconf.py queda así:</p>
 <div class="highlight"><div class="chroma">
@@ -341,31 +341,31 @@ los datos, queda así:</p>
 </span><span class="lnt">24
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="ch">#!/usr/bin/env python</span>
-<span class="c1"># -*- coding: utf-8 -*- #</span>
-<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">unicode_literals</span>
-
-<span class="c1"># This file is only used if you use `make publish` or</span>
-<span class="c1"># explicitly specify it as your config file.</span>
-
-<span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">curdir</span><span class="p">)</span>
-<span class="kn">from</span> <span class="nn">pelicanconf</span> <span class="kn">import</span> <span class="o">*</span>
-
-<span class="n">SITEURL</span> <span class="o">=</span> <span class="s1">&#39;http://nombreUsuario.github.io&#39;</span>
-<span class="n">RELATIVE_URLS</span> <span class="o">=</span> <span class="kc">False</span>
-
-<span class="n">FEED_ALL_ATOM</span> <span class="o">=</span> <span class="s1">&#39;feeds/all.atom.xml&#39;</span>
-<span class="n">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="s1">&#39;feeds/</span><span class="si">%s</span><span class="s1">.atom.xml&#39;</span>
-
-<span class="n">DELETE_OUTPUT_DIRECTORY</span> <span class="o">=</span> <span class="kc">True</span>
-
-<span class="c1"># Following items are often useful when publishing</span>
-
-<span class="c1">#DISQUS_SITENAME = &#34;&#34;</span>
-<span class="c1">#GOOGLE_ANALYTICS = &#34;&#34;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># -*- coding: utf-8 -*- #</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">unicode_literals</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># This file is only used if you use `make publish` or</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># explicitly specify it as your config file.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">sys</span>
+</span></span><span class="line"><span class="cl"><span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">curdir</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">pelicanconf</span> <span class="kn">import</span> <span class="o">*</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">SITEURL</span> <span class="o">=</span> <span class="s1">&#39;http://nombreUsuario.github.io&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">RELATIVE_URLS</span> <span class="o">=</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">FEED_ALL_ATOM</span> <span class="o">=</span> <span class="s1">&#39;feeds/all.atom.xml&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="s1">&#39;feeds/</span><span class="si">%s</span><span class="s1">.atom.xml&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">DELETE_OUTPUT_DIRECTORY</span> <span class="o">=</span> <span class="kc">True</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Following items are often useful when publishing</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#DISQUS_SITENAME = &#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#GOOGLE_ANALYTICS = &#34;&#34;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="escribir-el-primer-post">Escribir el primer post</h2>
 <p>Las entradas de nuestro nuevo blog se escriben como un archivo de texto
@@ -400,9 +400,9 @@ en la dirección <a href="http://localhost:8000" target="_blank" rel="noopener n
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ make html
-</span><span class="go">(blogs)$ make serve
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(blogs)$ make html
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ make serve
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>En la primera corrida puede haber problemas de formato, sin embargo tras
 subir el sitio al repositorio externo, se corrobora que la página carga
@@ -427,10 +427,10 @@ esto:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>pyenv activate blogs
-<span class="go">(blogs)$ cd ~/blogs/eldiegoefe.github.io/
-</span><span class="go">(blogs)$ make regenerate
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> pyenv activate blogs
+</span></span><span class="line"><span class="cl"><span class="go">(blogs)$ cd ~/blogs/eldiegoefe.github.io/
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ make regenerate
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>En otro terminal, hacer lo propio:</p>
 <div class="highlight"><div class="chroma">
@@ -440,10 +440,10 @@ esto:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>pyenv activate blogs
-<span class="go">(blogs)$ cd ~/blogs/eldiegoefe.github.io/
-</span><span class="go">(blogs)$ make serve
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> pyenv activate blogs
+</span></span><span class="line"><span class="cl"><span class="go">(blogs)$ cd ~/blogs/eldiegoefe.github.io/
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ make serve
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>De este modo el sitio se regenera ante cualquier edición de su
 contenido, y permanece accesible en <a href="http://localhost:8000" target="_blank" rel="noopener noreffer">http://localhost:8000</a> (no hay que
@@ -462,9 +462,9 @@ branch <strong>source</strong>:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ git add .
-</span><span class="go">(blogs)$ git commit -m &#34;Commit inicial de la rama source&#34;
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(blogs)$ git add .
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ git commit -m &#34;Commit inicial de la rama source&#34;
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>De este modo nuestros archivos ya quedaron almacenados en la rama
 <strong>source</strong> de nuestro repositorio local. Pero lo que se verá al acceder
@@ -485,11 +485,11 @@ externo. Estos son los pasos mencionados:</p>
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ ghp-import output
-</span><span class="go">(blogs)$ git checkout master
-</span><span class="go">(blogs)$ git merge gh-pages
-</span><span class="go">(blogs)$ git push --all
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(blogs)$ ghp-import output
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ git checkout master
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ git merge gh-pages
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ git push --all
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Hay que esperar un rato hasta que el sitio esté accesible (sólo la
 primera vez, las siguientes actualizaciones que se hagan permiten
@@ -512,12 +512,12 @@ el entorno virtual correcto para que funcione Pelican y las órdenes como
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span><span class="nb">source</span> /usr/local/bin/virtualenvwrapper.sh
-<span class="gp">$ </span>workon blogs
-<span class="go">(blogs)$ cd ~/misBlogs/nombreUsuario.github.io/
-</span><span class="go">(blogs)$ git checkout source
-</span><span class="go">(blogs)$ cd content
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">source</span> /usr/local/bin/virtualenvwrapper.sh
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> workon blogs
+</span></span><span class="line"><span class="cl"><span class="go">(blogs)$ cd ~/misBlogs/nombreUsuario.github.io/
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ git checkout source
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ cd content
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Con las órdenes anteriores se activó el entorno virtual, nos aseguramos
 de estar en la rama <strong>source</strong> y llegamos al directorio <em>content</em> que es
@@ -529,9 +529,9 @@ donde debemos almacenar los archivos de contenido (<em>.rst</em> o <em>.md</em>)
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ make html
-</span><span class="go">(blogs)$ make serve
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(blogs)$ make html
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ make serve
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Visitamos el blog con nuestro navegador en la dirección
 <a href="http://localhost:8000" target="_blank" rel="noopener noreffer">http://localhost:8000</a></p>
@@ -552,13 +552,13 @@ externo:</p>
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(blogs)$ git add .
-</span><span class="go">(blogs)$ git commit -m &#34;mensaje del commit&#34;
-</span><span class="go">(blogs)$ ghp-import output
-</span><span class="go">(blogs)$ git checkout master
-</span><span class="go">(blogs)$ git merge -X theirs gh-pages
-</span><span class="go">(blogs)$ git push --all
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(blogs)$ git add .
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ git commit -m &#34;mensaje del commit&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ ghp-import output
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ git checkout master
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ git merge -X theirs gh-pages
+</span></span></span><span class="line"><span class="cl"><span class="go">(blogs)$ git push --all
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="atención-navegación-offline">Atención: navegación offline</h2>
 <p>Para que la navegación offline sea posible se debe editar el archivo
@@ -614,7 +614,7 @@ actualicemos ese repositorio de plugins)</p>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.93.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
         </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>

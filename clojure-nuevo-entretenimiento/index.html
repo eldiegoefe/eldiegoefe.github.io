@@ -123,11 +123,11 @@ que Java está instalado:</p>
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>java -version
-<span class="go">java version &#34;1.7.0_65&#34;
-</span><span class="go">OpenJDK Runtime Environment (IcedTea 2.5.2) (Arch Linux build 7.u65_2.5.2-3-x86_64)
-</span><span class="go">OpenJDK 64-Bit Server VM (build 24.65-b04, mixed mode)
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> java -version
+</span></span><span class="line"><span class="cl"><span class="go">java version &#34;1.7.0_65&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">OpenJDK Runtime Environment (IcedTea 2.5.2) (Arch Linux build 7.u65_2.5.2-3-x86_64)
+</span></span></span><span class="line"><span class="cl"><span class="go">OpenJDK 64-Bit Server VM (build 24.65-b04, mixed mode)
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Como en mi caso obtuve el mensaje precedente, no me tuve que preocupar
 de instalar Java.</p>
@@ -168,9 +168,9 @@ dentro del directorio actual en que se encuentra el terminal):</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>lein new command-line-args
-<span class="gp">$ </span><span class="nb">cd</span> command-line-args
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> lein new command-line-args
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">cd</span> command-line-args
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Luego desde Emacs se abre el archivo /command-line-args/project.clj y se
 lo edita para agregar al texto que ya tiene, la siguiente linea (siempre
@@ -180,8 +180,8 @@ según el tutorial):</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-clojure" data-lang="clojure"><span class="ss">:profiles</span> <span class="p">{</span><span class="ss">:dev</span> <span class="p">{</span><span class="ss">:plugins</span> <span class="p">[[</span><span class="nv">cider/cider-nrepl</span> <span class="s">&#34;0.7.0&#34;</span><span class="p">]]}}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-clojure" data-lang="clojure"><span class="line"><span class="cl"><span class="ss">:profiles</span> <span class="p">{</span><span class="ss">:dev</span> <span class="p">{</span><span class="ss">:plugins</span> <span class="p">[[</span><span class="nv">cider/cider-nrepl</span> <span class="s">&#34;0.7.0&#34;</span><span class="p">]]}}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Hay que cambiar la versión que allí se coloca, puesto que ya no será la
 &quot;0.7.0&quot;. En el <a href="https://github.com/clojure-emacs/cider-nrepl" target="_blank" rel="noopener noreffer">github de
@@ -210,9 +210,9 @@ voilá:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-clojure" data-lang="clojure"><span class="c1">; CIDER 0.8.2alpha (package: 20141126.715) (Java 1.7.0_65, Clojure 1.6.0, nREPL 0.2.6)</span>
-<span class="nv">user&gt;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-clojure" data-lang="clojure"><span class="line"><span class="cl"><span class="c1">; CIDER 0.8.2alpha (package: 20141126.715) (Java 1.7.0_65, Clojure 1.6.0, nREPL 0.2.6)</span>
+</span></span><span class="line"><span class="cl"><span class="nv">user&gt;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Para averiguar la versión instalada de cider:</p>
 <div class="highlight"><div class="chroma">
@@ -220,8 +220,8 @@ voilá:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">M-x cider-version
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">M-x cider-version
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="un-nuevo-comienzo">Un nuevo comienzo</h2>
 <p>Ahora, con todo listo para usarse, podemos seguir algún tutorial, como
@@ -245,7 +245,7 @@ y jugar con el repl.</p>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.93.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
         </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>

@@ -4,7 +4,22 @@
         <link>https://eldiegoefe.github.io/tags/emacs/</link>
         <description>emacs - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Fri, 01 Dec 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/emacs/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sat, 02 Apr 2022 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/emacs/" rel="self" type="application/rss+xml" /><item>
+    <title>Ayuda en Emacs - Aprender o Repasar es Facil</title>
+    <link>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</link>
+    <pubDate>Sat, 02 Apr 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</guid>
+    <description><![CDATA[Indagar sobre las múltiples funciones de Emacs es una tarea inevitable. Ya sea para explorar y descubrir comandos útiles, o tras un tiempo alejados del editor durante el que nuestros músculos olvidan hasta los atajos de teclado más cotidianos.
+Por suerte Emacs cuenta con mucha documentación incorporada y si aprendemos a preguntarle, nos responderá todas nuestras dudas sin necesidad de salir a buscar respuestas en la web.
+Un problema de la información disponible online es que está centrada por lo general en los atajos de teclado que vienen por defecto en Emacs (o en los paquetes de terceros que instalemos), y entonces se vuelven inaplicables las sentencias del tipo &ldquo;para salir de Emacs se usa C-x C-c&rdquo;.]]></description>
+</item>
+<item>
+    <title>Movimientos Originales en Emacs</title>
+    <link>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</link>
+    <pubDate>Sun, 27 Mar 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</guid>
+    <description><![CDATA[Estoy volviendo a probar Emacs con los atajos de teclado originales, tras años de usar evil-mode y la edición modal propia de VIM (que está buenísima). Lo hago para independizarme de los kits como Doom Emacs y Spacemacs y así retomar el control total sobre la configuración y de paso retomar el estudio de LISP. Esto es un resumen de los atajos de teclado que deseo recordar.
+Movimientos sobre la linea    Tecla Comando Comentario     C-a move-beginning-of-line Mueve al inicio de la linea   C-e move-end-of-line Mueve al final de la linea   M-m back-to-indentation Mueve al primer caracter de la linea luego de la indentación    Movimientos de distancias cortas: caracteres y lineas    Tecla Comando Comentario     C-f forward-char Mueve un caracter hacia adelante   C-b backward-char Mueve un caracter hacia atrás   C-n next-line Mueve hacia la siguiente linea   C-p previous-line Mueve hacia la linea previa    Movimientos entre palabras    Tecla Comando Comentario     M-f forward-word Mueve una palabra hacia adelante   M-b backward-word Mueve una palabra hacia atrás    Me parece preferible usar los que aparecen abajo como &ldquo;Movimiento entre bloques&rdquo; porque saltan entre palabras igual que estos, y no hace falta estar pensando en si el prefijo es Alt o Ctrl.]]></description>
+</item>
+<item>
     <title>Instalación y configuración de Emacs</title>
     <link>https://eldiegoefe.github.io/instalaci%C3%B3n-y-configuraci%C3%B3n-de-emacs/</link>
     <pubDate>Fri, 01 Dec 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instalaci%C3%B3n-y-configuraci%C3%B3n-de-emacs/</guid>
@@ -62,20 +77,6 @@ I read many Emacs blogs since I started the trip of learning it. There are great
 Se pueden seleccionar individualmente los archivos que forman parte de la agenda:
 1 2  (setq org-agenda-files (list &#34;~/mis-archivos-org/apuntes-varios.org&#34; &#34;~/mis-archivos-org/acomodar.org&#34;))   O sino utilizar un directorio completo:
 1  (setq org-agenda-files &#39;(&#34;~/mis-archivos-org&#34;))   Se puede utilizar un archivo en particular para ir anotando al vuelo las ideas que se nos ocurren.]]></description>
-</item>
-<item>
-    <title>Comandante Emacs (dired-mode)</title>
-    <link>https://eldiegoefe.github.io/comandante-emacs-dired-mode/</link>
-    <pubDate>Fri, 26 Dec 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comandante-emacs-dired-mode/</guid>
-    <description><![CDATA[Estuve un rato largo (¡horas!) viendo cómo usar el modo &quot;dired&quot; que tiene Emacs para el manejo de archivos, porque quiero usarlo al modo del viejo Comandante Norton (y sus clones: Total Commander en Window$, Krusader especialmente para KDE, etc). Es decir: dos paneles que sirven de inicio y de destino para poder copiar y mover archivos, crear directorios, navegarlos, etc.
- Buffer mostrando un directorio con dired-mode   Lo primero que hice fue instalar un paquete que amplía las opciones disponibles llamado dired+ (dired plus) y después instalé otra extensión llamada dired-sort-menu.]]></description>
-</item>
-<item>
-    <title>Pandoc, conversión de org-mode a restructuredtext</title>
-    <link>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
-    <pubDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
-    <description><![CDATA[Pandoc es un software para hacer conversión de archivos de texto entre distintos lenguajes de markup. Me viene bien probarlo porque me gustaría escribir mis entradas del blog desde org-mode (que uso con mucha frecuencia) y obtener el mismo texto en versión restructuredText, que es el formato en el que escribo el blog (con Pelican).
-La instalación de Pandoc requirió un pequeño ajuste respecto de lo habitual en Manjaro, ya que el programa no estaba disponible desde los repositorios que vienen por defecto.]]></description>
 </item>
 </channel>
 </rss>

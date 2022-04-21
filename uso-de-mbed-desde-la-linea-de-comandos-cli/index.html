@@ -138,9 +138,9 @@ ubicación deseada.</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed new nombre-programa
-<span class="gp">$ </span><span class="nb">cd</span> nombre-programa
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> mbed new nombre-programa
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">cd</span> nombre-programa
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="para-mbed-os-2">Para MBED OS 2</h3>
 <div class="highlight"><div class="chroma">
@@ -149,9 +149,9 @@ ubicación deseada.</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed new nombre-programa --mbedlib
-<span class="gp">$ </span><span class="nb">cd</span> nombre-programa
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> mbed new nombre-programa --mbedlib
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">cd</span> nombre-programa
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="mostrar-las-librerías-instaladas">Mostrar las librerías instaladas</h2>
 <p>Al inicializarse un programa, como mínimo se importan las librerías de
@@ -162,8 +162,8 @@ verlas:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed ls -a
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> mbed ls -a
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="selección-de-placa-y-toolchain">Selección de placa y toolchain</h2>
 <p>Hay que conectar la placa MBED mediante su conector USB <strong>OpenSDA</strong> (el
@@ -184,18 +184,18 @@ dará información que necesitaremos para seleccionar placa y toolchain:</p>
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed detect
-<span class="err">
-</span><span class="err"></span><span class="go">[mbed] Detected K64F, port /dev/ttyACM0, mounted /media/diego/MBED
-</span><span class="go">[mbed] Supported toolchains for K64F
-</span><span class="go">+--------+-----------+-----------+-----------+-----------+-----------+
-</span><span class="go">| Target | mbed OS 2 | mbed OS 5 |    ARM    |  GCC_ARM  |    IAR    |
-</span><span class="go">+--------+-----------+-----------+-----------+-----------+-----------+
-</span><span class="go">| K64F   | Supported | Supported | Supported | Supported | Supported |
-</span><span class="go">+--------+-----------+-----------+-----------+-----------+-----------+
-</span><span class="go">Supported targets: 1
-</span><span class="go">Supported toolchains: 3
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> mbed detect
+</span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">[mbed] Detected K64F, port /dev/ttyACM0, mounted /media/diego/MBED
+</span></span></span><span class="line"><span class="cl"><span class="go">[mbed] Supported toolchains for K64F
+</span></span></span><span class="line"><span class="cl"><span class="go">+--------+-----------+-----------+-----------+-----------+-----------+
+</span></span></span><span class="line"><span class="cl"><span class="go">| Target | mbed OS 2 | mbed OS 5 |    ARM    |  GCC_ARM  |    IAR    |
+</span></span></span><span class="line"><span class="cl"><span class="go">+--------+-----------+-----------+-----------+-----------+-----------+
+</span></span></span><span class="line"><span class="cl"><span class="go">| K64F   | Supported | Supported | Supported | Supported | Supported |
+</span></span></span><span class="line"><span class="cl"><span class="go">+--------+-----------+-----------+-----------+-----------+-----------+
+</span></span></span><span class="line"><span class="cl"><span class="go">Supported targets: 1
+</span></span></span><span class="line"><span class="cl"><span class="go">Supported toolchains: 3
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>El sistema indica que encontró la K64F y cuáles son los <em>toolchains</em> que
 disponemos para trabajar con ella. <strong>Si conecto la placa KL25Z el
@@ -207,8 +207,8 @@ placas más nuevas</strong>.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed target K64F
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> mbed target K64F
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Para elegir el toolchain GCC_ARM usamos:</p>
 <div class="highlight"><div class="chroma">
@@ -216,8 +216,8 @@ placas más nuevas</strong>.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed toolchain GCC_ARM
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> mbed toolchain GCC_ARM
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Si pedimos el estado actual de la configuración veremos lo siguiente (si
 la ejecución del comando <em>mbed new</em> se realizó desde
@@ -234,15 +234,15 @@ la ejecución del comando <em>mbed new</em> se realizó desde
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed config --list
-<span class="err">
-</span><span class="err"></span><span class="go">[mbed] Global config:
-</span><span class="go">No global configuration is set
-</span><span class="go"></span><span class="err">
-</span><span class="err"></span><span class="go">[mbed] Local config (/home/diego/mis-proyectos/nombre-programa):
-</span><span class="go">TOOLCHAIN=GCC_ARM
-</span><span class="go">TARGET=K64F
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> mbed config --list
+</span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">[mbed] Global config:
+</span></span></span><span class="line"><span class="cl"><span class="go">No global configuration is set
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">[mbed] Local config (/home/diego/mis-proyectos/nombre-programa):
+</span></span></span><span class="line"><span class="cl"><span class="go">TOOLCHAIN=GCC_ARM
+</span></span></span><span class="line"><span class="cl"><span class="go">TARGET=K64F
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="creación-de-programa">Creación de programa</h2>
 <p>En el directorio raíz del proyecto es necesario crear un archivo llamado
@@ -268,23 +268,23 @@ programa enciende y apaga un LED de la placa (usando OS 2):</p>
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="cp">#include</span> <span class="cpf">&#34;mbed.h&#34;</span><span class="cp">
-</span><span class="cp"></span>
-<span class="n">DigitalOut</span> <span class="nf">rojo</span><span class="p">(</span><span class="n">LED1</span><span class="p">);</span>
-
-<span class="kt">void</span> <span class="nf">togglearLed</span><span class="p">(</span><span class="n">DigitalOut</span> <span class="n">led</span><span class="p">)</span>
-<span class="p">{</span>
-    <span class="n">led</span> <span class="o">=</span> <span class="o">!</span><span class="n">led</span><span class="p">;</span>
-    <span class="n">wait</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
-<span class="p">}</span> <span class="c1">// togglearLed
-</span><span class="c1"></span>
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">while</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
-        <span class="n">togglearLed</span><span class="p">(</span><span class="n">rojo</span><span class="p">);</span>
-        <span class="n">togglearLed</span><span class="p">(</span><span class="n">rojo</span><span class="p">);</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&#34;mbed.h&#34;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="n">DigitalOut</span> <span class="nf">rojo</span><span class="p">(</span><span class="n">LED1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">togglearLed</span><span class="p">(</span><span class="n">DigitalOut</span> <span class="n">led</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">led</span> <span class="o">=</span> <span class="o">!</span><span class="n">led</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">wait</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="c1">// togglearLed
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">togglearLed</span><span class="p">(</span><span class="n">rojo</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">togglearLed</span><span class="p">(</span><span class="n">rojo</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="compilación-y-ejecución-del-programa">Compilación y ejecución del programa</h2>
 <p>La compilación se realiza con el siguiente comando:</p>
@@ -293,8 +293,8 @@ programa enciende y apaga un LED de la placa (usando OS 2):</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed compile
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> mbed compile
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><strong>Luego hay que copiar el archivo generado por el compilador en la placa
 MBED</strong>. Este archivo (cuyo nombre corresponde al utilizado durante la
@@ -328,15 +328,15 @@ hasta lograr que nuestro programa funcione de la manera deseada.</p>
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mbed new nombre-programa <span class="o">(</span>--mbedlib<span class="o">)</span>
-<span class="gp">$ </span><span class="nb">cd</span> nombre-programa
-<span class="gp">$ </span>mbed ls -a
-<span class="gp">$ </span>mbed detect
-<span class="gp">$ </span>mbed target K64F
-<span class="gp">$ </span>mbed toolchain GCC_ARM
-<span class="gp">$ </span>mbed config --list
-<span class="gp">$ </span>mbed compile
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> mbed new nombre-programa <span class="o">(</span>--mbedlib<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">cd</span> nombre-programa
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> mbed ls -a
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> mbed detect
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> mbed target K64F
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> mbed toolchain GCC_ARM
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> mbed config --list
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> mbed compile
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Finalmente copiar el archivo .bin al MBED, esperar que finalice la
 transferencia y resetear la placa.</p>
@@ -359,7 +359,7 @@ transferencia y resetear la placa.</p>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.93.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
         </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>

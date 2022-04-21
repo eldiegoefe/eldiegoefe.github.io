@@ -132,8 +132,8 @@ es imprescindible agregar la orden siguiente:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="p">(</span><span class="nf">require</span> <span class="ss">&#39;dired+</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="p">(</span><span class="nf">require</span> <span class="ss">&#39;dired+</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Para correr el modo basta hacer <strong>M-x dired</strong> (yo creo que con esto se
 carga ya con los agregados de dired+, que por ejemplo enriquece los
@@ -168,15 +168,15 @@ que funcionó, para no perderlo:</p>
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="p">(</span><span class="nf">require</span> <span class="ss">&#39;dired-rainbow</span><span class="p">)</span>
-
-<span class="p">(</span><span class="nv">defconst</span> <span class="nv">my-dired-media-files-extensions</span>
-  <span class="o">&#39;</span><span class="p">(</span><span class="s">&#34;mp3&#34;</span> <span class="s">&#34;mp4&#34;</span> <span class="s">&#34;MP3&#34;</span> <span class="s">&#34;MP4&#34;</span> <span class="s">&#34;avi&#34;</span> <span class="s">&#34;mpg&#34;</span> <span class="s">&#34;flv&#34;</span> <span class="s">&#34;ogg&#34;</span><span class="p">)</span>
-  <span class="s">&#34;Media files.&#34;</span><span class="p">)</span>
-
-<span class="p">(</span><span class="nv">dired-rainbow-define</span> <span class="nv">html</span> <span class="s">&#34;#4e9a06&#34;</span> <span class="p">(</span><span class="s">&#34;htm&#34;</span> <span class="s">&#34;html&#34;</span> <span class="s">&#34;xhtml&#34;</span><span class="p">))</span>
-<span class="p">(</span><span class="nv">dired-rainbow-define</span> <span class="nv">media</span> <span class="s">&#34;#ce5c00&#34;</span> <span class="nv">my-dired-media-files-extensions</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="p">(</span><span class="nf">require</span> <span class="ss">&#39;dired-rainbow</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nv">defconst</span> <span class="nv">my-dired-media-files-extensions</span>
+</span></span><span class="line"><span class="cl">  <span class="o">&#39;</span><span class="p">(</span><span class="s">&#34;mp3&#34;</span> <span class="s">&#34;mp4&#34;</span> <span class="s">&#34;MP3&#34;</span> <span class="s">&#34;MP4&#34;</span> <span class="s">&#34;avi&#34;</span> <span class="s">&#34;mpg&#34;</span> <span class="s">&#34;flv&#34;</span> <span class="s">&#34;ogg&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="s">&#34;Media files.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nv">dired-rainbow-define</span> <span class="nv">html</span> <span class="s">&#34;#4e9a06&#34;</span> <span class="p">(</span><span class="s">&#34;htm&#34;</span> <span class="s">&#34;html&#34;</span> <span class="s">&#34;xhtml&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nv">dired-rainbow-define</span> <span class="nv">media</span> <span class="s">&#34;#ce5c00&#34;</span> <span class="nv">my-dired-media-files-extensions</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Puse <a href="http://emacs.stackexchange.com/questions/5765/how-to-view-files-ordered-by-extension-in-dired" target="_blank" rel="noopener noreffer">una pregunta en Emacs
 Exchange</a>
@@ -190,8 +190,8 @@ el &quot;require&quot; correspondiente:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="p">(</span><span class="nf">require</span> <span class="ss">&#39;dired-sort-menu+</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="p">(</span><span class="nf">require</span> <span class="ss">&#39;dired-sort-menu+</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Al manipular archivos es muy práctico tener dos buffers abiertos como en
 la figura siguiente, de modo que al copiar o mover se usan ambos
@@ -254,7 +254,7 @@ es una buena forma de aprender.</p>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.93.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
         </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>

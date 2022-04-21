@@ -9,10 +9,10 @@ En la [documentación de Spacemacs](https://github.com/syl20bnr/spacemacs/tree/m
 
 ## Búsqueda
 
-La búsqueda habitual con i-search (C-s) se potencia al instalar
+--La búsqueda habitual con i-search (C-s) se potencia al instalar
 [swiper](https://github.com/abo-abo/swiper), que ofrece un listado de
 las lineas del documento donde se encuentran los resultados de la
-búsqueda.
+búsqueda.--
 
 También se puede buscar con evil-search-forward (/) que es una variante
 de i-search, pero sólo va a la próxima aparición de la búsqueda y hay
@@ -96,5 +96,6 @@ Alt Derecho)
     < M . > M , ` M 0 \ M º
 
 ![](https://farm9.staticflickr.com/8577/16108048537_1601cc1b60_b.jpg)
+
 
 

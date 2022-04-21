@@ -4,7 +4,30 @@
         <link>https://eldiegoefe.github.io/categories/tecnicismos/</link>
         <description>tecnicismos - Categoría - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/categories/tecnicismos/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sat, 02 Apr 2022 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/categories/tecnicismos/" rel="self" type="application/rss+xml" /><item>
+    <title>Ayuda en Emacs - Aprender o Repasar es Facil</title>
+    <link>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</link>
+    <pubDate>Sat, 02 Apr 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</guid>
+    <description><![CDATA[Indagar sobre las múltiples funciones de Emacs es una tarea inevitable. Ya sea para explorar y descubrir comandos útiles, o tras un tiempo alejados del editor durante el que nuestros músculos olvidan hasta los atajos de teclado más cotidianos.
+Por suerte Emacs cuenta con mucha documentación incorporada y si aprendemos a preguntarle, nos responderá todas nuestras dudas sin necesidad de salir a buscar respuestas en la web.
+Un problema de la información disponible online es que está centrada por lo general en los atajos de teclado que vienen por defecto en Emacs (o en los paquetes de terceros que instalemos), y entonces se vuelven inaplicables las sentencias del tipo &ldquo;para salir de Emacs se usa C-x C-c&rdquo;.]]></description>
+</item>
+<item>
+    <title>Movimientos Originales en Emacs</title>
+    <link>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</link>
+    <pubDate>Sun, 27 Mar 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</guid>
+    <description><![CDATA[Estoy volviendo a probar Emacs con los atajos de teclado originales, tras años de usar evil-mode y la edición modal propia de VIM (que está buenísima). Lo hago para independizarme de los kits como Doom Emacs y Spacemacs y así retomar el control total sobre la configuración y de paso retomar el estudio de LISP. Esto es un resumen de los atajos de teclado que deseo recordar.
+Movimientos sobre la linea    Tecla Comando Comentario     C-a move-beginning-of-line Mueve al inicio de la linea   C-e move-end-of-line Mueve al final de la linea   M-m back-to-indentation Mueve al primer caracter de la linea luego de la indentación    Movimientos de distancias cortas: caracteres y lineas    Tecla Comando Comentario     C-f forward-char Mueve un caracter hacia adelante   C-b backward-char Mueve un caracter hacia atrás   C-n next-line Mueve hacia la siguiente linea   C-p previous-line Mueve hacia la linea previa    Movimientos entre palabras    Tecla Comando Comentario     M-f forward-word Mueve una palabra hacia adelante   M-b backward-word Mueve una palabra hacia atrás    Me parece preferible usar los que aparecen abajo como &ldquo;Movimiento entre bloques&rdquo; porque saltan entre palabras igual que estos, y no hace falta estar pensando en si el prefijo es Alt o Ctrl.]]></description>
+</item>
+<item>
+    <title>Comandos Linux</title>
+    <link>https://eldiegoefe.github.io/comandos-linux/</link>
+    <pubDate>Sat, 26 Mar 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comandos-linux/</guid>
+    <description><![CDATA[Comandos habituales en la linea de comandos de Linux Los comandos que se listan son de BASH.
+Aclaración: los puntos suspensivos indican que se pueden escribir varios nombres de archivos o directorios.
+ pwd. Print Working Directory. Muestra el directorio actual. ls -l directorios&hellip;. Listar directorios. Incluir información completa. ls -a directorios&hellip;. Listar directorios. Incluir ocultos. man comando. Información de un comando: muestra su manual de uso. cd. Cambiar directorio. cp arch1 arch2.]]></description>
+</item>
+<item>
     <title>Instalacion de PyQt</title>
     <link>https://eldiegoefe.github.io/instalacion-de-pyqt/</link>
     <pubDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instalacion-de-pyqt/</guid>
@@ -51,27 +74,6 @@ Se puede usar el comando du para obtener el tamaño de los directorios y encaden
     <link>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</link>
     <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</guid>
     <description><![CDATA[Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora usaba la versión online del compilador con una FRDM-KL25Z, que es una (de las primeras en funcionar con MBED). El problema del compilador online no es que haya que estar conectado a la web (lo vengo usando desde hace mucho y nunca tuve problemas de acceso) sino sus limitadas prestaciones como editor de texto. Por ejemplo, no encontré manera de comentar y des-comentar múltiples lineas de código simultaneamente, algo que necesito hacer con frecuencia.]]></description>
-</item>
-<item>
-    <title>Panel frontal del software</title>
-    <link>https://eldiegoefe.github.io/panel-frontal-del-software/</link>
-    <pubDate>Thu, 01 Sep 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/panel-frontal-del-software/</guid>
-    <description><![CDATA[Una vez más me encuentro ante el desafío de armar un panel para un programa de análisis de datos, hecho en Python. Lo ideal sería trabajar con lineas de comandos y no tener que estar lidiando con menúes, botones y areas de graficación, pero sería impractico para los usuarios a quienes está destinado el programa. Así que nuevamente tengo que rastrear cómo se arma una pantalla con todas estas cosas.]]></description>
-</item>
-<item>
-    <title>Más sobre agenda en org-mode</title>
-    <link>https://eldiegoefe.github.io/m%C3%A1s-sobre-agenda-en-org-mode/</link>
-    <pubDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/m%C3%A1s-sobre-agenda-en-org-mode/</guid>
-    <description><![CDATA[Para el uso de la agenda en org-mode, voy a listar las cosas que uso con frecuencia. Además, en este link hay un resumen de comandos de org-mode muy completo.
-Inserción Atajos de teclado &quot;convencionales&quot; de org-mode (funcionan con Spacemacs).
- capturar una nota en el inbox: C-c c links: C-c C-l etiqueta de To-Do (empezado, hibernando, completado, etc): C-c C-t schedule: C-c C-s deadline: C-c C-d  Para agregar:]]></description>
-</item>
-<item>
-    <title>Diccionario de funciones</title>
-    <link>https://eldiegoefe.github.io/diccionario-de-funciones/</link>
-    <pubDate>Fri, 11 Dec 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/diccionario-de-funciones/</guid>
-    <description><![CDATA[Mientras escribo un programa para manipular imágenes de un microscopio, tuve que ver cómo ejecutar una función distinta, de acuerdo a cierto parámetro. Más concretamente, para procesar las imágenes en algunos casos se necesita un kernel, que es una matriz llena de unos y ceros organizados de acuerdo a la selección de dos parámetros: forma y tamaño. Por ejemplo, un &quot;disco&quot; de radio 3 se vería así:
-[[0 0 0 1 0 0 0] [0 1 1 1 1 1 0] [0 1 1 1 1 1 0] [1 1 1 1 1 1 1] [0 1 1 1 1 1 0] [0 1 1 1 1 1 0] [0 0 0 1 0 0 0]]  Y una matriz &quot;cuadrada&quot; de lado 3, así:]]></description>
 </item>
 </channel>
 </rss>

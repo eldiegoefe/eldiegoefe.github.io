@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "home.min.css",
-	"sourceRoot": "/home/diego/blog/certezas-dudosas",
+	"sourceRoot": "/home/diego-en-dwm/blog/certezas-dudosas",
 	"sources": [
 		"themes/FeelIt/assets/css/home.scss",
 		"themes/FeelIt/assets/css/_core/_modern-normalize.scss",

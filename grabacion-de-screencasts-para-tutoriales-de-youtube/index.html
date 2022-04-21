@@ -159,17 +159,17 @@ sonido agregué:</p>
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">**** List of CAPTURE Hardware Devices ****
-</span><span class="go">card 0: PCH [HDA Intel PCH], device 0: VT2020 Analog [VT2020 Analog]
-</span><span class="go">  Subdevices: 1/1
-</span><span class="go">  Subdevice #0: subdevice #0
-</span><span class="go">card 0: PCH [HDA Intel PCH], device 2: VT2020 Alt Analog [VT2020 Alt Analog]
-</span><span class="go">  Subdevices: 1/1
-</span><span class="go">  Subdevice #0: subdevice #0
-</span><span class="go">card 1: U0x46d0x825 [USB Device 0x46d:0x825], device 0: USB Audio [USB Audio]
-</span><span class="go">  Subdevices: 1/1
-</span><span class="go">  Subdevice #0: subdevice #0
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">**** List of CAPTURE Hardware Devices ****
+</span></span></span><span class="line"><span class="cl"><span class="go">card 0: PCH [HDA Intel PCH], device 0: VT2020 Analog [VT2020 Analog]
+</span></span></span><span class="line"><span class="cl"><span class="go">  Subdevices: 1/1
+</span></span></span><span class="line"><span class="cl"><span class="go">  Subdevice #0: subdevice #0
+</span></span></span><span class="line"><span class="cl"><span class="go">card 0: PCH [HDA Intel PCH], device 2: VT2020 Alt Analog [VT2020 Alt Analog]
+</span></span></span><span class="line"><span class="cl"><span class="go">  Subdevices: 1/1
+</span></span></span><span class="line"><span class="cl"><span class="go">  Subdevice #0: subdevice #0
+</span></span></span><span class="line"><span class="cl"><span class="go">card 1: U0x46d0x825 [USB Device 0x46d:0x825], device 0: USB Audio [USB Audio]
+</span></span></span><span class="line"><span class="cl"><span class="go">  Subdevices: 1/1
+</span></span></span><span class="line"><span class="cl"><span class="go">  Subdevice #0: subdevice #0
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Usé el programa <a href="https://trac.ffmpeg.org/wiki/Capture/ALSA" target="_blank" rel="noopener noreffer">alsamixer</a>
 (ejecutado desde la línea de comando y que funciona en modo texto) para
@@ -184,10 +184,10 @@ aplicación.</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">ffmpeg -f alsa -ac 2 -ab 128k -acodec pcm_s16le -i hw:1 -f x11grab
-</span><span class="go">-show_region 1 -y -r 30 -s 1280x720 -i :0.0+0,0 -vcodec libx264
-</span><span class="go">screencast.avi
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">ffmpeg -f alsa -ac 2 -ab 128k -acodec pcm_s16le -i hw:1 -f x11grab
+</span></span></span><span class="line"><span class="cl"><span class="go">-show_region 1 -y -r 30 -s 1280x720 -i :0.0+0,0 -vcodec libx264
+</span></span></span><span class="line"><span class="cl"><span class="go">screencast.avi
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Tener cuidado con el nombre del archivo (en este ejemplo es
 screencast.avi), porque sino se va cambiando entre grabaciones sucesivas
@@ -212,7 +212,7 @@ página</a>.</p>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.93.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
         </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>

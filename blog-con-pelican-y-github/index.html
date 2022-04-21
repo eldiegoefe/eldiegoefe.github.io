@@ -122,8 +122,8 @@ como referencia veloz basta decir que se puede hacer sencillamente (en la rama
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(ENV) $ pip install pelican
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(ENV) $ pip install pelican
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>La idea para trabajar Pelican con Git es tener un directorio para el
 repositorio con el nombre de la página, y dentro de él un directorio
@@ -136,9 +136,9 @@ código fuente del sitio, y las páginas del blog propiamente dichas):</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>~/documentos/nombreUsuario.github.io      <span class="c1"># para el sitio</span>
-<span class="gp">$ </span>~/documentos/nombreUsuario.github.io/ENV  <span class="c1"># para el env</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> ~/documentos/nombreUsuario.github.io      <span class="c1"># para el sitio</span>
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> ~/documentos/nombreUsuario.github.io/ENV  <span class="c1"># para el env</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Primero armo un repositorio (vacío) en GitHub para alojar mi blog
 personal. GitHub ofrece la dirección nombreUsuario.github.io con este
@@ -150,9 +150,9 @@ mantener el blog:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span><span class="nb">cd</span> ~/documentos
-<span class="gp">$ </span>git clone https://github.com/nombreUsuario/nombreUsuario.github.io
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">cd</span> ~/documentos
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> git clone https://github.com/nombreUsuario/nombreUsuario.github.io
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Como el repositorio lo creé vacío, sin más que el README.md, entonces
 éste es el único archivo que existe en el directorio
@@ -166,10 +166,10 @@ deseado:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>virtualenv ~/documentos/nombreUsuario.github.io/ENV
-<span class="gp">$ </span><span class="nb">cd</span> ~/documentos/nombreUsuario.github.io/ENV
-<span class="gp">$ </span>. bin/activate
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> virtualenv ~/documentos/nombreUsuario.github.io/ENV
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">cd</span> ~/documentos/nombreUsuario.github.io/ENV
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> . bin/activate
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>La última instrucción puede reemplazarse por &quot;source ENV/bin/activate&quot;</p>
 <p>Esas instrucciones dejan el entorno listo con un Python funcional (y sus
@@ -204,9 +204,9 @@ commit para agregar el archivo .gitignore. Entonces hacemos:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(ENV) $ git add .
-</span><span class="go">(ENV) $ git commit -m &#34;Commit inicial&#34;
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(ENV) $ git add .
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV) $ git commit -m &#34;Commit inicial&#34;
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Nuestra rama local de master queda adelantada respecto de la rama master
 en el repo externo. Esto lo avisa el sistema ante la última orden
@@ -220,9 +220,9 @@ instalamos este programa en una nueva rama que llamaré &quot;source&quot;:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(ENV) $ git branch source
-</span><span class="go">(ENV) $ git checkout source
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(ENV) $ git branch source
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV) $ git checkout source
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>(alternativamente estas dos instrucciones se pueden condensar en una
 sola: git checkout -b source)</p>
@@ -237,10 +237,10 @@ serve&quot;.</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(ENV) $ pip install pelican     # opción 1
-</span><span class="go">(ENV) $ easy_install pelican    # opción 2
-</span><span class="go">(ENV) $ pip install -e git://github.com/getpelican/pelican#egg=pelican
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(ENV) $ pip install pelican     # opción 1
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV) $ easy_install pelican    # opción 2
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV) $ pip install -e git://github.com/getpelican/pelican#egg=pelican
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>La primera vez tras la instalación se debe ejecutar la orden
 <strong>pelican-quickstart</strong> para configurarlo (va el guión entre las dos
@@ -291,41 +291,41 @@ los datos, queda así:</p>
 </span><span class="lnt">34
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="ch">#!/usr/bin/env python</span>
-<span class="c1"># -*- coding: utf-8 -*- #</span>
-<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">unicode_literals</span>
-
-<span class="n">AUTHOR</span> <span class="o">=</span> <span class="sa">u</span><span class="s1">&#39;Diego Efe&#39;</span>
-<span class="n">SITENAME</span> <span class="o">=</span> <span class="sa">u</span><span class="s1">&#39;Certezas Dudosas&#39;</span>
-<span class="n">SITEURL</span> <span class="o">=</span> <span class="s1">&#39;http://nombreUsuario.github.io&#39;</span>
-
-<span class="n">TIMEZONE</span> <span class="o">=</span> <span class="s1">&#39;America/Argentina/Buenos_Aires&#39;</span>
-
-<span class="n">DEFAULT_LANG</span> <span class="o">=</span> <span class="sa">u</span><span class="s1">&#39;es&#39;</span>
-
-<span class="c1"># Feed generation is usually not desired when developing</span>
-<span class="n">FEED_ALL_ATOM</span> <span class="o">=</span> <span class="kc">None</span>
-<span class="n">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="kc">None</span>
-<span class="n">TRANSLATION_FEED_ATOM</span> <span class="o">=</span> <span class="kc">None</span>
-
-<span class="c1"># Blogroll</span>
-<span class="n">LINKS</span> <span class="o">=</span>  <span class="p">((</span><span class="s1">&#39;Pelican&#39;</span><span class="p">,</span> <span class="s1">&#39;http://getpelican.com/&#39;</span><span class="p">),</span>
-      <span class="p">(</span><span class="s1">&#39;Python.org&#39;</span><span class="p">,</span> <span class="s1">&#39;http://python.org/&#39;</span><span class="p">),</span>
-      <span class="p">(</span><span class="s1">&#39;Jinja2&#39;</span><span class="p">,</span> <span class="s1">&#39;http://jinja.pocoo.org/&#39;</span><span class="p">),</span>
-      <span class="p">(</span><span class="s1">&#39;You can modify those links in your config file&#39;</span><span class="p">,</span> <span class="s1">&#39;#&#39;</span><span class="p">),)</span>
-
-<span class="c1"># Social widget</span>
-<span class="n">SOCIAL</span> <span class="o">=</span> <span class="p">((</span><span class="s1">&#39;Twitter&#39;</span><span class="p">,</span> <span class="s1">&#39;http://twitter.com/nombreUsuario&#39;</span><span class="p">),</span>
-      <span class="p">(</span><span class="s1">&#39;Github&#39;</span><span class="p">,</span> <span class="s1">&#39;https://github.com/nombreUsuario&#39;</span><span class="p">),</span>
-      <span class="p">(</span><span class="s1">&#39;Facebook&#39;</span><span class="p">,</span> <span class="s1">&#39;http://www.facebook.com/nombreUsuario&#39;</span><span class="p">),</span>
-      <span class="p">(</span><span class="s1">&#39;Google+&#39;</span><span class="p">,</span> <span class="s1">&#39;https://plus.google.com/+DiegoEfe&#39;</span><span class="p">),</span>
-<span class="p">)</span>
-
-<span class="n">DEFAULT_PAGINATION</span> <span class="o">=</span> <span class="mi">10</span>
-
-<span class="c1"># Uncomment following line if you want document-relative URLs when developing</span>
-<span class="c1">#RELATIVE_URLS = True</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># -*- coding: utf-8 -*- #</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">unicode_literals</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">AUTHOR</span> <span class="o">=</span> <span class="sa">u</span><span class="s1">&#39;Diego Efe&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">SITENAME</span> <span class="o">=</span> <span class="sa">u</span><span class="s1">&#39;Certezas Dudosas&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">SITEURL</span> <span class="o">=</span> <span class="s1">&#39;http://nombreUsuario.github.io&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">TIMEZONE</span> <span class="o">=</span> <span class="s1">&#39;America/Argentina/Buenos_Aires&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">DEFAULT_LANG</span> <span class="o">=</span> <span class="sa">u</span><span class="s1">&#39;es&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Feed generation is usually not desired when developing</span>
+</span></span><span class="line"><span class="cl"><span class="n">FEED_ALL_ATOM</span> <span class="o">=</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl"><span class="n">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl"><span class="n">TRANSLATION_FEED_ATOM</span> <span class="o">=</span> <span class="kc">None</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Blogroll</span>
+</span></span><span class="line"><span class="cl"><span class="n">LINKS</span> <span class="o">=</span>  <span class="p">((</span><span class="s1">&#39;Pelican&#39;</span><span class="p">,</span> <span class="s1">&#39;http://getpelican.com/&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="s1">&#39;Python.org&#39;</span><span class="p">,</span> <span class="s1">&#39;http://python.org/&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="s1">&#39;Jinja2&#39;</span><span class="p">,</span> <span class="s1">&#39;http://jinja.pocoo.org/&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="s1">&#39;You can modify those links in your config file&#39;</span><span class="p">,</span> <span class="s1">&#39;#&#39;</span><span class="p">),)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Social widget</span>
+</span></span><span class="line"><span class="cl"><span class="n">SOCIAL</span> <span class="o">=</span> <span class="p">((</span><span class="s1">&#39;Twitter&#39;</span><span class="p">,</span> <span class="s1">&#39;http://twitter.com/nombreUsuario&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="s1">&#39;Github&#39;</span><span class="p">,</span> <span class="s1">&#39;https://github.com/nombreUsuario&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="s1">&#39;Facebook&#39;</span><span class="p">,</span> <span class="s1">&#39;http://www.facebook.com/nombreUsuario&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="s1">&#39;Google+&#39;</span><span class="p">,</span> <span class="s1">&#39;https://plus.google.com/+DiegoEfe&#39;</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">DEFAULT_PAGINATION</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Uncomment following line if you want document-relative URLs when developing</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#RELATIVE_URLS = True</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Y el contenido de publishconf.py queda así:</p>
 <div class="highlight"><div class="chroma">
@@ -356,31 +356,31 @@ los datos, queda así:</p>
 </span><span class="lnt">24
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="ch">#!/usr/bin/env python</span>
-<span class="c1"># -*- coding: utf-8 -*- #</span>
-<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">unicode_literals</span>
-
-<span class="c1"># This file is only used if you use `make publish` or</span>
-<span class="c1"># explicitly specify it as your config file.</span>
-
-<span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">curdir</span><span class="p">)</span>
-<span class="kn">from</span> <span class="nn">pelicanconf</span> <span class="kn">import</span> <span class="o">*</span>
-
-<span class="n">SITEURL</span> <span class="o">=</span> <span class="s1">&#39;http://nombreUsuario.github.io&#39;</span>
-<span class="n">RELATIVE_URLS</span> <span class="o">=</span> <span class="kc">False</span>
-
-<span class="n">FEED_ALL_ATOM</span> <span class="o">=</span> <span class="s1">&#39;feeds/all.atom.xml&#39;</span>
-<span class="n">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="s1">&#39;feeds/</span><span class="si">%s</span><span class="s1">.atom.xml&#39;</span>
-
-<span class="n">DELETE_OUTPUT_DIRECTORY</span> <span class="o">=</span> <span class="kc">True</span>
-
-<span class="c1"># Following items are often useful when publishing</span>
-
-<span class="c1">#DISQUS_SITENAME = &#34;&#34;</span>
-<span class="c1">#GOOGLE_ANALYTICS = &#34;&#34;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/env python</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># -*- coding: utf-8 -*- #</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">unicode_literals</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># This file is only used if you use `make publish` or</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># explicitly specify it as your config file.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">sys</span>
+</span></span><span class="line"><span class="cl"><span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">curdir</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">pelicanconf</span> <span class="kn">import</span> <span class="o">*</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">SITEURL</span> <span class="o">=</span> <span class="s1">&#39;http://nombreUsuario.github.io&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">RELATIVE_URLS</span> <span class="o">=</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">FEED_ALL_ATOM</span> <span class="o">=</span> <span class="s1">&#39;feeds/all.atom.xml&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">CATEGORY_FEED_ATOM</span> <span class="o">=</span> <span class="s1">&#39;feeds/</span><span class="si">%s</span><span class="s1">.atom.xml&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">DELETE_OUTPUT_DIRECTORY</span> <span class="o">=</span> <span class="kc">True</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Following items are often useful when publishing</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#DISQUS_SITENAME = &#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#GOOGLE_ANALYTICS = &#34;&#34;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Guardo un post armado en Markdown o restructuredText dentro del
 directorio content, así cuando vaya a generar el sitio voy a tener un
@@ -394,9 +394,9 @@ el servidor local con make serve:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(ENV) $ make html
-</span><span class="go">(ENV) $ make serve
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(ENV) $ make html
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV) $ make serve
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>El sitio lo puedo visitar en <a href="http://localhost:8000" target="_blank" rel="noopener noreffer">http://localhost:8000</a>. Veo que tiene un
 problema para encontrar el CSS, no sale bien formateado. Sin embargo,
@@ -413,9 +413,9 @@ segunda es para detener el servicio.</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(ENV) $ make devserver
-</span><span class="go">(ENV) $ ./develop_server.sh stop
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(ENV) $ make devserver
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV) $ ./develop_server.sh stop
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Voy a agregar todo al branch source:</p>
 <div class="highlight"><div class="chroma">
@@ -424,9 +424,9 @@ segunda es para detener el servicio.</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(ENV) $ git add .
-</span><span class="go">(ENV) $ git commit -m &#34;Commit inicial de la rama source&#34;
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(ENV) $ git add .
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV) $ git commit -m &#34;Commit inicial de la rama source&#34;
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Lo que sigue es casi textual de la página de <a href="http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/" target="_blank" rel="noopener noreffer">la página de
 Nicholas</a>,
@@ -446,8 +446,8 @@ script, y luego hacer un merge desde la rama &quot;master&quot; con la rama
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(ENV) $ pip install ghp-import
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(ENV) $ pip install ghp-import
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Finalmente, eston son los pasos restantes:</p>
 <div class="highlight"><div class="chroma">
@@ -459,12 +459,12 @@ script, y luego hacer un merge desde la rama &quot;master&quot; con la rama
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(ENV)$ git branch gh-pages   # crea la rama gh-branches
-</span><span class="go">(ENV)$ ghp-import output     # exporta la carpeta output desde la rama actual (source) hacia la rama gh-pages
-</span><span class="go">(ENV)$ git checkout master   # cambia el head a la rama master
-</span><span class="go">(ENV)$ git merge gh-pages    #
-</span><span class="go">(ENV)$ git push --all        #
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(ENV)$ git branch gh-pages   # crea la rama gh-branches
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV)$ ghp-import output     # exporta la carpeta output desde la rama actual (source) hacia la rama gh-pages
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV)$ git checkout master   # cambia el head a la rama master
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV)$ git merge gh-pages    #
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV)$ git push --all        #
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Cuando hice el merge creo que no estaba más .gitignore en la rama
 master. Así que lo creé de vuelta, tuve que agregarlo y comitearlo.</p>
@@ -494,16 +494,16 @@ siguientes pasos (suponiendo que uno está actualmente en la rama
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span><span class="nb">cd</span> /path/to/blog/ENV
-<span class="gp">$ </span>. bin/activate    <span class="c1"># activa el entorno para que funcionen los progs de python (make serve, ghp-import, etc)</span>
-<span class="go">(ENV)$ make html             # genera los archivos html que van a la carpeta &#34;output&#34;
-</span><span class="go">(ENV)$ ghp-import output     # exporta la carpeta output desde la rama actual (source) hacia la rama gh-pages
-</span><span class="go">(ENV)$ git add .             # sin add y commit no podremos cambiar a otra rama
-</span><span class="go">(ENV)$ git commit -m &#34;mensaje del commit&#34;
-</span><span class="go">(ENV)$ git checkout master   # cambia el head a la rama master
-</span><span class="go">(ENV)$ git merge gh-pages    #
-</span><span class="go">(ENV)$ git push --all        #
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">cd</span> /path/to/blog/ENV
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> . bin/activate    <span class="c1"># activa el entorno para que funcionen los progs de python (make serve, ghp-import, etc)</span>
+</span></span><span class="line"><span class="cl"><span class="go">(ENV)$ make html             # genera los archivos html que van a la carpeta &#34;output&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV)$ ghp-import output     # exporta la carpeta output desde la rama actual (source) hacia la rama gh-pages
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV)$ git add .             # sin add y commit no podremos cambiar a otra rama
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV)$ git commit -m &#34;mensaje del commit&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV)$ git checkout master   # cambia el head a la rama master
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV)$ git merge gh-pages    #
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV)$ git push --all        #
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="ultimos-detalles">Ultimos detalles</h3>
 <p>Para usar el tema Elegant hay que instalar Beautiful Soup y para usar el
@@ -516,9 +516,9 @@ instalarlo:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(ENV) $ pip install beautifulsoup4
-</span><span class="go">(ENV) $ pip install pelican-youtube
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(ENV) $ pip install beautifulsoup4
+</span></span></span><span class="line"><span class="cl"><span class="go">(ENV) $ pip install pelican-youtube
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="problemas-con-github">Problemas con GitHub</h3>
 <p>Puede suceder que tras esperar media hora, luego de subir el sitio, siga
@@ -552,7 +552,7 @@ en GitHub.</p>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.93.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
         </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>

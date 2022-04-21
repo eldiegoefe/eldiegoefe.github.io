@@ -144,9 +144,9 @@ la agenda:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-files</span> <span class="p">(</span><span class="nc">list</span> <span class="s">&#34;~/mis-archivos-org/apuntes-varios.org&#34;</span>
-                             <span class="s">&#34;~/mis-archivos-org/acomodar.org&#34;</span><span class="p">))</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-files</span> <span class="p">(</span><span class="nc">list</span> <span class="s">&#34;~/mis-archivos-org/apuntes-varios.org&#34;</span>
+</span></span><span class="line"><span class="cl">                             <span class="s">&#34;~/mis-archivos-org/acomodar.org&#34;</span><span class="p">))</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>O sino utilizar un directorio completo:</p>
 <div class="highlight"><div class="chroma">
@@ -154,8 +154,8 @@ la agenda:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-files</span> <span class="o">&#39;</span><span class="p">(</span><span class="s">&#34;~/mis-archivos-org&#34;</span><span class="p">))</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-files</span> <span class="o">&#39;</span><span class="p">(</span><span class="s">&#34;~/mis-archivos-org&#34;</span><span class="p">))</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Se puede utilizar un archivo en particular para ir anotando al vuelo las
 ideas que se nos ocurren. Este archivo lo podremos abrir con
@@ -169,8 +169,8 @@ iniciar la captura.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-default-notes-file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-default-notes-file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Para abrir el inbox.org desde cualquier buffer se puede asignar un
 atajo:</p>
@@ -181,10 +181,10 @@ atajo:</p>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="c1">;; asigna &#34;C-c o&#34; para abrir mi inbox.org sin tener que buscarlo</span>
-<span class="p">(</span><span class="nv">global-set-key</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;C-c o&#34;</span><span class="p">)</span>
-                <span class="p">(</span><span class="nb">lambda</span> <span class="p">()</span> <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span> <span class="p">(</span><span class="nv">find-file</span> <span class="s">&#34;~/org/inbox.org&#34;</span><span class="p">)))</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="c1">;; asigna &#34;C-c o&#34; para abrir mi inbox.org sin tener que buscarlo</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="nv">global-set-key</span> <span class="p">(</span><span class="nv">kbd</span> <span class="s">&#34;C-c o&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="p">(</span><span class="nb">lambda</span> <span class="p">()</span> <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span> <span class="p">(</span><span class="nv">find-file</span> <span class="s">&#34;~/org/inbox.org&#34;</span><span class="p">)))</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Estos son otros comandos de configuración de org-mode que tengo
 seteados. Salvo el primero, el resto puede entenderse por inspección:</p>
@@ -232,47 +232,47 @@ seteados. Salvo el primero, el resto puede entenderse por inspección:</p>
 </span><span class="lnt">40
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-include-diary</span> <span class="no">t</span><span class="p">)</span>
-<span class="p">(</span><span class="k">setq</span> <span class="nv">org-deadline-warning-days</span> <span class="mi">7</span><span class="p">)</span>
-
-<span class="c1">;; Palabras clave para los TODO</span>
-<span class="p">(</span><span class="k">setq</span> <span class="nv">org-todo-keywords</span>
-      <span class="o">&#39;</span><span class="p">((</span><span class="nc">sequence</span> <span class="s">&#34;TODO(t)&#34;</span> <span class="s">&#34;NEXT(n)&#34;</span> <span class="s">&#34;ESPERANDO(w@)&#34;</span> <span class="s">&#34;HIBERNANDO(h@)&#34;</span>
-                  <span class="s">&#34;|&#34;</span> <span class="s">&#34;CANCELADO(c@)&#34;</span> <span class="s">&#34;COMPLETADO(f@)&#34;</span><span class="p">)))</span>
-
-<span class="c1">;; Colores de los TODO</span>
-<span class="p">(</span><span class="k">setq</span> <span class="nv">org-todo-keyword-faces</span>
-      <span class="o">&#39;</span><span class="p">((</span><span class="s">&#34;TODO&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;deep sky blue&#34;</span> <span class="ss">:background</span> <span class="s">&#34;dim gray&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
-        <span class="p">(</span><span class="s">&#34;NEXT&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;tomato&#34;</span> <span class="ss">:background</span> <span class="s">&#34;dim gray&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
-        <span class="c1">;; (&#34;ACCIONFUTURA&#34; . &#34;salmon&#34;)</span>
-        <span class="c1">;; (&#34;AVANCEPARCIAL&#34; . &#34;medium spring green&#34;)</span>
-        <span class="p">(</span><span class="s">&#34;ESPERANDO&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;orange&#34;</span> <span class="ss">:background</span> <span class="s">&#34;dim gray&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
-        <span class="p">(</span><span class="s">&#34;HIBERNANDO&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;salmon&#34;</span> <span class="ss">:background</span> <span class="s">&#34;dim gray&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
-        <span class="p">(</span><span class="s">&#34;CANCELADO&#34;</span> <span class="o">.</span> <span class="s">&#34;yellow&#34;</span><span class="p">)</span>
-        <span class="p">(</span><span class="s">&#34;COMPLETADO&#34;</span> <span class="o">.</span> <span class="s">&#34;green&#34;</span><span class="p">)))</span>
-
- <span class="c1">;; Tags</span>
-<span class="p">(</span><span class="k">setq</span> <span class="nv">org-tag-persistent-alist</span>
-      <span class="o">&#39;</span><span class="p">((</span><span class="s">&#34;@casa&#34;</span> <span class="o">.</span> <span class="nv">?1</span><span class="p">)</span>
-        <span class="p">(</span><span class="s">&#34;@laburo&#34;</span> <span class="o">.</span> <span class="nv">?2</span><span class="p">)</span>
-        <span class="p">(</span><span class="s">&#34;tiempolibre&#34;</span> <span class="o">.</span> <span class="nv">?3</span><span class="p">)</span>
-        <span class="p">(</span><span class="s">&#34;compras&#34;</span> <span class="o">.</span> <span class="nv">?6</span><span class="p">)</span>
-        <span class="p">(</span><span class="s">&#34;nota&#34;</span> <span class="o">.</span> <span class="nv">?7</span><span class="p">)</span>
-        <span class="p">(</span><span class="s">&#34;creat&#34;</span> <span class="o">.</span> <span class="nv">?8</span><span class="p">)</span>
-        <span class="p">(</span><span class="s">&#34;prj&#34;</span> <span class="o">.</span> <span class="nv">?9</span><span class="p">)</span>
-        <span class="p">(</span><span class="s">&#34;someday&#34;</span> <span class="o">.</span> <span class="nv">?0</span><span class="p">)))</span>
-
-<span class="c1">;; Colores de los tags</span>
-<span class="p">(</span><span class="k">setq</span> <span class="nv">org-tag-faces</span>
-      <span class="o">&#39;</span><span class="p">((</span><span class="s">&#34;@casa&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;firebrick&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span> <span class="ss">:inherit</span> <span class="nv">s-variable-pitch</span><span class="p">))</span>
-        <span class="p">(</span><span class="s">&#34;@laburo&#34;</span> <span class="o">.</span> <span class="s">&#34;light sea green&#34;</span><span class="p">)</span>
-        <span class="p">(</span><span class="s">&#34;tiempolibre&#34;</span> <span class="o">.</span> <span class="s">&#34;deep sky blue&#34;</span><span class="p">)</span>
-        <span class="p">(</span><span class="s">&#34;compras&#34;</span> <span class="o">.</span> <span class="s">&#34;spring green&#34;</span><span class="p">)</span>
-        <span class="p">(</span><span class="s">&#34;oblig&#34;</span> <span class="o">.</span> <span class="s">&#34;light coral&#34;</span><span class="p">)</span>
-        <span class="p">(</span><span class="s">&#34;creat&#34;</span> <span class="o">.</span> <span class="s">&#34;olive drab&#34;</span><span class="p">)</span>
-        <span class="p">(</span><span class="s">&#34;prj&#34;</span> <span class="o">.</span> <span class="s">&#34;cornflower blue&#34;</span><span class="p">)</span>
-        <span class="p">(</span><span class="s">&#34;someday&#34;</span> <span class="o">.</span> <span class="s">&#34;orchid&#34;</span><span class="p">)))</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-include-diary</span> <span class="no">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-deadline-warning-days</span> <span class="mi">7</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">;; Palabras clave para los TODO</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-todo-keywords</span>
+</span></span><span class="line"><span class="cl">      <span class="o">&#39;</span><span class="p">((</span><span class="nc">sequence</span> <span class="s">&#34;TODO(t)&#34;</span> <span class="s">&#34;NEXT(n)&#34;</span> <span class="s">&#34;ESPERANDO(w@)&#34;</span> <span class="s">&#34;HIBERNANDO(h@)&#34;</span>
+</span></span><span class="line"><span class="cl">                  <span class="s">&#34;|&#34;</span> <span class="s">&#34;CANCELADO(c@)&#34;</span> <span class="s">&#34;COMPLETADO(f@)&#34;</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">;; Colores de los TODO</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-todo-keyword-faces</span>
+</span></span><span class="line"><span class="cl">      <span class="o">&#39;</span><span class="p">((</span><span class="s">&#34;TODO&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;deep sky blue&#34;</span> <span class="ss">:background</span> <span class="s">&#34;dim gray&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;NEXT&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;tomato&#34;</span> <span class="ss">:background</span> <span class="s">&#34;dim gray&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">;; (&#34;ACCIONFUTURA&#34; . &#34;salmon&#34;)</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">;; (&#34;AVANCEPARCIAL&#34; . &#34;medium spring green&#34;)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;ESPERANDO&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;orange&#34;</span> <span class="ss">:background</span> <span class="s">&#34;dim gray&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;HIBERNANDO&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;salmon&#34;</span> <span class="ss">:background</span> <span class="s">&#34;dim gray&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;CANCELADO&#34;</span> <span class="o">.</span> <span class="s">&#34;yellow&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;COMPLETADO&#34;</span> <span class="o">.</span> <span class="s">&#34;green&#34;</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="c1">;; Tags</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-tag-persistent-alist</span>
+</span></span><span class="line"><span class="cl">      <span class="o">&#39;</span><span class="p">((</span><span class="s">&#34;@casa&#34;</span> <span class="o">.</span> <span class="nv">?1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;@laburo&#34;</span> <span class="o">.</span> <span class="nv">?2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;tiempolibre&#34;</span> <span class="o">.</span> <span class="nv">?3</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;compras&#34;</span> <span class="o">.</span> <span class="nv">?6</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;nota&#34;</span> <span class="o">.</span> <span class="nv">?7</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;creat&#34;</span> <span class="o">.</span> <span class="nv">?8</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;prj&#34;</span> <span class="o">.</span> <span class="nv">?9</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;someday&#34;</span> <span class="o">.</span> <span class="nv">?0</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">;; Colores de los tags</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-tag-faces</span>
+</span></span><span class="line"><span class="cl">      <span class="o">&#39;</span><span class="p">((</span><span class="s">&#34;@casa&#34;</span> <span class="o">.</span> <span class="p">(</span><span class="ss">:foreground</span> <span class="s">&#34;firebrick&#34;</span> <span class="ss">:weight</span> <span class="nv">bold</span> <span class="ss">:inherit</span> <span class="nv">s-variable-pitch</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;@laburo&#34;</span> <span class="o">.</span> <span class="s">&#34;light sea green&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;tiempolibre&#34;</span> <span class="o">.</span> <span class="s">&#34;deep sky blue&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;compras&#34;</span> <span class="o">.</span> <span class="s">&#34;spring green&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;oblig&#34;</span> <span class="o">.</span> <span class="s">&#34;light coral&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;creat&#34;</span> <span class="o">.</span> <span class="s">&#34;olive drab&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;prj&#34;</span> <span class="o">.</span> <span class="s">&#34;cornflower blue&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="s">&#34;someday&#34;</span> <span class="o">.</span> <span class="s">&#34;orchid&#34;</span><span class="p">)))</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Estas son las plantillas correspondientes a los distintos tipos de notas
 configuradas para guardarse en archivos como inbox.org, diario-personal,
@@ -307,32 +307,32 @@ importa colocar una fecha, una etiqueta, un deadline, etc:</p>
 </span><span class="lnt">25
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="c1">;; Capture templates for: TODO tasks, Notes, appointments, phone calls,</span>
-<span class="c1">;; meetings, and org-protocol</span>
-<span class="p">(</span><span class="k">setq</span> <span class="nv">org-capture-templates</span>
-      <span class="p">(</span><span class="k">quote</span> <span class="p">((</span><span class="s">&#34;a&#34;</span> <span class="s">&#34;tarea&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
-               <span class="s">&#34;* TODO %^{Brief Description} %^g\n\n%?\n\nAgregado: %T&#34;</span><span class="p">)</span>
-              <span class="p">(</span><span class="s">&#34;t&#34;</span> <span class="s">&#34;todo&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
-               <span class="s">&#34;* TODO %?\n%U\n%a\n&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
-              <span class="p">(</span><span class="s">&#34;n&#34;</span> <span class="s">&#34;nota&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
-               <span class="s">&#34;* %? :NOTE:\nAgregado: %T\n\n&#34;</span><span class="p">)</span>
-              <span class="p">(</span><span class="s">&#34;j&#34;</span> <span class="s">&#34;journal&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file+datetree</span> <span class="s">&#34;~/mis-archivos-org/diario-personal.org&#34;</span><span class="p">)</span>
-               <span class="s">&#34;* %?\n%T\n&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
-              <span class="p">(</span><span class="s">&#34;l&#34;</span> <span class="s">&#34;laboratorio&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file+datetree</span> <span class="s">&#34;~/mis-archivos-org/laboratorio-diario.org&#34;</span><span class="p">)</span>
-               <span class="s">&#34;* %?\n%t\n&#34;</span><span class="p">)</span>
-              <span class="p">(</span><span class="s">&#34;e&#34;</span> <span class="s">&#34;ejercicios&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file+datetree</span> <span class="s">&#34;~/mis-archivos-org/cosas-saludables.org&#34;</span><span class="p">)</span>
-               <span class="s">&#34;* %?\n%T\n&#34;</span><span class="p">)</span>
-              <span class="p">(</span><span class="s">&#34;r&#34;</span> <span class="s">&#34;respond&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
-               <span class="s">&#34;* NEXT Respond to %:from on %:subject\nSCHEDULED: %t\n%U\n%a\n&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span> <span class="ss">:immediate-finish</span> <span class="no">t</span><span class="p">)</span>
-              <span class="c1">;; b: modificado de http://members.optusnet.com.au/~charles57/GTD/gtd_workflow.html</span>
-              <span class="p">(</span><span class="s">&#34;w&#34;</span> <span class="s">&#34;org-protocol&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
-               <span class="s">&#34;* TODO Review %c\n%U\n&#34;</span> <span class="ss">:immediate-finish</span> <span class="no">t</span><span class="p">)</span>
-              <span class="p">(</span><span class="s">&#34;m&#34;</span> <span class="s">&#34;Meeting&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
-               <span class="s">&#34;* MEETING with %? :MEETING:\n%U&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
-              <span class="p">(</span><span class="s">&#34;p&#34;</span> <span class="s">&#34;Phone call&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
-               <span class="s">&#34;* PHONE %? :PHONE:\n%U&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
-              <span class="p">(</span><span class="s">&#34;h&#34;</span> <span class="s">&#34;Habit&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="c1">;; Capture templates for: TODO tasks, Notes, appointments, phone calls,</span>
+</span></span><span class="line"><span class="cl"><span class="c1">;; meetings, and org-protocol</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-capture-templates</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="k">quote</span> <span class="p">((</span><span class="s">&#34;a&#34;</span> <span class="s">&#34;tarea&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">               <span class="s">&#34;* TODO %^{Brief Description} %^g\n\n%?\n\nAgregado: %T&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">              <span class="p">(</span><span class="s">&#34;t&#34;</span> <span class="s">&#34;todo&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">               <span class="s">&#34;* TODO %?\n%U\n%a\n&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">              <span class="p">(</span><span class="s">&#34;n&#34;</span> <span class="s">&#34;nota&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">               <span class="s">&#34;* %? :NOTE:\nAgregado: %T\n\n&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">              <span class="p">(</span><span class="s">&#34;j&#34;</span> <span class="s">&#34;journal&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file+datetree</span> <span class="s">&#34;~/mis-archivos-org/diario-personal.org&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">               <span class="s">&#34;* %?\n%T\n&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">              <span class="p">(</span><span class="s">&#34;l&#34;</span> <span class="s">&#34;laboratorio&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file+datetree</span> <span class="s">&#34;~/mis-archivos-org/laboratorio-diario.org&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">               <span class="s">&#34;* %?\n%t\n&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">              <span class="p">(</span><span class="s">&#34;e&#34;</span> <span class="s">&#34;ejercicios&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file+datetree</span> <span class="s">&#34;~/mis-archivos-org/cosas-saludables.org&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">               <span class="s">&#34;* %?\n%T\n&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">              <span class="p">(</span><span class="s">&#34;r&#34;</span> <span class="s">&#34;respond&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">               <span class="s">&#34;* NEXT Respond to %:from on %:subject\nSCHEDULED: %t\n%U\n%a\n&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span> <span class="ss">:immediate-finish</span> <span class="no">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">              <span class="c1">;; b: modificado de http://members.optusnet.com.au/~charles57/GTD/gtd_workflow.html</span>
+</span></span><span class="line"><span class="cl">              <span class="p">(</span><span class="s">&#34;w&#34;</span> <span class="s">&#34;org-protocol&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">               <span class="s">&#34;* TODO Review %c\n%U\n&#34;</span> <span class="ss">:immediate-finish</span> <span class="no">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">              <span class="p">(</span><span class="s">&#34;m&#34;</span> <span class="s">&#34;Meeting&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">               <span class="s">&#34;* MEETING with %? :MEETING:\n%U&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">              <span class="p">(</span><span class="s">&#34;p&#34;</span> <span class="s">&#34;Phone call&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">               <span class="s">&#34;* PHONE %? :PHONE:\n%U&#34;</span> <span class="ss">:clock-in</span> <span class="no">t</span> <span class="ss">:clock-resume</span> <span class="no">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">              <span class="p">(</span><span class="s">&#34;h&#34;</span> <span class="s">&#34;Habit&#34;</span> <span class="nv">entry</span> <span class="p">(</span><span class="nv">file</span> <span class="s">&#34;~/mis-archivos-org/inbox.org&#34;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Finalmente, para acceder a la agenda hay que invocar el comando
 <em>org-agenda</em> o configurar una combinación de teclas para su ejecución,
@@ -342,8 +342,8 @@ habitualmente se usa C-c a:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="p">(</span><span class="nv">global-set-key</span> <span class="s">&#34;\C-ca&#34;</span> <span class="ss">&#39;org-agenda</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="p">(</span><span class="nv">global-set-key</span> <span class="s">&#34;\C-ca&#34;</span> <span class="ss">&#39;org-agenda</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Allí aparece un menú con las distintas opciones de visualización. A
 continuación se describen las opciones (es un resumen de la sección
@@ -426,7 +426,7 @@ projects</a>.</p>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.93.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
         </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>

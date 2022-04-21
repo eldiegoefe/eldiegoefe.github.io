@@ -143,8 +143,8 @@ en el sistema está instalada la versión 2.</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>sudo pacman -S python-virtualenv
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> sudo pacman -S python-virtualenv
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Asegurarse de que también <strong>python-pip</strong> está instalado, porque se
 necesita para el próximo paso:</p>
@@ -153,8 +153,8 @@ necesita para el próximo paso:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>sudo pacman -S python-pip
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> sudo pacman -S python-pip
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Manipular entornos virtuales se puede hacer con python-virtualenv sin
 más, pero es más fácil aún con <strong>virtualenvwrapper</strong>, que puede
@@ -164,8 +164,8 @@ instalarse con pip (a nivel del sistema):</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>sudo pip install virtualenvwrapper
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> sudo pip install virtualenvwrapper
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="2-creación-de-un-entorno-virtual">2. Creación de un entorno virtual</h2>
 <p>Para crear un entorno primero nos aseguramos de ejecutar
@@ -175,8 +175,8 @@ virtualenvwrapper:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span><span class="nb">source</span> /usr/bin/virtualenvwrapper.sh
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">source</span> /usr/bin/virtualenvwrapper.sh
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Alternativamente, si este script estuviese en el PATH hubiese bastado
 con ejecutar:</p>
@@ -185,8 +185,8 @@ con ejecutar:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>virtualenvwrapper
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> virtualenvwrapper
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Luego creamos el entorno virtual, con un intérprete de Python igual al
 que se ejecuta por defecto en nuestro sistema:</p>
@@ -195,8 +195,8 @@ que se ejecuta por defecto en nuestro sistema:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mkvirtualenv nombredelentorno
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> mkvirtualenv nombredelentorno
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Por defecto (si no se aclara otro directorio), los distintos entornos
 que se vayan creando se almacenan en <strong>~/.virtualenvs/</strong>. La <a href="http://virtualenvwrapper.readthedocs.org/en/latest/command_ref.html" target="_blank" rel="noopener noreffer">página de
@@ -212,9 +212,9 @@ particular, primero nos aseguramos de saber dónde se encuentra ésta:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>whereis python3
-<span class="go">/usr/bin/python3
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> whereis python3
+</span></span><span class="line"><span class="cl"><span class="go">/usr/bin/python3
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>La instalación de un nuevo entorno virtual con esta versión se ejecuta
 así:</p>
@@ -223,8 +223,8 @@ así:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>mkvirtualenv --python<span class="o">=</span>/usr/bin/python3 nombredelentorno
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> mkvirtualenv --python<span class="o">=</span>/usr/bin/python3 nombredelentorno
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Como resultado de la ejecución de <strong>mkvirtualenv</strong>, además de
 instalarse, el entorno virtual se activa, con lo cual el prompt del
@@ -234,8 +234,8 @@ shell pasa a verse así:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(nombredelentorno)$
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(nombredelentorno)$
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Al reiniciar el sistema, para activar el entorno hay que ejecutar
 primero virtualenvwrapper y luego usar el comando <strong>workon</strong>:</p>
@@ -245,9 +245,9 @@ primero virtualenvwrapper y luego usar el comando <strong>workon</strong>:</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span><span class="nb">source</span> /usr/bin/virtualenvwrapper.sh
-<span class="gp">$ </span>workon nombredelentorno
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> <span class="nb">source</span> /usr/bin/virtualenvwrapper.sh
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> workon nombredelentorno
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="3-instalación-de-pelican-y-otros-módulos">3. Instalación de Pelican y otros módulos</h2>
 <p>Los pasos finales son muy sencillos (ejecutarlos sin sudo para que la
@@ -260,11 +260,11 @@ instalación ocurra dentro del entorno virtual y no a nivel del sistema):</p>
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(nombredelentorno)$ pip install pelican
-</span><span class="go">(nombredelentorno)$ pip install beautifulsoup4
-</span><span class="go">(nombredelentorno)$ pip install pelican_youtube
-</span><span class="go">(nombredelentorno)$ pip install ghp-import
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(nombredelentorno)$ pip install pelican
+</span></span></span><span class="line"><span class="cl"><span class="go">(nombredelentorno)$ pip install beautifulsoup4
+</span></span></span><span class="line"><span class="cl"><span class="go">(nombredelentorno)$ pip install pelican_youtube
+</span></span></span><span class="line"><span class="cl"><span class="go">(nombredelentorno)$ pip install ghp-import
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="4-instalación-de-plugins-de-pelican">4. Instalación de Plugins de Pelican</h2>
 <p>Algunos temas de Pelican requieren el uso de plugins que se instalan en
@@ -274,8 +274,8 @@ el directorio desde donde se ejecute la orden siguiente:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="gp">$ </span>git clone --recursive https://github.com/getpelican/pelican-plugins
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git clone --recursive https://github.com/getpelican/pelican-plugins
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="5-desactivar-el-entorno-virtual">5. Desactivar el entorno virtual</h2>
 <p>Cuando no hay más por hacer dentro del entorno virtual, éste se
@@ -285,8 +285,8 @@ desactiva cerrando el terminal o ejecutando:</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="go">(nombredelentorno)$ deactivate
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">(nombredelentorno)$ deactivate
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div></div><div class="post-footer" id="post-footer">
     <div class="post-info"><div class="post-info-tag"><span><a href="/tags/blog/">blog</a>
@@ -304,7 +304,7 @@ desactiva cerrando el terminal o ejecutando:</p>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.93.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
         </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>
