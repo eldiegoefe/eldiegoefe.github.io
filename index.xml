@@ -28,14 +28,6 @@ Un problema de la información disponible online es que está centrada por lo ge
 Movimientos sobre la linea    Tecla Comando Comentario     C-a move-beginning-of-line Mueve al inicio de la linea   C-e move-end-of-line Mueve al final de la linea   M-m back-to-indentation Mueve al primer caracter de la linea luego de la indentación    Movimientos de distancias cortas: caracteres y lineas    Tecla Comando Comentario     C-f forward-char Mueve un caracter hacia adelante   C-b backward-char Mueve un caracter hacia atrás   C-n next-line Mueve hacia la siguiente linea   C-p previous-line Mueve hacia la linea previa    Movimientos entre palabras    Tecla Comando Comentario     M-f forward-word Mueve una palabra hacia adelante   M-b backward-word Mueve una palabra hacia atrás    Me parece preferible usar los que aparecen abajo como &ldquo;Movimiento entre bloques&rdquo; porque saltan entre palabras igual que estos, y no hace falta estar pensando en si el prefijo es Alt o Ctrl.]]></description>
 </item>
 <item>
-    <title>Comandos Linux</title>
-    <link>https://eldiegoefe.github.io/comandos-linux/</link>
-    <pubDate>Sat, 26 Mar 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comandos-linux/</guid>
-    <description><![CDATA[Comandos habituales en la linea de comandos de Linux Los comandos que se listan son de BASH.
-Aclaración: los puntos suspensivos indican que se pueden escribir varios nombres de archivos o directorios.
- pwd. Print Working Directory. Muestra el directorio actual. ls -l directorios&hellip;. Listar directorios. Incluir información completa. ls -a directorios&hellip;. Listar directorios. Incluir ocultos. man comando. Información de un comando: muestra su manual de uso. cd. Cambiar directorio. cp arch1 arch2.]]></description>
-</item>
-<item>
     <title>Cambio Vegano (Parte 2)</title>
     <link>https://eldiegoefe.github.io/cambio-vegano-parte-2/</link>
     <pubDate>Wed, 09 Mar 2022 00:15:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/cambio-vegano-parte-2/</guid>
@@ -70,6 +62,12 @@ Aclaración: los puntos suspensivos indican que se pueden escribir varios nombre
     <link>https://eldiegoefe.github.io/pasasana/</link>
     <pubDate>Wed, 17 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/pasasana/</guid>
     <description><![CDATA[yoga de pie - pasasana]]></description>
+</item>
+<item>
+    <title>Kurmasana - Sentadilla de la tortuga</title>
+    <link>https://eldiegoefe.github.io/kurmasana-sentadilla-de-la-tortuga/</link>
+    <pubDate>Tue, 16 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/kurmasana-sentadilla-de-la-tortuga/</guid>
+    <description><![CDATA[yoga de pie - kurmasana]]></description>
 </item>
 </channel>
 </rss>

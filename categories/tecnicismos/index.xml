@@ -20,14 +20,6 @@ Un problema de la información disponible online es que está centrada por lo ge
 Movimientos sobre la linea    Tecla Comando Comentario     C-a move-beginning-of-line Mueve al inicio de la linea   C-e move-end-of-line Mueve al final de la linea   M-m back-to-indentation Mueve al primer caracter de la linea luego de la indentación    Movimientos de distancias cortas: caracteres y lineas    Tecla Comando Comentario     C-f forward-char Mueve un caracter hacia adelante   C-b backward-char Mueve un caracter hacia atrás   C-n next-line Mueve hacia la siguiente linea   C-p previous-line Mueve hacia la linea previa    Movimientos entre palabras    Tecla Comando Comentario     M-f forward-word Mueve una palabra hacia adelante   M-b backward-word Mueve una palabra hacia atrás    Me parece preferible usar los que aparecen abajo como &ldquo;Movimiento entre bloques&rdquo; porque saltan entre palabras igual que estos, y no hace falta estar pensando en si el prefijo es Alt o Ctrl.]]></description>
 </item>
 <item>
-    <title>Comandos Linux</title>
-    <link>https://eldiegoefe.github.io/comandos-linux/</link>
-    <pubDate>Sat, 26 Mar 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comandos-linux/</guid>
-    <description><![CDATA[Comandos habituales en la linea de comandos de Linux Los comandos que se listan son de BASH.
-Aclaración: los puntos suspensivos indican que se pueden escribir varios nombres de archivos o directorios.
- pwd. Print Working Directory. Muestra el directorio actual. ls -l directorios&hellip;. Listar directorios. Incluir información completa. ls -a directorios&hellip;. Listar directorios. Incluir ocultos. man comando. Información de un comando: muestra su manual de uso. cd. Cambiar directorio. cp arch1 arch2.]]></description>
-</item>
-<item>
     <title>Instalacion de PyQt</title>
     <link>https://eldiegoefe.github.io/instalacion-de-pyqt/</link>
     <pubDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instalacion-de-pyqt/</guid>
@@ -74,6 +66,12 @@ Se puede usar el comando du para obtener el tamaño de los directorios y encaden
     <link>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</link>
     <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</guid>
     <description><![CDATA[Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora usaba la versión online del compilador con una FRDM-KL25Z, que es una (de las primeras en funcionar con MBED). El problema del compilador online no es que haya que estar conectado a la web (lo vengo usando desde hace mucho y nunca tuve problemas de acceso) sino sus limitadas prestaciones como editor de texto. Por ejemplo, no encontré manera de comentar y des-comentar múltiples lineas de código simultaneamente, algo que necesito hacer con frecuencia.]]></description>
+</item>
+<item>
+    <title>Panel frontal del software</title>
+    <link>https://eldiegoefe.github.io/panel-frontal-del-software/</link>
+    <pubDate>Thu, 01 Sep 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/panel-frontal-del-software/</guid>
+    <description><![CDATA[Una vez más me encuentro ante el desafío de armar un panel para un programa de análisis de datos, hecho en Python. Lo ideal sería trabajar con lineas de comandos y no tener que estar lidiando con menúes, botones y areas de graficación, pero sería impractico para los usuarios a quienes está destinado el programa. Así que nuevamente tengo que rastrear cómo se arma una pantalla con todas estas cosas.]]></description>
 </item>
 </channel>
 </rss>
