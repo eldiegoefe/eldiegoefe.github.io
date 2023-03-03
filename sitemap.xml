@@ -10,6 +10,9 @@
             <loc>https://eldiegoefe.github.io/tags/idiomas/</loc><lastmod>2023-03-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://eldiegoefe.github.io/posts/</loc><lastmod>2023-03-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/</loc><lastmod>2023-03-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://eldiegoefe.github.io/tags/blog/</loc><lastmod>2022-12-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/instrucciones-hugo/</loc><lastmod>2022-12-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/categories/tecnicismos/</loc><lastmod>2022-12-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/materiales-para-estudiar-alem%C3%A1n/</loc><lastmod>2022-06-16T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/capitalismo/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/ciencia/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -21,7 +24,6 @@
             <loc>https://eldiegoefe.github.io/tags/salud/</loc><lastmod>2023-02-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</loc><lastmod>2022-04-02T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/emacs/</loc><lastmod>2022-04-02T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://eldiegoefe.github.io/categories/tecnicismos/</loc><lastmod>2022-04-02T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</loc><lastmod>2022-03-27T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/cambio-vegano-parte-2/</loc><lastmod>2022-03-09T00:15:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/cambio-vegano-parte-1/</loc><lastmod>2022-03-07T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -138,7 +140,6 @@
             <loc>https://eldiegoefe.github.io/tags/funciones/</loc><lastmod>2015-12-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/democracia/</loc><lastmod>2015-10-31T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-el-absurdo/</loc><lastmod>2015-10-31T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://eldiegoefe.github.io/tags/blog/</loc><lastmod>2021-07-25T17:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/productividad-negativa/</loc><lastmod>2015-10-21T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/keybindings/</loc><lastmod>2015-09-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</loc><lastmod>2015-09-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

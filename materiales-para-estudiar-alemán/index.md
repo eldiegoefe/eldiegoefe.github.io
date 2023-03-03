@@ -18,7 +18,8 @@ esto hago traducciones del español o inglés hacia el alemán. Uso como
 fuente oraciones sencillas extraídas del [Assimil]({{< ref
 "2021-02-03-assimil.md" >}}). Es un gran salto de complejidad porque
 hay que trabajar con el sistema de "casos", determinar el género de
-los sustantivos y otras complejidades. Acá una imagen de cómo son las
+los sustantivos y otros detalles que cuando uno sólo entrena la
+comprensión pasan desapercibidos. Acá una imagen de cómo son las
 fichas, media hoja A4 doblada a la mitad, para que en cualquier
 momento libre tenga algo que traducir (sólo miro la parte en
 castellano). Cuando termino puedo abrir la ficha y tengo la solución a

@@ -1,6 +1,8 @@
 # Formación Activista - Damián Verzeñassi
 
 
+Estos son apuntes que tomé en un curso llamado "Formación Activista".
+
 El lunes 4 de abril de 2022, en el segundo encuentro de la [Formación Activista](https://formacionactivista.online/) nos encontramos con Damián Verzeñassi, médico e investigador, activista, fundador/titular de la Cátedra de Salud Socioambiental de la Facultad de Ciencias Médicas de la Universidad Nacional de Rosario y del Instituto Nacional de Salud Socioambiental. *No anoté mucho, sólo algunos puntos que me parecieron más significativos en el momento*. Pensé en retornar a la clase grabada para revisarla posteriormente pero sigue pendiente. Acá mis apuntes, no se dónde terminan las palabras de él y dónde empiezan mis agregados:
 
 La vida es posible por la interacción de los elementos: agua, aire, suelo, vida (microbiana, vegetal, animal, etc), etc. Nos necesitamos mutuamente, somos interdependientes.

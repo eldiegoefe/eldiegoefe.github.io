@@ -4,7 +4,15 @@
         <link>https://eldiegoefe.github.io/tags/blog/</link>
         <description>blog - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 21 Oct 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/blog/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 11 Dec 2022 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/blog/" rel="self" type="application/rss+xml" /><item>
+    <title>Instrucciones Hugo</title>
+    <link>https://eldiegoefe.github.io/instrucciones-hugo/</link>
+    <pubDate>Sun, 11 Dec 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instrucciones-hugo/</guid>
+    <description><![CDATA[Estas son instrucciones para no olvidarme cómo actualizar este mismo blog. Escribo las entradas y uso Hugo para correr un servidor local e ir corrigiendo / agregando cosas.
+1 $ hugo server Una vez que tengo la versión final, hago una copia de todo el blog en el repositorio &ldquo;Certezas Dudosas&rdquo; en mi cuenta de Bitbucket. Esto me sirve de backup, para no perder nada.
+Luego, para generar los archivos del blog hay que correr Hugo sin modificadores:]]></description>
+</item>
+<item>
     <title>Productividad negativa</title>
     <link>https://eldiegoefe.github.io/productividad-negativa/</link>
     <pubDate>Wed, 21 Oct 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/productividad-negativa/</guid>
