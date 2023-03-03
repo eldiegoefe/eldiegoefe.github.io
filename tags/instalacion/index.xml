@@ -9,7 +9,8 @@
     <link>https://eldiegoefe.github.io/instalando-ipython-en-mageia/</link>
     <pubDate>Fri, 22 Aug 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instalando-ipython-en-mageia/</guid>
     <description><![CDATA[Para instalar IPython en Mageia, sin tener privilegios de root hay que cumplir con los siguientes pasos:
- Contar con privilegios de root para poder correr el instalador Hay que instalar PIP Con PIP instalar IPython  Trabajar como root: Conviene agregar el usuario a la lista de usuarios con privilegios para ejecutar sudo. Las instrucciones están en Configuring sudo de Mageia. Históricamente en UNIX este es el grupo Wheels.]]></description>
+Contar con privilegios de root para poder correr el instalador Hay que instalar PIP Con PIP instalar IPython Trabajar como root: Conviene agregar el usuario a la lista de usuarios con privilegios para ejecutar sudo. Las instrucciones están en Configuring sudo de Mageia. Históricamente en UNIX este es el grupo Wheels.
+Primero hay que crear el archivo /etc/sudoers.]]></description>
 </item>
 <item>
     <title>Cuando uno quiere A y termina haciendo B</title>
@@ -18,7 +19,7 @@
     <description><![CDATA[Estoy leyendo sobre IPython, que instalé en Windows a través de Anaconda.
 Durante ese viaje me enteré de que Windows tiene dos shells, el más viejo y limitado es 'cmd.exe' mientras que el recomendado es 'Windows PowerShell', ya que tiene los mismos comandos que Unix. En cualquiera de los dos, IPython se corre con la orden ipython
 Hay ayudas de IPython en:
- Documentación Oficial StackOverflow Lista de correos  ¡Debe haber muchas más!]]></description>
+Documentación Oficial StackOverflow Lista de correos ¡Debe haber muchas más!]]></description>
 </item>
 </channel>
 </rss>

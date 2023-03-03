@@ -9,7 +9,7 @@
     <link>https://eldiegoefe.github.io/instalacion-de-pyqt/</link>
     <pubDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instalacion-de-pyqt/</guid>
     <description><![CDATA[Este es un post-ayudamemoria para la instalación de PyQt en un entorno virtual. Tengo la impresión de que lo escribí ya en el blog pero no lo encuentro ni con los buscadores más buscados (ag, ack, pt):
-  Activar el virtualenv, asumiendo que están instalados pyenv y pyenv-virtualenvs (también tendría que agregar el tutorial para usarlos, pero es demasiado para el propósito del día de hoy, aunque &quot;hoy&quot; no tiene sentido para un texto perdido en la web).]]></description>
+Activar el virtualenv, asumiendo que están instalados pyenv y pyenv-virtualenvs (también tendría que agregar el tutorial para usarlos, pero es demasiado para el propósito del día de hoy, aunque &quot;hoy&quot; no tiene sentido para un texto perdido en la web).]]></description>
 </item>
 <item>
     <title>Panel frontal del software</title>

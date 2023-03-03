@@ -24,7 +24,7 @@ general todo tiene rasgos humorísticos, con un distinguible porcentaje
 de machismo. La viñeta ilustra el tipo de humor: \"¿Le puedo ofrecer mi
 lugar?\".
 
-{{< figure src="https://live.staticflickr.com/65535/50909611926_a4348e35f2_b.jpg" title="Platz" >}}
+{{< figure src="https://live.staticflickr.com/65535/50909611926_a4348e35f2_b.jpg" title="Platz" >}}e
 
 ------------------------------------------------------------------------
 

@@ -5,6 +5,17 @@ Esto vuelve a ser un listado de links que acumulé (en pocos días) sobre
 el maravilloso mundo de los sintetizadores, el software de audio y la
 música en general.
 
+Guitarra (YouTube)
+--------
+
+- Andy Music
+- Justin Guitar
+- Paul Davids
+- Tomo Fujita
+- Robert Baker
+
+
+
 -   Música. Teoría. Otros recursos
 
     -   [Dolmetsch](https://www.dolmetsch.com). Teoría musical y

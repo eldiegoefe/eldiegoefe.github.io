@@ -2,29 +2,34 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://eldiegoefe.github.io/tags/capitalismo/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://eldiegoefe.github.io/categories/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://eldiegoefe.github.io/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://eldiegoefe.github.io/tags/ciencia/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://eldiegoefe.github.io/formaci%C3%B3n-activista-dami%C3%A1n-verze%C3%B1assi/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://eldiegoefe.github.io/tags/naturaleza/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://eldiegoefe.github.io/tags/politica/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://eldiegoefe.github.io/categories/politica/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://eldiegoefe.github.io/posts/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://eldiegoefe.github.io/tags/reflexiones/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://eldiegoefe.github.io/tags/salud/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://eldiegoefe.github.io/tags/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</loc><lastmod>2022-04-02T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://eldiegoefe.github.io/tags/emacs/</loc><lastmod>2022-04-02T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://eldiegoefe.github.io/categories/tecnicismos/</loc><lastmod>2022-04-02T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</loc><lastmod>2022-03-27T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://eldiegoefe.github.io/tags/aleman/</loc><lastmod>2023-03-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://eldiegoefe.github.io/categories/blog/</loc><lastmod>2023-03-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://eldiegoefe.github.io/categories/</loc><lastmod>2023-03-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://eldiegoefe.github.io/</loc><lastmod>2023-03-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://eldiegoefe.github.io/g%C3%A9nero-en-alem%C3%A1n/</loc><lastmod>2023-03-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://eldiegoefe.github.io/tags/idiomas/</loc><lastmod>2023-03-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://eldiegoefe.github.io/posts/</loc><lastmod>2023-03-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://eldiegoefe.github.io/tags/</loc><lastmod>2023-03-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://eldiegoefe.github.io/materiales-para-estudiar-alem%C3%A1n/</loc><lastmod>2022-06-16T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/tags/capitalismo/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/tags/ciencia/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/formaci%C3%B3n-activista-dami%C3%A1n-verze%C3%B1assi/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/tags/naturaleza/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/tags/politica/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/categories/politica/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/tags/reflexiones/</loc><lastmod>2022-04-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/tags/salud/</loc><lastmod>2023-02-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</loc><lastmod>2022-04-02T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/tags/emacs/</loc><lastmod>2022-04-02T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/categories/tecnicismos/</loc><lastmod>2022-04-02T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</loc><lastmod>2022-03-27T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/cambio-vegano-parte-2/</loc><lastmod>2022-03-09T00:15:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/cambio-vegano-parte-1/</loc><lastmod>2022-03-07T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://eldiegoefe.github.io/categories/blog/</loc><lastmod>2021-07-25T17:40:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/marichyasana-a/</loc><lastmod>2023-02-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://eldiegoefe.github.io/categories/salud/</loc><lastmod>2023-02-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://eldiegoefe.github.io/tags/yoga/</loc><lastmod>2023-02-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://eldiegoefe.github.io/dead-humanity-walking/</loc><lastmod>2021-02-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/postura-del-cadaver-savasana/</loc><lastmod>2021-02-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://eldiegoefe.github.io/categories/salud/</loc><lastmod>2021-02-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://eldiegoefe.github.io/tags/yoga/</loc><lastmod>2021-02-19T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/sentadilla-asistida-utkatasana-sahaya-sahita/</loc><lastmod>2021-02-18T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/pasasana/</loc><lastmod>2021-02-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/kurmasana-sentadilla-de-la-tortuga/</loc><lastmod>2021-02-16T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -34,9 +39,7 @@
             <loc>https://eldiegoefe.github.io/hasta-vinyasas.-movimientos-de-los-brazos/</loc><lastmod>2021-02-12T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/krama-vinyasa-yoga-introducci%C3%B3n/</loc><lastmod>2021-02-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/vinyasa-krama-yoga/</loc><lastmod>2021-02-09T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://eldiegoefe.github.io/tags/aleman/</loc><lastmod>2021-02-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/assimil.-el-alem%C3%A1n-sin-esfuerzo/</loc><lastmod>2021-02-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://eldiegoefe.github.io/tags/idiomas/</loc><lastmod>2021-02-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/getting-things-done/</loc><lastmod>2020-11-30T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/gtd/</loc><lastmod>2020-11-30T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/productividad/</loc><lastmod>2020-11-30T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -46,8 +49,8 @@
             <loc>https://eldiegoefe.github.io/abandonemos-la-era-de-la-reproducci%C3%B3n-imperativa/</loc><lastmod>2019-10-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/filosofia/</loc><lastmod>2019-10-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/hijos-no/</loc><lastmod>2019-10-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://eldiegoefe.github.io/acuarela/</loc><lastmod>2019-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/acuarela/</loc><lastmod>2019-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/acuarela/</loc><lastmod>2019-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/arte/</loc><lastmod>2019-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/dibujo/</loc><lastmod>2019-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/hobbies/</loc><lastmod>2019-07-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -106,8 +109,8 @@
             <loc>https://eldiegoefe.github.io/tags/fotografia/</loc><lastmod>2017-01-04T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/fotos/</loc><lastmod>2017-01-04T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/sensores-fotolum%C3%ADnicos-del-2016-parte-01/</loc><lastmod>2017-01-04T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://eldiegoefe.github.io/freecad/</loc><lastmod>2016-11-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/freecad/</loc><lastmod>2016-11-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/freecad/</loc><lastmod>2016-11-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/carpinteria/</loc><lastmod>2016-11-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/carpinter%C3%ADa-a-pleno/</loc><lastmod>2016-11-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/madera/</loc><lastmod>2016-11-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -150,9 +153,9 @@
             <loc>https://eldiegoefe.github.io/tags/pelican/</loc><lastmod>2015-05-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/sugerencia-respecto-de-los-tutoriales-de-emacs/</loc><lastmod>2015-05-18T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/suggestion-about-emacs-tutorials/</loc><lastmod>2015-05-18T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/cu%C3%A1nto-debe-ganar-un-docente-un-m%C3%A9dico-un-investigador/</loc><lastmod>2015-04-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/salarios/</loc><lastmod>2015-04-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/universidad/</loc><lastmod>2015-04-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://eldiegoefe.github.io/cu%C3%A1nto-debe-ganar-un-docente-un-m%C3%A9dico-un-investigador/</loc><lastmod>2015-04-25T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/comic/</loc><lastmod>2015-04-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/genios/</loc><lastmod>2015-04-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/historieta/</loc><lastmod>2015-04-17T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -245,8 +248,8 @@
             <loc>https://eldiegoefe.github.io/apuntes-sobre-matplotlib/</loc><lastmod>2014-08-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/graficacion/</loc><lastmod>2014-08-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/tags/matplotlib/</loc><lastmod>2014-08-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://eldiegoefe.github.io/tags/palestina/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/por-qu%C3%A9-los-palestinos-contin%C3%BAan-apoyando-a-hamas-a-pesar-de-sus-p%C3%A9rdidas-devastadoras/</loc><lastmod>2014-08-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://eldiegoefe.github.io/tags/palestina/</loc><lastmod>2021-09-17T10:30:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar/</loc><lastmod>2014-07-31T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/comunicacion-usb-con-mbed/</loc><lastmod>2014-07-31T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://eldiegoefe.github.io/sincronizando-con-git/</loc><lastmod>2014-07-31T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

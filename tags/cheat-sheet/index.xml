@@ -16,7 +16,7 @@ Al sitio interactivo llegué desde Astropy, en particular de la página How to m
     <link>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar/</link>
     <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar/</guid>
     <description><![CDATA[Yasnippets / Company En la documentación de Spacemacs están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual).
- reemplaza la clave previa al punto por el contenido del snippet correspondiente: M-/  Búsqueda &ndash;La búsqueda habitual con i-search (C-s) se potencia al instalar swiper, que ofrece un listado de las lineas del documento donde se encuentran los resultados de la búsqueda.]]></description>
+reemplaza la clave previa al punto por el contenido del snippet correspondiente: M-/ Búsqueda &ndash;La búsqueda habitual con i-search (C-s) se potencia al instalar swiper, que ofrece un listado de las lineas del documento donde se encuentran los resultados de la búsqueda.&ndash;]]></description>
 </item>
 <item>
     <title>Usando control de versiones</title>

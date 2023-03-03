@@ -11,7 +11,7 @@
     <description><![CDATA[Estoy leyendo sobre IPython, que instalé en Windows a través de Anaconda.
 Durante ese viaje me enteré de que Windows tiene dos shells, el más viejo y limitado es 'cmd.exe' mientras que el recomendado es 'Windows PowerShell', ya que tiene los mismos comandos que Unix. En cualquiera de los dos, IPython se corre con la orden ipython
 Hay ayudas de IPython en:
- Documentación Oficial StackOverflow Lista de correos  ¡Debe haber muchas más!]]></description>
+Documentación Oficial StackOverflow Lista de correos ¡Debe haber muchas más!]]></description>
 </item>
 </channel>
 </rss>

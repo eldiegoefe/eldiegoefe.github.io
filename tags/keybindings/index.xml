@@ -8,8 +8,8 @@
     <title>Python en Emacs y otros atajos</title>
     <link>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</link>
     <pubDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</guid>
-    <description><![CDATA[Spacemacs   Anaconda-mode: Emacs tiene muchas herramientas para facilitar la programación en Python. En Spacemacs se puede activar anaconda-mode, que habilita una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información en el modeline sobre la función que se está tipeando (muestra los nombres de sus argumentos). Cosas de Anaconda para usar:
- anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca el origen del símbolo bajo el punto. Por ejemplo: si se trata de una función, abre el archivo donde está definida y ubica el punto sobre el encabezado de la misma.]]></description>
+    <description><![CDATA[Spacemacs Anaconda-mode: Emacs tiene muchas herramientas para facilitar la programación en Python. En Spacemacs se puede activar anaconda-mode, que habilita una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información en el modeline sobre la función que se está tipeando (muestra los nombres de sus argumentos). Cosas de Anaconda para usar:
+anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca el origen del símbolo bajo el punto. Por ejemplo: si se trata de una función, abre el archivo donde está definida y ubica el punto sobre el encabezado de la misma.]]></description>
 </item>
 <item>
     <title>Emacs y restructuredText</title>

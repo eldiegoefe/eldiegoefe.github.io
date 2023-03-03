@@ -4,21 +4,49 @@
 Página de inicio con los enlaces a los sitios que frecuento o que no quiero
 olvidar.
 
+## Buscadores
+
+- [DuckDuckGo](http://www.duckduckgo.com)
+- [Google](http://www.google.com)
+- 
+
 ## Frecuentes
 - [Gmail](https://mail.google.com/mail/u/0/#inbox)
 - [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
 - [Book Depository](https://www.bookdepository.com)
+- [HBO Max](https://play.hbomax.com/page/urn:hbo:page:home)
+- [elDiarioAR](https://www.eldiarioar.com/)
+- [La Nación](https://www.lanacion.com.ar/)
+- [Weather Underground](https://www.wunderground.com/forecast/ar/paran%C3%A1/IENTRERO9)
+
+## Youtube
+
+- [YouTube](http://www.youtube.com)
 - [Canales de YouTube]({{< ref "2010-01-03-youtube.md" >}})
 - [Links sobre música]({{< ref "2010-01-02-enlaces-sobre-musica.md" >}})
+
+## Hobbies
+
 - [Carpintería a pleno]({{< ref "2016-11-24-carpinteria-a-pleno.md" >}})
     
 ## Redes Sociales
 
+- [Mastodon](https://hispagatos.space/web/timelines/home)
 -   [Diaspora](https://joindiaspora.com/stream)
 -   [Facebook](http://www.facebook.com)
 -   [Google+](https://plus.google.com)
 -   [Instagram](https://www.instagram.com)
 -   [Twitter](https://twitter.com)
+
+## Revistas / Blogs / Sitios Personales
+- [Low Tech Magazine](https://solar.lowtechmagazine.com/)
+- [Luke Smith](https://lukesmith.xyz/)
+
+## Facultad
+- [Campus](https://campus.ingenieria.uner.edu.ar/)
+
+## Electrónica
+- [Socratic Electronics](http://www.ibiblio.org/kuphaldt/socratic/index.html)
 
 ## Emacs
 

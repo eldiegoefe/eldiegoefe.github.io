@@ -17,14 +17,14 @@ Un problema de la información disponible online es que está centrada por lo ge
     <link>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</link>
     <pubDate>Sun, 27 Mar 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</guid>
     <description><![CDATA[Estoy volviendo a probar Emacs con los atajos de teclado originales, tras años de usar evil-mode y la edición modal propia de VIM (que está buenísima). Lo hago para independizarme de los kits como Doom Emacs y Spacemacs y así retomar el control total sobre la configuración y de paso retomar el estudio de LISP. Esto es un resumen de los atajos de teclado que deseo recordar.
-Movimientos sobre la linea    Tecla Comando Comentario     C-a move-beginning-of-line Mueve al inicio de la linea   C-e move-end-of-line Mueve al final de la linea   M-m back-to-indentation Mueve al primer caracter de la linea luego de la indentación    Movimientos de distancias cortas: caracteres y lineas    Tecla Comando Comentario     C-f forward-char Mueve un caracter hacia adelante   C-b backward-char Mueve un caracter hacia atrás   C-n next-line Mueve hacia la siguiente linea   C-p previous-line Mueve hacia la linea previa    Movimientos entre palabras    Tecla Comando Comentario     M-f forward-word Mueve una palabra hacia adelante   M-b backward-word Mueve una palabra hacia atrás    Me parece preferible usar los que aparecen abajo como &ldquo;Movimiento entre bloques&rdquo; porque saltan entre palabras igual que estos, y no hace falta estar pensando en si el prefijo es Alt o Ctrl.]]></description>
+Movimientos sobre la linea Tecla Comando Comentario C-a move-beginning-of-line Mueve al inicio de la linea C-e move-end-of-line Mueve al final de la linea M-m back-to-indentation Mueve al primer caracter de la linea luego de la indentación Movimientos de distancias cortas: caracteres y lineas Tecla Comando Comentario C-f forward-char Mueve un caracter hacia adelante C-b backward-char Mueve un caracter hacia atrás C-n next-line Mueve hacia la siguiente linea C-p previous-line Mueve hacia la linea previa Movimientos entre palabras Tecla Comando Comentario M-f forward-word Mueve una palabra hacia adelante M-b backward-word Mueve una palabra hacia atrás Me parece preferible usar los que aparecen abajo como &ldquo;Movimiento entre bloques&rdquo; porque saltan entre palabras igual que estos, y no hace falta estar pensando en si el prefijo es Alt o Ctrl.]]></description>
 </item>
 <item>
     <title>Instalacion de PyQt</title>
     <link>https://eldiegoefe.github.io/instalacion-de-pyqt/</link>
     <pubDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instalacion-de-pyqt/</guid>
     <description><![CDATA[Este es un post-ayudamemoria para la instalación de PyQt en un entorno virtual. Tengo la impresión de que lo escribí ya en el blog pero no lo encuentro ni con los buscadores más buscados (ag, ack, pt):
-  Activar el virtualenv, asumiendo que están instalados pyenv y pyenv-virtualenvs (también tendría que agregar el tutorial para usarlos, pero es demasiado para el propósito del día de hoy, aunque &quot;hoy&quot; no tiene sentido para un texto perdido en la web).]]></description>
+Activar el virtualenv, asumiendo que están instalados pyenv y pyenv-virtualenvs (también tendría que agregar el tutorial para usarlos, pero es demasiado para el propósito del día de hoy, aunque &quot;hoy&quot; no tiene sentido para un texto perdido en la web).]]></description>
 </item>
 <item>
     <title>Instalación y configuración de Emacs</title>
@@ -32,7 +32,7 @@ Movimientos sobre la linea    Tecla Comando Comentario     C-a move-beginning-of
     <pubDate>Fri, 01 Dec 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instalaci%C3%B3n-y-configuraci%C3%B3n-de-emacs/</guid>
     <description><![CDATA[Estos son los pasos que sigo cuando instalo Emacs y Spacemacs, junto con el archivo de configuración que guardo en un repositorio privado.
 Paso 1: Modos de instalación Opción A: repositorio con la última versión de Emacs Esta es la manera más facil de instalación, para un un sistema descendiente de Debian (Ubuntu, Mint, etc).
-1 2 3  $ sudo add-apt-repository ppa:ubuntu-elisp/ppa $ sudo apt-get update $ sudo apt-get install emacs-snapshot emacs-snapshot-el   Opción B: compilación desde un terminal Bajar la versión a instalar desde http://ftp.]]></description>
+1 2 3 $ sudo add-apt-repository ppa:ubuntu-elisp/ppa $ sudo apt-get update $ sudo apt-get install emacs-snapshot emacs-snapshot-el Opción B: compilación desde un terminal Bajar la versión a instalar desde http://ftp.]]></description>
 </item>
 <item>
     <title>Bienvenidos a Scheme</title>
@@ -58,8 +58,8 @@ Se puede usar el comando du para obtener el tamaño de los directorios y encaden
     <link>https://eldiegoefe.github.io/freecad/</link>
     <pubDate>Fri, 25 Nov 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/freecad/</guid>
     <description><![CDATA[Para proyectar diseños en madera los carpinteros de YouTube suelen usar SketchUp, que es un software de Google que sólo funciona en Windows y Mac. Busqué algún programa que pueda usar con el mismo fin pero en Linux, y encontré FreeCAD. Estoy siguiendo un buen tutorial en castellano en el canal de Juan Gonzalez Gomez, aca pueden ver el primer video de la serie:
-  Algunos apuntes iniciales:
- Luego de iniciar un nuevo proyecto seleccionar el espacio de trabajo Part.]]></description>
+Algunos apuntes iniciales:
+Luego de iniciar un nuevo proyecto seleccionar el espacio de trabajo Part.]]></description>
 </item>
 <item>
     <title>Uso de MBED desde la linea de comandos (CLI)</title>

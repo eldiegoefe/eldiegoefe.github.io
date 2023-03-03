@@ -4,9 +4,22 @@
         <link>https://eldiegoefe.github.io/</link>
         <description>Blog del Diego Efe</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 20 Apr 2022 10:00:00 &#43;0000</lastBuildDate>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Fri, 03 Mar 2023 10:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://eldiegoefe.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Género en alemán</title>
+    <link>https://eldiegoefe.github.io/g%C3%A9nero-en-alem%C3%A1n/</link>
+    <pubDate>Fri, 03 Mar 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/g%C3%A9nero-en-alem%C3%A1n/</guid>
+    <description><![CDATA[Hay algunas estrategias útiles para estudiar el género de los sustantivos en alemán. Es importante identificar si un sustantivo es femenino, masculino o neutro porque alteran la terminación de adjetivos y otros modificadores. Es agotador tratar de memorizar el género de cada sustantivo individualmente. Por suerte el idioma tiene algunas características que facilitan la identificación:
+Sufijos (terminaciones de las palabras): hay algunos sufijos que son exclusivamente femeninos, masculinos o neutros. Otros son mayoritariamente de un genero u otro, con algunas excepciones.]]></description>
+</item>
+<item>
+    <title>Materiales para estudiar alemán</title>
+    <link>https://eldiegoefe.github.io/materiales-para-estudiar-alem%C3%A1n/</link>
+    <pubDate>Thu, 16 Jun 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/materiales-para-estudiar-alem%C3%A1n/</guid>
+    <description><![CDATA[Hay múltiples modos de estudiar idiomas, y para hacerlo de modo autodidacta contamos con un montón de material online. El problema es elegir aquellos que nos resultan útiles y de buena calidad. Al final de este post hay una lista de los sitios que más uso (o los que más quiero usar) para recomendarlos y también para no olvidarme cuando pasan algunos meses alejado del idioma (porque mi dedicación es &ldquo;a saltos&rdquo;).]]></description>
+</item>
+<item>
     <title>Formación Activista - Damián Verzeñassi</title>
     <link>https://eldiegoefe.github.io/formaci%C3%B3n-activista-dami%C3%A1n-verze%C3%B1assi/</link>
     <pubDate>Wed, 20 Apr 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/formaci%C3%B3n-activista-dami%C3%A1n-verze%C3%B1assi/</guid>
@@ -25,7 +38,7 @@ Un problema de la información disponible online es que está centrada por lo ge
     <link>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</link>
     <pubDate>Sun, 27 Mar 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</guid>
     <description><![CDATA[Estoy volviendo a probar Emacs con los atajos de teclado originales, tras años de usar evil-mode y la edición modal propia de VIM (que está buenísima). Lo hago para independizarme de los kits como Doom Emacs y Spacemacs y así retomar el control total sobre la configuración y de paso retomar el estudio de LISP. Esto es un resumen de los atajos de teclado que deseo recordar.
-Movimientos sobre la linea    Tecla Comando Comentario     C-a move-beginning-of-line Mueve al inicio de la linea   C-e move-end-of-line Mueve al final de la linea   M-m back-to-indentation Mueve al primer caracter de la linea luego de la indentación    Movimientos de distancias cortas: caracteres y lineas    Tecla Comando Comentario     C-f forward-char Mueve un caracter hacia adelante   C-b backward-char Mueve un caracter hacia atrás   C-n next-line Mueve hacia la siguiente linea   C-p previous-line Mueve hacia la linea previa    Movimientos entre palabras    Tecla Comando Comentario     M-f forward-word Mueve una palabra hacia adelante   M-b backward-word Mueve una palabra hacia atrás    Me parece preferible usar los que aparecen abajo como &ldquo;Movimiento entre bloques&rdquo; porque saltan entre palabras igual que estos, y no hace falta estar pensando en si el prefijo es Alt o Ctrl.]]></description>
+Movimientos sobre la linea Tecla Comando Comentario C-a move-beginning-of-line Mueve al inicio de la linea C-e move-end-of-line Mueve al final de la linea M-m back-to-indentation Mueve al primer caracter de la linea luego de la indentación Movimientos de distancias cortas: caracteres y lineas Tecla Comando Comentario C-f forward-char Mueve un caracter hacia adelante C-b backward-char Mueve un caracter hacia atrás C-n next-line Mueve hacia la siguiente linea C-p previous-line Mueve hacia la linea previa Movimientos entre palabras Tecla Comando Comentario M-f forward-word Mueve una palabra hacia adelante M-b backward-word Mueve una palabra hacia atrás Me parece preferible usar los que aparecen abajo como &ldquo;Movimiento entre bloques&rdquo; porque saltan entre palabras igual que estos, y no hace falta estar pensando en si el prefijo es Alt o Ctrl.]]></description>
 </item>
 <item>
     <title>Cambio Vegano (Parte 2)</title>
@@ -40,6 +53,13 @@ Movimientos sobre la linea    Tecla Comando Comentario     C-a move-beginning-of
     <description><![CDATA[Recuerdo que durante la década de 1980, en paralelo con el retorno de la democracia, la novedosa epidemia de SIDA, el destape, el mundial de México y las cajas PAN, temía la catastrófica posibilidad de una guerra nuclear. Mucha gente no lo recuerda o estaba entretenida con No Toca Botón, pero yo no estaba loco, sólo era un niño informado. Hoy en día no se qué porcentaje de la población integramos los que estamos al tanto y nos preocupamos &ndash;en paralelo con el vaciamiento total del concepto de democracia, la novedosa epidemia de coronavirus, el auge del trap, la copa América y la profundización del Modelo&ndash; por los efectos actuales y futuros del cambio climático, de la pérdida de espacios naturales y de la superpoblación mundial.]]></description>
 </item>
 <item>
+    <title>Marichyasana A</title>
+    <link>https://eldiegoefe.github.io/marichyasana-a/</link>
+    <pubDate>Mon, 01 Mar 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/marichyasana-a/</guid>
+    <description><![CDATA[Tengo dudas con Marichyasana A, me parece demasiado fácil, lo cual es sospechoso. Mi impresión es que al desconocer los detalles, aprovecho a compensar de modo tal que si bien externamente la postura se asemeja a la original, no está cumpliendo su propósito. Así que acá va un compendio de la investigación que vengo haciendo&hellip;
+Propósito de la postura Esta asana promueve la apertura de las caderas. Es dificil para quienes cuenten con isquiotibiales muy tensos y acortados.]]></description>
+</item>
+<item>
     <title>Dead Humanity Walking</title>
     <link>https://eldiegoefe.github.io/dead-humanity-walking/</link>
     <pubDate>Sat, 20 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/dead-humanity-walking/</guid>
@@ -50,24 +70,6 @@ Movimientos sobre la linea    Tecla Comando Comentario     C-a move-beginning-of
     <link>https://eldiegoefe.github.io/postura-del-cadaver-savasana/</link>
     <pubDate>Fri, 19 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/postura-del-cadaver-savasana/</guid>
     <description><![CDATA[postura del cadaver - savasana]]></description>
-</item>
-<item>
-    <title>Sentadilla asistida - Utkatasana Sahaya Sahita</title>
-    <link>https://eldiegoefe.github.io/sentadilla-asistida-utkatasana-sahaya-sahita/</link>
-    <pubDate>Thu, 18 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/sentadilla-asistida-utkatasana-sahaya-sahita/</guid>
-    <description><![CDATA[sentadilla asistida - utkatasana sahaya sahita]]></description>
-</item>
-<item>
-    <title>Pasasana</title>
-    <link>https://eldiegoefe.github.io/pasasana/</link>
-    <pubDate>Wed, 17 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/pasasana/</guid>
-    <description><![CDATA[yoga de pie - pasasana]]></description>
-</item>
-<item>
-    <title>Kurmasana - Sentadilla de la tortuga</title>
-    <link>https://eldiegoefe.github.io/kurmasana-sentadilla-de-la-tortuga/</link>
-    <pubDate>Tue, 16 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/kurmasana-sentadilla-de-la-tortuga/</guid>
-    <description><![CDATA[yoga de pie - kurmasana]]></description>
 </item>
 </channel>
 </rss>

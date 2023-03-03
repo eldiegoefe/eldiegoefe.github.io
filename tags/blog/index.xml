@@ -29,14 +29,14 @@ Usar entornos virtuales de Python es muy sencillo, tanto que me acostumbré (y h
     <link>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar/</link>
     <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar/</guid>
     <description><![CDATA[Yasnippets / Company En la documentación de Spacemacs están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual).
- reemplaza la clave previa al punto por el contenido del snippet correspondiente: M-/  Búsqueda &ndash;La búsqueda habitual con i-search (C-s) se potencia al instalar swiper, que ofrece un listado de las lineas del documento donde se encuentran los resultados de la búsqueda.]]></description>
+reemplaza la clave previa al punto por el contenido del snippet correspondiente: M-/ Búsqueda &ndash;La búsqueda habitual con i-search (C-s) se potencia al instalar swiper, que ofrece un listado de las lineas del documento donde se encuentran los resultados de la búsqueda.&ndash;]]></description>
 </item>
 <item>
     <title>Sincronizando con Git</title>
     <link>https://eldiegoefe.github.io/sincronizando-con-git/</link>
     <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/sincronizando-con-git/</guid>
     <description><![CDATA[Estuve tratando de escribir este blog desde dos computadoras distintas. Armé el sitio desde una de ellas (una PC de escritorio) siguiendo las instrucciones que puse en otro post y después subí el sitio a github con un pull. Quedan armadas tres ramas (branches) en los repositorios:
-  source master gh-pages   Me cambié de máquina (a una laptop) e hice una copia de lo que había subido clonando el supositorio, digo el repositorio remoto.]]></description>
+source master gh-pages Me cambié de máquina (a una laptop) e hice una copia de lo que había subido clonando el supositorio, digo el repositorio remoto.]]></description>
 </item>
 <item>
     <title>Blog con Pelican y GitHub</title>

@@ -9,7 +9,7 @@
     <link>https://eldiegoefe.github.io/instalacion-de-pyqt/</link>
     <pubDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instalacion-de-pyqt/</guid>
     <description><![CDATA[Este es un post-ayudamemoria para la instalación de PyQt en un entorno virtual. Tengo la impresión de que lo escribí ya en el blog pero no lo encuentro ni con los buscadores más buscados (ag, ack, pt):
-  Activar el virtualenv, asumiendo que están instalados pyenv y pyenv-virtualenvs (también tendría que agregar el tutorial para usarlos, pero es demasiado para el propósito del día de hoy, aunque &quot;hoy&quot; no tiene sentido para un texto perdido en la web).]]></description>
+Activar el virtualenv, asumiendo que están instalados pyenv y pyenv-virtualenvs (también tendría que agregar el tutorial para usarlos, pero es demasiado para el propósito del día de hoy, aunque &quot;hoy&quot; no tiene sentido para un texto perdido en la web).]]></description>
 </item>
 <item>
     <title>Panel frontal del software</title>
@@ -22,14 +22,14 @@
     <link>https://eldiegoefe.github.io/diccionario-de-funciones/</link>
     <pubDate>Fri, 11 Dec 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/diccionario-de-funciones/</guid>
     <description><![CDATA[Mientras escribo un programa para manipular imágenes de un microscopio, tuve que ver cómo ejecutar una función distinta, de acuerdo a cierto parámetro. Más concretamente, para procesar las imágenes en algunos casos se necesita un kernel, que es una matriz llena de unos y ceros organizados de acuerdo a la selección de dos parámetros: forma y tamaño. Por ejemplo, un &quot;disco&quot; de radio 3 se vería así:
-[[0 0 0 1 0 0 0] [0 1 1 1 1 1 0] [0 1 1 1 1 1 0] [1 1 1 1 1 1 1] [0 1 1 1 1 1 0] [0 1 1 1 1 1 0] [0 0 0 1 0 0 0]]  Y una matriz &quot;cuadrada&quot; de lado 3, así:]]></description>
+[[0 0 0 1 0 0 0] [0 1 1 1 1 1 0] [0 1 1 1 1 1 0] [1 1 1 1 1 1 1] [0 1 1 1 1 1 0] [0 1 1 1 1 1 0] [0 0 0 1 0 0 0]] Y una matriz &quot;cuadrada&quot; de lado 3, así:]]></description>
 </item>
 <item>
     <title>Python en Emacs y otros atajos</title>
     <link>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</link>
     <pubDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</guid>
-    <description><![CDATA[Spacemacs   Anaconda-mode: Emacs tiene muchas herramientas para facilitar la programación en Python. En Spacemacs se puede activar anaconda-mode, que habilita una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información en el modeline sobre la función que se está tipeando (muestra los nombres de sus argumentos). Cosas de Anaconda para usar:
- anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca el origen del símbolo bajo el punto. Por ejemplo: si se trata de una función, abre el archivo donde está definida y ubica el punto sobre el encabezado de la misma.]]></description>
+    <description><![CDATA[Spacemacs Anaconda-mode: Emacs tiene muchas herramientas para facilitar la programación en Python. En Spacemacs se puede activar anaconda-mode, que habilita una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información en el modeline sobre la función que se está tipeando (muestra los nombres de sus argumentos). Cosas de Anaconda para usar:
+anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca el origen del símbolo bajo el punto. Por ejemplo: si se trata de una función, abre el archivo donde está definida y ubica el punto sobre el encabezado de la misma.]]></description>
 </item>
 <item>
     <title>Listas en Python</title>
@@ -37,8 +37,8 @@
     <pubDate>Wed, 15 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/listas-en-python/</guid>
     <description><![CDATA[Apuntes del capítulo 10. Lists, de Think Python.
 Traversing To traverse es el verbo que se refiere al acceso secuencial de los elementos de una lista. La siguiente es una forma de &quot;traversear&quot; una lista:
-1 2  for cheese in cheeses: print cheese   Si se necesita modificar algún elemento de la lista es mejor hacer:
-1 2  for i in range(len(numbers)): numbers[i] = numers[i] * 2   Agregar elementos a una lista Se pueden agregar elementos individuales a una lista con append.]]></description>
+1 2 for cheese in cheeses: print cheese Si se necesita modificar algún elemento de la lista es mejor hacer:
+1 2 for i in range(len(numbers)): numbers[i] = numers[i] * 2 Agregar elementos a una lista Se pueden agregar elementos individuales a una lista con append.]]></description>
 </item>
 <item>
     <title>Autoaprendizajes</title>
@@ -46,7 +46,7 @@ Traversing To traverse es el verbo que se refiere al acceso secuencial de los el
     <pubDate>Fri, 10 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/autoaprendizajes/</guid>
     <description><![CDATA[No recuerdo en qué momento fue que pronuncié las palabras mágicas, pero cuando sea que haya ocurrido, se abrieron portales hacia temas inexplorados dentro de un mundo que creía conocer.
 En los últimos meses (¿10? ¿20?) me encontré con:
- un lenguaje de programación fantástico por su sencillez y potencia (Python), junto con un conjunto de librerías para tareas científicas: matplotlib, numpy, pandas, etc. la idea del control de versiones (que es una herramienta magnífica para quienes escribimos todo tipo de textos que al ir corrigiendo dejan una huella dificil de seguir desde su versión inicial hacia su versión actual, ya sea que se trate de programas, entradas de blog o informes científicos o técnicos).]]></description>
+un lenguaje de programación fantástico por su sencillez y potencia (Python), junto con un conjunto de librerías para tareas científicas: matplotlib, numpy, pandas, etc. la idea del control de versiones (que es una herramienta magnífica para quienes escribimos todo tipo de textos que al ir corrigiendo dejan una huella dificil de seguir desde su versión inicial hacia su versión actual, ya sea que se trate de programas, entradas de blog o informes científicos o técnicos).]]></description>
 </item>
 <item>
     <title>Apuntes sobre matplotlib</title>
@@ -54,7 +54,7 @@ En los últimos meses (¿10? ¿20?) me encontré con:
     <pubDate>Sun, 03 Aug 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/apuntes-sobre-matplotlib/</guid>
     <description><![CDATA[Estos son algunos apuntes extraidos principalmente del tutorial de Artist.
 Matplotlib Matplotlib is the whole package
-pylab  a module in matplotlib installed alongside matplotlib preferred for interactive calculations and plotting  matplotlib.pyplot  a module in matplotlib provides the state machine interface to the underlying plotting library in matplotlib combines the pyplot functionality (for plotting) with numpy functionality in a single namespace figures and axes are implicitly and automatically created to achieve the desired plot preferred for scripting  Artist Artist has three layers:]]></description>
+pylab a module in matplotlib installed alongside matplotlib preferred for interactive calculations and plotting matplotlib.pyplot a module in matplotlib provides the state machine interface to the underlying plotting library in matplotlib combines the pyplot functionality (for plotting) with numpy functionality in a single namespace figures and axes are implicitly and automatically created to achieve the desired plot preferred for scripting Artist Artist has three layers:]]></description>
 </item>
 <item>
     <title>Comunicacion USB con mbed</title>

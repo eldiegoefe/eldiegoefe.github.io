@@ -9,7 +9,7 @@
     <link>https://eldiegoefe.github.io/b%C3%BAsquedas-con-isearch-en-emacs/</link>
     <pubDate>Wed, 27 May 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/b%C3%BAsquedas-con-isearch-en-emacs/</guid>
     <description><![CDATA[Es una tarea habitual al editar texto el buscar caracteres o palabras. Una de las opciones que ofrece Emacs es la función de búsqueda incremental, que tiene varias formas de inicio.
-   Comando Por defecto Ergoemacs Descripción     isearch-forward C-s C-f solicita los caracteres a buscar   isearch-forward-symbol-at-point M-s . F8 . busca el símbolo bajo el cursor   isearch-forward-word M-s w F8 w busca palabras   isearch-forward-symbol M-s _ F8 _ busca símbolos (símbolos según Emacs)    Al ejecutar uno de estos comandos se entra dentro de un modo en el cual se puede repetir la misma búsqueda o modificarla (en el minibuffer aparece información relativa a este modo, por ejemplo tras ejecutar isearch-forward aparece I-search: para que el usuario ingrese las letras que desea buscar).]]></description>
+Comando Por defecto Ergoemacs Descripción isearch-forward C-s C-f solicita los caracteres a buscar isearch-forward-symbol-at-point M-s . F8 . busca el símbolo bajo el cursor isearch-forward-word M-s w F8 w busca palabras isearch-forward-symbol M-s _ F8 _ busca símbolos (símbolos según Emacs) Al ejecutar uno de estos comandos se entra dentro de un modo en el cual se puede repetir la misma búsqueda o modificarla (en el minibuffer aparece información relativa a este modo, por ejemplo tras ejecutar isearch-forward aparece I-search: para que el usuario ingrese las letras que desea buscar).]]></description>
 </item>
 </channel>
 </rss>
