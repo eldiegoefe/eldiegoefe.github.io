@@ -24,8 +24,8 @@ fichas, media hoja A4 doblada a la mitad, para que en cualquier
 momento libre tenga algo que traducir (sólo miro la parte en
 castellano). Cuando termino puedo abrir la ficha y tengo la solución a
 la vista para autocorregirme rápidamente. Me resulta mucho más
-interesante este sistema que las fichas usadas para memorizar
-significados de palabras (para lo que suele usarse Anki).
+interesante este sistema que el software con fichas digitales para
+memorizar significados de palabras (para lo que suele usarse Anki).
 
 {{< figure
 src="https://live.staticflickr.com/65535/52723881858_b3b5b1f108_b.jpg"

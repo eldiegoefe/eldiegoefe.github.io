@@ -4,14 +4,26 @@
         <link>https://eldiegoefe.github.io/</link>
         <description>Blog del Diego Efe</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Fri, 03 Mar 2023 10:00:00 &#43;0000</lastBuildDate>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 19 Mar 2023 10:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://eldiegoefe.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Gato Verde - Clase 01</title>
+    <link>https://eldiegoefe.github.io/gato-verde-clase-01/</link>
+    <pubDate>Sun, 19 Mar 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/gato-verde-clase-01/</guid>
+    <description><![CDATA[Arranqué un taller de dibujo medio imprevistamente. Venía siguiendo unos cursos online, como el de Draw a Box, y libros como Drawing with Children de Mona Brookes, entre otros). Me puse a buscar cómo usar plumín y tinta china y llegué a un video de Marianoenelmundo: Tutorial básico de plumín y tinta china. Vi que es argentino y ofrece un taller llamado &ldquo;Gato Verde&rdquo;, me puse en contacto con él y un par de días después tuve mi primera clase.]]></description>
+</item>
+<item>
     <title>Género en alemán</title>
     <link>https://eldiegoefe.github.io/g%C3%A9nero-en-alem%C3%A1n/</link>
     <pubDate>Fri, 03 Mar 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/g%C3%A9nero-en-alem%C3%A1n/</guid>
     <description><![CDATA[Hay algunas estrategias útiles para estudiar el género de los sustantivos en alemán. Es importante identificar si un sustantivo es femenino, masculino o neutro porque alteran la terminación de adjetivos y otros modificadores. Es agotador tratar de memorizar el género de cada sustantivo individualmente. Por suerte el idioma tiene algunas características que facilitan la identificación:
 Sufijos (terminaciones de las palabras): hay algunos sufijos que son exclusivamente femeninos, masculinos o neutros. Otros son mayoritariamente de un genero u otro, con algunas excepciones.]]></description>
+</item>
+<item>
+    <title>Materiales para estudiar alemán</title>
+    <link>https://eldiegoefe.github.io/materiales-para-estudiar-alem%C3%A1n/</link>
+    <pubDate>Thu, 16 Feb 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/materiales-para-estudiar-alem%C3%A1n/</guid>
+    <description><![CDATA[Hay múltiples modos de estudiar idiomas, y para hacerlo de modo autodidacta contamos con un montón de material online. El problema es elegir aquellos que nos resultan útiles y de buena calidad. Al final de este post hay una lista de los sitios que más uso (o los que más quiero usar) para recomendarlos y también para no olvidarme cuando pasan algunos meses alejado del idioma (porque mi dedicación es &ldquo;a saltos&rdquo;).]]></description>
 </item>
 <item>
     <title>Instrucciones Hugo</title>
@@ -20,12 +32,6 @@ Sufijos (terminaciones de las palabras): hay algunos sufijos que son exclusivame
     <description><![CDATA[Estas son instrucciones para no olvidarme cómo actualizar este mismo blog. Escribo las entradas y uso Hugo para correr un servidor local e ir corrigiendo / agregando cosas.
 1 $ hugo server Una vez que tengo la versión final, hago una copia de todo el blog en el repositorio &ldquo;Certezas Dudosas&rdquo; en mi cuenta de Bitbucket. Esto me sirve de backup, para no perder nada.
 Luego, para generar los archivos del blog hay que correr Hugo sin modificadores:]]></description>
-</item>
-<item>
-    <title>Materiales para estudiar alemán</title>
-    <link>https://eldiegoefe.github.io/materiales-para-estudiar-alem%C3%A1n/</link>
-    <pubDate>Thu, 16 Jun 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/materiales-para-estudiar-alem%C3%A1n/</guid>
-    <description><![CDATA[Hay múltiples modos de estudiar idiomas, y para hacerlo de modo autodidacta contamos con un montón de material online. El problema es elegir aquellos que nos resultan útiles y de buena calidad. Al final de este post hay una lista de los sitios que más uso (o los que más quiero usar) para recomendarlos y también para no olvidarme cuando pasan algunos meses alejado del idioma (porque mi dedicación es &ldquo;a saltos&rdquo;).]]></description>
 </item>
 <item>
     <title>Formación Activista - Damián Verzeñassi</title>
@@ -67,12 +73,6 @@ Movimientos sobre la linea Tecla Comando Comentario C-a move-beginning-of-line M
     <pubDate>Mon, 01 Mar 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/marichyasana-a/</guid>
     <description><![CDATA[Tengo dudas con Marichyasana A, me parece demasiado fácil, lo cual es sospechoso. Mi impresión es que al desconocer los detalles, aprovecho a compensar de modo tal que si bien externamente la postura se asemeja a la original, no está cumpliendo su propósito. Así que acá va un compendio de la investigación que vengo haciendo&hellip;
 Propósito de la postura Esta asana promueve la apertura de las caderas. Es dificil para quienes cuenten con isquiotibiales muy tensos y acortados.]]></description>
-</item>
-<item>
-    <title>Dead Humanity Walking</title>
-    <link>https://eldiegoefe.github.io/dead-humanity-walking/</link>
-    <pubDate>Sat, 20 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/dead-humanity-walking/</guid>
-    <description><![CDATA[Recuerdo la palpable angustia que sentí en los años ochenta frente a la posibilidad de que alguna de las grandes potencias enfrentadas en la Guerra Fría decidieran ser las primeras en apretar el botón rojo, dando comienzo al suicidio colectivo con el desastre nuclear. Fueron los últimos años de niñez y primeros de la adolescencia, también marcados por la epidemia de SIDA que condimentó con miedo el despertar sexual de nuestra generación.]]></description>
 </item>
 </channel>
 </rss>
