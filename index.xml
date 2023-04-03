@@ -4,9 +4,16 @@
         <link>https://eldiegoefe.github.io/</link>
         <description>Blog del Diego Efe</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Fri, 24 Mar 2023 10:00:00 &#43;0000</lastBuildDate>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Mon, 03 Apr 2023 10:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://eldiegoefe.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Gato Verde - Clase 03</title>
+    <link>https://eldiegoefe.github.io/gato-verde-clase-03/</link>
+    <pubDate>Mon, 03 Apr 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/gato-verde-clase-03/</guid>
+    <description><![CDATA[La tercera clase fue para la aplicación del esqueleto para dibujar personajes en acción. Las primeras dos hojas las inicié durante el taller (dibujo de los esqueletos), y continué con ellas durante la semana.
+Varios (I) Varios (II) Boxeadores Arqueros ]]></description>
+</item>
+<item>
     <title>Gato Verde - Clase 02</title>
     <link>https://eldiegoefe.github.io/gato-verde-clase-02/</link>
     <pubDate>Fri, 24 Mar 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/gato-verde-clase-02/</guid>
@@ -67,12 +74,6 @@ Un problema de la información disponible online es que está centrada por lo ge
     <pubDate>Sun, 27 Mar 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</guid>
     <description><![CDATA[Estoy volviendo a probar Emacs con los atajos de teclado originales, tras años de usar evil-mode y la edición modal propia de VIM (que está buenísima). Lo hago para independizarme de los kits como Doom Emacs y Spacemacs y así retomar el control total sobre la configuración y de paso retomar el estudio de LISP. Esto es un resumen de los atajos de teclado que deseo recordar.
 Movimientos sobre la linea Tecla Comando Comentario C-a move-beginning-of-line Mueve al inicio de la linea C-e move-end-of-line Mueve al final de la linea M-m back-to-indentation Mueve al primer caracter de la linea luego de la indentación Movimientos de distancias cortas: caracteres y lineas Tecla Comando Comentario C-f forward-char Mueve un caracter hacia adelante C-b backward-char Mueve un caracter hacia atrás C-n next-line Mueve hacia la siguiente linea C-p previous-line Mueve hacia la linea previa Movimientos entre palabras Tecla Comando Comentario M-f forward-word Mueve una palabra hacia adelante M-b backward-word Mueve una palabra hacia atrás Me parece preferible usar los que aparecen abajo como &ldquo;Movimiento entre bloques&rdquo; porque saltan entre palabras igual que estos, y no hace falta estar pensando en si el prefijo es Alt o Ctrl.]]></description>
-</item>
-<item>
-    <title>Cambio Vegano (Parte 2)</title>
-    <link>https://eldiegoefe.github.io/cambio-vegano-parte-2/</link>
-    <pubDate>Wed, 09 Mar 2022 00:15:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/cambio-vegano-parte-2/</guid>
-    <description><![CDATA[El veganismo es una posible respuesta humana a los problemas creados por nuestra especie. La propuesta de evitar la explotación animal, desde el consumo alimentario hasta la utilización de cueros, mieles y huevos, aparece como un mandato razonable y respetable. Las razones son múltiples: la ganadería bovina produce toneladas de gases de efecto invernadero y requiere enormes parcelas atiborradas de granos para su alimentación industrial, lo que resulta en tremendas desforestaciones, masivas pérdidas de espacios naturales y biodiversidad.]]></description>
 </item>
 </channel>
 </rss>

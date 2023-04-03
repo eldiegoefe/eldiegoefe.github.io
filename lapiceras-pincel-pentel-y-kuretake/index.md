@@ -64,6 +64,19 @@ Pensándolo mejor, no constituyen una necesidad real. Esta vez me
 parece que voy a sobreponerme a mi consumismo. En todo caso, me voy a
 aprovisionar de pinceles y tintas baratas.
 
+---
+Update, tras un par de días:
+
+Encontré los Pentel a un precio que doblegó mi estoicismo. En
+[Librería Woopy](https://www.woopylibreria.com.ar) los encontré a 1200
+pesos (USD 3). No había negro, pero al ser recargables puedo cambiar
+la tinta por el color que quiera. Veremos...
+
+También encontré los mismos en [Artística
+Rubens](https://www.artisticarubens.com.ar), a un precio más cercano
+al que mencioné antes. Se nota que son remanentes porque en ambos
+lugares quedan pocos colores.
+
 ![Kuretake Bimoji Cambio](https://live.staticflickr.com/65535/52771510960_0870309c6e_z.jpg) 
 
 
