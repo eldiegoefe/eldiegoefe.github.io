@@ -4,9 +4,18 @@
         <link>https://eldiegoefe.github.io/</link>
         <description>Blog del Diego Efe</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Mon, 03 Apr 2023 10:00:00 &#43;0000</lastBuildDate>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Mon, 10 Apr 2023 10:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://eldiegoefe.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Gato Verde - Clase 04</title>
+    <link>https://eldiegoefe.github.io/gato-verde-clase-04/</link>
+    <pubDate>Mon, 10 Apr 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/gato-verde-clase-04/</guid>
+    <description><![CDATA[En la cuarta clase del taller la idea era dibujar personajes en tareas de la vida cotidiana, pero no aislados sino con fondos simples. Sin usar perspectiva sino los frentes o laterales de objetos reconocibles facilmente.
+Viñetas (I) Estas las arranqué en la clase.
+Viñetas (II) También las empecé en la clase, pero no las continué. Ya veremos si otro día las completo.
+Te Busqué online imágenes de personas tomando té.]]></description>
+</item>
+<item>
     <title>Gato Verde - Clase 03</title>
     <link>https://eldiegoefe.github.io/gato-verde-clase-03/</link>
     <pubDate>Mon, 03 Apr 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/gato-verde-clase-03/</guid>
@@ -67,13 +76,6 @@ El lunes 4 de abril de 2022, en el segundo encuentro de la Formación Activista 
     <description><![CDATA[Indagar sobre las múltiples funciones de Emacs es una tarea inevitable. Ya sea para explorar y descubrir comandos útiles, o tras un tiempo alejados del editor durante el que nuestros músculos olvidan hasta los atajos de teclado más cotidianos.
 Por suerte Emacs cuenta con mucha documentación incorporada y si aprendemos a preguntarle, nos responderá todas nuestras dudas sin necesidad de salir a buscar respuestas en la web.
 Un problema de la información disponible online es que está centrada por lo general en los atajos de teclado que vienen por defecto en Emacs (o en los paquetes de terceros que instalemos), y entonces se vuelven inaplicables las sentencias del tipo &ldquo;para salir de Emacs se usa C-x C-c&rdquo;.]]></description>
-</item>
-<item>
-    <title>Movimientos Originales en Emacs</title>
-    <link>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</link>
-    <pubDate>Sun, 27 Mar 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</guid>
-    <description><![CDATA[Estoy volviendo a probar Emacs con los atajos de teclado originales, tras años de usar evil-mode y la edición modal propia de VIM (que está buenísima). Lo hago para independizarme de los kits como Doom Emacs y Spacemacs y así retomar el control total sobre la configuración y de paso retomar el estudio de LISP. Esto es un resumen de los atajos de teclado que deseo recordar.
-Movimientos sobre la linea Tecla Comando Comentario C-a move-beginning-of-line Mueve al inicio de la linea C-e move-end-of-line Mueve al final de la linea M-m back-to-indentation Mueve al primer caracter de la linea luego de la indentación Movimientos de distancias cortas: caracteres y lineas Tecla Comando Comentario C-f forward-char Mueve un caracter hacia adelante C-b backward-char Mueve un caracter hacia atrás C-n next-line Mueve hacia la siguiente linea C-p previous-line Mueve hacia la linea previa Movimientos entre palabras Tecla Comando Comentario M-f forward-word Mueve una palabra hacia adelante M-b backward-word Mueve una palabra hacia atrás Me parece preferible usar los que aparecen abajo como &ldquo;Movimiento entre bloques&rdquo; porque saltan entre palabras igual que estos, y no hace falta estar pensando en si el prefijo es Alt o Ctrl.]]></description>
 </item>
 </channel>
 </rss>
