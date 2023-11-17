@@ -4,7 +4,14 @@
         <link>https://eldiegoefe.github.io/tags/emacs/</link>
         <description>emacs - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sat, 02 Apr 2022 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/emacs/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Mon, 30 Oct 2023 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/emacs/" rel="self" type="application/rss+xml" /><item>
+    <title>Lineas en Emacs - Visual line mode - Auto fill mode</title>
+    <link>https://eldiegoefe.github.io/lineas-en-emacs-visual-line-mode-auto-fill-mode/</link>
+    <pubDate>Mon, 30 Oct 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/lineas-en-emacs-visual-line-mode-auto-fill-mode/</guid>
+    <description><![CDATA[En Emacs las lineas de texto pueden ser:
+visibles: las que terminan en cada linea o renglón lógicas: las que terminan con un Enter. Una linea lógica puede ocupar muchas lineas visibles, y esto hace que algunos comandos de Emacs funcionen de manera distinta en ambos tipos de linea. Por defecto las lineas son lógicas y al escribir uno puede llegar al final de la linea y continuar escribiendo. Aparecen caracteres &ldquo;raros&rdquo; sobre los bordes (para indicar que la linea se continúa).]]></description>
+</item>
+<item>
     <title>Ayuda en Emacs - Aprender o Repasar es Facil</title>
     <link>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</link>
     <pubDate>Sat, 02 Apr 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</guid>
@@ -69,15 +76,6 @@ Leo bastantes blogs sobre Emacs desde que empecé el viaje de aprender a usarlo.
     <pubDate>Mon, 18 May 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/suggestion-about-emacs-tutorials/</guid>
     <description><![CDATA[Para leer este texto en español: click aca
 I read many Emacs blogs since I started the trip of learning it. There are great beginner's tutorials and also webpages for more advanced users. However, there's a habit I find repeatedly on the majority of sites which goes against one of the Almighty Editor advantages: instructions usually refer to default keybindings, like it was invariant that you visit files only with C-x C-f, or like the only admited shortcuts to the beginning and ending of the current line where C-a and C-e, or if the incremental search inevitable required to type C-s.]]></description>
-</item>
-<item>
-    <title>Agenda en Emacs y OrgMode</title>
-    <link>https://eldiegoefe.github.io/agenda-en-emacs-y-orgmode/</link>
-    <pubDate>Mon, 29 Dec 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/agenda-en-emacs-y-orgmode/</guid>
-    <description><![CDATA[Configuracion En el archivo de configuracion de Emacs hay que incluir varios elementos para poder usar la agenda adecuadamente.
-Se pueden seleccionar individualmente los archivos que forman parte de la agenda:
-1 2 (setq org-agenda-files (list &#34;~/mis-archivos-org/apuntes-varios.org&#34; &#34;~/mis-archivos-org/acomodar.org&#34;)) O sino utilizar un directorio completo:
-1 (setq org-agenda-files &#39;(&#34;~/mis-archivos-org&#34;)) Se puede utilizar un archivo en particular para ir anotando al vuelo las ideas que se nos ocurren. Este archivo lo podremos abrir con org-capture (C-c c).]]></description>
 </item>
 </channel>
 </rss>

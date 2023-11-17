@@ -4,7 +4,14 @@
         <link>https://eldiegoefe.github.io/categories/tecnicismos/</link>
         <description>tecnicismos - Categoría - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 11 Dec 2022 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/categories/tecnicismos/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Mon, 30 Oct 2023 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/categories/tecnicismos/" rel="self" type="application/rss+xml" /><item>
+    <title>Lineas en Emacs - Visual line mode - Auto fill mode</title>
+    <link>https://eldiegoefe.github.io/lineas-en-emacs-visual-line-mode-auto-fill-mode/</link>
+    <pubDate>Mon, 30 Oct 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/lineas-en-emacs-visual-line-mode-auto-fill-mode/</guid>
+    <description><![CDATA[En Emacs las lineas de texto pueden ser:
+visibles: las que terminan en cada linea o renglón lógicas: las que terminan con un Enter. Una linea lógica puede ocupar muchas lineas visibles, y esto hace que algunos comandos de Emacs funcionen de manera distinta en ambos tipos de linea. Por defecto las lineas son lógicas y al escribir uno puede llegar al final de la linea y continuar escribiendo. Aparecen caracteres &ldquo;raros&rdquo; sobre los bordes (para indicar que la linea se continúa).]]></description>
+</item>
+<item>
     <title>Instrucciones Hugo</title>
     <link>https://eldiegoefe.github.io/instrucciones-hugo/</link>
     <pubDate>Sun, 11 Dec 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instrucciones-hugo/</guid>
@@ -68,12 +75,6 @@ Se puede usar el comando du para obtener el tamaño de los directorios y encaden
     <description><![CDATA[Para proyectar diseños en madera los carpinteros de YouTube suelen usar SketchUp, que es un software de Google que sólo funciona en Windows y Mac. Busqué algún programa que pueda usar con el mismo fin pero en Linux, y encontré FreeCAD. Estoy siguiendo un buen tutorial en castellano en el canal de Juan Gonzalez Gomez, aca pueden ver el primer video de la serie:
 Algunos apuntes iniciales:
 Luego de iniciar un nuevo proyecto seleccionar el espacio de trabajo Part.]]></description>
-</item>
-<item>
-    <title>Uso de MBED desde la linea de comandos (CLI)</title>
-    <link>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</link>
-    <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</guid>
-    <description><![CDATA[Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora usaba la versión online del compilador con una FRDM-KL25Z, que es una (de las primeras en funcionar con MBED). El problema del compilador online no es que haya que estar conectado a la web (lo vengo usando desde hace mucho y nunca tuve problemas de acceso) sino sus limitadas prestaciones como editor de texto. Por ejemplo, no encontré manera de comentar y des-comentar múltiples lineas de código simultaneamente, algo que necesito hacer con frecuencia.]]></description>
 </item>
 </channel>
 </rss>
