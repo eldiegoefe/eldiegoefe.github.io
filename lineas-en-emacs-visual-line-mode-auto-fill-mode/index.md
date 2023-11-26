@@ -98,6 +98,8 @@ Puede instalarse (y activarse) el paquete *[visual-fill-column](https://github.c
 (add-hook 'visual-line-mode-hook #'visual-fill-column-mode)
 ```
 
+Puede intalarse (y activarse) el paquete *[adaptive-wrap](https://elpa.gnu.org/packages/adaptive-wrap.html)* para mejorar la presentación visual de las listas (para que las lineas queden alineadas con la sangría de su primer renglón). 
+
 Tampoco muestra ningún caracter raro en los bordes para indicar que la linea continua en la siguiente linea *visible*. Esto se puede cambiar con la variable visual-line-mode-fringe-indicators.
 
 Una alternativa de visualización que puede ser útil a veces es truncar las lineas (y que no se vea lo que excede al ancho del buffer). Esto se logra con M-x toggle-truncate-lines.

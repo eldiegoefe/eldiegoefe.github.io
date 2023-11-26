@@ -151,6 +151,58 @@ Sin ningún orden particular\...
 -   [Woodsmith](http://www.woodsmith.com/).
 -   [Shopnotes](http://www.shopnotes.com/).
 
+## Carpintería
+
+Más enlaces de carpintería en: [Mi lista de canales de
+YouTube]({{ ref "2016-11-26-youtube.rst" }}).
+
+### Foros, utilidades y bibliografia
+
+- [Foro de la madera](http://www.foromadera.com)
+- [Sketchup](https://app.sketchup.com/app?hl=en)
+- [Woodworkers Heaven](http://www.cro-wood.com)
+- [Woodwork Forum](http://www.woodworkforums.com) (Australia)
+
+### Comercios
+
+- [Workshop Heaven](https://www.workshopheaven.com)
+- [Infinity Tools](https://www.infinitytools.com)
+- [Amazon (España)](https://www.amazon.es)
+- [Dictum](https://www.dictum.com/en/)
+- [Hock Tools](http://hocktools.com)
+- [Lee Valley](http://www.leevalley.com/en/)
+- [Lie Nielsen](https://www.lie-nielsen.com/)
+- [Axminster](http://www.axminster.co.uk)
+- [Rutlands](http://www.rutlands.co.uk)
+- [Gubia Pe](http://www.gubia.pe)
+- [Old Tools](http://www.oldtools.co.uk)
+- [Highland Woodworking](http://www.highlandwoodworking.com)
+- [Fine Tools](https://www.fine-tools.com)
+- [Woodcraft](https://www.woodcraft.com)
+- [Comercial Pazos](http://www.comercialpazos.com)
+- [Tools from Japan](http://www.toolsfromjapan.com)
+
+### Blogs
+
+- [Artisan
+  Flamingo](https://web.archive.org/web/20120306021939/http://artisanflamingo.blogspot.com/)
+- [Carpintería para
+  aficionados](http://carpinteriaparaaficionados.blogspot.com.ar/)
+- [Brico-Carpintería](http://brico-carpinteria.blogspot.com.ar)
+- [Experimento casa](https://experimentocasa.com)
+- [Sandal Woods](http://sandal-woodsblog.com)
+- [The wood whisperer](http://www.thewoodwhisperer.com)
+- [She works wood](https://sheworkswood.com)
+- [La cabra en la escalera](https://lacabraenlaescalera.wordpress.com)
+- [La casa rota](http://lacasarota.com/blog/)
+- [Técnicas básicas de ebanistería](http://ebanisterialuislaca.blogspot.com.ar)
+
+### Foros
+
+- [El foro de la madera](http://www.foromadera.com/)
+- [Hecho x nostros mismos](http://www.hechoxnosotrosmismos.net/foro/)
+- [Hecho x nostros mismos (viejo)](http://www.hechoxnosotrosmismos.com/)
+
 ## Más
 
 -   [Wood Bin](http://www.woodbin.com/) tiene utilidades (como el
@@ -168,4 +220,14 @@ Sin ningún orden particular\...
 -   [Build something](https://www.buildsomething.com/).
 -   El sitio de [Incra](http://www.incrementaltools.com/), que tiene
     herramientas de precisión.
+
+
+
+
+
+
+
+
+
+
 
