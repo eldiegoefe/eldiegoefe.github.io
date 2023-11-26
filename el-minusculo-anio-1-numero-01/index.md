@@ -1,4 +1,4 @@
-# El Minúsculo - Año 1 - Número 01
+# El Minusculo - Anio 1 - Numero 01
 
 
 # EL MINÚSCULO #
