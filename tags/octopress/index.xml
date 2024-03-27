@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>octopress - Etiqueta - Certezas Dudosas</title>
+        <title>Octopress - Etiqueta - Certezas Dudosas</title>
         <link>https://eldiegoefe.github.io/tags/octopress/</link>
-        <description>octopress - Etiqueta - Certezas Dudosas</description>
+        <description>Octopress - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
             <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/octopress/" rel="self" type="application/rss+xml" /><item>
     <title>Instrucciones para armar un blog geek</title>

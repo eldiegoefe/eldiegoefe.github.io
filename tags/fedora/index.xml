@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>fedora - Etiqueta - Certezas Dudosas</title>
+        <title>Fedora - Etiqueta - Certezas Dudosas</title>
         <link>https://eldiegoefe.github.io/tags/fedora/</link>
-        <description>fedora - Etiqueta - Certezas Dudosas</description>
+        <description>Fedora - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
             <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 09 Feb 2014 11:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/fedora/" rel="self" type="application/rss+xml" /><item>
     <title>Descubriendo Gnome</title>

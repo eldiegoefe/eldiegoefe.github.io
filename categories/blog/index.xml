@@ -1,10 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>blog - Categoría - Certezas Dudosas</title>
+        <title>Blog - Categoría - Certezas Dudosas</title>
         <link>https://eldiegoefe.github.io/categories/blog/</link>
-        <description>blog - Categoría - Certezas Dudosas</description>
+        <description>Blog - Categoría - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sat, 25 Nov 2023 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/categories/blog/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Tue, 19 Mar 2024 18:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/categories/blog/" rel="self" type="application/rss+xml" /><item>
+    <title>La Venus en el Parque Urquiza</title>
+    <link>https://eldiegoefe.github.io/la-venus-en-el-parque-urquiza/</link>
+    <pubDate>Tue, 19 Mar 2024 18:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/la-venus-en-el-parque-urquiza/</guid>
+    <description><![CDATA[Empecé el Seminario Fotográfico Cómo lograr una buena foto que dicta Mauricio Garín, un reconocido fotografo local (y amigo). La primera salida colectiva fue convocada en las inmediaciones de la escultura &ldquo;Venus saliendo del baño&rdquo; ubicada en el Parque Urquiza de Paraná. Teníamos una serie de consignas que incluían fotografiar un mismo objeto con distintos lentes, sacar fotos descriptivas del lugar, de detalles, etc. Cumplí con algunas pero después me dejé llevar por el entusiasmo.]]></description>
+</item>
+<item>
     <title>El Minusculo - Anio 1 - Numero 01</title>
     <link>https://eldiegoefe.github.io/el-minusculo-anio-1-numero-01/</link>
     <pubDate>Sat, 25 Nov 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/el-minusculo-anio-1-numero-01/</guid>
@@ -67,13 +73,6 @@ Sufijos (terminaciones de las palabras): hay algunos sufijos que son exclusivame
     <link>https://eldiegoefe.github.io/dead-humanity-walking/</link>
     <pubDate>Sat, 20 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/dead-humanity-walking/</guid>
     <description><![CDATA[Recuerdo la palpable angustia que sentí en los años ochenta frente a la posibilidad de que alguna de las grandes potencias enfrentadas en la Guerra Fría decidieran ser las primeras en apretar el botón rojo, dando comienzo al suicidio colectivo con el desastre nuclear. Fueron los últimos años de niñez y primeros de la adolescencia, también marcados por la epidemia de SIDA que condimentó con miedo el despertar sexual de nuestra generación.]]></description>
-</item>
-<item>
-    <title>Assimil. El alemán sin esfuerzo</title>
-    <link>https://eldiegoefe.github.io/assimil.-el-alem%C3%A1n-sin-esfuerzo/</link>
-    <pubDate>Wed, 03 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/assimil.-el-alem%C3%A1n-sin-esfuerzo/</guid>
-    <description><![CDATA[Un mismo texto puede permitir varias lecturas y puede estudiarse de múltiples maneras. Así conviene usar, literalmente, el libro para aprender idiomas de la editorial Assimil. El primer absurdo a derrocar es la impresión de que estudiar significa leer una vez. Así nunca nadie aprendió nada. Empecemos por ver cuáles son las instrucciones que el mismo libro trae para su uso.
-Primero indica algo comprobadamente cierto: es mejor estudiar poco todos los días que concentrar horas de estudio en días salteados; y también recomienda no forzarnos, evitar considerar esta actividad como un trabajo y no obligarse a estudiar si estamos mentalmente cansados.]]></description>
 </item>
 </channel>
 </rss>

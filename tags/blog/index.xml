@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>blog - Etiqueta - Certezas Dudosas</title>
+        <title>Blog - Etiqueta - Certezas Dudosas</title>
         <link>https://eldiegoefe.github.io/tags/blog/</link>
-        <description>blog - Etiqueta - Certezas Dudosas</description>
+        <description>Blog - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
             <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 11 Dec 2022 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/blog/" rel="self" type="application/rss+xml" /><item>
     <title>Instrucciones Hugo</title>

@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>electronica - Etiqueta - Certezas Dudosas</title>
+        <title>Electronica - Etiqueta - Certezas Dudosas</title>
         <link>https://eldiegoefe.github.io/tags/electronica/</link>
-        <description>electronica - Etiqueta - Certezas Dudosas</description>
+        <description>Electronica - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
             <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/electronica/" rel="self" type="application/rss+xml" /><item>
     <title>Uso de MBED desde la linea de comandos (CLI)</title>

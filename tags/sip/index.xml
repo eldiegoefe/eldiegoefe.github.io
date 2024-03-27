@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>sip - Etiqueta - Certezas Dudosas</title>
+        <title>Sip - Etiqueta - Certezas Dudosas</title>
         <link>https://eldiegoefe.github.io/tags/sip/</link>
-        <description>sip - Etiqueta - Certezas Dudosas</description>
+        <description>Sip - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
             <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/sip/" rel="self" type="application/rss+xml" /><item>
     <title>Instalacion de PyQt</title>

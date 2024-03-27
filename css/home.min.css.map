@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "home.min.css",
-	"sourceRoot": "/home/diegol/blog/certezas-dudosas",
+	"sourceRoot": "/home/diegol/Syncthing/blog/certezas-dudosas",
 	"sources": [
 		"themes/FeelIt/assets/css/home.scss",
 		"themes/FeelIt/assets/css/_core/_modern-normalize.scss",

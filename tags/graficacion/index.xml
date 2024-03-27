@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>graficacion - Etiqueta - Certezas Dudosas</title>
+        <title>Graficacion - Etiqueta - Certezas Dudosas</title>
         <link>https://eldiegoefe.github.io/tags/graficacion/</link>
-        <description>graficacion - Etiqueta - Certezas Dudosas</description>
+        <description>Graficacion - Etiqueta - Certezas Dudosas</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
             <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 03 Aug 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/graficacion/" rel="self" type="application/rss+xml" /><item>
     <title>Apuntes sobre matplotlib</title>

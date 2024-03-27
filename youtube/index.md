@@ -4,9 +4,6 @@
 Esta es una lista de enlaces a canales de Youtube sobre distintas disciplinas e
 intereses que me gustan, ordenados por categorías.
 
-## Cannabis
--   [Grow Barato](https://www.youtube.com/channel/UCxujVPvwusVMxnPqQ0gTnyA)
-
 ## Carpintería
 
 ### Los más vistos (por mi)
@@ -98,8 +95,6 @@ intereses que me gustan, ordenados por categorías.
 
 ### Más
 
--   [Video Woodworkers](http://videowoodworkers.com) (enlaces a muchos
-    carpinteros)
 -   [Ana White](https://www.youtube.com/user/knockoffwood) (hace Tiny
     Houses)
 -   [BearKat
@@ -361,9 +356,6 @@ intereses que me gustan, ordenados por categorías.
 -   [Fitness Blender](https://www.youtube.com/user/FitnessBlender)
 -   [Fitness FAQ](https://www.youtube.com/user/FitnessFAQs)
 -   [GMB Fitness](https://www.youtube.com/user/GoldMedalBodiesVids)
--   [Hot Sport
-    TV](https://www.youtube.com/channel/UCivwqHpSUdt4VJSdyi8spxQ) (esto
-    es más cercano al porno que al fitness)
 -   [Insane Home
     Fatloss](https://www.youtube.com/user/insanehomefatloss)
 -   [Elena Malova](https://www.youtube.com/user/MalovaElena)
@@ -591,21 +583,11 @@ intereses que me gustan, ordenados por categorías.
     Life](https://www.youtube.com/user/schooloflifechannel)
 -   [Veritasium](https://www.youtube.com/user/1veritasium)
 -   [Vice News](https://www.youtube.com/user/vicenews)
+-   [Marie WirrWarr geWOLLtes](https://www.youtube.com/user/marieI13)
+    (la guardé por un video sobre Knittax)
 
 ### Videos Antiguos
 
 -   [British Pathé](https://www.youtube.com/user/britishpathe)
 
-## Temas
-
--   [Equipos de
-    sonido](https://www.youtube.com/channel/UClwb0x3oktpJan_-Lf6BhTA)
-    (Audio Equipment)
--   [Carpintería](https://www.youtube.com/channel/UCBcXuNW1o3y8aFIRIxxDhwA)
--   [Knitting](https://www.youtube.com/channel/UCzwrqIrXbjAyEs29UxbH7tQ)
--   [Marie WirrWarr geWOLLtes](https://www.youtube.com/user/marieI13)
-    (la guardé por un video sobre Knittax)
--   [Sewing](https://www.youtube.com/channel/UCgmLE3xgw7UwL_k04sLy4ug)
--   [Weaving](https://www.youtube.com/channel/UCFdGyUI29NnTyE4CAadc7WA)
--   [Woodworking](https://www.youtube.com/channel/UCZ7YkfK9mMpjFxNP97_uOYw)
 
