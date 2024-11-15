@@ -8,7 +8,14 @@
     <title>Molestos clicks del mouse (digiKam tips)</title>
     <link>https://eldiegoefe.github.io/molestos-clicks-del-mouse-digikam-tips/</link>
     <pubDate>Fri, 16 Jan 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/molestos-clicks-del-mouse-digikam-tips/</guid>
-    <description><![CDATA[Usar el mouse en digiKam puede producir caspa. Cada vez que hago un click para seleccionar un archivo abre la vista de previsualización (como al apretar F3). Este comportamiento no corresponde exclusivamente a digiKam, sino al escritorio (en mi caso KDE). Para solucionarlo (en KDE) hay que ir a Preferencias del Sistema y en la sección de Hardware entrar al panel de Dispositivos de Entrada. En la siguiente imagen puede verse el lugar donde seleccionar la opción: Una doble pulsación abre archivos y carpetas (una sola pulsación selecciona iconos).]]></description>
+    <description><![CDATA[<p>Usar el mouse en digiKam puede producir caspa. Cada vez que hago un click para
+seleccionar un archivo abre la vista de previsualización (como al apretar F3).
+Este comportamiento no corresponde exclusivamente a digiKam, sino al escritorio
+(en mi caso KDE). Para solucionarlo (en KDE) hay que ir a <strong>Preferencias del
+Sistema</strong> y en la sección de <strong>Hardware</strong> entrar al panel de <strong>Dispositivos de
+Entrada</strong>. En la siguiente imagen puede verse el lugar donde seleccionar la
+opción: <em>Una doble pulsación abre archivos y carpetas (una sola pulsación
+selecciona iconos)</em>.</p>]]></description>
 </item>
 </channel>
 </rss>

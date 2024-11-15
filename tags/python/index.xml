@@ -8,59 +8,176 @@
     <title>Instalacion de PyQt</title>
     <link>https://eldiegoefe.github.io/instalacion-de-pyqt/</link>
     <pubDate>Thu, 19 Apr 2018 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instalacion-de-pyqt/</guid>
-    <description><![CDATA[Este es un post-ayudamemoria para la instalación de PyQt en un entorno virtual. Tengo la impresión de que lo escribí ya en el blog pero no lo encuentro ni con los buscadores más buscados (ag, ack, pt):
-Activar el virtualenv, asumiendo que están instalados pyenv y pyenv-virtualenvs (también tendría que agregar el tutorial para usarlos, pero es demasiado para el propósito del día de hoy, aunque &quot;hoy&quot; no tiene sentido para un texto perdido en la web).]]></description>
+    <description><![CDATA[<p>Este es un post-ayudamemoria para la instalación de PyQt en un entorno virtual.
+Tengo la impresión de que lo escribí ya en el blog pero no lo encuentro ni con
+los buscadores más buscados (ag, ack, pt):</p>
+<ol>
+<li>
+<p>Activar el virtualenv, asumiendo que están instalados pyenv y
+pyenv-virtualenvs (también tendría que agregar el tutorial para
+usarlos, pero es demasiado para el propósito del día de hoy, aunque
+&quot;hoy&quot; no tiene sentido para un texto perdido en la web).
+Supongamos que el entorno se llama &quot;lab&quot;:</p>]]></description>
 </item>
 <item>
     <title>Panel frontal del software</title>
     <link>https://eldiegoefe.github.io/panel-frontal-del-software/</link>
     <pubDate>Thu, 01 Sep 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/panel-frontal-del-software/</guid>
-    <description><![CDATA[Una vez más me encuentro ante el desafío de armar un panel para un programa de análisis de datos, hecho en Python. Lo ideal sería trabajar con lineas de comandos y no tener que estar lidiando con menúes, botones y areas de graficación, pero sería impractico para los usuarios a quienes está destinado el programa. Así que nuevamente tengo que rastrear cómo se arma una pantalla con todas estas cosas.]]></description>
+    <description><![CDATA[<p>Una vez más me encuentro ante el desafío de armar un panel para un programa de
+análisis de datos, hecho en Python. Lo ideal sería trabajar con lineas de
+comandos y no tener que estar lidiando con menúes, botones y areas de
+graficación, pero sería impractico para los usuarios a quienes está destinado el
+programa. Así que nuevamente tengo que rastrear cómo se arma una pantalla con
+todas estas cosas.</p>]]></description>
 </item>
 <item>
     <title>Diccionario de funciones</title>
     <link>https://eldiegoefe.github.io/diccionario-de-funciones/</link>
     <pubDate>Fri, 11 Dec 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/diccionario-de-funciones/</guid>
-    <description><![CDATA[Mientras escribo un programa para manipular imágenes de un microscopio, tuve que ver cómo ejecutar una función distinta, de acuerdo a cierto parámetro. Más concretamente, para procesar las imágenes en algunos casos se necesita un kernel, que es una matriz llena de unos y ceros organizados de acuerdo a la selección de dos parámetros: forma y tamaño. Por ejemplo, un &quot;disco&quot; de radio 3 se vería así:
-[[0 0 0 1 0 0 0] [0 1 1 1 1 1 0] [0 1 1 1 1 1 0] [1 1 1 1 1 1 1] [0 1 1 1 1 1 0] [0 1 1 1 1 1 0] [0 0 0 1 0 0 0]] Y una matriz &quot;cuadrada&quot; de lado 3, así:]]></description>
+    <description><![CDATA[<p>Mientras escribo un programa para manipular imágenes de un microscopio, tuve que
+ver cómo ejecutar una función distinta, de acuerdo a cierto parámetro. Más
+concretamente, para procesar las imágenes en algunos casos se necesita un
+kernel, que es una matriz llena de unos y ceros organizados de acuerdo a la
+selección de dos parámetros: forma y tamaño. Por ejemplo, un &quot;disco&quot; de radio
+3 se vería así:</p>
+<pre><code>[[0 0 0 1 0 0 0]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [1 1 1 1 1 1 1]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [0 0 0 1 0 0 0]]
+</code></pre>
+<p>Y una matriz &quot;cuadrada&quot; de lado 3, así:</p>]]></description>
 </item>
 <item>
     <title>Python en Emacs y otros atajos</title>
     <link>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</link>
     <pubDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</guid>
-    <description><![CDATA[Spacemacs Anaconda-mode: Emacs tiene muchas herramientas para facilitar la programación en Python. En Spacemacs se puede activar anaconda-mode, que habilita una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información en el modeline sobre la función que se está tipeando (muestra los nombres de sus argumentos). Cosas de Anaconda para usar:
-anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca el origen del símbolo bajo el punto. Por ejemplo: si se trata de una función, abre el archivo donde está definida y ubica el punto sobre el encabezado de la misma.]]></description>
+    <description><![CDATA[<h2 id="spacemacs">Spacemacs</h2>
+<ol>
+<li>
+<p>Anaconda-mode: Emacs tiene muchas herramientas para facilitar la
+programación en Python. En Spacemacs se puede activar
+<a href="https://github.com/proofit404/anaconda-mode" target="_blank" rel="noopener noreffer">anaconda-mode</a>, que habilita
+una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información
+en el modeline sobre la función que se está tipeando (muestra los nombres de
+sus argumentos). Cosas de Anaconda para usar:</p>
+<ul>
+<li>anaconda-mode-complete (C-M-i)</li>
+<li>anaconda-mode-find-definitions (SPC m g g): busca el origen del
+símbolo bajo el punto. Por ejemplo: si se trata de una función,
+abre el archivo donde está definida y ubica el punto sobre el
+encabezado de la misma.</li>
+<li>anaconda-mode-find-assignments</li>
+<li>anaconda-mode-find-references</li>
+<li>anaconda-mode-go-back</li>
+<li>anaconda-mode-show-doc</li>
+</ul>
+</li>
+<li>
+<p>Entornos virtuales: se puede activar un entorno virtual donde correr
+el programa que se está desarrollando con SPC m V (pyvenv-workon,
+pero en este caso no aparecen correctamente todas las opciones, al
+menos no veo los entornos que instalé con pyenv), o también con SPC
+m v s (pyenv-mode-set, en este caso sí se ven los entornos de
+pyenv).</p>]]></description>
 </item>
 <item>
     <title>Listas en Python</title>
     <link>https://eldiegoefe.github.io/listas-en-python/</link>
     <pubDate>Wed, 15 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/listas-en-python/</guid>
-    <description><![CDATA[Apuntes del capítulo 10. Lists, de Think Python.
-Traversing To traverse es el verbo que se refiere al acceso secuencial de los elementos de una lista. La siguiente es una forma de &quot;traversear&quot; una lista:
-1 2 for cheese in cheeses: print cheese Si se necesita modificar algún elemento de la lista es mejor hacer:
-1 2 for i in range(len(numbers)): numbers[i] = numers[i] * 2 Agregar elementos a una lista Se pueden agregar elementos individuales a una lista con append.]]></description>
+    <description><![CDATA[<p>Apuntes del capítulo 10. Lists, de Think Python.</p>
+<h2 id="traversing">Traversing</h2>
+<p><em>To traverse</em> es el verbo que se refiere al acceso secuencial de los
+elementos de una lista. La siguiente es una forma de &quot;traversear&quot; una
+lista:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">for</span> <span class="n">cheese</span> <span class="ow">in</span> <span class="n">cheeses</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">       <span class="nb">print</span> <span class="n">cheese</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Si se necesita modificar algún elemento de la lista es mejor hacer:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)):</span>
+</span></span><span class="line"><span class="cl">       <span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">numers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="agregar-elementos-a-una-lista">Agregar elementos a una lista</h2>
+<p>Se pueden agregar elementos individuales a una lista con <em>append</em>.</p>]]></description>
 </item>
 <item>
     <title>Autoaprendizajes</title>
     <link>https://eldiegoefe.github.io/autoaprendizajes/</link>
     <pubDate>Fri, 10 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/autoaprendizajes/</guid>
-    <description><![CDATA[No recuerdo en qué momento fue que pronuncié las palabras mágicas, pero cuando sea que haya ocurrido, se abrieron portales hacia temas inexplorados dentro de un mundo que creía conocer.
-En los últimos meses (¿10? ¿20?) me encontré con:
-un lenguaje de programación fantástico por su sencillez y potencia (Python), junto con un conjunto de librerías para tareas científicas: matplotlib, numpy, pandas, etc. la idea del control de versiones (que es una herramienta magnífica para quienes escribimos todo tipo de textos que al ir corrigiendo dejan una huella dificil de seguir desde su versión inicial hacia su versión actual, ya sea que se trate de programas, entradas de blog o informes científicos o técnicos).]]></description>
+    <description><![CDATA[<p>No recuerdo en qué momento fue que pronuncié las palabras mágicas, pero cuando
+sea que haya ocurrido, se abrieron portales hacia temas inexplorados dentro de
+un mundo que creía conocer.</p>
+<p>En los últimos meses (¿10? ¿20?) me encontré con:</p>
+<ul>
+<li>un lenguaje de programación fantástico por su sencillez y potencia
+(<a href="https://www.python.org/" target="_blank" rel="noopener noreffer">Python</a>), junto con un conjunto de
+librerías para tareas científicas: matplotlib, numpy, pandas, etc.</li>
+<li>la idea del control de versiones (que es una herramienta magnífica
+para quienes escribimos todo tipo de textos que al ir corrigiendo
+dejan una huella dificil de seguir desde su versión inicial hacia su
+versión actual, ya sea que se trate de programas, entradas de blog o
+informes científicos o técnicos). En particular Git y
+<a href="https://github.com/" target="_blank" rel="noopener noreffer">GitHub</a>.</li>
+<li>el deseo de colaborar en el desarrollo colectivo de software, cosa
+que creo que en el futuro de mediano plazo espero concretar.</li>
+</ul>
+<p>Avancé con el aprendizaje de Emacs (con
+<a href="http://batsov.com/prelude/" target="_blank" rel="noopener noreffer">Prelude</a>, actualmente en uso, y
+<a href="http://ergoemacs.org/" target="_blank" rel="noopener noreffer">Ergoemacs</a>, que por el momento dejé de usar pero
+igual creo que está buenísimo, de ahí surgió el interés por los teclados
+con distribución <a href="http://es.wikipedia.org/wiki/Teclado_Dvorak" target="_blank" rel="noopener noreffer">Dvorak</a>
+que uso actualmente), descubrí el <a href="http://ipython.org/" target="_blank" rel="noopener noreffer">IPython
+Notebook</a> (y encadenado con eso ahora descubrí el
+lenguaje <a href="http://julialang.org/" target="_blank" rel="noopener noreffer">Julia</a>). Aca pueden ver una imagen del
+IPython Notebook mientras lo usaba para un trabajo de Dosimetría.</p>]]></description>
 </item>
 <item>
     <title>Apuntes sobre matplotlib</title>
     <link>https://eldiegoefe.github.io/apuntes-sobre-matplotlib/</link>
     <pubDate>Sun, 03 Aug 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/apuntes-sobre-matplotlib/</guid>
-    <description><![CDATA[Estos son algunos apuntes extraidos principalmente del tutorial de Artist.
-Matplotlib Matplotlib is the whole package
-pylab a module in matplotlib installed alongside matplotlib preferred for interactive calculations and plotting matplotlib.pyplot a module in matplotlib provides the state machine interface to the underlying plotting library in matplotlib combines the pyplot functionality (for plotting) with numpy functionality in a single namespace figures and axes are implicitly and automatically created to achieve the desired plot preferred for scripting Artist Artist has three layers:]]></description>
+    <description><![CDATA[<p>Estos son algunos apuntes extraidos principalmente del <a href="http://matplotlib.org/users/artists.html" target="_blank" rel="noopener noreffer">tutorial de Artist</a>.</p>
+<h3 id="matplotlib">Matplotlib</h3>
+<p>Matplotlib is the whole package</p>
+<h3 id="pylab"><strong>pylab</strong></h3>
+<ul>
+<li>a module in matplotlib</li>
+<li>installed alongside matplotlib</li>
+<li>preferred for interactive calculations and plotting</li>
+</ul>
+<h3 id="matplotlibpyplot"><strong>matplotlib.pyplot</strong></h3>
+<ul>
+<li>a module in matplotlib provides the state machine interface to the
+underlying plotting library in matplotlib</li>
+<li>combines the pyplot functionality (for plotting) with numpy
+functionality in a single namespace</li>
+<li>figures and axes are implicitly and automatically created to achieve
+the desired plot</li>
+<li>preferred for scripting</li>
+</ul>
+<h2 id="artist">Artist</h2>
+<p>Artist has three layers:</p>]]></description>
 </item>
 <item>
     <title>Comunicacion USB con mbed</title>
     <link>https://eldiegoefe.github.io/comunicacion-usb-con-mbed/</link>
     <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comunicacion-usb-con-mbed/</guid>
-    <description><![CDATA[La comunicación mediante USB con microcontroladores me viene un escollo permanente. El protocolo en sí tiene una complejidad que dispuesto a dedicarle, sobre todo porque empecé a leer varias veces sobre el mismo y siempre me encuentro dando vueltas alrededor de detalles que parecen demasiado específicos y alejados de lo que yo necesito lograr. Decidí hacer la prueba con mbed, ya que tengo una placa kinetis frdm-kl25z de freescale, con la cual hay unos ejemplos de comunicación que parecen muy sencillos.]]></description>
+    <description><![CDATA[<p>La comunicación mediante USB con microcontroladores me viene un escollo permanente. El protocolo en sí tiene una complejidad que dispuesto a dedicarle, sobre todo porque empecé a leer varias veces sobre el mismo y siempre me encuentro dando vueltas alrededor de detalles que parecen demasiado específicos y alejados de lo que yo necesito lograr. Decidí hacer la prueba con mbed, ya que tengo una placa kinetis frdm-kl25z de freescale, con la cual hay unos ejemplos de comunicación que parecen muy sencillos.</p>]]></description>
 </item>
 </channel>
 </rss>

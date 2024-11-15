@@ -8,7 +8,15 @@
     <title>Uso de MBED desde la linea de comandos (CLI)</title>
     <link>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</link>
     <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</guid>
-    <description><![CDATA[Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora usaba la versión online del compilador con una FRDM-KL25Z, que es una (de las primeras en funcionar con MBED). El problema del compilador online no es que haya que estar conectado a la web (lo vengo usando desde hace mucho y nunca tuve problemas de acceso) sino sus limitadas prestaciones como editor de texto. Por ejemplo, no encontré manera de comentar y des-comentar múltiples lineas de código simultaneamente, algo que necesito hacer con frecuencia.]]></description>
+    <description><![CDATA[<p>Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora
+usaba <a href="https://developer.mbed.org/" target="_blank" rel="noopener noreffer">la versión online del compilador</a> con una
+FRDM-KL25Z, que es una (de las primeras en funcionar con MBED). El problema del
+compilador online no es que haya que estar conectado a la web (lo vengo usando
+desde hace mucho y nunca tuve problemas de acceso) sino sus limitadas
+prestaciones como editor de texto. Por ejemplo, no encontré manera de comentar y
+des-comentar múltiples lineas de código simultaneamente, algo que necesito hacer
+con frecuencia. Por esto mismo prefiero el editor que uso para el resto de mis
+actividades: Emacs, y esto lo puedo hacer con el nuevo compilador offline.</p>]]></description>
 </item>
 </channel>
 </rss>

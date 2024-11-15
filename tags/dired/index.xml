@@ -8,8 +8,26 @@
     <title>Comandante Emacs (dired-mode)</title>
     <link>https://eldiegoefe.github.io/comandante-emacs-dired-mode/</link>
     <pubDate>Fri, 26 Dec 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comandante-emacs-dired-mode/</guid>
-    <description><![CDATA[Estuve un rato largo (¡horas!) viendo cómo usar el modo &quot;dired&quot; que tiene Emacs para el manejo de archivos, porque quiero usarlo al modo del viejo Comandante Norton (y sus clones: Total Commander en Window$, Krusader especialmente para KDE, etc). Es decir: dos paneles que sirven de inicio y de destino para poder copiar y mover archivos, crear directorios, navegarlos, etc.
-Buffer mostrando un directorio con dired-mode Lo primero que hice fue instalar un paquete que amplía las opciones disponibles llamado dired+ (dired plus) y después instalé otra extensión llamada dired-sort-menu.]]></description>
+    <description><![CDATA[<p>Estuve un rato largo (¡horas!) viendo cómo usar el modo &quot;dired&quot; que tiene
+Emacs para el manejo de archivos, porque quiero usarlo al modo del viejo
+Comandante Norton (y sus clones: Total Commander en Window$, Krusader
+especialmente para KDE, etc). Es decir: dos paneles que sirven de inicio y de
+destino para poder copiar y mover archivos, crear directorios, navegarlos, etc.</p>
+<figure><figcaption>
+      <h4>Buffer mostrando un directorio con dired-mode</h4>
+    </figcaption>
+</figure>
+
+<p>Lo primero que hice fue instalar un paquete que amplía las opciones
+disponibles llamado dired+ (dired plus) y después instalé otra extensión
+llamada dired-sort-menu. La información sobre la instalación de estos
+paquetes da por supuesto que uno ya tiene experiencia en Emacs, y a
+pesar de que yo lo uso hace casi un año y he instalado y desinstalado
+muchas extensiones, estuve un rato para darme cuenta de algo que no
+figura en <a href="http://www.emacswiki.org/emacs/DiredPlus" target="_blank" rel="noopener noreffer">la página de
+dired+</a>. En el archivo de
+configuración de Emacs (init.el, custom.el o el que estemos utilizando)
+es imprescindible agregar la orden siguiente:</p>]]></description>
 </item>
 </channel>
 </rss>

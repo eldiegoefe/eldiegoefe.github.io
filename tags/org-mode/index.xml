@@ -8,32 +8,82 @@
     <title>Más sobre agenda en org-mode</title>
     <link>https://eldiegoefe.github.io/m%C3%A1s-sobre-agenda-en-org-mode/</link>
     <pubDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/m%C3%A1s-sobre-agenda-en-org-mode/</guid>
-    <description><![CDATA[Para el uso de la agenda en org-mode, voy a listar las cosas que uso con frecuencia. Además, en este link hay un resumen de comandos de org-mode muy completo.
-Inserción Atajos de teclado &quot;convencionales&quot; de org-mode (funcionan con Spacemacs).
-capturar una nota en el inbox: C-c c links: C-c C-l etiqueta de To-Do (empezado, hibernando, completado, etc): C-c C-t schedule: C-c C-s deadline: C-c C-d Para agregar:
-Refile: cómo llevar las notas del inbox a su destino final.]]></description>
+    <description><![CDATA[<p>Para el uso de la agenda en org-mode, voy a listar las cosas que uso con
+frecuencia. Además, en este link hay un resumen de comandos de org-mode muy
+completo.</p>
+<h2 id="inserción">Inserción</h2>
+<p>Atajos de teclado &quot;convencionales&quot; de org-mode (funcionan con
+Spacemacs).</p>
+<ul>
+<li>capturar una nota en el inbox: C-c c</li>
+<li>links: C-c C-l</li>
+<li>etiqueta de To-Do (empezado, hibernando, completado, etc): C-c C-t</li>
+<li>schedule: C-c C-s</li>
+<li>deadline: C-c C-d</li>
+</ul>
+<p>Para agregar:</p>
+<ul>
+<li>Refile: cómo llevar las notas del inbox a su destino final.</li>
+</ul>
+<h2 id="generación-de-enlaces">Generación de enlaces</h2>
+<p>Atajos de teclado sólo de Spacemacs.</p>]]></description>
 </item>
 <item>
     <title>Agenda en Emacs y OrgMode</title>
     <link>https://eldiegoefe.github.io/agenda-en-emacs-y-orgmode/</link>
     <pubDate>Mon, 29 Dec 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/agenda-en-emacs-y-orgmode/</guid>
-    <description><![CDATA[Configuracion En el archivo de configuracion de Emacs hay que incluir varios elementos para poder usar la agenda adecuadamente.
-Se pueden seleccionar individualmente los archivos que forman parte de la agenda:
-1 2 (setq org-agenda-files (list &#34;~/mis-archivos-org/apuntes-varios.org&#34; &#34;~/mis-archivos-org/acomodar.org&#34;)) O sino utilizar un directorio completo:
-1 (setq org-agenda-files &#39;(&#34;~/mis-archivos-org&#34;)) Se puede utilizar un archivo en particular para ir anotando al vuelo las ideas que se nos ocurren. Este archivo lo podremos abrir con org-capture (C-c c).]]></description>
+    <description><![CDATA[<h2 id="configuracion">Configuracion</h2>
+<p>En el archivo de configuracion de Emacs hay que incluir varios elementos
+para poder usar la agenda adecuadamente.</p>
+<p>Se pueden seleccionar individualmente los archivos que forman parte de
+la agenda:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-files</span> <span class="p">(</span><span class="nc">list</span> <span class="s">&#34;~/mis-archivos-org/apuntes-varios.org&#34;</span>
+</span></span><span class="line"><span class="cl">                             <span class="s">&#34;~/mis-archivos-org/acomodar.org&#34;</span><span class="p">))</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>O sino utilizar un directorio completo:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-files</span> <span class="o">&#39;</span><span class="p">(</span><span class="s">&#34;~/mis-archivos-org&#34;</span><span class="p">))</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Se puede utilizar un archivo en particular para ir anotando al vuelo las
+ideas que se nos ocurren. Este archivo lo podremos abrir con
+<em>org-capture</em> (C-c c). Esto nos permite volcar lo que tenemos en la
+cabeza y dejar para después su clasificación, de manera de no perder la
+idea e interrumpir nuestro flujo de trabajo lo menos posible. La nota se
+cierra con C-c C-c y se vuelve al mismo buffer donde estabamos al
+iniciar la captura.</p>]]></description>
 </item>
 <item>
     <title>Pandoc, conversión de org-mode a restructuredtext</title>
     <link>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
     <pubDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
-    <description><![CDATA[Pandoc es un software para hacer conversión de archivos de texto entre distintos lenguajes de markup. Me viene bien probarlo porque me gustaría escribir mis entradas del blog desde org-mode (que uso con mucha frecuencia) y obtener el mismo texto en versión restructuredText, que es el formato en el que escribo el blog (con Pelican).
-La instalación de Pandoc requirió un pequeño ajuste respecto de lo habitual en Manjaro, ya que el programa no estaba disponible desde los repositorios que vienen por defecto.]]></description>
+    <description><![CDATA[<p>Pandoc es un software para hacer conversión de archivos de texto entre distintos
+lenguajes de markup. Me viene bien probarlo porque me gustaría escribir mis
+entradas del blog desde org-mode (que uso con mucha frecuencia) y obtener el
+mismo texto en versión restructuredText, que es el formato en el que escribo el
+blog (con Pelican).</p>
+<p>La instalación de Pandoc requirió un pequeño ajuste respecto de lo habitual en
+Manjaro, ya que el programa no estaba disponible desde los repositorios que
+vienen por defecto. Tuve que hacer los ajustes que se describen en <a href="https://wiki.archlinux.org/index.php/ArchHaskell" target="_blank" rel="noopener noreffer">la wiki de
+Arch</a>. Estos fueron los 5
+pasos:</p>]]></description>
 </item>
 <item>
     <title>Generar pdf en español desde org-mode</title>
     <link>https://eldiegoefe.github.io/generar-pdf-en-espa%C3%B1ol-desde-org-mode/</link>
     <pubDate>Wed, 06 Aug 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/generar-pdf-en-espa%C3%B1ol-desde-org-mode/</guid>
-    <description><![CDATA[Escribí un documento en org-mode (un modo mayor de emacs), porque permite exportar en formato pdf y escribir todo en texto plano. Es realmente una maravilla, se pueden escribir fórmulas en LaTeX, y organizar la estructura del documento usando títulos precedidos de uno o más asteriscos para indicar su nivel (si es un título principal, un subtitulo, un subsubtítulo, etc.). Hasta genera automáticamente una tabla de contenidos con todos estos títulos al hacer la exportación del documento (keybinding: C-c C-e l o).]]></description>
+    <description><![CDATA[<p>Escribí un documento en org-mode (un modo mayor de emacs), porque permite exportar en formato pdf y escribir todo en texto plano. Es realmente una maravilla, se pueden escribir fórmulas en LaTeX, y organizar la estructura del documento usando títulos precedidos de uno o más asteriscos para indicar su nivel (si es un título principal, un subtitulo, un subsubtítulo, etc.). Hasta genera automáticamente una tabla de contenidos con todos estos títulos al hacer la exportación del documento (keybinding: C-c C-e l o).</p>]]></description>
 </item>
 </channel>
 </rss>

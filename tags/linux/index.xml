@@ -8,43 +8,115 @@
     <title>Peso de los directorios en Linux</title>
     <link>https://eldiegoefe.github.io/peso-de-los-directorios-en-linux/</link>
     <pubDate>Sun, 03 Sep 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/peso-de-los-directorios-en-linux/</guid>
-    <description><![CDATA[Se me está por llenar el disco rígido externo, donde tengo fotos, películas, documentos y demás. Un terabyte de porquerías, pero nada que quiera borrar. ¿O sí? Ir directorio por directorio es tedioso y puede volverse una tarea abrumadora si aparecen muchos subdirectorios anidados con incierto contenido dentro de los mismos.
-Se puede usar el comando du para obtener el tamaño de los directorios y encadenarlo con un sort para que el resultado aparezca ordenado por el tamaño de los mismos:]]></description>
+    <description><![CDATA[<p>Se me está por llenar el disco rígido externo, donde tengo fotos, películas,
+documentos y demás. Un terabyte de porquerías, pero nada que quiera borrar. ¿O
+sí? Ir directorio por directorio es tedioso y puede volverse una tarea
+abrumadora si aparecen muchos subdirectorios anidados con incierto contenido
+dentro de los mismos.</p>
+<p>Se puede usar el comando <em>du</em> para obtener el tamaño de los directorios
+y encadenarlo con un <em>sort</em> para que el resultado aparezca ordenado por
+el tamaño de los mismos:</p>]]></description>
 </item>
 <item>
     <title>Backup con RSync</title>
     <link>https://eldiegoefe.github.io/backup-con-rsync/</link>
     <pubDate>Wed, 21 Jun 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/backup-con-rsync/</guid>
-    <description><![CDATA[RSync es un programa que permite copiar archivos, pero a diferencia de un copiado común, compara los archivos de origen y destino y sólo realiza la transferencia de la diferencia entre ambos: si son iguales no transfiere nada, si es un archivo de texto y se agregó sólo un caracter, RSync envía unicamente ese caracter y reconstruye el archivo en el destino para que ambas copias sean exactamente iguales. De este modo el procedimiento es más eficiente, en particular si se copian archivos grandes.]]></description>
+    <description><![CDATA[<p>RSync es un programa que permite copiar archivos, pero a diferencia de un
+copiado común, compara los archivos de origen y destino y sólo realiza la
+transferencia de la diferencia entre ambos: si son iguales no transfiere nada,
+si es un archivo de texto y se agregó sólo un caracter, RSync envía unicamente
+ese caracter y reconstruye el archivo en el destino para que ambas copias sean
+exactamente iguales. De este modo el procedimiento es más eficiente, en
+particular si se copian archivos grandes. La copia se puede realizar entre
+cualquier directorio de origen y destino, ya sea que se encuentren en un mismo
+disco rígido, en diferentes discos en una misma computadora o también entre una
+máquina local y una remota (o viceversa).</p>]]></description>
 </item>
 <item>
     <title>Autoaprendizajes</title>
     <link>https://eldiegoefe.github.io/autoaprendizajes/</link>
     <pubDate>Fri, 10 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/autoaprendizajes/</guid>
-    <description><![CDATA[No recuerdo en qué momento fue que pronuncié las palabras mágicas, pero cuando sea que haya ocurrido, se abrieron portales hacia temas inexplorados dentro de un mundo que creía conocer.
-En los últimos meses (¿10? ¿20?) me encontré con:
-un lenguaje de programación fantástico por su sencillez y potencia (Python), junto con un conjunto de librerías para tareas científicas: matplotlib, numpy, pandas, etc. la idea del control de versiones (que es una herramienta magnífica para quienes escribimos todo tipo de textos que al ir corrigiendo dejan una huella dificil de seguir desde su versión inicial hacia su versión actual, ya sea que se trate de programas, entradas de blog o informes científicos o técnicos).]]></description>
+    <description><![CDATA[<p>No recuerdo en qué momento fue que pronuncié las palabras mágicas, pero cuando
+sea que haya ocurrido, se abrieron portales hacia temas inexplorados dentro de
+un mundo que creía conocer.</p>
+<p>En los últimos meses (¿10? ¿20?) me encontré con:</p>
+<ul>
+<li>un lenguaje de programación fantástico por su sencillez y potencia
+(<a href="https://www.python.org/" target="_blank" rel="noopener noreffer">Python</a>), junto con un conjunto de
+librerías para tareas científicas: matplotlib, numpy, pandas, etc.</li>
+<li>la idea del control de versiones (que es una herramienta magnífica
+para quienes escribimos todo tipo de textos que al ir corrigiendo
+dejan una huella dificil de seguir desde su versión inicial hacia su
+versión actual, ya sea que se trate de programas, entradas de blog o
+informes científicos o técnicos). En particular Git y
+<a href="https://github.com/" target="_blank" rel="noopener noreffer">GitHub</a>.</li>
+<li>el deseo de colaborar en el desarrollo colectivo de software, cosa
+que creo que en el futuro de mediano plazo espero concretar.</li>
+</ul>
+<p>Avancé con el aprendizaje de Emacs (con
+<a href="http://batsov.com/prelude/" target="_blank" rel="noopener noreffer">Prelude</a>, actualmente en uso, y
+<a href="http://ergoemacs.org/" target="_blank" rel="noopener noreffer">Ergoemacs</a>, que por el momento dejé de usar pero
+igual creo que está buenísimo, de ahí surgió el interés por los teclados
+con distribución <a href="http://es.wikipedia.org/wiki/Teclado_Dvorak" target="_blank" rel="noopener noreffer">Dvorak</a>
+que uso actualmente), descubrí el <a href="http://ipython.org/" target="_blank" rel="noopener noreffer">IPython
+Notebook</a> (y encadenado con eso ahora descubrí el
+lenguaje <a href="http://julialang.org/" target="_blank" rel="noopener noreffer">Julia</a>). Aca pueden ver una imagen del
+IPython Notebook mientras lo usaba para un trabajo de Dosimetría.</p>]]></description>
 </item>
 <item>
     <title>Instalacion de Linux</title>
     <link>https://eldiegoefe.github.io/instalacion-de-linux/</link>
     <pubDate>Wed, 06 Aug 2014 11:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instalacion-de-linux/</guid>
-    <description><![CDATA[No es difícil encontrar la información para la instalación de Linux, pero hay distintas maneras y quiero dejar registrada la forma en que lo estoy haciendo actualmente. Los pasos que sigo son:
-Bajar el ISO (el archivo imagen) de la distribución que quiero instalar, en este caso es Linux Mint 17. Formatear en FAT32 el pendrive mediante el programa GParted. Con el programa UNETBOOTIN se pasa la imagen al pendrive (hay que elegir el archivo ISO como fuente).]]></description>
+    <description><![CDATA[<p>No es difícil encontrar la información para la instalación de Linux, pero hay distintas maneras y quiero dejar registrada la forma en que lo estoy haciendo actualmente. Los pasos que sigo son:</p>
+<ol>
+<li>Bajar el ISO (el archivo imagen) de la distribución que quiero
+instalar, en este caso es Linux Mint 17.</li>
+<li>Formatear en FAT32 el pendrive mediante el programa GParted.</li>
+<li>Con el programa UNETBOOTIN se pasa la imagen al pendrive (hay que
+elegir el archivo ISO como fuente).</li>
+</ol>
+<p>Luego ya es cuestión de setear la PC para que arranque con el pendrive y
+seguir las instrucciones que aparezcan en pantalla.</p>]]></description>
 </item>
 <item>
     <title>Descubriendo Gnome</title>
     <link>https://eldiegoefe.github.io/descubriendo-gnome/</link>
     <pubDate>Sun, 09 Feb 2014 11:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/descubriendo-gnome/</guid>
-    <description><![CDATA[Empecé a tomarle el gustito a Fedora y Gnome. Al principio (24 horas atrás) el mouse parecía haber alcanzado un inoportuno grado de independencia porque se tendía a ir a la esquina superior izquierda (la “hot corner”) y se habilitaba el menú de Actividades. Para solucionarlo encontré un sitio desde el cual se instalan las extensiones de GNOME, que es un gran descubrimiento en sí mismo.
-Primero lo primero: instale 'No Topleft Hot Corner'.]]></description>
+    <description><![CDATA[<p>Empecé a tomarle el gustito a Fedora y Gnome. Al principio (24 horas atrás) el
+mouse parecía haber alcanzado un inoportuno grado de independencia porque se
+tendía a ir a la esquina superior izquierda (la “hot corner”) y se habilitaba el
+menú de Actividades. Para solucionarlo encontré <a href="https://extensions.gnome.org" target="_blank" rel="noopener noreffer">un
+sitio</a> desde el cual se instalan las extensiones
+de GNOME, que es un gran descubrimiento en sí mismo.</p>
+<p>Primero lo primero: instale 'No Topleft Hot Corner'. Me resulto
+llamativo que la instalación se realiza moviendo un switch que aparece
+junto al nombre de la extensión desde la propia página web (y que tiene
+también el texto ON u OFF de acuerdo a si ya esta instalado o no). Un
+detalle es que me anduvo bien desde Firefox, pero no desde Chrome (me
+doy bronca, porque todavía no instalé Opera, y es mi navegador de
+cabecera).</p>]]></description>
 </item>
 <item>
     <title>Dónde están los programas en Linux</title>
     <link>https://eldiegoefe.github.io/d%C3%B3nde-est%C3%A1n-los-programas-en-linux/</link>
     <pubDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/d%C3%B3nde-est%C3%A1n-los-programas-en-linux/</guid>
-    <description><![CDATA[Los directorios típicos son los siguientes, aunque hay variaciones en las distintas distribuciones de linux:
-[/bin] ejecutables (Essential commands that everyone needs to use at any time) [/usr] A complex hierarchy of additional programs and files. [/usr/bin] normal user executables. The commands that aren&rsquo;t essential for users but are useful [/sbin] (superuser core executables) The commands the system Administrator needs access to. [/usr/sbin] (superuser executables). The commands that aren&rsquo;t essential for Administrators but are useful.]]></description>
+    <description><![CDATA[<p>Los directorios típicos son los siguientes, aunque hay variaciones en las
+distintas distribuciones de linux:</p>
+<ul>
+<li>[/bin] ejecutables (Essential commands that everyone needs to use at any time)</li>
+<li>[/usr] A complex hierarchy of additional programs and files.</li>
+<li>[/usr/bin] normal user executables. The commands that aren&rsquo;t essential for
+users but are useful</li>
+<li>[/sbin] (superuser core executables) The commands the system Administrator
+needs access to.</li>
+<li>[/usr/sbin] (superuser executables). The commands that aren&rsquo;t essential for
+Administrators but are useful.</li>
+<li>Library files: (semi-equivalent to windows dll's) [/lib], [/usr/lib], etc.</li>
+<li>Configuration files: [/etc/]</li>
+<li>[/run/media] es en donde se montan las unidades portátiles, como el rígido
+externo y el pendrive</li>
+</ul>
+<p>También se le puede preguntar al sistema dónde está instalado un paquete:</p>]]></description>
 </item>
 </channel>
 </rss>

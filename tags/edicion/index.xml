@@ -8,8 +8,15 @@
     <title>Escritorio cómodo y atajos de teclado</title>
     <link>https://eldiegoefe.github.io/escritorio-c%C3%B3modo-y-atajos-de-teclado/</link>
     <pubDate>Wed, 08 Oct 2014 11:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/escritorio-c%C3%B3modo-y-atajos-de-teclado/</guid>
-    <description><![CDATA[Me cuesta encontrar un modo cómodo de trabajar con Emacs y otros programas en KDE. Como creo que voy encontrando cosas que me resultan funcionales, las resumo aca.
-Sirve trabajar con 4 workspaces (areas de trabajo) en KDE. En el espacio 1 tengo el navegador, en el 2 tengo Emacs y en el 4 tengo un terminal. Cambio de espacio con C-7 (espacio 1), C-8 (espacio 2), C-9 (espacio 3) y C-0 (espacio 4).]]></description>
+    <description><![CDATA[<p>Me cuesta encontrar un modo cómodo de trabajar con Emacs y otros programas en
+KDE. Como creo que voy encontrando cosas que me resultan funcionales, las resumo
+aca.</p>
+<p>Sirve trabajar con 4 workspaces (areas de trabajo) en KDE. En el espacio
+1 tengo el navegador, en el 2 tengo Emacs y en el 4 tengo un terminal.
+Cambio de espacio con C-7 (espacio 1), C-8 (espacio 2), C-9 (espacio 3)
+y C-0 (espacio 4). Para mover la ventana de un programa a un espacio de
+trabajo lo hago con M-7, M-8, M-9 y M-0 (los fans de emacs saben que M
+es Meta, y que eso significa en un teclado convencional la tecla Alt).</p>]]></description>
 </item>
 </channel>
 </rss>

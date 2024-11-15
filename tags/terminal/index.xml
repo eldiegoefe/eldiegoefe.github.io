@@ -8,8 +8,14 @@
     <title>Mageia y Manjaro</title>
     <link>https://eldiegoefe.github.io/mageia-y-manjaro/</link>
     <pubDate>Wed, 22 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/mageia-y-manjaro/</guid>
-    <description><![CDATA[Empezó a haber problemas para actualizar el sistema (Mageia), que mostraba un mensaje diciendo que había actualizaciones listas para instalarse, pero no hacía nada al hacer click sobre instalar. Logré que se produzca la instalación desde una consola con sudo urpmi --auto-update.
-También dejó de funcionar el programa de configuración del sistema al que se accede desde herramientas/herramientas del sistema/configure su computador. Pero en algún momento volvió a andar. :)]]></description>
+    <description><![CDATA[<p>Empezó a haber problemas para actualizar el sistema
+(<a href="https://www.mageia.org/es/" target="_blank" rel="noopener noreffer">Mageia</a>), que mostraba un mensaje diciendo que
+había actualizaciones listas para instalarse, pero no hacía nada al hacer click
+sobre <em>instalar</em>. Logré que se produzca la instalación desde una consola con
+<strong>sudo urpmi --auto-update</strong>.</p>
+<p>También dejó de funcionar el programa de configuración del sistema al
+que se accede desde <em>herramientas/herramientas del sistema/configure su
+computador</em>. Pero en algún momento volvió a andar. :)</p>]]></description>
 </item>
 </channel>
 </rss>

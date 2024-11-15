@@ -145,33 +145,33 @@ C.  Organizar en categorías las cosas que poseen acciones a realizar
         soporte esté fuera de la vista. El mundo de referencias digitales debe
         mantenerse lo más simple posible, revisarse con consistencia y purgarse.
         
-    3.  **Categorías de próximas acciones**: no se necesita seguir el rastro de
+   3.   **Categorías de próximas acciones**: no se necesita seguir el rastro de
         acciones ya completadas (en particular las que llevan dos minutos), pues
         ya están hechas. Las que sí se siguen son:
 
-       -  *Calendario*: incluye las que deben suceder en un momento específico.
-           Debe contener tres tipos de elementos, las acciones que son
-           específicas de un horario (reuniones), las acciones que son
-           específicas de un día (no requieren un horario especial), y la
-           información que es específica de un día y puede ser útil (direcciones
-           para llegar a una reunión, actividades que otra gente tendrá ese día,
-           eventos de interés, etc). También puede incluirse
-           \"tickler-information\" de corto plazo como recordatorios para llamar
-           a alguien por algún motivo, vencimientos, apertura de trámites, etc.
-           No hay una lista de tareas diarias que deba ser reescrita (las
-           acciones pendientes van en otra lista).
+        - *Calendario*: incluye las que deben suceder en un momento
+		  específico. Debe contener tres tipos de elementos, las acciones que son
+		  específicas de un horario (reuniones), las acciones que son
+		  específicas de un día (no requieren un horario especial), y la
+		  información que es específica de un día y puede ser útil (direcciones
+		  para llegar a una reunión, actividades que otra gente tendrá ese día,
+		  eventos de interés, etc). También puede incluirse
+		  \"tickler-information\" de corto plazo como recordatorios para llamar
+		  a alguien por algún motivo, vencimientos, apertura de trámites, etc.
+		  No hay una lista de tareas diarias que deba ser reescrita (las
+		  acciones pendientes van en otra lista).
 
-       -  *Lista de próximas acciones*: contiene aquellas acciones
-           identificadas e indelegables que llevan más de dos minutos y
-           por tanto requieren ser documentadas en algún lado, y se
-           realizan tan pronto se pueda (sin esperar una fecha). En
-           general, cualquier persona tiene entre 50 y 150 acciones en
-           esta lista, por lo que pueden dividirse en categorías.
+        - *Lista de próximas acciones*: contiene aquellas acciones
+		  identificadas e indelegables que llevan más de dos minutos y
+		  por tanto requieren ser documentadas en algún lado, y se
+		  realizan tan pronto se pueda (sin esperar una fecha). En
+		  general, cualquier persona tiene entre 50 y 150 acciones en
+		  esta lista, por lo que pueden dividirse en categorías.
 
-       -  *Actividades en espera*: aquellas que estás esperando que
-           otros completen.
-
-    4.  **Elementos no accionables**:
+	    - *Actividades en espera*: aquellas que estás esperando que
+	      otros completen.
+   
+   4.  **Elementos no accionables**:
 
        a. Basura: cualquier cosa que carezca de valor como referencia o que no
           implique una acción futura.
@@ -181,14 +181,14 @@ C.  Organizar en categorías las cosas que poseen acciones a realizar
            sinfónica en 4 meses y no sabemos qué estaremos haciendo en
            esa época, etc). Se pueden dividir en dos tipos:
 
-           1.  Algún día / Quizás: proyectos a futuro que no queremos
+		1.  Algún día / Quizás: proyectos a futuro que no queremos
                olvidar, y del cual queremos recordarnos con cierta
                frecuencia, digamos que por exploración creativa
                (aprender idiomas, comprar algún item, construir alguna
                cosa, listas como: libros a leer, vinos a beber, recetas
                para probar, etc).
 
-           2.  \"Tickler file\": proyectos a futuro que sólo queremos
+		2.  \"Tickler file\": proyectos a futuro que sólo queremos
                recordar en alguna fecha en particular. Podría incluirse
                dentro del calendario.
 

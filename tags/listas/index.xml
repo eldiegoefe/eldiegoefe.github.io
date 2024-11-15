@@ -8,10 +8,34 @@
     <title>Listas en Python</title>
     <link>https://eldiegoefe.github.io/listas-en-python/</link>
     <pubDate>Wed, 15 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/listas-en-python/</guid>
-    <description><![CDATA[Apuntes del capítulo 10. Lists, de Think Python.
-Traversing To traverse es el verbo que se refiere al acceso secuencial de los elementos de una lista. La siguiente es una forma de &quot;traversear&quot; una lista:
-1 2 for cheese in cheeses: print cheese Si se necesita modificar algún elemento de la lista es mejor hacer:
-1 2 for i in range(len(numbers)): numbers[i] = numers[i] * 2 Agregar elementos a una lista Se pueden agregar elementos individuales a una lista con append.]]></description>
+    <description><![CDATA[<p>Apuntes del capítulo 10. Lists, de Think Python.</p>
+<h2 id="traversing">Traversing</h2>
+<p><em>To traverse</em> es el verbo que se refiere al acceso secuencial de los
+elementos de una lista. La siguiente es una forma de &quot;traversear&quot; una
+lista:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">for</span> <span class="n">cheese</span> <span class="ow">in</span> <span class="n">cheeses</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">       <span class="nb">print</span> <span class="n">cheese</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Si se necesita modificar algún elemento de la lista es mejor hacer:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)):</span>
+</span></span><span class="line"><span class="cl">       <span class="n">numbers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">numers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="agregar-elementos-a-una-lista">Agregar elementos a una lista</h2>
+<p>Se pueden agregar elementos individuales a una lista con <em>append</em>.</p>]]></description>
 </item>
 </channel>
 </rss>

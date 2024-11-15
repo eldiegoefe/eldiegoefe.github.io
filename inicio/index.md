@@ -19,7 +19,6 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 - [BBC News](http://www.bbc.com/news)
 
 ## Videos
-Youtube
 
 - [YouTube](http://www.youtube.com)
 - [PeerTube](https://joinpeertube.org/browse-content)
@@ -38,7 +37,10 @@ Youtube
 - [Instagram](https://www.instagram.com)
 - [Twitter](https://twitter.com)
 
-## Revistas / Blogs / Sitios Personales
+## Revistas / Blogs / Sitios Personales / Libros
+
+- [GoodReads](https://www.goodreads.com/)
+- [StoryGraph](https://app.thestorygraph.com/)
 - [Low Tech Magazine](https://solar.lowtechmagazine.com/)
 - [Luke Smith](https://lukesmith.xyz/)
 - [Syntopikon](https://www.syntopikon.com/workflows/)
@@ -46,8 +48,10 @@ Youtube
 ## Facultad
 - [Campus](https://campus.ingenieria.uner.edu.ar/)
 
-## Electrónica
+## Electrónica / Ciencias
 - [Socratic Electronics](http://www.ibiblio.org/kuphaldt/socratic/index.html)
+- [Ken Shirriff's blog](https://www.righto.com/). Computer history,
+  restoring vintage computers, IC reverse engineering, and whatever. 
 
 ## Emacs
 

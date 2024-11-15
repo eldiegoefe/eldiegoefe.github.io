@@ -8,58 +8,134 @@
     <title>Instrucciones Hugo</title>
     <link>https://eldiegoefe.github.io/instrucciones-hugo/</link>
     <pubDate>Sun, 11 Dec 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instrucciones-hugo/</guid>
-    <description><![CDATA[Estas son instrucciones para no olvidarme cómo actualizar este mismo blog. Escribo las entradas y uso Hugo para correr un servidor local e ir corrigiendo / agregando cosas.
-1 $ hugo server Una vez que tengo la versión final, hago una copia de todo el blog en el repositorio &ldquo;Certezas Dudosas&rdquo; en mi cuenta de Bitbucket. Esto me sirve de backup, para no perder nada.
-Luego, para generar los archivos del blog hay que correr Hugo sin modificadores:]]></description>
+    <description><![CDATA[<p>Estas son instrucciones para no olvidarme cómo actualizar este mismo
+blog. Escribo las entradas y uso <strong>Hugo</strong> para correr un servidor local e
+ir corrigiendo / agregando cosas.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ hugo server
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Una vez que tengo la versión final, hago una copia de todo el blog en
+el repositorio &ldquo;Certezas Dudosas&rdquo; en mi cuenta de Bitbucket. Esto me
+sirve de backup, para no perder nada.</p>
+<p>Luego, para generar los archivos del blog hay que correr Hugo sin
+modificadores:</p>]]></description>
 </item>
 <item>
     <title>Productividad negativa</title>
     <link>https://eldiegoefe.github.io/productividad-negativa/</link>
     <pubDate>Wed, 21 Oct 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/productividad-negativa/</guid>
-    <description><![CDATA[No soy un trabajor muy prolífico. Distintos mecanismos cotidianos actúan como fricción, esa fuerza que se opone al movimiento. A pesar de ello, leo con asiduidad sobre un tema noventoso y supuestamente patrimonio de la derecha, muy presente en la filosofía de los capitalistas: la productividad. Igual el planteo es sólo aparentemente contradictorio, porque me gusta leer a quienes se proponen trabajar lo menos posible en relación de dependencia y tratan de aprovechar el tiempo de sus vidas para desarrollarse y hacer lo que creen que les gusta.]]></description>
+    <description><![CDATA[<p>No soy un trabajor muy prolífico. Distintos mecanismos cotidianos actúan como
+fricción, esa fuerza que se opone al movimiento. A pesar de ello, leo con
+asiduidad sobre un tema noventoso y supuestamente patrimonio de la derecha, muy
+presente en la filosofía de los capitalistas: la productividad. Igual el planteo
+es sólo aparentemente contradictorio, porque me gusta leer a quienes se proponen
+trabajar lo menos posible en relación de dependencia y tratan de aprovechar el
+tiempo de sus vidas para desarrollarse y hacer lo que creen que les gusta. A
+veces se ponen objetivos como leer 4 libros en un mes o retirarse a vivir vidas
+frugales a partir de los 35 años. Me siento identificado con ellos.</p>]]></description>
 </item>
 <item>
     <title>Actualización de las instrucciones para armar un blog con Pelican y GitHub</title>
     <link>https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</link>
     <pubDate>Wed, 20 May 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</guid>
-    <description><![CDATA[El sitio oficial de Pelican, con sus intrucciones de instalación y uso es este. Originalmente, este post estuvo basado en las instrucciones de Nicholas Tan Jerome. El post original pueden verlo en este enlace pueden verlo en este enlace
-Por un lado vamos a configurar un entorno virtual de Python donde vamos a instalar Pelican, y por otro lado vamos a utilizar un directorio subdividido en un subdirectorio para nuestro blog y dos subdirectorios más para herramientas de Pelican (themes y plugins de Pelican).]]></description>
+    <description><![CDATA[<p>El sitio oficial de Pelican, con sus intrucciones de instalación y uso <a href="http://pelican.readthedocs.org/" target="_blank" rel="noopener noreffer">es
+este</a>. Originalmente, este post estuvo basado
+en <a href="http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/" target="_blank" rel="noopener noreffer">las instrucciones de Nicholas Tan
+Jerome</a>.
+El post original pueden verlo en este enlace <a href="https://eldiegoefe.github.io/blog-con-pelican-y-github/" rel="">pueden verlo en este enlace</a></p>
+<p>Por un lado vamos a configurar un entorno virtual de Python donde vamos a
+instalar Pelican, y por otro lado vamos a utilizar un directorio subdividido en
+un subdirectorio para nuestro blog y dos subdirectorios más para herramientas de
+Pelican (themes y plugins de Pelican). Supongo que GIT ya está instalado en el
+sistema.</p>]]></description>
 </item>
 <item>
     <title>Más sobre blogs con Pelican</title>
     <link>https://eldiegoefe.github.io/m%C3%A1s-sobre-blogs-con-pelican/</link>
     <pubDate>Fri, 10 Apr 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/m%C3%A1s-sobre-blogs-con-pelican/</guid>
-    <description><![CDATA[Hace algún tiempo escribí sobre el modo de poner en marcha un blog usando Pelican. Con un poco más de experiencia vuelvo a comentar algunas variaciones, como para más adelante condensar los pasos en un artículo corregido y aumentado (o disminuido, dado que la idea es simplificar).
-Usar entornos virtuales de Python es muy sencillo, tanto que me acostumbré (y hasta disfruto) de realizar instalaciones de diversos programas usándolos. Entre ellos, Pelican.]]></description>
+    <description><![CDATA[<p>Hace algún tiempo escribí sobre el modo de <a href="%7Cfilename%7C/2014-04-22-setear-blog-con-pelican-y-github.rst" rel="">poner en marcha un blog usando
+Pelican</a>. Con un
+poco más de experiencia vuelvo a comentar algunas variaciones, como para más
+adelante condensar los pasos en un artículo corregido y aumentado (o disminuido,
+dado que la idea es simplificar).</p>
+<p>Usar entornos virtuales de Python es muy sencillo, tanto que me
+acostumbré (y hasta disfruto) de realizar instalaciones de diversos
+programas usándolos. Entre ellos, Pelican. La ventaja es que queda un
+entorno encapsulado que no se modifica con las actualizaciones del
+sistema. Se puede tener, por ejemplo, un entorno con Python 3 mientras
+en el sistema está instalada la versión 2.</p>]]></description>
 </item>
 <item>
     <title>Comandos de Emacs y Spacemacs para recordar</title>
     <link>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar/</link>
     <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar/</guid>
-    <description><![CDATA[Yasnippets / Company En la documentación de Spacemacs están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual).
-reemplaza la clave previa al punto por el contenido del snippet correspondiente: M-/ Búsqueda &ndash;La búsqueda habitual con i-search (C-s) se potencia al instalar swiper, que ofrece un listado de las lineas del documento donde se encuentran los resultados de la búsqueda.&ndash;]]></description>
+    <description><![CDATA[<h2 id="yasnippets--company">Yasnippets / Company</h2>
+<p>En la <a href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings" target="_blank" rel="noopener noreffer">documentación de Spacemacs</a> están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual).</p>
+<ul>
+<li>reemplaza la clave previa al punto por el contenido del snippet
+correspondiente: M-/</li>
+</ul>
+<h2 id="búsqueda">Búsqueda</h2>
+<p>&ndash;La búsqueda habitual con i-search (C-s) se potencia al instalar
+<a href="https://github.com/abo-abo/swiper" target="_blank" rel="noopener noreffer">swiper</a>, que ofrece un listado de
+las lineas del documento donde se encuentran los resultados de la
+búsqueda.&ndash;</p>]]></description>
 </item>
 <item>
     <title>Sincronizando con Git</title>
     <link>https://eldiegoefe.github.io/sincronizando-con-git/</link>
     <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/sincronizando-con-git/</guid>
-    <description><![CDATA[Estuve tratando de escribir este blog desde dos computadoras distintas. Armé el sitio desde una de ellas (una PC de escritorio) siguiendo las instrucciones que puse en otro post y después subí el sitio a github con un pull. Quedan armadas tres ramas (branches) en los repositorios:
-source master gh-pages Me cambié de máquina (a una laptop) e hice una copia de lo que había subido clonando el supositorio, digo el repositorio remoto.]]></description>
+    <description><![CDATA[<p>Estuve tratando de escribir este blog desde dos computadoras distintas. Armé el sitio desde una de ellas (una PC de escritorio) siguiendo las instrucciones que puse en otro post y después subí el sitio a github con un pull. Quedan armadas tres ramas (branches) en los repositorios:</p>
+<blockquote>
+<ul>
+<li>source</li>
+<li>master</li>
+<li>gh-pages</li>
+</ul>
+</blockquote>
+<p>Me cambié de máquina (a una laptop) e hice una copia de lo que había
+subido clonando el supositorio, digo el repositorio remoto. Después me
+puse a trabajar, armé nuevos post y corregí algunos otros. Hice el
+agregado de los archivos al repositorio local y su correspondiente
+<em>commit</em>. Finalmente un <em>&quot;git push --all&quot;</em> y con eso creo que se
+actualizó el repositorio remoto.</p>]]></description>
 </item>
 <item>
     <title>Blog con Pelican y GitHub</title>
     <link>https://eldiegoefe.github.io/blog-con-pelican-y-github/</link>
     <pubDate>Tue, 22 Apr 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/blog-con-pelican-y-github/</guid>
-    <description><![CDATA[Actualización Pueden ver una actualización de estas instrucciones en este nuevo post
-Instrucciones El sitio con las intrucciones sobre Pelican es este. Casi todo el contenido siguiente está basado en las instrucciones de Nicholas Tan Jerome. Para instalar Pelican se puede usar &quot;pip&quot;, más adelante hay más detalles, pero como referencia veloz basta decir que se puede hacer sencillamente (en la rama &quot;source&quot; y desde el ENV que se creará más adelante):]]></description>
+    <description><![CDATA[<h1 id="actualización">Actualización</h1>
+<p>Pueden ver una actualización de estas instrucciones en <a href="https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/" rel="">este nuevo post</a></p>
+<h2 id="instrucciones">Instrucciones</h2>
+<p>El sitio con las intrucciones sobre Pelican <a href="http://pelican.readthedocs.org/en/3.3.0" target="_blank" rel="noopener noreffer">es
+este</a>. Casi todo el contenido siguiente
+está basado en las instrucciones de <a href="http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/" target="_blank" rel="noopener noreffer">Nicholas Tan
+Jerome</a>.
+Para instalar Pelican se puede usar &quot;pip&quot;, más adelante hay más detalles, pero
+como referencia veloz basta decir que se puede hacer sencillamente (en la rama
+&quot;source&quot; y desde el ENV que se creará más adelante):</p>]]></description>
 </item>
 <item>
     <title>Instrucciones para armar un blog geek</title>
     <link>https://eldiegoefe.github.io/instrucciones-para-armar-un-blog-geek/</link>
     <pubDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instrucciones-para-armar-un-blog-geek/</guid>
-    <description><![CDATA[En mi caso, alcanzar un estado zen requiere atravesar travesías barrocas. Mientras miraba cosas de IPython llegué a Pythonic Perambulations. Me gustó el contenido (muestra cómo armar ventanas de browsers con matplotlib interactivo), me gustó el diseño y me llamó la atención el dominio github.io.
-Blogs como el de Jake Vanderplas se arman con un motor llamado Jekyll.
-(*editado: Jake migró su sitio a Pelican, que está escrito en Python. Armé un post para explicar cómo instalarlo y usarlo en conjunción con las páginas personales de GitHub, ver Blog con Pelican y Github.]]></description>
+    <description><![CDATA[<p>En mi caso, alcanzar un estado zen requiere atravesar travesías barrocas.
+Mientras miraba cosas de IPython llegué a <a href="http://jakevdp.github.io/" target="_blank" rel="noopener noreffer">Pythonic
+Perambulations</a>. Me gustó el contenido (muestra cómo
+armar ventanas de browsers con matplotlib interactivo), me gustó el diseño y me
+llamó la atención el dominio <strong>github.io</strong>.</p>
+<p>Blogs como el de <a href="http://jakevdp.github.io" target="_blank" rel="noopener noreffer">Jake Vanderplas</a> se arman
+con un motor llamado Jekyll.</p>
+<p>(*editado: Jake migró su sitio a Pelican, que está escrito en Python. Armé un
+post para explicar cómo instalarlo y usarlo en conjunción con las páginas
+personales de GitHub, ver <a href="https://eldiegoefe.github.io/blog-con-pelican-y-github/" title="Blog" rel="">Blog con Pelican y Github</a>. <strong>Por ende
+este post queda desactualizado, además de haber quedado incompleto o quizás con
+errores</strong>).</p>]]></description>
 </item>
 </channel>
 </rss>

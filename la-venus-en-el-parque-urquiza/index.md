@@ -57,7 +57,7 @@ cartón/positivo - copia manual x contacto. Tamaño: 7x10cm. Visiten su
 Antigua fotografía encontrada en el grupo de FB [Paraná hacia el
 mundo](https://www.facebook.com/paranahaciaelmundo) que como mencionan
 en su posteo, puede verse sin que detrás aparezca la actualmente
-conocida "Casita de los enanitos".
+conocida "Casita de los enanitos". Es la Venus de Bazzanti.
 
 {{< figure src="https://live.staticflickr.com/65535/53612620267_955bacd9c4_b.jpg" title="PHM" width=60% >}}
 

@@ -8,8 +8,51 @@
     <title>Primer snippet</title>
     <link>https://eldiegoefe.github.io/primer-snippet/</link>
     <pubDate>Sun, 10 Aug 2014 10:02:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/primer-snippet/</guid>
-    <description><![CDATA[Un snippet ejemplar Este es el primer snippet diseñado para automatizar el encabezado de las paginas hechas en restructuredText, para facilitarme la escritura de este blog. Hay mucha ayuda en la página de Capitao Morte (supongo que es su autor).
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 # -*- mode: snippet; require-final-newline: nil -*- # name: encabezado # key: enc # expand-env: ((yas-indent-line &#39;fixed)) # -- :--- title: &#34;${1:titulo}&#34; :date: ${2:2014}-{3:10}-{4:31} {5:10:00} :category: ${6:$$(yas-choose-value &#39;(&#34;blog&#34; &#34;politica&#34; &#34;salud&#34; &#34;tecnicismos&#34;))} :tags: $7 --- :author: Diego Efe :excerpt: $1 $0 En la linea 14 la instrucción $0 se agregó porque en algún lado decía que suele ponerse para indicar el lugar de salida cuando se termina de ejecutar el snippet.]]></description>
+    <description><![CDATA[<h2 id="un-snippet-ejemplar">Un snippet ejemplar</h2>
+<p>Este es el primer snippet diseñado para automatizar el encabezado de las paginas
+hechas en restructuredText, para facilitarme la escritura de este blog. Hay
+mucha ayuda en la página de Capitao Morte (supongo que es su autor).</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-rest" data-lang="rest"><span class="line"><span class="cl"># -<span class="ge">*- mode: snippet; require-final-newline: nil -*</span>-<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span># name: encabezado<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span># key: enc<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span># expand-env: ((yas-indent-line &#39;fixed))<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span># --<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>:---<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>title: &#34;${1:titulo}&#34;<span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="nc">:date:</span> <span class="nf">${2:2014}-{3:10}-{4:31} {5:10:00}</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="nc">:category:</span> <span class="nf">${6:$$(yas-choose-value &#39;(&#34;blog&#34; &#34;politica&#34; &#34;salud&#34; &#34;tecnicismos&#34;))}</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="gh">:tags: $7</span>
+</span></span><span class="line"><span class="cl"><span class="gh">---</span>
+</span></span><span class="line"><span class="cl"><span class="nc">:author:</span> <span class="nf">Diego Efe</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="nc">:excerpt:</span> <span class="nf">$1</span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span>$0<span class="err">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>En la linea 14 la instrucción $0 se agregó porque en algún lado decía
+que suele ponerse para indicar el lugar de salida cuando se termina de
+ejecutar el snippet.</p>]]></description>
 </item>
 </channel>
 </rss>

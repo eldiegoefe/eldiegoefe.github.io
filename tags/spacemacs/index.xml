@@ -8,8 +8,34 @@
     <title>Python en Emacs y otros atajos</title>
     <link>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</link>
     <pubDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</guid>
-    <description><![CDATA[Spacemacs Anaconda-mode: Emacs tiene muchas herramientas para facilitar la programación en Python. En Spacemacs se puede activar anaconda-mode, que habilita una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información en el modeline sobre la función que se está tipeando (muestra los nombres de sus argumentos). Cosas de Anaconda para usar:
-anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca el origen del símbolo bajo el punto. Por ejemplo: si se trata de una función, abre el archivo donde está definida y ubica el punto sobre el encabezado de la misma.]]></description>
+    <description><![CDATA[<h2 id="spacemacs">Spacemacs</h2>
+<ol>
+<li>
+<p>Anaconda-mode: Emacs tiene muchas herramientas para facilitar la
+programación en Python. En Spacemacs se puede activar
+<a href="https://github.com/proofit404/anaconda-mode" target="_blank" rel="noopener noreffer">anaconda-mode</a>, que habilita
+una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información
+en el modeline sobre la función que se está tipeando (muestra los nombres de
+sus argumentos). Cosas de Anaconda para usar:</p>
+<ul>
+<li>anaconda-mode-complete (C-M-i)</li>
+<li>anaconda-mode-find-definitions (SPC m g g): busca el origen del
+símbolo bajo el punto. Por ejemplo: si se trata de una función,
+abre el archivo donde está definida y ubica el punto sobre el
+encabezado de la misma.</li>
+<li>anaconda-mode-find-assignments</li>
+<li>anaconda-mode-find-references</li>
+<li>anaconda-mode-go-back</li>
+<li>anaconda-mode-show-doc</li>
+</ul>
+</li>
+<li>
+<p>Entornos virtuales: se puede activar un entorno virtual donde correr
+el programa que se está desarrollando con SPC m V (pyvenv-workon,
+pero en este caso no aparecen correctamente todas las opciones, al
+menos no veo los entornos que instalé con pyenv), o también con SPC
+m v s (pyenv-mode-set, en este caso sí se ven los entornos de
+pyenv).</p>]]></description>
 </item>
 </channel>
 </rss>

@@ -8,9 +8,26 @@
     <title>De jpg a pdf</title>
     <link>https://eldiegoefe.github.io/de-jpg-a-pdf/</link>
     <pubDate>Wed, 24 Sep 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/de-jpg-a-pdf/</guid>
-    <description><![CDATA[Encontré una muy sencilla aplicación para convertir archivos de imágenes. Si bien tiene mucha potencia, porque puede hacer mucho más, yo la usé para convertir imágenes en páginas de un archivo pdf.
-Se necesita tener instalado un paquete llamado imagemagick. Para instalarlo desde un terminal dependerá de la distribución, suele ser así:
-1 2 3 $ sudo urpmi imagemagick # desde mageia $ sudo apt-get install imagemagick # desde ubuntu, mint, etc $ sudo yum install imagemagick # desde fedora Luego, para usarlo, también desde un terminal y en el directorio donde están guardadas las imágenes, se ejecuta convert (parece que no es lo único que instala imagemagick):]]></description>
+    <description><![CDATA[<p>Encontré una muy sencilla aplicación para convertir archivos de imágenes. Si
+bien tiene mucha potencia, porque puede hacer mucho más, yo la usé para
+convertir imágenes en páginas de un archivo pdf.</p>
+<p>Se necesita tener instalado un paquete llamado <strong>imagemagick</strong>. Para instalarlo
+desde un terminal dependerá de la distribución, suele ser así:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo urpmi imagemagick             <span class="c1"># desde mageia</span>
+</span></span><span class="line"><span class="cl">$ sudo apt-get install imagemagick   <span class="c1"># desde ubuntu, mint, etc</span>
+</span></span><span class="line"><span class="cl">$ sudo yum install imagemagick       <span class="c1"># desde fedora</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Luego, para usarlo, también desde un terminal y en el directorio donde
+están guardadas las imágenes, se ejecuta <strong>convert</strong> (parece que no es
+lo único que instala <strong>imagemagick</strong>):</p>]]></description>
 </item>
 </channel>
 </rss>

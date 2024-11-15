@@ -8,8 +8,16 @@
     <title>Pandoc, conversión de org-mode a restructuredtext</title>
     <link>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
     <pubDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
-    <description><![CDATA[Pandoc es un software para hacer conversión de archivos de texto entre distintos lenguajes de markup. Me viene bien probarlo porque me gustaría escribir mis entradas del blog desde org-mode (que uso con mucha frecuencia) y obtener el mismo texto en versión restructuredText, que es el formato en el que escribo el blog (con Pelican).
-La instalación de Pandoc requirió un pequeño ajuste respecto de lo habitual en Manjaro, ya que el programa no estaba disponible desde los repositorios que vienen por defecto.]]></description>
+    <description><![CDATA[<p>Pandoc es un software para hacer conversión de archivos de texto entre distintos
+lenguajes de markup. Me viene bien probarlo porque me gustaría escribir mis
+entradas del blog desde org-mode (que uso con mucha frecuencia) y obtener el
+mismo texto en versión restructuredText, que es el formato en el que escribo el
+blog (con Pelican).</p>
+<p>La instalación de Pandoc requirió un pequeño ajuste respecto de lo habitual en
+Manjaro, ya que el programa no estaba disponible desde los repositorios que
+vienen por defecto. Tuve que hacer los ajustes que se describen en <a href="https://wiki.archlinux.org/index.php/ArchHaskell" target="_blank" rel="noopener noreffer">la wiki de
+Arch</a>. Estos fueron los 5
+pasos:</p>]]></description>
 </item>
 </channel>
 </rss>

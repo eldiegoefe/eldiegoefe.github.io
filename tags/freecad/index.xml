@@ -8,9 +8,21 @@
     <title>FreeCAD</title>
     <link>https://eldiegoefe.github.io/freecad/</link>
     <pubDate>Fri, 25 Nov 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/freecad/</guid>
-    <description><![CDATA[Para proyectar diseños en madera los carpinteros de YouTube suelen usar SketchUp, que es un software de Google que sólo funciona en Windows y Mac. Busqué algún programa que pueda usar con el mismo fin pero en Linux, y encontré FreeCAD. Estoy siguiendo un buen tutorial en castellano en el canal de Juan Gonzalez Gomez, aca pueden ver el primer video de la serie:
-Algunos apuntes iniciales:
-Luego de iniciar un nuevo proyecto seleccionar el espacio de trabajo Part.]]></description>
+    <description><![CDATA[<p>Para proyectar diseños en madera los carpinteros de YouTube suelen usar
+SketchUp, que es un software de Google que sólo funciona en Windows y Mac.
+Busqué algún programa que pueda usar con el mismo fin pero en Linux, y encontré
+FreeCAD. Estoy siguiendo un buen tutorial en castellano en <a href="https://www.youtube.com/user/obijuancube" target="_blank" rel="noopener noreffer">el canal de Juan
+Gonzalez Gomez</a>, aca pueden ver el
+primer video de la serie:</p>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/2_DbFzFV9D4?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<p>Algunos apuntes iniciales:</p>]]></description>
 </item>
 </channel>
 </rss>

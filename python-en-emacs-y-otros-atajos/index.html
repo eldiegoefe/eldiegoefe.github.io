@@ -4,19 +4,28 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Python en Emacs y otros atajos - Certezas Dudosas</title><meta name="description" content="Blog del Diego Efe"><meta property="og:title" content="Python en Emacs y otros atajos" />
-<meta property="og:description" content="Spacemacs Anaconda-mode: Emacs tiene muchas herramientas para facilitar la programación en Python. En Spacemacs se puede activar anaconda-mode, que habilita una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información en el modeline sobre la función que se está tipeando (muestra los nombres de sus argumentos). Cosas de Anaconda para usar:
-anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca el origen del símbolo bajo el punto. Por ejemplo: si se trata de una función, abre el archivo donde está definida y ubica el punto sobre el encabezado de la misma." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" /><meta property="og:image" content="https://eldiegoefe.github.io/logo.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2015-09-24T10:00:00+00:00" />
-<meta property="article:modified_time" content="2015-09-24T10:00:00+00:00" />
+        <title>Python en Emacs y otros atajos - Certezas Dudosas</title><meta name="description" content="Blog del Diego Efe"><meta property="og:url" content="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/">
+  <meta property="og:site_name" content="Certezas Dudosas">
+  <meta property="og:title" content="Python en Emacs y otros atajos">
+  <meta property="og:description" content="Spacemacs Anaconda-mode: Emacs tiene muchas herramientas para facilitar la programación en Python. En Spacemacs se puede activar anaconda-mode, que habilita una serie de paquetes útiles. Por ejemplo &#34;eldoc&#34; que ofrece información en el modeline sobre la función que se está tipeando (muestra los nombres de sus argumentos). Cosas de Anaconda para usar:
+anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca el origen del símbolo bajo el punto. Por ejemplo: si se trata de una función, abre el archivo donde está definida y ubica el punto sobre el encabezado de la misma. anaconda-mode-find-assignments anaconda-mode-find-references anaconda-mode-go-back anaconda-mode-show-doc Entornos virtuales: se puede activar un entorno virtual donde correr el programa que se está desarrollando con SPC m V (pyvenv-workon, pero en este caso no aparecen correctamente todas las opciones, al menos no veo los entornos que instalé con pyenv), o también con SPC m v s (pyenv-mode-set, en este caso sí se ven los entornos de pyenv).">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2015-09-24T10:00:00+00:00">
+    <meta property="article:modified_time" content="2015-09-24T10:00:00+00:00">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Emacs">
+    <meta property="article:tag" content="Keybindings">
+    <meta property="article:tag" content="Spacemacs">
+    <meta property="og:image" content="https://eldiegoefe.github.io/logo.png">
 
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://eldiegoefe.github.io/logo.png" /><meta name="twitter:title" content="Python en Emacs y otros atajos"/>
-<meta name="twitter:description" content="Spacemacs Anaconda-mode: Emacs tiene muchas herramientas para facilitar la programación en Python. En Spacemacs se puede activar anaconda-mode, que habilita una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información en el modeline sobre la función que se está tipeando (muestra los nombres de sus argumentos). Cosas de Anaconda para usar:
-anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca el origen del símbolo bajo el punto. Por ejemplo: si se trata de una función, abre el archivo donde está definida y ubica el punto sobre el encabezado de la misma."/>
-<meta name="twitter:site" content="@eldiegoefe"/>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://eldiegoefe.github.io/logo.png">
+  <meta name="twitter:title" content="Python en Emacs y otros atajos">
+  <meta name="twitter:description" content="Spacemacs Anaconda-mode: Emacs tiene muchas herramientas para facilitar la programación en Python. En Spacemacs se puede activar anaconda-mode, que habilita una serie de paquetes útiles. Por ejemplo &#34;eldoc&#34; que ofrece información en el modeline sobre la función que se está tipeando (muestra los nombres de sus argumentos). Cosas de Anaconda para usar:
+anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca el origen del símbolo bajo el punto. Por ejemplo: si se trata de una función, abre el archivo donde está definida y ubica el punto sobre el encabezado de la misma. anaconda-mode-find-assignments anaconda-mode-find-references anaconda-mode-go-back anaconda-mode-show-doc Entornos virtuales: se puede activar un entorno virtual donde correr el programa que se está desarrollando con SPC m V (pyvenv-workon, pero en este caso no aparecen correctamente todas las opciones, al menos no veo los entornos que instalé con pyenv), o también con SPC m v s (pyenv-mode-set, en este caso sí se ven los entornos de pyenv).">
+      <meta name="twitter:site" content="@eldiegoefe">
 <meta name="application-name" content="FeelIt">
 <meta name="apple-mobile-web-app-title" content="FeelIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -48,16 +57,16 @@ anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca
             <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
                         <a href="#" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
-                            <i class="fas fa-search fa-fw"></i>
+                            <i class="fa-solid fa-search fa-fw"></i>
                         </a>
                         <a href="#" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
-                            <i class="fas fa-times-circle fa-fw"></i>
+                            <i class="fa-solid fa-times-circle fa-fw"></i>
                         </a>
                         <span class="search-button search-loading" id="search-loading-desktop">
-                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                            <i class="fa-solid fa-spinner fa-fw fa-spin"></i>
                         </span>
-                    </span><a class="menu-item" href="/index.xml" title="RSS"><i class="fas fa-rss fa-fw" title="RSS"></i> </a><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
-                    <i class="fas fa-adjust fa-fw"></i>
+                    </span><a class="menu-item" href="/index.xml" title="RSS"><i class="fa-solid fa-rss fa-fw" title="RSS"></i> </a><a href="#" onclick="return false;" class="menu-item theme-switch" title="Cambia el tema">
+                    <i class="fa-solid fa-adjust fa-fw"></i>
                 </a>
             </div>
         </div>
@@ -76,21 +85,21 @@ anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca
                     <div class="search mobile" id="search-mobile">
                         <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
                         <a href="#" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
-                            <i class="fas fa-search fa-fw"></i>
+                            <i class="fa-solid fa-search fa-fw"></i>
                         </a>
                         <a href="#" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
-                            <i class="fas fa-times-circle fa-fw"></i>
+                            <i class="fa-solid fa-times-circle fa-fw"></i>
                         </a>
                         <span class="search-button search-loading" id="search-loading-mobile">
-                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                            <i class="fa-solid fa-spinner fa-fw fa-spin"></i>
                         </span>
                     </div>
                     <a href="#" class="search-cancel" id="search-cancel-mobile">
                         Cancelar
                     </a>
-                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><div class="menu-item"><a href="/index.xml" title="RSS"><i class="fas fa-rss fa-fw" title="RSS"></i> </a>
-                <span>&nbsp;|&nbsp;</span><a href="javascript:void(0);" class="theme-switch" title="Cambia el tema">
-                    <i class="fas fa-adjust fa-fw"></i>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><div class="menu-item"><a href="/index.xml" title="RSS"><i class="fa-solid fa-rss fa-fw" title="RSS"></i> </a>
+                <span>&nbsp;|&nbsp;</span><a href="#" onclick="return false;" class="theme-switch" title="Cambia el tema">
+                    <i class="fa-solid fa-adjust fa-fw"></i>
                 </a>
             </div></div>
     </div>
@@ -101,9 +110,9 @@ anaconda-mode-complete (C-M-i) anaconda-mode-find-definitions (SPC m g g): busca
     <div id="search-dropdown-mobile"></div>
 </div><main class="main">
                 <div class="container"><article class="page single" data-toc="disable"><div class="single-card" ><h2 class="single-title animated flipInX">Python en Emacs y otros atajos</h2><div class="post-meta">
-                <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Diego Efe</a></span>&nbsp;<span class="post-category">publicado en <a href="/categories/tecnicismos/"><i class="far fa-folder fa-fw"></i>Tecnicismos</a></span></div>
-                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2015-09-24">2015-09-24</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;520 palabras</span>&nbsp;
-                    <span><i class="far fa-clock fa-fw"></i>&nbsp;3 minutos</span>&nbsp;</div>
+                <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fa-solid fa-user-circle fa-fw"></i>Diego Efe</a></span>&nbsp;<span class="post-category">publicado en <a href="/categories/tecnicismos/"><i class="fa-regular fa-folder fa-fw"></i>Tecnicismos</a></span></div>
+                <div class="post-meta-line"><span><i class="fa-regular fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2015-09-24">2015-09-24</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw"></i>&nbsp;520 palabras</span>&nbsp;
+                    <span><i class="fa-regular fa-clock fa-fw"></i>&nbsp;3 minutos</span>&nbsp;</div>
             </div>
             
             <hr><div class="content" id="content"><h2 id="spacemacs">Spacemacs</h2>
@@ -171,9 +180,9 @@ snippets y ofrece un menú tipo helm para seleccionarlos. Luego
 quedan habilitados para usar el trigger (la abreviatura) seguido de
 TAB.</li>
 </ol>
-<figure><img src="https://c1.staticflickr.com/1/657/21855757933_5ff671a447_b.jpg"/><figcaption>
-            <h4>Yasnippets con Helm</h4>
-        </figcaption>
+<figure><img src="https://c1.staticflickr.com/1/657/21855757933_5ff671a447_b.jpg"><figcaption>
+      <h4>Yasnippets con Helm</h4>
+    </figcaption>
 </figure>
 
 <h2 id="tabulación">Tabulación</h2>
@@ -213,15 +222,15 @@ o un nivel por debajo.</li>
                             <a class="link-to-markdown" href="/python-en-emacs-y-otros-atajos/index.md" target="_blank">Leer Markdown</a>
                         </span></div>
         </div><div class="post-info-share">
-            <span><a href="javascript:void(0);" title="Compartir en Twitter" data-sharer="twitter" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-title="Python en Emacs y otros atajos" data-via="eldiegoefe" data-hashtags="python,emacs,keybindings,spacemacs"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Facebook" data-sharer="facebook" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-hashtag="python"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en WhatsApp" data-sharer="whatsapp" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-title="Python en Emacs y otros atajos" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Line" data-sharer="line" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-title="Python en Emacs y otros atajos"><i class="fab fa-line fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en 微博" data-sharer="weibo" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-title="Python en Emacs y otros atajos"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Myspace" data-sharer="myspace" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-title="Python en Emacs y otros atajos" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Compartir en Blogger" data-sharer="blogger" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-title="Python en Emacs y otros atajos" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Compartir en Evernote" data-sharer="evernote" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-title="Python en Emacs y otros atajos"><i class="fab fa-evernote fa-fw"></i></a></span>
-        </div></div><div class="post-nav"><a href="/misterios-de-la-temporizaci%C3%B3n/" class="prev" rel="prev" title="Misterios de la temporización"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a>
-            <a href="/productividad-negativa/" class="next" rel="next" title="Productividad negativa">Next Post<i class="fas fa-angle-right fa-fw"></i></a></div></div>
+            <span><a href="#" onclick="return false;" title="Compartir en Twitter" data-sharer="twitter" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-title="Python en Emacs y otros atajos" data-via="eldiegoefe" data-hashtags="python,emacs,keybindings,spacemacs"><i class="fa-brands fa-square-x-twitter fa-fw"></i></a><a href="#" onclick="return false;" title="Compartir en Facebook" data-sharer="facebook" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-hashtag="python"><i class="fa-brands fa-facebook-square fa-fw"></i></a><a href="#" onclick="return false;" title="Compartir en WhatsApp" data-sharer="whatsapp" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-title="Python en Emacs y otros atajos" data-web><i class="fa-brands fa-whatsapp fa-fw"></i></a><a href="#" onclick="return false;" title="Compartir en Line" data-sharer="line" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-title="Python en Emacs y otros atajos"><i class="fa-brands fa-line fa-fw"></i></a><a href="#" onclick="return false;" title="Compartir en 微博" data-sharer="weibo" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-title="Python en Emacs y otros atajos"><i class="fa-brands fa-weibo fa-fw"></i></a><a href="#" onclick="return false;" title="Compartir en Myspace" data-sharer="myspace" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-title="Python en Emacs y otros atajos" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="#" onclick="return false;" title="Compartir en Blogger" data-sharer="blogger" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-title="Python en Emacs y otros atajos" data-description=""><i class="fa-brands fa-blogger fa-fw"></i></a><a href="#" onclick="return false;" title="Compartir en Evernote" data-sharer="evernote" data-url="https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/" data-title="Python en Emacs y otros atajos"><i class="fa-brands fa-evernote fa-fw"></i></a></span>
+        </div></div><div class="post-nav"><a href="/misterios-de-la-temporizaci%C3%B3n/" class="prev" rel="prev" title="Misterios de la temporización"><i class="fa-solid fa-angle-left fa-fw"></i>Previous Post</a>
+            <a href="/productividad-negativa/" class="next" rel="next" title="Productividad negativa">Next Post<i class="fa-solid fa-angle-right fa-fw"></i></a></div></div>
 </div><div id="comments" class="single-card"><div id="disqus_thread"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.123.7">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
-        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Provisto por <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.134.2">Hugo</a> | Tema - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.2"><i class="fa-solid fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/">Diego Efe</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>
 if ('serviceWorker' in navigator) {
@@ -242,7 +251,7 @@ if ('serviceWorker' in navigator) {
         </div>
 
         <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
-                <i class="fas fa-chevron-up fa-fw"></i>
+                <i class="fa-solid fa-chevron-up fa-fw"></i>
             </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
-                <i class="fas fa-comment-alt fa-fw"></i>
+                <i class="fa-solid fa-comment-alt fa-fw"></i>
             </a></div><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="https://certezasdudosas.disqus.com/embed.js" defer></script><script src="/lib/autocomplete/autocomplete.min.js"></script><script src="/lib/lunr/lunr.min.js"></script><script src="/lib/lunr/lunr.stemmer.support.min.js"></script><script src="/lib/lunr/lunr.es.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/katex/katex.min.js"></script><script src="/lib/katex/auto-render.min.js"></script><script src="/lib/katex/copy-tex.min.js"></script><script src="/lib/katex/mhchem.min.js"></script><script src="/lib/cookieconsent/cookieconsent.min.js"></script><script>window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"De acuerdo","link":"Aprende más","message":"Este sitio web utiliza Cookies para mejorar su experiencia."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"es","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"lunr"}};</script><script src="/js/theme.min.js"></script></body></html>

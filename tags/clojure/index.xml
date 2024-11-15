@@ -8,14 +8,26 @@
     <title>Bienvenidos a Scheme</title>
     <link>https://eldiegoefe.github.io/bienvenidos-a-scheme/</link>
     <pubDate>Tue, 28 Nov 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/bienvenidos-a-scheme/</guid>
-    <description><![CDATA[Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado para simular la inteligencia humana, creado por John McCarthy en la década del 50.]]></description>
+    <description><![CDATA[<p>Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y
+esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad
+Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp
+que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a
+toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado
+para simular la inteligencia humana, creado por John McCarthy en la década del
+50.</p>]]></description>
 </item>
 <item>
     <title>Clojure, nuevo entretenimiento</title>
     <link>https://eldiegoefe.github.io/clojure-nuevo-entretenimiento/</link>
     <pubDate>Thu, 27 Nov 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/clojure-nuevo-entretenimiento/</guid>
-    <description><![CDATA[En el mundo Emacs se menciona bastante el lenguaje Clojure, como un dialecto de Lisp que corre sobre el Java Virtual Machine, lo cual constituye para mi un dato casi completamente inutil, puesto que desconozco Java y su JVM. De cualquier manera, mientras continúo leyendo ANSI Common Lisp, me dieron ganas de probar, así que guardo aquí las instrucciones de instalación para usar Clojure con Emacs en Linux.
-La cuestión no es tan complicada, primero verificamos desde un terminal que Java está instalado:]]></description>
+    <description><![CDATA[<p>En el mundo Emacs se menciona bastante el lenguaje Clojure, como un dialecto de
+Lisp que corre sobre el Java Virtual Machine, lo cual constituye para mi un dato
+casi completamente inutil, puesto que desconozco Java y su JVM. De cualquier
+manera, mientras continúo leyendo ANSI Common Lisp, me dieron ganas de probar,
+así que guardo aquí las instrucciones de instalación para usar Clojure con Emacs
+en Linux.</p>
+<p>La cuestión no es tan complicada, primero verificamos desde un terminal
+que Java está instalado:</p>]]></description>
 </item>
 </channel>
 </rss>

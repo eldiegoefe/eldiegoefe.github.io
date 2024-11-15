@@ -8,15 +8,44 @@
     <title>Casitas y minimalismo</title>
     <link>https://eldiegoefe.github.io/casitas-y-minimalismo/</link>
     <pubDate>Wed, 18 Oct 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/casitas-y-minimalismo/</guid>
-    <description><![CDATA[Espero el colapso universal, pero es aburrida la inactividad. Por eso consumo, sobre todo contenidos online. Entre las montañas de basura digital hay pasadizos que cada tanto quedan parcialmente expuestos, y por algún reflejo imprevisto delatan su presencia e invocan mi exploración. El año pasado, en algún momento, mientras las paredes de un departamento céntrico cercaban mi libertad casi tanto como el horario laboral, descubrí el movimiento de las tiny houses (casitas) y temas aledaños.]]></description>
+    <description><![CDATA[<p>Espero el colapso universal, pero es aburrida la inactividad. Por eso consumo,
+sobre todo contenidos online. Entre las montañas de basura digital hay pasadizos
+que cada tanto quedan parcialmente expuestos, y por algún reflejo imprevisto
+delatan su presencia e invocan mi exploración. El año pasado, en algún momento,
+mientras las paredes de un departamento céntrico cercaban mi libertad casi tanto
+como el horario laboral, descubrí el movimiento de las <em>tiny houses</em> (casitas) y
+temas aledaños.</p>]]></description>
 </item>
 <item>
     <title>Autoaprendizajes</title>
     <link>https://eldiegoefe.github.io/autoaprendizajes/</link>
     <pubDate>Fri, 10 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/autoaprendizajes/</guid>
-    <description><![CDATA[No recuerdo en qué momento fue que pronuncié las palabras mágicas, pero cuando sea que haya ocurrido, se abrieron portales hacia temas inexplorados dentro de un mundo que creía conocer.
-En los últimos meses (¿10? ¿20?) me encontré con:
-un lenguaje de programación fantástico por su sencillez y potencia (Python), junto con un conjunto de librerías para tareas científicas: matplotlib, numpy, pandas, etc. la idea del control de versiones (que es una herramienta magnífica para quienes escribimos todo tipo de textos que al ir corrigiendo dejan una huella dificil de seguir desde su versión inicial hacia su versión actual, ya sea que se trate de programas, entradas de blog o informes científicos o técnicos).]]></description>
+    <description><![CDATA[<p>No recuerdo en qué momento fue que pronuncié las palabras mágicas, pero cuando
+sea que haya ocurrido, se abrieron portales hacia temas inexplorados dentro de
+un mundo que creía conocer.</p>
+<p>En los últimos meses (¿10? ¿20?) me encontré con:</p>
+<ul>
+<li>un lenguaje de programación fantástico por su sencillez y potencia
+(<a href="https://www.python.org/" target="_blank" rel="noopener noreffer">Python</a>), junto con un conjunto de
+librerías para tareas científicas: matplotlib, numpy, pandas, etc.</li>
+<li>la idea del control de versiones (que es una herramienta magnífica
+para quienes escribimos todo tipo de textos que al ir corrigiendo
+dejan una huella dificil de seguir desde su versión inicial hacia su
+versión actual, ya sea que se trate de programas, entradas de blog o
+informes científicos o técnicos). En particular Git y
+<a href="https://github.com/" target="_blank" rel="noopener noreffer">GitHub</a>.</li>
+<li>el deseo de colaborar en el desarrollo colectivo de software, cosa
+que creo que en el futuro de mediano plazo espero concretar.</li>
+</ul>
+<p>Avancé con el aprendizaje de Emacs (con
+<a href="http://batsov.com/prelude/" target="_blank" rel="noopener noreffer">Prelude</a>, actualmente en uso, y
+<a href="http://ergoemacs.org/" target="_blank" rel="noopener noreffer">Ergoemacs</a>, que por el momento dejé de usar pero
+igual creo que está buenísimo, de ahí surgió el interés por los teclados
+con distribución <a href="http://es.wikipedia.org/wiki/Teclado_Dvorak" target="_blank" rel="noopener noreffer">Dvorak</a>
+que uso actualmente), descubrí el <a href="http://ipython.org/" target="_blank" rel="noopener noreffer">IPython
+Notebook</a> (y encadenado con eso ahora descubrí el
+lenguaje <a href="http://julialang.org/" target="_blank" rel="noopener noreffer">Julia</a>). Aca pueden ver una imagen del
+IPython Notebook mientras lo usaba para un trabajo de Dosimetría.</p>]]></description>
 </item>
 </channel>
 </rss>

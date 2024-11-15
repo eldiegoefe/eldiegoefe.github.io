@@ -8,20 +8,47 @@
     <title>Bienvenidos a Scheme</title>
     <link>https://eldiegoefe.github.io/bienvenidos-a-scheme/</link>
     <pubDate>Tue, 28 Nov 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/bienvenidos-a-scheme/</guid>
-    <description><![CDATA[Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado para simular la inteligencia humana, creado por John McCarthy en la década del 50.]]></description>
+    <description><![CDATA[<p>Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y
+esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad
+Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp
+que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a
+toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado
+para simular la inteligencia humana, creado por John McCarthy en la década del
+50.</p>]]></description>
 </item>
 <item>
     <title>A punto para Lisp</title>
     <link>https://eldiegoefe.github.io/a-punto-para-lisp/</link>
     <pubDate>Wed, 13 Aug 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/a-punto-para-lisp/</guid>
-    <description><![CDATA[Cuando empecé a leer Practical Common Lisp, de Peter Seibel, tras escuchar el reportaje de Sacha Chua a Bozhidar Batsov, tuve algunos inconvenientes para poder instalar Lisp en mi compu, hasta que encontré el tutorial Installing Common Lisp. Estas notas resumen la información del video (sus instrucciones se muestran en un entorno Windows mientras que mi transcripción es para Linux), para poder instalar un Lisp en cualquier máquina con Emacs:]]></description>
+    <description><![CDATA[<p>Cuando empecé a leer <a href="http://www.gigamonkeys.com/book/" target="_blank" rel="noopener noreffer">Practical Common Lisp</a>,
+de Peter Seibel, tras escuchar <a href="https://www.youtube.com/watch?v=-8DO0_pqLNA" target="_blank" rel="noopener noreffer">el reportaje de Sacha Chua a Bozhidar
+Batsov</a>, tuve algunos
+inconvenientes para poder instalar Lisp en mi compu, hasta que encontré el
+tutorial <a href="https://www.youtube.com/watch?v=VnWVu8VVDbI" target="_blank" rel="noopener noreffer">Installing Common Lisp</a>.
+Estas notas resumen la información del video (sus instrucciones se muestran en
+un entorno Windows mientras que mi transcripción es para Linux), para poder
+instalar un Lisp en cualquier máquina con Emacs:</p>]]></description>
 </item>
 <item>
     <title>Aprender a lo Hansel y Gretel</title>
     <link>https://eldiegoefe.github.io/aprender-a-lo-hansel-y-gretel/</link>
     <pubDate>Sun, 09 Feb 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/aprender-a-lo-hansel-y-gretel/</guid>
-    <description><![CDATA[Aprender programación mediante un libro, sobre todo si uno le cree a la contra-tapa, requiere seguir capítulo a capítulo, sección a sección, todas las instrucciones. Es como que nos programamos para programar. Pero al copiar los ejemplos, incluso chequeando que no haya errores de tipeo, suelen aparecer problemas. Los resultados no son los esperados, aparecen errores, excepciones, relámpagos y huracanes.
-Mientras sigo con las lecturas sobre IPython nos dicen que importemos el paquete NetworkX.]]></description>
+    <description><![CDATA[<p>Aprender programación mediante un libro, sobre todo si uno le cree a la
+contra-tapa, requiere seguir capítulo a capítulo, sección a sección, todas las
+instrucciones. Es como que nos programamos para programar. Pero al copiar los
+ejemplos, incluso chequeando que no haya errores de tipeo, suelen aparecer
+problemas. Los resultados no son los esperados, aparecen errores, excepciones,
+relámpagos y huracanes.</p>
+<p>Mientras sigo con las lecturas sobre IPython nos dicen que importemos el paquete
+NetworkX. Sin embargo, es desconocido para mi sistema. Busco ayuda y llego a la
+pagina de NetworkX donde están <a href="http://networkx.github.io/documentation/latest/install.html" target="_blank" rel="noopener noreffer">las instrucciones de
+instalación</a>. Dice
+que se instala fácilmente con <strong>pip install networkx</strong> pero resulta que pip
+tampoco es un comando conocido. A buscar pip. Recién ahí se completa el
+rompecabezas. Se instala en Fedora con un <strong>sudo yum install python-pip</strong> y
+luego a recorrer el caminito de mendrugos de pan, rogando reencontrarnos con la
+posibilidad de seguir linealmente la secuencia de instrucciones del libro, que
+no me engaña, ha sido escrito por la bruja de Hansel y Gretel.</p>]]></description>
 </item>
 </channel>
 </rss>

@@ -8,16 +8,32 @@
     <title>Mageia y Manjaro</title>
     <link>https://eldiegoefe.github.io/mageia-y-manjaro/</link>
     <pubDate>Wed, 22 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/mageia-y-manjaro/</guid>
-    <description><![CDATA[Empezó a haber problemas para actualizar el sistema (Mageia), que mostraba un mensaje diciendo que había actualizaciones listas para instalarse, pero no hacía nada al hacer click sobre instalar. Logré que se produzca la instalación desde una consola con sudo urpmi --auto-update.
-También dejó de funcionar el programa de configuración del sistema al que se accede desde herramientas/herramientas del sistema/configure su computador. Pero en algún momento volvió a andar. :)]]></description>
+    <description><![CDATA[<p>Empezó a haber problemas para actualizar el sistema
+(<a href="https://www.mageia.org/es/" target="_blank" rel="noopener noreffer">Mageia</a>), que mostraba un mensaje diciendo que
+había actualizaciones listas para instalarse, pero no hacía nada al hacer click
+sobre <em>instalar</em>. Logré que se produzca la instalación desde una consola con
+<strong>sudo urpmi --auto-update</strong>.</p>
+<p>También dejó de funcionar el programa de configuración del sistema al
+que se accede desde <em>herramientas/herramientas del sistema/configure su
+computador</em>. Pero en algún momento volvió a andar. :)</p>]]></description>
 </item>
 <item>
     <title>Instalando IPython en Mageia</title>
     <link>https://eldiegoefe.github.io/instalando-ipython-en-mageia/</link>
     <pubDate>Fri, 22 Aug 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instalando-ipython-en-mageia/</guid>
-    <description><![CDATA[Para instalar IPython en Mageia, sin tener privilegios de root hay que cumplir con los siguientes pasos:
-Contar con privilegios de root para poder correr el instalador Hay que instalar PIP Con PIP instalar IPython Trabajar como root: Conviene agregar el usuario a la lista de usuarios con privilegios para ejecutar sudo. Las instrucciones están en Configuring sudo de Mageia. Históricamente en UNIX este es el grupo Wheels.
-Primero hay que crear el archivo /etc/sudoers.]]></description>
+    <description><![CDATA[<p>Para instalar IPython en Mageia, sin tener privilegios de root hay que cumplir
+con los siguientes pasos:</p>
+<ul>
+<li>Contar con privilegios de root para poder correr el instalador</li>
+<li>Hay que instalar PIP</li>
+<li>Con PIP instalar IPython</li>
+</ul>
+<h2 id="trabajar-como-root">Trabajar como root:</h2>
+<p>Conviene agregar el usuario a la lista de usuarios con privilegios para
+ejecutar <em>sudo</em>. Las instrucciones están en <a href="https://wiki.mageia.org/en/Configuring_sudo" target="_blank" rel="noopener noreffer">Configuring
+sudo</a> de Mageia.
+Históricamente en UNIX este es el grupo Wheels.</p>
+<p>Primero hay que crear el archivo <em>/etc/sudoers.d/01wheel</em></p>]]></description>
 </item>
 </channel>
 </rss>

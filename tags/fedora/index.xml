@@ -8,15 +8,41 @@
     <title>Descubriendo Gnome</title>
     <link>https://eldiegoefe.github.io/descubriendo-gnome/</link>
     <pubDate>Sun, 09 Feb 2014 11:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/descubriendo-gnome/</guid>
-    <description><![CDATA[Empecé a tomarle el gustito a Fedora y Gnome. Al principio (24 horas atrás) el mouse parecía haber alcanzado un inoportuno grado de independencia porque se tendía a ir a la esquina superior izquierda (la “hot corner”) y se habilitaba el menú de Actividades. Para solucionarlo encontré un sitio desde el cual se instalan las extensiones de GNOME, que es un gran descubrimiento en sí mismo.
-Primero lo primero: instale 'No Topleft Hot Corner'.]]></description>
+    <description><![CDATA[<p>Empecé a tomarle el gustito a Fedora y Gnome. Al principio (24 horas atrás) el
+mouse parecía haber alcanzado un inoportuno grado de independencia porque se
+tendía a ir a la esquina superior izquierda (la “hot corner”) y se habilitaba el
+menú de Actividades. Para solucionarlo encontré <a href="https://extensions.gnome.org" target="_blank" rel="noopener noreffer">un
+sitio</a> desde el cual se instalan las extensiones
+de GNOME, que es un gran descubrimiento en sí mismo.</p>
+<p>Primero lo primero: instale 'No Topleft Hot Corner'. Me resulto
+llamativo que la instalación se realiza moviendo un switch que aparece
+junto al nombre de la extensión desde la propia página web (y que tiene
+también el texto ON u OFF de acuerdo a si ya esta instalado o no). Un
+detalle es que me anduvo bien desde Firefox, pero no desde Chrome (me
+doy bronca, porque todavía no instalé Opera, y es mi navegador de
+cabecera).</p>]]></description>
 </item>
 <item>
     <title>Dónde están los programas en Linux</title>
     <link>https://eldiegoefe.github.io/d%C3%B3nde-est%C3%A1n-los-programas-en-linux/</link>
     <pubDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/d%C3%B3nde-est%C3%A1n-los-programas-en-linux/</guid>
-    <description><![CDATA[Los directorios típicos son los siguientes, aunque hay variaciones en las distintas distribuciones de linux:
-[/bin] ejecutables (Essential commands that everyone needs to use at any time) [/usr] A complex hierarchy of additional programs and files. [/usr/bin] normal user executables. The commands that aren&rsquo;t essential for users but are useful [/sbin] (superuser core executables) The commands the system Administrator needs access to. [/usr/sbin] (superuser executables). The commands that aren&rsquo;t essential for Administrators but are useful.]]></description>
+    <description><![CDATA[<p>Los directorios típicos son los siguientes, aunque hay variaciones en las
+distintas distribuciones de linux:</p>
+<ul>
+<li>[/bin] ejecutables (Essential commands that everyone needs to use at any time)</li>
+<li>[/usr] A complex hierarchy of additional programs and files.</li>
+<li>[/usr/bin] normal user executables. The commands that aren&rsquo;t essential for
+users but are useful</li>
+<li>[/sbin] (superuser core executables) The commands the system Administrator
+needs access to.</li>
+<li>[/usr/sbin] (superuser executables). The commands that aren&rsquo;t essential for
+Administrators but are useful.</li>
+<li>Library files: (semi-equivalent to windows dll's) [/lib], [/usr/lib], etc.</li>
+<li>Configuration files: [/etc/]</li>
+<li>[/run/media] es en donde se montan las unidades portátiles, como el rígido
+externo y el pendrive</li>
+</ul>
+<p>También se le puede preguntar al sistema dónde está instalado un paquete:</p>]]></description>
 </item>
 </channel>
 </rss>

@@ -8,18 +8,39 @@
     <title>Instalando IPython en Mageia</title>
     <link>https://eldiegoefe.github.io/instalando-ipython-en-mageia/</link>
     <pubDate>Fri, 22 Aug 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instalando-ipython-en-mageia/</guid>
-    <description><![CDATA[Para instalar IPython en Mageia, sin tener privilegios de root hay que cumplir con los siguientes pasos:
-Contar con privilegios de root para poder correr el instalador Hay que instalar PIP Con PIP instalar IPython Trabajar como root: Conviene agregar el usuario a la lista de usuarios con privilegios para ejecutar sudo. Las instrucciones están en Configuring sudo de Mageia. Históricamente en UNIX este es el grupo Wheels.
-Primero hay que crear el archivo /etc/sudoers.]]></description>
+    <description><![CDATA[<p>Para instalar IPython en Mageia, sin tener privilegios de root hay que cumplir
+con los siguientes pasos:</p>
+<ul>
+<li>Contar con privilegios de root para poder correr el instalador</li>
+<li>Hay que instalar PIP</li>
+<li>Con PIP instalar IPython</li>
+</ul>
+<h2 id="trabajar-como-root">Trabajar como root:</h2>
+<p>Conviene agregar el usuario a la lista de usuarios con privilegios para
+ejecutar <em>sudo</em>. Las instrucciones están en <a href="https://wiki.mageia.org/en/Configuring_sudo" target="_blank" rel="noopener noreffer">Configuring
+sudo</a> de Mageia.
+Históricamente en UNIX este es el grupo Wheels.</p>
+<p>Primero hay que crear el archivo <em>/etc/sudoers.d/01wheel</em></p>]]></description>
 </item>
 <item>
     <title>Cuando uno quiere A y termina haciendo B</title>
     <link>https://eldiegoefe.github.io/cuando-uno-quiere-a-y-termina-haciendo-b/</link>
     <pubDate>Wed, 12 Feb 2014 10:30:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/cuando-uno-quiere-a-y-termina-haciendo-b/</guid>
-    <description><![CDATA[Estoy leyendo sobre IPython, que instalé en Windows a través de Anaconda.
-Durante ese viaje me enteré de que Windows tiene dos shells, el más viejo y limitado es 'cmd.exe' mientras que el recomendado es 'Windows PowerShell', ya que tiene los mismos comandos que Unix. En cualquiera de los dos, IPython se corre con la orden ipython
-Hay ayudas de IPython en:
-Documentación Oficial StackOverflow Lista de correos ¡Debe haber muchas más!]]></description>
+    <description><![CDATA[<p>Estoy leyendo sobre <a href="http://ipython.org/" target="_blank" rel="noopener noreffer">IPython</a>, que instalé en
+Windows a través de
+<a href="https://store.continuum.io/cshop/anaconda/" target="_blank" rel="noopener noreffer">Anaconda</a>.</p>
+<p>Durante ese viaje me enteré de que Windows tiene dos shells, el más viejo y
+limitado es 'cmd.exe' mientras que el recomendado es 'Windows PowerShell',
+ya que tiene los mismos comandos que Unix. En cualquiera de los dos, IPython se
+corre con la orden <em>ipython</em></p>
+<p>Hay ayudas de IPython en:</p>
+<ul>
+<li><a href="http://ipython.org/documentation.html" target="_blank" rel="noopener noreffer">Documentación Oficial</a></li>
+<li><a href="http://stackoverflow.com/questions/tagged/ipython" target="_blank" rel="noopener noreffer">StackOverflow</a></li>
+<li><a href="http://mail.scipy.org/mailman/listinfo/ipython-user" target="_blank" rel="noopener noreffer">Lista de
+correos</a></li>
+</ul>
+<p>¡Debe haber muchas más!</p>]]></description>
 </item>
 </channel>
 </rss>

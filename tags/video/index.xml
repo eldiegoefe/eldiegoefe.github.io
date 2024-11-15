@@ -8,9 +8,14 @@
     <title>Grabacion de screencasts para tutoriales de YouTube</title>
     <link>https://eldiegoefe.github.io/grabacion-de-screencasts-para-tutoriales-de-youtube/</link>
     <pubDate>Tue, 23 Sep 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/grabacion-de-screencasts-para-tutoriales-de-youtube/</guid>
-    <description><![CDATA[Actualización (Feb-2017): es muy facil usar el programa OBS Studio para grabar en la computadora tanto la pantalla como la webcam, micrófono, etc. Funciona en Linux, Window$ y Mac.
-Empecé a grabar tutoriales para usar IPython Notebook. Traté de hacerlo con la aplicación recordMyDesktop, pero el modo de seleccionar la parte de la pantalla a grabar resulta muy imprecisa, es practicamente imposible determinar la región con precisión.
-Luego encontré este buen tutorial: Creating Screencasts in Linux.]]></description>
+    <description><![CDATA[<p><strong>Actualización (Feb-2017)</strong>: es muy facil usar el programa OBS Studio para grabar en la computadora tanto la pantalla como la webcam, micrófono, etc. Funciona en Linux, Window$ y Mac.</p>
+<hr>
+<p>Empecé a grabar tutoriales para usar IPython Notebook. Traté de hacerlo con la
+aplicación recordMyDesktop, pero el modo de seleccionar la parte de la pantalla
+a grabar resulta muy imprecisa, es practicamente imposible determinar la región
+con precisión.</p>
+<p>Luego encontré este buen tutorial: <a href="http://nienhueser.de/blog/?p=469" target="_blank" rel="noopener noreffer">Creating Screencasts in
+Linux</a>. Ahí hay dos datos importantes:</p>]]></description>
 </item>
 </channel>
 </rss>

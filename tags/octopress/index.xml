@@ -8,9 +8,18 @@
     <title>Instrucciones para armar un blog geek</title>
     <link>https://eldiegoefe.github.io/instrucciones-para-armar-un-blog-geek/</link>
     <pubDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instrucciones-para-armar-un-blog-geek/</guid>
-    <description><![CDATA[En mi caso, alcanzar un estado zen requiere atravesar travesías barrocas. Mientras miraba cosas de IPython llegué a Pythonic Perambulations. Me gustó el contenido (muestra cómo armar ventanas de browsers con matplotlib interactivo), me gustó el diseño y me llamó la atención el dominio github.io.
-Blogs como el de Jake Vanderplas se arman con un motor llamado Jekyll.
-(*editado: Jake migró su sitio a Pelican, que está escrito en Python. Armé un post para explicar cómo instalarlo y usarlo en conjunción con las páginas personales de GitHub, ver Blog con Pelican y Github.]]></description>
+    <description><![CDATA[<p>En mi caso, alcanzar un estado zen requiere atravesar travesías barrocas.
+Mientras miraba cosas de IPython llegué a <a href="http://jakevdp.github.io/" target="_blank" rel="noopener noreffer">Pythonic
+Perambulations</a>. Me gustó el contenido (muestra cómo
+armar ventanas de browsers con matplotlib interactivo), me gustó el diseño y me
+llamó la atención el dominio <strong>github.io</strong>.</p>
+<p>Blogs como el de <a href="http://jakevdp.github.io" target="_blank" rel="noopener noreffer">Jake Vanderplas</a> se arman
+con un motor llamado Jekyll.</p>
+<p>(*editado: Jake migró su sitio a Pelican, que está escrito en Python. Armé un
+post para explicar cómo instalarlo y usarlo en conjunción con las páginas
+personales de GitHub, ver <a href="https://eldiegoefe.github.io/blog-con-pelican-y-github/" title="Blog" rel="">Blog con Pelican y Github</a>. <strong>Por ende
+este post queda desactualizado, además de haber quedado incompleto o quizás con
+errores</strong>).</p>]]></description>
 </item>
 </channel>
 </rss>

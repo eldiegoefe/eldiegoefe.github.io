@@ -8,19 +8,38 @@
     <title>Molestos clicks del mouse (digiKam tips)</title>
     <link>https://eldiegoefe.github.io/molestos-clicks-del-mouse-digikam-tips/</link>
     <pubDate>Fri, 16 Jan 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/molestos-clicks-del-mouse-digikam-tips/</guid>
-    <description><![CDATA[Usar el mouse en digiKam puede producir caspa. Cada vez que hago un click para seleccionar un archivo abre la vista de previsualización (como al apretar F3). Este comportamiento no corresponde exclusivamente a digiKam, sino al escritorio (en mi caso KDE). Para solucionarlo (en KDE) hay que ir a Preferencias del Sistema y en la sección de Hardware entrar al panel de Dispositivos de Entrada. En la siguiente imagen puede verse el lugar donde seleccionar la opción: Una doble pulsación abre archivos y carpetas (una sola pulsación selecciona iconos).]]></description>
+    <description><![CDATA[<p>Usar el mouse en digiKam puede producir caspa. Cada vez que hago un click para
+seleccionar un archivo abre la vista de previsualización (como al apretar F3).
+Este comportamiento no corresponde exclusivamente a digiKam, sino al escritorio
+(en mi caso KDE). Para solucionarlo (en KDE) hay que ir a <strong>Preferencias del
+Sistema</strong> y en la sección de <strong>Hardware</strong> entrar al panel de <strong>Dispositivos de
+Entrada</strong>. En la siguiente imagen puede verse el lugar donde seleccionar la
+opción: <em>Una doble pulsación abre archivos y carpetas (una sola pulsación
+selecciona iconos)</em>.</p>]]></description>
 </item>
 <item>
     <title>Crear colecciones y albumes en digiKam</title>
     <link>https://eldiegoefe.github.io/crear-colecciones-y-albumes-en-digikam/</link>
     <pubDate>Thu, 15 Jan 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/crear-colecciones-y-albumes-en-digikam/</guid>
-    <description><![CDATA[Crear albumes en digiKam tiene un inconveniente que un usuario que intenta emplearlo descubre rápidamente. Es un detalle que no está bien documentado en los tutoriales que encontré en la web. El problema es el siguiente: sólo van a poder crear álbumes dentro del único álbum existente, el cual aparece tras el procedimiento de configuración básica, cuando digiKam se ejecuta por primera vez. Probablemente este álbum se llame &quot;/home/nombreusuario/Imágenes&quot;, como en la figura siguiente.]]></description>
+    <description><![CDATA[<p>Crear albumes en digiKam tiene un inconveniente que un usuario que intenta
+emplearlo descubre rápidamente. Es un detalle que no está bien documentado en
+los tutoriales que encontré en la web. El problema es el siguiente: sólo van a
+poder crear álbumes dentro del único álbum existente, el cual aparece tras el
+procedimiento de configuración básica, cuando digiKam se ejecuta por primera
+vez. Probablemente este álbum se llame &quot;/home/nombreusuario/Imágenes&quot;, como en
+la figura siguiente.</p>]]></description>
 </item>
 <item>
     <title>Organizar una coleccion de fotos digitales</title>
     <link>https://eldiegoefe.github.io/organizar-una-coleccion-de-fotos-digitales/</link>
     <pubDate>Tue, 13 Jan 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/organizar-una-coleccion-de-fotos-digitales/</guid>
-    <description><![CDATA[La fotografía digital nos permite sacar millones de fotos sin gastar un peso en rollos, con cámaras fotográficas compactas y profesionales, teléfonos celulares y tablets. Esto que parece una ventaja puede volverse en contra si uno se vuelve el loco de la instantánea, porque los archivos se acumulan por montañas y esta abundancia supera toda posibilidad de encontrar las imágenes que merecen ser vistas de nuevo. Muchas veces te encontrás sacando varias fotos iguales o muy parecidas para después elegir la mejor, cosa que nunca sucede.]]></description>
+    <description><![CDATA[<p>La fotografía digital nos permite sacar millones de fotos sin gastar un peso en
+rollos, con cámaras fotográficas compactas y profesionales, teléfonos celulares
+y tablets. Esto que parece una ventaja puede volverse en contra si uno se vuelve
+el loco de la instantánea, porque los archivos se acumulan por montañas y esta
+abundancia supera toda posibilidad de encontrar las imágenes que merecen ser
+vistas de nuevo. Muchas veces te encontrás sacando varias fotos iguales o muy
+parecidas para después elegir la mejor, cosa que nunca sucede.</p>]]></description>
 </item>
 </channel>
 </rss>

@@ -8,9 +8,27 @@
     <title>Apuntes sobre matplotlib</title>
     <link>https://eldiegoefe.github.io/apuntes-sobre-matplotlib/</link>
     <pubDate>Sun, 03 Aug 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/apuntes-sobre-matplotlib/</guid>
-    <description><![CDATA[Estos son algunos apuntes extraidos principalmente del tutorial de Artist.
-Matplotlib Matplotlib is the whole package
-pylab a module in matplotlib installed alongside matplotlib preferred for interactive calculations and plotting matplotlib.pyplot a module in matplotlib provides the state machine interface to the underlying plotting library in matplotlib combines the pyplot functionality (for plotting) with numpy functionality in a single namespace figures and axes are implicitly and automatically created to achieve the desired plot preferred for scripting Artist Artist has three layers:]]></description>
+    <description><![CDATA[<p>Estos son algunos apuntes extraidos principalmente del <a href="http://matplotlib.org/users/artists.html" target="_blank" rel="noopener noreffer">tutorial de Artist</a>.</p>
+<h3 id="matplotlib">Matplotlib</h3>
+<p>Matplotlib is the whole package</p>
+<h3 id="pylab"><strong>pylab</strong></h3>
+<ul>
+<li>a module in matplotlib</li>
+<li>installed alongside matplotlib</li>
+<li>preferred for interactive calculations and plotting</li>
+</ul>
+<h3 id="matplotlibpyplot"><strong>matplotlib.pyplot</strong></h3>
+<ul>
+<li>a module in matplotlib provides the state machine interface to the
+underlying plotting library in matplotlib</li>
+<li>combines the pyplot functionality (for plotting) with numpy
+functionality in a single namespace</li>
+<li>figures and axes are implicitly and automatically created to achieve
+the desired plot</li>
+<li>preferred for scripting</li>
+</ul>
+<h2 id="artist">Artist</h2>
+<p>Artist has three layers:</p>]]></description>
 </item>
 </channel>
 </rss>
