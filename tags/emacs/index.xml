@@ -232,36 +232,36 @@ varias formas de inicio.</p>
 <table>
   <thead>
       <tr>
-          <th style="text-align: left">Comando</th>
-          <th style="text-align: left">Por  defecto</th>
-          <th style="text-align: left">Ergoemacs</th>
-          <th style="text-align: left">Descripción</th>
+          <th>Comando</th>
+          <th>Por  defecto</th>
+          <th>Ergoemacs</th>
+          <th>Descripción</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">isearch-forward</td>
-          <td style="text-align: left">C-s</td>
-          <td style="text-align: left">C-f</td>
-          <td style="text-align: left">solicita los caracteres a buscar</td>
+          <td>isearch-forward</td>
+          <td>C-s</td>
+          <td>C-f</td>
+          <td>solicita los caracteres a buscar</td>
       </tr>
       <tr>
-          <td style="text-align: left">isearch-forward-symbol-at-point</td>
-          <td style="text-align: left">M-s .</td>
-          <td style="text-align: left">F8 .</td>
-          <td style="text-align: left">busca el símbolo bajo el cursor</td>
+          <td>isearch-forward-symbol-at-point</td>
+          <td>M-s .</td>
+          <td>F8 .</td>
+          <td>busca el símbolo bajo el cursor</td>
       </tr>
       <tr>
-          <td style="text-align: left">isearch-forward-word</td>
-          <td style="text-align: left">M-s w</td>
-          <td style="text-align: left">F8 w</td>
-          <td style="text-align: left">busca palabras</td>
+          <td>isearch-forward-word</td>
+          <td>M-s w</td>
+          <td>F8 w</td>
+          <td>busca palabras</td>
       </tr>
       <tr>
-          <td style="text-align: left">isearch-forward-symbol</td>
-          <td style="text-align: left">M-s _</td>
-          <td style="text-align: left">F8 _</td>
-          <td style="text-align: left">busca símbolos (símbolos según Emacs)</td>
+          <td>isearch-forward-symbol</td>
+          <td>M-s _</td>
+          <td>F8 _</td>
+          <td>busca símbolos (símbolos según Emacs)</td>
       </tr>
   </tbody>
 </table>

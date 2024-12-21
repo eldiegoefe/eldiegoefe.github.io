@@ -10,8 +10,10 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 
 ## Frecuentes
 - [Gmail](https://mail.google.com/mail/u/0/#inbox)
+- [Drive](https://drive.google.com/drive/my-drive)
 - [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
-- [Weather Underground](https://www.wunderground.com/forecast/ar/paran%C3%A1/IENTRERO9)
+- [Weather Underground](https://www.wunderground.com/weather/ar/paran%C3%A1)
+- [Max HBO](https://play.max.com/home)
 
 ## Noticias
 - [elDiarioAR](https://www.eldiarioar.com/)
@@ -44,6 +46,7 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 - [Low Tech Magazine](https://solar.lowtechmagazine.com/)
 - [Luke Smith](https://lukesmith.xyz/)
 - [Syntopikon](https://www.syntopikon.com/workflows/)
+- [Mr Money Moustache](https://www.mrmoneymustache.com/)
 
 ## Facultad
 - [Campus](https://campus.ingenieria.uner.edu.ar/)
@@ -76,7 +79,18 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 
 - [Evernote](https://evernote.com)
 - [Ergodox Configurator](https://configure.zsa.io/ergodox-ez/layouts/default/latest/0)
+
+## Idiomas
+
 - [Google Translate](https://translate.google.com/)
+
+## Finanzas
+
+- [BCR](https://bcr.com.ar/es/mercados/mercado-de-granos/cotizaciones/cotizaciones-locales-0)
+- [Invertir OnLine](https://micuenta.invertironline.com/ingresar)
+- []()
+- [Consumo Colaborativo](https://www.consumocolaborativo.com/)
+- [Dolar Hoy](https://dolarhoy.com/)
 
 ## Descargas
 
