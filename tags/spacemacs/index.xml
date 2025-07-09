@@ -1,41 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Spacemacs - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/spacemacs/</link>
-        <description>Spacemacs - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/spacemacs/" rel="self" type="application/rss+xml" /><item>
-    <title>Python en Emacs y otros atajos</title>
-    <link>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</link>
-    <pubDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</guid>
-    <description><![CDATA[<h2 id="spacemacs">Spacemacs</h2>
-<ol>
-<li>
-<p>Anaconda-mode: Emacs tiene muchas herramientas para facilitar la
-programación en Python. En Spacemacs se puede activar
-<a href="https://github.com/proofit404/anaconda-mode" target="_blank" rel="noopener noreffer">anaconda-mode</a>, que habilita
-una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información
-en el modeline sobre la función que se está tipeando (muestra los nombres de
-sus argumentos). Cosas de Anaconda para usar:</p>
-<ul>
-<li>anaconda-mode-complete (C-M-i)</li>
-<li>anaconda-mode-find-definitions (SPC m g g): busca el origen del
-símbolo bajo el punto. Por ejemplo: si se trata de una función,
-abre el archivo donde está definida y ubica el punto sobre el
-encabezado de la misma.</li>
-<li>anaconda-mode-find-assignments</li>
-<li>anaconda-mode-find-references</li>
-<li>anaconda-mode-go-back</li>
-<li>anaconda-mode-show-doc</li>
-</ul>
-</li>
-<li>
-<p>Entornos virtuales: se puede activar un entorno virtual donde correr
-el programa que se está desarrollando con SPC m V (pyvenv-workon,
-pero en este caso no aparecen correctamente todas las opciones, al
-menos no veo los entornos que instalé con pyenv), o también con SPC
-m v s (pyenv-mode-set, en este caso sí se ven los entornos de
-pyenv).</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spacemacs on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/spacemacs/</link>
+    <description>Recent content in Spacemacs on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Thu, 24 Sep 2015 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/spacemacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python en Emacs y otros atajos</title>
+      <link>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</link>
+      <pubDate>Thu, 24 Sep 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</guid>
+      <description>&lt;h2 id=&#34;spacemacs&#34;&gt;Spacemacs&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Anaconda-mode: Emacs tiene muchas herramientas para facilitar la&#xA;programación en Python. En Spacemacs se puede activar&#xA;&lt;a href=&#34;https://github.com/proofit404/anaconda-mode&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;anaconda-mode&lt;/a&gt;, que habilita&#xA;una serie de paquetes útiles. Por ejemplo &amp;quot;eldoc&amp;quot; que ofrece información&#xA;en el modeline sobre la función que se está tipeando (muestra los nombres de&#xA;sus argumentos). Cosas de Anaconda para usar:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;anaconda-mode-complete (C-M-i)&lt;/li&gt;&#xA;&lt;li&gt;anaconda-mode-find-definitions (SPC m g g): busca el origen del&#xA;símbolo bajo el punto. Por ejemplo: si se trata de una función,&#xA;abre el archivo donde está definida y ubica el punto sobre el&#xA;encabezado de la misma.&lt;/li&gt;&#xA;&lt;li&gt;anaconda-mode-find-assignments&lt;/li&gt;&#xA;&lt;li&gt;anaconda-mode-find-references&lt;/li&gt;&#xA;&lt;li&gt;anaconda-mode-go-back&lt;/li&gt;&#xA;&lt;li&gt;anaconda-mode-show-doc&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Entornos virtuales: se puede activar un entorno virtual donde correr&#xA;el programa que se está desarrollando con SPC m V (pyvenv-workon,&#xA;pero en este caso no aparecen correctamente todas las opciones, al&#xA;menos no veo los entornos que instalé con pyenv), o también con SPC&#xA;m v s (pyenv-mode-set, en este caso sí se ven los entornos de&#xA;pyenv).&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

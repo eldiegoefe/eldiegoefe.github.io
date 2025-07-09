@@ -1,313 +1,154 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Emacs - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/emacs/</link>
-        <description>Emacs - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Mon, 30 Oct 2023 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/emacs/" rel="self" type="application/rss+xml" /><item>
-    <title>Lineas en Emacs - Visual line mode - Auto fill mode</title>
-    <link>https://eldiegoefe.github.io/lineas-en-emacs-visual-line-mode-auto-fill-mode/</link>
-    <pubDate>Mon, 30 Oct 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/lineas-en-emacs-visual-line-mode-auto-fill-mode/</guid>
-    <description><![CDATA[<p>En Emacs las lineas de texto pueden ser:</p>
-<ul>
-<li><em>visibles</em>: las que terminan en cada linea o renglón</li>
-<li><em>lógicas</em>: las que terminan con un Enter. Una linea lógica puede ocupar muchas lineas visibles, y esto hace que algunos comandos de Emacs funcionen de manera distinta en ambos tipos de linea.</li>
-</ul>
-<p>Por defecto las lineas son <em>lógicas</em> y al escribir uno puede llegar al final de la linea y continuar escribiendo. Aparecen caracteres &ldquo;raros&rdquo; sobre los bordes (para indicar que la linea se continúa). Hay un ajuste de linea o &ldquo;line-wrap&rdquo;, de manera que el renglón inicial y el renglón que continúa constituyen una sola linea de texto (una línea <em>lógica</em>).</p>]]></description>
-</item>
-<item>
-    <title>Ayuda en Emacs - Aprender o Repasar es Facil</title>
-    <link>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</link>
-    <pubDate>Sat, 02 Apr 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</guid>
-    <description><![CDATA[<p>Indagar sobre las múltiples funciones de Emacs es una tarea
-inevitable. Ya sea para explorar y descubrir comandos útiles, o tras
-un tiempo alejados del editor durante el que nuestros músculos olvidan
-hasta los atajos de teclado más cotidianos.</p>
-<p>Por suerte Emacs cuenta con mucha documentación incorporada y si
-aprendemos a preguntarle, nos responderá todas nuestras dudas sin
-necesidad de salir a buscar respuestas en la web.</p>
-<p>Un problema de la información disponible online es que está centrada
-por lo general en los atajos de teclado que vienen por defecto en
-Emacs (o en los paquetes de terceros que instalemos), y entonces se
-vuelven inaplicables las sentencias del tipo &ldquo;<em>para salir de Emacs se
-usa C-x C-c</em>&rdquo;. Yo promuevo el uso del nombre de las funciones para dar
-ayuda, pero en cualquier caso, es mejor preguntarle a nuestra versión
-local de Emacs todo lo que necesitemos saber, puesto que conoce
-nuestros atajos de teclado al dedillo.</p>]]></description>
-</item>
-<item>
-    <title>Movimientos Originales en Emacs</title>
-    <link>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</link>
-    <pubDate>Sun, 27 Mar 2022 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</guid>
-    <description><![CDATA[<p>Estoy volviendo a probar Emacs con los atajos de teclado originales, tras años de usar evil-mode y la edición modal propia de VIM (que está buenísima). Lo hago para independizarme de los <em>kits</em> como <em>Doom Emacs</em> y <em>Spacemacs</em> y así retomar el control total sobre la configuración y de paso retomar el estudio de LISP. Esto es un resumen de los atajos de teclado que deseo recordar.</p>
-<h1 id="movimientos-sobre-la-linea">Movimientos sobre la linea</h1>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center">Tecla</th>
-          <th style="text-align: center">Comando</th>
-          <th style="text-align: center">Comentario</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">C-a</td>
-          <td style="text-align: center">move-beginning-of-line</td>
-          <td style="text-align: center">Mueve al inicio de la linea</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">C-e</td>
-          <td style="text-align: center">move-end-of-line</td>
-          <td style="text-align: center">Mueve al final de la linea</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">M-m</td>
-          <td style="text-align: center">back-to-indentation</td>
-          <td style="text-align: center">Mueve al primer caracter de la linea luego de la indentación</td>
-      </tr>
-  </tbody>
-</table>
-<h1 id="movimientos-de-distancias-cortas-caracteres-y-lineas">Movimientos de distancias cortas: caracteres y lineas</h1>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center">Tecla</th>
-          <th style="text-align: center">Comando</th>
-          <th style="text-align: center">Comentario</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">C-f</td>
-          <td style="text-align: center">forward-char</td>
-          <td style="text-align: center">Mueve un caracter hacia adelante</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">C-b</td>
-          <td style="text-align: center">backward-char</td>
-          <td style="text-align: center">Mueve un caracter hacia atrás</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">C-n</td>
-          <td style="text-align: center">next-line</td>
-          <td style="text-align: center">Mueve hacia la siguiente linea</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">C-p</td>
-          <td style="text-align: center">previous-line</td>
-          <td style="text-align: center">Mueve hacia la linea previa</td>
-      </tr>
-  </tbody>
-</table>
-<h1 id="movimientos-entre-palabras">Movimientos entre palabras</h1>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center">Tecla</th>
-          <th style="text-align: center">Comando</th>
-          <th style="text-align: center">Comentario</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">M-f</td>
-          <td style="text-align: center">forward-word</td>
-          <td style="text-align: center">Mueve una palabra hacia adelante</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">M-b</td>
-          <td style="text-align: center">backward-word</td>
-          <td style="text-align: center">Mueve una palabra hacia atrás</td>
-      </tr>
-  </tbody>
-</table>
-<p>Me parece preferible usar los que aparecen abajo como &ldquo;Movimiento entre bloques&rdquo; porque saltan entre palabras igual que estos, y no hace falta estar pensando en si el prefijo es Alt o Ctrl.</p>]]></description>
-</item>
-<item>
-    <title>Instalación y configuración de Emacs</title>
-    <link>https://eldiegoefe.github.io/instalaci%C3%B3n-y-configuraci%C3%B3n-de-emacs/</link>
-    <pubDate>Fri, 01 Dec 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instalaci%C3%B3n-y-configuraci%C3%B3n-de-emacs/</guid>
-    <description><![CDATA[<p>Estos son los pasos que sigo cuando instalo Emacs y Spacemacs, junto con el
-archivo de configuración que guardo en un repositorio privado.</p>
-<h2 id="paso-1-modos-de-instalación">Paso 1: Modos de instalación</h2>
-<h3 id="opción-a-repositorio-con-la-última-versión-de-emacs">Opción A: repositorio con la última versión de Emacs</h3>
-<p>Esta es la manera más facil de instalación, para un un sistema
-descendiente de Debian (Ubuntu, Mint, etc).</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">$ sudo add-apt-repository ppa:ubuntu-elisp/ppa
-</span></span><span class="line"><span class="cl">$ sudo apt-get update
-</span></span><span class="line"><span class="cl">$ sudo apt-get install emacs-snapshot emacs-snapshot-el
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h3 id="opción-b-compilación-desde-un-terminal">Opción B: compilación desde un terminal</h3>
-<p>Bajar la versión a instalar desde <a href="http://ftp.gnu.org/gnu/emacs/" target="_blank" rel="noopener noreffer">http://ftp.gnu.org/gnu/emacs/</a> son
-dos archivos .tar.gz y .tar.gz.sig (o sino .tar.xz y .tar.xz.sig). Tiene
-la ventaja de optimizar el programa de acuerdo a la máquina específica
-en la que va a correr.</p>]]></description>
-</item>
-<item>
-    <title>Uso de MBED desde la linea de comandos (CLI)</title>
-    <link>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</link>
-    <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</guid>
-    <description><![CDATA[<p>Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora
-usaba <a href="https://developer.mbed.org/" target="_blank" rel="noopener noreffer">la versión online del compilador</a> con una
-FRDM-KL25Z, que es una (de las primeras en funcionar con MBED). El problema del
-compilador online no es que haya que estar conectado a la web (lo vengo usando
-desde hace mucho y nunca tuve problemas de acceso) sino sus limitadas
-prestaciones como editor de texto. Por ejemplo, no encontré manera de comentar y
-des-comentar múltiples lineas de código simultaneamente, algo que necesito hacer
-con frecuencia. Por esto mismo prefiero el editor que uso para el resto de mis
-actividades: Emacs, y esto lo puedo hacer con el nuevo compilador offline.</p>]]></description>
-</item>
-<item>
-    <title>Más sobre agenda en org-mode</title>
-    <link>https://eldiegoefe.github.io/m%C3%A1s-sobre-agenda-en-org-mode/</link>
-    <pubDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/m%C3%A1s-sobre-agenda-en-org-mode/</guid>
-    <description><![CDATA[<p>Para el uso de la agenda en org-mode, voy a listar las cosas que uso con
-frecuencia. Además, en este link hay un resumen de comandos de org-mode muy
-completo.</p>
-<h2 id="inserción">Inserción</h2>
-<p>Atajos de teclado &quot;convencionales&quot; de org-mode (funcionan con
-Spacemacs).</p>
-<ul>
-<li>capturar una nota en el inbox: C-c c</li>
-<li>links: C-c C-l</li>
-<li>etiqueta de To-Do (empezado, hibernando, completado, etc): C-c C-t</li>
-<li>schedule: C-c C-s</li>
-<li>deadline: C-c C-d</li>
-</ul>
-<p>Para agregar:</p>
-<ul>
-<li>Refile: cómo llevar las notas del inbox a su destino final.</li>
-</ul>
-<h2 id="generación-de-enlaces">Generación de enlaces</h2>
-<p>Atajos de teclado sólo de Spacemacs.</p>]]></description>
-</item>
-<item>
-    <title>Python en Emacs y otros atajos</title>
-    <link>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</link>
-    <pubDate>Thu, 24 Sep 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</guid>
-    <description><![CDATA[<h2 id="spacemacs">Spacemacs</h2>
-<ol>
-<li>
-<p>Anaconda-mode: Emacs tiene muchas herramientas para facilitar la
-programación en Python. En Spacemacs se puede activar
-<a href="https://github.com/proofit404/anaconda-mode" target="_blank" rel="noopener noreffer">anaconda-mode</a>, que habilita
-una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información
-en el modeline sobre la función que se está tipeando (muestra los nombres de
-sus argumentos). Cosas de Anaconda para usar:</p>
-<ul>
-<li>anaconda-mode-complete (C-M-i)</li>
-<li>anaconda-mode-find-definitions (SPC m g g): busca el origen del
-símbolo bajo el punto. Por ejemplo: si se trata de una función,
-abre el archivo donde está definida y ubica el punto sobre el
-encabezado de la misma.</li>
-<li>anaconda-mode-find-assignments</li>
-<li>anaconda-mode-find-references</li>
-<li>anaconda-mode-go-back</li>
-<li>anaconda-mode-show-doc</li>
-</ul>
-</li>
-<li>
-<p>Entornos virtuales: se puede activar un entorno virtual donde correr
-el programa que se está desarrollando con SPC m V (pyvenv-workon,
-pero en este caso no aparecen correctamente todas las opciones, al
-menos no veo los entornos que instalé con pyenv), o también con SPC
-m v s (pyenv-mode-set, en este caso sí se ven los entornos de
-pyenv).</p>]]></description>
-</item>
-<item>
-    <title>Búsquedas con isearch en Emacs</title>
-    <link>https://eldiegoefe.github.io/b%C3%BAsquedas-con-isearch-en-emacs/</link>
-    <pubDate>Wed, 27 May 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/b%C3%BAsquedas-con-isearch-en-emacs/</guid>
-    <description><![CDATA[<p>Es una tarea habitual al editar texto el buscar caracteres o palabras. Una de
-las opciones que ofrece Emacs es la función de búsqueda incremental, que tiene
-varias formas de inicio.</p>
-<table>
-  <thead>
-      <tr>
-          <th>Comando</th>
-          <th>Por  defecto</th>
-          <th>Ergoemacs</th>
-          <th>Descripción</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>isearch-forward</td>
-          <td>C-s</td>
-          <td>C-f</td>
-          <td>solicita los caracteres a buscar</td>
-      </tr>
-      <tr>
-          <td>isearch-forward-symbol-at-point</td>
-          <td>M-s .</td>
-          <td>F8 .</td>
-          <td>busca el símbolo bajo el cursor</td>
-      </tr>
-      <tr>
-          <td>isearch-forward-word</td>
-          <td>M-s w</td>
-          <td>F8 w</td>
-          <td>busca palabras</td>
-      </tr>
-      <tr>
-          <td>isearch-forward-symbol</td>
-          <td>M-s _</td>
-          <td>F8 _</td>
-          <td>busca símbolos (símbolos según Emacs)</td>
-      </tr>
-  </tbody>
-</table>
-<p>Al ejecutar uno de estos comandos se entra dentro de un modo en el cual
-se puede repetir la misma búsqueda o modificarla (en el minibuffer
-aparece información relativa a este modo, por ejemplo tras ejecutar
-<em>isearch-forward</em> aparece <em>I-search:</em> para que el usuario ingrese las
-letras que desea buscar).</p>]]></description>
-</item>
-<item>
-    <title>Sugerencia respecto de los tutoriales de Emacs</title>
-    <link>https://eldiegoefe.github.io/sugerencia-respecto-de-los-tutoriales-de-emacs/</link>
-    <pubDate>Mon, 18 May 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/sugerencia-respecto-de-los-tutoriales-de-emacs/</guid>
-    <description><![CDATA[<p>To read this entry in english: <a href="https://eldiegoefe.github.io/suggestion-about-emacs-tutorials.html" target="_blank" rel="noopener noreffer">click
-here</a>.</p>
-<p>Leo bastantes blogs sobre Emacs desde que empecé el viaje de aprender a usarlo.
-Hay tutoriales buenísimos para principiantes y también páginas destinadas a
-usuarios más avanzados. Sin embargo, en la mayoría de los sitios se repite una
-costumbre que desestima una de las ventajas que tiene el Todopoderoso Editor (su
-capacidad de personalización): las instrucciones para hacer tal o cual cosa
-suelen aparecer con sus atajos de teclado por defecto, como si fuese invariable
-que abrir un archivo (visitarlo) se haga con C-x C-f, o como si los únicos
-keybindings para ir a los extremos de la linea donde se ubica el cursor sean C-a
-y C-e, o como si realizar búsquedas incrementales requiera indefectiblemente
-teclear C-s. En mi caso, las combinaciones de tecla para estas funciones, entre
-muchas otras, están personalizadas, sin que muchas veces funcionen los atajos
-por defecto (por ejemplo abro los archivos con C-o, muevo el cursor a los
-extremos con M-h y S-M-h, y activo las &quot;búsquedas incrementales&quot; con C-f).</p>]]></description>
-</item>
-<item>
-    <title>Suggestion about Emacs tutorials</title>
-    <link>https://eldiegoefe.github.io/suggestion-about-emacs-tutorials/</link>
-    <pubDate>Mon, 18 May 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/suggestion-about-emacs-tutorials/</guid>
-    <description><![CDATA[<p>Para leer este texto en español: <a href="https://eldiegoefe.github.io/sugerencia-respecto-de-los-tutoriales-de-emacs.html" target="_blank" rel="noopener noreffer">click
-aca</a></p>
-<p>I read many Emacs blogs since I started the trip of learning it. There are great
-beginner's tutorials and also webpages for more advanced users. However,
-there's a habit I find repeatedly on the majority of sites which goes against
-one of the Almighty Editor advantages: instructions usually refer to default
-keybindings, like it was invariant that you visit files only with C-x C-f, or
-like the only admited shortcuts to the beginning and ending of the current line
-where C-a and C-e, or if the incremental search inevitable required to type C-s.
-In my case, keybindings for all these functions and many others are
-personalized, and the default ones are disabled (I visit files with C-o, move
-the point to the beginning or end of the line with M-h and S-M-h, and activate
-incremental searches with C-f).</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emacs on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/emacs/</link>
+    <description>Recent content in Emacs on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Mon, 30 Oct 2023 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lineas en Emacs - Visual line mode - Auto fill mode</title>
+      <link>https://eldiegoefe.github.io/lineas-en-emacs-visual-line-mode-auto-fill-mode/</link>
+      <pubDate>Mon, 30 Oct 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/lineas-en-emacs-visual-line-mode-auto-fill-mode/</guid>
+      <description>&lt;p&gt;En Emacs las lineas de texto pueden ser:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;em&gt;visibles&lt;/em&gt;: las que terminan en cada linea o renglón&lt;/li&gt;&#xA;&lt;li&gt;&lt;em&gt;lógicas&lt;/em&gt;: las que terminan con un Enter. Una linea lógica puede ocupar muchas lineas visibles, y esto hace que algunos comandos de Emacs funcionen de manera distinta en ambos tipos de linea.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Por defecto las lineas son &lt;em&gt;lógicas&lt;/em&gt; y al escribir uno puede llegar al final de la linea y continuar escribiendo. Aparecen caracteres &amp;ldquo;raros&amp;rdquo; sobre los bordes (para indicar que la linea se continúa). Hay un ajuste de linea o &amp;ldquo;line-wrap&amp;rdquo;, de manera que el renglón inicial y el renglón que continúa constituyen una sola linea de texto (una línea &lt;em&gt;lógica&lt;/em&gt;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ayuda en Emacs - Aprender o Repasar es Facil</title>
+      <link>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</link>
+      <pubDate>Sat, 02 Apr 2022 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/ayuda-en-emacs-aprender-o-repasar-es-facil/</guid>
+      <description>&lt;p&gt;Indagar sobre las múltiples funciones de Emacs es una tarea&#xA;inevitable. Ya sea para explorar y descubrir comandos útiles, o tras&#xA;un tiempo alejados del editor durante el que nuestros músculos olvidan&#xA;hasta los atajos de teclado más cotidianos.&lt;/p&gt;&#xA;&lt;p&gt;Por suerte Emacs cuenta con mucha documentación incorporada y si&#xA;aprendemos a preguntarle, nos responderá todas nuestras dudas sin&#xA;necesidad de salir a buscar respuestas en la web.&lt;/p&gt;&#xA;&lt;p&gt;Un problema de la información disponible online es que está centrada&#xA;por lo general en los atajos de teclado que vienen por defecto en&#xA;Emacs (o en los paquetes de terceros que instalemos), y entonces se&#xA;vuelven inaplicables las sentencias del tipo &amp;ldquo;&lt;em&gt;para salir de Emacs se&#xA;usa C-x C-c&lt;/em&gt;&amp;rdquo;. Yo promuevo el uso del nombre de las funciones para dar&#xA;ayuda, pero en cualquier caso, es mejor preguntarle a nuestra versión&#xA;local de Emacs todo lo que necesitemos saber, puesto que conoce&#xA;nuestros atajos de teclado al dedillo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Movimientos Originales en Emacs</title>
+      <link>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</link>
+      <pubDate>Sun, 27 Mar 2022 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/movimientos-originales-en-emacs/</guid>
+      <description>&lt;p&gt;Estoy volviendo a probar Emacs con los atajos de teclado originales, tras años de usar evil-mode y la edición modal propia de VIM (que está buenísima). Lo hago para independizarme de los &lt;em&gt;kits&lt;/em&gt; como &lt;em&gt;Doom Emacs&lt;/em&gt; y &lt;em&gt;Spacemacs&lt;/em&gt; y así retomar el control total sobre la configuración y de paso retomar el estudio de LISP. Esto es un resumen de los atajos de teclado que deseo recordar.&lt;/p&gt;&#xA;&lt;h1 id=&#34;movimientos-sobre-la-linea&#34;&gt;Movimientos sobre la linea&lt;/h1&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Tecla&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Comando&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Comentario&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;C-a&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;move-beginning-of-line&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Mueve al inicio de la linea&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;C-e&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;move-end-of-line&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Mueve al final de la linea&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;M-m&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;back-to-indentation&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Mueve al primer caracter de la linea luego de la indentación&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h1 id=&#34;movimientos-de-distancias-cortas-caracteres-y-lineas&#34;&gt;Movimientos de distancias cortas: caracteres y lineas&lt;/h1&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Tecla&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Comando&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Comentario&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;C-f&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;forward-char&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Mueve un caracter hacia adelante&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;C-b&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;backward-char&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Mueve un caracter hacia atrás&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;C-n&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;next-line&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Mueve hacia la siguiente linea&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;C-p&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;previous-line&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Mueve hacia la linea previa&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h1 id=&#34;movimientos-entre-palabras&#34;&gt;Movimientos entre palabras&lt;/h1&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Tecla&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Comando&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Comentario&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;M-f&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;forward-word&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Mueve una palabra hacia adelante&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;M-b&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;backward-word&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Mueve una palabra hacia atrás&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Me parece preferible usar los que aparecen abajo como &amp;ldquo;Movimiento entre bloques&amp;rdquo; porque saltan entre palabras igual que estos, y no hace falta estar pensando en si el prefijo es Alt o Ctrl.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Instalación y configuración de Emacs</title>
+      <link>https://eldiegoefe.github.io/instalaci%C3%B3n-y-configuraci%C3%B3n-de-emacs/</link>
+      <pubDate>Fri, 01 Dec 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/instalaci%C3%B3n-y-configuraci%C3%B3n-de-emacs/</guid>
+      <description>&lt;p&gt;Estos son los pasos que sigo cuando instalo Emacs y Spacemacs, junto con el&#xA;archivo de configuración que guardo en un repositorio privado.&lt;/p&gt;&#xA;&lt;h2 id=&#34;paso-1-modos-de-instalación&#34;&gt;Paso 1: Modos de instalación&lt;/h2&gt;&#xA;&lt;h3 id=&#34;opción-a-repositorio-con-la-última-versión-de-emacs&#34;&gt;Opción A: repositorio con la última versión de Emacs&lt;/h3&gt;&#xA;&lt;p&gt;Esta es la manera más facil de instalación, para un un sistema&#xA;descendiente de Debian (Ubuntu, Mint, etc).&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ sudo add-apt-repository ppa:ubuntu-elisp/ppa&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ sudo apt-get update&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ sudo apt-get install emacs-snapshot emacs-snapshot-el&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;h3 id=&#34;opción-b-compilación-desde-un-terminal&#34;&gt;Opción B: compilación desde un terminal&lt;/h3&gt;&#xA;&lt;p&gt;Bajar la versión a instalar desde &lt;a href=&#34;http://ftp.gnu.org/gnu/emacs/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;http://ftp.gnu.org/gnu/emacs/&lt;/a&gt; son&#xA;dos archivos .tar.gz y .tar.gz.sig (o sino .tar.xz y .tar.xz.sig). Tiene&#xA;la ventaja de optimizar el programa de acuerdo a la máquina específica&#xA;en la que va a correr.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Uso de MBED desde la linea de comandos (CLI)</title>
+      <link>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</link>
+      <pubDate>Fri, 04 Nov 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</guid>
+      <description>&lt;p&gt;Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora&#xA;usaba &lt;a href=&#34;https://developer.mbed.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;la versión online del compilador&lt;/a&gt; con una&#xA;FRDM-KL25Z, que es una (de las primeras en funcionar con MBED). El problema del&#xA;compilador online no es que haya que estar conectado a la web (lo vengo usando&#xA;desde hace mucho y nunca tuve problemas de acceso) sino sus limitadas&#xA;prestaciones como editor de texto. Por ejemplo, no encontré manera de comentar y&#xA;des-comentar múltiples lineas de código simultaneamente, algo que necesito hacer&#xA;con frecuencia. Por esto mismo prefiero el editor que uso para el resto de mis&#xA;actividades: Emacs, y esto lo puedo hacer con el nuevo compilador offline.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Más sobre agenda en org-mode</title>
+      <link>https://eldiegoefe.github.io/m%C3%A1s-sobre-agenda-en-org-mode/</link>
+      <pubDate>Thu, 07 Jan 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/m%C3%A1s-sobre-agenda-en-org-mode/</guid>
+      <description>&lt;p&gt;Para el uso de la agenda en org-mode, voy a listar las cosas que uso con&#xA;frecuencia. Además, en este link hay un resumen de comandos de org-mode muy&#xA;completo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;inserción&#34;&gt;Inserción&lt;/h2&gt;&#xA;&lt;p&gt;Atajos de teclado &amp;quot;convencionales&amp;quot; de org-mode (funcionan con&#xA;Spacemacs).&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;capturar una nota en el inbox: C-c c&lt;/li&gt;&#xA;&lt;li&gt;links: C-c C-l&lt;/li&gt;&#xA;&lt;li&gt;etiqueta de To-Do (empezado, hibernando, completado, etc): C-c C-t&lt;/li&gt;&#xA;&lt;li&gt;schedule: C-c C-s&lt;/li&gt;&#xA;&lt;li&gt;deadline: C-c C-d&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Para agregar:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Refile: cómo llevar las notas del inbox a su destino final.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;generación-de-enlaces&#34;&gt;Generación de enlaces&lt;/h2&gt;&#xA;&lt;p&gt;Atajos de teclado sólo de Spacemacs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python en Emacs y otros atajos</title>
+      <link>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</link>
+      <pubDate>Thu, 24 Sep 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/python-en-emacs-y-otros-atajos/</guid>
+      <description>&lt;h2 id=&#34;spacemacs&#34;&gt;Spacemacs&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Anaconda-mode: Emacs tiene muchas herramientas para facilitar la&#xA;programación en Python. En Spacemacs se puede activar&#xA;&lt;a href=&#34;https://github.com/proofit404/anaconda-mode&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;anaconda-mode&lt;/a&gt;, que habilita&#xA;una serie de paquetes útiles. Por ejemplo &amp;quot;eldoc&amp;quot; que ofrece información&#xA;en el modeline sobre la función que se está tipeando (muestra los nombres de&#xA;sus argumentos). Cosas de Anaconda para usar:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;anaconda-mode-complete (C-M-i)&lt;/li&gt;&#xA;&lt;li&gt;anaconda-mode-find-definitions (SPC m g g): busca el origen del&#xA;símbolo bajo el punto. Por ejemplo: si se trata de una función,&#xA;abre el archivo donde está definida y ubica el punto sobre el&#xA;encabezado de la misma.&lt;/li&gt;&#xA;&lt;li&gt;anaconda-mode-find-assignments&lt;/li&gt;&#xA;&lt;li&gt;anaconda-mode-find-references&lt;/li&gt;&#xA;&lt;li&gt;anaconda-mode-go-back&lt;/li&gt;&#xA;&lt;li&gt;anaconda-mode-show-doc&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Entornos virtuales: se puede activar un entorno virtual donde correr&#xA;el programa que se está desarrollando con SPC m V (pyvenv-workon,&#xA;pero en este caso no aparecen correctamente todas las opciones, al&#xA;menos no veo los entornos que instalé con pyenv), o también con SPC&#xA;m v s (pyenv-mode-set, en este caso sí se ven los entornos de&#xA;pyenv).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Búsquedas con isearch en Emacs</title>
+      <link>https://eldiegoefe.github.io/b%C3%BAsquedas-con-isearch-en-emacs/</link>
+      <pubDate>Wed, 27 May 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/b%C3%BAsquedas-con-isearch-en-emacs/</guid>
+      <description>&lt;p&gt;Es una tarea habitual al editar texto el buscar caracteres o palabras. Una de&#xA;las opciones que ofrece Emacs es la función de búsqueda incremental, que tiene&#xA;varias formas de inicio.&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Comando&lt;/th&gt;&#xA;          &lt;th&gt;Por  defecto&lt;/th&gt;&#xA;          &lt;th&gt;Ergoemacs&lt;/th&gt;&#xA;          &lt;th&gt;Descripción&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;isearch-forward&lt;/td&gt;&#xA;          &lt;td&gt;C-s&lt;/td&gt;&#xA;          &lt;td&gt;C-f&lt;/td&gt;&#xA;          &lt;td&gt;solicita los caracteres a buscar&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;isearch-forward-symbol-at-point&lt;/td&gt;&#xA;          &lt;td&gt;M-s .&lt;/td&gt;&#xA;          &lt;td&gt;F8 .&lt;/td&gt;&#xA;          &lt;td&gt;busca el símbolo bajo el cursor&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;isearch-forward-word&lt;/td&gt;&#xA;          &lt;td&gt;M-s w&lt;/td&gt;&#xA;          &lt;td&gt;F8 w&lt;/td&gt;&#xA;          &lt;td&gt;busca palabras&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;isearch-forward-symbol&lt;/td&gt;&#xA;          &lt;td&gt;M-s _&lt;/td&gt;&#xA;          &lt;td&gt;F8 _&lt;/td&gt;&#xA;          &lt;td&gt;busca símbolos (símbolos según Emacs)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Al ejecutar uno de estos comandos se entra dentro de un modo en el cual&#xA;se puede repetir la misma búsqueda o modificarla (en el minibuffer&#xA;aparece información relativa a este modo, por ejemplo tras ejecutar&#xA;&lt;em&gt;isearch-forward&lt;/em&gt; aparece &lt;em&gt;I-search:&lt;/em&gt; para que el usuario ingrese las&#xA;letras que desea buscar).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sugerencia respecto de los tutoriales de Emacs</title>
+      <link>https://eldiegoefe.github.io/sugerencia-respecto-de-los-tutoriales-de-emacs/</link>
+      <pubDate>Mon, 18 May 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/sugerencia-respecto-de-los-tutoriales-de-emacs/</guid>
+      <description>&lt;p&gt;To read this entry in english: &lt;a href=&#34;https://eldiegoefe.github.io/suggestion-about-emacs-tutorials.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;click&#xA;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Leo bastantes blogs sobre Emacs desde que empecé el viaje de aprender a usarlo.&#xA;Hay tutoriales buenísimos para principiantes y también páginas destinadas a&#xA;usuarios más avanzados. Sin embargo, en la mayoría de los sitios se repite una&#xA;costumbre que desestima una de las ventajas que tiene el Todopoderoso Editor (su&#xA;capacidad de personalización): las instrucciones para hacer tal o cual cosa&#xA;suelen aparecer con sus atajos de teclado por defecto, como si fuese invariable&#xA;que abrir un archivo (visitarlo) se haga con C-x C-f, o como si los únicos&#xA;keybindings para ir a los extremos de la linea donde se ubica el cursor sean C-a&#xA;y C-e, o como si realizar búsquedas incrementales requiera indefectiblemente&#xA;teclear C-s. En mi caso, las combinaciones de tecla para estas funciones, entre&#xA;muchas otras, están personalizadas, sin que muchas veces funcionen los atajos&#xA;por defecto (por ejemplo abro los archivos con C-o, muevo el cursor a los&#xA;extremos con M-h y S-M-h, y activo las &amp;quot;búsquedas incrementales&amp;quot; con C-f).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Suggestion about Emacs tutorials</title>
+      <link>https://eldiegoefe.github.io/suggestion-about-emacs-tutorials/</link>
+      <pubDate>Mon, 18 May 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/suggestion-about-emacs-tutorials/</guid>
+      <description>&lt;p&gt;Para leer este texto en español: &lt;a href=&#34;https://eldiegoefe.github.io/sugerencia-respecto-de-los-tutoriales-de-emacs.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;click&#xA;aca&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I read many Emacs blogs since I started the trip of learning it. There are great&#xA;beginner&#39;s tutorials and also webpages for more advanced users. However,&#xA;there&#39;s a habit I find repeatedly on the majority of sites which goes against&#xA;one of the Almighty Editor advantages: instructions usually refer to default&#xA;keybindings, like it was invariant that you visit files only with C-x C-f, or&#xA;like the only admited shortcuts to the beginning and ending of the current line&#xA;where C-a and C-e, or if the incremental search inevitable required to type C-s.&#xA;In my case, keybindings for all these functions and many others are&#xA;personalized, and the default ones are disabled (I visit files with C-o, move&#xA;the point to the beginning or end of the line with M-h and S-M-h, and activate&#xA;incremental searches with C-f).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Agenda en Emacs y OrgMode</title>
+      <link>https://eldiegoefe.github.io/agenda-en-emacs-y-orgmode/</link>
+      <pubDate>Mon, 29 Dec 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/agenda-en-emacs-y-orgmode/</guid>
+      <description>&lt;h2 id=&#34;configuracion&#34;&gt;Configuracion&lt;/h2&gt;&#xA;&lt;p&gt;En el archivo de configuracion de Emacs hay que incluir varios elementos&#xA;para poder usar la agenda adecuadamente.&lt;/p&gt;&#xA;&lt;p&gt;Se pueden seleccionar individualmente los archivos que forman parte de&#xA;la agenda:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cl&#34; data-lang=&#34;cl&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;org-agenda-files&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;~/mis-archivos-org/apuntes-varios.org&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                             &lt;span class=&#34;s&#34;&gt;&amp;#34;~/mis-archivos-org/acomodar.org&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;O sino utilizar un directorio completo:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cl&#34; data-lang=&#34;cl&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;org-agenda-files&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;~/mis-archivos-org&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;Se puede utilizar un archivo en particular para ir anotando al vuelo las&#xA;ideas que se nos ocurren. Este archivo lo podremos abrir con&#xA;&lt;em&gt;org-capture&lt;/em&gt; (C-c c). Esto nos permite volcar lo que tenemos en la&#xA;cabeza y dejar para después su clasificación, de manera de no perder la&#xA;idea e interrumpir nuestro flujo de trabajo lo menos posible. La nota se&#xA;cierra con C-c C-c y se vuelve al mismo buffer donde estabamos al&#xA;iniciar la captura.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comandante Emacs (dired-mode)</title>
+      <link>https://eldiegoefe.github.io/comandante-emacs-dired-mode/</link>
+      <pubDate>Fri, 26 Dec 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/comandante-emacs-dired-mode/</guid>
+      <description>&lt;p&gt;Estuve un rato largo (¡horas!) viendo cómo usar el modo &amp;quot;dired&amp;quot; que tiene&#xA;Emacs para el manejo de archivos, porque quiero usarlo al modo del viejo&#xA;Comandante Norton (y sus clones: Total Commander en Window$, Krusader&#xA;especialmente para KDE, etc). Es decir: dos paneles que sirven de inicio y de&#xA;destino para poder copiar y mover archivos, crear directorios, navegarlos, etc.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://live.staticflickr.com/7526/15668751884_b2fa8f9d5b_c.jpg&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Buffer mostrando un directorio con dired-mode&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Lo primero que hice fue instalar un paquete que amplía las opciones&#xA;disponibles llamado dired+ (dired plus) y después instalé otra extensión&#xA;llamada dired-sort-menu. La información sobre la instalación de estos&#xA;paquetes da por supuesto que uno ya tiene experiencia en Emacs, y a&#xA;pesar de que yo lo uso hace casi un año y he instalado y desinstalado&#xA;muchas extensiones, estuve un rato para darme cuenta de algo que no&#xA;figura en &lt;a href=&#34;http://www.emacswiki.org/emacs/DiredPlus&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;la página de&#xA;dired+&lt;/a&gt;. En el archivo de&#xA;configuración de Emacs (init.el, custom.el o el que estemos utilizando)&#xA;es imprescindible agregar la orden siguiente:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pandoc, conversión de org-mode a restructuredtext</title>
+      <link>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
+      <pubDate>Sat, 08 Nov 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
+      <description>&lt;p&gt;Pandoc es un software para hacer conversión de archivos de texto entre distintos&#xA;lenguajes de markup. Me viene bien probarlo porque me gustaría escribir mis&#xA;entradas del blog desde org-mode (que uso con mucha frecuencia) y obtener el&#xA;mismo texto en versión restructuredText, que es el formato en el que escribo el&#xA;blog (con Pelican).&lt;/p&gt;&#xA;&lt;p&gt;La instalación de Pandoc requirió un pequeño ajuste respecto de lo habitual en&#xA;Manjaro, ya que el programa no estaba disponible desde los repositorios que&#xA;vienen por defecto. Tuve que hacer los ajustes que se describen en &lt;a href=&#34;https://wiki.archlinux.org/index.php/ArchHaskell&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;la wiki de&#xA;Arch&lt;/a&gt;. Estos fueron los 5&#xA;pasos:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Autoaprendizajes</title>
+      <link>https://eldiegoefe.github.io/autoaprendizajes/</link>
+      <pubDate>Fri, 10 Oct 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/autoaprendizajes/</guid>
+      <description>&lt;p&gt;No recuerdo en qué momento fue que pronuncié las palabras mágicas, pero cuando&#xA;sea que haya ocurrido, se abrieron portales hacia temas inexplorados dentro de&#xA;un mundo que creía conocer.&lt;/p&gt;&#xA;&lt;p&gt;En los últimos meses (¿10? ¿20?) me encontré con:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;un lenguaje de programación fantástico por su sencillez y potencia&#xA;(&lt;a href=&#34;https://www.python.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Python&lt;/a&gt;), junto con un conjunto de&#xA;librerías para tareas científicas: matplotlib, numpy, pandas, etc.&lt;/li&gt;&#xA;&lt;li&gt;la idea del control de versiones (que es una herramienta magnífica&#xA;para quienes escribimos todo tipo de textos que al ir corrigiendo&#xA;dejan una huella dificil de seguir desde su versión inicial hacia su&#xA;versión actual, ya sea que se trate de programas, entradas de blog o&#xA;informes científicos o técnicos). En particular Git y&#xA;&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;GitHub&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;el deseo de colaborar en el desarrollo colectivo de software, cosa&#xA;que creo que en el futuro de mediano plazo espero concretar.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Avancé con el aprendizaje de Emacs (con&#xA;&lt;a href=&#34;http://batsov.com/prelude/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Prelude&lt;/a&gt;, actualmente en uso, y&#xA;&lt;a href=&#34;http://ergoemacs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Ergoemacs&lt;/a&gt;, que por el momento dejé de usar pero&#xA;igual creo que está buenísimo, de ahí surgió el interés por los teclados&#xA;con distribución &lt;a href=&#34;http://es.wikipedia.org/wiki/Teclado_Dvorak&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Dvorak&lt;/a&gt;&#xA;que uso actualmente), descubrí el &lt;a href=&#34;http://ipython.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;IPython&#xA;Notebook&lt;/a&gt; (y encadenado con eso ahora descubrí el&#xA;lenguaje &lt;a href=&#34;http://julialang.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Julia&lt;/a&gt;). Aca pueden ver una imagen del&#xA;IPython Notebook mientras lo usaba para un trabajo de Dosimetría.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Escritorio cómodo y atajos de teclado</title>
+      <link>https://eldiegoefe.github.io/escritorio-c%C3%B3modo-y-atajos-de-teclado/</link>
+      <pubDate>Wed, 08 Oct 2014 11:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/escritorio-c%C3%B3modo-y-atajos-de-teclado/</guid>
+      <description>&lt;p&gt;Me cuesta encontrar un modo cómodo de trabajar con Emacs y otros programas en&#xA;KDE. Como creo que voy encontrando cosas que me resultan funcionales, las resumo&#xA;aca.&lt;/p&gt;&#xA;&lt;p&gt;Sirve trabajar con 4 workspaces (areas de trabajo) en KDE. En el espacio&#xA;1 tengo el navegador, en el 2 tengo Emacs y en el 4 tengo un terminal.&#xA;Cambio de espacio con C-7 (espacio 1), C-8 (espacio 2), C-9 (espacio 3)&#xA;y C-0 (espacio 4). Para mover la ventana de un programa a un espacio de&#xA;trabajo lo hago con M-7, M-8, M-9 y M-0 (los fans de emacs saben que M&#xA;es Meta, y que eso significa en un teclado convencional la tecla Alt).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Emacs y restructuredText</title>
+      <link>https://eldiegoefe.github.io/emacs-y-restructuredtext/</link>
+      <pubDate>Tue, 07 Oct 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/emacs-y-restructuredtext/</guid>
+      <description>&lt;p&gt;Estuve escribiendo algunas entradas para el blog y encontré algunas cosas que&#xA;vale la pena recordar, que quedan anotadas aca.&lt;/p&gt;&#xA;&lt;p&gt;El modo abbrev tendría que desactivarlo globalmente porque cada vez que escribo&#xA;la palabra &amp;quot;&lt;em&gt;con&lt;/em&gt;&amp;quot; (en modo restructuredText) y hago un espacio me lo expande&#xA;a un texto que no deseo (content...). Se desactiva con &lt;em&gt;M-x abbrev-mode&lt;/em&gt;. Mejor&#xA;aún, encontré cómo editar la lista de abreviaturas. Es así: &lt;em&gt;M-x list-abbrevs&lt;/em&gt; y&#xA;se abre un buffer con las abreviaturas, que se puede editar. Ver de paso&#xA;&amp;quot;&lt;a href=&#34;http://ergoemacs.org/emacs/emacs_abbrev_mode.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Using Emacs Abbrev Mode for&#xA;Abbreviation&lt;/a&gt; para un facil&#xA;tutorial sobre el uso elegante de abbrev-mode.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Keybindings conflictivos en Emacs</title>
+      <link>https://eldiegoefe.github.io/keybindings-conflictivos-en-emacs/</link>
+      <pubDate>Sun, 17 Aug 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/keybindings-conflictivos-en-emacs/</guid>
+      <description>&lt;p&gt;Desde que empecé a usar Emacs probé dos grandes paquetes para facilitar su uso.&#xA;Uno ha sido Ergoemacs, que es buenísimo porque remapea todos los accesos rápidos&#xA;de teclado para poder usarlos de forma más simple e intuitiva (por ejemplo: C-x&#xA;C-f, que “visitaba” un archivo, pasa a ser C-o, que es el comando stándard para&#xA;&amp;quot;abrir archivo&amp;quot; en casi todos los programas actuales). Sin embargo, luego&#xA;encontré buenas funcionalidades en otro llamado &lt;strong&gt;Prelude&lt;/strong&gt;. Estando sólo activo&#xA;este último (ya que hay conflictos con ergoemacs) tuve el siguiente problema:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Primer snippet</title>
+      <link>https://eldiegoefe.github.io/primer-snippet/</link>
+      <pubDate>Sun, 10 Aug 2014 10:02:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/primer-snippet/</guid>
+      <description>&lt;h2 id=&#34;un-snippet-ejemplar&#34;&gt;Un snippet ejemplar&lt;/h2&gt;&#xA;&lt;p&gt;Este es el primer snippet diseñado para automatizar el encabezado de las paginas&#xA;hechas en restructuredText, para facilitarme la escritura de este blog. Hay&#xA;mucha ayuda en la página de Capitao Morte (supongo que es su autor).&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-rest&#34; data-lang=&#34;rest&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# -&lt;span class=&#34;ge&#34;&gt;*- mode: snippet; require-final-newline: nil -*&lt;/span&gt;-&lt;span class=&#34;err&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;# name: encabezado&lt;span class=&#34;err&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;# key: enc&lt;span class=&#34;err&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;# expand-env: ((yas-indent-line &amp;#39;fixed))&lt;span class=&#34;err&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;# --&lt;span class=&#34;err&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;:---&lt;span class=&#34;err&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;title: &amp;#34;${1:titulo}&amp;#34;&lt;span class=&#34;err&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;:date:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;${2:2014}-{3:10}-{4:31} {5:10:00}&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;:category:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;${6:$$(yas-choose-value &amp;#39;(&amp;#34;blog&amp;#34; &amp;#34;politica&amp;#34; &amp;#34;salud&amp;#34; &amp;#34;tecnicismos&amp;#34;))}&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;:tags: $7&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;---&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nc&#34;&gt;:author:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;Diego Efe&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;:excerpt:&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;$0&lt;span class=&#34;err&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;En la linea 14 la instrucción $0 se agregó porque en algún lado decía&#xA;que suele ponerse para indicar el lugar de salida cuando se termina de&#xA;ejecutar el snippet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Generar pdf en español desde org-mode</title>
+      <link>https://eldiegoefe.github.io/generar-pdf-en-espa%C3%B1ol-desde-org-mode/</link>
+      <pubDate>Wed, 06 Aug 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/generar-pdf-en-espa%C3%B1ol-desde-org-mode/</guid>
+      <description>&lt;p&gt;Escribí un documento en org-mode (un modo mayor de emacs), porque permite exportar en formato pdf y escribir todo en texto plano. Es realmente una maravilla, se pueden escribir fórmulas en LaTeX, y organizar la estructura del documento usando títulos precedidos de uno o más asteriscos para indicar su nivel (si es un título principal, un subtitulo, un subsubtítulo, etc.). Hasta genera automáticamente una tabla de contenidos con todos estos títulos al hacer la exportación del documento (keybinding: C-c C-e l o).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comandos de Emacs y Spacemacs para recordar</title>
+      <link>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar/</link>
+      <pubDate>Thu, 31 Jul 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar/</guid>
+      <description>&lt;h2 id=&#34;yasnippets--company&#34;&gt;Yasnippets / Company&lt;/h2&gt;&#xA;&lt;p&gt;En la &lt;a href=&#34;https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;documentación de Spacemacs&lt;/a&gt; están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual).&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;reemplaza la clave previa al punto por el contenido del snippet&#xA;correspondiente: M-/&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;búsqueda&#34;&gt;Búsqueda&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ndash;La búsqueda habitual con i-search (C-s) se potencia al instalar&#xA;&lt;a href=&#34;https://github.com/abo-abo/swiper&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;swiper&lt;/a&gt;, que ofrece un listado de&#xA;las lineas del documento donde se encuentran los resultados de la&#xA;búsqueda.&amp;ndash;&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

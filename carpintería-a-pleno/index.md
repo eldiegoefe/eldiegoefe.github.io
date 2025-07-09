@@ -22,17 +22,6 @@ entre tanto material, a lo que se suma el pésimo sistema de gestión de
 suscripciones de Youtube, que eliminó la posibilidad de agruparlas por
 categorías. Estos canales son prácticamente *clásicos* para mi:
 
--   [Enredando No
-    Garaxe](https://www.youtube.com/user/Enredandonogaraxe/featured) (Sergio
-    Acuña Padín). Es un gran canal en castellano (cuenta también un canal
-    mellizo en inglés). Tiene una idiosincracia latinoamericana (aunque Sergio
-    está en España), en cuanto a resolver los proyectos con los recursos
-    disponibles (muchos norteamericanos hacen más hincapié en la disponibilidad
-    de herramientas, lo cual para mi no está tampoco nada mal). Tiene su página
-    web [homónima](http://www.enredandonogaraxe.com/).
-
-    {{< youtube BcyDM6o9_1E >}}
-
 -   [Woodworking for Mere
     Mortals](https://www.youtube.com/user/stevinmarin), de Steve Ramsey, desde
     California, presenta muchos proyectos y técnicas simples. Los videos tienen
@@ -63,6 +52,51 @@ categorías. Estos canales son prácticamente *clásicos* para mi:
     gears](http://www.woodgears.ca/) con artículos muy detallados como el de
     [cajoneras](http://woodgears.ca/drawers/index.html).
 
+-   [Worth the effort](https://www.youtube.com/user/wortheffort) está más
+    orientado a la carpintería manual.
+
+    {{< youtube SxJ6qINNgmU >}}
+
+-   [Workshop Companion - Nick Engler](https://www.youtube.com/@WorkshopCompanion)
+
+    {{< youtube FCqh3eg5Ut0 >}}
+
+-   [Shara Woodshop Diaries](https://www.youtube.com/@WoodshopDiaries)
+
+-   [Jay Bates](https://www.youtube.com/c/jaybates) y su página [Custom Creations](http://jayscustomcreations.com/).
+
+-   [Lincoln St. Woodworks](https://www.youtube.com/@Lincolnstww)
+
+-   [Scott Walsh](https://www.youtube.com/@ScottWalshWoodworking)
+
+-   [ENCurtis](https://www.youtube.com/@ENCurtis)
+
+## Y más...
+
+-   [Enredando No
+    Garaxe](https://www.youtube.com/user/Enredandonogaraxe/featured) (Sergio
+    Acuña Padín). Es un gran canal en castellano (cuenta también un canal
+    mellizo en inglés). Tiene una idiosincracia latinoamericana (aunque Sergio
+    está en España), en cuanto a resolver los proyectos con los recursos
+    disponibles (muchos norteamericanos hacen más hincapié en la disponibilidad
+    de herramientas, lo cual para mi no está tampoco nada mal). Tiene su página
+    web [homónima](http://www.enredandonogaraxe.com/).
+
+    {{< youtube BcyDM6o9_1E >}}
+
+-   [Luis Lovon](https://www.youtube.com/user/luislovon) y su blog [Madera
+    Fina](http://madera-fina.blogspot.com)
+
+-   [Frank Howarth](https://www.youtube.com/user/urbanTrash)
+
+-   [April Wilkerson](https://www.youtube.com/user/AprilWilkersonDIY)
+
+-   [3x3Custom - Tamar](https://www.youtube.com/@3x3CustomTamar)
+
+-   [William Ng](https://www.youtube.com/user/wnwoodworks)
+
+-   [Paravani carpenter](https://www.youtube.com/@paravanicarpenter)
+
 -   [Ron Paulk](https://www.youtube.com/user/crpaulk) diseñó un banco de trabajo
     muy original, liviano, portatil, muy funcional y también muy popular.
     También otra estación de trabajo donde ubicar varias herramientas eléctricas
@@ -72,31 +106,6 @@ categorías. Estos canales son prácticamente *clásicos* para mi:
     [Building the Paulk total
     station](https://www.youtube.com/watch?v=-N7RlWHaFbE&index=1&list=PLB1ATCukiUGSEvdBc7NnqlmxHAwdx6C83),
     etc).
-
-## Más YouTube
-
-Sin ningún orden particular\...
-
--   [Worth the effort](https://www.youtube.com/user/wortheffort) está más
-    orientado a la carpintería manual.
-
-    {{< youtube SxJ6qINNgmU >}}
-
--   [Jay Bates](https://www.youtube.com/c/jaybates) y su página [Custom
-    Creations](http://jayscustomcreations.com/).
-
--   [Luis Lovon](https://www.youtube.com/user/luislovon) y su blog [Madera
-    Fina](http://madera-fina.blogspot.com)
-
--   [Frank Howarth](https://www.youtube.com/user/urbanTrash)
-
--   [Ana White](https://www.youtube.com/user/knockoffwood).
-
-    {{< youtube 8XgXzg3MDhs >}}
-
--   [April Wilkerson](https://www.youtube.com/user/AprilWilkersonDIY)
-
--   [William Ng](https://www.youtube.com/user/wnwoodworks)
 
 -   [Angelatedo](https://www.youtube.com/user/angelatedo) es el canal de un
     español con montones de videos sobre DIY (Do It Yourself = Hazlo tú mismo),

@@ -1,26 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Gnome - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/gnome/</link>
-        <description>Gnome - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 09 Feb 2014 11:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/gnome/" rel="self" type="application/rss+xml" /><item>
-    <title>Descubriendo Gnome</title>
-    <link>https://eldiegoefe.github.io/descubriendo-gnome/</link>
-    <pubDate>Sun, 09 Feb 2014 11:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/descubriendo-gnome/</guid>
-    <description><![CDATA[<p>Empecé a tomarle el gustito a Fedora y Gnome. Al principio (24 horas atrás) el
-mouse parecía haber alcanzado un inoportuno grado de independencia porque se
-tendía a ir a la esquina superior izquierda (la “hot corner”) y se habilitaba el
-menú de Actividades. Para solucionarlo encontré <a href="https://extensions.gnome.org" target="_blank" rel="noopener noreffer">un
-sitio</a> desde el cual se instalan las extensiones
-de GNOME, que es un gran descubrimiento en sí mismo.</p>
-<p>Primero lo primero: instale 'No Topleft Hot Corner'. Me resulto
-llamativo que la instalación se realiza moviendo un switch que aparece
-junto al nombre de la extensión desde la propia página web (y que tiene
-también el texto ON u OFF de acuerdo a si ya esta instalado o no). Un
-detalle es que me anduvo bien desde Firefox, pero no desde Chrome (me
-doy bronca, porque todavía no instalé Opera, y es mi navegador de
-cabecera).</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gnome on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/gnome/</link>
+    <description>Recent content in Gnome on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sun, 09 Feb 2014 11:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/gnome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Descubriendo Gnome</title>
+      <link>https://eldiegoefe.github.io/descubriendo-gnome/</link>
+      <pubDate>Sun, 09 Feb 2014 11:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/descubriendo-gnome/</guid>
+      <description>&lt;p&gt;Empecé a tomarle el gustito a Fedora y Gnome. Al principio (24 horas atrás) el&#xA;mouse parecía haber alcanzado un inoportuno grado de independencia porque se&#xA;tendía a ir a la esquina superior izquierda (la “hot corner”) y se habilitaba el&#xA;menú de Actividades. Para solucionarlo encontré &lt;a href=&#34;https://extensions.gnome.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;un&#xA;sitio&lt;/a&gt; desde el cual se instalan las extensiones&#xA;de GNOME, que es un gran descubrimiento en sí mismo.&lt;/p&gt;&#xA;&lt;p&gt;Primero lo primero: instale &#39;No Topleft Hot Corner&#39;. Me resulto&#xA;llamativo que la instalación se realiza moviendo un switch que aparece&#xA;junto al nombre de la extensión desde la propia página web (y que tiene&#xA;también el texto ON u OFF de acuerdo a si ya esta instalado o no). Un&#xA;detalle es que me anduvo bien desde Firefox, pero no desde Chrome (me&#xA;doy bronca, porque todavía no instalé Opera, y es mi navegador de&#xA;cabecera).&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

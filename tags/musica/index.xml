@@ -1,27 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Musica - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/musica/</link>
-        <description>Musica - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 11 Jan 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/musica/" rel="self" type="application/rss+xml" /><item>
-    <title>La muerte visita a la música (en la web)</title>
-    <link>https://eldiegoefe.github.io/la-muerte-visita-a-la-m%C3%BAsica-en-la-web/</link>
-    <pubDate>Sun, 11 Jan 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/la-muerte-visita-a-la-m%C3%BAsica-en-la-web/</guid>
-    <description><![CDATA[<p>Mi lista de sitios favoritos, clasificados por tema, los guardaba originalmente
-en Delicious y hace un año o dos pasé a <a href="https://www.diigo.com" target="_blank" rel="noopener noreffer">Diigo</a>. Guardar
-los favoritos exclusivamente en un navegador, sin copia en la nube, tiene varios
-inconvenientes: siempre hay que usar el mismo navegador o importar/exportar para
-sincronizar links entre distintos browsers, además si la computadora sufre un
-desperfecto se pueden perder para siempre.</p>
-<p>Al revisar los enlaces a webs de música (sitios de recomendación y de
-descarga de géneros no tan difundidos, páginas de radios y de artistas)
-veo que gran parte ya no existe o dejaron de ser actualizados. Habrá que
-buscar nuevos sitios con música balcánica, fusiones latinas, folklore
-americano y cosas así, y a grupos como Gogol Bordello, Modena City
-Ramblers, Les Ogres de Barback, Goran Bregovic, Paté de Fua, Juaneco y
-su combo, Susana Baca, Fulanas Trio, Imperio Maltés, entre otros muchos
-más.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Musica on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/musica/</link>
+    <description>Recent content in Musica on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sun, 11 Jan 2015 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/musica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La muerte visita a la música (en la web)</title>
+      <link>https://eldiegoefe.github.io/la-muerte-visita-a-la-m%C3%BAsica-en-la-web/</link>
+      <pubDate>Sun, 11 Jan 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/la-muerte-visita-a-la-m%C3%BAsica-en-la-web/</guid>
+      <description>&lt;p&gt;Mi lista de sitios favoritos, clasificados por tema, los guardaba originalmente&#xA;en Delicious y hace un año o dos pasé a &lt;a href=&#34;https://www.diigo.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Diigo&lt;/a&gt;. Guardar&#xA;los favoritos exclusivamente en un navegador, sin copia en la nube, tiene varios&#xA;inconvenientes: siempre hay que usar el mismo navegador o importar/exportar para&#xA;sincronizar links entre distintos browsers, además si la computadora sufre un&#xA;desperfecto se pueden perder para siempre.&lt;/p&gt;&#xA;&lt;p&gt;Al revisar los enlaces a webs de música (sitios de recomendación y de&#xA;descarga de géneros no tan difundidos, páginas de radios y de artistas)&#xA;veo que gran parte ya no existe o dejaron de ser actualizados. Habrá que&#xA;buscar nuevos sitios con música balcánica, fusiones latinas, folklore&#xA;americano y cosas así, y a grupos como Gogol Bordello, Modena City&#xA;Ramblers, Les Ogres de Barback, Goran Bregovic, Paté de Fua, Juaneco y&#xA;su combo, Susana Baca, Fulanas Trio, Imperio Maltés, entre otros muchos&#xA;más.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

@@ -1,36 +1,28 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Filosofia - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/filosofia/</link>
-        <description>Filosofia - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Tue, 01 Oct 2019 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/filosofia/" rel="self" type="application/rss+xml" /><item>
-    <title>Abandonemos la era de la reproducción imperativa</title>
-    <link>https://eldiegoefe.github.io/abandonemos-la-era-de-la-reproducci%C3%B3n-imperativa/</link>
-    <pubDate>Tue, 01 Oct 2019 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/abandonemos-la-era-de-la-reproducci%C3%B3n-imperativa/</guid>
-    <description><![CDATA[<p>Nunca tuve ganas de tener hijos. Pude haber enunciado lo contrario, alguna vez,
-pero sólo por un encandilamiento amoroso pasajero y no por el deseo real de
-traer una nueva persona al mundo. Esa enunciación solo pudo ser la cumbre de mi
-confusión.</p>
-<p>Nunca se me ocurriría pensar que mis genes tienen algo de valioso y que
-deban ser perpetuados. De tener alguna personalidad, determinación y
-conciencia, los míos no se caracterizan por su egoismo.</p>]]></description>
-</item>
-<item>
-    <title>Vieja intervención sobre el aborto</title>
-    <link>https://eldiegoefe.github.io/vieja-intervenci%C3%B3n-sobre-el-aborto/</link>
-    <pubDate>Sun, 15 Jul 2018 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/vieja-intervenci%C3%B3n-sobre-el-aborto/</guid>
-    <description><![CDATA[<p>La discusión legislativa actual, a través de la cual espero que se legalice el
-aborto, ha logrado algo casi inédito: me resultó interesante y entretenido
-escuchar un montón de discursos. Algunos muy retrógrados y graciosos, que sirven
-de fundamento al deseo de completa extinción de la humanidad, y otros muy
-ilustrados, emocionantes, técnicamente interesantes.</p>
-<p>Dado que no me han invitado a ningún púlpito pero como tengo ganas de
-contribuir de algún modo a la discusión y cuento con este blog desierto,
-aprovecho el espacio (que me agradezco a mi mismo por darme), para
-compartir este texto de 2010, que fue un mail escrito a una lista de
-correos cuyos miembros eran principalmente docentes de la Universidad
-Nacional de Entre Ríos.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filosofia on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/filosofia/</link>
+    <description>Recent content in Filosofia on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Tue, 01 Oct 2019 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/filosofia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abandonemos la era de la reproducción imperativa</title>
+      <link>https://eldiegoefe.github.io/abandonemos-la-era-de-la-reproducci%C3%B3n-imperativa/</link>
+      <pubDate>Tue, 01 Oct 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/abandonemos-la-era-de-la-reproducci%C3%B3n-imperativa/</guid>
+      <description>&lt;p&gt;Nunca tuve ganas de tener hijos. Pude haber enunciado lo contrario, alguna vez,&#xA;pero sólo por un encandilamiento amoroso pasajero y no por el deseo real de&#xA;traer una nueva persona al mundo. Esa enunciación solo pudo ser la cumbre de mi&#xA;confusión.&lt;/p&gt;&#xA;&lt;p&gt;Nunca se me ocurriría pensar que mis genes tienen algo de valioso y que&#xA;deban ser perpetuados. De tener alguna personalidad, determinación y&#xA;conciencia, los míos no se caracterizan por su egoismo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vieja intervención sobre el aborto</title>
+      <link>https://eldiegoefe.github.io/vieja-intervenci%C3%B3n-sobre-el-aborto/</link>
+      <pubDate>Sun, 15 Jul 2018 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/vieja-intervenci%C3%B3n-sobre-el-aborto/</guid>
+      <description>&lt;p&gt;La discusión legislativa actual, a través de la cual espero que se legalice el&#xA;aborto, ha logrado algo casi inédito: me resultó interesante y entretenido&#xA;escuchar un montón de discursos. Algunos muy retrógrados y graciosos, que sirven&#xA;de fundamento al deseo de completa extinción de la humanidad, y otros muy&#xA;ilustrados, emocionantes, técnicamente interesantes.&lt;/p&gt;&#xA;&lt;p&gt;Dado que no me han invitado a ningún púlpito pero como tengo ganas de&#xA;contribuir de algún modo a la discusión y cuento con este blog desierto,&#xA;aprovecho el espacio (que me agradezco a mi mismo por darme), para&#xA;compartir este texto de 2010, que fue un mail escrito a una lista de&#xA;correos cuyos miembros eran principalmente docentes de la Universidad&#xA;Nacional de Entre Ríos.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

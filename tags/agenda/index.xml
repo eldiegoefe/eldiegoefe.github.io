@@ -1,68 +1,28 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Agenda - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/agenda/</link>
-        <description>Agenda - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/agenda/" rel="self" type="application/rss+xml" /><item>
-    <title>Más sobre agenda en org-mode</title>
-    <link>https://eldiegoefe.github.io/m%C3%A1s-sobre-agenda-en-org-mode/</link>
-    <pubDate>Thu, 07 Jan 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/m%C3%A1s-sobre-agenda-en-org-mode/</guid>
-    <description><![CDATA[<p>Para el uso de la agenda en org-mode, voy a listar las cosas que uso con
-frecuencia. Además, en este link hay un resumen de comandos de org-mode muy
-completo.</p>
-<h2 id="inserción">Inserción</h2>
-<p>Atajos de teclado &quot;convencionales&quot; de org-mode (funcionan con
-Spacemacs).</p>
-<ul>
-<li>capturar una nota en el inbox: C-c c</li>
-<li>links: C-c C-l</li>
-<li>etiqueta de To-Do (empezado, hibernando, completado, etc): C-c C-t</li>
-<li>schedule: C-c C-s</li>
-<li>deadline: C-c C-d</li>
-</ul>
-<p>Para agregar:</p>
-<ul>
-<li>Refile: cómo llevar las notas del inbox a su destino final.</li>
-</ul>
-<h2 id="generación-de-enlaces">Generación de enlaces</h2>
-<p>Atajos de teclado sólo de Spacemacs.</p>]]></description>
-</item>
-<item>
-    <title>Agenda en Emacs y OrgMode</title>
-    <link>https://eldiegoefe.github.io/agenda-en-emacs-y-orgmode/</link>
-    <pubDate>Mon, 29 Dec 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/agenda-en-emacs-y-orgmode/</guid>
-    <description><![CDATA[<h2 id="configuracion">Configuracion</h2>
-<p>En el archivo de configuracion de Emacs hay que incluir varios elementos
-para poder usar la agenda adecuadamente.</p>
-<p>Se pueden seleccionar individualmente los archivos que forman parte de
-la agenda:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-files</span> <span class="p">(</span><span class="nc">list</span> <span class="s">&#34;~/mis-archivos-org/apuntes-varios.org&#34;</span>
-</span></span><span class="line"><span class="cl">                             <span class="s">&#34;~/mis-archivos-org/acomodar.org&#34;</span><span class="p">))</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>O sino utilizar un directorio completo:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cl" data-lang="cl"><span class="line"><span class="cl"><span class="p">(</span><span class="k">setq</span> <span class="nv">org-agenda-files</span> <span class="o">&#39;</span><span class="p">(</span><span class="s">&#34;~/mis-archivos-org&#34;</span><span class="p">))</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>Se puede utilizar un archivo en particular para ir anotando al vuelo las
-ideas que se nos ocurren. Este archivo lo podremos abrir con
-<em>org-capture</em> (C-c c). Esto nos permite volcar lo que tenemos en la
-cabeza y dejar para después su clasificación, de manera de no perder la
-idea e interrumpir nuestro flujo de trabajo lo menos posible. La nota se
-cierra con C-c C-c y se vuelve al mismo buffer donde estabamos al
-iniciar la captura.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agenda on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/agenda/</link>
+    <description>Recent content in Agenda on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Thu, 07 Jan 2016 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/agenda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Más sobre agenda en org-mode</title>
+      <link>https://eldiegoefe.github.io/m%C3%A1s-sobre-agenda-en-org-mode/</link>
+      <pubDate>Thu, 07 Jan 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/m%C3%A1s-sobre-agenda-en-org-mode/</guid>
+      <description>&lt;p&gt;Para el uso de la agenda en org-mode, voy a listar las cosas que uso con&#xA;frecuencia. Además, en este link hay un resumen de comandos de org-mode muy&#xA;completo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;inserción&#34;&gt;Inserción&lt;/h2&gt;&#xA;&lt;p&gt;Atajos de teclado &amp;quot;convencionales&amp;quot; de org-mode (funcionan con&#xA;Spacemacs).&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;capturar una nota en el inbox: C-c c&lt;/li&gt;&#xA;&lt;li&gt;links: C-c C-l&lt;/li&gt;&#xA;&lt;li&gt;etiqueta de To-Do (empezado, hibernando, completado, etc): C-c C-t&lt;/li&gt;&#xA;&lt;li&gt;schedule: C-c C-s&lt;/li&gt;&#xA;&lt;li&gt;deadline: C-c C-d&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Para agregar:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Refile: cómo llevar las notas del inbox a su destino final.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;generación-de-enlaces&#34;&gt;Generación de enlaces&lt;/h2&gt;&#xA;&lt;p&gt;Atajos de teclado sólo de Spacemacs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Agenda en Emacs y OrgMode</title>
+      <link>https://eldiegoefe.github.io/agenda-en-emacs-y-orgmode/</link>
+      <pubDate>Mon, 29 Dec 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/agenda-en-emacs-y-orgmode/</guid>
+      <description>&lt;h2 id=&#34;configuracion&#34;&gt;Configuracion&lt;/h2&gt;&#xA;&lt;p&gt;En el archivo de configuracion de Emacs hay que incluir varios elementos&#xA;para poder usar la agenda adecuadamente.&lt;/p&gt;&#xA;&lt;p&gt;Se pueden seleccionar individualmente los archivos que forman parte de&#xA;la agenda:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cl&#34; data-lang=&#34;cl&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;org-agenda-files&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;list&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;~/mis-archivos-org/apuntes-varios.org&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                             &lt;span class=&#34;s&#34;&gt;&amp;#34;~/mis-archivos-org/acomodar.org&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;O sino utilizar un directorio completo:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;&#xA;&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1&#xA;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&#xA;&lt;td class=&#34;lntd&#34;&gt;&#xA;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cl&#34; data-lang=&#34;cl&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;setq&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;org-agenda-files&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;~/mis-archivos-org&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&lt;p&gt;Se puede utilizar un archivo en particular para ir anotando al vuelo las&#xA;ideas que se nos ocurren. Este archivo lo podremos abrir con&#xA;&lt;em&gt;org-capture&lt;/em&gt; (C-c c). Esto nos permite volcar lo que tenemos en la&#xA;cabeza y dejar para después su clasificación, de manera de no perder la&#xA;idea e interrumpir nuestro flujo de trabajo lo menos posible. La nota se&#xA;cierra con C-c C-c y se vuelve al mismo buffer donde estabamos al&#xA;iniciar la captura.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

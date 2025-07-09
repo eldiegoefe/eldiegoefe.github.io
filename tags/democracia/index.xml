@@ -1,21 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Democracia - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/democracia/</link>
-        <description>Democracia - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sat, 31 Oct 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/democracia/" rel="self" type="application/rss+xml" /><item>
-    <title>La única verdad es el absurdo</title>
-    <link>https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-el-absurdo/</link>
-    <pubDate>Sat, 31 Oct 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-el-absurdo/</guid>
-    <description><![CDATA[<p>Mi primera reacción cuando me enteré que el kirchnerismo iba a tener que dirimir
-la presidencia en un ballotage fue entregarme a la catársis de la burla y
-parafrasear sus consignas políticas para humillarlas y para reirme de sus
-defensores a ultranza. Como su campaña permanente por el poder es
-extraordinariamente prolífica y su acervo de publicidades no detiene su
-crecimiento, la diversión duró más de un día en el que minuto a minuto fui
-recordando sus frases vacías, sus engaños y sus provocaciones mafiosas, para
-publicarlas reducidas al absurdo o transformadas en chicanas.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Democracia on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/democracia/</link>
+    <description>Recent content in Democracia on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sat, 31 Oct 2015 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/democracia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La única verdad es el absurdo</title>
+      <link>https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-el-absurdo/</link>
+      <pubDate>Sat, 31 Oct 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-el-absurdo/</guid>
+      <description>&lt;p&gt;Mi primera reacción cuando me enteré que el kirchnerismo iba a tener que dirimir&#xA;la presidencia en un ballotage fue entregarme a la catársis de la burla y&#xA;parafrasear sus consignas políticas para humillarlas y para reirme de sus&#xA;defensores a ultranza. Como su campaña permanente por el poder es&#xA;extraordinariamente prolífica y su acervo de publicidades no detiene su&#xA;crecimiento, la diversión duró más de un día en el que minuto a minuto fui&#xA;recordando sus frases vacías, sus engaños y sus provocaciones mafiosas, para&#xA;publicarlas reducidas al absurdo o transformadas en chicanas.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

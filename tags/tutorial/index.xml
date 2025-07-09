@@ -1,174 +1,98 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Tutorial - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/tutorial/</link>
-        <description>Tutorial - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/tutorial/" rel="self" type="application/rss+xml" /><item>
-    <title>Uso de MBED desde la linea de comandos (CLI)</title>
-    <link>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</link>
-    <pubDate>Fri, 04 Nov 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</guid>
-    <description><![CDATA[<p>Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora
-usaba <a href="https://developer.mbed.org/" target="_blank" rel="noopener noreffer">la versión online del compilador</a> con una
-FRDM-KL25Z, que es una (de las primeras en funcionar con MBED). El problema del
-compilador online no es que haya que estar conectado a la web (lo vengo usando
-desde hace mucho y nunca tuve problemas de acceso) sino sus limitadas
-prestaciones como editor de texto. Por ejemplo, no encontré manera de comentar y
-des-comentar múltiples lineas de código simultaneamente, algo que necesito hacer
-con frecuencia. Por esto mismo prefiero el editor que uso para el resto de mis
-actividades: Emacs, y esto lo puedo hacer con el nuevo compilador offline.</p>]]></description>
-</item>
-<item>
-    <title>Actualización de las instrucciones para armar un blog con Pelican y GitHub</title>
-    <link>https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</link>
-    <pubDate>Wed, 20 May 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</guid>
-    <description><![CDATA[<p>El sitio oficial de Pelican, con sus intrucciones de instalación y uso <a href="http://pelican.readthedocs.org/" target="_blank" rel="noopener noreffer">es
-este</a>. Originalmente, este post estuvo basado
-en <a href="http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/" target="_blank" rel="noopener noreffer">las instrucciones de Nicholas Tan
-Jerome</a>.
-El post original pueden verlo en este enlace <a href="https://eldiegoefe.github.io/blog-con-pelican-y-github/" rel="">pueden verlo en este enlace</a></p>
-<p>Por un lado vamos a configurar un entorno virtual de Python donde vamos a
-instalar Pelican, y por otro lado vamos a utilizar un directorio subdividido en
-un subdirectorio para nuestro blog y dos subdirectorios más para herramientas de
-Pelican (themes y plugins de Pelican). Supongo que GIT ya está instalado en el
-sistema.</p>]]></description>
-</item>
-<item>
-    <title>Molestos clicks del mouse (digiKam tips)</title>
-    <link>https://eldiegoefe.github.io/molestos-clicks-del-mouse-digikam-tips/</link>
-    <pubDate>Fri, 16 Jan 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/molestos-clicks-del-mouse-digikam-tips/</guid>
-    <description><![CDATA[<p>Usar el mouse en digiKam puede producir caspa. Cada vez que hago un click para
-seleccionar un archivo abre la vista de previsualización (como al apretar F3).
-Este comportamiento no corresponde exclusivamente a digiKam, sino al escritorio
-(en mi caso KDE). Para solucionarlo (en KDE) hay que ir a <strong>Preferencias del
-Sistema</strong> y en la sección de <strong>Hardware</strong> entrar al panel de <strong>Dispositivos de
-Entrada</strong>. En la siguiente imagen puede verse el lugar donde seleccionar la
-opción: <em>Una doble pulsación abre archivos y carpetas (una sola pulsación
-selecciona iconos)</em>.</p>]]></description>
-</item>
-<item>
-    <title>Crear colecciones y albumes en digiKam</title>
-    <link>https://eldiegoefe.github.io/crear-colecciones-y-albumes-en-digikam/</link>
-    <pubDate>Thu, 15 Jan 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/crear-colecciones-y-albumes-en-digikam/</guid>
-    <description><![CDATA[<p>Crear albumes en digiKam tiene un inconveniente que un usuario que intenta
-emplearlo descubre rápidamente. Es un detalle que no está bien documentado en
-los tutoriales que encontré en la web. El problema es el siguiente: sólo van a
-poder crear álbumes dentro del único álbum existente, el cual aparece tras el
-procedimiento de configuración básica, cuando digiKam se ejecuta por primera
-vez. Probablemente este álbum se llame &quot;/home/nombreusuario/Imágenes&quot;, como en
-la figura siguiente.</p>]]></description>
-</item>
-<item>
-    <title>Organizar una coleccion de fotos digitales</title>
-    <link>https://eldiegoefe.github.io/organizar-una-coleccion-de-fotos-digitales/</link>
-    <pubDate>Tue, 13 Jan 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/organizar-una-coleccion-de-fotos-digitales/</guid>
-    <description><![CDATA[<p>La fotografía digital nos permite sacar millones de fotos sin gastar un peso en
-rollos, con cámaras fotográficas compactas y profesionales, teléfonos celulares
-y tablets. Esto que parece una ventaja puede volverse en contra si uno se vuelve
-el loco de la instantánea, porque los archivos se acumulan por montañas y esta
-abundancia supera toda posibilidad de encontrar las imágenes que merecen ser
-vistas de nuevo. Muchas veces te encontrás sacando varias fotos iguales o muy
-parecidas para después elegir la mejor, cosa que nunca sucede.</p>]]></description>
-</item>
-<item>
-    <title>Tutorial sobre control de versiones (parte 4)</title>
-    <link>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4/</link>
-    <pubDate>Fri, 10 Oct 2014 11:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4/</guid>
-    <description><![CDATA[<h2 id="indice-del-tutorial">Indice del Tutorial</h2>
-<ul>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1/" rel="">Parte 1</a>. Cómo armar un repositorio local</li>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2/" rel="">Parte 2</a>. Cómo subir el repositorio local al remoto</li>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3/" rel="">Parte 3</a>. Cómo colaborar en un mismo repositorio remoto</li>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4/" rel="">Parte 4</a>. Cómo resolver conflictos</li>
-</ul>
-<p>Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés
-visitar <a href="http://software-carpentry.org/v5/novice/git/" target="_blank" rel="noopener noreffer">la página de Software
-Carpentry</a></p>
-<h2 id="cuándo-aparecen-los-conflictos">Cuándo aparecen los conflictos</h2>
-<p>El sistema de control de versiones permite que la gente trabaje en paralelo
-editando sus programas en código fuente. En realidad, se puede usar para
-cualquier tipo de archivo con texto plano (me parece fantástico para informes,
-relatos, blogs como este, etc).</p>]]></description>
-</item>
-<item>
-    <title>Tutorial sobre control de versiones (parte 3)</title>
-    <link>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3/</link>
-    <pubDate>Thu, 09 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3/</guid>
-    <description><![CDATA[<h2 id="indice-del-tutorial">Indice del Tutorial</h2>
-<ul>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1/" rel="">Parte 1</a>. Cómo armar un repositorio local</li>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2/" rel="">Parte 2</a>. Cómo subir el repositorio local al remoto</li>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3/" rel="">Parte 3</a>. Cómo colaborar en un mismo repositorio remoto</li>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4/" rel="">Parte 4</a>. Cómo resolver conflictos</li>
-</ul>
-<p>Para ver las versiones (en inglés) en las cuales se basa este tutorial,
-podés visitar <a href="http://software-carpentry.org/v5/novice/git/" target="_blank" rel="noopener noreffer">la página de Software
-Carpentry</a></p>
-<h2 id="probando-el-cooperativismo">Probando el cooperativismo</h2>
-<p>Vamos a practicar cómo se realiza una colaboración a través de un
-repositorio en Github. Para ello nada mejor que colaborar con uno mismo.
-Lo que hago es trabajar con dos cuentas en Github, corriendo un usuario
-en mi PC de escritorio y el otro dentro de una máquina virtual dentro de
-la misma PC (aunque también lo podría hacer desde una notebook, o desde
-otra sesión de esta misma computadora, pero decir que uno corre una
-máquina virtual con Linux suena mucho más <em>god-level</em>). No voy a
-detenerme a explicar nada sobre las máquinas virtuales porque además de
-ser demasiado sencillo también es off-topic, y no quiero offtopiquearme.
-¡Cómprense un amiguito y chau!</p>]]></description>
-</item>
-<item>
-    <title>Tutorial sobre control de versiones (parte 2)</title>
-    <link>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2/</link>
-    <pubDate>Wed, 08 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2/</guid>
-    <description><![CDATA[<h2 id="indice-del-tutorial">Indice del Tutorial</h2>
-<ul>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1/" rel="">Parte 1</a>. Cómo armar un repositorio local</li>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2/" rel="">Parte 2</a>. Cómo subir el repositorio local al remoto</li>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3/" rel="">Parte 3</a>. Cómo colaborar en un mismo repositorio remoto</li>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4/" rel="">Parte 4</a>. Cómo resolver conflictos</li>
-</ul>
-<p>Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés
-visitar <a href="http://software-carpentry.org/v5/novice/git/" target="_blank" rel="noopener noreffer">la página de Software
-Carpentry</a></p>
-<h2 id="armar-un-proyecto-repositorio-en-github">Armar un proyecto (repositorio) en GitHub</h2>
-<p>Para subir el repositorio local a GitHub es indispensable tener una
-cuenta allí (que es gratis, así que a relajarse y disfrutar). Es
-bastante intuitivo el modo de crear un repositorio. Pero pongo un par de
-imágenes, a modo de muestra.</p>]]></description>
-</item>
-<item>
-    <title>Tutorial sobre control de versiones (parte 1)</title>
-    <link>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1/</link>
-    <pubDate>Mon, 06 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1/</guid>
-    <description><![CDATA[<ul>
-<li></li>
-</ul>
-<p>En el sitio de <a href="http://software-carpentry.org/" target="_blank" rel="noopener noreffer">Software Carpentry</a> hay un buen
-tutorial sobre el uso de sistemas de control de versiones. Estos apuntes son
-prácticamente la traducción de esas instrucciones.</p>
-<h2 id="indice-del-tutorial">Indice del Tutorial</h2>
-<ul>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1/" rel="">Parte 1</a>. Cómo armar un repositorio local</li>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2/" rel="">Parte 2</a>. Cómo subir el repositorio local al remoto</li>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3/" rel="">Parte 3</a>. Cómo colaborar en un mismo repositorio remoto</li>
-<li><a href="https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4/" rel="">Parte 4</a>. Cómo resolver conflictos</li>
-</ul>
-<p>Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés
-visitar <a href="http://software-carpentry.org/v5/novice/git/" target="_blank" rel="noopener noreffer">la página de Software
-Carpentry</a></p>]]></description>
-</item>
-<item>
-    <title>Grabacion de screencasts para tutoriales de YouTube</title>
-    <link>https://eldiegoefe.github.io/grabacion-de-screencasts-para-tutoriales-de-youtube/</link>
-    <pubDate>Tue, 23 Sep 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/grabacion-de-screencasts-para-tutoriales-de-youtube/</guid>
-    <description><![CDATA[<p><strong>Actualización (Feb-2017)</strong>: es muy facil usar el programa OBS Studio para grabar en la computadora tanto la pantalla como la webcam, micrófono, etc. Funciona en Linux, Window$ y Mac.</p>
-<hr>
-<p>Empecé a grabar tutoriales para usar IPython Notebook. Traté de hacerlo con la
-aplicación recordMyDesktop, pero el modo de seleccionar la parte de la pantalla
-a grabar resulta muy imprecisa, es practicamente imposible determinar la región
-con precisión.</p>
-<p>Luego encontré este buen tutorial: <a href="http://nienhueser.de/blog/?p=469" target="_blank" rel="noopener noreffer">Creating Screencasts in
-Linux</a>. Ahí hay dos datos importantes:</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/tutorial/</link>
+    <description>Recent content in Tutorial on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sun, 25 Jul 2021 17:40:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uso de MBED desde la linea de comandos (CLI)</title>
+      <link>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</link>
+      <pubDate>Fri, 04 Nov 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/uso-de-mbed-desde-la-linea-de-comandos-cli/</guid>
+      <description>&lt;p&gt;Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora&#xA;usaba &lt;a href=&#34;https://developer.mbed.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;la versión online del compilador&lt;/a&gt; con una&#xA;FRDM-KL25Z, que es una (de las primeras en funcionar con MBED). El problema del&#xA;compilador online no es que haya que estar conectado a la web (lo vengo usando&#xA;desde hace mucho y nunca tuve problemas de acceso) sino sus limitadas&#xA;prestaciones como editor de texto. Por ejemplo, no encontré manera de comentar y&#xA;des-comentar múltiples lineas de código simultaneamente, algo que necesito hacer&#xA;con frecuencia. Por esto mismo prefiero el editor que uso para el resto de mis&#xA;actividades: Emacs, y esto lo puedo hacer con el nuevo compilador offline.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Actualización de las instrucciones para armar un blog con Pelican y GitHub</title>
+      <link>https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</link>
+      <pubDate>Wed, 20 May 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</guid>
+      <description>&lt;p&gt;El sitio oficial de Pelican, con sus intrucciones de instalación y uso &lt;a href=&#34;http://pelican.readthedocs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;es&#xA;este&lt;/a&gt;. Originalmente, este post estuvo basado&#xA;en &lt;a href=&#34;http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;las instrucciones de Nicholas Tan&#xA;Jerome&lt;/a&gt;.&#xA;El post original pueden verlo en este enlace &lt;a href=&#34;https://eldiegoefe.github.io/blog-con-pelican-y-github/&#34; rel=&#34;&#34;&gt;pueden verlo en este enlace&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Por un lado vamos a configurar un entorno virtual de Python donde vamos a&#xA;instalar Pelican, y por otro lado vamos a utilizar un directorio subdividido en&#xA;un subdirectorio para nuestro blog y dos subdirectorios más para herramientas de&#xA;Pelican (themes y plugins de Pelican). Supongo que GIT ya está instalado en el&#xA;sistema.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Molestos clicks del mouse (digiKam tips)</title>
+      <link>https://eldiegoefe.github.io/molestos-clicks-del-mouse-digikam-tips/</link>
+      <pubDate>Fri, 16 Jan 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/molestos-clicks-del-mouse-digikam-tips/</guid>
+      <description>&lt;p&gt;Usar el mouse en digiKam puede producir caspa. Cada vez que hago un click para&#xA;seleccionar un archivo abre la vista de previsualización (como al apretar F3).&#xA;Este comportamiento no corresponde exclusivamente a digiKam, sino al escritorio&#xA;(en mi caso KDE). Para solucionarlo (en KDE) hay que ir a &lt;strong&gt;Preferencias del&#xA;Sistema&lt;/strong&gt; y en la sección de &lt;strong&gt;Hardware&lt;/strong&gt; entrar al panel de &lt;strong&gt;Dispositivos de&#xA;Entrada&lt;/strong&gt;. En la siguiente imagen puede verse el lugar donde seleccionar la&#xA;opción: &lt;em&gt;Una doble pulsación abre archivos y carpetas (una sola pulsación&#xA;selecciona iconos)&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Crear colecciones y albumes en digiKam</title>
+      <link>https://eldiegoefe.github.io/crear-colecciones-y-albumes-en-digikam/</link>
+      <pubDate>Thu, 15 Jan 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/crear-colecciones-y-albumes-en-digikam/</guid>
+      <description>&lt;p&gt;Crear albumes en digiKam tiene un inconveniente que un usuario que intenta&#xA;emplearlo descubre rápidamente. Es un detalle que no está bien documentado en&#xA;los tutoriales que encontré en la web. El problema es el siguiente: sólo van a&#xA;poder crear álbumes dentro del único álbum existente, el cual aparece tras el&#xA;procedimiento de configuración básica, cuando digiKam se ejecuta por primera&#xA;vez. Probablemente este álbum se llame &amp;quot;/home/nombreusuario/Imágenes&amp;quot;, como en&#xA;la figura siguiente.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Organizar una coleccion de fotos digitales</title>
+      <link>https://eldiegoefe.github.io/organizar-una-coleccion-de-fotos-digitales/</link>
+      <pubDate>Tue, 13 Jan 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/organizar-una-coleccion-de-fotos-digitales/</guid>
+      <description>&lt;p&gt;La fotografía digital nos permite sacar millones de fotos sin gastar un peso en&#xA;rollos, con cámaras fotográficas compactas y profesionales, teléfonos celulares&#xA;y tablets. Esto que parece una ventaja puede volverse en contra si uno se vuelve&#xA;el loco de la instantánea, porque los archivos se acumulan por montañas y esta&#xA;abundancia supera toda posibilidad de encontrar las imágenes que merecen ser&#xA;vistas de nuevo. Muchas veces te encontrás sacando varias fotos iguales o muy&#xA;parecidas para después elegir la mejor, cosa que nunca sucede.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorial sobre control de versiones (parte 4)</title>
+      <link>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4/</link>
+      <pubDate>Fri, 10 Oct 2014 11:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4/</guid>
+      <description>&lt;h2 id=&#34;indice-del-tutorial&#34;&gt;Indice del Tutorial&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1/&#34; rel=&#34;&#34;&gt;Parte 1&lt;/a&gt;. Cómo armar un repositorio local&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2/&#34; rel=&#34;&#34;&gt;Parte 2&lt;/a&gt;. Cómo subir el repositorio local al remoto&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3/&#34; rel=&#34;&#34;&gt;Parte 3&lt;/a&gt;. Cómo colaborar en un mismo repositorio remoto&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4/&#34; rel=&#34;&#34;&gt;Parte 4&lt;/a&gt;. Cómo resolver conflictos&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés&#xA;visitar &lt;a href=&#34;http://software-carpentry.org/v5/novice/git/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;la página de Software&#xA;Carpentry&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;cuándo-aparecen-los-conflictos&#34;&gt;Cuándo aparecen los conflictos&lt;/h2&gt;&#xA;&lt;p&gt;El sistema de control de versiones permite que la gente trabaje en paralelo&#xA;editando sus programas en código fuente. En realidad, se puede usar para&#xA;cualquier tipo de archivo con texto plano (me parece fantástico para informes,&#xA;relatos, blogs como este, etc).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorial sobre control de versiones (parte 3)</title>
+      <link>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3/</link>
+      <pubDate>Thu, 09 Oct 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3/</guid>
+      <description>&lt;h2 id=&#34;indice-del-tutorial&#34;&gt;Indice del Tutorial&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1/&#34; rel=&#34;&#34;&gt;Parte 1&lt;/a&gt;. Cómo armar un repositorio local&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2/&#34; rel=&#34;&#34;&gt;Parte 2&lt;/a&gt;. Cómo subir el repositorio local al remoto&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3/&#34; rel=&#34;&#34;&gt;Parte 3&lt;/a&gt;. Cómo colaborar en un mismo repositorio remoto&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4/&#34; rel=&#34;&#34;&gt;Parte 4&lt;/a&gt;. Cómo resolver conflictos&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Para ver las versiones (en inglés) en las cuales se basa este tutorial,&#xA;podés visitar &lt;a href=&#34;http://software-carpentry.org/v5/novice/git/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;la página de Software&#xA;Carpentry&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;probando-el-cooperativismo&#34;&gt;Probando el cooperativismo&lt;/h2&gt;&#xA;&lt;p&gt;Vamos a practicar cómo se realiza una colaboración a través de un&#xA;repositorio en Github. Para ello nada mejor que colaborar con uno mismo.&#xA;Lo que hago es trabajar con dos cuentas en Github, corriendo un usuario&#xA;en mi PC de escritorio y el otro dentro de una máquina virtual dentro de&#xA;la misma PC (aunque también lo podría hacer desde una notebook, o desde&#xA;otra sesión de esta misma computadora, pero decir que uno corre una&#xA;máquina virtual con Linux suena mucho más &lt;em&gt;god-level&lt;/em&gt;). No voy a&#xA;detenerme a explicar nada sobre las máquinas virtuales porque además de&#xA;ser demasiado sencillo también es off-topic, y no quiero offtopiquearme.&#xA;¡Cómprense un amiguito y chau!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorial sobre control de versiones (parte 2)</title>
+      <link>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2/</link>
+      <pubDate>Wed, 08 Oct 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2/</guid>
+      <description>&lt;h2 id=&#34;indice-del-tutorial&#34;&gt;Indice del Tutorial&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1/&#34; rel=&#34;&#34;&gt;Parte 1&lt;/a&gt;. Cómo armar un repositorio local&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2/&#34; rel=&#34;&#34;&gt;Parte 2&lt;/a&gt;. Cómo subir el repositorio local al remoto&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3/&#34; rel=&#34;&#34;&gt;Parte 3&lt;/a&gt;. Cómo colaborar en un mismo repositorio remoto&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4/&#34; rel=&#34;&#34;&gt;Parte 4&lt;/a&gt;. Cómo resolver conflictos&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés&#xA;visitar &lt;a href=&#34;http://software-carpentry.org/v5/novice/git/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;la página de Software&#xA;Carpentry&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;armar-un-proyecto-repositorio-en-github&#34;&gt;Armar un proyecto (repositorio) en GitHub&lt;/h2&gt;&#xA;&lt;p&gt;Para subir el repositorio local a GitHub es indispensable tener una&#xA;cuenta allí (que es gratis, así que a relajarse y disfrutar). Es&#xA;bastante intuitivo el modo de crear un repositorio. Pero pongo un par de&#xA;imágenes, a modo de muestra.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorial sobre control de versiones (parte 1)</title>
+      <link>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1/</link>
+      <pubDate>Mon, 06 Oct 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;En el sitio de &lt;a href=&#34;http://software-carpentry.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Software Carpentry&lt;/a&gt; hay un buen&#xA;tutorial sobre el uso de sistemas de control de versiones. Estos apuntes son&#xA;prácticamente la traducción de esas instrucciones.&lt;/p&gt;&#xA;&lt;h2 id=&#34;indice-del-tutorial&#34;&gt;Indice del Tutorial&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-1/&#34; rel=&#34;&#34;&gt;Parte 1&lt;/a&gt;. Cómo armar un repositorio local&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-2/&#34; rel=&#34;&#34;&gt;Parte 2&lt;/a&gt;. Cómo subir el repositorio local al remoto&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-3/&#34; rel=&#34;&#34;&gt;Parte 3&lt;/a&gt;. Cómo colaborar en un mismo repositorio remoto&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://eldiegoefe.github.io/tutorial-sobre-control-de-versiones-parte-4/&#34; rel=&#34;&#34;&gt;Parte 4&lt;/a&gt;. Cómo resolver conflictos&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés&#xA;visitar &lt;a href=&#34;http://software-carpentry.org/v5/novice/git/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;la página de Software&#xA;Carpentry&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grabacion de screencasts para tutoriales de YouTube</title>
+      <link>https://eldiegoefe.github.io/grabacion-de-screencasts-para-tutoriales-de-youtube/</link>
+      <pubDate>Tue, 23 Sep 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/grabacion-de-screencasts-para-tutoriales-de-youtube/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Actualización (Feb-2017)&lt;/strong&gt;: es muy facil usar el programa OBS Studio para grabar en la computadora tanto la pantalla como la webcam, micrófono, etc. Funciona en Linux, Window$ y Mac.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Empecé a grabar tutoriales para usar IPython Notebook. Traté de hacerlo con la&#xA;aplicación recordMyDesktop, pero el modo de seleccionar la parte de la pantalla&#xA;a grabar resulta muy imprecisa, es practicamente imposible determinar la región&#xA;con precisión.&lt;/p&gt;&#xA;&lt;p&gt;Luego encontré este buen tutorial: &lt;a href=&#34;http://nienhueser.de/blog/?p=469&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Creating Screencasts in&#xA;Linux&lt;/a&gt;. Ahí hay dos datos importantes:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blog con Pelican y GitHub</title>
+      <link>https://eldiegoefe.github.io/blog-con-pelican-y-github/</link>
+      <pubDate>Tue, 22 Apr 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/blog-con-pelican-y-github/</guid>
+      <description>&lt;h1 id=&#34;actualización&#34;&gt;Actualización&lt;/h1&gt;&#xA;&lt;p&gt;Pueden ver una actualización de estas instrucciones en &lt;a href=&#34;https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/&#34; rel=&#34;&#34;&gt;este nuevo post&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;instrucciones&#34;&gt;Instrucciones&lt;/h2&gt;&#xA;&lt;p&gt;El sitio con las intrucciones sobre Pelican &lt;a href=&#34;http://pelican.readthedocs.org/en/3.3.0&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;es&#xA;este&lt;/a&gt;. Casi todo el contenido siguiente&#xA;está basado en las instrucciones de &lt;a href=&#34;http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Nicholas Tan&#xA;Jerome&lt;/a&gt;.&#xA;Para instalar Pelican se puede usar &amp;quot;pip&amp;quot;, más adelante hay más detalles, pero&#xA;como referencia veloz basta decir que se puede hacer sencillamente (en la rama&#xA;&amp;quot;source&amp;quot; y desde el ENV que se creará más adelante):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Instrucciones para armar un blog geek</title>
+      <link>https://eldiegoefe.github.io/instrucciones-para-armar-un-blog-geek/</link>
+      <pubDate>Sun, 09 Feb 2014 10:30:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/instrucciones-para-armar-un-blog-geek/</guid>
+      <description>&lt;p&gt;En mi caso, alcanzar un estado zen requiere atravesar travesías barrocas.&#xA;Mientras miraba cosas de IPython llegué a &lt;a href=&#34;http://jakevdp.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Pythonic&#xA;Perambulations&lt;/a&gt;. Me gustó el contenido (muestra cómo&#xA;armar ventanas de browsers con matplotlib interactivo), me gustó el diseño y me&#xA;llamó la atención el dominio &lt;strong&gt;github.io&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Blogs como el de &lt;a href=&#34;http://jakevdp.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Jake Vanderplas&lt;/a&gt; se arman&#xA;con un motor llamado Jekyll.&lt;/p&gt;&#xA;&lt;p&gt;(*editado: Jake migró su sitio a Pelican, que está escrito en Python. Armé un&#xA;post para explicar cómo instalarlo y usarlo en conjunción con las páginas&#xA;personales de GitHub, ver &lt;a href=&#34;https://eldiegoefe.github.io/blog-con-pelican-y-github/&#34; title=&#34;Blog&#34; rel=&#34;&#34;&gt;Blog con Pelican y Github&lt;/a&gt;. &lt;strong&gt;Por ende&#xA;este post queda desactualizado, además de haber quedado incompleto o quizás con&#xA;errores&lt;/strong&gt;).&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

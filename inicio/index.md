@@ -17,6 +17,9 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 
 ## Noticias
 - [elDiarioAR](https://www.eldiarioar.com/)
+- [Revista Crisis](https://revistacrisis.com.ar/)
+- [Revista Mate](https://revistamate.com.ar/)
+- [Revista Cítrica](https://revistacitrica.com/)
 - [Tierra Viva](https://agenciatierraviva.com.ar)
 - [BBC News](http://www.bbc.com/news)
 
@@ -34,10 +37,9 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 ## Redes Sociales
 
 - [Mastodon](https://mastodon.social/home)
-- [Diaspora](https://joindiaspora.com/stream)
+- [Diaspora](https://diaspora.afy.jp/stream)
 - [Facebook](http://www.facebook.com)
 - [Instagram](https://www.instagram.com)
-- [Twitter](https://twitter.com)
 
 ## Revistas / Blogs / Sitios Personales / Libros
 
@@ -53,8 +55,7 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 
 ## Electrónica / Ciencias
 - [Socratic Electronics](http://www.ibiblio.org/kuphaldt/socratic/index.html)
-- [Ken Shirriff's blog](https://www.righto.com/). Computer history,
-  restoring vintage computers, IC reverse engineering, and whatever. 
+- [Ken Shirriff's blog](https://www.righto.com/)
 
 ## Emacs
 
@@ -87,20 +88,26 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 ## Finanzas
 
 - [BCR](https://bcr.com.ar/es/mercados/mercado-de-granos/cotizaciones/cotizaciones-locales-0)
+- [BCR Precios Históricos](https://www.cac.bcr.com.ar/es/precios-de-pizarra/consultas)
 - [Invertir OnLine](https://micuenta.invertironline.com/ingresar)
-- []()
-- [Consumo Colaborativo](https://www.consumocolaborativo.com/)
+- [Portfolio Personal - PPI](https://cuenta.portfoliopersonal.com/login)
+- [Dolarito](https://www.dolarito.ar/)
 - [Dolar Hoy](https://dolarhoy.com/)
 
 ## Descargas
 
 - [Avax Home](https://avxhome.se/)
-- [b-ok](http://b-ok.org)
-- [Ebook 777](http://www.ebook777.com)
+- [Anna's Archive](https://annas-archive.org/)
 - [epublibre](https://epublibre.org/inicio/index)
-- [ProxyBay](https://proxybay.one)
-- [TParser](http://tparser.org)
-- [Unblocked](https://unblocked.mx/)
+- [Library Genesis](https://librarygenesis.net/#_Which_mirrors_to_use)
+- [1337X](https://www.1337xxx.to/)
+- [LimeTorrents](https://www.limetorrents.lol/)
+
+## Astronomía
+
+- [Skymaps](https://skymaps.com/)
+- [Duoptic](https://duoptic.com.ar/)
+- [Saraco](https://www.saracco.com/)
 
 ## Juegos
 
@@ -157,5 +164,6 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 ### Otros foros
 
 - [El Cuartito DIYer](http://foro.cuartitodiyer.com)
+
 
 

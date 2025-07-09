@@ -1,14 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Usb - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/usb/</link>
-        <description>Usb - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/usb/" rel="self" type="application/rss+xml" /><item>
-    <title>Comunicacion USB con mbed</title>
-    <link>https://eldiegoefe.github.io/comunicacion-usb-con-mbed/</link>
-    <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comunicacion-usb-con-mbed/</guid>
-    <description><![CDATA[<p>La comunicación mediante USB con microcontroladores me viene un escollo permanente. El protocolo en sí tiene una complejidad que dispuesto a dedicarle, sobre todo porque empecé a leer varias veces sobre el mismo y siempre me encuentro dando vueltas alrededor de detalles que parecen demasiado específicos y alejados de lo que yo necesito lograr. Decidí hacer la prueba con mbed, ya que tengo una placa kinetis frdm-kl25z de freescale, con la cual hay unos ejemplos de comunicación que parecen muy sencillos.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usb on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/usb/</link>
+    <description>Recent content in Usb on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Thu, 31 Jul 2014 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/usb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comunicacion USB con mbed</title>
+      <link>https://eldiegoefe.github.io/comunicacion-usb-con-mbed/</link>
+      <pubDate>Thu, 31 Jul 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/comunicacion-usb-con-mbed/</guid>
+      <description>&lt;p&gt;La comunicación mediante USB con microcontroladores me viene un escollo permanente. El protocolo en sí tiene una complejidad que dispuesto a dedicarle, sobre todo porque empecé a leer varias veces sobre el mismo y siempre me encuentro dando vueltas alrededor de detalles que parecen demasiado específicos y alejados de lo que yo necesito lograr. Decidí hacer la prueba con mbed, ya que tengo una placa kinetis frdm-kl25z de freescale, con la cual hay unos ejemplos de comunicación que parecen muy sencillos.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

@@ -1,23 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Tecnicas - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/tecnicas/</link>
-        <description>Tecnicas - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 02 Jun 2019 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/tecnicas/" rel="self" type="application/rss+xml" /><item>
-    <title>Libros y consejos de lectura</title>
-    <link>https://eldiegoefe.github.io/libros-y-consejos-de-lectura/</link>
-    <pubDate>Sun, 02 Jun 2019 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/libros-y-consejos-de-lectura/</guid>
-    <description><![CDATA[<p><a href="https://www.youtube.com/watch?v=lIW5jBrrsS0" target="_blank" rel="noopener noreffer">Bookstores - How to Read More Books in the Golden Age of
-Content</a> es un cortometraje que
-muestra las librerías más lindas en Europa y América, incluye entrevistas a
-personajes interesantes, y ofrece algunos consejos y técnicas para leer más
-libros. Lo vi porque el algoritmo de YouTube, ya medio reseco de sugerencias de
-tanto que lo exprimo, lo incluyó entre las recomendaciones que me hizo algunos
-días atrás. Tiene buen ritmo y sigue la receta largamente probada de este
-género: entrevistas a expertos y, sin pausas, visitas a lugares atractivos,
-incluida la librería del Ateneo en Buenos Aires. La tarea de reflexión personal
-deberá venir al finalizar el discurso del cineasta.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tecnicas on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/tecnicas/</link>
+    <description>Recent content in Tecnicas on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sun, 02 Jun 2019 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/tecnicas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Libros y consejos de lectura</title>
+      <link>https://eldiegoefe.github.io/libros-y-consejos-de-lectura/</link>
+      <pubDate>Sun, 02 Jun 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/libros-y-consejos-de-lectura/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=lIW5jBrrsS0&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Bookstores - How to Read More Books in the Golden Age of&#xA;Content&lt;/a&gt; es un cortometraje que&#xA;muestra las librerías más lindas en Europa y América, incluye entrevistas a&#xA;personajes interesantes, y ofrece algunos consejos y técnicas para leer más&#xA;libros. Lo vi porque el algoritmo de YouTube, ya medio reseco de sugerencias de&#xA;tanto que lo exprimo, lo incluyó entre las recomendaciones que me hizo algunos&#xA;días atrás. Tiene buen ritmo y sigue la receta largamente probada de este&#xA;género: entrevistas a expertos y, sin pausas, visitas a lugares atractivos,&#xA;incluida la librería del Ateneo en Buenos Aires. La tarea de reflexión personal&#xA;deberá venir al finalizar el discurso del cineasta.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

@@ -1,28 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Anarquismo - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/anarquismo/</link>
-        <description>Anarquismo - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 30 Apr 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/anarquismo/" rel="self" type="application/rss+xml" /><item>
-    <title>Grupos de afinidad</title>
-    <link>https://eldiegoefe.github.io/grupos-de-afinidad/</link>
-    <pubDate>Wed, 30 Apr 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/grupos-de-afinidad/</guid>
-    <description><![CDATA[<p><strong>Esta es una traducción que hice desde <a href="http://anarchistfaq.org/afaq/index.html" target="_blank" rel="noopener noreffer">An Anarchist
-FAQ</a>, y colgué como contribución al
-sitio anarquista en español <a href="https://www.alasbarricadas.org/ateneovirtual/index.php/J.3.1_%C2%BFQu%C3%A9_son_los_grupos_de_afinidad%3F" target="_blank" rel="noopener noreffer">A las
-barricadas</a></strong>.</p>
-<p>Los grupos de afinidad son las organizaciones básicas que crean los anarquistas
-para difundir la idea anarquista. El término <strong>grupo de afinidad</strong> (<strong>affinity
-group</strong>) viene de la F.A.I. española (Federación Anarquista Ibérica) y se
-refiere a su forma de organización ideada durante sus luchas por la libertad. En
-su forma más básica, es un grupo (usualmente pequeño) de anarquistas que
-trabajan conjuntamente para difundir sus ideas al público general, utilizando la
-propaganda, iniciando o trabajando en campañas y difundiendo sus ideas
-<strong>dentro</strong> de organizaciones populares (tales como los sindicatos) y
-comunidades. Su objetivo no es convertirse en “lider” sino tomar la iniciativa,
-actuar como un catalizador dentro de los movimientos populares. No es de
-sorprender que refleje ideas anarquistas básicas:</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anarquismo on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/anarquismo/</link>
+    <description>Recent content in Anarquismo on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Mon, 26 Jul 2021 01:30:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/anarquismo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grupos de afinidad</title>
+      <link>https://eldiegoefe.github.io/grupos-de-afinidad/</link>
+      <pubDate>Wed, 30 Apr 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/grupos-de-afinidad/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Esta es una traducción que hice desde &lt;a href=&#34;http://anarchistfaq.org/afaq/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;An Anarchist&#xA;FAQ&lt;/a&gt;, y colgué como contribución al&#xA;sitio anarquista en español &lt;a href=&#34;https://www.alasbarricadas.org/ateneovirtual/index.php/J.3.1_%C2%BFQu%C3%A9_son_los_grupos_de_afinidad%3F&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;A las&#xA;barricadas&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Los grupos de afinidad son las organizaciones básicas que crean los anarquistas&#xA;para difundir la idea anarquista. El término &lt;strong&gt;grupo de afinidad&lt;/strong&gt; (&lt;strong&gt;affinity&#xA;group&lt;/strong&gt;) viene de la F.A.I. española (Federación Anarquista Ibérica) y se&#xA;refiere a su forma de organización ideada durante sus luchas por la libertad. En&#xA;su forma más básica, es un grupo (usualmente pequeño) de anarquistas que&#xA;trabajan conjuntamente para difundir sus ideas al público general, utilizando la&#xA;propaganda, iniciando o trabajando en campañas y difundiendo sus ideas&#xA;&lt;strong&gt;dentro&lt;/strong&gt; de organizaciones populares (tales como los sindicatos) y&#xA;comunidades. Su objetivo no es convertirse en “lider” sino tomar la iniciativa,&#xA;actuar como un catalizador dentro de los movimientos populares. No es de&#xA;sorprender que refleje ideas anarquistas básicas:&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

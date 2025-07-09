@@ -1,23 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Pandoc - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/pandoc/</link>
-        <description>Pandoc - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/pandoc/" rel="self" type="application/rss+xml" /><item>
-    <title>Pandoc, conversión de org-mode a restructuredtext</title>
-    <link>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
-    <pubDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
-    <description><![CDATA[<p>Pandoc es un software para hacer conversión de archivos de texto entre distintos
-lenguajes de markup. Me viene bien probarlo porque me gustaría escribir mis
-entradas del blog desde org-mode (que uso con mucha frecuencia) y obtener el
-mismo texto en versión restructuredText, que es el formato en el que escribo el
-blog (con Pelican).</p>
-<p>La instalación de Pandoc requirió un pequeño ajuste respecto de lo habitual en
-Manjaro, ya que el programa no estaba disponible desde los repositorios que
-vienen por defecto. Tuve que hacer los ajustes que se describen en <a href="https://wiki.archlinux.org/index.php/ArchHaskell" target="_blank" rel="noopener noreffer">la wiki de
-Arch</a>. Estos fueron los 5
-pasos:</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pandoc on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/pandoc/</link>
+    <description>Recent content in Pandoc on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sat, 08 Nov 2014 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/pandoc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pandoc, conversión de org-mode a restructuredtext</title>
+      <link>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
+      <pubDate>Sat, 08 Nov 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
+      <description>&lt;p&gt;Pandoc es un software para hacer conversión de archivos de texto entre distintos&#xA;lenguajes de markup. Me viene bien probarlo porque me gustaría escribir mis&#xA;entradas del blog desde org-mode (que uso con mucha frecuencia) y obtener el&#xA;mismo texto en versión restructuredText, que es el formato en el que escribo el&#xA;blog (con Pelican).&lt;/p&gt;&#xA;&lt;p&gt;La instalación de Pandoc requirió un pequeño ajuste respecto de lo habitual en&#xA;Manjaro, ya que el programa no estaba disponible desde los repositorios que&#xA;vienen por defecto. Tuve que hacer los ajustes que se describen en &lt;a href=&#34;https://wiki.archlinux.org/index.php/ArchHaskell&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;la wiki de&#xA;Arch&lt;/a&gt;. Estos fueron los 5&#xA;pasos:&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

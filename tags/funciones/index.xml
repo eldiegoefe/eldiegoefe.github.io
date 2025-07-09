@@ -1,28 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Funciones - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/funciones/</link>
-        <description>Funciones - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Fri, 11 Dec 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/funciones/" rel="self" type="application/rss+xml" /><item>
-    <title>Diccionario de funciones</title>
-    <link>https://eldiegoefe.github.io/diccionario-de-funciones/</link>
-    <pubDate>Fri, 11 Dec 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/diccionario-de-funciones/</guid>
-    <description><![CDATA[<p>Mientras escribo un programa para manipular imágenes de un microscopio, tuve que
-ver cómo ejecutar una función distinta, de acuerdo a cierto parámetro. Más
-concretamente, para procesar las imágenes en algunos casos se necesita un
-kernel, que es una matriz llena de unos y ceros organizados de acuerdo a la
-selección de dos parámetros: forma y tamaño. Por ejemplo, un &quot;disco&quot; de radio
-3 se vería así:</p>
-<pre><code>[[0 0 0 1 0 0 0]
- [0 1 1 1 1 1 0]
- [0 1 1 1 1 1 0]
- [1 1 1 1 1 1 1]
- [0 1 1 1 1 1 0]
- [0 1 1 1 1 1 0]
- [0 0 0 1 0 0 0]]
-</code></pre>
-<p>Y una matriz &quot;cuadrada&quot; de lado 3, así:</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Funciones on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/funciones/</link>
+    <description>Recent content in Funciones on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Fri, 11 Dec 2015 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/funciones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diccionario de funciones</title>
+      <link>https://eldiegoefe.github.io/diccionario-de-funciones/</link>
+      <pubDate>Fri, 11 Dec 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/diccionario-de-funciones/</guid>
+      <description>&lt;p&gt;Mientras escribo un programa para manipular imágenes de un microscopio, tuve que&#xA;ver cómo ejecutar una función distinta, de acuerdo a cierto parámetro. Más&#xA;concretamente, para procesar las imágenes en algunos casos se necesita un&#xA;kernel, que es una matriz llena de unos y ceros organizados de acuerdo a la&#xA;selección de dos parámetros: forma y tamaño. Por ejemplo, un &amp;quot;disco&amp;quot; de radio&#xA;3 se vería así:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;[[0 0 0 1 0 0 0]&#xA; [0 1 1 1 1 1 0]&#xA; [0 1 1 1 1 1 0]&#xA; [1 1 1 1 1 1 1]&#xA; [0 1 1 1 1 1 0]&#xA; [0 1 1 1 1 1 0]&#xA; [0 0 0 1 0 0 0]]&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Y una matriz &amp;quot;cuadrada&amp;quot; de lado 3, así:&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

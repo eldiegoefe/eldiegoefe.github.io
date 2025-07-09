@@ -1,28 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Grub - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/grub/</link>
-        <description>Grub - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 12 Feb 2014 10:30:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/grub/" rel="self" type="application/rss+xml" /><item>
-    <title>Cuando uno quiere A y termina haciendo B</title>
-    <link>https://eldiegoefe.github.io/cuando-uno-quiere-a-y-termina-haciendo-b/</link>
-    <pubDate>Wed, 12 Feb 2014 10:30:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/cuando-uno-quiere-a-y-termina-haciendo-b/</guid>
-    <description><![CDATA[<p>Estoy leyendo sobre <a href="http://ipython.org/" target="_blank" rel="noopener noreffer">IPython</a>, que instalé en
-Windows a través de
-<a href="https://store.continuum.io/cshop/anaconda/" target="_blank" rel="noopener noreffer">Anaconda</a>.</p>
-<p>Durante ese viaje me enteré de que Windows tiene dos shells, el más viejo y
-limitado es 'cmd.exe' mientras que el recomendado es 'Windows PowerShell',
-ya que tiene los mismos comandos que Unix. En cualquiera de los dos, IPython se
-corre con la orden <em>ipython</em></p>
-<p>Hay ayudas de IPython en:</p>
-<ul>
-<li><a href="http://ipython.org/documentation.html" target="_blank" rel="noopener noreffer">Documentación Oficial</a></li>
-<li><a href="http://stackoverflow.com/questions/tagged/ipython" target="_blank" rel="noopener noreffer">StackOverflow</a></li>
-<li><a href="http://mail.scipy.org/mailman/listinfo/ipython-user" target="_blank" rel="noopener noreffer">Lista de
-correos</a></li>
-</ul>
-<p>¡Debe haber muchas más!</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grub on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/grub/</link>
+    <description>Recent content in Grub on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Wed, 11 Feb 2015 10:30:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/grub/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cuando uno quiere A y termina haciendo B</title>
+      <link>https://eldiegoefe.github.io/cuando-uno-quiere-a-y-termina-haciendo-b/</link>
+      <pubDate>Wed, 12 Feb 2014 10:30:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/cuando-uno-quiere-a-y-termina-haciendo-b/</guid>
+      <description>&lt;p&gt;Estoy leyendo sobre &lt;a href=&#34;http://ipython.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;IPython&lt;/a&gt;, que instalé en&#xA;Windows a través de&#xA;&lt;a href=&#34;https://store.continuum.io/cshop/anaconda/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Anaconda&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Durante ese viaje me enteré de que Windows tiene dos shells, el más viejo y&#xA;limitado es &#39;cmd.exe&#39; mientras que el recomendado es &#39;Windows PowerShell&#39;,&#xA;ya que tiene los mismos comandos que Unix. En cualquiera de los dos, IPython se&#xA;corre con la orden &lt;em&gt;ipython&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Hay ayudas de IPython en:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://ipython.org/documentation.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Documentación Oficial&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/tagged/ipython&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;StackOverflow&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://mail.scipy.org/mailman/listinfo/ipython-user&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Lista de&#xA;correos&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;¡Debe haber muchas más!&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

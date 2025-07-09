@@ -1,79 +1,35 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Aleman - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/aleman/</link>
-        <description>Aleman - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Fri, 03 Mar 2023 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/aleman/" rel="self" type="application/rss+xml" /><item>
-    <title>Género en alemán</title>
-    <link>https://eldiegoefe.github.io/g%C3%A9nero-en-alem%C3%A1n/</link>
-    <pubDate>Fri, 03 Mar 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/g%C3%A9nero-en-alem%C3%A1n/</guid>
-    <description><![CDATA[<p>Hay algunas estrategias útiles para estudiar el género de los
-sustantivos en alemán. Es importante identificar si un sustantivo es
-femenino, masculino o neutro porque alteran la terminación de
-adjetivos y otros modificadores. Es agotador tratar de memorizar el
-género de cada sustantivo individualmente. Por suerte el idioma tiene
-algunas características que facilitan la identificación:</p>
-<ul>
-<li>Sufijos (terminaciones de las palabras): hay algunos sufijos que son
-exclusivamente femeninos, masculinos o neutros. Otros son
-mayoritariamente de un genero u otro, con algunas excepciones. Esta
-es para mi la ayuda más importante y lo que necesariamente hay que
-memorizar. El proceso para recordarlo puede ejercitando armando
-fichas con sustantivos y sus géneros, y con una &ldquo;clave&rdquo; o resumen en
-hojas aparte. En vez de usar la memoria, luego de seleccionar una
-ficha con una palabra, empezar sencillamente usando el resumen para
-buscar el género. Al realizar este ejercicio repetidamente a lo
-largo del tiempo, llega un momento en que la memoria directamente
-está conformada y ya no será necesario buscar en el resumen.</li>
-<li>Categoría de sustantivos: en alemán hay grupos de palabras que
-coinciden en el mismo género. Por ejemplo, mayoritariamente los
-árboles, frutas y flores son femeninos, las bebidas son masculinas y
-las unidades científicas son neutras. Igual hay excepciones. Yo
-estoy dejando esto para una segunda etapa.</li>
-</ul>
-<p>Hay técnicas mnemotécnicas que no estoy muy convencido de usar:</p>]]></description>
-</item>
-<item>
-    <title>Materiales para estudiar alemán</title>
-    <link>https://eldiegoefe.github.io/materiales-para-estudiar-alem%C3%A1n/</link>
-    <pubDate>Thu, 16 Feb 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/materiales-para-estudiar-alem%C3%A1n/</guid>
-    <description><![CDATA[<p>Hay múltiples modos de estudiar idiomas, y para hacerlo de modo
-autodidacta contamos con un montón de material online. El problema es
-elegir aquellos que nos resultan útiles y de buena calidad. Al final
-de este post hay una lista de los sitios que más uso (o los que más
-quiero usar) para recomendarlos y también para no olvidarme cuando
-pasan algunos meses alejado del idioma (porque mi dedicación es &ldquo;a
-saltos&rdquo;). Como todo, lo que no usamos cotidianamente con facilidad cae
-en el olvido. ¿O acaso se acuerdan de la demostración del Teorema de
-Green? Yo lo estudié hace como 25 años y no recuerdo ni lo que trataba
-de postular.</p>]]></description>
-</item>
-<item>
-    <title>Assimil. El alemán sin esfuerzo</title>
-    <link>https://eldiegoefe.github.io/assimil.-el-alem%C3%A1n-sin-esfuerzo/</link>
-    <pubDate>Wed, 03 Feb 2021 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/assimil.-el-alem%C3%A1n-sin-esfuerzo/</guid>
-    <description><![CDATA[<p>Un mismo texto puede permitir varias lecturas y puede estudiarse de múltiples
-maneras. Así conviene usar, literalmente, el libro para aprender idiomas de la
-editorial Assimil. El primer absurdo a derrocar es la impresión de que estudiar
-significa leer una vez. Así nunca nadie aprendió nada. Empecemos por ver cuáles
-son las instrucciones que el mismo libro trae para su uso.</p>
-<p>Primero indica algo comprobadamente cierto: <strong>es mejor estudiar poco
-todos los días que concentrar horas de estudio en días salteados</strong>; y
-también recomienda no forzarnos, evitar considerar esta actividad como
-un trabajo y no obligarse a estudiar si estamos mentalmente cansados.
-Sugiere estudiar con la misma atención que emplearíamos para aprender
-las reglas de un juego nuevo, y me parece que la noción de juego metida
-en el medio es ideal, porque para aprender (idiomas, etc) lo más
-indispensable es el entusiasmo y el deseo que suelen despertar los
-juegos. No hay que estudiar ni memorizar aspectos gramaticales, ni
-comprender todas las oraciones palabra por palabra, porque todo esto se
-irá incorporando con el abordaje repetido del material. Por cierto, los
-textos incluyen cortas historias (que a veces se despliegan en lecciones
-subsiguientes), hay espacio para refranes y dichos populares, y en
-general todo tiene rasgos humorísticos, con un distinguible porcentaje
-de machismo. La viñeta ilustra el tipo de humor: &quot;¿Le puedo ofrecer mi
-lugar?&quot;.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aleman on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/aleman/</link>
+    <description>Recent content in Aleman on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Fri, 03 Mar 2023 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/aleman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Género en alemán</title>
+      <link>https://eldiegoefe.github.io/g%C3%A9nero-en-alem%C3%A1n/</link>
+      <pubDate>Fri, 03 Mar 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/g%C3%A9nero-en-alem%C3%A1n/</guid>
+      <description>&lt;p&gt;Hay algunas estrategias útiles para estudiar el género de los&#xA;sustantivos en alemán. Es importante identificar si un sustantivo es&#xA;femenino, masculino o neutro porque alteran la terminación de&#xA;adjetivos y otros modificadores. Es agotador tratar de memorizar el&#xA;género de cada sustantivo individualmente. Por suerte el idioma tiene&#xA;algunas características que facilitan la identificación:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sufijos (terminaciones de las palabras): hay algunos sufijos que son&#xA;exclusivamente femeninos, masculinos o neutros. Otros son&#xA;mayoritariamente de un genero u otro, con algunas excepciones. Esta&#xA;es para mi la ayuda más importante y lo que necesariamente hay que&#xA;memorizar. El proceso para recordarlo puede ejercitando armando&#xA;fichas con sustantivos y sus géneros, y con una &amp;ldquo;clave&amp;rdquo; o resumen en&#xA;hojas aparte. En vez de usar la memoria, luego de seleccionar una&#xA;ficha con una palabra, empezar sencillamente usando el resumen para&#xA;buscar el género. Al realizar este ejercicio repetidamente a lo&#xA;largo del tiempo, llega un momento en que la memoria directamente&#xA;está conformada y ya no será necesario buscar en el resumen.&lt;/li&gt;&#xA;&lt;li&gt;Categoría de sustantivos: en alemán hay grupos de palabras que&#xA;coinciden en el mismo género. Por ejemplo, mayoritariamente los&#xA;árboles, frutas y flores son femeninos, las bebidas son masculinas y&#xA;las unidades científicas son neutras. Igual hay excepciones. Yo&#xA;estoy dejando esto para una segunda etapa.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Hay técnicas mnemotécnicas que no estoy muy convencido de usar:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Materiales para estudiar alemán</title>
+      <link>https://eldiegoefe.github.io/materiales-para-estudiar-alem%C3%A1n/</link>
+      <pubDate>Thu, 16 Feb 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/materiales-para-estudiar-alem%C3%A1n/</guid>
+      <description>&lt;p&gt;Hay múltiples modos de estudiar idiomas, y para hacerlo de modo&#xA;autodidacta contamos con un montón de material online. El problema es&#xA;elegir aquellos que nos resultan útiles y de buena calidad. Al final&#xA;de este post hay una lista de los sitios que más uso (o los que más&#xA;quiero usar) para recomendarlos y también para no olvidarme cuando&#xA;pasan algunos meses alejado del idioma (porque mi dedicación es &amp;ldquo;a&#xA;saltos&amp;rdquo;). Como todo, lo que no usamos cotidianamente con facilidad cae&#xA;en el olvido. ¿O acaso se acuerdan de la demostración del Teorema de&#xA;Green? Yo lo estudié hace como 25 años y no recuerdo ni lo que trataba&#xA;de postular.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assimil. El alemán sin esfuerzo</title>
+      <link>https://eldiegoefe.github.io/assimil.-el-alem%C3%A1n-sin-esfuerzo/</link>
+      <pubDate>Wed, 03 Feb 2021 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/assimil.-el-alem%C3%A1n-sin-esfuerzo/</guid>
+      <description>&lt;p&gt;Un mismo texto puede permitir varias lecturas y puede estudiarse de múltiples&#xA;maneras. Así conviene usar, literalmente, el libro para aprender idiomas de la&#xA;editorial Assimil. El primer absurdo a derrocar es la impresión de que estudiar&#xA;significa leer una vez. Así nunca nadie aprendió nada. Empecemos por ver cuáles&#xA;son las instrucciones que el mismo libro trae para su uso.&lt;/p&gt;&#xA;&lt;p&gt;Primero indica algo comprobadamente cierto: &lt;strong&gt;es mejor estudiar poco&#xA;todos los días que concentrar horas de estudio en días salteados&lt;/strong&gt;; y&#xA;también recomienda no forzarnos, evitar considerar esta actividad como&#xA;un trabajo y no obligarse a estudiar si estamos mentalmente cansados.&#xA;Sugiere estudiar con la misma atención que emplearíamos para aprender&#xA;las reglas de un juego nuevo, y me parece que la noción de juego metida&#xA;en el medio es ideal, porque para aprender (idiomas, etc) lo más&#xA;indispensable es el entusiasmo y el deseo que suelen despertar los&#xA;juegos. No hay que estudiar ni memorizar aspectos gramaticales, ni&#xA;comprender todas las oraciones palabra por palabra, porque todo esto se&#xA;irá incorporando con el abordaje repetido del material. Por cierto, los&#xA;textos incluyen cortas historias (que a veces se despliegan en lecciones&#xA;subsiguientes), hay espacio para refranes y dichos populares, y en&#xA;general todo tiene rasgos humorísticos, con un distinguible porcentaje&#xA;de machismo. La viñeta ilustra el tipo de humor: &amp;quot;¿Le puedo ofrecer mi&#xA;lugar?&amp;quot;.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

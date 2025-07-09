@@ -1,90 +1,49 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Relatos - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/relatos/</link>
-        <description>Relatos - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Mon, 19 May 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/relatos/" rel="self" type="application/rss+xml" /><item>
-    <title>Fitness, freeletics, calistenia y afines</title>
-    <link>https://eldiegoefe.github.io/fitness-freeletics-calistenia-y-afines/</link>
-    <pubDate>Mon, 19 May 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/fitness-freeletics-calistenia-y-afines/</guid>
-    <description><![CDATA[<p>Nuevamente otro descubrimiento: tras años de ser un alfeñique pulsateclas he
-encontrado una (o varias) disciplinas para fortalecer mi cuerpo sin ir al
-gimnasio (actividad y ambiente que me resultan poco atractivos). Lástima que ya
-pasaron cerca de dos semanas de este contacto inicial y no logro reconstruir
-cómo fue que inicié mi jornada hacia la gimnasia callejera.</p>
-<p>Hacer barras (levantar el cuerpo sostenido desde un caño a cierta altura, hasta
-lograr sobrepasar con la barbilla ese punto de apoyo que simultaneamente resulta
-inalcanzable) fue una pesadilla de mi primer año en la escuela secundaria. El
-profesor Alfonsini, en las clases de Educación Física en el parque Berduc,
-torturaba nuestras siestas, dos veces a la semana, con un circuito de ejercicios
-que ponía a prueba nuestra fuerza, aguante y capacidad de retención del almuerzo
-que habíamos terminado de ingerir media hora antes de empezar la clase. La
-secuencia creo que incluía tres barras y una &quot;vuelta pajarito&quot;. Para ejecutar
-la vuelta había que llevar el mentón a la barra y desde esa posición tirar la
-cabeza atrás y las piernas hacia delante, y con ese impulso realizar una
-rotación completa con el cuerpo alrededor de la barra. Era tal la falta de
-fuerza que tuvimos que empezar el gimnasio con el <em>Aguja</em> Rubín para lograr
-tales hazañas. Por supuesto que nunca más volví a hacer este tipo de ejercicios
-cuando, culminado primer año, cambiamos de profesor.</p>]]></description>
-</item>
-<item>
-    <title>Grupos de afinidad</title>
-    <link>https://eldiegoefe.github.io/grupos-de-afinidad/</link>
-    <pubDate>Wed, 30 Apr 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/grupos-de-afinidad/</guid>
-    <description><![CDATA[<p><strong>Esta es una traducción que hice desde <a href="http://anarchistfaq.org/afaq/index.html" target="_blank" rel="noopener noreffer">An Anarchist
-FAQ</a>, y colgué como contribución al
-sitio anarquista en español <a href="https://www.alasbarricadas.org/ateneovirtual/index.php/J.3.1_%C2%BFQu%C3%A9_son_los_grupos_de_afinidad%3F" target="_blank" rel="noopener noreffer">A las
-barricadas</a></strong>.</p>
-<p>Los grupos de afinidad son las organizaciones básicas que crean los anarquistas
-para difundir la idea anarquista. El término <strong>grupo de afinidad</strong> (<strong>affinity
-group</strong>) viene de la F.A.I. española (Federación Anarquista Ibérica) y se
-refiere a su forma de organización ideada durante sus luchas por la libertad. En
-su forma más básica, es un grupo (usualmente pequeño) de anarquistas que
-trabajan conjuntamente para difundir sus ideas al público general, utilizando la
-propaganda, iniciando o trabajando en campañas y difundiendo sus ideas
-<strong>dentro</strong> de organizaciones populares (tales como los sindicatos) y
-comunidades. Su objetivo no es convertirse en “lider” sino tomar la iniciativa,
-actuar como un catalizador dentro de los movimientos populares. No es de
-sorprender que refleje ideas anarquistas básicas:</p>]]></description>
-</item>
-<item>
-    <title>Aprender a lo Hansel y Gretel</title>
-    <link>https://eldiegoefe.github.io/aprender-a-lo-hansel-y-gretel/</link>
-    <pubDate>Sun, 09 Feb 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/aprender-a-lo-hansel-y-gretel/</guid>
-    <description><![CDATA[<p>Aprender programación mediante un libro, sobre todo si uno le cree a la
-contra-tapa, requiere seguir capítulo a capítulo, sección a sección, todas las
-instrucciones. Es como que nos programamos para programar. Pero al copiar los
-ejemplos, incluso chequeando que no haya errores de tipeo, suelen aparecer
-problemas. Los resultados no son los esperados, aparecen errores, excepciones,
-relámpagos y huracanes.</p>
-<p>Mientras sigo con las lecturas sobre IPython nos dicen que importemos el paquete
-NetworkX. Sin embargo, es desconocido para mi sistema. Busco ayuda y llego a la
-pagina de NetworkX donde están <a href="http://networkx.github.io/documentation/latest/install.html" target="_blank" rel="noopener noreffer">las instrucciones de
-instalación</a>. Dice
-que se instala fácilmente con <strong>pip install networkx</strong> pero resulta que pip
-tampoco es un comando conocido. A buscar pip. Recién ahí se completa el
-rompecabezas. Se instala en Fedora con un <strong>sudo yum install python-pip</strong> y
-luego a recorrer el caminito de mendrugos de pan, rogando reencontrarnos con la
-posibilidad de seguir linealmente la secuencia de instrucciones del libro, que
-no me engaña, ha sido escrito por la bruja de Hansel y Gretel.</p>]]></description>
-</item>
-<item>
-    <title>Exceso de opciones</title>
-    <link>https://eldiegoefe.github.io/exceso-de-opciones/</link>
-    <pubDate>Fri, 07 Feb 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/exceso-de-opciones/</guid>
-    <description><![CDATA[<p>Un problema con el desarrollo de tecnologías es la dificultad para
-elegir e iniciar el camino. Hay tantas opciones de software y hardware
-que se vuelve difícil, así como es una tarea extremadamente compleja
-elegir un par de zapatillas, porque no hay 5 o 6 modelos como cuando uno
-era chico, sino que hay 500, y encima van cambiando (ni siquiera es
-posible conseguir las mismas zapatillas compradas hace un par de años).</p>]]></description>
-</item>
-<item>
-    <title>Enlaces sobre música</title>
-    <link>https://eldiegoefe.github.io/enlaces-sobre-m%C3%BAsica/</link>
-    <pubDate>Sat, 02 Jan 2010 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/enlaces-sobre-m%C3%BAsica/</guid>
-    <description><![CDATA[enlaces sobre musica]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Relatos on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/relatos/</link>
+    <description>Recent content in Relatos on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Mon, 26 Jul 2021 01:30:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/relatos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fitness, freeletics, calistenia y afines</title>
+      <link>https://eldiegoefe.github.io/fitness-freeletics-calistenia-y-afines/</link>
+      <pubDate>Mon, 19 May 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/fitness-freeletics-calistenia-y-afines/</guid>
+      <description>&lt;p&gt;Nuevamente otro descubrimiento: tras años de ser un alfeñique pulsateclas he&#xA;encontrado una (o varias) disciplinas para fortalecer mi cuerpo sin ir al&#xA;gimnasio (actividad y ambiente que me resultan poco atractivos). Lástima que ya&#xA;pasaron cerca de dos semanas de este contacto inicial y no logro reconstruir&#xA;cómo fue que inicié mi jornada hacia la gimnasia callejera.&lt;/p&gt;&#xA;&lt;p&gt;Hacer barras (levantar el cuerpo sostenido desde un caño a cierta altura, hasta&#xA;lograr sobrepasar con la barbilla ese punto de apoyo que simultaneamente resulta&#xA;inalcanzable) fue una pesadilla de mi primer año en la escuela secundaria. El&#xA;profesor Alfonsini, en las clases de Educación Física en el parque Berduc,&#xA;torturaba nuestras siestas, dos veces a la semana, con un circuito de ejercicios&#xA;que ponía a prueba nuestra fuerza, aguante y capacidad de retención del almuerzo&#xA;que habíamos terminado de ingerir media hora antes de empezar la clase. La&#xA;secuencia creo que incluía tres barras y una &amp;quot;vuelta pajarito&amp;quot;. Para ejecutar&#xA;la vuelta había que llevar el mentón a la barra y desde esa posición tirar la&#xA;cabeza atrás y las piernas hacia delante, y con ese impulso realizar una&#xA;rotación completa con el cuerpo alrededor de la barra. Era tal la falta de&#xA;fuerza que tuvimos que empezar el gimnasio con el &lt;em&gt;Aguja&lt;/em&gt; Rubín para lograr&#xA;tales hazañas. Por supuesto que nunca más volví a hacer este tipo de ejercicios&#xA;cuando, culminado primer año, cambiamos de profesor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grupos de afinidad</title>
+      <link>https://eldiegoefe.github.io/grupos-de-afinidad/</link>
+      <pubDate>Wed, 30 Apr 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/grupos-de-afinidad/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Esta es una traducción que hice desde &lt;a href=&#34;http://anarchistfaq.org/afaq/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;An Anarchist&#xA;FAQ&lt;/a&gt;, y colgué como contribución al&#xA;sitio anarquista en español &lt;a href=&#34;https://www.alasbarricadas.org/ateneovirtual/index.php/J.3.1_%C2%BFQu%C3%A9_son_los_grupos_de_afinidad%3F&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;A las&#xA;barricadas&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Los grupos de afinidad son las organizaciones básicas que crean los anarquistas&#xA;para difundir la idea anarquista. El término &lt;strong&gt;grupo de afinidad&lt;/strong&gt; (&lt;strong&gt;affinity&#xA;group&lt;/strong&gt;) viene de la F.A.I. española (Federación Anarquista Ibérica) y se&#xA;refiere a su forma de organización ideada durante sus luchas por la libertad. En&#xA;su forma más básica, es un grupo (usualmente pequeño) de anarquistas que&#xA;trabajan conjuntamente para difundir sus ideas al público general, utilizando la&#xA;propaganda, iniciando o trabajando en campañas y difundiendo sus ideas&#xA;&lt;strong&gt;dentro&lt;/strong&gt; de organizaciones populares (tales como los sindicatos) y&#xA;comunidades. Su objetivo no es convertirse en “lider” sino tomar la iniciativa,&#xA;actuar como un catalizador dentro de los movimientos populares. No es de&#xA;sorprender que refleje ideas anarquistas básicas:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aprender a lo Hansel y Gretel</title>
+      <link>https://eldiegoefe.github.io/aprender-a-lo-hansel-y-gretel/</link>
+      <pubDate>Sun, 09 Feb 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/aprender-a-lo-hansel-y-gretel/</guid>
+      <description>&lt;p&gt;Aprender programación mediante un libro, sobre todo si uno le cree a la&#xA;contra-tapa, requiere seguir capítulo a capítulo, sección a sección, todas las&#xA;instrucciones. Es como que nos programamos para programar. Pero al copiar los&#xA;ejemplos, incluso chequeando que no haya errores de tipeo, suelen aparecer&#xA;problemas. Los resultados no son los esperados, aparecen errores, excepciones,&#xA;relámpagos y huracanes.&lt;/p&gt;&#xA;&lt;p&gt;Mientras sigo con las lecturas sobre IPython nos dicen que importemos el paquete&#xA;NetworkX. Sin embargo, es desconocido para mi sistema. Busco ayuda y llego a la&#xA;pagina de NetworkX donde están &lt;a href=&#34;http://networkx.github.io/documentation/latest/install.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;las instrucciones de&#xA;instalación&lt;/a&gt;. Dice&#xA;que se instala fácilmente con &lt;strong&gt;pip install networkx&lt;/strong&gt; pero resulta que pip&#xA;tampoco es un comando conocido. A buscar pip. Recién ahí se completa el&#xA;rompecabezas. Se instala en Fedora con un &lt;strong&gt;sudo yum install python-pip&lt;/strong&gt; y&#xA;luego a recorrer el caminito de mendrugos de pan, rogando reencontrarnos con la&#xA;posibilidad de seguir linealmente la secuencia de instrucciones del libro, que&#xA;no me engaña, ha sido escrito por la bruja de Hansel y Gretel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exceso de opciones</title>
+      <link>https://eldiegoefe.github.io/exceso-de-opciones/</link>
+      <pubDate>Fri, 07 Feb 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/exceso-de-opciones/</guid>
+      <description>&lt;p&gt;Un problema con el desarrollo de tecnologías es la dificultad para&#xA;elegir e iniciar el camino. Hay tantas opciones de software y hardware&#xA;que se vuelve difícil, así como es una tarea extremadamente compleja&#xA;elegir un par de zapatillas, porque no hay 5 o 6 modelos como cuando uno&#xA;era chico, sino que hay 500, y encima van cambiando (ni siquiera es&#xA;posible conseguir las mismas zapatillas compradas hace un par de años).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enlaces sobre música</title>
+      <link>https://eldiegoefe.github.io/enlaces-sobre-m%C3%BAsica/</link>
+      <pubDate>Sat, 02 Jan 2010 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/enlaces-sobre-m%C3%BAsica/</guid>
+      <description>enlaces sobre musica</description>
+    </item>
+  </channel>
 </rss>

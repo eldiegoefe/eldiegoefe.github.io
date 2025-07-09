@@ -1,54 +1,35 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Pelican - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/pelican/</link>
-        <description>Pelican - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 20 May 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/pelican/" rel="self" type="application/rss+xml" /><item>
-    <title>Actualización de las instrucciones para armar un blog con Pelican y GitHub</title>
-    <link>https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</link>
-    <pubDate>Wed, 20 May 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</guid>
-    <description><![CDATA[<p>El sitio oficial de Pelican, con sus intrucciones de instalación y uso <a href="http://pelican.readthedocs.org/" target="_blank" rel="noopener noreffer">es
-este</a>. Originalmente, este post estuvo basado
-en <a href="http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/" target="_blank" rel="noopener noreffer">las instrucciones de Nicholas Tan
-Jerome</a>.
-El post original pueden verlo en este enlace <a href="https://eldiegoefe.github.io/blog-con-pelican-y-github/" rel="">pueden verlo en este enlace</a></p>
-<p>Por un lado vamos a configurar un entorno virtual de Python donde vamos a
-instalar Pelican, y por otro lado vamos a utilizar un directorio subdividido en
-un subdirectorio para nuestro blog y dos subdirectorios más para herramientas de
-Pelican (themes y plugins de Pelican). Supongo que GIT ya está instalado en el
-sistema.</p>]]></description>
-</item>
-<item>
-    <title>Más sobre blogs con Pelican</title>
-    <link>https://eldiegoefe.github.io/m%C3%A1s-sobre-blogs-con-pelican/</link>
-    <pubDate>Fri, 10 Apr 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/m%C3%A1s-sobre-blogs-con-pelican/</guid>
-    <description><![CDATA[<p>Hace algún tiempo escribí sobre el modo de <a href="%7Cfilename%7C/2014-04-22-setear-blog-con-pelican-y-github.rst" rel="">poner en marcha un blog usando
-Pelican</a>. Con un
-poco más de experiencia vuelvo a comentar algunas variaciones, como para más
-adelante condensar los pasos en un artículo corregido y aumentado (o disminuido,
-dado que la idea es simplificar).</p>
-<p>Usar entornos virtuales de Python es muy sencillo, tanto que me
-acostumbré (y hasta disfruto) de realizar instalaciones de diversos
-programas usándolos. Entre ellos, Pelican. La ventaja es que queda un
-entorno encapsulado que no se modifica con las actualizaciones del
-sistema. Se puede tener, por ejemplo, un entorno con Python 3 mientras
-en el sistema está instalada la versión 2.</p>]]></description>
-</item>
-<item>
-    <title>Blog con Pelican y GitHub</title>
-    <link>https://eldiegoefe.github.io/blog-con-pelican-y-github/</link>
-    <pubDate>Tue, 22 Apr 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/blog-con-pelican-y-github/</guid>
-    <description><![CDATA[<h1 id="actualización">Actualización</h1>
-<p>Pueden ver una actualización de estas instrucciones en <a href="https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/" rel="">este nuevo post</a></p>
-<h2 id="instrucciones">Instrucciones</h2>
-<p>El sitio con las intrucciones sobre Pelican <a href="http://pelican.readthedocs.org/en/3.3.0" target="_blank" rel="noopener noreffer">es
-este</a>. Casi todo el contenido siguiente
-está basado en las instrucciones de <a href="http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/" target="_blank" rel="noopener noreffer">Nicholas Tan
-Jerome</a>.
-Para instalar Pelican se puede usar &quot;pip&quot;, más adelante hay más detalles, pero
-como referencia veloz basta decir que se puede hacer sencillamente (en la rama
-&quot;source&quot; y desde el ENV que se creará más adelante):</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pelican on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/pelican/</link>
+    <description>Recent content in Pelican on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Wed, 20 May 2015 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/pelican/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Actualización de las instrucciones para armar un blog con Pelican y GitHub</title>
+      <link>https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</link>
+      <pubDate>Wed, 20 May 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</guid>
+      <description>&lt;p&gt;El sitio oficial de Pelican, con sus intrucciones de instalación y uso &lt;a href=&#34;http://pelican.readthedocs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;es&#xA;este&lt;/a&gt;. Originalmente, este post estuvo basado&#xA;en &lt;a href=&#34;http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;las instrucciones de Nicholas Tan&#xA;Jerome&lt;/a&gt;.&#xA;El post original pueden verlo en este enlace &lt;a href=&#34;https://eldiegoefe.github.io/blog-con-pelican-y-github/&#34; rel=&#34;&#34;&gt;pueden verlo en este enlace&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Por un lado vamos a configurar un entorno virtual de Python donde vamos a&#xA;instalar Pelican, y por otro lado vamos a utilizar un directorio subdividido en&#xA;un subdirectorio para nuestro blog y dos subdirectorios más para herramientas de&#xA;Pelican (themes y plugins de Pelican). Supongo que GIT ya está instalado en el&#xA;sistema.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Más sobre blogs con Pelican</title>
+      <link>https://eldiegoefe.github.io/m%C3%A1s-sobre-blogs-con-pelican/</link>
+      <pubDate>Fri, 10 Apr 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/m%C3%A1s-sobre-blogs-con-pelican/</guid>
+      <description>&lt;p&gt;Hace algún tiempo escribí sobre el modo de &lt;a href=&#34;%7Cfilename%7C/2014-04-22-setear-blog-con-pelican-y-github.rst&#34; rel=&#34;&#34;&gt;poner en marcha un blog usando&#xA;Pelican&lt;/a&gt;. Con un&#xA;poco más de experiencia vuelvo a comentar algunas variaciones, como para más&#xA;adelante condensar los pasos en un artículo corregido y aumentado (o disminuido,&#xA;dado que la idea es simplificar).&lt;/p&gt;&#xA;&lt;p&gt;Usar entornos virtuales de Python es muy sencillo, tanto que me&#xA;acostumbré (y hasta disfruto) de realizar instalaciones de diversos&#xA;programas usándolos. Entre ellos, Pelican. La ventaja es que queda un&#xA;entorno encapsulado que no se modifica con las actualizaciones del&#xA;sistema. Se puede tener, por ejemplo, un entorno con Python 3 mientras&#xA;en el sistema está instalada la versión 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blog con Pelican y GitHub</title>
+      <link>https://eldiegoefe.github.io/blog-con-pelican-y-github/</link>
+      <pubDate>Tue, 22 Apr 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/blog-con-pelican-y-github/</guid>
+      <description>&lt;h1 id=&#34;actualización&#34;&gt;Actualización&lt;/h1&gt;&#xA;&lt;p&gt;Pueden ver una actualización de estas instrucciones en &lt;a href=&#34;https://eldiegoefe.github.io/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/&#34; rel=&#34;&#34;&gt;este nuevo post&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;instrucciones&#34;&gt;Instrucciones&lt;/h2&gt;&#xA;&lt;p&gt;El sitio con las intrucciones sobre Pelican &lt;a href=&#34;http://pelican.readthedocs.org/en/3.3.0&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;es&#xA;este&lt;/a&gt;. Casi todo el contenido siguiente&#xA;está basado en las instrucciones de &lt;a href=&#34;http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Nicholas Tan&#xA;Jerome&lt;/a&gt;.&#xA;Para instalar Pelican se puede usar &amp;quot;pip&amp;quot;, más adelante hay más detalles, pero&#xA;como referencia veloz basta decir que se puede hacer sencillamente (en la rama&#xA;&amp;quot;source&amp;quot; y desde el ENV que se creará más adelante):&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

@@ -1,48 +1,28 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Fedora - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/fedora/</link>
-        <description>Fedora - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 09 Feb 2014 11:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/fedora/" rel="self" type="application/rss+xml" /><item>
-    <title>Descubriendo Gnome</title>
-    <link>https://eldiegoefe.github.io/descubriendo-gnome/</link>
-    <pubDate>Sun, 09 Feb 2014 11:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/descubriendo-gnome/</guid>
-    <description><![CDATA[<p>Empecé a tomarle el gustito a Fedora y Gnome. Al principio (24 horas atrás) el
-mouse parecía haber alcanzado un inoportuno grado de independencia porque se
-tendía a ir a la esquina superior izquierda (la “hot corner”) y se habilitaba el
-menú de Actividades. Para solucionarlo encontré <a href="https://extensions.gnome.org" target="_blank" rel="noopener noreffer">un
-sitio</a> desde el cual se instalan las extensiones
-de GNOME, que es un gran descubrimiento en sí mismo.</p>
-<p>Primero lo primero: instale 'No Topleft Hot Corner'. Me resulto
-llamativo que la instalación se realiza moviendo un switch que aparece
-junto al nombre de la extensión desde la propia página web (y que tiene
-también el texto ON u OFF de acuerdo a si ya esta instalado o no). Un
-detalle es que me anduvo bien desde Firefox, pero no desde Chrome (me
-doy bronca, porque todavía no instalé Opera, y es mi navegador de
-cabecera).</p>]]></description>
-</item>
-<item>
-    <title>Dónde están los programas en Linux</title>
-    <link>https://eldiegoefe.github.io/d%C3%B3nde-est%C3%A1n-los-programas-en-linux/</link>
-    <pubDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/d%C3%B3nde-est%C3%A1n-los-programas-en-linux/</guid>
-    <description><![CDATA[<p>Los directorios típicos son los siguientes, aunque hay variaciones en las
-distintas distribuciones de linux:</p>
-<ul>
-<li>[/bin] ejecutables (Essential commands that everyone needs to use at any time)</li>
-<li>[/usr] A complex hierarchy of additional programs and files.</li>
-<li>[/usr/bin] normal user executables. The commands that aren&rsquo;t essential for
-users but are useful</li>
-<li>[/sbin] (superuser core executables) The commands the system Administrator
-needs access to.</li>
-<li>[/usr/sbin] (superuser executables). The commands that aren&rsquo;t essential for
-Administrators but are useful.</li>
-<li>Library files: (semi-equivalent to windows dll's) [/lib], [/usr/lib], etc.</li>
-<li>Configuration files: [/etc/]</li>
-<li>[/run/media] es en donde se montan las unidades portátiles, como el rígido
-externo y el pendrive</li>
-</ul>
-<p>También se le puede preguntar al sistema dónde está instalado un paquete:</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fedora on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/fedora/</link>
+    <description>Recent content in Fedora on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sun, 09 Feb 2014 11:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Descubriendo Gnome</title>
+      <link>https://eldiegoefe.github.io/descubriendo-gnome/</link>
+      <pubDate>Sun, 09 Feb 2014 11:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/descubriendo-gnome/</guid>
+      <description>&lt;p&gt;Empecé a tomarle el gustito a Fedora y Gnome. Al principio (24 horas atrás) el&#xA;mouse parecía haber alcanzado un inoportuno grado de independencia porque se&#xA;tendía a ir a la esquina superior izquierda (la “hot corner”) y se habilitaba el&#xA;menú de Actividades. Para solucionarlo encontré &lt;a href=&#34;https://extensions.gnome.org&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;un&#xA;sitio&lt;/a&gt; desde el cual se instalan las extensiones&#xA;de GNOME, que es un gran descubrimiento en sí mismo.&lt;/p&gt;&#xA;&lt;p&gt;Primero lo primero: instale &#39;No Topleft Hot Corner&#39;. Me resulto&#xA;llamativo que la instalación se realiza moviendo un switch que aparece&#xA;junto al nombre de la extensión desde la propia página web (y que tiene&#xA;también el texto ON u OFF de acuerdo a si ya esta instalado o no). Un&#xA;detalle es que me anduvo bien desde Firefox, pero no desde Chrome (me&#xA;doy bronca, porque todavía no instalé Opera, y es mi navegador de&#xA;cabecera).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dónde están los programas en Linux</title>
+      <link>https://eldiegoefe.github.io/d%C3%B3nde-est%C3%A1n-los-programas-en-linux/</link>
+      <pubDate>Sun, 09 Feb 2014 10:30:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/d%C3%B3nde-est%C3%A1n-los-programas-en-linux/</guid>
+      <description>&lt;p&gt;Los directorios típicos son los siguientes, aunque hay variaciones en las&#xA;distintas distribuciones de linux:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;[/bin] ejecutables (Essential commands that everyone needs to use at any time)&lt;/li&gt;&#xA;&lt;li&gt;[/usr] A complex hierarchy of additional programs and files.&lt;/li&gt;&#xA;&lt;li&gt;[/usr/bin] normal user executables. The commands that aren&amp;rsquo;t essential for&#xA;users but are useful&lt;/li&gt;&#xA;&lt;li&gt;[/sbin] (superuser core executables) The commands the system Administrator&#xA;needs access to.&lt;/li&gt;&#xA;&lt;li&gt;[/usr/sbin] (superuser executables). The commands that aren&amp;rsquo;t essential for&#xA;Administrators but are useful.&lt;/li&gt;&#xA;&lt;li&gt;Library files: (semi-equivalent to windows dll&#39;s) [/lib], [/usr/lib], etc.&lt;/li&gt;&#xA;&lt;li&gt;Configuration files: [/etc/]&lt;/li&gt;&#xA;&lt;li&gt;[/run/media] es en donde se montan las unidades portátiles, como el rígido&#xA;externo y el pendrive&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;También se le puede preguntar al sistema dónde está instalado un paquete:&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

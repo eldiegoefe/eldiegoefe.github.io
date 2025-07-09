@@ -1,34 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Graficacion - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/graficacion/</link>
-        <description>Graficacion - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 03 Aug 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/graficacion/" rel="self" type="application/rss+xml" /><item>
-    <title>Apuntes sobre matplotlib</title>
-    <link>https://eldiegoefe.github.io/apuntes-sobre-matplotlib/</link>
-    <pubDate>Sun, 03 Aug 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/apuntes-sobre-matplotlib/</guid>
-    <description><![CDATA[<p>Estos son algunos apuntes extraidos principalmente del <a href="http://matplotlib.org/users/artists.html" target="_blank" rel="noopener noreffer">tutorial de Artist</a>.</p>
-<h3 id="matplotlib">Matplotlib</h3>
-<p>Matplotlib is the whole package</p>
-<h3 id="pylab"><strong>pylab</strong></h3>
-<ul>
-<li>a module in matplotlib</li>
-<li>installed alongside matplotlib</li>
-<li>preferred for interactive calculations and plotting</li>
-</ul>
-<h3 id="matplotlibpyplot"><strong>matplotlib.pyplot</strong></h3>
-<ul>
-<li>a module in matplotlib provides the state machine interface to the
-underlying plotting library in matplotlib</li>
-<li>combines the pyplot functionality (for plotting) with numpy
-functionality in a single namespace</li>
-<li>figures and axes are implicitly and automatically created to achieve
-the desired plot</li>
-<li>preferred for scripting</li>
-</ul>
-<h2 id="artist">Artist</h2>
-<p>Artist has three layers:</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graficacion on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/graficacion/</link>
+    <description>Recent content in Graficacion on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sun, 03 Aug 2014 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/graficacion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apuntes sobre matplotlib</title>
+      <link>https://eldiegoefe.github.io/apuntes-sobre-matplotlib/</link>
+      <pubDate>Sun, 03 Aug 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/apuntes-sobre-matplotlib/</guid>
+      <description>&lt;p&gt;Estos son algunos apuntes extraidos principalmente del &lt;a href=&#34;http://matplotlib.org/users/artists.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;tutorial de Artist&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;matplotlib&#34;&gt;Matplotlib&lt;/h3&gt;&#xA;&lt;p&gt;Matplotlib is the whole package&lt;/p&gt;&#xA;&lt;h3 id=&#34;pylab&#34;&gt;&lt;strong&gt;pylab&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;a module in matplotlib&lt;/li&gt;&#xA;&lt;li&gt;installed alongside matplotlib&lt;/li&gt;&#xA;&lt;li&gt;preferred for interactive calculations and plotting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;matplotlibpyplot&#34;&gt;&lt;strong&gt;matplotlib.pyplot&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;a module in matplotlib provides the state machine interface to the&#xA;underlying plotting library in matplotlib&lt;/li&gt;&#xA;&lt;li&gt;combines the pyplot functionality (for plotting) with numpy&#xA;functionality in a single namespace&lt;/li&gt;&#xA;&lt;li&gt;figures and axes are implicitly and automatically created to achieve&#xA;the desired plot&lt;/li&gt;&#xA;&lt;li&gt;preferred for scripting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;artist&#34;&gt;Artist&lt;/h2&gt;&#xA;&lt;p&gt;Artist has three layers:&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

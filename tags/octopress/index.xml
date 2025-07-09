@@ -1,25 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Octopress - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/octopress/</link>
-        <description>Octopress - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/octopress/" rel="self" type="application/rss+xml" /><item>
-    <title>Instrucciones para armar un blog geek</title>
-    <link>https://eldiegoefe.github.io/instrucciones-para-armar-un-blog-geek/</link>
-    <pubDate>Sun, 09 Feb 2014 10:30:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/instrucciones-para-armar-un-blog-geek/</guid>
-    <description><![CDATA[<p>En mi caso, alcanzar un estado zen requiere atravesar travesías barrocas.
-Mientras miraba cosas de IPython llegué a <a href="http://jakevdp.github.io/" target="_blank" rel="noopener noreffer">Pythonic
-Perambulations</a>. Me gustó el contenido (muestra cómo
-armar ventanas de browsers con matplotlib interactivo), me gustó el diseño y me
-llamó la atención el dominio <strong>github.io</strong>.</p>
-<p>Blogs como el de <a href="http://jakevdp.github.io" target="_blank" rel="noopener noreffer">Jake Vanderplas</a> se arman
-con un motor llamado Jekyll.</p>
-<p>(*editado: Jake migró su sitio a Pelican, que está escrito en Python. Armé un
-post para explicar cómo instalarlo y usarlo en conjunción con las páginas
-personales de GitHub, ver <a href="https://eldiegoefe.github.io/blog-con-pelican-y-github/" title="Blog" rel="">Blog con Pelican y Github</a>. <strong>Por ende
-este post queda desactualizado, además de haber quedado incompleto o quizás con
-errores</strong>).</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Octopress on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/octopress/</link>
+    <description>Recent content in Octopress on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sun, 25 Jul 2021 17:40:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/octopress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instrucciones para armar un blog geek</title>
+      <link>https://eldiegoefe.github.io/instrucciones-para-armar-un-blog-geek/</link>
+      <pubDate>Sun, 09 Feb 2014 10:30:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/instrucciones-para-armar-un-blog-geek/</guid>
+      <description>&lt;p&gt;En mi caso, alcanzar un estado zen requiere atravesar travesías barrocas.&#xA;Mientras miraba cosas de IPython llegué a &lt;a href=&#34;http://jakevdp.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Pythonic&#xA;Perambulations&lt;/a&gt;. Me gustó el contenido (muestra cómo&#xA;armar ventanas de browsers con matplotlib interactivo), me gustó el diseño y me&#xA;llamó la atención el dominio &lt;strong&gt;github.io&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Blogs como el de &lt;a href=&#34;http://jakevdp.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Jake Vanderplas&lt;/a&gt; se arman&#xA;con un motor llamado Jekyll.&lt;/p&gt;&#xA;&lt;p&gt;(*editado: Jake migró su sitio a Pelican, que está escrito en Python. Armé un&#xA;post para explicar cómo instalarlo y usarlo en conjunción con las páginas&#xA;personales de GitHub, ver &lt;a href=&#34;https://eldiegoefe.github.io/blog-con-pelican-y-github/&#34; title=&#34;Blog&#34; rel=&#34;&#34;&gt;Blog con Pelican y Github&lt;/a&gt;. &lt;strong&gt;Por ende&#xA;este post queda desactualizado, además de haber quedado incompleto o quizás con&#xA;errores&lt;/strong&gt;).&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

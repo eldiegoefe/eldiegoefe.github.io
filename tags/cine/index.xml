@@ -1,25 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Cine - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/cine/</link>
-        <description>Cine - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Thu, 08 Jan 2015 23:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/cine/" rel="self" type="application/rss+xml" /><item>
-    <title>Una noche de enero con el Relámpago Verde</title>
-    <link>https://eldiegoefe.github.io/una-noche-de-enero-con-el-rel%C3%A1mpago-verde/</link>
-    <pubDate>Thu, 08 Jan 2015 23:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/una-noche-de-enero-con-el-rel%C3%A1mpago-verde/</guid>
-    <description><![CDATA[<h2 id="recuento-y-llegada">Recuento y llegada</h2>
-<p>Es la tercera vez que voy a ver una proyección del Relámpago Verde. La primera
-fue “Vanishing Point” (Punto de Fuga), un viaje de rarezas y alegorías que se
-puede ver sin profundidad pero que con sus personajes tan singulares y alguna
-mitad cerebral despierta puede provocar un aluvión de interpretaciones
-psicoactivas. La segunda fue &quot;Phantom of Paradise&quot; (El Fantasma del Paraíso),
-una muy rara biografía de un más extraño compositor del que se aprovecha un
-productor que pacta con el diablo, dirigida en los 70s por Brian DePalma. Hoy,
-en la terraza del Club Español, vi &quot;Summer of '42&quot; (Verano del 42), historia
-sencilla, también de los setentas, que narra la iniciación amorosa de un
-adolescente y que de haber sido filmada inexpertamente podría formar parte de
-sagas de dudoso buen gusto.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cine on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/cine/</link>
+    <description>Recent content in Cine on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Thu, 08 Jan 2015 23:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/cine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Una noche de enero con el Relámpago Verde</title>
+      <link>https://eldiegoefe.github.io/una-noche-de-enero-con-el-rel%C3%A1mpago-verde/</link>
+      <pubDate>Thu, 08 Jan 2015 23:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/una-noche-de-enero-con-el-rel%C3%A1mpago-verde/</guid>
+      <description>&lt;h2 id=&#34;recuento-y-llegada&#34;&gt;Recuento y llegada&lt;/h2&gt;&#xA;&lt;p&gt;Es la tercera vez que voy a ver una proyección del Relámpago Verde. La primera&#xA;fue “Vanishing Point” (Punto de Fuga), un viaje de rarezas y alegorías que se&#xA;puede ver sin profundidad pero que con sus personajes tan singulares y alguna&#xA;mitad cerebral despierta puede provocar un aluvión de interpretaciones&#xA;psicoactivas. La segunda fue &amp;quot;Phantom of Paradise&amp;quot; (El Fantasma del Paraíso),&#xA;una muy rara biografía de un más extraño compositor del que se aprovecha un&#xA;productor que pacta con el diablo, dirigida en los 70s por Brian DePalma. Hoy,&#xA;en la terraza del Club Español, vi &amp;quot;Summer of &#39;42&amp;quot; (Verano del 42), historia&#xA;sencilla, también de los setentas, que narra la iniciación amorosa de un&#xA;adolescente y que de haber sido filmada inexpertamente podría formar parte de&#xA;sagas de dudoso buen gusto.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

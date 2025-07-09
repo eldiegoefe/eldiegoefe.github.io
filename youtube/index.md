@@ -1,97 +1,85 @@
 # YouTube
 
 
-Esta es una lista de enlaces a canales de Youtube sobre distintas disciplinas e
-intereses que me gustan, ordenados por categorías.
+Esta es una lista de enlaces a canales de Youtube sobre distintas
+disciplinas e intereses que me gustan, ordenados por categorías.
 
 ## Carpintería
 
-### Los más vistos (por mi)
+Agregar:
 
--   [April Wilkerson](https://www.youtube.com/user/AprilWilkersonDIY) /
-    [wilkerdos.com](https://wilkerdos.com)
--   [Izzy Swan](https://www.youtube.com/user/rusticman1973) / [Izzy
-    Web](https://www.izzyswan.com)
+NCurtis
+Nick Engler - Workshop Companion
+Lincoln St. Woodworks
+Scott Walsh
+
+### Principales
+
+-   [April Wilkerson](https://www.youtube.com/user/AprilWilkersonDIY)
+	- [wilkerdos.com](https://wilkerdos.com) 
+
+-   [Izzy Swan](https://www.youtube.com/user/rusticman1973) 
+	- [Izzy Web](https://www.izzyswan.com)
+
 -   [Jack Houweling](https://www.youtube.com/user/Jacka440)
--   [Jay Bates](https://www.youtube.com/user/Jayscustomcreations), [Vlog
-    and Non Project Videos](https://www.youtube.com/user/JCCshorts) /
-    [Jay\'s Custom Creations](https://jayscustomcreations.com)
--   [John Heisz](https://www.youtube.com/user/jpheisz) (canal principal)
-    / [I build
-    it](https://www.youtube.com/channel/UCzGbp-rRVNwyFhn9gHoZr5g) (más
-    amplio en temas, videos más detallistas) / [I build it Home
-    Improvement](https://www.youtube.com/user/IBuildItHome) / [I build
-    it scrap
-    bin](https://www.youtube.com/channel/UCaJsEh2_YxWHMcjASs4cJcA) /
-    [ibuildit.ca](https://ibuildit.ca)
--   [Matthias Wandel](https://www.youtube.com/user/Matthiaswandel) /
-    [woodgears.ca](http://woodgears.ca)
+
+-   [Jay Bates](https://www.youtube.com/user/Jayscustomcreations)
+	- [Vlog and Non Project	Videos](https://www.youtube.com/user/JCCshorts)
+	- [Jay\'s Custom Creations](https://jayscustomcreations.com)
+	
+-   [John Heisz](https://www.youtube.com/user/jpheisz)
+	- [I build
+	it](https://www.youtube.com/channel/UCzGbp-rRVNwyFhn9gHoZr5g)
+	- [I build it Home
+	Improvement](https://www.youtube.com/user/IBuildItHome)
+	- [I build it scrap
+	bin](https://www.youtube.com/channel/UCaJsEh2_YxWHMcjASs4cJcA)
+	- [ibuildit.ca](https://ibuildit.ca)
+
+-   [Matthias Wandel](https://www.youtube.com/user/Matthiaswandel)
+	- [woodgears.ca](http://woodgears.ca)
+
 -   [Ron Paulk](https://www.youtube.com/user/crpaulk)
--   [Stumpy Nubs](https://www.youtube.com/user/StumpyNubsWorkshop) /
-    [stumpynubs.com](http://www.stumpynubs.com)
--   [Steve Ramsey](https://www.youtube.com/user/stevinmarin) / [Home &
-    Garden](https://www.youtube.com/user/steveinmarin/videos) /
-    [vlog](https://www.youtube.com/user/steveinmarin/videos)
+
+-   [Stumpy Nubs](https://www.youtube.com/user/StumpyNubsWorkshop)
+	- [stumpynubs.com](http://www.stumpynubs.com)
+
+-   [Steve Ramsey](https://www.youtube.com/user/stevinmarin)
+	- [Home & Garden](https://www.youtube.com/user/steveinmarin/videos)
+	- [vlog](https://www.youtube.com/user/steveinmarin/videos)
 
 ### Híbridos (herramientas eléctricas + manuales)
 
--   [Fine Woodworking](https://www.youtube.com/user/FineWoodworking) (de
-    la revista homónima: podcasts, proyectos, shop tours, etc)
--   [Monkwerks](https://www.youtube.com/user/monk1998)
--   [The Samurai
-    Carpenter](https://www.youtube.com/channel/UC06fO6LNH_AUgjbmqaZRV5Q)
--   [The Wood Whisperer](https://www.youtube.com/user/TheWoodWhisperer)
+- [Fine Woodworking](https://www.youtube.com/user/FineWoodworking) (de la revista homónima: podcasts, proyectos, shop tours, etc)
+- [The Samurai Carpenter](https://www.youtube.com/channel/UC06fO6LNH_AUgjbmqaZRV5Q)
+- [The Wood Whisperer](https://www.youtube.com/user/TheWoodWhisperer)
 
 ### Handtools
 
--   [Adrian
-    Preda](https://www.youtube.com/channel/UC0HkNaD01K5VNzE87eMAEvw)
--   [Paul
-    Sellers](https://www.youtube.com/ceste%20me%20parece%20que%20es%20la%20postahannel/UCc3EpWncNq5QL0QhwUNQb7w)
+-   [Adrian Preda](https://www.youtube.com/channel/UC0HkNaD01K5VNzE87eMAEvw)
+-   [Paul Sellers](https://www.youtube.com/channel/UCc3EpWncNq5QL0QhwUNQb7w)
 -   [Renaissance WW](https://www.youtube.com/user/RenaissanceWW)
 -   [Rob Cosman](https://www.youtube.com/user/robc45)
--   [The English
-    Woodworker](https://www.youtube.com/channel/UCK9d9JGoPgPGXX8oVxCxjcg)
--   [Tom
-    Fidgen](https://www.youtube.com/channel/UCaWR_UvszqJ0xIJYXcep3_w)
-    (The Unplugged Woodshop)
+-   [The English Woodworker](https://www.youtube.com/channel/UCK9d9JGoPgPGXX8oVxCxjcg)
+-   [Tom Fidgen](https://www.youtube.com/channel/UCaWR_UvszqJ0xIJYXcep3_w) (The Unplugged Woodshop)
 -   [Wood and Shop](https://www.youtube.com/user/WoodAndShop)
--   [Wood by
-    Wright](https://www.youtube.com/channel/UCbMtJOly6TpO5MQQnNwkCHg)
--   [Woodworking
-    Masterclass](https://www.youtube.com/user/woodmasterclass)
--   [wortheffort](https://www.youtube.com/user/wortheffort) /
-    [wortheffort.com](https://wortheffort.com)
+-   [Wood by Wright](https://www.youtube.com/channel/UCbMtJOly6TpO5MQQnNwkCHg)
+-   [Woodworking Masterclass](https://www.youtube.com/user/woodmasterclass)
+-   [wortheffort](https://www.youtube.com/user/wortheffort) / [wortheffort.com](https://wortheffort.com)
 
 ### Latinos
 
 -   [Andrés Barnett](https://www.youtube.com/user/Botobito) (Chile)
 -   [Angelatedo](https://www.youtube.com/user/angelatedo)
--   [Artesanía
-    Almería](https://www.youtube.com/channel/UCgM1kx9M--qHUGZcEWwjDpA)
-    (España)
--   [Carpintero del
-    Desierto](https://www.youtube.com/channel/UC23OMNvG6_5hiPBasJuElpw)
-    (Chile)
--   [Cinco a
-    ocho](https://www.youtube.com/channel/UCR2wMFkT8EV9g5y3vJhC0xA)
-    (Colombia)
--   [Customs
-    Handmade](https://www.youtube.com/channel/UC5r4Wd8x8oz6SzWD5fPvgdQ)
-    (Argentina)
+-   [Carpintero del Desierto](https://www.youtube.com/channel/UC23OMNvG6_5hiPBasJuElpw) (Chile)
+-   [Cinco a ocho](https://www.youtube.com/channel/UCR2wMFkT8EV9g5y3vJhC0xA) (Colombia)
+-   [Customs Handmade](https://www.youtube.com/channel/UC5r4Wd8x8oz6SzWD5fPvgdQ) (Argentina)
 -   [Despelothier](https://www.youtube.com/user/Despelothier) (España)
--   [Elías
-    Maximiliano](https://www.youtube.com/channel/UC6R69jZGtzO8uYtTjSHEa5A)
-    (Argentina)
--   [Enredando No
-    Garaxe](https://www.youtube.com/user/Enredandonogaraxe) (España)
+-   [Elías Maximiliano](https://www.youtube.com/channel/UC6R69jZGtzO8uYtTjSHEa5A) (Argentina)
+-   [Enredando No Garaxe](https://www.youtube.com/user/Enredandonogaraxe) (España)
 -   [Luis Lovon](https://www.youtube.com/user/luislovon) (Perú)
--   [Proyecto
-    Mueble](https://www.youtube.com/channel/UC20qHzhbXQ3yxD2C1oc83Ew)
-    (Argentina)
--   [Moré
-    Hace](https://www.youtube.com/channel/UCApqGP5v_xpIuRpjryz2JTA)
-    (Argentina)
+-   [Proyecto Mueble](https://www.youtube.com/channel/UC20qHzhbXQ3yxD2C1oc83Ew) (Argentina)
+-   [Moré Hace](https://www.youtube.com/channel/UCApqGP5v_xpIuRpjryz2JTA) (Argentina)
 
 ### Más
 
@@ -162,8 +150,6 @@ intereses que me gustan, ordenados por categorías.
 
 ### Para conocer
 
--   [Bert de
-    Weert](https://www.youtube.com/channel/UCn9w4wb-MYSqbWEjenIC1FQ/videos)
 -   [Chris
     Salomone](https://www.youtube.com/channel/UC1V-DYqsaj764uBis9-UDug/videos)
 -   [Click
@@ -245,19 +231,6 @@ intereses que me gustan, ordenados por categorías.
 -   [Torbjörn Åhman](https://www.youtube.com/user/torbjornahman/videos)
 -   [Walter Sorrels](https://www.youtube.com/user/slappybuckshot/videos)
     (fabricación de cuchillos, formones, espadas)
-
-### Inactivos (desde 2015 o antes)
-
--   [Beachside Hank](https://www.youtube.com/user/BeachsideHank)
--   [Mr Carters Account](https://www.youtube.com/user/MrCartersAccount)
-    (tornillos de madera, prensas)
-
-### Borrados
-
--   [I am
-    Stankoff](https://www.youtube.com/channel/UC7oREAvodLajK1bOCcwudjA)
--   [Woodworking
-    Plus](https://www.youtube.com/channel/UC9ahr_ahIl8vDgCD7x3TYcA)
 
 ## Cerámica
 
@@ -566,7 +539,6 @@ intereses que me gustan, ordenados por categorías.
 
 ## Otros
 
--   [Digital Pimple](https://www.youtube.com/user/digitalPimple)
 -   [Dimensión Vegana](https://www.youtube.com/user/DimensionVegana)
 -   [Eli the computer
     guy](https://www.youtube.com/user/elithecomputerguy)

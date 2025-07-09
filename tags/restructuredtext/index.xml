@@ -1,54 +1,35 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Restructuredtext - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/restructuredtext/</link>
-        <description>Restructuredtext - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/restructuredtext/" rel="self" type="application/rss+xml" /><item>
-    <title>Pandoc, conversión de org-mode a restructuredtext</title>
-    <link>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
-    <pubDate>Sat, 08 Nov 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
-    <description><![CDATA[<p>Pandoc es un software para hacer conversión de archivos de texto entre distintos
-lenguajes de markup. Me viene bien probarlo porque me gustaría escribir mis
-entradas del blog desde org-mode (que uso con mucha frecuencia) y obtener el
-mismo texto en versión restructuredText, que es el formato en el que escribo el
-blog (con Pelican).</p>
-<p>La instalación de Pandoc requirió un pequeño ajuste respecto de lo habitual en
-Manjaro, ya que el programa no estaba disponible desde los repositorios que
-vienen por defecto. Tuve que hacer los ajustes que se describen en <a href="https://wiki.archlinux.org/index.php/ArchHaskell" target="_blank" rel="noopener noreffer">la wiki de
-Arch</a>. Estos fueron los 5
-pasos:</p>]]></description>
-</item>
-<item>
-    <title>Emacs y restructuredText</title>
-    <link>https://eldiegoefe.github.io/emacs-y-restructuredtext/</link>
-    <pubDate>Tue, 07 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/emacs-y-restructuredtext/</guid>
-    <description><![CDATA[<p>Estuve escribiendo algunas entradas para el blog y encontré algunas cosas que
-vale la pena recordar, que quedan anotadas aca.</p>
-<p>El modo abbrev tendría que desactivarlo globalmente porque cada vez que escribo
-la palabra &quot;<em>con</em>&quot; (en modo restructuredText) y hago un espacio me lo expande
-a un texto que no deseo (content...). Se desactiva con <em>M-x abbrev-mode</em>. Mejor
-aún, encontré cómo editar la lista de abreviaturas. Es así: <em>M-x list-abbrevs</em> y
-se abre un buffer con las abreviaturas, que se puede editar. Ver de paso
-&quot;<a href="http://ergoemacs.org/emacs/emacs_abbrev_mode.html" target="_blank" rel="noopener noreffer">Using Emacs Abbrev Mode for
-Abbreviation</a> para un facil
-tutorial sobre el uso elegante de abbrev-mode.</p>]]></description>
-</item>
-<item>
-    <title>Comandos de Emacs y Spacemacs para recordar</title>
-    <link>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar/</link>
-    <pubDate>Thu, 31 Jul 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar/</guid>
-    <description><![CDATA[<h2 id="yasnippets--company">Yasnippets / Company</h2>
-<p>En la <a href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings" target="_blank" rel="noopener noreffer">documentación de Spacemacs</a> están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual).</p>
-<ul>
-<li>reemplaza la clave previa al punto por el contenido del snippet
-correspondiente: M-/</li>
-</ul>
-<h2 id="búsqueda">Búsqueda</h2>
-<p>&ndash;La búsqueda habitual con i-search (C-s) se potencia al instalar
-<a href="https://github.com/abo-abo/swiper" target="_blank" rel="noopener noreffer">swiper</a>, que ofrece un listado de
-las lineas del documento donde se encuentran los resultados de la
-búsqueda.&ndash;</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Restructuredtext on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/restructuredtext/</link>
+    <description>Recent content in Restructuredtext on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sat, 08 Nov 2014 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/restructuredtext/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pandoc, conversión de org-mode a restructuredtext</title>
+      <link>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</link>
+      <pubDate>Sat, 08 Nov 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</guid>
+      <description>&lt;p&gt;Pandoc es un software para hacer conversión de archivos de texto entre distintos&#xA;lenguajes de markup. Me viene bien probarlo porque me gustaría escribir mis&#xA;entradas del blog desde org-mode (que uso con mucha frecuencia) y obtener el&#xA;mismo texto en versión restructuredText, que es el formato en el que escribo el&#xA;blog (con Pelican).&lt;/p&gt;&#xA;&lt;p&gt;La instalación de Pandoc requirió un pequeño ajuste respecto de lo habitual en&#xA;Manjaro, ya que el programa no estaba disponible desde los repositorios que&#xA;vienen por defecto. Tuve que hacer los ajustes que se describen en &lt;a href=&#34;https://wiki.archlinux.org/index.php/ArchHaskell&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;la wiki de&#xA;Arch&lt;/a&gt;. Estos fueron los 5&#xA;pasos:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Emacs y restructuredText</title>
+      <link>https://eldiegoefe.github.io/emacs-y-restructuredtext/</link>
+      <pubDate>Tue, 07 Oct 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/emacs-y-restructuredtext/</guid>
+      <description>&lt;p&gt;Estuve escribiendo algunas entradas para el blog y encontré algunas cosas que&#xA;vale la pena recordar, que quedan anotadas aca.&lt;/p&gt;&#xA;&lt;p&gt;El modo abbrev tendría que desactivarlo globalmente porque cada vez que escribo&#xA;la palabra &amp;quot;&lt;em&gt;con&lt;/em&gt;&amp;quot; (en modo restructuredText) y hago un espacio me lo expande&#xA;a un texto que no deseo (content...). Se desactiva con &lt;em&gt;M-x abbrev-mode&lt;/em&gt;. Mejor&#xA;aún, encontré cómo editar la lista de abreviaturas. Es así: &lt;em&gt;M-x list-abbrevs&lt;/em&gt; y&#xA;se abre un buffer con las abreviaturas, que se puede editar. Ver de paso&#xA;&amp;quot;&lt;a href=&#34;http://ergoemacs.org/emacs/emacs_abbrev_mode.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Using Emacs Abbrev Mode for&#xA;Abbreviation&lt;/a&gt; para un facil&#xA;tutorial sobre el uso elegante de abbrev-mode.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comandos de Emacs y Spacemacs para recordar</title>
+      <link>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar/</link>
+      <pubDate>Thu, 31 Jul 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/comandos-de-emacs-y-spacemacs-para-recordar/</guid>
+      <description>&lt;h2 id=&#34;yasnippets--company&#34;&gt;Yasnippets / Company&lt;/h2&gt;&#xA;&lt;p&gt;En la &lt;a href=&#34;https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;documentación de Spacemacs&lt;/a&gt; están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual).&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;reemplaza la clave previa al punto por el contenido del snippet&#xA;correspondiente: M-/&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;búsqueda&#34;&gt;Búsqueda&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ndash;La búsqueda habitual con i-search (C-s) se potencia al instalar&#xA;&lt;a href=&#34;https://github.com/abo-abo/swiper&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;swiper&lt;/a&gt;, que ofrece un listado de&#xA;las lineas del documento donde se encuentran los resultados de la&#xA;búsqueda.&amp;ndash;&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

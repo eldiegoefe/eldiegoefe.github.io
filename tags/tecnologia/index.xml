@@ -1,60 +1,35 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Tecnologia - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/tecnologia/</link>
-        <description>Tecnologia - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Tue, 17 Jul 2018 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/tecnologia/" rel="self" type="application/rss+xml" /><item>
-    <title>La única verdad es la incertidumbre (II)</title>
-    <link>https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-la-incertidumbre-ii/</link>
-    <pubDate>Tue, 17 Jul 2018 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-la-incertidumbre-ii/</guid>
-    <description><![CDATA[<p>Esta es la continuación de <a href="https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-la-incertidumbre-i/" rel="">La única verdad es la incertidumbre (I)</a></p>
-<p>Para calificar de científico al conocimiento debe adecuarse el proceso de su
-producción a normas metodológicas y reglas de razonamiento mediante los cuales
-se tratan de eliminar errores, imprecisiones, opiniones infundadas, fantasías y
-charlatanería en general. Establecer conocimientos sólidos y coherentes dentro
-de cada disciplinas se traduce en una comprensión más ajustada a la realidad del
-universo.</p>
-<p>A pesar de la justificada racionalidad de estos procesos, la tarea es
-complicada y presenta muchas dificultades. La excesiva confianza en los
-métodos y técnicas nos podría encerrar en islas de parcialidad que
-podríamos confundir con puntos de vista objetivos. Puede dar la erronea
-impresión de que el quehacer científico permite evadir las
-contradicciones, o que éstas son facilmente eliminables en base a la
-experimentación (cuando se trata de ciencias experimentales) y a la
-contrastación entre los puntos de vista diversos de la comunidad de
-pares e impares.</p>]]></description>
-</item>
-<item>
-    <title>Casitas y minimalismo</title>
-    <link>https://eldiegoefe.github.io/casitas-y-minimalismo/</link>
-    <pubDate>Wed, 18 Oct 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/casitas-y-minimalismo/</guid>
-    <description><![CDATA[<p>Espero el colapso universal, pero es aburrida la inactividad. Por eso consumo,
-sobre todo contenidos online. Entre las montañas de basura digital hay pasadizos
-que cada tanto quedan parcialmente expuestos, y por algún reflejo imprevisto
-delatan su presencia e invocan mi exploración. El año pasado, en algún momento,
-mientras las paredes de un departamento céntrico cercaban mi libertad casi tanto
-como el horario laboral, descubrí el movimiento de las <em>tiny houses</em> (casitas) y
-temas aledaños.</p>]]></description>
-</item>
-<item>
-    <title>La única verdad es la incertidumbre (I)</title>
-    <link>https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-la-incertidumbre-i/</link>
-    <pubDate>Sun, 01 Oct 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-la-incertidumbre-i/</guid>
-    <description><![CDATA[<p>Hace tres años me invitaron a participar de un seminario sobre la <em>verdad</em> en la
-Facultad de Ciencias de la Educación (UNER). ¡Claramente esos profesores no
-discriminan e invitan a cualquiera! Leandro, Franco, Alexis, Juan, Gustavo:
-gracias por ser como son. En aquel entonces me entusiasmé. Estuvo buena la
-experiencia pero no quedé muy conforme con mi presentación oral, que fue
-enredada y confusa. De todos modos dio como fruto un escrito largo con algunas
-opiniones sobre ciencia, tecnología y educación, muy util para mi mismo, porque
-a veces uno cree que tiene ideas fuertes y bien entrelazadas sobre un tema y en
-esa instancia de escribir descubre las lagunas, huecos y sinsentidos de lo que
-creía saber. Desde aquel entonces pensé en revisar y reformular aquel texto para
-publicar en este blog, y acá va la primera entrega. No esperen conclusiones
-claras, ni un desarrollo del todo lógico, tengan en cuenta que no son más que
-divagaciones medianamente elaboradas y con excesos de pretensión crítica. No se
-cuántas partes quedarán.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tecnologia on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/tecnologia/</link>
+    <description>Recent content in Tecnologia on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Tue, 17 Jul 2018 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/tecnologia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La única verdad es la incertidumbre (II)</title>
+      <link>https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-la-incertidumbre-ii/</link>
+      <pubDate>Tue, 17 Jul 2018 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-la-incertidumbre-ii/</guid>
+      <description>&lt;p&gt;Esta es la continuación de &lt;a href=&#34;https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-la-incertidumbre-i/&#34; rel=&#34;&#34;&gt;La única verdad es la incertidumbre (I)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Para calificar de científico al conocimiento debe adecuarse el proceso de su&#xA;producción a normas metodológicas y reglas de razonamiento mediante los cuales&#xA;se tratan de eliminar errores, imprecisiones, opiniones infundadas, fantasías y&#xA;charlatanería en general. Establecer conocimientos sólidos y coherentes dentro&#xA;de cada disciplinas se traduce en una comprensión más ajustada a la realidad del&#xA;universo.&lt;/p&gt;&#xA;&lt;p&gt;A pesar de la justificada racionalidad de estos procesos, la tarea es&#xA;complicada y presenta muchas dificultades. La excesiva confianza en los&#xA;métodos y técnicas nos podría encerrar en islas de parcialidad que&#xA;podríamos confundir con puntos de vista objetivos. Puede dar la erronea&#xA;impresión de que el quehacer científico permite evadir las&#xA;contradicciones, o que éstas son facilmente eliminables en base a la&#xA;experimentación (cuando se trata de ciencias experimentales) y a la&#xA;contrastación entre los puntos de vista diversos de la comunidad de&#xA;pares e impares.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Casitas y minimalismo</title>
+      <link>https://eldiegoefe.github.io/casitas-y-minimalismo/</link>
+      <pubDate>Wed, 18 Oct 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/casitas-y-minimalismo/</guid>
+      <description>&lt;p&gt;Espero el colapso universal, pero es aburrida la inactividad. Por eso consumo,&#xA;sobre todo contenidos online. Entre las montañas de basura digital hay pasadizos&#xA;que cada tanto quedan parcialmente expuestos, y por algún reflejo imprevisto&#xA;delatan su presencia e invocan mi exploración. El año pasado, en algún momento,&#xA;mientras las paredes de un departamento céntrico cercaban mi libertad casi tanto&#xA;como el horario laboral, descubrí el movimiento de las &lt;em&gt;tiny houses&lt;/em&gt; (casitas) y&#xA;temas aledaños.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La única verdad es la incertidumbre (I)</title>
+      <link>https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-la-incertidumbre-i/</link>
+      <pubDate>Sun, 01 Oct 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/la-%C3%BAnica-verdad-es-la-incertidumbre-i/</guid>
+      <description>&lt;p&gt;Hace tres años me invitaron a participar de un seminario sobre la &lt;em&gt;verdad&lt;/em&gt; en la&#xA;Facultad de Ciencias de la Educación (UNER). ¡Claramente esos profesores no&#xA;discriminan e invitan a cualquiera! Leandro, Franco, Alexis, Juan, Gustavo:&#xA;gracias por ser como son. En aquel entonces me entusiasmé. Estuvo buena la&#xA;experiencia pero no quedé muy conforme con mi presentación oral, que fue&#xA;enredada y confusa. De todos modos dio como fruto un escrito largo con algunas&#xA;opiniones sobre ciencia, tecnología y educación, muy util para mi mismo, porque&#xA;a veces uno cree que tiene ideas fuertes y bien entrelazadas sobre un tema y en&#xA;esa instancia de escribir descubre las lagunas, huecos y sinsentidos de lo que&#xA;creía saber. Desde aquel entonces pensé en revisar y reformular aquel texto para&#xA;publicar en este blog, y acá va la primera entrega. No esperen conclusiones&#xA;claras, ni un desarrollo del todo lógico, tengan en cuenta que no son más que&#xA;divagaciones medianamente elaboradas y con excesos de pretensión crítica. No se&#xA;cuántas partes quedarán.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

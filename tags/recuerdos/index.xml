@@ -1,21 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Recuerdos - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/recuerdos/</link>
-        <description>Recuerdos - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sat, 25 Oct 2014 11:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/recuerdos/" rel="self" type="application/rss+xml" /><item>
-    <title>Sorpresas del pasado</title>
-    <link>https://eldiegoefe.github.io/sorpresas-del-pasado/</link>
-    <pubDate>Sat, 25 Oct 2014 11:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/sorpresas-del-pasado/</guid>
-    <description><![CDATA[<p>Hoy apenas fue posible encontrar actividades porque el desgano y el malhumor se
-propagan como pseudópodos del horrendo calor. Por la ventana irremediablemente
-abierta entra el ruido del tránsito y canciones que deben parecerle fantásticas
-a los pibes de la gomería. En esta lava de incomodidad tuve la iniciativa de
-aprender a usar una famosa extensión de Emacs (org-mode) como agenda
-electrónica, y la verdad es que todo lo bueno que había escuchado resulta ser
-cierto. No es la primera vez que uso org-mode, pero sí es la iniciación en las
-funciones de agenda.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recuerdos on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/recuerdos/</link>
+    <description>Recent content in Recuerdos on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sat, 25 Oct 2014 11:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/recuerdos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sorpresas del pasado</title>
+      <link>https://eldiegoefe.github.io/sorpresas-del-pasado/</link>
+      <pubDate>Sat, 25 Oct 2014 11:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/sorpresas-del-pasado/</guid>
+      <description>&lt;p&gt;Hoy apenas fue posible encontrar actividades porque el desgano y el malhumor se&#xA;propagan como pseudópodos del horrendo calor. Por la ventana irremediablemente&#xA;abierta entra el ruido del tránsito y canciones que deben parecerle fantásticas&#xA;a los pibes de la gomería. En esta lava de incomodidad tuve la iniciativa de&#xA;aprender a usar una famosa extensión de Emacs (org-mode) como agenda&#xA;electrónica, y la verdad es que todo lo bueno que había escuchado resulta ser&#xA;cierto. No es la primera vez que uso org-mode, pero sí es la iniciación en las&#xA;funciones de agenda.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

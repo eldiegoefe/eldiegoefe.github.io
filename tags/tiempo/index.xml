@@ -1,24 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Tiempo - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/tiempo/</link>
-        <description>Tiempo - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 07 Jun 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/tiempo/" rel="self" type="application/rss+xml" /><item>
-    <title>Misterios de la temporización</title>
-    <link>https://eldiegoefe.github.io/misterios-de-la-temporizaci%C3%B3n/</link>
-    <pubDate>Sun, 07 Jun 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/misterios-de-la-temporizaci%C3%B3n/</guid>
-    <description><![CDATA[<p>Ayer y hoy el mate cocido se enfrió más rápido. Advertí el motivo con premura.
-No es que se haya producido una grieta espacio-temporal en la ciudad de La
-Plata. La aceleración siempre coincide con los días no laborables, y justo ayer
-fue sábado.</p>
-<p>Llega el fin de semana y me encuentro lubricando la eficacia del
-aprovechamiento del tiempo, porque las agujas del reloj se desplazan más
-rápido. Es corto el período de libertad, quiero aprovechar mi energía
-vital para materializar todos los proyectos que acumulo mientras no soy
-dueño de mis horas, en el trabajo, o mientras no soy dueño de mis
-músculos, cuando ya estoy en casa pero durante el intervalo en el que el
-cansancio y el hastío me neutralizan.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tiempo on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/tiempo/</link>
+    <description>Recent content in Tiempo on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sun, 07 Jun 2015 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/tiempo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Misterios de la temporización</title>
+      <link>https://eldiegoefe.github.io/misterios-de-la-temporizaci%C3%B3n/</link>
+      <pubDate>Sun, 07 Jun 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/misterios-de-la-temporizaci%C3%B3n/</guid>
+      <description>&lt;p&gt;Ayer y hoy el mate cocido se enfrió más rápido. Advertí el motivo con premura.&#xA;No es que se haya producido una grieta espacio-temporal en la ciudad de La&#xA;Plata. La aceleración siempre coincide con los días no laborables, y justo ayer&#xA;fue sábado.&lt;/p&gt;&#xA;&lt;p&gt;Llega el fin de semana y me encuentro lubricando la eficacia del&#xA;aprovechamiento del tiempo, porque las agujas del reloj se desplazan más&#xA;rápido. Es corto el período de libertad, quiero aprovechar mi energía&#xA;vital para materializar todos los proyectos que acumulo mientras no soy&#xA;dueño de mis horas, en el trabajo, o mientras no soy dueño de mis&#xA;músculos, cuando ya estoy en casa pero durante el intervalo en el que el&#xA;cansancio y el hastío me neutralizan.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

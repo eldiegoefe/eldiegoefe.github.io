@@ -1,72 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Computadoras - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/computadoras/</link>
-        <description>Computadoras - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 03 Aug 2014 10:30:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/computadoras/" rel="self" type="application/rss+xml" /><item>
-    <title>Compra de computadora de oficina</title>
-    <link>https://eldiegoefe.github.io/compra-de-computadora-de-oficina/</link>
-    <pubDate>Sun, 03 Aug 2014 10:30:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/compra-de-computadora-de-oficina/</guid>
-    <description><![CDATA[<p>Compré una PC con estas características y precios, para uso liviano (mayormente
-internet, multimedia, programas de oficina, etc):</p>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center">Item</th>
-          <th style="text-align: center">Precio ($)</th>
-          <th style="text-align: center">Detalles</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">mother Gygabyte GA-AM1M-S2H</td>
-          <td style="text-align: center">534</td>
-          <td style="text-align: center"></td>
-      </tr>
-      <tr>
-          <td style="text-align: center">micro Athlon 5150</td>
-          <td style="text-align: center">656</td>
-          <td style="text-align: center"></td>
-      </tr>
-      <tr>
-          <td style="text-align: center">HD 1TB Seagate SATA 3</td>
-          <td style="text-align: center">882</td>
-          <td style="text-align: center"></td>
-      </tr>
-      <tr>
-          <td style="text-align: center">Memoria Kingston DDR3 4Gb</td>
-          <td style="text-align: center">626</td>
-          <td style="text-align: center"></td>
-      </tr>
-      <tr>
-          <td style="text-align: center">Gabinete + fuente</td>
-          <td style="text-align: center">650</td>
-          <td style="text-align: center">Sharknet 600W</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">Lector tarj. memoria y usb</td>
-          <td style="text-align: center">50</td>
-          <td style="text-align: center"></td>
-      </tr>
-      <tr>
-          <td style="text-align: center">Teclado y mouse inalámbrico</td>
-          <td style="text-align: center">300</td>
-          <td style="text-align: center">Genius Slimstar i820</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">Tarjeta red wireless USB</td>
-          <td style="text-align: center">112</td>
-          <td style="text-align: center">TPLink Nano TL-WN725N</td>
-      </tr>
-      <tr>
-          <td style="text-align: center"><strong>Total</strong></td>
-          <td style="text-align: center">3810</td>
-          <td style="text-align: center"></td>
-      </tr>
-  </tbody>
-</table>
-<p>Calculando el equivalente a 3810 pesos en agosto de 2014:</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computadoras on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/computadoras/</link>
+    <description>Recent content in Computadoras on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sun, 03 Aug 2014 10:30:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/computadoras/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compra de computadora de oficina</title>
+      <link>https://eldiegoefe.github.io/compra-de-computadora-de-oficina/</link>
+      <pubDate>Sun, 03 Aug 2014 10:30:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/compra-de-computadora-de-oficina/</guid>
+      <description>&lt;p&gt;Compré una PC con estas características y precios, para uso liviano (mayormente&#xA;internet, multimedia, programas de oficina, etc):&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Item&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Precio ($)&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Detalles&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;mother Gygabyte GA-AM1M-S2H&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;534&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;micro Athlon 5150&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;656&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;HD 1TB Seagate SATA 3&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;882&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Memoria Kingston DDR3 4Gb&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;626&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Gabinete + fuente&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;650&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Sharknet 600W&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Lector tarj. memoria y usb&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;50&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Teclado y mouse inalámbrico&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;300&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Genius Slimstar i820&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Tarjeta red wireless USB&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;112&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;TPLink Nano TL-WN725N&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;3810&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Calculando el equivalente a 3810 pesos en agosto de 2014:&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

@@ -1,22 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Entrenamiento - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/entrenamiento/</link>
-        <description>Entrenamiento - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sat, 09 Mar 2019 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/entrenamiento/" rel="self" type="application/rss+xml" /><item>
-    <title>El lado femenino de la Fuerza</title>
-    <link>https://eldiegoefe.github.io/el-lado-femenino-de-la-fuerza/</link>
-    <pubDate>Sat, 09 Mar 2019 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/el-lado-femenino-de-la-fuerza/</guid>
-    <description><![CDATA[<p>Asistimos al desarrollo exponencial del movimiento de mujeres, que impulsa la
-igualdad de género en los derechos y en los hechos, el fin de la violencia
-especialmente dirigida hacia ellas y el aborto legal. Es el movimiento político
-contemporáneo de mayor magnitud, sucesor del movimiento piquetero como
-protagonista de décadas pasadas, y mucho más interesante que el vaivén
-partidario de la Argentina. Las izquierdas, pequeñas pero crecientes, participan
-activamente del movimiento de mujeres y ojalá ocurra la cadena lógica de hechos
-que nos lleve de la mecha antipatriarcal a la explosión en un anticapitalismo de
-masas.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entrenamiento on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/entrenamiento/</link>
+    <description>Recent content in Entrenamiento on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sat, 09 Mar 2019 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/entrenamiento/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El lado femenino de la Fuerza</title>
+      <link>https://eldiegoefe.github.io/el-lado-femenino-de-la-fuerza/</link>
+      <pubDate>Sat, 09 Mar 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/el-lado-femenino-de-la-fuerza/</guid>
+      <description>&lt;p&gt;Asistimos al desarrollo exponencial del movimiento de mujeres, que impulsa la&#xA;igualdad de género en los derechos y en los hechos, el fin de la violencia&#xA;especialmente dirigida hacia ellas y el aborto legal. Es el movimiento político&#xA;contemporáneo de mayor magnitud, sucesor del movimiento piquetero como&#xA;protagonista de décadas pasadas, y mucho más interesante que el vaivén&#xA;partidario de la Argentina. Las izquierdas, pequeñas pero crecientes, participan&#xA;activamente del movimiento de mujeres y ojalá ocurra la cadena lógica de hechos&#xA;que nos lleve de la mecha antipatriarcal a la explosión en un anticapitalismo de&#xA;masas.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

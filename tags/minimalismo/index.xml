@@ -1,20 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Minimalismo - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/minimalismo/</link>
-        <description>Minimalismo - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 18 Oct 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/minimalismo/" rel="self" type="application/rss+xml" /><item>
-    <title>Casitas y minimalismo</title>
-    <link>https://eldiegoefe.github.io/casitas-y-minimalismo/</link>
-    <pubDate>Wed, 18 Oct 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/casitas-y-minimalismo/</guid>
-    <description><![CDATA[<p>Espero el colapso universal, pero es aburrida la inactividad. Por eso consumo,
-sobre todo contenidos online. Entre las montañas de basura digital hay pasadizos
-que cada tanto quedan parcialmente expuestos, y por algún reflejo imprevisto
-delatan su presencia e invocan mi exploración. El año pasado, en algún momento,
-mientras las paredes de un departamento céntrico cercaban mi libertad casi tanto
-como el horario laboral, descubrí el movimiento de las <em>tiny houses</em> (casitas) y
-temas aledaños.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minimalismo on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/minimalismo/</link>
+    <description>Recent content in Minimalismo on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Wed, 18 Oct 2017 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/minimalismo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Casitas y minimalismo</title>
+      <link>https://eldiegoefe.github.io/casitas-y-minimalismo/</link>
+      <pubDate>Wed, 18 Oct 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/casitas-y-minimalismo/</guid>
+      <description>&lt;p&gt;Espero el colapso universal, pero es aburrida la inactividad. Por eso consumo,&#xA;sobre todo contenidos online. Entre las montañas de basura digital hay pasadizos&#xA;que cada tanto quedan parcialmente expuestos, y por algún reflejo imprevisto&#xA;delatan su presencia e invocan mi exploración. El año pasado, en algún momento,&#xA;mientras las paredes de un departamento céntrico cercaban mi libertad casi tanto&#xA;como el horario laboral, descubrí el movimiento de las &lt;em&gt;tiny houses&lt;/em&gt; (casitas) y&#xA;temas aledaños.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

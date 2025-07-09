@@ -1,25 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Carpinteria - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/carpinteria/</link>
-        <description>Carpinteria - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Thu, 24 Nov 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/carpinteria/" rel="self" type="application/rss+xml" /><item>
-    <title>Carpintería a pleno</title>
-    <link>https://eldiegoefe.github.io/carpinter%C3%ADa-a-pleno/</link>
-    <pubDate>Thu, 24 Nov 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/carpinter%C3%ADa-a-pleno/</guid>
-    <description><![CDATA[<p>Aunque actualmente no tengo espacio para hacer cosas con madera, me puse a
-revisar enlaces que guardé sobre carpintería, porque en unos meses sí voy a
-disponer de herramientas y lugar. La web, y especialmente YouTube, me han
-entusiasmado con distintas artes y oficios, que no hubiera creido que me
-interesaran. De no ser por los videos gente común mostrando cómo trabajan la
-madera, las lanas, el hierro, la programación en Clojure, creo que no habría
-confiado demasiado en que yo podría lograr resultados aceptables en alguna de
-estas áreas. Nunca lo experimenté así cuando el acercamiento a estos temas
-sucedía sólo a través de libros y revistas. Es algo realmente poderoso y
-futurista esta producción y difusión colectiva del conocimiento en medios
-digitales. A continuación comparto una breve selección (la mayoría en inglés) de
-enlaces a temas de carpintería.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Carpinteria on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/carpinteria/</link>
+    <description>Recent content in Carpinteria on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Thu, 24 Nov 2016 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/carpinteria/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Carpintería a pleno</title>
+      <link>https://eldiegoefe.github.io/carpinter%C3%ADa-a-pleno/</link>
+      <pubDate>Thu, 24 Nov 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/carpinter%C3%ADa-a-pleno/</guid>
+      <description>&lt;p&gt;Aunque actualmente no tengo espacio para hacer cosas con madera, me puse a&#xA;revisar enlaces que guardé sobre carpintería, porque en unos meses sí voy a&#xA;disponer de herramientas y lugar. La web, y especialmente YouTube, me han&#xA;entusiasmado con distintas artes y oficios, que no hubiera creido que me&#xA;interesaran. De no ser por los videos gente común mostrando cómo trabajan la&#xA;madera, las lanas, el hierro, la programación en Clojure, creo que no habría&#xA;confiado demasiado en que yo podría lograr resultados aceptables en alguna de&#xA;estas áreas. Nunca lo experimenté así cuando el acercamiento a estos temas&#xA;sucedía sólo a través de libros y revistas. Es algo realmente poderoso y&#xA;futurista esta producción y difusión colectiva del conocimiento en medios&#xA;digitales. A continuación comparto una breve selección (la mayoría en inglés) de&#xA;enlaces a temas de carpintería.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

@@ -1,21 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Terminal - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/terminal/</link>
-        <description>Terminal - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 22 Oct 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/terminal/" rel="self" type="application/rss+xml" /><item>
-    <title>Mageia y Manjaro</title>
-    <link>https://eldiegoefe.github.io/mageia-y-manjaro/</link>
-    <pubDate>Wed, 22 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/mageia-y-manjaro/</guid>
-    <description><![CDATA[<p>Empezó a haber problemas para actualizar el sistema
-(<a href="https://www.mageia.org/es/" target="_blank" rel="noopener noreffer">Mageia</a>), que mostraba un mensaje diciendo que
-había actualizaciones listas para instalarse, pero no hacía nada al hacer click
-sobre <em>instalar</em>. Logré que se produzca la instalación desde una consola con
-<strong>sudo urpmi --auto-update</strong>.</p>
-<p>También dejó de funcionar el programa de configuración del sistema al
-que se accede desde <em>herramientas/herramientas del sistema/configure su
-computador</em>. Pero en algún momento volvió a andar. :)</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/terminal/</link>
+    <description>Recent content in Terminal on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Wed, 22 Oct 2014 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mageia y Manjaro</title>
+      <link>https://eldiegoefe.github.io/mageia-y-manjaro/</link>
+      <pubDate>Wed, 22 Oct 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/mageia-y-manjaro/</guid>
+      <description>&lt;p&gt;Empezó a haber problemas para actualizar el sistema&#xA;(&lt;a href=&#34;https://www.mageia.org/es/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Mageia&lt;/a&gt;), que mostraba un mensaje diciendo que&#xA;había actualizaciones listas para instalarse, pero no hacía nada al hacer click&#xA;sobre &lt;em&gt;instalar&lt;/em&gt;. Logré que se produzca la instalación desde una consola con&#xA;&lt;strong&gt;sudo urpmi --auto-update&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;También dejó de funcionar el programa de configuración del sistema al&#xA;que se accede desde &lt;em&gt;herramientas/herramientas del sistema/configure su&#xA;computador&lt;/em&gt;. Pero en algún momento volvió a andar. :)&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

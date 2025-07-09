@@ -1,52 +1,35 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Arte - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/arte/</link>
-        <description>Arte - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Tue, 23 Jul 2019 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/arte/" rel="self" type="application/rss+xml" /><item>
-    <title>Acuarela</title>
-    <link>https://eldiegoefe.github.io/acuarela/</link>
-    <pubDate>Tue, 23 Jul 2019 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/acuarela/</guid>
-    <description><![CDATA[<p>Por si me faltaba algún pasatiempo encontré uno nuevo. O debería decir varios
-nuevos. Una cosa lleva a la otra, y si bien cuando me suceden estas explosiones
-de entusiasmmo por nuevas actividades trato de documentar su origen, en este
-caso dejé pasar el tiempo y no estoy del todo seguro cómo llegué a zambullirme
-en este sector del mundo de las artes plásticas.</p>
-<p>Creo que estaba mirando videos sobre Journaling (el tema de llevar un
-diario / agenda personal también me interesa, por diversos motivos que
-quedarán para otro post) y en YouTube (¡oh, fuente de todo saber!) me
-maravillé al ver elaboradas expresiones artísticas en cuadernitos de
-gentecita desperdigada por este generoso planeta. De ahí me puse a ver
-videos sobre distintas técnicas de dibujo, sketching urbano (bocetar
-edificios / paisajes / gente en la vía pública) y finalmente acuarelas.
-El canal de sketching de <a href="https://www.youtube.com/user/teohyc" target="_blank" rel="noopener noreffer">Teoh Yi
-Chie</a> está muy bueno.</p>]]></description>
-</item>
-<item>
-    <title>Hacedores</title>
-    <link>https://eldiegoefe.github.io/hacedores/</link>
-    <pubDate>Wed, 01 Feb 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/hacedores/</guid>
-    <description><![CDATA[<p>Gracias a la proliferación de tutoriales en diversos formatos, hace años
-empecé a ver gente practicando artes y oficios como la carpintería, la
-electrónica hobbista, la permacultura, la cerámica, la calistenia, la
-programación en lenguajes infrecuentes, la herrería, el jiujitsu (el arte suave)
-y un sinfín de diversidades así. Son cosas diferentes a disciplinas que
-anteriormente me habían resultado más afines, como la literatura fantástica, las
-fisicomatemáticas, el lenguaje BASIC y el ajedrez, todas cosas más relacionadas
-con la mente que con las manos y el cuerpo.</p>]]></description>
-</item>
-<item>
-    <title>Los garabatos de Cabrol</title>
-    <link>https://eldiegoefe.github.io/los-garabatos-de-cabrol/</link>
-    <pubDate>Fri, 17 Apr 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/los-garabatos-de-cabrol/</guid>
-    <description><![CDATA[<p>Tengo un amigo que es un genio. Levantó paredes, soldó parrillas y rejas,
-instaló cañerías de gas natural. Y aún así, con la tremenda carga de los oficios
-comiéndole el tiempo y extenuándole los músculos a cambio de la subsistencia, el
-artista encontró el papel y las tintas para delinear mundos y personajes con una
-maestría que cuesta convencerse de que habita cerca, porque los genios me
-parecen muy lejanos y Sebastián Cabrol vivió siempre a cuatro o cinco cuadras de
-mi casa, en Paraná.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arte on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/arte/</link>
+    <description>Recent content in Arte on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Tue, 23 Jul 2019 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/arte/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acuarela</title>
+      <link>https://eldiegoefe.github.io/acuarela/</link>
+      <pubDate>Tue, 23 Jul 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/acuarela/</guid>
+      <description>&lt;p&gt;Por si me faltaba algún pasatiempo encontré uno nuevo. O debería decir varios&#xA;nuevos. Una cosa lleva a la otra, y si bien cuando me suceden estas explosiones&#xA;de entusiasmmo por nuevas actividades trato de documentar su origen, en este&#xA;caso dejé pasar el tiempo y no estoy del todo seguro cómo llegué a zambullirme&#xA;en este sector del mundo de las artes plásticas.&lt;/p&gt;&#xA;&lt;p&gt;Creo que estaba mirando videos sobre Journaling (el tema de llevar un&#xA;diario / agenda personal también me interesa, por diversos motivos que&#xA;quedarán para otro post) y en YouTube (¡oh, fuente de todo saber!) me&#xA;maravillé al ver elaboradas expresiones artísticas en cuadernitos de&#xA;gentecita desperdigada por este generoso planeta. De ahí me puse a ver&#xA;videos sobre distintas técnicas de dibujo, sketching urbano (bocetar&#xA;edificios / paisajes / gente en la vía pública) y finalmente acuarelas.&#xA;El canal de sketching de &lt;a href=&#34;https://www.youtube.com/user/teohyc&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Teoh Yi&#xA;Chie&lt;/a&gt; está muy bueno.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hacedores</title>
+      <link>https://eldiegoefe.github.io/hacedores/</link>
+      <pubDate>Wed, 01 Feb 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/hacedores/</guid>
+      <description>&lt;p&gt;Gracias a la proliferación de tutoriales en diversos formatos, hace años&#xA;empecé a ver gente practicando artes y oficios como la carpintería, la&#xA;electrónica hobbista, la permacultura, la cerámica, la calistenia, la&#xA;programación en lenguajes infrecuentes, la herrería, el jiujitsu (el arte suave)&#xA;y un sinfín de diversidades así. Son cosas diferentes a disciplinas que&#xA;anteriormente me habían resultado más afines, como la literatura fantástica, las&#xA;fisicomatemáticas, el lenguaje BASIC y el ajedrez, todas cosas más relacionadas&#xA;con la mente que con las manos y el cuerpo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Los garabatos de Cabrol</title>
+      <link>https://eldiegoefe.github.io/los-garabatos-de-cabrol/</link>
+      <pubDate>Fri, 17 Apr 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/los-garabatos-de-cabrol/</guid>
+      <description>&lt;p&gt;Tengo un amigo que es un genio. Levantó paredes, soldó parrillas y rejas,&#xA;instaló cañerías de gas natural. Y aún así, con la tremenda carga de los oficios&#xA;comiéndole el tiempo y extenuándole los músculos a cambio de la subsistencia, el&#xA;artista encontró el papel y las tintas para delinear mundos y personajes con una&#xA;maestría que cuesta convencerse de que habita cerca, porque los genios me&#xA;parecen muy lejanos y Sebastián Cabrol vivió siempre a cuatro o cinco cuadras de&#xA;mi casa, en Paraná.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

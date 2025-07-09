@@ -1,54 +1,35 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Programacion - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/programacion/</link>
-        <description>Programacion - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Tue, 28 Nov 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/programacion/" rel="self" type="application/rss+xml" /><item>
-    <title>Bienvenidos a Scheme</title>
-    <link>https://eldiegoefe.github.io/bienvenidos-a-scheme/</link>
-    <pubDate>Tue, 28 Nov 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/bienvenidos-a-scheme/</guid>
-    <description><![CDATA[<p>Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y
-esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad
-Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp
-que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a
-toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado
-para simular la inteligencia humana, creado por John McCarthy en la década del
-50.</p>]]></description>
-</item>
-<item>
-    <title>A punto para Lisp</title>
-    <link>https://eldiegoefe.github.io/a-punto-para-lisp/</link>
-    <pubDate>Wed, 13 Aug 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/a-punto-para-lisp/</guid>
-    <description><![CDATA[<p>Cuando empecé a leer <a href="http://www.gigamonkeys.com/book/" target="_blank" rel="noopener noreffer">Practical Common Lisp</a>,
-de Peter Seibel, tras escuchar <a href="https://www.youtube.com/watch?v=-8DO0_pqLNA" target="_blank" rel="noopener noreffer">el reportaje de Sacha Chua a Bozhidar
-Batsov</a>, tuve algunos
-inconvenientes para poder instalar Lisp en mi compu, hasta que encontré el
-tutorial <a href="https://www.youtube.com/watch?v=VnWVu8VVDbI" target="_blank" rel="noopener noreffer">Installing Common Lisp</a>.
-Estas notas resumen la información del video (sus instrucciones se muestran en
-un entorno Windows mientras que mi transcripción es para Linux), para poder
-instalar un Lisp en cualquier máquina con Emacs:</p>]]></description>
-</item>
-<item>
-    <title>Aprender a lo Hansel y Gretel</title>
-    <link>https://eldiegoefe.github.io/aprender-a-lo-hansel-y-gretel/</link>
-    <pubDate>Sun, 09 Feb 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/aprender-a-lo-hansel-y-gretel/</guid>
-    <description><![CDATA[<p>Aprender programación mediante un libro, sobre todo si uno le cree a la
-contra-tapa, requiere seguir capítulo a capítulo, sección a sección, todas las
-instrucciones. Es como que nos programamos para programar. Pero al copiar los
-ejemplos, incluso chequeando que no haya errores de tipeo, suelen aparecer
-problemas. Los resultados no son los esperados, aparecen errores, excepciones,
-relámpagos y huracanes.</p>
-<p>Mientras sigo con las lecturas sobre IPython nos dicen que importemos el paquete
-NetworkX. Sin embargo, es desconocido para mi sistema. Busco ayuda y llego a la
-pagina de NetworkX donde están <a href="http://networkx.github.io/documentation/latest/install.html" target="_blank" rel="noopener noreffer">las instrucciones de
-instalación</a>. Dice
-que se instala fácilmente con <strong>pip install networkx</strong> pero resulta que pip
-tampoco es un comando conocido. A buscar pip. Recién ahí se completa el
-rompecabezas. Se instala en Fedora con un <strong>sudo yum install python-pip</strong> y
-luego a recorrer el caminito de mendrugos de pan, rogando reencontrarnos con la
-posibilidad de seguir linealmente la secuencia de instrucciones del libro, que
-no me engaña, ha sido escrito por la bruja de Hansel y Gretel.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programacion on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/programacion/</link>
+    <description>Recent content in Programacion on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Tue, 28 Nov 2017 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/programacion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bienvenidos a Scheme</title>
+      <link>https://eldiegoefe.github.io/bienvenidos-a-scheme/</link>
+      <pubDate>Tue, 28 Nov 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/bienvenidos-a-scheme/</guid>
+      <description>&lt;p&gt;Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y&#xA;esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad&#xA;Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp&#xA;que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a&#xA;toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado&#xA;para simular la inteligencia humana, creado por John McCarthy en la década del&#xA;50.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A punto para Lisp</title>
+      <link>https://eldiegoefe.github.io/a-punto-para-lisp/</link>
+      <pubDate>Wed, 13 Aug 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/a-punto-para-lisp/</guid>
+      <description>&lt;p&gt;Cuando empecé a leer &lt;a href=&#34;http://www.gigamonkeys.com/book/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Practical Common Lisp&lt;/a&gt;,&#xA;de Peter Seibel, tras escuchar &lt;a href=&#34;https://www.youtube.com/watch?v=-8DO0_pqLNA&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;el reportaje de Sacha Chua a Bozhidar&#xA;Batsov&lt;/a&gt;, tuve algunos&#xA;inconvenientes para poder instalar Lisp en mi compu, hasta que encontré el&#xA;tutorial &lt;a href=&#34;https://www.youtube.com/watch?v=VnWVu8VVDbI&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Installing Common Lisp&lt;/a&gt;.&#xA;Estas notas resumen la información del video (sus instrucciones se muestran en&#xA;un entorno Windows mientras que mi transcripción es para Linux), para poder&#xA;instalar un Lisp en cualquier máquina con Emacs:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aprender a lo Hansel y Gretel</title>
+      <link>https://eldiegoefe.github.io/aprender-a-lo-hansel-y-gretel/</link>
+      <pubDate>Sun, 09 Feb 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/aprender-a-lo-hansel-y-gretel/</guid>
+      <description>&lt;p&gt;Aprender programación mediante un libro, sobre todo si uno le cree a la&#xA;contra-tapa, requiere seguir capítulo a capítulo, sección a sección, todas las&#xA;instrucciones. Es como que nos programamos para programar. Pero al copiar los&#xA;ejemplos, incluso chequeando que no haya errores de tipeo, suelen aparecer&#xA;problemas. Los resultados no son los esperados, aparecen errores, excepciones,&#xA;relámpagos y huracanes.&lt;/p&gt;&#xA;&lt;p&gt;Mientras sigo con las lecturas sobre IPython nos dicen que importemos el paquete&#xA;NetworkX. Sin embargo, es desconocido para mi sistema. Busco ayuda y llego a la&#xA;pagina de NetworkX donde están &lt;a href=&#34;http://networkx.github.io/documentation/latest/install.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;las instrucciones de&#xA;instalación&lt;/a&gt;. Dice&#xA;que se instala fácilmente con &lt;strong&gt;pip install networkx&lt;/strong&gt; pero resulta que pip&#xA;tampoco es un comando conocido. A buscar pip. Recién ahí se completa el&#xA;rompecabezas. Se instala en Fedora con un &lt;strong&gt;sudo yum install python-pip&lt;/strong&gt; y&#xA;luego a recorrer el caminito de mendrugos de pan, rogando reencontrarnos con la&#xA;posibilidad de seguir linealmente la secuencia de instrucciones del libro, que&#xA;no me engaña, ha sido escrito por la bruja de Hansel y Gretel.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

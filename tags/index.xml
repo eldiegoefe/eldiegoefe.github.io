@@ -1,68 +1,994 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Tags - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/</link>
-        <description>Tags - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Tue, 19 Mar 2024 18:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>Fotografia</title>
-    <link>https://eldiegoefe.github.io/tags/fotografia/</link>
-    <pubDate>Tue, 19 Mar 2024 18:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tags/fotografia/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Zine</title>
-    <link>https://eldiegoefe.github.io/tags/zine/</link>
-    <pubDate>Sat, 25 Nov 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tags/zine/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Guerra</title>
-    <link>https://eldiegoefe.github.io/tags/guerra/</link>
-    <pubDate>Wed, 15 Nov 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tags/guerra/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Israel</title>
-    <link>https://eldiegoefe.github.io/tags/israel/</link>
-    <pubDate>Wed, 15 Nov 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tags/israel/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Opinion</title>
-    <link>https://eldiegoefe.github.io/tags/opinion/</link>
-    <pubDate>Wed, 15 Nov 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tags/opinion/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Palestina</title>
-    <link>https://eldiegoefe.github.io/tags/palestina/</link>
-    <pubDate>Wed, 15 Nov 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tags/palestina/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Emacs</title>
-    <link>https://eldiegoefe.github.io/tags/emacs/</link>
-    <pubDate>Mon, 30 Oct 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tags/emacs/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Dibujo</title>
-    <link>https://eldiegoefe.github.io/tags/dibujo/</link>
-    <pubDate>Mon, 10 Apr 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tags/dibujo/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Aleman</title>
-    <link>https://eldiegoefe.github.io/tags/aleman/</link>
-    <pubDate>Fri, 03 Mar 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tags/aleman/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Idiomas</title>
-    <link>https://eldiegoefe.github.io/tags/idiomas/</link>
-    <pubDate>Fri, 03 Mar 2023 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/tags/idiomas/</guid>
-    <description><![CDATA[]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/</link>
+    <description>Recent content in Tags on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Tue, 19 Mar 2024 18:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fotografia</title>
+      <link>https://eldiegoefe.github.io/tags/fotografia/</link>
+      <pubDate>Tue, 19 Mar 2024 18:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/fotografia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zine</title>
+      <link>https://eldiegoefe.github.io/tags/zine/</link>
+      <pubDate>Sat, 25 Nov 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/zine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guerra</title>
+      <link>https://eldiegoefe.github.io/tags/guerra/</link>
+      <pubDate>Wed, 15 Nov 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/guerra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Israel</title>
+      <link>https://eldiegoefe.github.io/tags/israel/</link>
+      <pubDate>Wed, 15 Nov 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/israel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opinion</title>
+      <link>https://eldiegoefe.github.io/tags/opinion/</link>
+      <pubDate>Wed, 15 Nov 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/opinion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Palestina</title>
+      <link>https://eldiegoefe.github.io/tags/palestina/</link>
+      <pubDate>Wed, 15 Nov 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/palestina/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emacs</title>
+      <link>https://eldiegoefe.github.io/tags/emacs/</link>
+      <pubDate>Mon, 30 Oct 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/emacs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dibujo</title>
+      <link>https://eldiegoefe.github.io/tags/dibujo/</link>
+      <pubDate>Mon, 10 Apr 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/dibujo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aleman</title>
+      <link>https://eldiegoefe.github.io/tags/aleman/</link>
+      <pubDate>Fri, 03 Mar 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/aleman/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Idiomas</title>
+      <link>https://eldiegoefe.github.io/tags/idiomas/</link>
+      <pubDate>Fri, 03 Mar 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/idiomas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>https://eldiegoefe.github.io/tags/blog/</link>
+      <pubDate>Sun, 11 Dec 2022 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Capitalismo</title>
+      <link>https://eldiegoefe.github.io/tags/capitalismo/</link>
+      <pubDate>Wed, 20 Apr 2022 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/capitalismo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ciencia</title>
+      <link>https://eldiegoefe.github.io/tags/ciencia/</link>
+      <pubDate>Wed, 20 Apr 2022 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/ciencia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Naturaleza</title>
+      <link>https://eldiegoefe.github.io/tags/naturaleza/</link>
+      <pubDate>Wed, 20 Apr 2022 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/naturaleza/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Politica</title>
+      <link>https://eldiegoefe.github.io/tags/politica/</link>
+      <pubDate>Wed, 20 Apr 2022 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/politica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reflexiones</title>
+      <link>https://eldiegoefe.github.io/tags/reflexiones/</link>
+      <pubDate>Wed, 20 Apr 2022 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/reflexiones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Salud</title>
+      <link>https://eldiegoefe.github.io/tags/salud/</link>
+      <pubDate>Wed, 20 Apr 2022 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/salud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yoga</title>
+      <link>https://eldiegoefe.github.io/tags/yoga/</link>
+      <pubDate>Mon, 01 Mar 2021 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/yoga/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gtd</title>
+      <link>https://eldiegoefe.github.io/tags/gtd/</link>
+      <pubDate>Mon, 30 Nov 2020 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/gtd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productividad</title>
+      <link>https://eldiegoefe.github.io/tags/productividad/</link>
+      <pubDate>Mon, 30 Nov 2020 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/productividad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bolivia</title>
+      <link>https://eldiegoefe.github.io/tags/bolivia/</link>
+      <pubDate>Tue, 12 Nov 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/bolivia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Golpe</title>
+      <link>https://eldiegoefe.github.io/tags/golpe/</link>
+      <pubDate>Tue, 12 Nov 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/golpe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Filosofia</title>
+      <link>https://eldiegoefe.github.io/tags/filosofia/</link>
+      <pubDate>Tue, 01 Oct 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/filosofia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hijos No</title>
+      <link>https://eldiegoefe.github.io/tags/hijos-no/</link>
+      <pubDate>Tue, 01 Oct 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/hijos-no/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Acuarela</title>
+      <link>https://eldiegoefe.github.io/tags/acuarela/</link>
+      <pubDate>Tue, 23 Jul 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/acuarela/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arte</title>
+      <link>https://eldiegoefe.github.io/tags/arte/</link>
+      <pubDate>Tue, 23 Jul 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/arte/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hobbies</title>
+      <link>https://eldiegoefe.github.io/tags/hobbies/</link>
+      <pubDate>Tue, 23 Jul 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/hobbies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Literatura</title>
+      <link>https://eldiegoefe.github.io/tags/literatura/</link>
+      <pubDate>Sun, 02 Jun 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/literatura/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tecnicas</title>
+      <link>https://eldiegoefe.github.io/tags/tecnicas/</link>
+      <pubDate>Sun, 02 Jun 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/tecnicas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entrenamiento</title>
+      <link>https://eldiegoefe.github.io/tags/entrenamiento/</link>
+      <pubDate>Sat, 09 Mar 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/entrenamiento/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Feminismo</title>
+      <link>https://eldiegoefe.github.io/tags/feminismo/</link>
+      <pubDate>Sat, 09 Mar 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/feminismo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fitness</title>
+      <link>https://eldiegoefe.github.io/tags/fitness/</link>
+      <pubDate>Sat, 09 Mar 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/fitness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deportes</title>
+      <link>https://eldiegoefe.github.io/tags/deportes/</link>
+      <pubDate>Mon, 25 Feb 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/deportes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Espiritualidad</title>
+      <link>https://eldiegoefe.github.io/tags/espiritualidad/</link>
+      <pubDate>Mon, 25 Feb 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/espiritualidad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Filosofía</title>
+      <link>https://eldiegoefe.github.io/tags/filosof%C3%ADa/</link>
+      <pubDate>Mon, 25 Feb 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/filosof%C3%ADa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aborto</title>
+      <link>https://eldiegoefe.github.io/tags/aborto/</link>
+      <pubDate>Sat, 28 Jul 2018 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/aborto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Educacion</title>
+      <link>https://eldiegoefe.github.io/tags/educacion/</link>
+      <pubDate>Tue, 17 Jul 2018 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/educacion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tecnologia</title>
+      <link>https://eldiegoefe.github.io/tags/tecnologia/</link>
+      <pubDate>Tue, 17 Jul 2018 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/tecnologia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pyqt</title>
+      <link>https://eldiegoefe.github.io/tags/pyqt/</link>
+      <pubDate>Thu, 19 Apr 2018 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/pyqt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pyqtgraph</title>
+      <link>https://eldiegoefe.github.io/tags/pyqtgraph/</link>
+      <pubDate>Thu, 19 Apr 2018 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/pyqtgraph/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://eldiegoefe.github.io/tags/python/</link>
+      <pubDate>Thu, 19 Apr 2018 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qt</title>
+      <link>https://eldiegoefe.github.io/tags/qt/</link>
+      <pubDate>Thu, 19 Apr 2018 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/qt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sip</title>
+      <link>https://eldiegoefe.github.io/tags/sip/</link>
+      <pubDate>Thu, 19 Apr 2018 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/sip/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://eldiegoefe.github.io/tags/software/</link>
+      <pubDate>Thu, 19 Apr 2018 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clojure</title>
+      <link>https://eldiegoefe.github.io/tags/clojure/</link>
+      <pubDate>Tue, 28 Nov 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/clojure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lisp</title>
+      <link>https://eldiegoefe.github.io/tags/lisp/</link>
+      <pubDate>Tue, 28 Nov 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/lisp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programacion</title>
+      <link>https://eldiegoefe.github.io/tags/programacion/</link>
+      <pubDate>Tue, 28 Nov 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/programacion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scheme</title>
+      <link>https://eldiegoefe.github.io/tags/scheme/</link>
+      <pubDate>Tue, 28 Nov 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/scheme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Autonomia</title>
+      <link>https://eldiegoefe.github.io/tags/autonomia/</link>
+      <pubDate>Wed, 18 Oct 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/autonomia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Minimalismo</title>
+      <link>https://eldiegoefe.github.io/tags/minimalismo/</link>
+      <pubDate>Wed, 18 Oct 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/minimalismo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tiny-Houses</title>
+      <link>https://eldiegoefe.github.io/tags/tiny-houses/</link>
+      <pubDate>Wed, 18 Oct 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/tiny-houses/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bjj</title>
+      <link>https://eldiegoefe.github.io/tags/bjj/</link>
+      <pubDate>Tue, 12 Sep 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/bjj/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://eldiegoefe.github.io/tags/linux/</link>
+      <pubDate>Sun, 03 Sep 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backup</title>
+      <link>https://eldiegoefe.github.io/tags/backup/</link>
+      <pubDate>Wed, 21 Jun 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/backup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rsync</title>
+      <link>https://eldiegoefe.github.io/tags/rsync/</link>
+      <pubDate>Wed, 21 Jun 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/rsync/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Autoaprendizaje</title>
+      <link>https://eldiegoefe.github.io/tags/autoaprendizaje/</link>
+      <pubDate>Wed, 01 Feb 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/autoaprendizaje/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Links</title>
+      <link>https://eldiegoefe.github.io/tags/links/</link>
+      <pubDate>Wed, 01 Feb 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/links/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trabajadores</title>
+      <link>https://eldiegoefe.github.io/tags/trabajadores/</link>
+      <pubDate>Wed, 11 Jan 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/trabajadores/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Calistenia</title>
+      <link>https://eldiegoefe.github.io/tags/calistenia/</link>
+      <pubDate>Fri, 06 Jan 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/calistenia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Freecad</title>
+      <link>https://eldiegoefe.github.io/tags/freecad/</link>
+      <pubDate>Fri, 25 Nov 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/freecad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carpinteria</title>
+      <link>https://eldiegoefe.github.io/tags/carpinteria/</link>
+      <pubDate>Thu, 24 Nov 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/carpinteria/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Madera</title>
+      <link>https://eldiegoefe.github.io/tags/madera/</link>
+      <pubDate>Thu, 24 Nov 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/madera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://eldiegoefe.github.io/tags/c&#43;&#43;/</link>
+      <pubDate>Fri, 04 Nov 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Electronica</title>
+      <link>https://eldiegoefe.github.io/tags/electronica/</link>
+      <pubDate>Fri, 04 Nov 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/electronica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mbed</title>
+      <link>https://eldiegoefe.github.io/tags/mbed/</link>
+      <pubDate>Fri, 04 Nov 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/mbed/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>https://eldiegoefe.github.io/tags/tutorial/</link>
+      <pubDate>Fri, 04 Nov 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Knitting</title>
+      <link>https://eldiegoefe.github.io/tags/machine-knitting/</link>
+      <pubDate>Mon, 24 Oct 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/machine-knitting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Maquinas De Tejer</title>
+      <link>https://eldiegoefe.github.io/tags/maquinas-de-tejer/</link>
+      <pubDate>Mon, 24 Oct 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/maquinas-de-tejer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tejido</title>
+      <link>https://eldiegoefe.github.io/tags/tejido/</link>
+      <pubDate>Mon, 24 Oct 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/tejido/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lady Tricot</title>
+      <link>https://eldiegoefe.github.io/tags/lady-tricot/</link>
+      <pubDate>Sun, 16 Oct 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/lady-tricot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agenda</title>
+      <link>https://eldiegoefe.github.io/tags/agenda/</link>
+      <pubDate>Thu, 07 Jan 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/agenda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Org-Mode</title>
+      <link>https://eldiegoefe.github.io/tags/org-mode/</link>
+      <pubDate>Thu, 07 Jan 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/org-mode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diccionarios</title>
+      <link>https://eldiegoefe.github.io/tags/diccionarios/</link>
+      <pubDate>Fri, 11 Dec 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/diccionarios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Funciones</title>
+      <link>https://eldiegoefe.github.io/tags/funciones/</link>
+      <pubDate>Fri, 11 Dec 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/funciones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Democracia</title>
+      <link>https://eldiegoefe.github.io/tags/democracia/</link>
+      <pubDate>Sat, 31 Oct 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/democracia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keybindings</title>
+      <link>https://eldiegoefe.github.io/tags/keybindings/</link>
+      <pubDate>Thu, 24 Sep 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/keybindings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spacemacs</title>
+      <link>https://eldiegoefe.github.io/tags/spacemacs/</link>
+      <pubDate>Thu, 24 Sep 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/spacemacs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tiempo</title>
+      <link>https://eldiegoefe.github.io/tags/tiempo/</link>
+      <pubDate>Sun, 07 Jun 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/tiempo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Busquedas</title>
+      <link>https://eldiegoefe.github.io/tags/busquedas/</link>
+      <pubDate>Wed, 27 May 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/busquedas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Isearch</title>
+      <link>https://eldiegoefe.github.io/tags/isearch/</link>
+      <pubDate>Wed, 27 May 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/isearch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://eldiegoefe.github.io/tags/git/</link>
+      <pubDate>Wed, 20 May 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pelican</title>
+      <link>https://eldiegoefe.github.io/tags/pelican/</link>
+      <pubDate>Wed, 20 May 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/pelican/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Salarios</title>
+      <link>https://eldiegoefe.github.io/tags/salarios/</link>
+      <pubDate>Sat, 25 Apr 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/salarios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Universidad</title>
+      <link>https://eldiegoefe.github.io/tags/universidad/</link>
+      <pubDate>Sat, 25 Apr 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/universidad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digikam</title>
+      <link>https://eldiegoefe.github.io/tags/digikam/</link>
+      <pubDate>Fri, 16 Jan 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/digikam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tips</title>
+      <link>https://eldiegoefe.github.io/tags/tips/</link>
+      <pubDate>Fri, 16 Jan 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/tips/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Darktable</title>
+      <link>https://eldiegoefe.github.io/tags/darktable/</link>
+      <pubDate>Tue, 13 Jan 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/darktable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Internet</title>
+      <link>https://eldiegoefe.github.io/tags/internet/</link>
+      <pubDate>Sun, 11 Jan 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/internet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Musica</title>
+      <link>https://eldiegoefe.github.io/tags/musica/</link>
+      <pubDate>Sun, 11 Jan 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/musica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Humor</title>
+      <link>https://eldiegoefe.github.io/tags/humor/</link>
+      <pubDate>Fri, 09 Jan 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/humor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Islam</title>
+      <link>https://eldiegoefe.github.io/tags/islam/</link>
+      <pubDate>Fri, 09 Jan 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/islam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Judios</title>
+      <link>https://eldiegoefe.github.io/tags/judios/</link>
+      <pubDate>Fri, 09 Jan 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/judios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cine</title>
+      <link>https://eldiegoefe.github.io/tags/cine/</link>
+      <pubDate>Thu, 08 Jan 2015 23:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/cine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cronica</title>
+      <link>https://eldiegoefe.github.io/tags/cronica/</link>
+      <pubDate>Thu, 08 Jan 2015 23:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/cronica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dired</title>
+      <link>https://eldiegoefe.github.io/tags/dired/</link>
+      <pubDate>Fri, 26 Dec 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/dired/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artes Marciales</title>
+      <link>https://eldiegoefe.github.io/tags/artes-marciales/</link>
+      <pubDate>Sun, 14 Dec 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/artes-marciales/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pakua</title>
+      <link>https://eldiegoefe.github.io/tags/pakua/</link>
+      <pubDate>Sat, 06 Dec 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/pakua/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Taichi</title>
+      <link>https://eldiegoefe.github.io/tags/taichi/</link>
+      <pubDate>Sat, 06 Dec 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/taichi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Facultad</title>
+      <link>https://eldiegoefe.github.io/tags/facultad/</link>
+      <pubDate>Tue, 18 Nov 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/facultad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alumnos</title>
+      <link>https://eldiegoefe.github.io/tags/alumnos/</link>
+      <pubDate>Mon, 17 Nov 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/alumnos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Manjaro</title>
+      <link>https://eldiegoefe.github.io/tags/manjaro/</link>
+      <pubDate>Sat, 08 Nov 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/manjaro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pandoc</title>
+      <link>https://eldiegoefe.github.io/tags/pandoc/</link>
+      <pubDate>Sat, 08 Nov 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/pandoc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Restructuredtext</title>
+      <link>https://eldiegoefe.github.io/tags/restructuredtext/</link>
+      <pubDate>Sat, 08 Nov 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/restructuredtext/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recomendaciones</title>
+      <link>https://eldiegoefe.github.io/tags/recomendaciones/</link>
+      <pubDate>Sat, 25 Oct 2014 11:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/recomendaciones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recuerdos</title>
+      <link>https://eldiegoefe.github.io/tags/recuerdos/</link>
+      <pubDate>Sat, 25 Oct 2014 11:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/recuerdos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mageia</title>
+      <link>https://eldiegoefe.github.io/tags/mageia/</link>
+      <pubDate>Wed, 22 Oct 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/mageia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Particiones</title>
+      <link>https://eldiegoefe.github.io/tags/particiones/</link>
+      <pubDate>Wed, 22 Oct 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/particiones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terminal</title>
+      <link>https://eldiegoefe.github.io/tags/terminal/</link>
+      <pubDate>Wed, 22 Oct 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/terminal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Listas</title>
+      <link>https://eldiegoefe.github.io/tags/listas/</link>
+      <pubDate>Wed, 15 Oct 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/listas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Control De Versiones</title>
+      <link>https://eldiegoefe.github.io/tags/control-de-versiones/</link>
+      <pubDate>Fri, 10 Oct 2014 11:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/control-de-versiones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Edicion</title>
+      <link>https://eldiegoefe.github.io/tags/edicion/</link>
+      <pubDate>Wed, 08 Oct 2014 11:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/edicion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kde</title>
+      <link>https://eldiegoefe.github.io/tags/kde/</link>
+      <pubDate>Wed, 08 Oct 2014 11:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/kde/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workflow</title>
+      <link>https://eldiegoefe.github.io/tags/workflow/</link>
+      <pubDate>Wed, 08 Oct 2014 11:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/workflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cheat Sheet</title>
+      <link>https://eldiegoefe.github.io/tags/cheat-sheet/</link>
+      <pubDate>Wed, 08 Oct 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/cheat-sheet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Imagenes</title>
+      <link>https://eldiegoefe.github.io/tags/imagenes/</link>
+      <pubDate>Wed, 24 Sep 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/imagenes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pdf</title>
+      <link>https://eldiegoefe.github.io/tags/pdf/</link>
+      <pubDate>Wed, 24 Sep 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/pdf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video</title>
+      <link>https://eldiegoefe.github.io/tags/video/</link>
+      <pubDate>Tue, 23 Sep 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/video/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Youtube</title>
+      <link>https://eldiegoefe.github.io/tags/youtube/</link>
+      <pubDate>Tue, 23 Sep 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/youtube/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Instalacion</title>
+      <link>https://eldiegoefe.github.io/tags/instalacion/</link>
+      <pubDate>Fri, 22 Aug 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/instalacion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ipython</title>
+      <link>https://eldiegoefe.github.io/tags/ipython/</link>
+      <pubDate>Fri, 22 Aug 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/ipython/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pip</title>
+      <link>https://eldiegoefe.github.io/tags/pip/</link>
+      <pubDate>Fri, 22 Aug 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/pip/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Root</title>
+      <link>https://eldiegoefe.github.io/tags/root/</link>
+      <pubDate>Fri, 22 Aug 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/root/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Common-Lisp</title>
+      <link>https://eldiegoefe.github.io/tags/common-lisp/</link>
+      <pubDate>Wed, 13 Aug 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/common-lisp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yasnippets</title>
+      <link>https://eldiegoefe.github.io/tags/yasnippets/</link>
+      <pubDate>Sun, 10 Aug 2014 10:02:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/yasnippets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mint</title>
+      <link>https://eldiegoefe.github.io/tags/mint/</link>
+      <pubDate>Wed, 06 Aug 2014 11:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/mint/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Compras</title>
+      <link>https://eldiegoefe.github.io/tags/compras/</link>
+      <pubDate>Sun, 03 Aug 2014 10:30:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/compras/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computadoras</title>
+      <link>https://eldiegoefe.github.io/tags/computadoras/</link>
+      <pubDate>Sun, 03 Aug 2014 10:30:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/computadoras/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graficacion</title>
+      <link>https://eldiegoefe.github.io/tags/graficacion/</link>
+      <pubDate>Sun, 03 Aug 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/graficacion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matplotlib</title>
+      <link>https://eldiegoefe.github.io/tags/matplotlib/</link>
+      <pubDate>Sun, 03 Aug 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/matplotlib/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Usb</title>
+      <link>https://eldiegoefe.github.io/tags/usb/</link>
+      <pubDate>Thu, 31 Jul 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/usb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Relatos</title>
+      <link>https://eldiegoefe.github.io/tags/relatos/</link>
+      <pubDate>Mon, 19 May 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/relatos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anarquismo</title>
+      <link>https://eldiegoefe.github.io/tags/anarquismo/</link>
+      <pubDate>Wed, 30 Apr 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/anarquismo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Boot</title>
+      <link>https://eldiegoefe.github.io/tags/boot/</link>
+      <pubDate>Wed, 12 Feb 2014 10:30:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/boot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Grub</title>
+      <link>https://eldiegoefe.github.io/tags/grub/</link>
+      <pubDate>Wed, 12 Feb 2014 10:30:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/grub/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>https://eldiegoefe.github.io/tags/windows/</link>
+      <pubDate>Wed, 12 Feb 2014 10:30:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fedora</title>
+      <link>https://eldiegoefe.github.io/tags/fedora/</link>
+      <pubDate>Sun, 09 Feb 2014 11:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/fedora/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gnome</title>
+      <link>https://eldiegoefe.github.io/tags/gnome/</link>
+      <pubDate>Sun, 09 Feb 2014 11:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/gnome/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jekyll</title>
+      <link>https://eldiegoefe.github.io/tags/jekyll/</link>
+      <pubDate>Sun, 09 Feb 2014 10:30:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Octopress</title>
+      <link>https://eldiegoefe.github.io/tags/octopress/</link>
+      <pubDate>Sun, 09 Feb 2014 10:30:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/octopress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Videos</title>
+      <link>https://eldiegoefe.github.io/tags/videos/</link>
+      <pubDate>Sun, 03 Jan 2010 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/videos/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

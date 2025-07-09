@@ -1,51 +1,28 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Autonomia - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/autonomia/</link>
-        <description>Autonomia - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 18 Oct 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/autonomia/" rel="self" type="application/rss+xml" /><item>
-    <title>Casitas y minimalismo</title>
-    <link>https://eldiegoefe.github.io/casitas-y-minimalismo/</link>
-    <pubDate>Wed, 18 Oct 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/casitas-y-minimalismo/</guid>
-    <description><![CDATA[<p>Espero el colapso universal, pero es aburrida la inactividad. Por eso consumo,
-sobre todo contenidos online. Entre las montañas de basura digital hay pasadizos
-que cada tanto quedan parcialmente expuestos, y por algún reflejo imprevisto
-delatan su presencia e invocan mi exploración. El año pasado, en algún momento,
-mientras las paredes de un departamento céntrico cercaban mi libertad casi tanto
-como el horario laboral, descubrí el movimiento de las <em>tiny houses</em> (casitas) y
-temas aledaños.</p>]]></description>
-</item>
-<item>
-    <title>Autoaprendizajes</title>
-    <link>https://eldiegoefe.github.io/autoaprendizajes/</link>
-    <pubDate>Fri, 10 Oct 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/autoaprendizajes/</guid>
-    <description><![CDATA[<p>No recuerdo en qué momento fue que pronuncié las palabras mágicas, pero cuando
-sea que haya ocurrido, se abrieron portales hacia temas inexplorados dentro de
-un mundo que creía conocer.</p>
-<p>En los últimos meses (¿10? ¿20?) me encontré con:</p>
-<ul>
-<li>un lenguaje de programación fantástico por su sencillez y potencia
-(<a href="https://www.python.org/" target="_blank" rel="noopener noreffer">Python</a>), junto con un conjunto de
-librerías para tareas científicas: matplotlib, numpy, pandas, etc.</li>
-<li>la idea del control de versiones (que es una herramienta magnífica
-para quienes escribimos todo tipo de textos que al ir corrigiendo
-dejan una huella dificil de seguir desde su versión inicial hacia su
-versión actual, ya sea que se trate de programas, entradas de blog o
-informes científicos o técnicos). En particular Git y
-<a href="https://github.com/" target="_blank" rel="noopener noreffer">GitHub</a>.</li>
-<li>el deseo de colaborar en el desarrollo colectivo de software, cosa
-que creo que en el futuro de mediano plazo espero concretar.</li>
-</ul>
-<p>Avancé con el aprendizaje de Emacs (con
-<a href="http://batsov.com/prelude/" target="_blank" rel="noopener noreffer">Prelude</a>, actualmente en uso, y
-<a href="http://ergoemacs.org/" target="_blank" rel="noopener noreffer">Ergoemacs</a>, que por el momento dejé de usar pero
-igual creo que está buenísimo, de ahí surgió el interés por los teclados
-con distribución <a href="http://es.wikipedia.org/wiki/Teclado_Dvorak" target="_blank" rel="noopener noreffer">Dvorak</a>
-que uso actualmente), descubrí el <a href="http://ipython.org/" target="_blank" rel="noopener noreffer">IPython
-Notebook</a> (y encadenado con eso ahora descubrí el
-lenguaje <a href="http://julialang.org/" target="_blank" rel="noopener noreffer">Julia</a>). Aca pueden ver una imagen del
-IPython Notebook mientras lo usaba para un trabajo de Dosimetría.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autonomia on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/autonomia/</link>
+    <description>Recent content in Autonomia on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Wed, 18 Oct 2017 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/autonomia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Casitas y minimalismo</title>
+      <link>https://eldiegoefe.github.io/casitas-y-minimalismo/</link>
+      <pubDate>Wed, 18 Oct 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/casitas-y-minimalismo/</guid>
+      <description>&lt;p&gt;Espero el colapso universal, pero es aburrida la inactividad. Por eso consumo,&#xA;sobre todo contenidos online. Entre las montañas de basura digital hay pasadizos&#xA;que cada tanto quedan parcialmente expuestos, y por algún reflejo imprevisto&#xA;delatan su presencia e invocan mi exploración. El año pasado, en algún momento,&#xA;mientras las paredes de un departamento céntrico cercaban mi libertad casi tanto&#xA;como el horario laboral, descubrí el movimiento de las &lt;em&gt;tiny houses&lt;/em&gt; (casitas) y&#xA;temas aledaños.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Autoaprendizajes</title>
+      <link>https://eldiegoefe.github.io/autoaprendizajes/</link>
+      <pubDate>Fri, 10 Oct 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/autoaprendizajes/</guid>
+      <description>&lt;p&gt;No recuerdo en qué momento fue que pronuncié las palabras mágicas, pero cuando&#xA;sea que haya ocurrido, se abrieron portales hacia temas inexplorados dentro de&#xA;un mundo que creía conocer.&lt;/p&gt;&#xA;&lt;p&gt;En los últimos meses (¿10? ¿20?) me encontré con:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;un lenguaje de programación fantástico por su sencillez y potencia&#xA;(&lt;a href=&#34;https://www.python.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Python&lt;/a&gt;), junto con un conjunto de&#xA;librerías para tareas científicas: matplotlib, numpy, pandas, etc.&lt;/li&gt;&#xA;&lt;li&gt;la idea del control de versiones (que es una herramienta magnífica&#xA;para quienes escribimos todo tipo de textos que al ir corrigiendo&#xA;dejan una huella dificil de seguir desde su versión inicial hacia su&#xA;versión actual, ya sea que se trate de programas, entradas de blog o&#xA;informes científicos o técnicos). En particular Git y&#xA;&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;GitHub&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;el deseo de colaborar en el desarrollo colectivo de software, cosa&#xA;que creo que en el futuro de mediano plazo espero concretar.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Avancé con el aprendizaje de Emacs (con&#xA;&lt;a href=&#34;http://batsov.com/prelude/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Prelude&lt;/a&gt;, actualmente en uso, y&#xA;&lt;a href=&#34;http://ergoemacs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Ergoemacs&lt;/a&gt;, que por el momento dejé de usar pero&#xA;igual creo que está buenísimo, de ahí surgió el interés por los teclados&#xA;con distribución &lt;a href=&#34;http://es.wikipedia.org/wiki/Teclado_Dvorak&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Dvorak&lt;/a&gt;&#xA;que uso actualmente), descubrí el &lt;a href=&#34;http://ipython.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;IPython&#xA;Notebook&lt;/a&gt; (y encadenado con eso ahora descubrí el&#xA;lenguaje &lt;a href=&#34;http://julialang.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;Julia&lt;/a&gt;). Aca pueden ver una imagen del&#xA;IPython Notebook mientras lo usaba para un trabajo de Dosimetría.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

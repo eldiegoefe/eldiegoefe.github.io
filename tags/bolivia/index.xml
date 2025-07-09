@@ -1,24 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Bolivia - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/bolivia/</link>
-        <description>Bolivia - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Tue, 12 Nov 2019 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/bolivia/" rel="self" type="application/rss+xml" /><item>
-    <title>Historia del Evomoralito y el Golpismo Feroz</title>
-    <link>https://eldiegoefe.github.io/historia-del-evomoralito-y-el-golpismo-feroz/</link>
-    <pubDate>Tue, 12 Nov 2019 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/historia-del-evomoralito-y-el-golpismo-feroz/</guid>
-    <description><![CDATA[<p>La fatiga cerebral reduce la realidad que experimentamos a términos antagónicos.
-A diferencia de las computadoras que con suficientes números binarios son
-capaces de representar problemas complejos, los seres humanos venimos
-acostumbrándonos a pensar cada vez con menos dígitos, hasta el extremo de usar
-solamente uno para diferenciar entre lo prendido y lo apagado, lo blanco y lo
-negro, lo progre y lo facho, lo boca y lo river, lo derecha y lo izquierda. Con
-sólo disponer de categorías opuestas, el universo conceptual queda deshidratado
-a su mínima expresión. La realidad política que puede pensar un sujeto así, cuyo
-cerebro cuenta tan solo con una placa gráfica de 1 bit, se parece más a un
-pacman monocromático de bordes cuadrados que al rostro ultrarrealista de los
-jugadores del FIFA 2020. Terminator ha ganado.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bolivia on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/bolivia/</link>
+    <description>Recent content in Bolivia on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Tue, 12 Nov 2019 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/bolivia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Historia del Evomoralito y el Golpismo Feroz</title>
+      <link>https://eldiegoefe.github.io/historia-del-evomoralito-y-el-golpismo-feroz/</link>
+      <pubDate>Tue, 12 Nov 2019 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/historia-del-evomoralito-y-el-golpismo-feroz/</guid>
+      <description>&lt;p&gt;La fatiga cerebral reduce la realidad que experimentamos a términos antagónicos.&#xA;A diferencia de las computadoras que con suficientes números binarios son&#xA;capaces de representar problemas complejos, los seres humanos venimos&#xA;acostumbrándonos a pensar cada vez con menos dígitos, hasta el extremo de usar&#xA;solamente uno para diferenciar entre lo prendido y lo apagado, lo blanco y lo&#xA;negro, lo progre y lo facho, lo boca y lo river, lo derecha y lo izquierda. Con&#xA;sólo disponer de categorías opuestas, el universo conceptual queda deshidratado&#xA;a su mínima expresión. La realidad política que puede pensar un sujeto así, cuyo&#xA;cerebro cuenta tan solo con una placa gráfica de 1 bit, se parece más a un&#xA;pacman monocromático de bordes cuadrados que al rostro ultrarrealista de los&#xA;jugadores del FIFA 2020. Terminator ha ganado.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

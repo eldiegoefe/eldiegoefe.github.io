@@ -1,55 +1,35 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Universidad - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/universidad/</link>
-        <description>Universidad - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sat, 25 Apr 2015 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/universidad/" rel="self" type="application/rss+xml" /><item>
-    <title>¿Cuánto debe ganar un docente, un médico, un investigador?</title>
-    <link>https://eldiegoefe.github.io/cu%C3%A1nto-debe-ganar-un-docente-un-m%C3%A9dico-un-investigador/</link>
-    <pubDate>Sat, 25 Apr 2015 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/cu%C3%A1nto-debe-ganar-un-docente-un-m%C3%A9dico-un-investigador/</guid>
-    <description><![CDATA[<p>Los docentes universitarios, cuya realidad conozco de cerca, reclaman desde hace
-mucho tiempo algo así como la canasta familiar para el cargo &quot;full time&quot; de
-menor jerarquía. El &quot;full time&quot; o &quot;dedicación exclusiva&quot; es un trabajo que
-ocupa 40 horas a la semana. Y la pirámide, en orden ascendente de grossitud,
-comienza con el auxiliar de primera categoría, y sigue con el jefe de trabajos
-prácticos, el profesor adjunto, el profesor asociado y el profesor titular. Por
-ende, el reclamo se traduce como <strong>un salario equivalente a la canasta familiar
-para el auxiliar de primera que trabaja 5 días de 8 horas</strong>. Cada escalón
-jerárquico por encima del auxiliar recibe un 20% más de salario. Y la antigüedad
-llega a aportar un 120% extra para los que trabajaron más de 24 años.</p>]]></description>
-</item>
-<item>
-    <title>Modos de arruinar la educación superior (Parte II)</title>
-    <link>https://eldiegoefe.github.io/modos-de-arruinar-la-educaci%C3%B3n-superior-parte-ii/</link>
-    <pubDate>Wed, 16 Apr 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/modos-de-arruinar-la-educaci%C3%B3n-superior-parte-ii/</guid>
-    <description><![CDATA[<p>Recuento acerca de la insatisfacción por la enseñanza en la universidad (Parte
-II).</p>
-<p>Hola, les agradezco las respuestas, realmente, y no me niego al encuentro para
-discutir estas preocupaciones compartidas. Mientras esperamos el acontecimiento
-(roguemos a Odín que incluya cerveza negra) quiero continuar &ndash;quizás me repita
-un poco&ndash;, resaltando que lo importante no es mi estado de ánimo sino el
-intercambio de perspectivas y propuestas de acción (por ejemplo: que los
-funcionarios cobren de acuerdo con su cargo docente, que se condensen las
-dedicaciones parciales y simples en dedicaciones exclusivas, que el salario
-permita comprar una vivienda en un tiempo razonable, etc). Lo mío es escribir
-consignas y panfletos, pero quizás no sea del todo inútil (tanto yo como esta
-acción). Al menos este ejercicio sirve para tener letra al alcance de la mano en
-caso de que se nos interponga alguna Asamblea en un futuro cercano (es una
-ironía para conmigo mismo), aunque como es de público conocimiento las Asambleas
-ya no son tan respetadas.</p>]]></description>
-</item>
-<item>
-    <title>Modos de arruinar la educación superior (Parte I)</title>
-    <link>https://eldiegoefe.github.io/modos-de-arruinar-la-educaci%C3%B3n-superior-parte-i/</link>
-    <pubDate>Tue, 15 Apr 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/modos-de-arruinar-la-educaci%C3%B3n-superior-parte-i/</guid>
-    <description><![CDATA[<p>Recuento acerca de la insatisfacción por la enseñanza en la universidad (Parte
-I). (<em>Esto fue un mail al foro UNER Debate, tendría que incluir todas las
-respuestas...</em>)</p>
-<p>Hola. Me resulta raro escribir después de tanto tiempo. En vez de convocar a
-construcciones gremiales postergadas o entretenerme con las ruinas del
-kirchnerismo y sus espejismos para feligreses, tenía ganas de compartir algunas
-ideas que me rondan acerca del trabajo docente, que estoy próximo a suspender.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Universidad on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/universidad/</link>
+    <description>Recent content in Universidad on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sat, 25 Apr 2015 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/universidad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Cuánto debe ganar un docente, un médico, un investigador?</title>
+      <link>https://eldiegoefe.github.io/cu%C3%A1nto-debe-ganar-un-docente-un-m%C3%A9dico-un-investigador/</link>
+      <pubDate>Sat, 25 Apr 2015 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/cu%C3%A1nto-debe-ganar-un-docente-un-m%C3%A9dico-un-investigador/</guid>
+      <description>&lt;p&gt;Los docentes universitarios, cuya realidad conozco de cerca, reclaman desde hace&#xA;mucho tiempo algo así como la canasta familiar para el cargo &amp;quot;full time&amp;quot; de&#xA;menor jerarquía. El &amp;quot;full time&amp;quot; o &amp;quot;dedicación exclusiva&amp;quot; es un trabajo que&#xA;ocupa 40 horas a la semana. Y la pirámide, en orden ascendente de grossitud,&#xA;comienza con el auxiliar de primera categoría, y sigue con el jefe de trabajos&#xA;prácticos, el profesor adjunto, el profesor asociado y el profesor titular. Por&#xA;ende, el reclamo se traduce como &lt;strong&gt;un salario equivalente a la canasta familiar&#xA;para el auxiliar de primera que trabaja 5 días de 8 horas&lt;/strong&gt;. Cada escalón&#xA;jerárquico por encima del auxiliar recibe un 20% más de salario. Y la antigüedad&#xA;llega a aportar un 120% extra para los que trabajaron más de 24 años.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modos de arruinar la educación superior (Parte II)</title>
+      <link>https://eldiegoefe.github.io/modos-de-arruinar-la-educaci%C3%B3n-superior-parte-ii/</link>
+      <pubDate>Wed, 16 Apr 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/modos-de-arruinar-la-educaci%C3%B3n-superior-parte-ii/</guid>
+      <description>&lt;p&gt;Recuento acerca de la insatisfacción por la enseñanza en la universidad (Parte&#xA;II).&lt;/p&gt;&#xA;&lt;p&gt;Hola, les agradezco las respuestas, realmente, y no me niego al encuentro para&#xA;discutir estas preocupaciones compartidas. Mientras esperamos el acontecimiento&#xA;(roguemos a Odín que incluya cerveza negra) quiero continuar &amp;ndash;quizás me repita&#xA;un poco&amp;ndash;, resaltando que lo importante no es mi estado de ánimo sino el&#xA;intercambio de perspectivas y propuestas de acción (por ejemplo: que los&#xA;funcionarios cobren de acuerdo con su cargo docente, que se condensen las&#xA;dedicaciones parciales y simples en dedicaciones exclusivas, que el salario&#xA;permita comprar una vivienda en un tiempo razonable, etc). Lo mío es escribir&#xA;consignas y panfletos, pero quizás no sea del todo inútil (tanto yo como esta&#xA;acción). Al menos este ejercicio sirve para tener letra al alcance de la mano en&#xA;caso de que se nos interponga alguna Asamblea en un futuro cercano (es una&#xA;ironía para conmigo mismo), aunque como es de público conocimiento las Asambleas&#xA;ya no son tan respetadas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modos de arruinar la educación superior (Parte I)</title>
+      <link>https://eldiegoefe.github.io/modos-de-arruinar-la-educaci%C3%B3n-superior-parte-i/</link>
+      <pubDate>Tue, 15 Apr 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/modos-de-arruinar-la-educaci%C3%B3n-superior-parte-i/</guid>
+      <description>&lt;p&gt;Recuento acerca de la insatisfacción por la enseñanza en la universidad (Parte&#xA;I). (&lt;em&gt;Esto fue un mail al foro UNER Debate, tendría que incluir todas las&#xA;respuestas...&lt;/em&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Hola. Me resulta raro escribir después de tanto tiempo. En vez de convocar a&#xA;construcciones gremiales postergadas o entretenerme con las ruinas del&#xA;kirchnerismo y sus espejismos para feligreses, tenía ganas de compartir algunas&#xA;ideas que me rondan acerca del trabajo docente, que estoy próximo a suspender.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

@@ -1,23 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Backup - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/backup/</link>
-        <description>Backup - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Wed, 21 Jun 2017 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/backup/" rel="self" type="application/rss+xml" /><item>
-    <title>Backup con RSync</title>
-    <link>https://eldiegoefe.github.io/backup-con-rsync/</link>
-    <pubDate>Wed, 21 Jun 2017 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/backup-con-rsync/</guid>
-    <description><![CDATA[<p>RSync es un programa que permite copiar archivos, pero a diferencia de un
-copiado común, compara los archivos de origen y destino y sólo realiza la
-transferencia de la diferencia entre ambos: si son iguales no transfiere nada,
-si es un archivo de texto y se agregó sólo un caracter, RSync envía unicamente
-ese caracter y reconstruye el archivo en el destino para que ambas copias sean
-exactamente iguales. De este modo el procedimiento es más eficiente, en
-particular si se copian archivos grandes. La copia se puede realizar entre
-cualquier directorio de origen y destino, ya sea que se encuentren en un mismo
-disco rígido, en diferentes discos en una misma computadora o también entre una
-máquina local y una remota (o viceversa).</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backup on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/backup/</link>
+    <description>Recent content in Backup on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Wed, 21 Jun 2017 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backup con RSync</title>
+      <link>https://eldiegoefe.github.io/backup-con-rsync/</link>
+      <pubDate>Wed, 21 Jun 2017 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/backup-con-rsync/</guid>
+      <description>&lt;p&gt;RSync es un programa que permite copiar archivos, pero a diferencia de un&#xA;copiado común, compara los archivos de origen y destino y sólo realiza la&#xA;transferencia de la diferencia entre ambos: si son iguales no transfiere nada,&#xA;si es un archivo de texto y se agregó sólo un caracter, RSync envía unicamente&#xA;ese caracter y reconstruye el archivo en el destino para que ambas copias sean&#xA;exactamente iguales. De este modo el procedimiento es más eficiente, en&#xA;particular si se copian archivos grandes. La copia se puede realizar entre&#xA;cualquier directorio de origen y destino, ya sea que se encuentren en un mismo&#xA;disco rígido, en diferentes discos en una misma computadora o también entre una&#xA;máquina local y una remota (o viceversa).&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

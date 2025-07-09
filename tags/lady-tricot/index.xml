@@ -1,22 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Lady Tricot - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/lady-tricot/</link>
-        <description>Lady Tricot - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Sun, 16 Oct 2016 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/lady-tricot/" rel="self" type="application/rss+xml" /><item>
-    <title>Bienvenido a la máquina</title>
-    <link>https://eldiegoefe.github.io/bienvenido-a-la-m%C3%A1quina/</link>
-    <pubDate>Sun, 16 Oct 2016 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/bienvenido-a-la-m%C3%A1quina/</guid>
-    <description><![CDATA[<p>Estuvimos analizando la compra de una máquina de tejer con la Genia Tejedora. Al
-final había más opciones que la desolación de las primeras búsquedas tras las
-cuales no habíamos encontrado casi nada. Pero tras insistir con las búsquedas se
-desplegaron muchas alternativas y tuvimos que elegir: comprar máquinas nuevas
-(que aseguran el funcionamiento pero son caras y de calidades incomprobables en
-particular las de origen chino), comprar máquinas refaccionadas a particulares
-(mucho más baratas y con garantía de funcionamiento pero antiguas), máquinas
-usadas en diverso estado a través de Mercado Libre (imposible estar seguro de lo
-que uno recibirá).</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lady Tricot on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/lady-tricot/</link>
+    <description>Recent content in Lady Tricot on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Sun, 16 Oct 2016 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/lady-tricot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bienvenido a la máquina</title>
+      <link>https://eldiegoefe.github.io/bienvenido-a-la-m%C3%A1quina/</link>
+      <pubDate>Sun, 16 Oct 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/bienvenido-a-la-m%C3%A1quina/</guid>
+      <description>&lt;p&gt;Estuvimos analizando la compra de una máquina de tejer con la Genia Tejedora. Al&#xA;final había más opciones que la desolación de las primeras búsquedas tras las&#xA;cuales no habíamos encontrado casi nada. Pero tras insistir con las búsquedas se&#xA;desplegaron muchas alternativas y tuvimos que elegir: comprar máquinas nuevas&#xA;(que aseguran el funcionamiento pero son caras y de calidades incomprobables en&#xA;particular las de origen chino), comprar máquinas refaccionadas a particulares&#xA;(mucho más baratas y con garantía de funcionamiento pero antiguas), máquinas&#xA;usadas en diverso estado a través de Mercado Libre (imposible estar seguro de lo&#xA;que uno recibirá).&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

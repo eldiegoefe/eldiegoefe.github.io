@@ -1,33 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Dired - Etiqueta - Certezas Dudosas</title>
-        <link>https://eldiegoefe.github.io/tags/dired/</link>
-        <description>Dired - Etiqueta - Certezas Dudosas</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
-            <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster><lastBuildDate>Fri, 26 Dec 2014 10:00:00 &#43;0000</lastBuildDate><atom:link href="https://eldiegoefe.github.io/tags/dired/" rel="self" type="application/rss+xml" /><item>
-    <title>Comandante Emacs (dired-mode)</title>
-    <link>https://eldiegoefe.github.io/comandante-emacs-dired-mode/</link>
-    <pubDate>Fri, 26 Dec 2014 10:00:00 &#43;0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author><guid>https://eldiegoefe.github.io/comandante-emacs-dired-mode/</guid>
-    <description><![CDATA[<p>Estuve un rato largo (¡horas!) viendo cómo usar el modo &quot;dired&quot; que tiene
-Emacs para el manejo de archivos, porque quiero usarlo al modo del viejo
-Comandante Norton (y sus clones: Total Commander en Window$, Krusader
-especialmente para KDE, etc). Es decir: dos paneles que sirven de inicio y de
-destino para poder copiar y mover archivos, crear directorios, navegarlos, etc.</p>
-<figure><figcaption>
-      <h4>Buffer mostrando un directorio con dired-mode</h4>
-    </figcaption>
-</figure>
-
-<p>Lo primero que hice fue instalar un paquete que amplía las opciones
-disponibles llamado dired+ (dired plus) y después instalé otra extensión
-llamada dired-sort-menu. La información sobre la instalación de estos
-paquetes da por supuesto que uno ya tiene experiencia en Emacs, y a
-pesar de que yo lo uso hace casi un año y he instalado y desinstalado
-muchas extensiones, estuve un rato para darme cuenta de algo que no
-figura en <a href="http://www.emacswiki.org/emacs/DiredPlus" target="_blank" rel="noopener noreffer">la página de
-dired+</a>. En el archivo de
-configuración de Emacs (init.el, custom.el o el que estemos utilizando)
-es imprescindible agregar la orden siguiente:</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dired on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/dired/</link>
+    <description>Recent content in Dired on Certezas Dudosas</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
+    <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
+    <lastBuildDate>Fri, 26 Dec 2014 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/dired/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comandante Emacs (dired-mode)</title>
+      <link>https://eldiegoefe.github.io/comandante-emacs-dired-mode/</link>
+      <pubDate>Fri, 26 Dec 2014 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/comandante-emacs-dired-mode/</guid>
+      <description>&lt;p&gt;Estuve un rato largo (¡horas!) viendo cómo usar el modo &amp;quot;dired&amp;quot; que tiene&#xA;Emacs para el manejo de archivos, porque quiero usarlo al modo del viejo&#xA;Comandante Norton (y sus clones: Total Commander en Window$, Krusader&#xA;especialmente para KDE, etc). Es decir: dos paneles que sirven de inicio y de&#xA;destino para poder copiar y mover archivos, crear directorios, navegarlos, etc.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://live.staticflickr.com/7526/15668751884_b2fa8f9d5b_c.jpg&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Buffer mostrando un directorio con dired-mode&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Lo primero que hice fue instalar un paquete que amplía las opciones&#xA;disponibles llamado dired+ (dired plus) y después instalé otra extensión&#xA;llamada dired-sort-menu. La información sobre la instalación de estos&#xA;paquetes da por supuesto que uno ya tiene experiencia en Emacs, y a&#xA;pesar de que yo lo uso hace casi un año y he instalado y desinstalado&#xA;muchas extensiones, estuve un rato para darme cuenta de algo que no&#xA;figura en &lt;a href=&#34;http://www.emacswiki.org/emacs/DiredPlus&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;la página de&#xA;dired+&lt;/a&gt;. En el archivo de&#xA;configuración de Emacs (init.el, custom.el o el que estemos utilizando)&#xA;es imprescindible agregar la orden siguiente:&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>
