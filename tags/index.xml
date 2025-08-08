@@ -8,8 +8,36 @@
     <language>en</language>
     <managingEditor>eldiegoefe@gmail.com (Diego Efe)</managingEditor>
     <webMaster>eldiegoefe@gmail.com (Diego Efe)</webMaster>
-    <lastBuildDate>Tue, 19 Mar 2024 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Aug 2025 10:00:00 +0000</lastBuildDate>
     <atom:link href="https://eldiegoefe.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guerra</title>
+      <link>https://eldiegoefe.github.io/tags/guerra/</link>
+      <pubDate>Fri, 08 Aug 2025 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/guerra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Israel</title>
+      <link>https://eldiegoefe.github.io/tags/israel/</link>
+      <pubDate>Fri, 08 Aug 2025 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/israel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opinion</title>
+      <link>https://eldiegoefe.github.io/tags/opinion/</link>
+      <pubDate>Fri, 08 Aug 2025 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/opinion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Palestina</title>
+      <link>https://eldiegoefe.github.io/tags/palestina/</link>
+      <pubDate>Fri, 08 Aug 2025 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/palestina/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Fotografia</title>
       <link>https://eldiegoefe.github.io/tags/fotografia/</link>
@@ -22,34 +50,6 @@
       <link>https://eldiegoefe.github.io/tags/zine/</link>
       <pubDate>Sat, 25 Nov 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
       <guid>https://eldiegoefe.github.io/tags/zine/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Guerra</title>
-      <link>https://eldiegoefe.github.io/tags/guerra/</link>
-      <pubDate>Wed, 15 Nov 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
-      <guid>https://eldiegoefe.github.io/tags/guerra/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Israel</title>
-      <link>https://eldiegoefe.github.io/tags/israel/</link>
-      <pubDate>Wed, 15 Nov 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
-      <guid>https://eldiegoefe.github.io/tags/israel/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Opinion</title>
-      <link>https://eldiegoefe.github.io/tags/opinion/</link>
-      <pubDate>Wed, 15 Nov 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
-      <guid>https://eldiegoefe.github.io/tags/opinion/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Palestina</title>
-      <link>https://eldiegoefe.github.io/tags/palestina/</link>
-      <pubDate>Wed, 15 Nov 2023 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
-      <guid>https://eldiegoefe.github.io/tags/palestina/</guid>
       <description></description>
     </item>
     <item>
@@ -428,20 +428,6 @@
       <link>https://eldiegoefe.github.io/tags/freecad/</link>
       <pubDate>Fri, 25 Nov 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
       <guid>https://eldiegoefe.github.io/tags/freecad/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Carpinteria</title>
-      <link>https://eldiegoefe.github.io/tags/carpinteria/</link>
-      <pubDate>Thu, 24 Nov 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
-      <guid>https://eldiegoefe.github.io/tags/carpinteria/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Madera</title>
-      <link>https://eldiegoefe.github.io/tags/madera/</link>
-      <pubDate>Thu, 24 Nov 2016 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
-      <guid>https://eldiegoefe.github.io/tags/madera/</guid>
       <description></description>
     </item>
     <item>
@@ -981,6 +967,20 @@
       <link>https://eldiegoefe.github.io/tags/octopress/</link>
       <pubDate>Sun, 09 Feb 2014 10:30:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
       <guid>https://eldiegoefe.github.io/tags/octopress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carpinteria</title>
+      <link>https://eldiegoefe.github.io/tags/carpinteria/</link>
+      <pubDate>Tue, 05 Jan 2010 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/carpinteria/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Madera</title>
+      <link>https://eldiegoefe.github.io/tags/madera/</link>
+      <pubDate>Tue, 05 Jan 2010 10:00:00 +0000</pubDate><author>eldiegoefe@gmail.com (Diego Efe)</author>
+      <guid>https://eldiegoefe.github.io/tags/madera/</guid>
       <description></description>
     </item>
     <item>

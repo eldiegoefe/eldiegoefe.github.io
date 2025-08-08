@@ -32,7 +32,7 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 
 - [Links a canales de YouTube]({{< ref "2010-01-03-youtube.md" >}})
 - [Links sobre música]({{< ref "2010-01-02-enlaces-sobre-musica.md" >}})
-- [Carpintería a pleno]({{< ref "2016-11-24-carpinteria-a-pleno.md" >}})
+- [Carpintería a pleno]({{< ref "2010-01-04-carpinteria-a-pleno.md" >}})
     
 ## Redes Sociales
 
