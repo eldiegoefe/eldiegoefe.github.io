@@ -122,9 +122,3 @@ el posteo siguiente!
 
 ![Mapa antiguo](https://live.staticflickr.com/65535/54720856817_ae5d91d1bf_b.jpg)
 
-
-
-
-
-
-
