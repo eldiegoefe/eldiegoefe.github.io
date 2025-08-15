@@ -3,17 +3,14 @@
 
 Página de inicio con los enlaces a los sitios que frecuento o que no quiero olvidar.
 
-## Buscadores
-
-- [DuckDuckGo](http://www.duckduckgo.com)
-- [Google](http://www.google.com)
-
 ## Frecuentes
 - [Gmail](https://mail.google.com/mail/u/0/#inbox)
 - [Drive](https://drive.google.com/drive/my-drive)
 - [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
 - [Weather Underground](https://www.wunderground.com/weather/ar/paran%C3%A1)
 - [Max HBO](https://play.max.com/home)
+- [Domestika](https://www.domestika.org/)
+- [TrueFire](https://truefire.com/dashboard)
 
 ## Noticias
 - [elDiarioAR](https://www.eldiarioar.com/)
@@ -22,6 +19,14 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 - [Revista Cítrica](https://revistacitrica.com/)
 - [Tierra Viva](https://agenciatierraviva.com.ar)
 - [BBC News](http://www.bbc.com/news)
+
+## IA
+
+- [Claude](https://claude.ai/)
+- [ChatGPT](https://chatgpt.com/)
+- [DeepSeek](https://chat.deepseek.com/)
+- [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
+- [Perplexity](https://www.perplexity.ai/)
 
 ## Videos
 
