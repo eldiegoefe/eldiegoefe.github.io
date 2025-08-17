@@ -95,7 +95,10 @@ Imagine, una primavera, en la Amazonia.
 No se, dejémonos de hinchar, abandonemos todas estas ideas absurdas
 que no alteran las relaciones de dominación del capitalismo tardío
 (dios no los eligió, las palabras del profeta son sólo palabras,
-cristo no murió por tus pecados), dejemos de pegarle a las minas,
-cultivemos de modo agroecológico y a tomar caña con ruda para que no
-se acabe el mundo.
+cristo no murió por tus pecados). Antes de irme: por favor sociedad
+israelí, detengan la venganza, paren los asesinatos y el baño de
+sangre, salgan de Gaza (y de Cisjordania), no se deshumanicen del
+todo. Y ya que estamos, sociedad mundial, dejemos de pegarle a las
+minas, cultivemos de modo agroecológico y a tomar caña con ruda para
+que no se acabe el mundo.
 

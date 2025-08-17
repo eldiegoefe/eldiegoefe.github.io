@@ -1,0 +1,1590 @@
+
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="es"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>Tutorial sobre control de versiones (parte 1) &middot; Certezas Dudosas</title>
+    <meta name="title" content="Tutorial sobre control de versiones (parte 1) &middot; Certezas Dudosas" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="http://localhost:1313/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="http://localhost:1313/css/main.bundle.min.57d1c448a1783097815ad61ba1a727b1490184aed782150f83eb9243809e8142.css"
+    integrity="sha256-V9HESKF4MJeBWtYboacnsUkBhK7XghUPg&#43;uSQ4CegUI="
+  />
+  
+  
+  
+  
+  
+  
+  
+  <meta
+    name="description"
+    content="
+      
+        
+      
+    "
+  />
+  <meta name="keywords" content="Theme, Hugo" />
+  
+  
+  
+    <link rel="canonical" href="http://localhost:1313/posts/tutorial-sobre-control-de-versiones-parte-1/" />
+  
+  <link rel="alternate" type="text/plain" href="http://localhost:1313/posts/tutorial-sobre-control-de-versiones-parte-1/index.md" title="Certezas Dudosas" />
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:1313/posts/tutorial-sobre-control-de-versiones-parte-1/">
+  <meta property="og:site_name" content="Certezas Dudosas">
+  <meta property="og:title" content="Tutorial sobre control de versiones (parte 1)">
+  <meta property="og:description" content="Blog del Diego Efe">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2014-10-06T10:00:00+00:00">
+    <meta property="article:modified_time" content="2014-10-06T10:00:00+00:00">
+    <meta property="article:tag" content="Git">
+    <meta property="article:tag" content="Control De Versiones">
+    <meta property="article:tag" content="Tutorial">
+    <meta property="og:image" content="http://localhost:1313/logo.png">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/logo.png">
+  <meta name="twitter:title" content="Tutorial sobre control de versiones (parte 1)">
+  <meta name="twitter:description" content="Blog del Diego Efe">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "Tutorial sobre control de versiones (parte 1)",
+    "headline": "Tutorial sobre control de versiones (parte 1)",
+    
+    
+    "inLanguage": "es",
+    "url" : "http:\/\/localhost:1313\/posts\/tutorial-sobre-control-de-versiones-parte-1\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Diego Efe"
+    },
+    "copyrightYear": "2014",
+    "dateCreated": "2014-10-06T10:00:00\u002b00:00",
+    "datePublished": "2014-10-06T10:00:00\u002b00:00",
+    
+    "dateModified": "2014-10-06T10:00:00\u002b00:00",
+    
+    "keywords": ["git","control de versiones","tutorial"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "3657"
+  }
+  </script>
+    
+    <script type="application/ld+json">
+    {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/",
+       "name": "Certezas Dudosas",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/posts/",
+       "name": "Posts",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/categories/tecnicismos/",
+       "name": "Tecnicismos",
+       "position": 3
+     },
+     {
+       "@type": "ListItem",
+       "name": "Tutorial Sobre Control De Versiones (Parte 1)",
+       "position": 4
+     }
+   ]
+ }
+  </script>
+
+  
+  
+    <meta name="author" content="Diego Efe" />
+  
+  
+    
+      <link href="mailto:dfainstein@gmail.com" rel="me" />
+    
+      <link href="https://facebook.com/eldiegoefe" rel="me" />
+    
+      <link href="https://github.com/bioingenieroDiegol" rel="me" />
+    
+      <link href="https://instagram.com/eldiegoefe" rel="me" />
+    
+      <link href="https://www.youtube.com/@DiegoEfe" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+</head>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >Ir al contenido</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Certezas Dudosas</a
+  >
+
+    </div>
+    
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
+        
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/posts/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Posts</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/tags/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Tags</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/categories/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Categories</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Tutorial sobre control de versiones (parte 1)
+      </h1>
+      
+        <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+          
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2014-10-06 10:00:00 &#43;0000 UTC">6/octubre/2014</time><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">18 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+        </div>
+      
+      
+    </header>
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      
+      <div class="min-h-0 min-w-0 max-w-prose grow">
+        <ul>
+<li></li>
+</ul>
+<p>En el sitio de <a href="http://software-carpentry.org/" target="_blank" rel="noreferrer">Software Carpentry</a> hay un buen
+tutorial sobre el uso de sistemas de control de versiones. Estos apuntes son
+prácticamente la traducción de esas instrucciones.</p>
+<h2 id="indice-del-tutorial" class="relative group">Indice del Tutorial <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#indice-del-tutorial" aria-label="Ancla">#</a></span></h2><ul>
+<li><a href="http://localhost:1313/posts/tutorial-sobre-control-de-versiones-parte-1/">Parte 1</a>. Cómo armar un repositorio local</li>
+<li><a href="http://localhost:1313/posts/tutorial-sobre-control-de-versiones-parte-2/">Parte 2</a>. Cómo subir el repositorio local al remoto</li>
+<li><a href="http://localhost:1313/posts/tutorial-sobre-control-de-versiones-parte-3/">Parte 3</a>. Cómo colaborar en un mismo repositorio remoto</li>
+<li><a href="http://localhost:1313/posts/tutorial-sobre-control-de-versiones-parte-4/">Parte 4</a>. Cómo resolver conflictos</li>
+</ul>
+<p>Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés
+visitar <a href="http://software-carpentry.org/v5/novice/git/" target="_blank" rel="noreferrer">la página de Software
+Carpentry</a></p>
+<h2 id="configuración" class="relative group">Configuración <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#configuraci%c3%b3n" aria-label="Ancla">#</a></span></h2><p>La primera vez que se usa Git en una máquina hay que configurar al menos el
+nombre del usuario y su email. También puede elegirse el editor por defecto. Son
+comandos que se ejecutan una sola vez. Por ejemplo:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="p">$</span> <span class="n">git</span> <span class="n">config</span> <span class="p">-</span><span class="n">-global</span> <span class="n">user</span><span class="p">.</span><span class="py">name</span> <span class="s2">&#34;Vlad Dracula&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">$</span> <span class="n">git</span> <span class="n">config</span> <span class="p">-</span><span class="n">-global</span> <span class="n">user</span><span class="p">.</span><span class="py">email</span> <span class="s2">&#34;vlad@tran.sylvan.ia&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">$</span> <span class="n">git</span> <span class="n">config</span> <span class="p">-</span><span class="n">-global</span> <span class="n">color</span><span class="p">.</span><span class="py">ui</span> <span class="s2">&#34;auto&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">$</span> <span class="n">git</span> <span class="n">config</span> <span class="p">-</span><span class="n">-global</span> <span class="n">core</span><span class="p">.</span><span class="py">editor</span> <span class="s2">&#34;emacs&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>La tercer opcion es para que los mensajes con los cuales responde Git en el
+terminal estén coloreados. La cláusula &quot;--global&quot; indica que esta
+configuración no se limita a un proyecto particular, sino que será utilizado en
+todos los proyectos (repositorios) de esa computadora.</p>
+<p>Para verificar el nombre de usuario se usa <em>git config user.name</em>.</p>
+<h2 id="inicialización" class="relative group">Inicialización <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#inicializaci%c3%b3n" aria-label="Ancla">#</a></span></h2><p>Se puede comenzar a trabajar con un proyecto usando el siguiente comando desde
+el subdirectorio en el cual se alojarán los archivos del proyecto:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="p">$</span> <span class="n">git</span> <span class="n">init</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>De esta manera se crea un subdirectorio oculto (.git) donde se irá alojando todo
+el historial de archivos, en todas sus versiones, a medida que se vayan
+produciendo.</p>
+<h2 id="agregar-un-archivo-al-proyecto" class="relative group">Agregar un archivo al proyecto <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#agregar-un-archivo-al-proyecto" aria-label="Ancla">#</a></span></h2><p>Creamos un archivo de texto con cualquier editor (no necesariamente el elegido
+en la configuración) y lo almacenamos en el directorio del proyecto. Por ejemplo
+una canción de La Vela Puerca, en el archivo <em>va-a-escampar.txt</em>:</p>
+<pre><code>Va a escampar
+
+Hoy asume lo que venga
+sea para bien, o todo mal.
+y aunque pierda lo que tenga
+se va a morder para aguantar
+</code></pre>
+<p>Si hacemos <em>&quot;git status&quot;</em> el sistema nos responde que reconoce la existencia
+de un nuevo archivo en el proyecto, que todavía el sistema de control de
+versiones no incorporó.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git status
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> On branch master
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Initial commit</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Untracked files:</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>   <span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to include in what will be committed<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#    va-a-escampar.txt</span>
+</span></span><span class="line"><span class="cl"><span class="go">nothing added to commit but untracked files present (use &#34;git add&#34; to track)
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Para agregar el archivo al proyecto se ejecuta:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git add va-a-escampar.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Y se puede pedir el nuevo informe de situación con:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git status
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> On branch master
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Initial commit</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Changes to be committed:</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>   <span class="o">(</span>use <span class="s2">&#34;git rm --cached &lt;file&gt;...&#34;</span> to unstage<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#    new file:   va-a-escampar.txt</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="comitear-es-un-verbo-muy-extraño" class="relative group">Comitear es un verbo muy extraño <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#comitear-es-un-verbo-muy-extra%c3%b1o" aria-label="Ancla">#</a></span></h2><p>Ahora Git ya sabe que debe ir registrando la evolución de <em>va-a-escampar.txt</em>,
+pero todavía no ha grabado ninguna información sobre este archivo en su base de
+datos (y si ya hubiese información de antes, aún no habría guardado los cambios
+realizados desde el último <em>commit</em>). En inglés, grabar el estado actual de uno
+o más archivos es hacer un <strong>commit</strong>. En castellano commit puede traducirse
+como cometer, hacer, encomendar, perpetrar&hellip; Ninguna de las cuales sirve para
+describir lo que sucede, así que hablaremos de <strong>comitear</strong>.</p>
+<p>Para <em>comitear</em> el estado actual del archivo se ejecuta la orden <em>git commit -m
+&quot;mensaje personal&quot;</em>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git commit -m <span class="s2">&#34;Empezando a transcribir la letra de La Vela&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="go">[master (root-commit) 38b86f5] Empezando a transcribir la letra de La Vela
+</span></span></span><span class="line"><span class="cl"><span class="go">1 file changed, 6 insertions(+)
+</span></span></span><span class="line"><span class="cl"><span class="go">create mode 100644 va-a-escampar.txt
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Git guarda entonces un copia permanente de todos los archivos que están en la
+base de datos (los que fueron agregados con <strong>git add</strong> dentro del directorio
+oculto <em>.git</em>. Esta copia permanente es llamada una <em>revisión</em>, y su
+identificador en el ejemplo fue 38b86f5.</p>
+<p>De omitir el mensaje en el comando <em>git commit</em> (si no hubiese aparecido
+-m &quot;mensaje&quot;), se hubiese abierto el editor configurado al principio,
+para poder escribir el mensaje.</p>
+<p>Volvemos a ver la situación actual del proyecto con <strong>git status</strong> y con <strong>git
+log</strong> podemos ver el historial de cambios (en orden cronológico inverso), el
+cual incluye el identificador completo de la revisión, el autor, la fecha y el
+mensaje de Git al responder al commit:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git status
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> On branch master
+</span></span><span class="line"><span class="cl"><span class="go">nothing to commit, working directory clean
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="gp">$</span> git log
+</span></span><span class="line"><span class="cl"><span class="go">commit 38b86f5625453732e442c127f1d4678ec8550a12
+</span></span></span><span class="line"><span class="cl"><span class="go">Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
+</span></span></span><span class="line"><span class="cl"><span class="go">Date:   Mon Oct 6 15:35:07 2014 -0300
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">   Empezando a transcribir la letra de La Vela
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="cambios-o-agregados-en-un-archivo" class="relative group">Cambios (o agregados) en un archivo <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#cambios-o-agregados-en-un-archivo" aria-label="Ancla">#</a></span></h2><blockquote>
+<p><strong>¿Dónde se guardan los cambios?</strong></p>
+<p>En el directorio del proyecto sigue habiendo un solo archivo. Toda la
+información extra se almacena en el subdirectorio oculto <em>.git</em>, de
+modo que el sistema de archivos se ve limpio y se evita la posibilidad
+de borrar accidentalmente cosas (como versiones viejas del mismo
+archivo).</p></blockquote>
+<p>Si agregamos una segunda estrofa al archivo de texto, pasa a verse así:</p>
+<pre><code>Va a escampar
+
+Hoy asume lo que venga
+sea para bien, o todo mal.
+y aunque pierda lo que tenga
+se va a morder para aguantar
+
+Hoy que claro ve las cosas
+que ayer no vio, ni va a exigir
+Sobre su pena se posa
+quiere entender para seguir
+</code></pre>
+<p>Al pedir el status del proyecto veremos:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git status
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> On branch master
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> Changes not staged <span class="k">for</span> commit:
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>   <span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to update what will be committed<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>   <span class="o">(</span>use <span class="s2">&#34;git checkout -- &lt;file&gt;...&#34;</span> to discard changes in working directory<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#    modified:   va-a-escampar.txt</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl">no changes added to commit <span class="o">(</span>use <span class="s2">&#34;git add&#34;</span> and/or <span class="s2">&#34;git commit -a&#34;</span><span class="o">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>La última linea es la frase clave: &quot;no se agregaron cambios al
+commit&quot;. El archivo ha cambiado pero no le hemos dicho aún a Git que
+queremos guardar esos cambios (lo haremos con <em>git add</em>).</p>
+<h2 id="comparación-de-versiones" class="relative group">Comparación de versiones <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#comparaci%c3%b3n-de-versiones" aria-label="Ancla">#</a></span></h2><p>Antes de agregar estos cambios podemos revisar nuestro trabajo usando
+<em>git diff</em>, que nos muestra las diferencias entre el estado actual del
+archivo y la última versión comiteada.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git diff
+</span></span><span class="line"><span class="cl"><span class="go">diff --git a/va-a-escampar.txt b/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">index 97ab7b0..db818ec 100644
+</span></span></span><span class="line"><span class="cl"><span class="go">--- a/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">+++ b/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">@@ -4,3 +4,8 @@ Hoy asume lo que venga
+</span></span></span><span class="line"><span class="cl"><span class="go"> sea para bien, o todo mal.
+</span></span></span><span class="line"><span class="cl"><span class="go"> y aunque pierda lo que tenga
+</span></span></span><span class="line"><span class="cl"><span class="go"> se va a morder para aguantar
+</span></span></span><span class="line"><span class="cl"><span class="go">+
+</span></span></span><span class="line"><span class="cl"><span class="go">+Hoy que claro ve las cosas
+</span></span></span><span class="line"><span class="cl"><span class="go">+que ayer no vio, ni va a exigir
+</span></span></span><span class="line"><span class="cl"><span class="go">+Sobre su pena se posa
+</span></span></span><span class="line"><span class="cl"><span class="go">+quiere entender para seguir
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>La salida es críptica porque en realidad es una serie de comandos para
+que un editor de textos pueda reconstruir un archivo a partir del otro.</p>
+<ol>
+<li>La primera linea muestra que Git produce una salida similar al
+comando Unix <em>diff</em> comparando la versión antigua y nueva del
+archivo.</li>
+<li>La segunda linea muestra la revisión exacta de cada archivo que está
+siendo comparado (97ab7b0 y db818ec, etiquetas únicas generadas por
+la computadora para esas revisiones).</li>
+<li>La linea restante muestra finalmente las lineas en las que aparecen
+las diferencias (marcando con &quot;+&quot; las lineas que se agregaron).</li>
+</ol>
+<h2 id="cómo-comitear-los-cambios" class="relative group">Cómo comitear los cambios <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#c%c3%b3mo-comitear-los-cambios" aria-label="Ancla">#</a></span></h2><p>Si hacemos un commit de los cambios:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git commit -m <span class="s2">&#34;Agregada la segunda estrofa&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> On branch master
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> Changes not staged <span class="k">for</span> commit:
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>   <span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to update what will be committed<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>   <span class="o">(</span>use <span class="s2">&#34;git checkout -- &lt;file&gt;...&#34;</span> to discard changes in working directory<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#    modified:   va-a-escampar.txt</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl">no changes added to commit <span class="o">(</span>use <span class="s2">&#34;git add&#34;</span> and/or <span class="s2">&#34;git commit -a&#34;</span><span class="o">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>Ups. No se comitearon los cambios porque faltó agregarlos antes</strong>.
+Entonces, haremos:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git add va-a-escampar.txt
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> git commit -m <span class="s2">&#34;Agregada la segunda estrofa&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="go">[master 6ae57e3] Agregada la segunda estrofa
+</span></span></span><span class="line"><span class="cl"><span class="go">1 file changed, 5 insertions(+)
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Git insiste en que agreguemos los archivos al conjunto de los que
+querramos comitear antes de realmente hacerlo, porque quizás no
+querramos comitear todo junto. Por ejemplo, supongamos que estamos
+agregando algunas citas a un documento. Podríamos querer agregarlas sin
+comitear el trabajo que estamos haciendo en las conclusiones (que
+todavía no terminamos). <em>NOTA PERSONAL: ¡no entiendo! ¿De qué me sirve
+agregar los cambios si no los &quot;comiteo&quot;?</em></p>
+<p>RESPUESTA: Para permitirlo, Git tiene una zona de almacenamiento
+especial donde hace un seguimiento de cosas que fueron agregadas al
+último conjunto de cambios, pero que aún no fueron comiteadas. Con <em>git
+add</em> se colocan las novedades en este area, y luego <em>git commit</em> las
+copia al espacio de almacenamiento de largo plazo.</p>
+<p>
+
+
+
+
+
+
+  
+  
+<figure><img src="http://software-carpentry.org/v5/novice/git/img/git-staging-area.svg" alt="git staging and commit areas" class="mx-auto my-0 rounded-md" />
+</figure>
+{.align-center
+width=&ldquo;100.0%&rdquo;}</p>
+<p>Veamos cómo nuestros cambios a un archivo se mueven desde nuestro editor
+hacia la <em>staging area</em> (zona de preparación o también area de ensayo) y
+hacia el almacenamiento de largo plazo. Primero, agregamos otra estrofa:</p>
+<pre><code>Llega la batalla
+y contra él estalla
+algún día va a escampar.
+y como sale de esta
+quiere la respuesta
+sabe que no es escapar.
+</code></pre>
+<p>Y analizamos las diferencias con <em>git diff</em>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git diff
+</span></span><span class="line"><span class="cl"><span class="go">diff --git a/va-a-escampar.txt b/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">index db818ec..0c33091 100644
+</span></span></span><span class="line"><span class="cl"><span class="go">--- a/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">+++ b/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">@@ -9,3 +9,10 @@ Hoy que claro ve las cosas
+</span></span></span><span class="line"><span class="cl"><span class="go"> que ayer no vio, ni va a exigir
+</span></span></span><span class="line"><span class="cl"><span class="go"> Sobre su pena se posa
+</span></span></span><span class="line"><span class="cl"><span class="go"> quiere entender para seguir
+</span></span></span><span class="line"><span class="cl"><span class="go">+
+</span></span></span><span class="line"><span class="cl"><span class="go">+Llega la batalla
+</span></span></span><span class="line"><span class="cl"><span class="go">+y contra él estalla
+</span></span></span><span class="line"><span class="cl"><span class="go">+algún día va a escampar.
+</span></span></span><span class="line"><span class="cl"><span class="go">+y como sale de esta
+</span></span></span><span class="line"><span class="cl"><span class="go">+quiere la respuesta
+</span></span></span><span class="line"><span class="cl"><span class="go">+sabe que no es escapar.
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Git identifica las diferencias entre el archivo y la versión intermedia
+(pero no comiteada), guardada en la <em>staging area</em> (la voy a llamar
+<em>zona de preparación</em>). Si agregamos estos cambios al almacenamiento
+intermedio, veremos lo siguiente:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git add va-a-escampar.txt
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> git diff
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Ahora no hay ninguna salida, porque el archivo actualmente en edición es
+igual al que guardamos en la <em>zona de preparación</em>.</p>
+<p>Sin embargo, si hacemos:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git diff --staged
+</span></span><span class="line"><span class="cl"><span class="go">diff --git a/va-a-escampar.txt b/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">index db818ec..0c33091 100644
+</span></span></span><span class="line"><span class="cl"><span class="go">--- a/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">+++ b/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">@@ -9,3 +9,10 @@ Hoy que claro ve las cosas
+</span></span></span><span class="line"><span class="cl"><span class="go"> que ayer no vio, ni va a exigir
+</span></span></span><span class="line"><span class="cl"><span class="go"> Sobre su pena se posa
+</span></span></span><span class="line"><span class="cl"><span class="go"> quiere entender para seguir
+</span></span></span><span class="line"><span class="cl"><span class="go">+
+</span></span></span><span class="line"><span class="cl"><span class="go">+Llega la batalla
+</span></span></span><span class="line"><span class="cl"><span class="go">+y contra él estalla
+</span></span></span><span class="line"><span class="cl"><span class="go">+algún día va a escampar.
+</span></span></span><span class="line"><span class="cl"><span class="go">+y como sale de esta
+</span></span></span><span class="line"><span class="cl"><span class="go">+quiere la respuesta
+</span></span></span><span class="line"><span class="cl"><span class="go">+sabe que no es escapar.
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Ahora nos está mostrando las diferencias entre el último cambio
+comiteado (en el almacenamiento de largo plazo) y lo que hay en la <em>zona
+de preparación</em>. Guardemos estos cambios:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git commit -m <span class="s2">&#34;Tercera estrofa agregada&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="go">[master 8f1eec1] Tercera estrofa agregada
+</span></span></span><span class="line"><span class="cl"><span class="go"> 1 file changed, 7 insertions(+)
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Vemos cómo quedó:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git status
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> On branch master
+</span></span><span class="line"><span class="cl"><span class="go">nothing to commit, working directory clean
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Y podemos examinar la historia de lo que fue sucediendo hasta ahora:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git log
+</span></span><span class="line"><span class="cl"><span class="go">commit 8f1eec1836a9ace8a2cbab7e2c3341efa5c3a537
+</span></span></span><span class="line"><span class="cl"><span class="go">Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
+</span></span></span><span class="line"><span class="cl"><span class="go">Date:   Mon Oct 6 19:55:10 2014 -0300
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">    Tercera estrofa agregada
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">commit 6ae57e3d91a7a526a257df081d83a5b9be4e6d28
+</span></span></span><span class="line"><span class="cl"><span class="go">Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
+</span></span></span><span class="line"><span class="cl"><span class="go">Date:   Mon Oct 6 16:54:40 2014 -0300
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">    Agregada la segunda estrofa
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">commit 38b86f5625453732e442c127f1d4678ec8550a12
+</span></span></span><span class="line"><span class="cl"><span class="go">Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
+</span></span></span><span class="line"><span class="cl"><span class="go">Date:   Mon Oct 6 15:35:07 2014 -0300
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">    Empezando a transcribir la letra de La Vela
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Resumiendo, cuando queremos hacer cambios en nuestro repositorio,
+primero tenemos que agregar los cambios a la <em>zona de preparación</em> (con
+<em>git add</em>), y luego <em>comitear</em> los cambios ensayados al repositorio (con
+<em>git commit</em>).</p>
+<p>
+
+
+
+
+
+
+  
+  
+<figure><img src="http://software-carpentry.org/v5/novice/git/img/git-committing.svg" alt="trabajando con git" class="mx-auto my-0 rounded-md" />
+</figure>
+{.align-center
+width=&ldquo;100.0%&rdquo;}</p>
+<h2 id="explorando-el-historial" class="relative group">Explorando el historial <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#explorando-el-historial" aria-label="Ancla">#</a></span></h2><p>Para ver lo que cambiamos, usamos <em>git diff</em> también, pero para
+refiriéndonos a versiones viejas con la notación HEAD~1, HEAD~2, etc:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git diff HEAD~1 va-a-escampar.txt
+</span></span><span class="line"><span class="cl"><span class="go">diff --git a/va-a-escampar.txt b/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">index db818ec..0c33091 100644
+</span></span></span><span class="line"><span class="cl"><span class="go">--- a/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">+++ b/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">@@ -9,3 +9,10 @@ Hoy que claro ve las cosas
+</span></span></span><span class="line"><span class="cl"><span class="go"> que ayer no vio, ni va a exigir
+</span></span></span><span class="line"><span class="cl"><span class="go"> Sobre su pena se posa
+</span></span></span><span class="line"><span class="cl"><span class="go"> quiere entender para seguir
+</span></span></span><span class="line"><span class="cl"><span class="go">+
+</span></span></span><span class="line"><span class="cl"><span class="go">+Llega la batalla
+</span></span></span><span class="line"><span class="cl"><span class="go">+y contra él estalla
+</span></span></span><span class="line"><span class="cl"><span class="go">+algún día va a escampar.
+</span></span></span><span class="line"><span class="cl"><span class="go">+y como sale de esta
+</span></span></span><span class="line"><span class="cl"><span class="go">+quiere la respuesta
+</span></span></span><span class="line"><span class="cl"><span class="go">+sabe que no es escapar.
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git diff HEAD~2 va-a-escampar.txt
+</span></span><span class="line"><span class="cl"><span class="go">diff --git a/va-a-escampar.txt b/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">index 97ab7b0..0c33091 100644
+</span></span></span><span class="line"><span class="cl"><span class="go">--- a/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">+++ b/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">@@ -4,3 +4,15 @@ Hoy asume lo que venga
+</span></span></span><span class="line"><span class="cl"><span class="go"> sea para bien, o todo mal.
+</span></span></span><span class="line"><span class="cl"><span class="go"> y aunque pierda lo que tenga
+</span></span></span><span class="line"><span class="cl"><span class="go"> se va a morder para aguantar
+</span></span></span><span class="line"><span class="cl"><span class="go">+
+</span></span></span><span class="line"><span class="cl"><span class="go">+Hoy que claro ve las cosas
+</span></span></span><span class="line"><span class="cl"><span class="go">+que ayer no vio, ni va a exigir
+</span></span></span><span class="line"><span class="cl"><span class="go">+Sobre su pena se posa
+</span></span></span><span class="line"><span class="cl"><span class="go">+quiere entender para seguir
+</span></span></span><span class="line"><span class="cl"><span class="go">+
+</span></span></span><span class="line"><span class="cl"><span class="go">+Llega la batalla
+</span></span></span><span class="line"><span class="cl"><span class="go">+y contra él estalla
+</span></span></span><span class="line"><span class="cl"><span class="go">+algún día va a escampar.
+</span></span></span><span class="line"><span class="cl"><span class="go">+y como sale de esta
+</span></span></span><span class="line"><span class="cl"><span class="go">+quiere la respuesta
+</span></span></span><span class="line"><span class="cl"><span class="go">+sabe que no es escapar.
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>De esta manera construimos una cadena de revisiones. El extremo más reciente de
+la cadena es HEAD; podemos referirnos a revisiones previas usando la notación
+~, de manera que HEAD~1 (se pronuncia &quot;head menos uno&quot;) significa &quot;la
+revisión previa&quot;, mientras que HEAD~123 vuelve 123 revisiones hacia atrás,
+desde donde nos encontramos en la actualidad.</p>
+<p>También nos podemos referir a las revisiones usando las cadenas largas de
+dígitos y letras que Git muestra en los logs. Estos son IDs únicos para los
+cambios, &quot;únicos&quot; significa realmente únicos: cada cambio a cualquier conjunto
+de archivos en cualquier máquina tiene un identificador de 40 caracteres.
+Nuestro primer commit nos dio el ID 38b86f5625453732e442c127f1d4678ec8550a12,
+así que probemos esto:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git diff 38b86f5625453732e442c127f1d4678ec8550a12 va-a-escampar.txt
+</span></span><span class="line"><span class="cl"><span class="go">diff --git a/va-a-escampar.txt b/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">index 97ab7b0..0c33091 100644
+</span></span></span><span class="line"><span class="cl"><span class="go">--- a/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">+++ b/va-a-escampar.txt
+</span></span></span><span class="line"><span class="cl"><span class="go">@@ -4,3 +4,15 @@ Hoy asume lo que venga
+</span></span></span><span class="line"><span class="cl"><span class="go"> sea para bien, o todo mal.
+</span></span></span><span class="line"><span class="cl"><span class="go"> y aunque pierda lo que tenga
+</span></span></span><span class="line"><span class="cl"><span class="go"> se va a morder para aguantar
+</span></span></span><span class="line"><span class="cl"><span class="go">+
+</span></span></span><span class="line"><span class="cl"><span class="go">+Hoy que claro ve las cosas
+</span></span></span><span class="line"><span class="cl"><span class="go">+que ayer no vio, ni va a exigir
+</span></span></span><span class="line"><span class="cl"><span class="go">+Sobre su pena se posa
+</span></span></span><span class="line"><span class="cl"><span class="go">+quiere entender para seguir
+</span></span></span><span class="line"><span class="cl"><span class="go">+
+</span></span></span><span class="line"><span class="cl"><span class="go">+Llega la batalla
+</span></span></span><span class="line"><span class="cl"><span class="go">+y contra él estalla
+</span></span></span><span class="line"><span class="cl"><span class="go">+algún día va a escampar.
+</span></span></span><span class="line"><span class="cl"><span class="go">+y como sale de esta
+</span></span></span><span class="line"><span class="cl"><span class="go">+quiere la respuesta
+</span></span></span><span class="line"><span class="cl"><span class="go">+sabe que no es escapar.
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Para no tipear cadenas de 40 números, Git permite usar los primeros de la
+cadena, con el mismo resultado:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git diff 38b86f5 va-a-escampar.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="recuperar-versiones-antiguas" class="relative group">Recuperar versiones antiguas <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#recuperar-versiones-antiguas" aria-label="Ancla">#</a></span></h2><p>De acuerdo: podemos grabar cambios a los archivos y ver qué hemos cambiado. Pero
+¿cómo restauramos versiones viejas de las cosas? Supongamos que sobreescribimos
+accidentalmente nuestro archivo va-a-escampar.txt, que pasa a contener sólo la
+siguiente linea:</p>
+<pre><code>no va a escampar nada
+</code></pre>
+<p>El comando <em>cat</em> muestra el contenido del archivo:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> cat va-a-escampar.txt
+</span></span><span class="line"><span class="cl"><span class="go">no va a escampar nada
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Con <em>git status</em> nos enteramos que el archivo ha cambiado, pero esos
+cambios aún no pasaron a la <em>zona de preparación</em> (<em>staging area</em>).</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git status
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> On branch master
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> Changes not staged <span class="k">for</span> commit:
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>   <span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to update what will be committed<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>   <span class="o">(</span>use <span class="s2">&#34;git checkout -- &lt;file&gt;...&#34;</span> to discard changes in working directory<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#    modified:   va-a-escampar.txt</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl">no changes added to commit <span class="o">(</span>use <span class="s2">&#34;git add&#34;</span> and/or <span class="s2">&#34;git commit -a&#34;</span><span class="o">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Podemos volver atrás, dejando las cosas como estaban antes, usando <em>git
+checkout</em>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git checkout HEAD va-a-escampar.txt
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> cat va-a-escampar.txt
+</span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">Va a escampar
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">Hoy asume lo que venga
+</span></span></span><span class="line"><span class="cl"><span class="go">sea para bien, o todo mal.
+</span></span></span><span class="line"><span class="cl"><span class="go">y aunque pierda lo que tenga
+</span></span></span><span class="line"><span class="cl"><span class="go">se va a morder para aguantar
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">Hoy que claro ve las cosas
+</span></span></span><span class="line"><span class="cl"><span class="go">que ayer no vio, ni va a exigir
+</span></span></span><span class="line"><span class="cl"><span class="go">Sobre su pena se posa
+</span></span></span><span class="line"><span class="cl"><span class="go">quiere entender para seguir
+</span></span></span><span class="line"><span class="cl"><span class="go"></span><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">Llega la batalla
+</span></span></span><span class="line"><span class="cl"><span class="go">y contra él estalla
+</span></span></span><span class="line"><span class="cl"><span class="go">algún día va a escampar.
+</span></span></span><span class="line"><span class="cl"><span class="go">y como sale de esta
+</span></span></span><span class="line"><span class="cl"><span class="go">quiere la respuesta
+</span></span></span><span class="line"><span class="cl"><span class="go">sabe que no es escapar.
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Con <em>git checkout</em> se recupera una versión anterior de un archivo. En
+este caso, le estamos pidiendo a Git que recupere la versión del archivo
+guardada en HEAD, que fue la última revisión guardada. Si quisiéramos ir
+más atrás podríamos usar un identificador de revisión:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git checkout 38b86f5 va-a-escampar.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Es importante recordar que debemos usar el número de revisión que identifica el
+estado del repositorio antes del cambio que estamos tratando de revertir. Un
+error común es usar el número de revisión del commit en el cual hicimos el
+cambio del cual estamos tratando de deshacernos. En el ejemplo de abajo queremos
+recobrar el estado inmediatamente anterior al commit más reciente (HEAD~1), que
+es la revisión 6ae57e3d9 (en la figura -realizada con otro ejemplo-corresponde a
+la revision f22b25e):</p>
+<p>
+
+
+
+
+
+
+  
+  
+<figure><img src="http://software-carpentry.org/v5/novice/git/img/git-checkout.svg" alt="retornando a una revisión anterior de un archivo" class="mx-auto my-0 rounded-md" />
+</figure>
+{.align-center
+width=&ldquo;90.0%&rdquo;}</p>
+<p>El diagrama siguiento ilustra el modo en que puede verse la historia de un
+archivo (moviéndose hacia atrás desde HEAD, la versión más recientemente
+comiteada):</p>
+<p>
+
+
+
+
+
+
+  
+  
+<figure><img src="http://software-carpentry.org/v5/novice/git/img/git-when-revisions-updated.svg" alt="historia de las revisiones de un archivo" class="mx-auto my-0 rounded-md" />
+</figure>
+{.align-center
+width=&ldquo;90.0%&rdquo;}</p>
+<pre><code>Simplificando un caso común
+
+Si mirás cuidadosamente la salida de *git status*, vas a ver esta
+ayuda:
+
+(use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)
+
+Tal como afirma, *git checkout* sin un identificador de versión
+restaura los archivos al estado guardado en HEAD. El guión doble -- es
+necesario para separar los nombres de los archivos siendo recuperados
+del comando mismo: sin esos guiones, Git trataría de usar el nombre
+del archivo como identificador de la revisión a la cual se desea volver.
+</code></pre>
+<p>El hecho de que los archivos puedan recuperarse o revertirse uno por uno tiende
+a cambiar el modo en que la gente organiza su trabajo. Si todo estuviese en un
+solo gran archivo, entonces es dificil (si no imposible) deshacer los cambios a
+la introducción sin también deshacer los cambios hechos a continuación a la
+conclusión. Por otra parte, si la introducción y la conclusión estuviesen en
+archivos separados, entonces sería más fácil moverse hacia atrás y hacia
+adelante en el tiempo.</p>
+<h2 id="ignorando-cosas" class="relative group">Ignorando cosas <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#ignorando-cosas" aria-label="Ancla">#</a></span></h2><p>Vamos a ver qué hacer con los archivos del mismo directorio que no queremos
+incluir en el sistema de control de versiones. Agregamos algunos archivos
+vacíos: a.dat</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> mkdir results
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> touch a.dat b.dat c.dat results/a.out results/b.out
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Y vemos qué dice Git:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git status
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> On branch master
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> Untracked files:
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>   <span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to include in what will be committed<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#    a.dat</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>    b.dat
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>    c.dat
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>    results/
+</span></span><span class="line"><span class="cl"><span class="go">nothing added to commit but untracked files present (use &#34;git add&#34;
+</span></span></span><span class="line"><span class="cl"><span class="go">to track)
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Colocar estos archivos bajo control de versiones sería un desperdicio de espacio
+en disco. Peor aún, tenerlos listados nos distraería de los cambios que
+realmente importan, de manera que debemos decirle a Git que los ignore, creando
+un archivo en el directorio raiz del proyecto. Al archivo lo llamamos
+<em>.gitignore</em>.</p>
+<p>Dentro de <em>.gitignore</em> colocamos los patrones para ignorar archivos, en este
+caso los archivos que terminen en <em>.dat</em> y los archivos que se encuentren en el
+subdirectorio <em>results</em> (si cualquiera de estos archivos hubiese estado siendo
+parte del control de versiones, Git continuará considerándolo a pesar de figurar
+en <em>.gitignore</em>). Al listar el contenido de <em>.gitignore</em> deberíamos obtener
+esto:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> cat .gitignore
+</span></span><span class="line"><span class="cl"><span class="go">*.dat
+</span></span></span><span class="line"><span class="cl"><span class="go">results/
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Si pedimos el status del proyecto, la salida se verá mucho más limpia
+que antes:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git status
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> On branch master
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> Untracked files:
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>   <span class="o">(</span>use <span class="s2">&#34;git add &lt;file&gt;...&#34;</span> to include in what will be committed<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#    .gitignore</span>
+</span></span><span class="line"><span class="cl"><span class="go">nothing added to commit but untracked files present (use &#34;git add&#34; to track)
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>La única cosa que Git advierte ahora es el archivo <em>.gitignore</em> recientemente
+creado. Podríamos creer que no querríamos incorporarlo al control de versiones,
+pero todos con quienes compartimos el repositorio probablemente querrían ignorar
+las mismas cosas que estamos ignorando nosotros. Así que agregamos y comiteamos
+este archivo (oculto, pues empieza con un punto):</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git add .gitignore
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> git commit -m <span class="s2">&#34;Agregado del archivo de ignorancias&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="gp">$</span> git status
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> On branch master
+</span></span><span class="line"><span class="cl"><span class="go">nothing to commit, working directory clean
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Como un extra, al usar <em>.gitignore</em> evitamos agregar accidentalmente archivos
+que no queremos al repositorio.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git add a.dat
+</span></span><span class="line"><span class="cl"><span class="go">The following paths are ignored by one of your .gitignore files:
+</span></span></span><span class="line"><span class="cl"><span class="go">a.dat
+</span></span></span><span class="line"><span class="cl"><span class="go">Use -f if you really want to add them.
+</span></span></span><span class="line"><span class="cl"><span class="go">fatal: no files added
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Si queremos realmente pasar por alto los seteos de <em>.gitignore</em>, podemos usar
+<em>git add -f</em> para forzar a Git a agregar algo. Siempre podemos ver la situación
+de los archivos ignorados si quisiéramos:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> git status --ignored
+</span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="gp">#</span> On branch master
+</span></span><span class="line"><span class="cl"><span class="gp">#</span> Ignored files:
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>  <span class="o">(</span>use <span class="s2">&#34;git add -f &lt;file&gt;...&#34;</span> to include in what will be committed<span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#        a.dat</span>
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>        b.dat
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>        c.dat
+</span></span><span class="line"><span class="cl"><span class="gp">#</span>        results/
+</span></span><span class="line"><span class="cl"><span class="err">
+</span></span></span><span class="line"><span class="cl"><span class="err"></span><span class="go">nothing to commit, working directory clean
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="claves" class="relative group">Claves <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#claves" aria-label="Ancla">#</a></span></h2><blockquote>
+<p>Usar <strong>git config</strong> para configurar un usuario, dirección de email,
+editor y otras preferencias (todas estas cosas son válidas para una
+máquina)</p>
+<p>Con <strong>git init</strong> se inicializa un repositorio</p>
+<p>Con <strong>git status</strong> se muestra la situación de un repositorio</p>
+<p>Los archivos puedes almacenarse en el directorio de trabajo (que los
+usuarios ven), la <em>zona de preparación</em> o <em>staging area</em> (desde donde
+se realizará el próximo commit) y el repositorio local (donde las
+instantáneas son almacenadas permanentemente).</p>
+<p>Con <strong>git add</strong> se agregan archivos a la <em>zona de preparación</em>.</p>
+<p>Con <strong>git commit</strong> se crea una instantanea de la <em>zona de preparación</em>
+en el repositorio local.</p>
+<p>Siempre escribir un mensaje al comitear cambios (con <strong>git commit -m
+&quot;mensaje&quot;</strong>).</p>
+<p>Con <strong>git diff</strong> se muestran las diferencias entre versiones.</p>
+<p>Con <strong>git checkout</strong> se recuperan viejas versiones de un archivo.</p>
+<p>El archivo <strong>.gitignore</strong> indica a Git los archivos a ser ignorados
+por el sistema de control de versiones.</p></blockquote>
+
+      </div>
+    </section>
+    <footer class="max-w-prose pt-8 print:hidden">
+      
+  <div class="flex">
+    
+    
+    
+    <div class="place-self-center">
+      
+        <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+          Autor
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          Diego Efe
+        </div>
+      
+      
+        <div class="text-sm text-neutral-700 dark:text-neutral-400">Bioingeniero en la ficcion, en la vida real defiende monstruos del ataque de todo tipo de superheroes.</div>
+      
+      <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="mailto:dfainstein@gmail.com"
+          target="_blank"
+          aria-label="Email"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://facebook.com/eldiegoefe"
+          target="_blank"
+          aria-label="Facebook"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://github.com/bioingenieroDiegol"
+          target="_blank"
+          aria-label="Github"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://instagram.com/eldiegoefe"
+          target="_blank"
+          aria-label="Instagram"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://www.youtube.com/@DiegoEfe"
+          target="_blank"
+          aria-label="Youtube"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="http://localhost:1313/posts/de-jpg-a-pdf/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >De jpg a pdf</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2014-09-24 10:00:00 &#43;0000 UTC">24/septiembre/2014</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="http://localhost:1313/posts/emacs-y-restructuredtext/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Emacs y restructuredText</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2014-10-07 10:00:00 &#43;0000 UTC">7/octubre/2014</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[-2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label="Ir arriba"
+            title="Ir arriba"
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2025
+            Diego Efe
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Desarrollada con <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+    </div>
+  </div>
+  
+  
+</footer>
+
+    </div>
+  </body>
+</html>

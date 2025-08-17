@@ -1,0 +1,1675 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/</loc>
+            <lastmod>2025-08-15T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="http://localhost:1313/en/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="http://localhost:1313/"
+              />
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/</loc>
+            <lastmod>2025-08-15T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/ser-judio-hoy-parte-3/</loc>
+            <lastmod>2025-08-15T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/ser-judio-hoy-parte-2/</loc>
+            <lastmod>2025-08-12T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/ser-judio-hoy-parte-1/</loc>
+            <lastmod>2025-08-08T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/la-venus-en-el-parque-urquiza/</loc>
+            <lastmod>2024-03-19T18:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/el-minusculo-anio-1-numero-01/</loc>
+            <lastmod>2023-11-25T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/israel-y-palestina-en-boca-de-todos-parte-07/</loc>
+            <lastmod>2023-11-15T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/israel-y-palestina-en-boca-de-todos-parte-06/</loc>
+            <lastmod>2023-11-07T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/lineas-en-emacs-visual-line-mode-auto-fill-mode/</loc>
+            <lastmod>2023-10-30T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/israel-y-palestina-en-boca-de-todos-parte-05/</loc>
+            <lastmod>2023-10-27T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/israel-y-palestina-en-boca-de-todos-parte-04/</loc>
+            <lastmod>2023-10-14T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/israel-y-palestina-en-boca-de-todos-parte-03/</loc>
+            <lastmod>2023-10-13T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/israel-y-palestina-en-boca-de-todos-parte-02/</loc>
+            <lastmod>2023-10-12T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/israel-y-palestina-en-boca-de-todos-parte-01/</loc>
+            <lastmod>2023-10-11T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/gato-verde-clase-04/</loc>
+            <lastmod>2023-04-10T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/gato-verde-clase-03/</loc>
+            <lastmod>2023-04-03T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/gato-verde-clase-02/</loc>
+            <lastmod>2023-03-24T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/lapiceras-pincel-pentel-y-kuretake/</loc>
+            <lastmod>2023-03-22T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/gato-verde-clase-01/</loc>
+            <lastmod>2023-03-19T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/g%C3%A9nero-en-alem%C3%A1n/</loc>
+            <lastmod>2023-03-03T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/materiales-para-estudiar-alem%C3%A1n/</loc>
+            <lastmod>2023-02-16T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/instrucciones-hugo/</loc>
+            <lastmod>2022-12-11T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/formaci%C3%B3n-activista-dami%C3%A1n-verze%C3%B1assi/</loc>
+            <lastmod>2022-04-20T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/ayuda-en-emacs-aprender-o-repasar-es-facil/</loc>
+            <lastmod>2022-04-02T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/movimientos-originales-en-emacs/</loc>
+            <lastmod>2022-03-27T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/cambio-vegano-parte-2/</loc>
+            <lastmod>2022-03-09T00:15:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/cambio-vegano-parte-1/</loc>
+            <lastmod>2022-03-07T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/marichyasana-a/</loc>
+            <lastmod>2023-02-01T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/dead-humanity-walking/</loc>
+            <lastmod>2021-02-20T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/postura-del-cadaver-savasana/</loc>
+            <lastmod>2021-02-19T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/sentadilla-asistida-utkatasana-sahaya-sahita/</loc>
+            <lastmod>2021-02-18T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/pasasana/</loc>
+            <lastmod>2021-02-17T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/kurmasana-sentadilla-de-la-tortuga/</loc>
+            <lastmod>2021-02-16T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/estiramiento-de-cadera/</loc>
+            <lastmod>2021-02-15T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/flexiones-hacia-adelante-uttanasana/</loc>
+            <lastmod>2021-02-14T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/poses-laterales-parsva-bhangi/</loc>
+            <lastmod>2021-02-13T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/hasta-vinyasas.-movimientos-de-los-brazos/</loc>
+            <lastmod>2021-02-12T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/krama-vinyasa-yoga-introducci%C3%B3n/</loc>
+            <lastmod>2021-02-11T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/vinyasa-krama-yoga/</loc>
+            <lastmod>2021-02-09T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/assimil.-el-alem%C3%A1n-sin-esfuerzo/</loc>
+            <lastmod>2021-02-03T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/getting-things-done/</loc>
+            <lastmod>2020-11-30T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/historia-del-evomoralito-y-el-golpismo-feroz/</loc>
+            <lastmod>2019-11-12T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/abandonemos-la-era-de-la-reproducci%C3%B3n-imperativa/</loc>
+            <lastmod>2019-10-01T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/acuarela/</loc>
+            <lastmod>2019-07-23T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/libros-y-consejos-de-lectura/</loc>
+            <lastmod>2019-06-02T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/el-lado-femenino-de-la-fuerza/</loc>
+            <lastmod>2019-03-09T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/divagaciones-de-un-yogui/</loc>
+            <lastmod>2019-02-25T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/aborto-y-reglas-para-un-debate/</loc>
+            <lastmod>2018-07-28T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/la-%C3%BAnica-verdad-es-la-incertidumbre-ii/</loc>
+            <lastmod>2018-07-17T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/vieja-intervenci%C3%B3n-sobre-el-aborto/</loc>
+            <lastmod>2018-07-15T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/instalacion-de-pyqt/</loc>
+            <lastmod>2018-04-19T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/enlaces-sobre-yoga/</loc>
+            <lastmod>2018-03-21T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/instalaci%C3%B3n-y-configuraci%C3%B3n-de-emacs/</loc>
+            <lastmod>2017-12-01T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/bienvenidos-a-scheme/</loc>
+            <lastmod>2017-11-28T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/casitas-y-minimalismo/</loc>
+            <lastmod>2017-10-18T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/la-%C3%BAnica-verdad-es-la-incertidumbre-i/</loc>
+            <lastmod>2017-10-01T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/de-vuelta-al-colegio-de-bjj/</loc>
+            <lastmod>2017-09-12T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/peso-de-los-directorios-en-linux/</loc>
+            <lastmod>2017-09-03T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/backup-con-rsync/</loc>
+            <lastmod>2017-06-21T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/ciencia-con-problemas-capitales/</loc>
+            <lastmod>2017-02-17T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/hacedores/</loc>
+            <lastmod>2017-02-01T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/la-inutilidad-de-la-ciencia/</loc>
+            <lastmod>2017-01-11T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/rutinas-para-evitar-el-gimnasio/</loc>
+            <lastmod>2017-01-06T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/sensores-fotolum%C3%ADnicos-del-2016-parte-01/</loc>
+            <lastmod>2017-01-04T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/freecad/</loc>
+            <lastmod>2016-11-25T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/uso-de-mbed-desde-la-linea-de-comandos-cli/</loc>
+            <lastmod>2016-11-04T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/bibliograf%C3%ADa-sobre-tejido-a-m%C3%A1quina/</loc>
+            <lastmod>2016-10-24T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/bienvenido-a-la-m%C3%A1quina/</loc>
+            <lastmod>2016-10-16T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/para-una-genealog%C3%ADa-de-las-m%C3%A1quinas-de-tejer/</loc>
+            <lastmod>2016-10-04T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/panel-frontal-del-software/</loc>
+            <lastmod>2016-09-01T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/m%C3%A1s-sobre-agenda-en-org-mode/</loc>
+            <lastmod>2016-01-07T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/getting-things-done-part-iii/</loc>
+            <lastmod>2020-11-24T18:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/getting-things-done-part-ii/</loc>
+            <lastmod>2020-11-23T18:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/getting-things-done-part-i/</loc>
+            <lastmod>2020-11-22T18:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/diccionario-de-funciones/</loc>
+            <lastmod>2015-12-11T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/la-%C3%BAnica-verdad-es-el-absurdo/</loc>
+            <lastmod>2015-10-31T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/productividad-negativa/</loc>
+            <lastmod>2015-10-21T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/python-en-emacs-y-otros-atajos/</loc>
+            <lastmod>2015-09-24T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/misterios-de-la-temporizaci%C3%B3n/</loc>
+            <lastmod>2015-06-07T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/b%C3%BAsquedas-con-isearch-en-emacs/</loc>
+            <lastmod>2015-05-27T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</loc>
+            <lastmod>2015-05-20T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/sugerencia-respecto-de-los-tutoriales-de-emacs/</loc>
+            <lastmod>2015-05-18T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/suggestion-about-emacs-tutorials/</loc>
+            <lastmod>2015-05-18T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/cu%C3%A1nto-debe-ganar-un-docente-un-m%C3%A9dico-un-investigador/</loc>
+            <lastmod>2015-04-25T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/los-garabatos-de-cabrol/</loc>
+            <lastmod>2015-04-17T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/m%C3%A1s-sobre-blogs-con-pelican/</loc>
+            <lastmod>2015-04-10T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/molestos-clicks-del-mouse-digikam-tips/</loc>
+            <lastmod>2015-01-16T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/crear-colecciones-y-albumes-en-digikam/</loc>
+            <lastmod>2015-01-15T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/organizar-una-coleccion-de-fotos-digitales/</loc>
+            <lastmod>2015-01-13T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/la-muerte-visita-a-la-m%C3%BAsica-en-la-web/</loc>
+            <lastmod>2015-01-11T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/se-dice-de-charlie-hebdo/</loc>
+            <lastmod>2015-01-10T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/trifulca-digital-tras-un-ataque-terrorista/</loc>
+            <lastmod>2015-01-09T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/una-noche-de-enero-con-el-rel%C3%A1mpago-verde/</loc>
+            <lastmod>2015-01-08T23:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/agenda-en-emacs-y-orgmode/</loc>
+            <lastmod>2016-01-06T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/comandante-emacs-dired-mode/</loc>
+            <lastmod>2014-12-26T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/corpore-sano/</loc>
+            <lastmod>2014-12-17T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/bloguear%C3%A1s-tu-bjj/</loc>
+            <lastmod>2014-12-14T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/brazilian-jiu-jitsu/</loc>
+            <lastmod>2014-12-08T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/artes-marciales/</loc>
+            <lastmod>2014-12-06T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/clojure-nuevo-entretenimiento/</loc>
+            <lastmod>2017-01-08T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/la-fotograf%C3%ADa-en-la-era-de-lo-memorable/</loc>
+            <lastmod>2014-11-25T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/alumna-en-tr%C3%A1nsito-al-tp-de-temperatura/</loc>
+            <lastmod>2014-11-18T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/charla-de-pasi-sahlberg-educacion-en-finlandia/</loc>
+            <lastmod>2014-11-17T14:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/trabajo-practico-de-ecg/</loc>
+            <lastmod>2014-11-17T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/pandoc-conversi%C3%B3n-de-org-mode-a-restructuredtext/</loc>
+            <lastmod>2014-11-08T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/sorpresas-del-pasado/</loc>
+            <lastmod>2014-10-25T11:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/mageia-y-manjaro/</loc>
+            <lastmod>2014-10-22T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/listas-en-python/</loc>
+            <lastmod>2014-10-15T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/tutorial-sobre-control-de-versiones-parte-4/</loc>
+            <lastmod>2014-10-10T11:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/autoaprendizajes/</loc>
+            <lastmod>2014-10-10T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/tutorial-sobre-control-de-versiones-parte-3/</loc>
+            <lastmod>2014-10-09T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/escritorio-c%C3%B3modo-y-atajos-de-teclado/</loc>
+            <lastmod>2014-10-08T11:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/m%C3%A1s-locura-con-git/</loc>
+            <lastmod>2014-10-08T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/tutorial-sobre-control-de-versiones-parte-2/</loc>
+            <lastmod>2014-10-08T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/emacs-y-restructuredtext/</loc>
+            <lastmod>2014-10-07T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/tutorial-sobre-control-de-versiones-parte-1/</loc>
+            <lastmod>2014-10-06T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/de-jpg-a-pdf/</loc>
+            <lastmod>2014-09-24T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/grabacion-de-screencasts-para-tutoriales-de-youtube/</loc>
+            <lastmod>2014-09-23T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/instalando-ipython-en-mageia/</loc>
+            <lastmod>2014-08-22T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/keybindings-conflictivos-en-emacs/</loc>
+            <lastmod>2014-08-17T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/a-punto-para-lisp/</loc>
+            <lastmod>2014-08-13T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/primer-snippet/</loc>
+            <lastmod>2014-08-10T10:02:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/instalacion-de-linux/</loc>
+            <lastmod>2014-08-06T11:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/generar-pdf-en-espa%C3%B1ol-desde-org-mode/</loc>
+            <lastmod>2014-08-06T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/compra-de-computadora-de-oficina/</loc>
+            <lastmod>2014-08-03T10:30:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/apuntes-sobre-matplotlib/</loc>
+            <lastmod>2014-08-03T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/por-qu%C3%A9-los-palestinos-contin%C3%BAan-apoyando-a-hamas-a-pesar-de-sus-p%C3%A9rdidas-devastadoras/</loc>
+            <lastmod>2014-08-01T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/comandos-de-emacs-y-spacemacs-para-recordar/</loc>
+            <lastmod>2014-07-31T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/comunicacion-usb-con-mbed/</loc>
+            <lastmod>2014-07-31T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/sincronizando-con-git/</loc>
+            <lastmod>2014-07-31T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/israel-tiene-alternativas-a-esta-guerra-por-noam-sheizaf/</loc>
+            <lastmod>2014-07-25T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/acerca-de-la-guerra-en-gaza-3/3/</loc>
+            <lastmod>2021-09-17T10:30:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/acerca-de-la-guerra-en-gaza-2/3/</loc>
+            <lastmod>2021-09-17T10:15:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/acerca-de-la-guerra-en-gaza-1/3/</loc>
+            <lastmod>2021-09-17T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/fitness-freeletics-calistenia-y-afines/</loc>
+            <lastmod>2014-05-19T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/grupos-de-afinidad/</loc>
+            <lastmod>2021-07-26T01:30:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/blog-con-pelican-y-github/</loc>
+            <lastmod>2014-04-22T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/modos-de-arruinar-la-educaci%C3%B3n-superior-parte-ii/</loc>
+            <lastmod>2014-04-16T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/modos-de-arruinar-la-educaci%C3%B3n-superior-parte-i/</loc>
+            <lastmod>2014-04-15T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/cuando-uno-quiere-a-y-termina-haciendo-b/</loc>
+            <lastmod>2015-02-11T10:30:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/descubriendo-gnome/</loc>
+            <lastmod>2014-02-09T11:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/d%C3%B3nde-est%C3%A1n-los-programas-en-linux/</loc>
+            <lastmod>2014-02-09T10:30:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/instrucciones-para-armar-un-blog-geek/</loc>
+            <lastmod>2021-07-25T17:40:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/aprender-a-lo-hansel-y-gretel/</loc>
+            <lastmod>2014-02-09T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/usando-control-de-versiones/</loc>
+            <lastmod>2014-02-09T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/exceso-de-opciones/</loc>
+            <lastmod>2021-07-25T17:40:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/carpinter%C3%ADa-extras/</loc>
+            <lastmod>2010-01-05T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/carpinter%C3%ADa-a-pleno/</loc>
+            <lastmod>2010-01-04T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/youtube/</loc>
+            <lastmod>2010-01-03T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/enlaces-sobre-m%C3%BAsica/</loc>
+            <lastmod>2010-01-02T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/inicio/</loc>
+            <lastmod>2010-01-01T10:00:00+00:00</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+</urlset>

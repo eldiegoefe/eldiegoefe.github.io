@@ -1,0 +1,661 @@
+
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="es"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>Bienvenidos a Scheme &middot; Certezas Dudosas</title>
+    <meta name="title" content="Bienvenidos a Scheme &middot; Certezas Dudosas" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="http://localhost:1313/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="http://localhost:1313/css/main.bundle.min.57d1c448a1783097815ad61ba1a727b1490184aed782150f83eb9243809e8142.css"
+    integrity="sha256-V9HESKF4MJeBWtYboacnsUkBhK7XghUPg&#43;uSQ4CegUI="
+  />
+  
+  
+  
+  
+  
+  
+  
+  <meta
+    name="description"
+    content="
+      
+        
+      
+    "
+  />
+  
+  
+  
+  
+    <link rel="canonical" href="http://localhost:1313/posts/2017/2017-11-28-scheme/" />
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:1313/posts/2017/2017-11-28-scheme/">
+  <meta property="og:site_name" content="Certezas Dudosas">
+  <meta property="og:title" content="Bienvenidos a Scheme">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2017-11-28T10:00:00+00:00">
+    <meta property="article:modified_time" content="2017-11-28T10:00:00+00:00">
+    <meta property="article:tag" content="Scheme">
+    <meta property="article:tag" content="Lisp">
+    <meta property="article:tag" content="Clojure">
+    <meta property="article:tag" content="Programacion">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Bienvenidos a Scheme">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "Bienvenidos a Scheme",
+    "headline": "Bienvenidos a Scheme",
+    
+    
+    "inLanguage": "es",
+    "url" : "http:\/\/localhost:1313\/posts\/2017\/2017-11-28-scheme\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Diego Efe"
+    },
+    "copyrightYear": "2017",
+    "dateCreated": "2017-11-28T10:00:00\u002b00:00",
+    "datePublished": "2017-11-28T10:00:00\u002b00:00",
+    
+    "dateModified": "2017-11-28T10:00:00\u002b00:00",
+    
+    "keywords": ["scheme","lisp","clojure","programacion"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "938"
+  }
+  </script>
+    
+    <script type="application/ld+json">
+    {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/",
+       "name": "Certezas Dudosas",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/posts/",
+       "name": "Posts",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:1313/categories/tecnicismos/",
+       "name": "Tecnicismos",
+       "position": 3
+     },
+     {
+       "@type": "ListItem",
+       "name": "Bienvenidos a Scheme",
+       "position": 4
+     }
+   ]
+ }
+  </script>
+
+  
+  
+    <meta name="author" content="Diego Efe" />
+  
+  
+    
+      <link href="mailto:dfainstein@gmail.com" rel="me" />
+    
+      <link href="https://facebook.com/eldiegoefe" rel="me" />
+    
+      <link href="https://github.com/bioingenieroDiegol" rel="me" />
+    
+      <link href="https://instagram.com/eldiegoefe" rel="me" />
+    
+      <link href="https://www.youtube.com/@DiegoEfe" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+</head>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >Ir al contenido</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Certezas Dudosas</a
+  >
+
+    </div>
+    
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Bienvenidos a Scheme
+      </h1>
+      
+        <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+          
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2017-11-28 10:00:00 &#43;0000 UTC">28/noviembre/2017</time><span class="px-2 text-primary-500">&middot;</span><span title="Tiempo de lectura">5 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+        </div>
+      
+      
+    </header>
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      
+      <div class="min-h-0 min-w-0 max-w-prose grow">
+        <p>Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y
+esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad
+Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp
+que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a
+toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado
+para simular la inteligencia humana, creado por John McCarthy en la década del
+50.</p>
+
+  
+  
+  
+  
+  
+
+  
+  
+    
+    
+  
+  <figure class="mx-auto my-0 rounded-md">
+    <img src="https://c1.staticflickr.com/5/4541/38650993086_6356f41de4_o.jpg" alt="" class="mx-auto my-0 rounded-md"/>
+    
+  </figure>
+
+
+<p>Salvo que seas un hongo, o que hayas sido fascinado por la retórica
+kirchnerista y/o la capacidad de gestión del macrismo con la
+consiguiente pérdida correlativa de capacidades cognitivas, aprender
+sobre programación en Lisp te provoca una masiva liberación de
+norepinefrina y serotonina, un insoportable deseo de visitar Las Toninas
+y de comer pan dulce con muchas pasas de uva como el que venden en la
+granjita de al lado de casa.</p>
+<p>Scheme es un dialecto muy utilizado en ámbitos educativos. Se que es más
+pequeño y sencillo que Common Lisp, y no se qué diferencias tiene con
+Clojure y Racket y otros herederos del LISt Processor (de ahí el nombre
+del lenguaje McCartista). El tema es que los cursos introductorios de
+&quot;Computer Science&quot; en las universidades más prestigiosas del mundo
+(Berkeley, MIT, La Matanza, Stanford, etc) lo utilizan o lo utilizaban
+hasta hace muy poco. De hecho, justamente llegué a Scheme buscando
+bibliografía para estudiar programación y Lisp. Me encontré en la web
+varios libros y cursos recomendados:</p>
+<ul>
+<li>el curso CS 61A dictado en Berkeley por Brian Harvey.</li>
+<li>el libro &quot;<a href="https://mitpress.mit.edu/sicp/full-text/book/book.html" target="_blank" rel="noreferrer">Structure and Interpretation of Computer
+Programs</a>&quot;
+(comunmente llamado SICP) de Harold Abelson, Gerald Jay Sussman y
+Julie Sussman. GJ Sussman fue uno de los dos diseñadores originales
+de Scheme, junto a su discípulo Guy L. Steele Jr (que diseñó y
+documentó también otros lenguajes). Mientras ellos elaboran nuevos
+lenguajes uno apenas puede lidiar con el ordenamiento de las
+estanterías del lavadero.</li>
+<li>el libro &quot;Scheme and the Art of Programming&quot; de George Springer y
+Daniel Friedman</li>
+<li>el libro &quot;<a href="https://people.eecs.berkeley.edu/~bh/ss-toc2.html" target="_blank" rel="noreferrer">Simply
+Scheme</a>&quot; de
+Brian Harvey y Matthew Wright. Debajo pueden ver la tapa de la
+primera edición.</li>
+<li>la serie de libros &quot;The Little Schemer&quot;, &quot;The Reasoned Schemer&quot;,
+&quot;The Seasoned Schemer&quot; de Daniel Friedman, Matthias Felleisen,
+William Byrd y Oleg Kiselyov.</li>
+</ul>
+<p>Las clases del
+<a href="https://archive.org/details/ucberkeley-webcast-PL6879A8466C44A5D5" target="_blank" rel="noreferrer">2008</a>
+y
+<a href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs61a-spring2011-berkeley.html" target="_blank" rel="noreferrer">2011</a>
+del CS 61A dictadas por <a href="https://people.eecs.berkeley.edu/~bh/" target="_blank" rel="noreferrer">Brian
+Harvey</a> pueden verse online
+(hagan click en los años
+<a href="https://archive.org/details/ucberkeley-webcast-PL6879A8466C44A5D5" target="_blank" rel="noreferrer">2008</a>
+y
+<a href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs61a-spring2011-berkeley.html" target="_blank" rel="noreferrer">2011</a>
+para llegar). Sus clases son muy claras y entretenidas. Tanto en estas
+clases como en la bibliografía el énfasis está puesto en estudiar /
+encontrar / desarrollar / identificar los conceptos con los cuales
+generar abstracciones para resolver problemas con la computadora, más
+que en enseñar la sintaxis de un lenguaje de programación. También está
+disponible online <a href="https://cs61a.org" target="_blank" rel="noreferrer">el curso CS 61A actual</a> (cuyo
+lenguaje principal es Python 3) con acceso a todo el material con el que
+cuentan los alumnos (generoso, abrumador, envidiable, es impresionante
+el interés por enseñar que tienen esos equipos de profesores y
+auxiliares). Acá pueden ver la primera clase del 2008 (desde YouTube).</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/xWZb9U92rgo?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>También está online el curso completo &quot;Structure and Interpretation of
+Computer Science&quot; basado en el libro homónimo, con <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/" target="_blank" rel="noreferrer">las clases de 1986
+en
+video</a>
+(la primera edición del libro es de 1985, y la segunda de 1996, esta
+última es la que está online y aparece en un link más arriba). Hay que
+acostumbrarse al hecho de que sean grabaciones viejas de menor calidad a
+los tutoriales en 1080p de YouTube que se ven actualmente, pero el
+contenido lo merece.</p>
+<p>Se me hizo un lío hasta descubrir por dónde empezar, con tanto material
+extraordinario. El SICP es el libro clásico que todo el mundo recomienda
+en los foros, pero no es sencillo. Por suerte descubrí que el libro de
+Harvey-Wright se propone como precuela (lo dicen en el prólogo) y es
+recomendable leerlo antes, como preparación para el de Abelson-Sussman.</p>
+
+  
+  
+  
+  
+  
+
+  
+  
+    
+    
+  
+  <figure class="mx-auto my-0 rounded-md">
+    <img src="https://c1.staticflickr.com/5/4563/38677380062_73929181b2_o.jpg" alt="" class="mx-auto my-0 rounded-md"/>
+    
+  </figure>
+
+
+<p>También está buenísimo &quot;The Little Schemer&quot; que lo tenía guardado
+desde hace mucho. Apenas voy por la mitad, pero ya mismo puedo
+recomendarlo porque me parece muy apropiado para entender, por ejemplo,
+la recursividad y cómo usarla, algo central en LISP. El texto está
+organizado con la estructura de <a href="https://es.wikipedia.org/wiki/Ense%c3%b1anza_programada" target="_blank" rel="noreferrer">enseñanza
+programada</a>. En esta
+modalidad (que conocí en una serie de libros que tenía mi hermano,
+&quot;<a href="https://www.amazon.com/Curso-programado-c%c3%a1lculo-Sucesiones-infinitas/dp/8429150552" target="_blank" rel="noreferrer">Curso Programado de
+Cálculo</a>&quot;
+de Editorial Reverté, que usé en la secundaria cuando quise prepararme
+para la universidad) la información se presenta secuencialmente en
+pequeños párrafos que contienen problemas o frases para resolver y
+completar. En la misma hoja están las soluciones a los problemas y las
+palabras faltantes. El lector trata de responder y completar los
+espacios en blanco mientras tapa las respuestas, de manera que cuando
+termina puede comparar sus resultados con las soluciones correctas. Será
+conductista pero es muy entretenido, la presentación va avanzando en
+pasos muy pequeños y al menos a mi me genera un estímulo muy agradable
+ir descubriendo la coincidencia o cercanía de las respuestas propias a
+las indicadas por el autor. Estaría bueno que haya más libros con esta
+modalidad.</p>
+
+  
+  
+  
+  
+  
+
+  
+  
+    
+    
+  
+  <figure class="mx-auto my-0 rounded-md">
+    <img src="https://c1.staticflickr.com/5/4531/38677094272_d56db10a21_b.jpg" alt="" class="mx-auto my-0 rounded-md"/>
+    
+  </figure>
+
+
+<p>Por suerte todos estos libros están disponibles gratuitamente o se
+consiguen con algún torrent, porque por un lado no están disponibles en
+Argentina, y sus precios (en
+<a href="https://www.bookdepository.com" target="_blank" rel="noreferrer">BookDepository</a>, que no cobra el costo
+de envío, Amazon no los envía a nuestro país) son altísimos. SICP cuesta
+casi 1000 ARS, Simply Scheme más de 1300 ARS, The Little Schemer casi
+700 ARS, etc.</p>
+<p>En un próximo post voy a explicar cómo uso Scheme desde el shell o desde
+Emacs para probar los pequeños programas que los libros tienen de
+ejemplo o los que surgen de los problemas que proponen.</p>
+
+      </div>
+    </section>
+    <footer class="max-w-prose pt-8 print:hidden">
+      
+  <div class="flex">
+    
+    
+    
+    <div class="place-self-center">
+      
+        <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+          Autor
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          Diego Efe
+        </div>
+      
+      
+        <div class="text-sm text-neutral-700 dark:text-neutral-400">Bioingeniero en la ficcion, en la vida real defiende monstruos del ataque de todo tipo de superheroes.</div>
+      
+      <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="mailto:dfainstein@gmail.com"
+          target="_blank"
+          aria-label="Email"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://facebook.com/eldiegoefe"
+          target="_blank"
+          aria-label="Facebook"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://github.com/bioingenieroDiegol"
+          target="_blank"
+          aria-label="Github"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://instagram.com/eldiegoefe"
+          target="_blank"
+          aria-label="Instagram"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://www.youtube.com/@DiegoEfe"
+          target="_blank"
+          aria-label="Youtube"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="http://localhost:1313/posts/2017/2017-10-18-casitas/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Casitas y minimalismo</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2017-10-18 10:00:00 &#43;0000 UTC">18/octubre/2017</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="http://localhost:1313/posts/emacs/2017-12-01-instalacion-y-configuracion-de-emacs/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Instalación y configuración de Emacs</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2017-12-01 10:00:00 &#43;0000 UTC">1/diciembre/2017</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[-2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label="Ir arriba"
+            title="Ir arriba"
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2025
+            Diego Efe
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Desarrollada con <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+    </div>
+  </div>
+  
+  
+</footer>
+
+    </div>
+  </body>
+</html>
