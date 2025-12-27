@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Usando control de versiones | Certezas Dudosas</title>
+<meta name="keywords" content="git, control de versiones, cheat sheet">
+<meta name="description" content="(Editado: empecé a traducir un buen tutorial de Git y lo pueden ver en
+este nuevo post
+El año pasado conocí algo que ya se había cruzado en mi camino y no me
+había dado cuenta. Una necesidad lo requería: miles de versiones del
+mismo archivo con el nombre evolucionando con rastros de racionalidad
+pero en definitiva impidiendo saber si, tras dos o tres días de
+ausencia, me encontraba trabajando sobre la última versión o si la que
+decía &quot;ultima final para imprimir final b&quot; era realmente la que debía
+utilizar. Tanto sea un documento de texto como un programa es
+imprescindible tener algún método, y el método manual que utilizo desde
+que tengo uso de memoria ya ven lo deficiente que es.">
+<meta name="author" content="Diego Efe">
+<link rel="canonical" href="http://localhost:1313/posts/2014/2014-02-25-usando-control-de-versiones/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2014/2014-02-25-usando-control-de-versiones/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Certezas Dudosas (Alt + H)">Certezas Dudosas</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Usando control de versiones
+    </h1>
+    <div class="post-meta"><span title='2014-02-09 10:00:00 +0000 UTC'>February 9, 2014</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>(Editado: empecé a traducir un buen tutorial de Git y lo pueden ver en
+<a href="http://localhost:1313/posts/2014/2014-10-06-control-de-versiones-1/">este nuevo post</a></p>
+<p>El año pasado conocí algo que ya se había cruzado en mi camino y no me
+había dado cuenta. Una necesidad lo requería: miles de versiones del
+mismo archivo con el nombre evolucionando con rastros de racionalidad
+pero en definitiva impidiendo saber si, tras dos o tres días de
+ausencia, me encontraba trabajando sobre la última versión o si la que
+decía &quot;<em>ultima final para imprimir final b</em>&quot; era realmente la que debía
+utilizar. Tanto sea un documento de texto como un programa es
+imprescindible tener algún método, y el método manual que utilizo desde
+que tengo uso de memoria ya ven lo deficiente que es.</p>
+<p>Por el lado ya no de la necesidad sino del efectivo uso del control de
+versiones, encontré interesante la funcionalidad de las wikis, que van
+almacenando todas las versiones previas y no tan solamente la última,
+que es la que muestran; pudiéndose recuperar una versión más antigua e
+incluso comparar la versión del texto actual con cualquier versión
+previa.</p>
+<p>Así fue como el año pasado me entusiasmé leyendo sobre <strong>mercurial, git,
+commits, branches, bitbuckets, githubs y palabrerío relacionado</strong>. Advertí que
+incluso está presente todo eso en software ampliamente diverso que yo había
+usado en el pasado (como labview o lyx), pero no le había dado la menor bola.</p>
+<p>Github es un sitio web que ofrece el sistema de control de versiones, un
+servicio de alojamiento de archivos con la funcionalidad asociada de recuperar
+versiones anteriores y todo lo relacionado con ello. Es ampliamente mencionado y
+usado por los desarrolladores y comunidades de software libre (creo que es el
+sitio elegido para cobijar las distintas versiones del kernel de linux). Es
+sumamente interesante que estén a disposición de los navegantes todos los
+códigos fuentes allí alojados, de manera tal que uno puede &quot;clonar&quot; todos esos
+archivos (escritos en el idioma que sea) y trabajar con ellos en la computadora
+personal propia. La idea es que cualquiera puede realizarle mejoras al programa
+y pedir, mediante el propio sistema que ofrece el motor del sitio, la inclusión
+de sus aportes al código fuente del programa.</p>
+<p>Copio acá algunos apuntes mios del uso de GIT, no es un tutorial (ya hay muchos
+en la web, como el de <a href="http://www.vogella.com/tutorials/Git/article.html">Lars
+Vogel</a>, sino más bien un
+ayuda-memoria para mi mismo, que estoy permanentemente buscando los comandos.
+Espero poder recordarlos a medida que los use&hellip;</p>
+<p>Un repositorio es un conjunto de archivos correspondientes a un mismo
+proyecto, y con la misma palabra se designa al espacio donde estos se
+alojan. En general un desarrollador conserva un repositorio local (un
+directorio con todos los archivos en su propia computadora) y un
+repositorio remoto (en un sitio como github, bitbucket, etc).</p>
+<p>Un mismo repositorio puede tener una o varias ramas (branches). <strong>Puede estar
+habilitada una sola rama en cada momento</strong>, la cual muestra el conjunto de
+archivos y directorios contenidos en esa rama.</p>
+<p>En el archivo [.gitignore] (que puede estar en cualquier subdirectorio del
+repositorio) se listan los archivos que deben ignorarse. Por ejemplo [*.pyc]
+(los archivos de python compilados) o los [*.exe] (lo que se controla con este
+sistema son las versiones del código fuente en modo texto, no los archivos
+binarios).</p>
+<p><strong>.git</strong> (es un directorio) contiene la historia completa del
+repositorio. El contenido sólo lo manipula el motor del sistema y no el
+usuario.</p>
+<p><strong>.git/config</strong> contiene la configuración local del repositorio</p>
+<p>Los comandos más usados pueden estar entre los siguientes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>git init # Inicializamos el repositorio local Git
+</span></span><span style="display:flex;"><span>git add . # Agregamos todo (archivos y directorios) al repositorio
+</span></span><span style="display:flex;"><span>git commit -m &#34;Initial commit&#34; # Hacemos un commit al repositorio
+</span></span><span style="display:flex;"><span>git log # Muestra el log (un historial)
+</span></span><span style="display:flex;"><span>git add # Para agregar cosas al index stage (indice).
+</span></span><span style="display:flex;"><span>git a # Idéntico al anterior
+</span></span><span style="display:flex;"><span>git remote -v # Para ver a donde apunta el origin
+</span></span><span style="display:flex;"><span>git remote add origin git@github.com:usuario/repo.git # Para cambiar el origin
+</span></span><span style="display:flex;"><span>git remote rm origin # Para elimiar el origin
+</span></span><span style="display:flex;"><span>git push # Para enviar los cambios al repositorio
+</span></span><span style="display:flex;"><span>git pull # Para traer los cambios desde el repositorio
+</span></span><span style="display:flex;"><span>git branch # Para ver las distintas ramas existentes
+</span></span><span style="display:flex;"><span>git branch nombre-de-la-nueva-rama # Para crear una rama
+</span></span><span style="display:flex;"><span>git checkout nombre-de-la-otra-rama # Para cambiar a otra rama
+</span></span><span style="display:flex;"><span>git commit -a -m &#34;Mensaje de commit&#34; # Para comitear
+</span></span><span style="display:flex;"><span>git branch -d nombre-del-branch-a-borrar # Para borrar un branch
+</span></span></code></pre></div>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/git/">Git</a></li>
+      <li><a href="http://localhost:1313/tags/control-de-versiones/">Control De Versiones</a></li>
+      <li><a href="http://localhost:1313/tags/cheat-sheet/">Cheat Sheet</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Certezas Dudosas</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

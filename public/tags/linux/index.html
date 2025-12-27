@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Linux | Certezas Dudosas</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://eldiegoefe.github.io/tags/linux/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.090b0e09a6bc3c6089eba78665806213d77d57924a8708fe2680e23f1a0eab74.css" integrity="sha256-CQsOCaa8PGCJ66eGZYBiE9d9V5JKhwj&#43;JoDiPxoOq3Q=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://eldiegoefe.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://eldiegoefe.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://eldiegoefe.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://eldiegoefe.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://eldiegoefe.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://eldiegoefe.github.io/tags/linux/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="https://eldiegoefe.github.io/tags/linux/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://eldiegoefe.github.io/tags/linux/">
+  <meta property="og:site_name" content="Certezas Dudosas">
+  <meta property="og:title" content="Linux">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Linux">
+<meta name="twitter:description" content="">
+
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://eldiegoefe.github.io/" accesskey="h" title="Certezas Dudosas (Alt + H)">Certezas Dudosas</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Linux
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Peso de los directorios en Linux
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Se me está por llenar el disco rígido externo, donde tengo fotos, películas, documentos y demás. Un terabyte de porquerías, pero nada que quiera borrar. ¿O sí? Ir directorio por directorio es tedioso y puede volverse una tarea abrumadora si aparecen muchos subdirectorios anidados con incierto contenido dentro de los mismos.
+Se puede usar el comando du para obtener el tamaño de los directorios y encadenarlo con un sort para que el resultado aparezca ordenado por el tamaño de los mismos:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2017-09-03 10:00:00 +0000 UTC'>September 3, 2017</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>286 words</span>&nbsp;·&nbsp;<span>Diego Efe</span></footer>
+  <a class="entry-link" aria-label="post link to Peso de los directorios en Linux" href="https://eldiegoefe.github.io/2017/09/peso-de-los-directorios-en-linux/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Backup con RSync
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>RSync es un programa que permite copiar archivos, pero a diferencia de un copiado común, compara los archivos de origen y destino y sólo realiza la transferencia de la diferencia entre ambos: si son iguales no transfiere nada, si es un archivo de texto y se agregó sólo un caracter, RSync envía unicamente ese caracter y reconstruye el archivo en el destino para que ambas copias sean exactamente iguales. De este modo el procedimiento es más eficiente, en particular si se copian archivos grandes. La copia se puede realizar entre cualquier directorio de origen y destino, ya sea que se encuentren en un mismo disco rígido, en diferentes discos en una misma computadora o también entre una máquina local y una remota (o viceversa).
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2017-06-21 10:00:00 +0000 UTC'>June 21, 2017</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>977 words</span>&nbsp;·&nbsp;<span>Diego Efe</span></footer>
+  <a class="entry-link" aria-label="post link to Backup con RSync" href="https://eldiegoefe.github.io/2017/06/backup-con-rsync/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Autoaprendizajes
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>No recuerdo en qué momento fue que pronuncié las palabras mágicas, pero cuando sea que haya ocurrido, se abrieron portales hacia temas inexplorados dentro de un mundo que creía conocer.
+En los últimos meses (¿10? ¿20?) me encontré con:
+un lenguaje de programación fantástico por su sencillez y potencia (Python), junto con un conjunto de librerías para tareas científicas: matplotlib, numpy, pandas, etc. la idea del control de versiones (que es una herramienta magnífica para quienes escribimos todo tipo de textos que al ir corrigiendo dejan una huella dificil de seguir desde su versión inicial hacia su versión actual, ya sea que se trate de programas, entradas de blog o informes científicos o técnicos). En particular Git y GitHub. el deseo de colaborar en el desarrollo colectivo de software, cosa que creo que en el futuro de mediano plazo espero concretar. Avancé con el aprendizaje de Emacs (con Prelude, actualmente en uso, y Ergoemacs, que por el momento dejé de usar pero igual creo que está buenísimo, de ahí surgió el interés por los teclados con distribución Dvorak que uso actualmente), descubrí el IPython Notebook (y encadenado con eso ahora descubrí el lenguaje Julia). Aca pueden ver una imagen del IPython Notebook mientras lo usaba para un trabajo de Dosimetría.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2014-10-10 10:00:00 +0000 UTC'>October 10, 2014</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>510 words</span>&nbsp;·&nbsp;<span>Diego Efe</span></footer>
+  <a class="entry-link" aria-label="post link to Autoaprendizajes" href="https://eldiegoefe.github.io/2014/10/autoaprendizajes/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Instalacion de Linux
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>No es difícil encontrar la información para la instalación de Linux, pero hay distintas maneras y quiero dejar registrada la forma en que lo estoy haciendo actualmente. Los pasos que sigo son:
+Bajar el ISO (el archivo imagen) de la distribución que quiero instalar, en este caso es Linux Mint 17. Formatear en FAT32 el pendrive mediante el programa GParted. Con el programa UNETBOOTIN se pasa la imagen al pendrive (hay que elegir el archivo ISO como fuente). Luego ya es cuestión de setear la PC para que arranque con el pendrive y seguir las instrucciones que aparezcan en pantalla.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2014-08-06 11:00:00 +0000 UTC'>August 6, 2014</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>344 words</span>&nbsp;·&nbsp;<span>Diego Efe</span></footer>
+  <a class="entry-link" aria-label="post link to Instalacion de Linux" href="https://eldiegoefe.github.io/2014/08/instalacion-de-linux/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Descubriendo Gnome
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Empecé a tomarle el gustito a Fedora y Gnome. Al principio (24 horas atrás) el mouse parecía haber alcanzado un inoportuno grado de independencia porque se tendía a ir a la esquina superior izquierda (la “hot corner”) y se habilitaba el menú de Actividades. Para solucionarlo encontré un sitio desde el cual se instalan las extensiones de GNOME, que es un gran descubrimiento en sí mismo.
+Primero lo primero: instale &#39;No Topleft Hot Corner&#39;. Me resulto llamativo que la instalación se realiza moviendo un switch que aparece junto al nombre de la extensión desde la propia página web (y que tiene también el texto ON u OFF de acuerdo a si ya esta instalado o no). Un detalle es que me anduvo bien desde Firefox, pero no desde Chrome (me doy bronca, porque todavía no instalé Opera, y es mi navegador de cabecera).
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2014-02-09 11:00:00 +0000 UTC'>February 9, 2014</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>377 words</span>&nbsp;·&nbsp;<span>Diego Efe</span></footer>
+  <a class="entry-link" aria-label="post link to Descubriendo Gnome" href="https://eldiegoefe.github.io/2014/02/descubriendo-gnome/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Dónde están los programas en Linux
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Los directorios típicos son los siguientes, aunque hay variaciones en las distintas distribuciones de linux:
+[/bin] ejecutables (Essential commands that everyone needs to use at any time) [/usr] A complex hierarchy of additional programs and files. [/usr/bin] normal user executables. The commands that aren’t essential for users but are useful [/sbin] (superuser core executables) The commands the system Administrator needs access to. [/usr/sbin] (superuser executables). The commands that aren’t essential for Administrators but are useful. Library files: (semi-equivalent to windows dll&#39;s) [/lib], [/usr/lib], etc. Configuration files: [/etc/] [/run/media] es en donde se montan las unidades portátiles, como el rígido externo y el pendrive También se le puede preguntar al sistema dónde está instalado un paquete:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2014-02-09 10:30:00 +0000 UTC'>February 9, 2014</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>120 words</span>&nbsp;·&nbsp;<span>Diego Efe</span></footer>
+  <a class="entry-link" aria-label="post link to Dónde están los programas en Linux" href="https://eldiegoefe.github.io/2014/02/d%C3%B3nde-est%C3%A1n-los-programas-en-linux/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://eldiegoefe.github.io/">Certezas Dudosas</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

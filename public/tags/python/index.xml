@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Python on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/python/</link>
+    <description>Recent content in Python on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 19 Apr 2018 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalacion de PyQt</title>
+      <link>https://eldiegoefe.github.io/2018/04/instalacion-de-pyqt/</link>
+      <pubDate>Thu, 19 Apr 2018 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2018/04/instalacion-de-pyqt/</guid>
+      <description>&lt;p&gt;Este es un post-ayudamemoria para la instalación de PyQt en un entorno virtual.
+Tengo la impresión de que lo escribí ya en el blog pero no lo encuentro ni con
+los buscadores más buscados (ag, ack, pt):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Activar el virtualenv, asumiendo que están instalados pyenv y
+pyenv-virtualenvs (también tendría que agregar el tutorial para
+usarlos, pero es demasiado para el propósito del día de hoy, aunque
+&amp;quot;hoy&amp;quot; no tiene sentido para un texto perdido en la web).
+Supongamos que el entorno se llama &amp;quot;lab&amp;quot;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Panel frontal del software</title>
+      <link>https://eldiegoefe.github.io/2016/09/panel-frontal-del-software/</link>
+      <pubDate>Thu, 01 Sep 2016 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2016/09/panel-frontal-del-software/</guid>
+      <description>&lt;p&gt;Una vez más me encuentro ante el desafío de armar un panel para un programa de
+análisis de datos, hecho en Python. Lo ideal sería trabajar con lineas de
+comandos y no tener que estar lidiando con menúes, botones y areas de
+graficación, pero sería impractico para los usuarios a quienes está destinado el
+programa. Así que nuevamente tengo que rastrear cómo se arma una pantalla con
+todas estas cosas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Diccionario de funciones</title>
+      <link>https://eldiegoefe.github.io/2015/12/diccionario-de-funciones/</link>
+      <pubDate>Fri, 11 Dec 2015 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2015/12/diccionario-de-funciones/</guid>
+      <description>&lt;p&gt;Mientras escribo un programa para manipular imágenes de un microscopio, tuve que
+ver cómo ejecutar una función distinta, de acuerdo a cierto parámetro. Más
+concretamente, para procesar las imágenes en algunos casos se necesita un
+kernel, que es una matriz llena de unos y ceros organizados de acuerdo a la
+selección de dos parámetros: forma y tamaño. Por ejemplo, un &amp;quot;disco&amp;quot; de radio
+3 se vería así:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[[0 0 0 1 0 0 0]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [1 1 1 1 1 1 1]
+ [0 1 1 1 1 1 0]
+ [0 1 1 1 1 1 0]
+ [0 0 0 1 0 0 0]]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Y una matriz &amp;quot;cuadrada&amp;quot; de lado 3, así:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python en Emacs y otros atajos</title>
+      <link>https://eldiegoefe.github.io/2015/09/python-en-emacs-y-otros-atajos/</link>
+      <pubDate>Thu, 24 Sep 2015 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2015/09/python-en-emacs-y-otros-atajos/</guid>
+      <description>&lt;h2 id=&#34;spacemacs&#34;&gt;Spacemacs&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Anaconda-mode: Emacs tiene muchas herramientas para facilitar la
+programación en Python. En Spacemacs se puede activar
+&lt;a href=&#34;https://github.com/proofit404/anaconda-mode&#34;&gt;anaconda-mode&lt;/a&gt;, que habilita
+una serie de paquetes útiles. Por ejemplo &amp;quot;eldoc&amp;quot; que ofrece información
+en el modeline sobre la función que se está tipeando (muestra los nombres de
+sus argumentos). Cosas de Anaconda para usar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;anaconda-mode-complete (C-M-i)&lt;/li&gt;
+&lt;li&gt;anaconda-mode-find-definitions (SPC m g g): busca el origen del
+símbolo bajo el punto. Por ejemplo: si se trata de una función,
+abre el archivo donde está definida y ubica el punto sobre el
+encabezado de la misma.&lt;/li&gt;
+&lt;li&gt;anaconda-mode-find-assignments&lt;/li&gt;
+&lt;li&gt;anaconda-mode-find-references&lt;/li&gt;
+&lt;li&gt;anaconda-mode-go-back&lt;/li&gt;
+&lt;li&gt;anaconda-mode-show-doc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Entornos virtuales: se puede activar un entorno virtual donde correr
+el programa que se está desarrollando con SPC m V (pyvenv-workon,
+pero en este caso no aparecen correctamente todas las opciones, al
+menos no veo los entornos que instalé con pyenv), o también con SPC
+m v s (pyenv-mode-set, en este caso sí se ven los entornos de
+pyenv).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Listas en Python</title>
+      <link>https://eldiegoefe.github.io/2014/10/listas-en-python/</link>
+      <pubDate>Wed, 15 Oct 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/10/listas-en-python/</guid>
+      <description>&lt;p&gt;Apuntes del capítulo 10. Lists, de Think Python.&lt;/p&gt;
+&lt;h2 id=&#34;traversing&#34;&gt;Traversing&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;To traverse&lt;/em&gt; es el verbo que se refiere al acceso secuencial de los
+elementos de una lista. La siguiente es una forma de &amp;quot;traversear&amp;quot; una
+lista:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; cheese &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; cheeses:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       print cheese
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Si se necesita modificar algún elemento de la lista es mejor hacer:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(len(numbers)):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       numbers[i] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; numers[i] &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;agregar-elementos-a-una-lista&#34;&gt;Agregar elementos a una lista&lt;/h2&gt;
+&lt;p&gt;Se pueden agregar elementos individuales a una lista con &lt;em&gt;append&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Autoaprendizajes</title>
+      <link>https://eldiegoefe.github.io/2014/10/autoaprendizajes/</link>
+      <pubDate>Fri, 10 Oct 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/10/autoaprendizajes/</guid>
+      <description>&lt;p&gt;No recuerdo en qué momento fue que pronuncié las palabras mágicas, pero cuando
+sea que haya ocurrido, se abrieron portales hacia temas inexplorados dentro de
+un mundo que creía conocer.&lt;/p&gt;
+&lt;p&gt;En los últimos meses (¿10? ¿20?) me encontré con:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;un lenguaje de programación fantástico por su sencillez y potencia
+(&lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt;), junto con un conjunto de
+librerías para tareas científicas: matplotlib, numpy, pandas, etc.&lt;/li&gt;
+&lt;li&gt;la idea del control de versiones (que es una herramienta magnífica
+para quienes escribimos todo tipo de textos que al ir corrigiendo
+dejan una huella dificil de seguir desde su versión inicial hacia su
+versión actual, ya sea que se trate de programas, entradas de blog o
+informes científicos o técnicos). En particular Git y
+&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;el deseo de colaborar en el desarrollo colectivo de software, cosa
+que creo que en el futuro de mediano plazo espero concretar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Avancé con el aprendizaje de Emacs (con
+&lt;a href=&#34;http://batsov.com/prelude/&#34;&gt;Prelude&lt;/a&gt;, actualmente en uso, y
+&lt;a href=&#34;http://ergoemacs.org/&#34;&gt;Ergoemacs&lt;/a&gt;, que por el momento dejé de usar pero
+igual creo que está buenísimo, de ahí surgió el interés por los teclados
+con distribución &lt;a href=&#34;http://es.wikipedia.org/wiki/Teclado_Dvorak&#34;&gt;Dvorak&lt;/a&gt;
+que uso actualmente), descubrí el &lt;a href=&#34;http://ipython.org/&#34;&gt;IPython
+Notebook&lt;/a&gt; (y encadenado con eso ahora descubrí el
+lenguaje &lt;a href=&#34;http://julialang.org/&#34;&gt;Julia&lt;/a&gt;). Aca pueden ver una imagen del
+IPython Notebook mientras lo usaba para un trabajo de Dosimetría.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apuntes sobre matplotlib</title>
+      <link>https://eldiegoefe.github.io/2014/08/apuntes-sobre-matplotlib/</link>
+      <pubDate>Sun, 03 Aug 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/08/apuntes-sobre-matplotlib/</guid>
+      <description>&lt;p&gt;Estos son algunos apuntes extraidos principalmente del &lt;a href=&#34;http://matplotlib.org/users/artists.html&#34;&gt;tutorial de Artist&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;matplotlib&#34;&gt;Matplotlib&lt;/h3&gt;
+&lt;p&gt;Matplotlib is the whole package&lt;/p&gt;
+&lt;h3 id=&#34;pylab&#34;&gt;&lt;strong&gt;pylab&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;a module in matplotlib&lt;/li&gt;
+&lt;li&gt;installed alongside matplotlib&lt;/li&gt;
+&lt;li&gt;preferred for interactive calculations and plotting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;matplotlibpyplot&#34;&gt;&lt;strong&gt;matplotlib.pyplot&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;a module in matplotlib provides the state machine interface to the
+underlying plotting library in matplotlib&lt;/li&gt;
+&lt;li&gt;combines the pyplot functionality (for plotting) with numpy
+functionality in a single namespace&lt;/li&gt;
+&lt;li&gt;figures and axes are implicitly and automatically created to achieve
+the desired plot&lt;/li&gt;
+&lt;li&gt;preferred for scripting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;artist&#34;&gt;Artist&lt;/h2&gt;
+&lt;p&gt;Artist has three layers:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comunicacion USB con mbed</title>
+      <link>https://eldiegoefe.github.io/2014/07/comunicacion-usb-con-mbed/</link>
+      <pubDate>Thu, 31 Jul 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/07/comunicacion-usb-con-mbed/</guid>
+      <description>&lt;p&gt;La comunicación mediante USB con microcontroladores me viene un escollo permanente. El protocolo en sí tiene una complejidad que dispuesto a dedicarle, sobre todo porque empecé a leer varias veces sobre el mismo y siempre me encuentro dando vueltas alrededor de detalles que parecen demasiado específicos y alejados de lo que yo necesito lograr. Decidí hacer la prueba con mbed, ya que tengo una placa kinetis frdm-kl25z de freescale, con la cual hay unos ejemplos de comunicación que parecen muy sencillos.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

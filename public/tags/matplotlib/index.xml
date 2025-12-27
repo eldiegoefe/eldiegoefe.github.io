@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Matplotlib on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/matplotlib/</link>
+    <description>Recent content in Matplotlib on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 03 Aug 2014 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/matplotlib/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apuntes sobre matplotlib</title>
+      <link>https://eldiegoefe.github.io/2014/08/apuntes-sobre-matplotlib/</link>
+      <pubDate>Sun, 03 Aug 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/08/apuntes-sobre-matplotlib/</guid>
+      <description>&lt;p&gt;Estos son algunos apuntes extraidos principalmente del &lt;a href=&#34;http://matplotlib.org/users/artists.html&#34;&gt;tutorial de Artist&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;matplotlib&#34;&gt;Matplotlib&lt;/h3&gt;
+&lt;p&gt;Matplotlib is the whole package&lt;/p&gt;
+&lt;h3 id=&#34;pylab&#34;&gt;&lt;strong&gt;pylab&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;a module in matplotlib&lt;/li&gt;
+&lt;li&gt;installed alongside matplotlib&lt;/li&gt;
+&lt;li&gt;preferred for interactive calculations and plotting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;matplotlibpyplot&#34;&gt;&lt;strong&gt;matplotlib.pyplot&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;a module in matplotlib provides the state machine interface to the
+underlying plotting library in matplotlib&lt;/li&gt;
+&lt;li&gt;combines the pyplot functionality (for plotting) with numpy
+functionality in a single namespace&lt;/li&gt;
+&lt;li&gt;figures and axes are implicitly and automatically created to achieve
+the desired plot&lt;/li&gt;
+&lt;li&gt;preferred for scripting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;artist&#34;&gt;Artist&lt;/h2&gt;
+&lt;p&gt;Artist has three layers:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

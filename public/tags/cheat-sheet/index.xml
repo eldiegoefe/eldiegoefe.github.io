@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cheat Sheet on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/cheat-sheet/</link>
+    <description>Recent content in Cheat Sheet on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 08 Oct 2014 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/cheat-sheet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Más locura con Git</title>
+      <link>https://eldiegoefe.github.io/2014/10/m%C3%A1s-locura-con-git/</link>
+      <pubDate>Wed, 08 Oct 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/10/m%C3%A1s-locura-con-git/</guid>
+      <description>&lt;p&gt;Hay un lindo tutorial interactivo para aprender a usar Git &lt;a href=&#34;https://github.com/swcarpentry/site&#34;&gt;este
+Carpentry&lt;/a&gt;, recomendado desde el GitHub de
+&lt;a href=&#34;https://github.com/swcarpentry/site&#34;&gt;Software Carpentry&lt;/a&gt;. Me gustó también el
+video &lt;a href=&#34;https://www.youtube.com/watch?v=1ffBJ4sVUb4&#34;&gt;Git for ages 4 and up&lt;/a&gt; (no
+entendí nada la presentación del expositor, pero el resto sí).&lt;/p&gt;
+&lt;p&gt;Al sitio interactivo llegué desde
+&lt;a href=&#34;http://astropy.readthedocs.org/en/latest/&#34;&gt;Astropy&lt;/a&gt;, en particular de la página
+&lt;a href=&#34;http://astropy.readthedocs.org/en/latest/development/workflow/development_workflow.html&#34;&gt;How to make a code
+contribution&lt;/a&gt;,
+que parece que vale la pena leer, porque explica el workflow que utilizan, cosa
+que no había encontrado hasta ahora (que te expliquen cómo es la secuencia de
+acciones de un trabajo, su lógica, los trucos, puede ahorrar muchos problemas
+asociados con la inexperiencia).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comandos de Emacs y Spacemacs para recordar</title>
+      <link>https://eldiegoefe.github.io/2014/07/comandos-de-emacs-y-spacemacs-para-recordar/</link>
+      <pubDate>Thu, 31 Jul 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/07/comandos-de-emacs-y-spacemacs-para-recordar/</guid>
+      <description>&lt;h2 id=&#34;yasnippets--company&#34;&gt;Yasnippets / Company&lt;/h2&gt;
+&lt;p&gt;En la &lt;a href=&#34;https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bcompletion/auto-completion#key-bindings&#34;&gt;documentación de Spacemacs&lt;/a&gt; están los keybindings. No funciona más SPC i s (que mostraba una lista de snippets habilitados para el modo actual).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;reemplaza la clave previa al punto por el contenido del snippet
+correspondiente: M-/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;búsqueda&#34;&gt;Búsqueda&lt;/h2&gt;
+&lt;p&gt;&amp;ndash;La búsqueda habitual con i-search (C-s) se potencia al instalar
+&lt;a href=&#34;https://github.com/abo-abo/swiper&#34;&gt;swiper&lt;/a&gt;, que ofrece un listado de
+las lineas del documento donde se encuentran los resultados de la
+búsqueda.&amp;ndash;&lt;/p&gt;
+&lt;p&gt;También se puede buscar con evil-search-forward (/) que es una variante
+de i-search, pero sólo va a la próxima aparición de la búsqueda y hay
+que recordar cómo ir a los resultados siguientes (C-s) y anteriores
+(C-r). Es menos visual.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Usando control de versiones</title>
+      <link>https://eldiegoefe.github.io/2014/02/usando-control-de-versiones/</link>
+      <pubDate>Sun, 09 Feb 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/02/usando-control-de-versiones/</guid>
+      <description>&lt;p&gt;(Editado: empecé a traducir un buen tutorial de Git y lo pueden ver en
+&lt;a href=&#34;https://eldiegoefe.github.io/2014/10/tutorial-sobre-control-de-versiones-parte-1/&#34;&gt;este nuevo post&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;El año pasado conocí algo que ya se había cruzado en mi camino y no me
+había dado cuenta. Una necesidad lo requería: miles de versiones del
+mismo archivo con el nombre evolucionando con rastros de racionalidad
+pero en definitiva impidiendo saber si, tras dos o tres días de
+ausencia, me encontraba trabajando sobre la última versión o si la que
+decía &amp;quot;&lt;em&gt;ultima final para imprimir final b&lt;/em&gt;&amp;quot; era realmente la que debía
+utilizar. Tanto sea un documento de texto como un programa es
+imprescindible tener algún método, y el método manual que utilizo desde
+que tengo uso de memoria ya ven lo deficiente que es.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

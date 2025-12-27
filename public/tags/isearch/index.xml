@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Isearch on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/isearch/</link>
+    <description>Recent content in Isearch on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 27 May 2015 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/isearch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Búsquedas con isearch en Emacs</title>
+      <link>https://eldiegoefe.github.io/2015/05/b%C3%BAsquedas-con-isearch-en-emacs/</link>
+      <pubDate>Wed, 27 May 2015 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2015/05/b%C3%BAsquedas-con-isearch-en-emacs/</guid>
+      <description>&lt;p&gt;Es una tarea habitual al editar texto el buscar caracteres o palabras. Una de
+las opciones que ofrece Emacs es la función de búsqueda incremental, que tiene
+varias formas de inicio.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Comando&lt;/th&gt;
+          &lt;th&gt;Por  defecto&lt;/th&gt;
+          &lt;th&gt;Ergoemacs&lt;/th&gt;
+          &lt;th&gt;Descripción&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;isearch-forward&lt;/td&gt;
+          &lt;td&gt;C-s&lt;/td&gt;
+          &lt;td&gt;C-f&lt;/td&gt;
+          &lt;td&gt;solicita los caracteres a buscar&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;isearch-forward-symbol-at-point&lt;/td&gt;
+          &lt;td&gt;M-s .&lt;/td&gt;
+          &lt;td&gt;F8 .&lt;/td&gt;
+          &lt;td&gt;busca el símbolo bajo el cursor&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;isearch-forward-word&lt;/td&gt;
+          &lt;td&gt;M-s w&lt;/td&gt;
+          &lt;td&gt;F8 w&lt;/td&gt;
+          &lt;td&gt;busca palabras&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;isearch-forward-symbol&lt;/td&gt;
+          &lt;td&gt;M-s _&lt;/td&gt;
+          &lt;td&gt;F8 _&lt;/td&gt;
+          &lt;td&gt;busca símbolos (símbolos según Emacs)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Al ejecutar uno de estos comandos se entra dentro de un modo en el cual
+se puede repetir la misma búsqueda o modificarla (en el minibuffer
+aparece información relativa a este modo, por ejemplo tras ejecutar
+&lt;em&gt;isearch-forward&lt;/em&gt; aparece &lt;em&gt;I-search:&lt;/em&gt; para que el usuario ingrese las
+letras que desea buscar).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

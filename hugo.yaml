@@ -1,0 +1,72 @@
+baseURL: https://eldiegoefe.github.io/
+languageCode: es
+title: Certezas Dudosas
+theme: PaperMod
+disqusShortname: "eldiegoefe"
+
+permalinks:
+  posts: /:year/:month/:slug/
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+params:
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  comments: true
+  
+  # Profile mode en la home
+  profileMode:
+    enabled: true
+    title: "El Blog del Diego Efe"
+    subtitle: "Todo lo líquido se desvanece en el estómago"
+    imageUrl: "/images/avatar.png"
+    imageTitle: "Diego Efe"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: Archivo
+        url: /archives/
+#      - name: Artículos
+#        url: /posts/
+      - name: Categorías
+        url: /categories/
+      - name: Etiquetas
+        url: /tags/
+      - name: Buscar
+        url: /search/
+  
+  # Iconos sociales
+  socialIcons:
+    - name: "YouTube"
+      url: "https://www.youtube.com/@DiegoEfe"
+    - name: "Facebook"
+      url: "https://www.facebook.com/eldiegoefe"
+    - name: "Instagram"
+      url: "https://www.instagram.com/eldiegoefe"
+    - name: "Github"
+      url: "https://github.com/eldiegoefe"
+    - name: "rss"
+      url: "/index.xml"
+
+
+
+

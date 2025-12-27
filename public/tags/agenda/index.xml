@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Agenda on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/agenda/</link>
+    <description>Recent content in Agenda on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 07 Jan 2016 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/agenda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Más sobre agenda en org-mode</title>
+      <link>https://eldiegoefe.github.io/2016/01/m%C3%A1s-sobre-agenda-en-org-mode/</link>
+      <pubDate>Thu, 07 Jan 2016 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2016/01/m%C3%A1s-sobre-agenda-en-org-mode/</guid>
+      <description>&lt;p&gt;Para el uso de la agenda en org-mode, voy a listar las cosas que uso con
+frecuencia. Además, en este link hay un resumen de comandos de org-mode muy
+completo.&lt;/p&gt;
+&lt;h2 id=&#34;inserción&#34;&gt;Inserción&lt;/h2&gt;
+&lt;p&gt;Atajos de teclado &amp;quot;convencionales&amp;quot; de org-mode (funcionan con
+Spacemacs).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;capturar una nota en el inbox: C-c c&lt;/li&gt;
+&lt;li&gt;links: C-c C-l&lt;/li&gt;
+&lt;li&gt;etiqueta de To-Do (empezado, hibernando, completado, etc): C-c C-t&lt;/li&gt;
+&lt;li&gt;schedule: C-c C-s&lt;/li&gt;
+&lt;li&gt;deadline: C-c C-d&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Para agregar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Refile: cómo llevar las notas del inbox a su destino final.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;generación-de-enlaces&#34;&gt;Generación de enlaces&lt;/h2&gt;
+&lt;p&gt;Atajos de teclado sólo de Spacemacs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Agenda en Emacs y OrgMode</title>
+      <link>https://eldiegoefe.github.io/2014/12/agenda-en-emacs-y-orgmode/</link>
+      <pubDate>Mon, 29 Dec 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/12/agenda-en-emacs-y-orgmode/</guid>
+      <description>&lt;h2 id=&#34;configuracion&#34;&gt;Configuracion&lt;/h2&gt;
+&lt;p&gt;En el archivo de configuracion de Emacs hay que incluir varios elementos
+para poder usar la agenda adecuadamente.&lt;/p&gt;
+&lt;p&gt;Se pueden seleccionar individualmente los archivos que forman parte de
+la agenda:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cl&#34; data-lang=&#34;cl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;setq&lt;/span&gt; org-agenda-files (&lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/mis-archivos-org/apuntes-varios.org&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                             &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/mis-archivos-org/acomodar.org&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;O sino utilizar un directorio completo:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cl&#34; data-lang=&#34;cl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;setq&lt;/span&gt; org-agenda-files &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#39;&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/mis-archivos-org&amp;#34;&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Se puede utilizar un archivo en particular para ir anotando al vuelo las
+ideas que se nos ocurren. Este archivo lo podremos abrir con
+&lt;em&gt;org-capture&lt;/em&gt; (C-c c). Esto nos permite volcar lo que tenemos en la
+cabeza y dejar para después su clasificación, de manera de no perder la
+idea e interrumpir nuestro flujo de trabajo lo menos posible. La nota se
+cierra con C-c C-c y se vuelve al mismo buffer donde estabamos al
+iniciar la captura.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

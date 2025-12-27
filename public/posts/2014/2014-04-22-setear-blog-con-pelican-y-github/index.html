@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Blog con Pelican y GitHub | Certezas Dudosas</title>
+<meta name="keywords" content="tutorial, blog, git, pelican">
+<meta name="description" content="Actualización
+Pueden ver una actualización de estas instrucciones en este nuevo post
+Instrucciones
+El sitio con las intrucciones sobre Pelican es
+este. Casi todo el contenido siguiente
+está basado en las instrucciones de Nicholas Tan
+Jerome.
+Para instalar Pelican se puede usar &quot;pip&quot;, más adelante hay más detalles, pero
+como referencia veloz basta decir que se puede hacer sencillamente (en la rama
+&quot;source&quot; y desde el ENV que se creará más adelante):
+(ENV) $ pip install pelican
+La idea para trabajar Pelican con Git es tener un directorio para el
+repositorio con el nombre de la página, y dentro de él un directorio
+para el virtualenv donde va a correr el Pelican. Por ejemplo, algo así
+(más adelante se explica en qué ramas del repositorio se almacenará el
+código fuente del sitio, y las páginas del blog propiamente dichas):">
+<meta name="author" content="Diego Efe">
+<link rel="canonical" href="http://localhost:1313/posts/2014/2014-04-22-setear-blog-con-pelican-y-github/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2014/2014-04-22-setear-blog-con-pelican-y-github/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Certezas Dudosas (Alt + H)">Certezas Dudosas</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Blog con Pelican y GitHub
+    </h1>
+    <div class="post-meta"><span title='2014-04-22 10:00:00 +0000 UTC'>April 22, 2014</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="actualización">Actualización<a hidden class="anchor" aria-hidden="true" href="#actualización">#</a></h1>
+<p>Pueden ver una actualización de estas instrucciones en <a href="http://localhost:1313/posts/2015/2015-05-20-actualizacion-de-instrucciones-para-blog-con-pelican/">este nuevo post</a></p>
+<h2 id="instrucciones">Instrucciones<a hidden class="anchor" aria-hidden="true" href="#instrucciones">#</a></h2>
+<p>El sitio con las intrucciones sobre Pelican <a href="http://pelican.readthedocs.org/en/3.3.0">es
+este</a>. Casi todo el contenido siguiente
+está basado en las instrucciones de <a href="http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/">Nicholas Tan
+Jerome</a>.
+Para instalar Pelican se puede usar &quot;pip&quot;, más adelante hay más detalles, pero
+como referencia veloz basta decir que se puede hacer sencillamente (en la rama
+&quot;source&quot; y desde el ENV que se creará más adelante):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ pip install pelican
+</span></span></code></pre></div><p>La idea para trabajar Pelican con Git es tener un directorio para el
+repositorio con el nombre de la página, y dentro de él un directorio
+para el virtualenv donde va a correr el Pelican. Por ejemplo, algo así
+(más adelante se explica en qué ramas del repositorio se almacenará el
+código fuente del sitio, y las páginas del blog propiamente dichas):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ ~/documentos/nombreUsuario.github.io      <span style="color:#75715e"># para el sitio</span>
+</span></span><span style="display:flex;"><span>$ ~/documentos/nombreUsuario.github.io/ENV  <span style="color:#75715e"># para el env</span>
+</span></span></code></pre></div><p>Primero armo un repositorio (vacío) en GitHub para alojar mi blog
+personal. GitHub ofrece la dirección nombreUsuario.github.io con este
+propósito. Luego clono el sitio en un directorio local donde se desea
+mantener el blog:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ cd ~/documentos
+</span></span><span style="display:flex;"><span>$ git clone https://github.com/nombreUsuario/nombreUsuario.github.io
+</span></span></code></pre></div><p>Como el repositorio lo creé vacío, sin más que el README.md, entonces
+éste es el único archivo que existe en el directorio
+~/documentos/nombreUsuario.github.io</p>
+<p>Para instalar el virtualenv (medio ambiente virtual) en el directorio
+deseado:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ virtualenv ~/documentos/nombreUsuario.github.io/ENV
+</span></span><span style="display:flex;"><span>$ cd ~/documentos/nombreUsuario.github.io/ENV
+</span></span><span style="display:flex;"><span>$ . bin/activate
+</span></span></code></pre></div><p>La última instrucción puede reemplazarse por &quot;source ENV/bin/activate&quot;</p>
+<p>Esas instrucciones dejan el entorno listo con un Python funcional (y sus
+librerías). Los directorios instalados dentro de ENV son:</p>
+<ul>
+<li>bin</li>
+<li>include</li>
+<li>lib</li>
+<li>lib64</li>
+</ul>
+<p>La última orden (. bin/activate) activa este entorno y cambia el prompt
+(que aparecerá precedido de ENV).</p>
+<p>El directorio ENV no necesita ser mantenido en el repositorio de GitHub
+(eso sí, si se trabaja el blog desde distintas computadoras, hay que
+tenerlo instalado en cada una), así que conviene agregarlo al .gitignore
+con la siguiente linea en ese archivo (<strong>igual finalmente lo saqué, así
+al clonar el repositorio del blog en una computadora nueva no lo tengo
+que instalar</strong>):</p>
+<ul>
+<li>ENV/</li>
+</ul>
+<p>Tampoco interesa mantener los archivos de backup así que también se
+puede agregar este renglón:</p>
+<ul>
+<li>*~</li>
+</ul>
+<p>Con git status veremos que estamos en la rama &quot;master&quot; y que falta el
+commit para agregar el archivo .gitignore. Entonces hacemos:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ git add .
+</span></span><span style="display:flex;"><span>(ENV) $ git commit -m &#34;Commit inicial&#34;
+</span></span></code></pre></div><p>Nuestra rama local de master queda adelantada respecto de la rama master
+en el repo externo. Esto lo avisa el sistema ante la última orden
+ingresada.</p>
+<p>Dado que al repositorio externo no vamos a necesitar subir los archivos
+de Pelican y los que surjan de la configuración del sitio, entonces
+instalamos este programa en una nueva rama que llamaré &quot;source&quot;:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ git branch source
+</span></span><span style="display:flex;"><span>(ENV) $ git checkout source
+</span></span></code></pre></div><p>(alternativamente estas dos instrucciones se pueden condensar en una
+sola: git checkout -b source)</p>
+<p>Para instalar Pelican hay 3 opciones (y no hay que olvidarse que se
+instala en el ENV). Hay que estar atento a que no haya errores, porque
+sino se instala mal y, por ejemplo, más tarde puede no funcionar &quot;make
+serve&quot;.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ pip install pelican     # opción 1
+</span></span><span style="display:flex;"><span>(ENV) $ easy_install pelican    # opción 2
+</span></span><span style="display:flex;"><span>(ENV) $ pip install -e git://github.com/getpelican/pelican#egg=pelican
+</span></span></code></pre></div><p>La primera vez tras la instalación se debe ejecutar la orden
+<strong>pelican-quickstart</strong> para configurarlo (va el guión entre las dos
+palabras). Tras ese comando, y tras contestar todas las preguntas que
+aparecen, no solamente se guarda la configuración deseada (en los
+archivos pelicanconfig.py y publishconf.py), sino que se generan todos
+los archivos que Pelican necesita (incluso dos directorios nuevos:
+content y output). El site url que elijo es
+<a href="http://nombreUsuario.github.io">http://nombreUsuario.github.io</a></p>
+<p>El contenido de pelicanconf.py tras responder a las preguntas de
+pelican-quickstart y además editar manualmente el archivo para completar
+los datos, queda así:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env python</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># -*- coding: utf-8 -*- #</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> __future__ <span style="color:#f92672">import</span> unicode_literals
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>AUTHOR <span style="color:#f92672">=</span> <span style="color:#e6db74">u</span><span style="color:#e6db74">&#39;Diego Efe&#39;</span>
+</span></span><span style="display:flex;"><span>SITENAME <span style="color:#f92672">=</span> <span style="color:#e6db74">u</span><span style="color:#e6db74">&#39;Certezas Dudosas&#39;</span>
+</span></span><span style="display:flex;"><span>SITEURL <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;http://nombreUsuario.github.io&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>TIMEZONE <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;America/Argentina/Buenos_Aires&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>DEFAULT_LANG <span style="color:#f92672">=</span> <span style="color:#e6db74">u</span><span style="color:#e6db74">&#39;es&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Feed generation is usually not desired when developing</span>
+</span></span><span style="display:flex;"><span>FEED_ALL_ATOM <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>CATEGORY_FEED_ATOM <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>TRANSLATION_FEED_ATOM <span style="color:#f92672">=</span> <span style="color:#66d9ef">None</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Blogroll</span>
+</span></span><span style="display:flex;"><span>LINKS <span style="color:#f92672">=</span>  ((<span style="color:#e6db74">&#39;Pelican&#39;</span>, <span style="color:#e6db74">&#39;http://getpelican.com/&#39;</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#e6db74">&#39;Python.org&#39;</span>, <span style="color:#e6db74">&#39;http://python.org/&#39;</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#e6db74">&#39;Jinja2&#39;</span>, <span style="color:#e6db74">&#39;http://jinja.pocoo.org/&#39;</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#e6db74">&#39;You can modify those links in your config file&#39;</span>, <span style="color:#e6db74">&#39;#&#39;</span>),)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Social widget</span>
+</span></span><span style="display:flex;"><span>SOCIAL <span style="color:#f92672">=</span> ((<span style="color:#e6db74">&#39;Twitter&#39;</span>, <span style="color:#e6db74">&#39;http://twitter.com/nombreUsuario&#39;</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#e6db74">&#39;Github&#39;</span>, <span style="color:#e6db74">&#39;https://github.com/nombreUsuario&#39;</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#e6db74">&#39;Facebook&#39;</span>, <span style="color:#e6db74">&#39;http://www.facebook.com/nombreUsuario&#39;</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#e6db74">&#39;Google+&#39;</span>, <span style="color:#e6db74">&#39;https://plus.google.com/+DiegoEfe&#39;</span>),
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>DEFAULT_PAGINATION <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Uncomment following line if you want document-relative URLs when developing</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#RELATIVE_URLS = True</span>
+</span></span></code></pre></div><p>Y el contenido de publishconf.py queda así:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env python</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># -*- coding: utf-8 -*- #</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> __future__ <span style="color:#f92672">import</span> unicode_literals
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># This file is only used if you use `make publish` or</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># explicitly specify it as your config file.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
+</span></span><span style="display:flex;"><span>sys<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>append(os<span style="color:#f92672">.</span>curdir)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> pelicanconf <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>SITEURL <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;http://nombreUsuario.github.io&#39;</span>
+</span></span><span style="display:flex;"><span>RELATIVE_URLS <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>FEED_ALL_ATOM <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;feeds/all.atom.xml&#39;</span>
+</span></span><span style="display:flex;"><span>CATEGORY_FEED_ATOM <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;feeds/</span><span style="color:#e6db74">%s</span><span style="color:#e6db74">.atom.xml&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>DELETE_OUTPUT_DIRECTORY <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Following items are often useful when publishing</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#DISQUS_SITENAME = &#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#GOOGLE_ANALYTICS = &#34;&#34;</span>
+</span></span></code></pre></div><p>Guardo un post armado en Markdown o restructuredText dentro del
+directorio content, así cuando vaya a generar el sitio voy a tener un
+contenido (para que ver algo cuando cargue el blog).</p>
+<p>Genero el sitio con make html (procesa todos los archivos del directorio
+content y aloja el sitio resultante en el directorio output) y ejecuto
+el servidor local con make serve:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ make html
+</span></span><span style="display:flex;"><span>(ENV) $ make serve
+</span></span></code></pre></div><p>El sitio lo puedo visitar en <a href="http://localhost:8000">http://localhost:8000</a>. Veo que tiene un
+problema para encontrar el CSS, no sale bien formateado. Sin embargo,
+luego cuando subo el sitio al repositorio externo, corroboro que la
+página carga bien.</p>
+<p>Una alternativa, que permite que la edición se refleje inmediatamente en
+el sitio, es usar la siguientes dos instrucciones, la primera combina
+<em>make html</em> junto con <em>make serve</em> (el sitio se regenera ante cualquier
+edición de su contenido, y permanece accesible en el localhost) y la
+segunda es para detener el servicio.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ make devserver
+</span></span><span style="display:flex;"><span>(ENV) $ ./develop_server.sh stop
+</span></span></code></pre></div><p>Voy a agregar todo al branch source:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ git add .
+</span></span><span style="display:flex;"><span>(ENV) $ git commit -m &#34;Commit inicial de la rama source&#34;
+</span></span></code></pre></div><p>Lo que sigue es casi textual de la página de <a href="http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/">la página de
+Nicholas</a>,
+se explica como hacer push del sitio al repositorio externo:</p>
+<p>Supongamos estar en la rama &quot;source&quot;. Lo que se verá al acceder al
+blog, es lo que esté en la rama &quot;master&quot;, así que hay que copiar allí
+las páginas html de la carpeta output. Nicholas propone usar un script
+llamado ghp-import para facilitar esa tarea. Este script exporta el
+contenido de la carpeta que se menciona en la linea de comandos (al
+ejecutarlo) hacia la rama &quot;gh-pages&quot;. Por eso es necesario durante la
+puesta a punto inicial, crear una rama con ese nombre antes de correr el
+script, y luego hacer un merge desde la rama &quot;master&quot; con la rama
+&quot;gh-pages&quot;</p>
+<p>Si no está instalado ghp-import, se puede instalar con:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ pip install ghp-import
+</span></span></code></pre></div><p>Finalmente, eston son los pasos restantes:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV)$ git branch gh-pages   # crea la rama gh-branches
+</span></span><span style="display:flex;"><span>(ENV)$ ghp-import output     # exporta la carpeta output desde la rama actual (source) hacia la rama gh-pages
+</span></span><span style="display:flex;"><span>(ENV)$ git checkout master   # cambia el head a la rama master
+</span></span><span style="display:flex;"><span>(ENV)$ git merge gh-pages    #
+</span></span><span style="display:flex;"><span>(ENV)$ git push --all        #
+</span></span></code></pre></div><p>Cuando hice el merge creo que no estaba más .gitignore en la rama
+master. Así que lo creé de vuelta, tuve que agregarlo y comitearlo.</p>
+<p>Hay que esperar un rato hasta que el sitio esté accesible (sólo la
+primera vez, las siguientes actualizaciones que se hagan permiten
+acceder al nuevo contenido inmediatamente).</p>
+<p>Se podría hacer un push que incluya sólo el contenido de la rama
+&quot;master&quot;, pero hacer un push de todas las ramas no molesta a nadie.</p>
+<p>GitHub pregunta el nombre de usuario y la contraseña al hacer el push al
+repositorio online.</p>
+<p>La página para acceder al blog es nombreUsuario.github.io</p>
+<h3 id="agregado-de-posts">Agregado de posts<a hidden class="anchor" aria-hidden="true" href="#agregado-de-posts">#</a></h3>
+<p>Al agregar nuevos posts (hechos con restructuredText o Markup, que deben
+ser guardados en el directorio &quot;content&quot;) es necesario efectuar los
+siguientes pasos (suponiendo que uno está actualmente en la rama
+&quot;source&quot;:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ cd /path/to/blog/ENV
+</span></span><span style="display:flex;"><span>$ . bin/activate    <span style="color:#75715e"># activa el entorno para que funcionen los progs de python (make serve, ghp-import, etc)</span>
+</span></span><span style="display:flex;"><span>(ENV)$ make html             # genera los archivos html que van a la carpeta &#34;output&#34;
+</span></span><span style="display:flex;"><span>(ENV)$ ghp-import output     # exporta la carpeta output desde la rama actual (source) hacia la rama gh-pages
+</span></span><span style="display:flex;"><span>(ENV)$ git add .             # sin add y commit no podremos cambiar a otra rama
+</span></span><span style="display:flex;"><span>(ENV)$ git commit -m &#34;mensaje del commit&#34;
+</span></span><span style="display:flex;"><span>(ENV)$ git checkout master   # cambia el head a la rama master
+</span></span><span style="display:flex;"><span>(ENV)$ git merge gh-pages    #
+</span></span><span style="display:flex;"><span>(ENV)$ git push --all        #
+</span></span></code></pre></div><h3 id="ultimos-detalles">Ultimos detalles<a hidden class="anchor" aria-hidden="true" href="#ultimos-detalles">#</a></h3>
+<p>Para usar el tema Elegant hay que instalar Beautiful Soup y para usar el
+plugin que permite <a href="https://pypi.python.org/pypi/pelican_youtube">embeber videos de
+youtube</a> hay que
+instalarlo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ pip install beautifulsoup4
+</span></span><span style="display:flex;"><span>(ENV) $ pip install pelican-youtube
+</span></span></code></pre></div><h3 id="problemas-con-github">Problemas con GitHub<a hidden class="anchor" aria-hidden="true" href="#problemas-con-github">#</a></h3>
+<p>Puede suceder que tras esperar media hora, luego de subir el sitio, siga
+dando un mensaje de error (404) al intentar visitarlo en su dirección
+final. Aparentemente esto puede evitarse si la subida se realiza
+mediante SSH en vez de hacerlo mediante HTTP. Esto lo advertí en las
+instrucciones de <a href="http://xlson.com/2010/11/09/getting-started-with-github-pages.html">Leonard
+Axelsson</a>.
+Las instrucciones para generar las llaves SSH (SSH keys) están en <a href="https://help.github.com/articles/generating-ssh-keys/">esta
+ayuda de GitHub</a>,
+mientras que el cambio propiamente dicho se explica en <a href="https://help.github.com/articles/changing-a-remote-s-url/">Changing a
+remote's
+URL</a>, también
+en GitHub.</p>
+<p>{{ template &ldquo;_internal/disqus.html&rdquo; . }}</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/tutorial/">Tutorial</a></li>
+      <li><a href="http://localhost:1313/tags/blog/">Blog</a></li>
+      <li><a href="http://localhost:1313/tags/git/">Git</a></li>
+      <li><a href="http://localhost:1313/tags/pelican/">Pelican</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Certezas Dudosas</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

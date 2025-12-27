@@ -1,0 +1,65 @@
+{{- define "main" }}
+
+{{- if .Params.series }}
+<div style="background: var(--theme); padding: 15px; margin-bottom: 25px; border-radius: 8px; border-left: 4px solid var(--primary);">
+  <h4 style="margin-top: 0;">📚 Serie: {{ index .Params.series 0 | humanize }}</h4>
+  <ol style="margin: 10px 0;">
+  {{- $currentPage := . }}
+  {{- range (where .Site.RegularPages ".Params.series" "intersect" .Params.series).ByDate }}
+    <li>
+      {{- if eq .Permalink $currentPage.Permalink }}
+        <strong>{{ .Title }}</strong> (estás aquí)
+      {{- else }}
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{- end }}
+    </li>
+  {{- end }}
+  </ol>
+</div>
+{{- end }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "post_meta.html" . }}
+    <h1 class="post-title entry-hint-parent">
+      {{- .Title }}
+      {{- if .Draft }}<span class="entry-hint" title="Draft"> [draft]</span>{{- end }}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+      {{ .Description }}
+    </div>
+    {{- end }}
+  </header>
+  {{- $isHidden := .Params.cover.hidden | default site.Params.cover.hiddenInSingle | default site.Params.cover.hidden }}
+  {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
+  {{- if (.Param "ShowToc") }}
+  {{- partial "toc.html" . }}
+  {{- end }}
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  {{- end }}
+
+  <footer class="post-footer">
+    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms $tags) }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "post_nav_links.html" . }}
+    {{- end }}
+    {{- if (.Param "ShowShareButtons") }}
+    {{- partial "share_icons.html" . -}}
+    {{- end }}
+  </footer>
+
+</article>
+
+{{- end }}{{/* end main */}}

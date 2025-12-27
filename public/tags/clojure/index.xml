@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Clojure on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/clojure/</link>
+    <description>Recent content in Clojure on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 28 Nov 2017 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/clojure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bienvenidos a Scheme</title>
+      <link>https://eldiegoefe.github.io/2017/11/bienvenidos-a-scheme/</link>
+      <pubDate>Tue, 28 Nov 2017 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2017/11/bienvenidos-a-scheme/</guid>
+      <description>&lt;p&gt;Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y
+esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad
+Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp
+que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a
+toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado
+para simular la inteligencia humana, creado por John McCarthy en la década del
+50.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clojure, nuevo entretenimiento</title>
+      <link>https://eldiegoefe.github.io/2014/11/clojure-nuevo-entretenimiento/</link>
+      <pubDate>Thu, 27 Nov 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/11/clojure-nuevo-entretenimiento/</guid>
+      <description>&lt;p&gt;En el mundo Emacs se menciona bastante el lenguaje Clojure, como un dialecto de
+Lisp que corre sobre el Java Virtual Machine, lo cual constituye para mi un dato
+casi completamente inutil, puesto que desconozco Java y su JVM. De cualquier
+manera, mientras continúo leyendo ANSI Common Lisp, me dieron ganas de probar,
+así que guardo aquí las instrucciones de instalación para usar Clojure con Emacs
+en Linux.&lt;/p&gt;
+&lt;p&gt;La cuestión no es tan complicada, primero verificamos desde un terminal
+que Java está instalado:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

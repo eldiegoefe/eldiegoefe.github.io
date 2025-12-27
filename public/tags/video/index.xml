@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Video on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/video/</link>
+    <description>Recent content in Video on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 23 Sep 2014 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grabacion de screencasts para tutoriales de YouTube</title>
+      <link>https://eldiegoefe.github.io/2014/09/grabacion-de-screencasts-para-tutoriales-de-youtube/</link>
+      <pubDate>Tue, 23 Sep 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/09/grabacion-de-screencasts-para-tutoriales-de-youtube/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Actualización (Feb-2017)&lt;/strong&gt;: es muy facil usar el programa OBS Studio para grabar en la computadora tanto la pantalla como la webcam, micrófono, etc. Funciona en Linux, Window$ y Mac.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Empecé a grabar tutoriales para usar IPython Notebook. Traté de hacerlo con la
+aplicación recordMyDesktop, pero el modo de seleccionar la parte de la pantalla
+a grabar resulta muy imprecisa, es practicamente imposible determinar la región
+con precisión.&lt;/p&gt;
+&lt;p&gt;Luego encontré este buen tutorial: &lt;a href=&#34;http://nienhueser.de/blog/?p=469&#34;&gt;Creating Screencasts in
+Linux&lt;/a&gt;. Ahí hay dos datos importantes:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

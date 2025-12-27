@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mbed on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/mbed/</link>
+    <description>Recent content in Mbed on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 04 Nov 2016 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/mbed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uso de MBED desde la linea de comandos (CLI)</title>
+      <link>https://eldiegoefe.github.io/2016/11/uso-de-mbed-desde-la-linea-de-comandos-cli/</link>
+      <pubDate>Fri, 04 Nov 2016 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2016/11/uso-de-mbed-desde-la-linea-de-comandos-cli/</guid>
+      <description>&lt;p&gt;Empecé a probar el uso de la plataforma MBED con la placa FRDM-K64F. Hasta ahora
+usaba &lt;a href=&#34;https://developer.mbed.org/&#34;&gt;la versión online del compilador&lt;/a&gt; con una
+FRDM-KL25Z, que es una (de las primeras en funcionar con MBED). El problema del
+compilador online no es que haya que estar conectado a la web (lo vengo usando
+desde hace mucho y nunca tuve problemas de acceso) sino sus limitadas
+prestaciones como editor de texto. Por ejemplo, no encontré manera de comentar y
+des-comentar múltiples lineas de código simultaneamente, algo que necesito hacer
+con frecuencia. Por esto mismo prefiero el editor que uso para el resto de mis
+actividades: Emacs, y esto lo puedo hacer con el nuevo compilador offline.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comunicacion USB con mbed</title>
+      <link>https://eldiegoefe.github.io/2014/07/comunicacion-usb-con-mbed/</link>
+      <pubDate>Thu, 31 Jul 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/07/comunicacion-usb-con-mbed/</guid>
+      <description>&lt;p&gt;La comunicación mediante USB con microcontroladores me viene un escollo permanente. El protocolo en sí tiene una complejidad que dispuesto a dedicarle, sobre todo porque empecé a leer varias veces sobre el mismo y siempre me encuentro dando vueltas alrededor de detalles que parecen demasiado específicos y alejados de lo que yo necesito lograr. Decidí hacer la prueba con mbed, ya que tengo una placa kinetis frdm-kl25z de freescale, con la cual hay unos ejemplos de comunicación que parecen muy sencillos.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

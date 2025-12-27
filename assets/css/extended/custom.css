@@ -1,0 +1,9 @@
+.post-content h2 {
+    font-size: 1.3em;  /* Ajustá el tamaño que quieras */
+    margin-top: 1.3em;
+    margin-bottom: 0.5em;
+}
+
+.post-content h3 {
+    font-size: 1.1em;
+}

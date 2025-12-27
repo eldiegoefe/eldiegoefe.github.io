@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Bienvenidos a Scheme | Certezas Dudosas</title>
+<meta name="keywords" content="scheme, lisp, clojure, programacion">
+<meta name="description" content="Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y
+esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad
+Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp
+que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a
+toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado
+para simular la inteligencia humana, creado por John McCarthy en la década del
+50.">
+<meta name="author" content="Diego Efe">
+<link rel="canonical" href="http://localhost:1313/posts/2017/2017-11-28-scheme/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2017/2017-11-28-scheme/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Certezas Dudosas (Alt + H)">Certezas Dudosas</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Bienvenidos a Scheme
+    </h1>
+    <div class="post-meta"><span title='2017-11-28 10:00:00 +0000 UTC'>November 28, 2017</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y
+esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad
+Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp
+que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a
+toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado
+para simular la inteligencia humana, creado por John McCarthy en la década del
+50.</p>
+<figure>
+    <img loading="lazy" src="https://c1.staticflickr.com/5/4541/38650993086_6356f41de4_o.jpg"/> <figcaption>
+            John McCarthy haciéndose el lindo
+        </figcaption>
+</figure>
+
+<p>Salvo que seas un hongo, o que hayas sido fascinado por la retórica
+kirchnerista y/o la capacidad de gestión del macrismo con la
+consiguiente pérdida correlativa de capacidades cognitivas, aprender
+sobre programación en Lisp te provoca una masiva liberación de
+norepinefrina y serotonina, un insoportable deseo de visitar Las Toninas
+y de comer pan dulce con muchas pasas de uva como el que venden en la
+granjita de al lado de casa.</p>
+<p>Scheme es un dialecto muy utilizado en ámbitos educativos. Se que es más
+pequeño y sencillo que Common Lisp, y no se qué diferencias tiene con
+Clojure y Racket y otros herederos del LISt Processor (de ahí el nombre
+del lenguaje McCartista). El tema es que los cursos introductorios de
+&quot;Computer Science&quot; en las universidades más prestigiosas del mundo
+(Berkeley, MIT, La Matanza, Stanford, etc) lo utilizan o lo utilizaban
+hasta hace muy poco. De hecho, justamente llegué a Scheme buscando
+bibliografía para estudiar programación y Lisp. Me encontré en la web
+varios libros y cursos recomendados:</p>
+<ul>
+<li>el curso CS 61A dictado en Berkeley por Brian Harvey.</li>
+<li>el libro &quot;<a href="https://mitpress.mit.edu/sicp/full-text/book/book.html">Structure and Interpretation of Computer
+Programs</a>&quot;
+(comunmente llamado SICP) de Harold Abelson, Gerald Jay Sussman y
+Julie Sussman. GJ Sussman fue uno de los dos diseñadores originales
+de Scheme, junto a su discípulo Guy L. Steele Jr (que diseñó y
+documentó también otros lenguajes). Mientras ellos elaboran nuevos
+lenguajes uno apenas puede lidiar con el ordenamiento de las
+estanterías del lavadero.</li>
+<li>el libro &quot;Scheme and the Art of Programming&quot; de George Springer y
+Daniel Friedman</li>
+<li>el libro &quot;<a href="https://people.eecs.berkeley.edu/~bh/ss-toc2.html">Simply
+Scheme</a>&quot; de
+Brian Harvey y Matthew Wright. Debajo pueden ver la tapa de la
+primera edición.</li>
+<li>la serie de libros &quot;The Little Schemer&quot;, &quot;The Reasoned Schemer&quot;,
+&quot;The Seasoned Schemer&quot; de Daniel Friedman, Matthias Felleisen,
+William Byrd y Oleg Kiselyov.</li>
+</ul>
+<p>Las clases del
+<a href="https://archive.org/details/ucberkeley-webcast-PL6879A8466C44A5D5">2008</a>
+y
+<a href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs61a-spring2011-berkeley.html">2011</a>
+del CS 61A dictadas por <a href="https://people.eecs.berkeley.edu/~bh/">Brian
+Harvey</a> pueden verse online
+(hagan click en los años
+<a href="https://archive.org/details/ucberkeley-webcast-PL6879A8466C44A5D5">2008</a>
+y
+<a href="http://www.infocobuild.com/education/audio-video-courses/computer-science/cs61a-spring2011-berkeley.html">2011</a>
+para llegar). Sus clases son muy claras y entretenidas. Tanto en estas
+clases como en la bibliografía el énfasis está puesto en estudiar /
+encontrar / desarrollar / identificar los conceptos con los cuales
+generar abstracciones para resolver problemas con la computadora, más
+que en enseñar la sintaxis de un lenguaje de programación. También está
+disponible online <a href="https://cs61a.org">el curso CS 61A actual</a> (cuyo
+lenguaje principal es Python 3) con acceso a todo el material con el que
+cuentan los alumnos (generoso, abrumador, envidiable, es impresionante
+el interés por enseñar que tienen esos equipos de profesores y
+auxiliares). Acá pueden ver la primera clase del 2008 (desde YouTube).</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/xWZb9U92rgo?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>También está online el curso completo &quot;Structure and Interpretation of
+Computer Science&quot; basado en el libro homónimo, con <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/">las clases de 1986
+en
+video</a>
+(la primera edición del libro es de 1985, y la segunda de 1996, esta
+última es la que está online y aparece en un link más arriba). Hay que
+acostumbrarse al hecho de que sean grabaciones viejas de menor calidad a
+los tutoriales en 1080p de YouTube que se ven actualmente, pero el
+contenido lo merece.</p>
+<p>Se me hizo un lío hasta descubrir por dónde empezar, con tanto material
+extraordinario. El SICP es el libro clásico que todo el mundo recomienda
+en los foros, pero no es sencillo. Por suerte descubrí que el libro de
+Harvey-Wright se propone como precuela (lo dicen en el prólogo) y es
+recomendable leerlo antes, como preparación para el de Abelson-Sussman.</p>
+<figure>
+    <img loading="lazy" src="https://c1.staticflickr.com/5/4563/38677380062_73929181b2_o.jpg"/> <figcaption>
+            Portada de Simply Scheme
+        </figcaption>
+</figure>
+
+<p>También está buenísimo &quot;The Little Schemer&quot; que lo tenía guardado
+desde hace mucho. Apenas voy por la mitad, pero ya mismo puedo
+recomendarlo porque me parece muy apropiado para entender, por ejemplo,
+la recursividad y cómo usarla, algo central en LISP. El texto está
+organizado con la estructura de <a href="https://es.wikipedia.org/wiki/Ense%C3%B1anza_programada">enseñanza
+programada</a>. En esta
+modalidad (que conocí en una serie de libros que tenía mi hermano,
+&quot;<a href="https://www.amazon.com/Curso-programado-c%C3%A1lculo-Sucesiones-infinitas/dp/8429150552">Curso Programado de
+Cálculo</a>&quot;
+de Editorial Reverté, que usé en la secundaria cuando quise prepararme
+para la universidad) la información se presenta secuencialmente en
+pequeños párrafos que contienen problemas o frases para resolver y
+completar. En la misma hoja están las soluciones a los problemas y las
+palabras faltantes. El lector trata de responder y completar los
+espacios en blanco mientras tapa las respuestas, de manera que cuando
+termina puede comparar sus resultados con las soluciones correctas. Será
+conductista pero es muy entretenido, la presentación va avanzando en
+pasos muy pequeños y al menos a mi me genera un estímulo muy agradable
+ir descubriendo la coincidencia o cercanía de las respuestas propias a
+las indicadas por el autor. Estaría bueno que haya más libros con esta
+modalidad.</p>
+<figure>
+    <img loading="lazy" src="https://c1.staticflickr.com/5/4531/38677094272_d56db10a21_b.jpg" width="75%"/> <figcaption>
+            Una página del libro de enseñanza programada
+        </figcaption>
+</figure>
+
+<p>Por suerte todos estos libros están disponibles gratuitamente o se
+consiguen con algún torrent, porque por un lado no están disponibles en
+Argentina, y sus precios (en
+<a href="https://www.bookdepository.com">BookDepository</a>, que no cobra el costo
+de envío, Amazon no los envía a nuestro país) son altísimos. SICP cuesta
+casi 1000 ARS, Simply Scheme más de 1300 ARS, The Little Schemer casi
+700 ARS, etc.</p>
+<p>En un próximo post voy a explicar cómo uso Scheme desde el shell o desde
+Emacs para probar los pequeños programas que los libros tienen de
+ejemplo o los que surgen de los problemas que proponen.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/scheme/">Scheme</a></li>
+      <li><a href="http://localhost:1313/tags/lisp/">Lisp</a></li>
+      <li><a href="http://localhost:1313/tags/clojure/">Clojure</a></li>
+      <li><a href="http://localhost:1313/tags/programacion/">Programacion</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Certezas Dudosas</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Particiones on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/particiones/</link>
+    <description>Recent content in Particiones on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 22 Oct 2014 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/particiones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mageia y Manjaro</title>
+      <link>https://eldiegoefe.github.io/2014/10/mageia-y-manjaro/</link>
+      <pubDate>Wed, 22 Oct 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/10/mageia-y-manjaro/</guid>
+      <description>&lt;p&gt;Empezó a haber problemas para actualizar el sistema
+(&lt;a href=&#34;https://www.mageia.org/es/&#34;&gt;Mageia&lt;/a&gt;), que mostraba un mensaje diciendo que
+había actualizaciones listas para instalarse, pero no hacía nada al hacer click
+sobre &lt;em&gt;instalar&lt;/em&gt;. Logré que se produzca la instalación desde una consola con
+&lt;strong&gt;sudo urpmi --auto-update&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;También dejó de funcionar el programa de configuración del sistema al
+que se accede desde &lt;em&gt;herramientas/herramientas del sistema/configure su
+computador&lt;/em&gt;. Pero en algún momento volvió a andar. :)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

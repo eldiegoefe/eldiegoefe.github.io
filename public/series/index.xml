@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Series on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/series/</link>
+    <description>Recent content in Series on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 15 Aug 2025 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ser-Judio-Hoy</title>
+      <link>https://eldiegoefe.github.io/series/ser-judio-hoy/</link>
+      <pubDate>Fri, 15 Aug 2025 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/series/ser-judio-hoy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Israel-Y-Palestina</title>
+      <link>https://eldiegoefe.github.io/series/israel-y-palestina/</link>
+      <pubDate>Wed, 15 Nov 2023 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/series/israel-y-palestina/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Control-De-Versiones</title>
+      <link>https://eldiegoefe.github.io/series/control-de-versiones/</link>
+      <pubDate>Fri, 10 Oct 2014 11:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/series/control-de-versiones/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guerra-en-Gaza</title>
+      <link>https://eldiegoefe.github.io/series/guerra-en-gaza/</link>
+      <pubDate>Mon, 21 Jul 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/series/guerra-en-gaza/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

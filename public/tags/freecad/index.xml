@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Freecad on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/freecad/</link>
+    <description>Recent content in Freecad on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 25 Nov 2016 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/freecad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FreeCAD</title>
+      <link>https://eldiegoefe.github.io/2016/11/freecad/</link>
+      <pubDate>Fri, 25 Nov 2016 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2016/11/freecad/</guid>
+      <description>&lt;p&gt;Para proyectar diseños en madera los carpinteros de YouTube suelen usar
+SketchUp, que es un software de Google que sólo funciona en Windows y Mac.
+Busqué algún programa que pueda usar con el mismo fin pero en Linux, y encontré
+FreeCAD. Estoy siguiendo un buen tutorial en castellano en &lt;a href=&#34;https://www.youtube.com/user/obijuancube&#34;&gt;el canal de Juan
+Gonzalez Gomez&lt;/a&gt;, aca pueden ver el
+primer video de la serie:&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/2_DbFzFV9D4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Algunos apuntes iniciales:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

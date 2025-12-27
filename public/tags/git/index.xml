@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Git on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/git/</link>
+    <description>Recent content in Git on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 20 May 2015 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Actualización de las instrucciones para armar un blog con Pelican y GitHub</title>
+      <link>https://eldiegoefe.github.io/2015/05/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</link>
+      <pubDate>Wed, 20 May 2015 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2015/05/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/</guid>
+      <description>&lt;p&gt;El sitio oficial de Pelican, con sus intrucciones de instalación y uso &lt;a href=&#34;http://pelican.readthedocs.org/&#34;&gt;es
+este&lt;/a&gt;. Originalmente, este post estuvo basado
+en &lt;a href=&#34;http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/&#34;&gt;las instrucciones de Nicholas Tan
+Jerome&lt;/a&gt;.
+El post original pueden verlo en este enlace &lt;a href=&#34;https://eldiegoefe.github.io/2014/04/blog-con-pelican-y-github/&#34;&gt;pueden verlo en este enlace&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Por un lado vamos a configurar un entorno virtual de Python donde vamos a
+instalar Pelican, y por otro lado vamos a utilizar un directorio subdividido en
+un subdirectorio para nuestro blog y dos subdirectorios más para herramientas de
+Pelican (themes y plugins de Pelican). Supongo que GIT ya está instalado en el
+sistema.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorial sobre control de versiones (parte 4)</title>
+      <link>https://eldiegoefe.github.io/2014/10/tutorial-sobre-control-de-versiones-parte-4/</link>
+      <pubDate>Fri, 10 Oct 2014 11:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/10/tutorial-sobre-control-de-versiones-parte-4/</guid>
+      <description>&lt;p&gt;Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés
+visitar &lt;a href=&#34;http://software-carpentry.org/v5/novice/git/&#34;&gt;la página de Software
+Carpentry&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cuándo-aparecen-los-conflictos&#34;&gt;Cuándo aparecen los conflictos&lt;/h2&gt;
+&lt;p&gt;El sistema de control de versiones permite que la gente trabaje en paralelo
+editando sus programas en código fuente. En realidad, se puede usar para
+cualquier tipo de archivo con texto plano (me parece fantástico para informes,
+relatos, blogs como este, etc).&lt;/p&gt;
+&lt;p&gt;Trabajar en paralelo implica que en algún momento dos personas se van a pisar y
+van a modificar una misma porción de texto. Esto podría pasarle incluso a una
+sola persona: si trabajamos un mismo fragmento en la computadora de escritorio
+en casa, en una notebook y también en una PC en el laburo, podríamos haber hecho
+diferentes cambios en cada copia. El control de versiones nos ayuda a manipular
+esos conflictos dándonos herramientas para resolver esos cambios superpuestos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorial sobre control de versiones (parte 3)</title>
+      <link>https://eldiegoefe.github.io/2014/10/tutorial-sobre-control-de-versiones-parte-3/</link>
+      <pubDate>Thu, 09 Oct 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/10/tutorial-sobre-control-de-versiones-parte-3/</guid>
+      <description>&lt;p&gt;Para ver las versiones (en inglés) en las cuales se basa este tutorial,
+podés visitar &lt;a href=&#34;http://software-carpentry.org/v5/novice/git/&#34;&gt;la página de Software
+Carpentry&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;probando-el-cooperativismo&#34;&gt;Probando el cooperativismo&lt;/h2&gt;
+&lt;p&gt;Vamos a practicar cómo se realiza una colaboración a través de un
+repositorio en Github. Para ello nada mejor que colaborar con uno mismo.
+Lo que hago es trabajar con dos cuentas en Github, corriendo un usuario
+en mi PC de escritorio y el otro dentro de una máquina virtual dentro de
+la misma PC (aunque también lo podría hacer desde una notebook, o desde
+otra sesión de esta misma computadora, pero decir que uno corre una
+máquina virtual con Linux suena mucho más &lt;em&gt;god-level&lt;/em&gt;). No voy a
+detenerme a explicar nada sobre las máquinas virtuales porque además de
+ser demasiado sencillo también es off-topic, y no quiero offtopiquearme.
+¡Cómprense un amiguito y chau!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Más locura con Git</title>
+      <link>https://eldiegoefe.github.io/2014/10/m%C3%A1s-locura-con-git/</link>
+      <pubDate>Wed, 08 Oct 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/10/m%C3%A1s-locura-con-git/</guid>
+      <description>&lt;p&gt;Hay un lindo tutorial interactivo para aprender a usar Git &lt;a href=&#34;https://github.com/swcarpentry/site&#34;&gt;este
+Carpentry&lt;/a&gt;, recomendado desde el GitHub de
+&lt;a href=&#34;https://github.com/swcarpentry/site&#34;&gt;Software Carpentry&lt;/a&gt;. Me gustó también el
+video &lt;a href=&#34;https://www.youtube.com/watch?v=1ffBJ4sVUb4&#34;&gt;Git for ages 4 and up&lt;/a&gt; (no
+entendí nada la presentación del expositor, pero el resto sí).&lt;/p&gt;
+&lt;p&gt;Al sitio interactivo llegué desde
+&lt;a href=&#34;http://astropy.readthedocs.org/en/latest/&#34;&gt;Astropy&lt;/a&gt;, en particular de la página
+&lt;a href=&#34;http://astropy.readthedocs.org/en/latest/development/workflow/development_workflow.html&#34;&gt;How to make a code
+contribution&lt;/a&gt;,
+que parece que vale la pena leer, porque explica el workflow que utilizan, cosa
+que no había encontrado hasta ahora (que te expliquen cómo es la secuencia de
+acciones de un trabajo, su lógica, los trucos, puede ahorrar muchos problemas
+asociados con la inexperiencia).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorial sobre control de versiones (parte 2)</title>
+      <link>https://eldiegoefe.github.io/2014/10/tutorial-sobre-control-de-versiones-parte-2/</link>
+      <pubDate>Wed, 08 Oct 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/10/tutorial-sobre-control-de-versiones-parte-2/</guid>
+      <description>&lt;p&gt;Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés
+visitar &lt;a href=&#34;http://software-carpentry.org/v5/novice/git/&#34;&gt;la página de Software
+Carpentry&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;armar-un-proyecto-repositorio-en-github&#34;&gt;Armar un proyecto (repositorio) en GitHub&lt;/h2&gt;
+&lt;p&gt;Para subir el repositorio local a GitHub es indispensable tener una
+cuenta allí (que es gratis, así que a relajarse y disfrutar). Es
+bastante intuitivo el modo de crear un repositorio. Pero pongo un par de
+imágenes, a modo de muestra.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://farm8.staticflickr.com/7500/16103637368_e5b482f6aa_o.png&#34;/&gt; &lt;figcaption&gt;
+            Github
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;En la pantalla anterior hay que hacer click sobre el botón verde que
+dice &amp;quot;&lt;em&gt;+ New repository&lt;/em&gt;&amp;quot;, que nos deposita en la imagen de abajo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorial sobre control de versiones (parte 1)</title>
+      <link>https://eldiegoefe.github.io/2014/10/tutorial-sobre-control-de-versiones-parte-1/</link>
+      <pubDate>Mon, 06 Oct 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/10/tutorial-sobre-control-de-versiones-parte-1/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En el sitio de &lt;a href=&#34;http://software-carpentry.org/&#34;&gt;Software Carpentry&lt;/a&gt; hay un buen
+tutorial sobre el uso de sistemas de control de versiones. Estos apuntes son
+prácticamente la traducción de esas instrucciones.&lt;/p&gt;
+&lt;p&gt;Para ver las versiones (en inglés) en las cuales se basa este tutorial, podés
+visitar &lt;a href=&#34;http://software-carpentry.org/v5/novice/git/&#34;&gt;la página de Software
+Carpentry&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;configuración&#34;&gt;Configuración&lt;/h2&gt;
+&lt;p&gt;La primera vez que se usa Git en una máquina hay que configurar al menos el
+nombre del usuario y su email. También puede elegirse el editor por defecto. Son
+comandos que se ejecutan una sola vez. Por ejemplo:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sincronizando con Git</title>
+      <link>https://eldiegoefe.github.io/2014/07/sincronizando-con-git/</link>
+      <pubDate>Thu, 31 Jul 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/07/sincronizando-con-git/</guid>
+      <description>&lt;p&gt;Estuve tratando de escribir este blog desde dos computadoras distintas. Armé el sitio desde una de ellas (una PC de escritorio) siguiendo las instrucciones que puse en otro post y después subí el sitio a github con un pull. Quedan armadas tres ramas (branches) en los repositorios:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;source&lt;/li&gt;
+&lt;li&gt;master&lt;/li&gt;
+&lt;li&gt;gh-pages&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p&gt;Me cambié de máquina (a una laptop) e hice una copia de lo que había
+subido clonando el supositorio, digo el repositorio remoto. Después me
+puse a trabajar, armé nuevos post y corregí algunos otros. Hice el
+agregado de los archivos al repositorio local y su correspondiente
+&lt;em&gt;commit&lt;/em&gt;. Finalmente un &lt;em&gt;&amp;quot;git push --all&amp;quot;&lt;/em&gt; y con eso creo que se
+actualizó el repositorio remoto.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blog con Pelican y GitHub</title>
+      <link>https://eldiegoefe.github.io/2014/04/blog-con-pelican-y-github/</link>
+      <pubDate>Tue, 22 Apr 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/04/blog-con-pelican-y-github/</guid>
+      <description>&lt;h1 id=&#34;actualización&#34;&gt;Actualización&lt;/h1&gt;
+&lt;p&gt;Pueden ver una actualización de estas instrucciones en &lt;a href=&#34;https://eldiegoefe.github.io/2015/05/actualizaci%C3%B3n-de-las-instrucciones-para-armar-un-blog-con-pelican-y-github/&#34;&gt;este nuevo post&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;instrucciones&#34;&gt;Instrucciones&lt;/h2&gt;
+&lt;p&gt;El sitio con las intrucciones sobre Pelican &lt;a href=&#34;http://pelican.readthedocs.org/en/3.3.0&#34;&gt;es
+este&lt;/a&gt;. Casi todo el contenido siguiente
+está basado en las instrucciones de &lt;a href=&#34;http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/&#34;&gt;Nicholas Tan
+Jerome&lt;/a&gt;.
+Para instalar Pelican se puede usar &amp;quot;pip&amp;quot;, más adelante hay más detalles, pero
+como referencia veloz basta decir que se puede hacer sencillamente (en la rama
+&amp;quot;source&amp;quot; y desde el ENV que se creará más adelante):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(ENV) $ pip install pelican
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;La idea para trabajar Pelican con Git es tener un directorio para el
+repositorio con el nombre de la página, y dentro de él un directorio
+para el virtualenv donde va a correr el Pelican. Por ejemplo, algo así
+(más adelante se explica en qué ramas del repositorio se almacenará el
+código fuente del sitio, y las páginas del blog propiamente dichas):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Usando control de versiones</title>
+      <link>https://eldiegoefe.github.io/2014/02/usando-control-de-versiones/</link>
+      <pubDate>Sun, 09 Feb 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/02/usando-control-de-versiones/</guid>
+      <description>&lt;p&gt;(Editado: empecé a traducir un buen tutorial de Git y lo pueden ver en
+&lt;a href=&#34;https://eldiegoefe.github.io/2014/10/tutorial-sobre-control-de-versiones-parte-1/&#34;&gt;este nuevo post&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;El año pasado conocí algo que ya se había cruzado en mi camino y no me
+había dado cuenta. Una necesidad lo requería: miles de versiones del
+mismo archivo con el nombre evolucionando con rastros de racionalidad
+pero en definitiva impidiendo saber si, tras dos o tres días de
+ausencia, me encontraba trabajando sobre la última versión o si la que
+decía &amp;quot;&lt;em&gt;ultima final para imprimir final b&lt;/em&gt;&amp;quot; era realmente la que debía
+utilizar. Tanto sea un documento de texto como un programa es
+imprescindible tener algún método, y el método manual que utilizo desde
+que tengo uso de memoria ya ven lo deficiente que es.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

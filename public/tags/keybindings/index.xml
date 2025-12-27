@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Keybindings on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/keybindings/</link>
+    <description>Recent content in Keybindings on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 24 Sep 2015 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/keybindings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python en Emacs y otros atajos</title>
+      <link>https://eldiegoefe.github.io/2015/09/python-en-emacs-y-otros-atajos/</link>
+      <pubDate>Thu, 24 Sep 2015 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2015/09/python-en-emacs-y-otros-atajos/</guid>
+      <description>&lt;h2 id=&#34;spacemacs&#34;&gt;Spacemacs&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Anaconda-mode: Emacs tiene muchas herramientas para facilitar la
+programación en Python. En Spacemacs se puede activar
+&lt;a href=&#34;https://github.com/proofit404/anaconda-mode&#34;&gt;anaconda-mode&lt;/a&gt;, que habilita
+una serie de paquetes útiles. Por ejemplo &amp;quot;eldoc&amp;quot; que ofrece información
+en el modeline sobre la función que se está tipeando (muestra los nombres de
+sus argumentos). Cosas de Anaconda para usar:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;anaconda-mode-complete (C-M-i)&lt;/li&gt;
+&lt;li&gt;anaconda-mode-find-definitions (SPC m g g): busca el origen del
+símbolo bajo el punto. Por ejemplo: si se trata de una función,
+abre el archivo donde está definida y ubica el punto sobre el
+encabezado de la misma.&lt;/li&gt;
+&lt;li&gt;anaconda-mode-find-assignments&lt;/li&gt;
+&lt;li&gt;anaconda-mode-find-references&lt;/li&gt;
+&lt;li&gt;anaconda-mode-go-back&lt;/li&gt;
+&lt;li&gt;anaconda-mode-show-doc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Entornos virtuales: se puede activar un entorno virtual donde correr
+el programa que se está desarrollando con SPC m V (pyvenv-workon,
+pero en este caso no aparecen correctamente todas las opciones, al
+menos no veo los entornos que instalé con pyenv), o también con SPC
+m v s (pyenv-mode-set, en este caso sí se ven los entornos de
+pyenv).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Emacs y restructuredText</title>
+      <link>https://eldiegoefe.github.io/2014/10/emacs-y-restructuredtext/</link>
+      <pubDate>Tue, 07 Oct 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/10/emacs-y-restructuredtext/</guid>
+      <description>&lt;p&gt;Estuve escribiendo algunas entradas para el blog y encontré algunas cosas que
+vale la pena recordar, que quedan anotadas aca.&lt;/p&gt;
+&lt;p&gt;El modo abbrev tendría que desactivarlo globalmente porque cada vez que escribo
+la palabra &amp;quot;&lt;em&gt;con&lt;/em&gt;&amp;quot; (en modo restructuredText) y hago un espacio me lo expande
+a un texto que no deseo (content...). Se desactiva con &lt;em&gt;M-x abbrev-mode&lt;/em&gt;. Mejor
+aún, encontré cómo editar la lista de abreviaturas. Es así: &lt;em&gt;M-x list-abbrevs&lt;/em&gt; y
+se abre un buffer con las abreviaturas, que se puede editar. Ver de paso
+&amp;quot;&lt;a href=&#34;http://ergoemacs.org/emacs/emacs_abbrev_mode.html&#34;&gt;Using Emacs Abbrev Mode for
+Abbreviation&lt;/a&gt; para un facil
+tutorial sobre el uso elegante de abbrev-mode.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Keybindings conflictivos en Emacs</title>
+      <link>https://eldiegoefe.github.io/2014/08/keybindings-conflictivos-en-emacs/</link>
+      <pubDate>Sun, 17 Aug 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/08/keybindings-conflictivos-en-emacs/</guid>
+      <description>&lt;p&gt;Desde que empecé a usar Emacs probé dos grandes paquetes para facilitar su uso.
+Uno ha sido Ergoemacs, que es buenísimo porque remapea todos los accesos rápidos
+de teclado para poder usarlos de forma más simple e intuitiva (por ejemplo: C-x
+C-f, que “visitaba” un archivo, pasa a ser C-o, que es el comando stándard para
+&amp;quot;abrir archivo&amp;quot; en casi todos los programas actuales). Sin embargo, luego
+encontré buenas funcionalidades en otro llamado &lt;strong&gt;Prelude&lt;/strong&gt;. Estando sólo activo
+este último (ya que hay conflictos con ergoemacs) tuve el siguiente problema:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
