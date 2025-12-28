@@ -1,5 +1,5 @@
 ---
-title: Instrucciones Hugo
+title: Instrucciones para actualizar el blog con Hugo
 date: 2022-12-11T10:00:00
 categories: [tecnicismos]
 tags: [blog]
@@ -30,6 +30,28 @@ $ hugo
 
 El contenido generado se aloja en el directorio /public
 (*/home/diegol/blog/certezas-dudosas/public*). 
+
+## Actualización (Diciembre 2025)
+
+### Publicar los cambios.
+
+```terminal
+$ cd public
+$ git add .
+$ git commit -m "Actualización del blog"
+$ git push origin gh-pages
+```
+
+### Guardar los archivos fuente
+
+```terminal
+$ cd /home/diegol/blog/certezas-dudosas
+$ git add .
+$ git commit -m "Descripción de los cambios"
+$ git push origin master
+```
+
+## Versión vieja
 
 En otro directorio tengo una copia del contenido de mi página en
 Github (*/home/diegol/blog/eldiegoefe.github.io*). Sobre este directorio

@@ -23,7 +23,7 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 - [Craftsy](https://www.craftsy.com/)
 - [Skillshare](https://www.skillshare.com/en/home)
 
-## Noticias
+## Noticias / Revistas
 - [elDiarioAR](https://www.eldiarioar.com/)
 - [Revista Crisis](https://revistacrisis.com.ar/)
 - [Revista Mate](https://revistamate.com.ar/)
@@ -45,10 +45,8 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 - [YouTube](http://www.youtube.com)
 - [PeerTube](https://joinpeertube.org/browse-content)
 
-## Sitios clasificados
+## Canales de YouTube
 
-- [Canales de YouTube]({{< ref "2010-01-03-canales-de-youtube.md" >}})
-- [Links sobre música]({{< ref "2010-01-02-enlaces-sobre-musica.md" >}})
 - [Carpintería a pleno]({{< ref "2010-01-04-carpinteria-a-pleno.md" >}})
     
 ## Redes Sociales
@@ -129,24 +127,29 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 - [Duoptic](https://duoptic.com.ar/)
 - [Saraco](https://www.saracco.com/)
 
-## Juegos
+## Diseño de interiores
 
-### Eve-Online
+- [Sight Unseen](https://www.sightunseen.com/)
 
-- Búsquedas en
-  [Chruker](https://www.google.com.ar/search?q=site%3Agames.chruker.dk&sourceid=opera&ie=UTF-8&ohttp://www.woodworkforums.comeminimal=UTF-8&gfe_rd=cr&ei=CLSoV_qVNamB8Qfi-6igBg)
-- [Brave Collective](https://wiki.braveineve.com)
-- [Eve Central](https://eve-central.com)
-- [Eve University](http://wiki.eveuniversity.org/Main_Page)
-- [FCON Forum](https://f/everything-woodworking-book/orums.fcon.us)
+## Huerta / Jardinería / Campo
 
-### GW2
+- [Regrarians](https://regrarians.workplace.com)
+- [Elevate](https://www.elevate.com.ar/)
 
-- [GW2 Efficiency](https://gw2efficiency.com)
-- [MetaBattle](http://metabattle.com)
-- [Snow Crows](https://www.snowcrows.com)
-- Canal de YouTube:
-  [Kyosika](https://www.youtube.com/user/Yosika123/videos)
+## Calistenia / Deportes
+
+- [Simone Wege - Feldenkrais](https://simonewege.com)
+- [DareBee](http://darebee.com)
+
+## Equipos para entrenamiento
+
+- [FM Pesas](https://fm-pesas.com)
+- [Best Barefoot](https://anyasreviews.com/10-best-barefoot-sandals-hiking-running-walking/)
+  
+## Computadoras / Notebooks / Componentes
+- [Notebookspro](https://notebookspro.ar)
+- [Compra Gamer](https://compragamer.com)
+- [Hard Gamers](https://www.hardgamers.com.ar/)
 
 ## Repositorios
 
@@ -167,10 +170,6 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 - [YouTube](https://www.youtube.com)
 - [Vimeo](https://vimeo.com)
 
-## Calistenia / Deportes
-
-- [DareBee](http://darebee.com)
-
 ## Homestead
 
 - [Mother Earth News](http://www.motherearthnews.com)
@@ -180,9 +179,11 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 - [Rise and Shine Rabbitry](https://riseandshinerabbitry.com)
 - [The Elliott Homestead](http://theelliotthomestead.com)
 
+## Artes del papel / Compras / Librerías
 
-### Otros foros
+- [Artística Rubens](https://www.artisticarubens.com.ar/)
+- [Zona Papel](https://zonapapel.mitiendanube.com/)
+- [Karen Campbell](https://linktr.ee/karencampbellart)
 
-- [El Cuartito DIYer](http://foro.cuartitodiyer.com)
 
 
