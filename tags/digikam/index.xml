@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Digikam on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/digikam/</link>
+    <description>Recent content in Digikam on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 16 Jan 2015 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/digikam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Molestos clicks del mouse (digiKam tips)</title>
+      <link>https://eldiegoefe.github.io/2015/01/molestos-clicks-del-mouse-digikam-tips/</link>
+      <pubDate>Fri, 16 Jan 2015 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2015/01/molestos-clicks-del-mouse-digikam-tips/</guid>
+      <description>&lt;p&gt;Usar el mouse en digiKam puede producir caspa. Cada vez que hago un click para
+seleccionar un archivo abre la vista de previsualización (como al apretar F3).
+Este comportamiento no corresponde exclusivamente a digiKam, sino al escritorio
+(en mi caso KDE). Para solucionarlo (en KDE) hay que ir a &lt;strong&gt;Preferencias del
+Sistema&lt;/strong&gt; y en la sección de &lt;strong&gt;Hardware&lt;/strong&gt; entrar al panel de &lt;strong&gt;Dispositivos de
+Entrada&lt;/strong&gt;. En la siguiente imagen puede verse el lugar donde seleccionar la
+opción: &lt;em&gt;Una doble pulsación abre archivos y carpetas (una sola pulsación
+selecciona iconos)&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Crear colecciones y albumes en digiKam</title>
+      <link>https://eldiegoefe.github.io/2015/01/crear-colecciones-y-albumes-en-digikam/</link>
+      <pubDate>Thu, 15 Jan 2015 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2015/01/crear-colecciones-y-albumes-en-digikam/</guid>
+      <description>&lt;p&gt;Crear albumes en digiKam tiene un inconveniente que un usuario que intenta
+emplearlo descubre rápidamente. Es un detalle que no está bien documentado en
+los tutoriales que encontré en la web. El problema es el siguiente: sólo van a
+poder crear álbumes dentro del único álbum existente, el cual aparece tras el
+procedimiento de configuración básica, cuando digiKam se ejecuta por primera
+vez. Probablemente este álbum se llame &amp;quot;/home/nombreusuario/Imágenes&amp;quot;, como en
+la figura siguiente.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Organizar una coleccion de fotos digitales</title>
+      <link>https://eldiegoefe.github.io/2015/01/organizar-una-coleccion-de-fotos-digitales/</link>
+      <pubDate>Tue, 13 Jan 2015 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2015/01/organizar-una-coleccion-de-fotos-digitales/</guid>
+      <description>&lt;p&gt;La fotografía digital nos permite sacar millones de fotos sin gastar un peso en
+rollos, con cámaras fotográficas compactas y profesionales, teléfonos celulares
+y tablets. Esto que parece una ventaja puede volverse en contra si uno se vuelve
+el loco de la instantánea, porque los archivos se acumulan por montañas y esta
+abundancia supera toda posibilidad de encontrar las imágenes que merecen ser
+vistas de nuevo. Muchas veces te encontrás sacando varias fotos iguales o muy
+parecidas para después elegir la mejor, cosa que nunca sucede.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

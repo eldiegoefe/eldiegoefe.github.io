@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Más locura con Git | Certezas Dudosas</title>
+<meta name="keywords" content="git, control de versiones, cheat sheet">
+<meta name="description" content="Hay un lindo tutorial interactivo para aprender a usar Git este
+Carpentry, recomendado desde el GitHub de
+Software Carpentry. Me gustó también el
+video Git for ages 4 and up (no
+entendí nada la presentación del expositor, pero el resto sí).
+Al sitio interactivo llegué desde
+Astropy, en particular de la página
+How to make a code
+contribution,
+que parece que vale la pena leer, porque explica el workflow que utilizan, cosa
+que no había encontrado hasta ahora (que te expliquen cómo es la secuencia de
+acciones de un trabajo, su lógica, los trucos, puede ahorrar muchos problemas
+asociados con la inexperiencia).">
+<meta name="author" content="Diego Efe">
+<link rel="canonical" href="http://localhost:1313/posts/2014/2014-10-08-mas-locura-con-git/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2014/2014-10-08-mas-locura-con-git/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Certezas Dudosas (Alt + H)">Certezas Dudosas</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Más locura con Git
+    </h1>
+    <div class="post-meta"><span title='2014-10-08 10:00:00 +0000 UTC'>October 8, 2014</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Hay un lindo tutorial interactivo para aprender a usar Git <a href="https://github.com/swcarpentry/site">este
+Carpentry</a>, recomendado desde el GitHub de
+<a href="https://github.com/swcarpentry/site">Software Carpentry</a>. Me gustó también el
+video <a href="https://www.youtube.com/watch?v=1ffBJ4sVUb4">Git for ages 4 and up</a> (no
+entendí nada la presentación del expositor, pero el resto sí).</p>
+<p>Al sitio interactivo llegué desde
+<a href="http://astropy.readthedocs.org/en/latest/">Astropy</a>, en particular de la página
+<a href="http://astropy.readthedocs.org/en/latest/development/workflow/development_workflow.html">How to make a code
+contribution</a>,
+que parece que vale la pena leer, porque explica el workflow que utilizan, cosa
+que no había encontrado hasta ahora (que te expliquen cómo es la secuencia de
+acciones de un trabajo, su lógica, los trucos, puede ahorrar muchos problemas
+asociados con la inexperiencia).</p>
+<p>El tutorial interactivo va mostrando <em>hints</em>, de los cuales quiero
+acordame:</p>
+<blockquote>
+<ul>
+<li><strong>add all</strong>: You can also type <em>git add -A .</em> where the dot stands
+for the current directory, so everything in and beneath it is
+added. The <em>-A</em> ensures even file deletions are included.</li>
+<li><strong>git reset</strong>: You can use <em>git reset &lt;filename&gt;</em> to remove a
+file or files from the staging area.</li>
+<li><strong>More useful logs</strong>: Use git log --summary to see more
+information for each commit. You can see where new files were
+added for the first time or where files were deleted. It's a good
+overview of what's going on in the project.</li>
+<li><strong>Branching</strong>. Branches are what naturally happens when you want
+to work on multiple features at the same time. You wouldn't want
+to end up with a master branch which has Feature A half done and
+Feature B half done. Rather you'd separate the code base into two
+&quot;snapshots&quot; (branches) and work on and commit to them
+separately. As soon as one was ready, you might merge this branch
+back into the master branch and push it to the remote server.</li>
+</ul></blockquote>
+<p>Tengo dudas con esto: si luego de hacer un pull desde un repositorio
+remoto, hay cambios respecto de lo que tenía en el repositorio local,
+¿qué me dice Git si hago <em>git status</em>?</p>
+<p>Más material:</p>
+<blockquote>
+<ul>
+<li><a href="http://nbviewer.ipython.org/github/fperez/reprosw/blob/master/Version%20Control.ipynb">Version control for fun and
+profit</a></li>
+<li><a href="http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-7-Revision-Control-Software.ipynb">Revision control
+software</a></li>
+<li><a href="http://nyuccl.org/pages/GitTutorial/">Git for Scientists</a></li>
+</ul></blockquote>
+<p>Cosas interesantes del artículo de Fernando Perez:</p>
+<ul>
+<li>Se pueden generar alias para ejecutar comandos largos con nombres
+cortos. Por ejemplo <em>git config --global alias.slog &quot;log
+--oneline --topo-order --graph&quot;</em> hace que luego funcione <em>git
+slog</em>.</li>
+</ul>
+<p>Hay un <a href="https://www.youtube.com/watch?v=Dv8I_kfrFWw">video de Jessica
+Kerr</a> en el cual hace
+algunos buenos comentarios:</p>
+<ul>
+<li>Recomienda tener un gestor gráfico para ver el arbol de un
+repositorio, y usarlo antes de comitear para anticipar cómo debería
+verse el arbol, y entonces luego de comitear verificar en el grico
+que lo realizado coincide con lo que queríamos hacer. Quizás esto lo
+pueda hacer</li>
+<li>origin/master es un puntero (como HEAD) que apunta hacia donde
+estaba el HEAD en origin la última vez que lo visitamos.</li>
+<li>No conviene usar <em>pull</em> porque es un <em>fetch</em> + <em>merge</em>. Hacerlo esto
+último por separado brinda mayor control, permite ver cuál es el
+merge que hacemos.</li>
+<li>El <em>push</em> hace lo mismo que el <em>pull</em> pero en dirección opuesta
+(desde nuestro repo hacia el remoto). Como tiene que hacer un merge,
+sólo lo permitirá si puede hacer un <em>fast-forward</em> en el remoto,
+esto es decir: si no hubo otro usuario que hiciera cambios en el
+remoto desde la última vez que sincronizamos nuestro repo local con
+el remoto. Por eso, si hubiese habido algún cambio en el remoto,
+deberá hacerse un pull (o un fetch+merge) antes del push.</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/git/">Git</a></li>
+      <li><a href="http://localhost:1313/tags/control-de-versiones/">Control De Versiones</a></li>
+      <li><a href="http://localhost:1313/tags/cheat-sheet/">Cheat Sheet</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Certezas Dudosas</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

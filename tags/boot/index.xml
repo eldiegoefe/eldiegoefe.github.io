@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Boot on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/boot/</link>
+    <description>Recent content in Boot on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 11 Feb 2015 10:30:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/boot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cuando uno quiere A y termina haciendo B</title>
+      <link>https://eldiegoefe.github.io/2014/02/cuando-uno-quiere-a-y-termina-haciendo-b/</link>
+      <pubDate>Wed, 12 Feb 2014 10:30:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/02/cuando-uno-quiere-a-y-termina-haciendo-b/</guid>
+      <description>&lt;p&gt;Estoy leyendo sobre &lt;a href=&#34;http://ipython.org/&#34;&gt;IPython&lt;/a&gt;, que instalé en
+Windows a través de
+&lt;a href=&#34;https://store.continuum.io/cshop/anaconda/&#34;&gt;Anaconda&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Durante ese viaje me enteré de que Windows tiene dos shells, el más viejo y
+limitado es &#39;cmd.exe&#39; mientras que el recomendado es &#39;Windows PowerShell&#39;,
+ya que tiene los mismos comandos que Unix. En cualquiera de los dos, IPython se
+corre con la orden &lt;em&gt;ipython&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hay ayudas de IPython en:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ipython.org/documentation.html&#34;&gt;Documentación Oficial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://stackoverflow.com/questions/tagged/ipython&#34;&gt;StackOverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://mail.scipy.org/mailman/listinfo/ipython-user&#34;&gt;Lista de
+correos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;¡Debe haber muchas más!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Backup con RSync | Certezas Dudosas</title>
+<meta name="keywords" content="rsync, backup, linux">
+<meta name="description" content="RSync es un programa que permite copiar archivos, pero a diferencia de un
+copiado común, compara los archivos de origen y destino y sólo realiza la
+transferencia de la diferencia entre ambos: si son iguales no transfiere nada,
+si es un archivo de texto y se agregó sólo un caracter, RSync envía unicamente
+ese caracter y reconstruye el archivo en el destino para que ambas copias sean
+exactamente iguales. De este modo el procedimiento es más eficiente, en
+particular si se copian archivos grandes. La copia se puede realizar entre
+cualquier directorio de origen y destino, ya sea que se encuentren en un mismo
+disco rígido, en diferentes discos en una misma computadora o también entre una
+máquina local y una remota (o viceversa).">
+<meta name="author" content="Diego Efe">
+<link rel="canonical" href="http://localhost:1313/posts/2017/2017-06-21-backup-con-rsync/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2017/2017-06-21-backup-con-rsync/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Certezas Dudosas (Alt + H)">Certezas Dudosas</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Backup con RSync
+    </h1>
+    <div class="post-meta"><span title='2017-06-21 10:00:00 +0000 UTC'>June 21, 2017</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>RSync es un programa que permite copiar archivos, pero a diferencia de un
+copiado común, compara los archivos de origen y destino y sólo realiza la
+transferencia de la diferencia entre ambos: si son iguales no transfiere nada,
+si es un archivo de texto y se agregó sólo un caracter, RSync envía unicamente
+ese caracter y reconstruye el archivo en el destino para que ambas copias sean
+exactamente iguales. De este modo el procedimiento es más eficiente, en
+particular si se copian archivos grandes. La copia se puede realizar entre
+cualquier directorio de origen y destino, ya sea que se encuentren en un mismo
+disco rígido, en diferentes discos en una misma computadora o también entre una
+máquina local y una remota (o viceversa).</p>
+<p>Poder copiar de este modo es óptimo para realizar backups de nuestros
+datos. Como se pueden copiar directorios recursivamente entonces es muy
+facil, por ejemplo, mantener una copia actualizada de una colección de
+fotos, que generalmente tiene muchos subdirectorios para almacenar
+imágenes ordenadas por fecha o por temática. Es RSync el que compara el
+contenido de cada subdirectorio, y por ejemplo si le cambiamos el
+contraste a una foto, lo detecta y actualiza en la copia de destino. Nos
+ahorra tener que identificar cuál es el archivo que procesamos, y todo
+con una sola linea de comandos, que ya veremos...</p>
+<p>Primero tenemos que saber la ubicación de los archivos que queremos
+copiar y el camino hacia el lugar donde haremos la copia. Para esta
+tarea podemos usar el comando df, que muestra el espacio libre en cada
+sistema de archivos que se encuentra montado en el sistema y también
+informa el punto de montaje. El modificador <em>-h</em> (la forma corta de
+<em>--human-readable</em>) ofrece el resultado en potencias de 1024.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ df -h
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
+</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>S.ficheros     Tamaño Usados  Disp Uso% Montado en
+</span></span><span style="display:flex;"><span>udev             3,9G      0  3,9G   0% /dev
+</span></span><span style="display:flex;"><span>tmpfs            784M   9,7M  775M   2% /run
+</span></span><span style="display:flex;"><span>/dev/sda4         49G    23G   24G  50% /
+</span></span><span style="display:flex;"><span>tmpfs            3,9G   237M  3,6G   7% /dev/shm
+</span></span><span style="display:flex;"><span>tmpfs            5,0M   4,0K  5,0M   1% /run/lock
+</span></span><span style="display:flex;"><span>tmpfs            3,9G      0  3,9G   0% /sys/fs/cgroup
+</span></span><span style="display:flex;"><span>/dev/sda2        1,3G   500M  705M  42% /boot
+</span></span><span style="display:flex;"><span>/dev/sda5        853G   402G  408G  50% /home
+</span></span><span style="display:flex;"><span>cgmfs            100K      0  100K   0% /run/cgmanager/fs
+</span></span><span style="display:flex;"><span>tmpfs            784M    16K  784M   1% /run/user/1001
+</span></span><span style="display:flex;"><span>/dev/sdc1        932G   912G   21G  98% /media/diego/biblioteca
+</span></span></code></pre></div><p>En el ejemplo pueden ver mi directorio de origen (que son archivos
+ubicados en /home) y el destino será algún subdirectorio en el disco
+rígido externo, que se encuentra montado en /media/diego/biblioteca (me
+está quedando poco espacio...).</p>
+<p>También se puede utilizar el comando <em>lsblk</em> para obtener información
+sobre los discos montados:</p>
+<pre tabindex="0"><code class="language-terminal" data-lang="terminal">$ lsblk
+
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 931,5G  0 disk 
+├─sda1   8:1    0    20M  0 part 
+├─sda2   8:2    0   1,3G  0 part /boot
+├─sda3   8:3    0  15,3G  0 part [SWAP]
+├─sda4   8:4    0    49G  0 part /
+└─sda5   8:5    0 865,9G  0 part /home
+sdb      8:16   0 119,2G  0 disk 
+├─sdb1   8:17   0   100M  0 part 
+├─sdb2   8:18   0 118,7G  0 part 
+└─sdb3   8:19   0   450M  0 part 
+sdc      8:32   0 931,5G  0 disk 
+└─sdc1   8:33   0 931,5G  0 part /media/diego/biblioteca
+sdd      8:48   0 931,5G  0 disk 
+</code></pre><p>Generalmente el comando RSync se ejecuta con estos modificadores:</p>
+<pre tabindex="0"><code class="language-terminal" data-lang="terminal">$ rsync -avh --progress --delete /desde /hacia
+</code></pre><p>Donde:</p>
+<ul>
+<li><strong>a</strong>: archive, es un modificador que se usa generalmente. Es una
+abreviatura para no tener que poner todos estos otros modificadores
+-rlptgoD. Sirve para asegurar que en la transferencia se preserven
+los symbolic links, dispositivos, atributos, permisos, ownerships,
+etc.</li>
+<li><strong>v</strong>: verbose</li>
+<li><strong>h</strong>: human readable.</li>
+<li><strong>progress</strong>: muestra el progreso de la transferencia.</li>
+<li><strong>delete</strong>: borra los archivos en destino que no están en el origen.</li>
+<li><strong>/desde</strong>: directorio de origen</li>
+<li><strong>/hacia</strong>: directorio de destino</li>
+</ul>
+<p>Leyendo el manual de RSync encontramos dos modos distintos de copiar un
+directorio hacia un destino, siendo la diferencia el uso de un <em>trailing
+slash</em> (el símbolo /):</p>
+<pre tabindex="0"><code class="language-terminal" data-lang="terminal">rsync -av /origen/foo /destino
+rsync -av /origen/foo/ /destino/foo
+</code></pre><p>En el primer caso se copia el directorio foo dentro del directorio
+destino dest. En cambio con el trailing slash indicamos que lo que se
+copia es el contenido del directorio foo, y entonces para mantener la
+estructura en el destino, debemos copiarlo dentro de un directorio foo
+(no directamente en dest).</p>
+<p>Para copiar todas mis fotos, lo que tengo que hacer es crear (por única
+vez) un directorio para tal efecto en el disco externo:</p>
+<pre tabindex="0"><code class="language-terminal" data-lang="terminal">$ mkdir /media/diego/biblioteca/mantener-backup/fotos-diego
+</code></pre><p>Para efectuar la copia de las fotos que tengo ubicadas dentro de
+/home/diego/fotos, el comando será:</p>
+<pre tabindex="0"><code class="language-terminal" data-lang="terminal">$ rsync -avh --progress --delete ~/fotos/ /media/diego/biblioteca/mantener-backup/fotos-diego
+</code></pre><p>Otro ejemplo es la copia que hago de mi colección de libros organizados
+con Calibre:</p>
+<pre tabindex="0"><code class="language-terminal" data-lang="terminal">$ rsync -avh --progress --delete ~/calibre/ /media/diego/biblioteca/espejo-del-rigido/calibre
+</code></pre><p>De un rígido externo a otro (porque hay que hacer backup del backup de
+vez en cuando):</p>
+<pre tabindex="0"><code class="language-terminal" data-lang="terminal">$ rsync -avh --progress --delete /media/diego/biblioteca/mantener-backup/ /media/diego/backup/mantener-backup
+$ rsync -avh --progress --delete /media/diego/biblioteca/fotos-videos/ /media/diego/backup/fotos-videos
+</code></pre><p>La primera vez que se ejecute rsync, cuando el destino está vacío,
+consumirá más tiempo porque debe copiar todos los archivos. Sin embargo,
+en ejecuciones posteriores se compararán los directorios de origen y
+destino, y sólo se copiará aquello que haya cambiado (o se borrarán
+aquellos archivos en el directorio de destino que se hayan eliminado del
+directorio de origen). Este modo de hacer backup me cambió la vida.</p>
+<hr>
+<p>A continuación, un ejemplo modificado de
+<a href="https://superuser.com/questions/576687/how-to-print-files-that-would-have-been-changed-using-rsync">StackExchange</a>:
+sirve para verificar con un &quot;dry-run&quot; cuáles serán los cambios que se
+realizarán, sin que se materialicen. Para efectuar realmente los cambios
+hay que borrar &quot;--dry-run&quot; y ejecutar de nuevo la orden.</p>
+<p>El &quot;delete-after&quot; realiza el borrado de los archivos en el destino
+(aquellos que no están en el origen) recién después de que se haya
+completado la copia. El directorio de origen y el del final están
+probados para un caso particular en mi instalación de Manjaro
+(18/11/2020), así que cada uno tendrá que modificarlo de acuerdo a sus
+ubicaciones.</p>
+<pre tabindex="0"><code class="language-terminal" data-lang="terminal">$ rsync -avhi --dry-run --progress --delete-after ~/Calibre/
+/run/media/diego/biblioteca/espejo-del-rigido/calibre/general/ | egrep -v
+&#34;sending incremental file list&#34; | egrep -v &#34;^\
+</code></pre>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/rsync/">Rsync</a></li>
+      <li><a href="http://localhost:1313/tags/backup/">Backup</a></li>
+      <li><a href="http://localhost:1313/tags/linux/">Linux</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Certezas Dudosas</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

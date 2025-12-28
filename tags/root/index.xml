@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Root on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/root/</link>
+    <description>Recent content in Root on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 22 Aug 2014 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/root/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalando IPython en Mageia</title>
+      <link>https://eldiegoefe.github.io/2014/08/instalando-ipython-en-mageia/</link>
+      <pubDate>Fri, 22 Aug 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/08/instalando-ipython-en-mageia/</guid>
+      <description>&lt;p&gt;Para instalar IPython en Mageia, sin tener privilegios de root hay que cumplir
+con los siguientes pasos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Contar con privilegios de root para poder correr el instalador&lt;/li&gt;
+&lt;li&gt;Hay que instalar PIP&lt;/li&gt;
+&lt;li&gt;Con PIP instalar IPython&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;trabajar-como-root&#34;&gt;Trabajar como root:&lt;/h2&gt;
+&lt;p&gt;Conviene agregar el usuario a la lista de usuarios con privilegios para
+ejecutar &lt;em&gt;sudo&lt;/em&gt;. Las instrucciones están en &lt;a href=&#34;https://wiki.mageia.org/en/Configuring_sudo&#34;&gt;Configuring
+sudo&lt;/a&gt; de Mageia.
+Históricamente en UNIX este es el grupo Wheels.&lt;/p&gt;
+&lt;p&gt;Primero hay que crear el archivo &lt;em&gt;/etc/sudoers.d/01wheel&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

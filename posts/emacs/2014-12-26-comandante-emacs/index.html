@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Comandante Emacs (dired-mode) | Certezas Dudosas</title>
+<meta name="keywords" content="emacs, dired">
+<meta name="description" content="Estuve un rato largo (¡horas!) viendo cómo usar el modo &quot;dired&quot; que tiene
+Emacs para el manejo de archivos, porque quiero usarlo al modo del viejo
+Comandante Norton (y sus clones: Total Commander en Window$, Krusader
+especialmente para KDE, etc). Es decir: dos paneles que sirven de inicio y de
+destino para poder copiar y mover archivos, crear directorios, navegarlos, etc.
+
+     
+            Buffer mostrando un directorio con dired-mode
+        
+
+
+Lo primero que hice fue instalar un paquete que amplía las opciones
+disponibles llamado dired&#43; (dired plus) y después instalé otra extensión
+llamada dired-sort-menu. La información sobre la instalación de estos
+paquetes da por supuesto que uno ya tiene experiencia en Emacs, y a
+pesar de que yo lo uso hace casi un año y he instalado y desinstalado
+muchas extensiones, estuve un rato para darme cuenta de algo que no
+figura en la página de
+dired&#43;. En el archivo de
+configuración de Emacs (init.el, custom.el o el que estemos utilizando)
+es imprescindible agregar la orden siguiente:">
+<meta name="author" content="Diego Efe">
+<link rel="canonical" href="http://localhost:1313/posts/emacs/2014-12-26-comandante-emacs/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/emacs/2014-12-26-comandante-emacs/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Certezas Dudosas (Alt + H)">Certezas Dudosas</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Comandante Emacs (dired-mode)
+    </h1>
+    <div class="post-meta"><span title='2014-12-26 10:00:00 +0000 UTC'>December 26, 2014</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Estuve un rato largo (¡horas!) viendo cómo usar el modo &quot;dired&quot; que tiene
+Emacs para el manejo de archivos, porque quiero usarlo al modo del viejo
+Comandante Norton (y sus clones: Total Commander en Window$, Krusader
+especialmente para KDE, etc). Es decir: dos paneles que sirven de inicio y de
+destino para poder copiar y mover archivos, crear directorios, navegarlos, etc.</p>
+<figure>
+    <img loading="lazy" src="https://live.staticflickr.com/7526/15668751884_b2fa8f9d5b_c.jpg"/> <figcaption>
+            Buffer mostrando un directorio con dired-mode
+        </figcaption>
+</figure>
+
+<p>Lo primero que hice fue instalar un paquete que amplía las opciones
+disponibles llamado dired+ (dired plus) y después instalé otra extensión
+llamada dired-sort-menu. La información sobre la instalación de estos
+paquetes da por supuesto que uno ya tiene experiencia en Emacs, y a
+pesar de que yo lo uso hace casi un año y he instalado y desinstalado
+muchas extensiones, estuve un rato para darme cuenta de algo que no
+figura en <a href="http://www.emacswiki.org/emacs/DiredPlus">la página de
+dired+</a>. En el archivo de
+configuración de Emacs (init.el, custom.el o el que estemos utilizando)
+es imprescindible agregar la orden siguiente:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(<span style="color:#a6e22e">require</span> <span style="color:#e6db74">&#39;dired+</span>)
+</span></span></code></pre></div><p>Para correr el modo basta hacer <strong>M-x dired</strong> (yo creo que con esto se
+carga ya con los agregados de dired+, que por ejemplo enriquece los
+menúes de dired, así que viendo estos menúes uno puede darse cuenta si
+está cargada la extensión o no). El buffer de dired que se abre muestra
+los nombres de los archivos del directorio elegido (ver en la figura
+siguiente), pero parece que por defecto se activa el ocultamiento de
+toda otra información. Hay que ejecutar dired-hide-details-mode para que
+se vea toda la info del archivo, incluyendo fecha, permisos, etc.</p>
+<figure>
+    <img loading="lazy" src="https://farm8.staticflickr.com/7580/16290334112_66dd0af6b1_o.png"/> <figcaption>
+            Buffer con dired&#43; suprimiendo detalles de los archivos
+        </figcaption>
+</figure>
+
+<p>Por ahora no encuentro el modo de colorear distinto a las directorios y
+a los archivos con distinta extensión (observación al 11/2020: en Doom
+Emacs aparecen cosas con diversos colores, por ejemplo los permisos, las
+fechas, los tamaños de los archivos). Intenté con el paquete
+dired-rainbow y pude colorear distinto los archivos con diferentes
+extensiones, pero no se cómo hacer con los directorios (porque no tienen
+extensión), así que lo desinstalé. Pero copio debajo el código de prueba
+que funcionó, para no perderlo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(<span style="color:#a6e22e">require</span> <span style="color:#e6db74">&#39;dired-rainbow</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(defconst my-dired-media-files-extensions
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;mp3&#34;</span> <span style="color:#e6db74">&#34;mp4&#34;</span> <span style="color:#e6db74">&#34;MP3&#34;</span> <span style="color:#e6db74">&#34;MP4&#34;</span> <span style="color:#e6db74">&#34;avi&#34;</span> <span style="color:#e6db74">&#34;mpg&#34;</span> <span style="color:#e6db74">&#34;flv&#34;</span> <span style="color:#e6db74">&#34;ogg&#34;</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;Media files.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(dired-rainbow-define html <span style="color:#e6db74">&#34;#4e9a06&#34;</span> (<span style="color:#e6db74">&#34;htm&#34;</span> <span style="color:#e6db74">&#34;html&#34;</span> <span style="color:#e6db74">&#34;xhtml&#34;</span>))
+</span></span><span style="display:flex;"><span>(dired-rainbow-define media <span style="color:#e6db74">&#34;#ce5c00&#34;</span> my-dired-media-files-extensions)
+</span></span></code></pre></div><p>Puse <a href="http://emacs.stackexchange.com/questions/5765/how-to-view-files-ordered-by-extension-in-dired">una pregunta en Emacs
+Exchange</a>
+para ver el modo de ordenar los archivos por extensión (y poniendo
+primero los directorios). Me respondieron al toque, y la solución estaba
+en instalar un paquete llamado dired-sort-menu.el (o
+dired-sort-menu+.el). Luego hay que agregar también en la configuración
+el &quot;require&quot; correspondiente:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(<span style="color:#a6e22e">require</span> <span style="color:#e6db74">&#39;dired-sort-menu+</span>)
+</span></span></code></pre></div><p>Al manipular archivos es muy práctico tener dos buffers abiertos como en
+la figura siguiente, de modo que al copiar o mover se usan ambos
+directorios como origen y destino, sin que haga falta teclear nada. En
+este caso el ordenamiento es por nombre, así que se ven mezclados los
+archivos (visibles y ocultos) con los directorios.</p>
+<figure>
+    <img loading="lazy" src="https://farm8.staticflickr.com/7527/16105034929_742a1aeac2_b.jpg"/> <figcaption>
+            Dos buffers coloridos con dired&#43;.
+        </figcaption>
+</figure>
+
+<p>Edición del nombre de archivos y directorios</p>
+<p>El buffer se puede volver editable para habilitar el cambio de nombre de
+archivos y directorios, del mismo modo en que se edita un buffer normal
+de texto. La función que vuelve editable el buffer es
+dired-toggle-read-only que por defecto se ejecuta con C-x C-q y en Doom
+Emacs directamente con &quot;i&quot; (insert mode). Al correr la función prestar
+atención al minibuffer porque indica la manera de salir de este modo de
+edición, confirmando los cambios (vanilla: C-c C-c; Doom: Z Z) o
+cancelándolos (vanilla: C-c C-k; Doom: Z Q).</p>
+<p>Las funciones más comunes y sus atajos de teclado (son case-sensitive)
+están en la tabla siguiente, a modo de ejemplo, pero hay muchas más
+opciones en los menúes de dired+, que son varios: Dir, Mark, Regexp,
+Multiple, Single. En los menúes figuran los atajos, así que mirándolos
+es una buena forma de aprender.</p>
+<hr>
+<p><strong>Función</strong>            <strong>Atajo</strong></p>
+<p>Marcar archivo         m</p>
+<p>Desmarcar archivo      u</p>
+<p>Marcar por extensión   *.</p>
+<p>Marcar directorios     */</p>
+<p>Desmarcar todos        U</p>
+<p>Invertir selección     t</p>
+<p>Dividir en 2 paneles   C-w v</p>
+<p>Ir al otro panel       C-w w</p>
+<p>Copiar                 C</p>
+<p>Mover/renombrar        R</p>
+<p>Full/simple view       ( ó S-8</p>
+<p>Entrar directorio      ENTER</p>
+<p>Directorio anterior    -</p>
+<p>Crear directorio       +</p>
+<p>Marcar para borrar     d</p>
+<p>Run acciones marcadas  x</p>
+<p>Buffer editable        C-x C-q</p>
+<p>Idem con Doom          i</p>
+<hr>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/emacs/">Emacs</a></li>
+      <li><a href="http://localhost:1313/tags/dired/">Dired</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Certezas Dudosas</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

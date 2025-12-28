@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Lisp on Certezas Dudosas</title>
+    <link>https://eldiegoefe.github.io/tags/lisp/</link>
+    <description>Recent content in Lisp on Certezas Dudosas</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 28 Nov 2017 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eldiegoefe.github.io/tags/lisp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bienvenidos a Scheme</title>
+      <link>https://eldiegoefe.github.io/2017/11/bienvenidos-a-scheme/</link>
+      <pubDate>Tue, 28 Nov 2017 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2017/11/bienvenidos-a-scheme/</guid>
+      <description>&lt;p&gt;Nuevamente un vórtice del espacio-tiempo perturbó el campo magnético terrestre y
+esta vez no solamente escaparon de prisión los más peligrosos rufianes de Ciudad
+Gótica, sino que en vez de retomar el estudio de Clojure, el dialecto de Lisp
+que me cautivó en 2014, viajé hasta otro universo computacional y ahora estoy a
+toda máquina leyendo sobre Scheme, que es otro dialecto del lenguaje diseñado
+para simular la inteligencia humana, creado por John McCarthy en la década del
+50.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clojure, nuevo entretenimiento</title>
+      <link>https://eldiegoefe.github.io/2014/11/clojure-nuevo-entretenimiento/</link>
+      <pubDate>Thu, 27 Nov 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/11/clojure-nuevo-entretenimiento/</guid>
+      <description>&lt;p&gt;En el mundo Emacs se menciona bastante el lenguaje Clojure, como un dialecto de
+Lisp que corre sobre el Java Virtual Machine, lo cual constituye para mi un dato
+casi completamente inutil, puesto que desconozco Java y su JVM. De cualquier
+manera, mientras continúo leyendo ANSI Common Lisp, me dieron ganas de probar,
+así que guardo aquí las instrucciones de instalación para usar Clojure con Emacs
+en Linux.&lt;/p&gt;
+&lt;p&gt;La cuestión no es tan complicada, primero verificamos desde un terminal
+que Java está instalado:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A punto para Lisp</title>
+      <link>https://eldiegoefe.github.io/2014/08/a-punto-para-lisp/</link>
+      <pubDate>Wed, 13 Aug 2014 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2014/08/a-punto-para-lisp/</guid>
+      <description>&lt;p&gt;Cuando empecé a leer &lt;a href=&#34;http://www.gigamonkeys.com/book/&#34;&gt;Practical Common Lisp&lt;/a&gt;,
+de Peter Seibel, tras escuchar &lt;a href=&#34;https://www.youtube.com/watch?v=-8DO0_pqLNA&#34;&gt;el reportaje de Sacha Chua a Bozhidar
+Batsov&lt;/a&gt;, tuve algunos
+inconvenientes para poder instalar Lisp en mi compu, hasta que encontré el
+tutorial &lt;a href=&#34;https://www.youtube.com/watch?v=VnWVu8VVDbI&#34;&gt;Installing Common Lisp&lt;/a&gt;.
+Estas notas resumen la información del video (sus instrucciones se muestran en
+un entorno Windows mientras que mi transcripción es para Linux), para poder
+instalar un Lisp en cualquier máquina con Emacs:&lt;/p&gt;
+&lt;p&gt;Allí dice que se puede &lt;a href=&#34;http://www.sbcl.org/platform-table.html&#34;&gt;bajar sbcl&lt;/a&gt;
+(&lt;strong&gt;elegir el binario&lt;/strong&gt;, de la tabla para las distintas plataformas, en mi caso
+Linux AMD64, &lt;em&gt;que no implica que esa deba ser la marca de nuestro
+microprocesador&lt;/em&gt;) e instalarlo. Prestar atención a que el archivo bajado sea
+efectivamente un binario (posee la palabra &amp;quot;binary&amp;quot; en el nombre, antes de la
+extensión) y descomprimirlo, lo cual se hace con la orden:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

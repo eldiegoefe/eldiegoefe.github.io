@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Ayuda en Emacs - Aprender o Repasar es Facil | Certezas Dudosas</title>
+<meta name="keywords" content="emacs">
+<meta name="description" content="Indagar sobre las múltiples funciones de Emacs es una tarea
+inevitable. Ya sea para explorar y descubrir comandos útiles, o tras
+un tiempo alejados del editor durante el que nuestros músculos olvidan
+hasta los atajos de teclado más cotidianos.
+Por suerte Emacs cuenta con mucha documentación incorporada y si
+aprendemos a preguntarle, nos responderá todas nuestras dudas sin
+necesidad de salir a buscar respuestas en la web.
+Un problema de la información disponible online es que está centrada
+por lo general en los atajos de teclado que vienen por defecto en
+Emacs (o en los paquetes de terceros que instalemos), y entonces se
+vuelven inaplicables las sentencias del tipo &ldquo;para salir de Emacs se
+usa C-x C-c&rdquo;. Yo promuevo el uso del nombre de las funciones para dar
+ayuda, pero en cualquier caso, es mejor preguntarle a nuestra versión
+local de Emacs todo lo que necesitemos saber, puesto que conoce
+nuestros atajos de teclado al dedillo.">
+<meta name="author" content="Diego Efe">
+<link rel="canonical" href="http://localhost:1313/posts/2022/2022-04-02-ayuda-en-emacs/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2022/2022-04-02-ayuda-en-emacs/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Certezas Dudosas (Alt + H)">Certezas Dudosas</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Ayuda en Emacs - Aprender o Repasar es Facil
+    </h1>
+    <div class="post-meta"><span title='2022-04-02 10:00:00 +0000 UTC'>April 2, 2022</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Indagar sobre las múltiples funciones de Emacs es una tarea
+inevitable. Ya sea para explorar y descubrir comandos útiles, o tras
+un tiempo alejados del editor durante el que nuestros músculos olvidan
+hasta los atajos de teclado más cotidianos.</p>
+<p>Por suerte Emacs cuenta con mucha documentación incorporada y si
+aprendemos a preguntarle, nos responderá todas nuestras dudas sin
+necesidad de salir a buscar respuestas en la web.</p>
+<p>Un problema de la información disponible online es que está centrada
+por lo general en los atajos de teclado que vienen por defecto en
+Emacs (o en los paquetes de terceros que instalemos), y entonces se
+vuelven inaplicables las sentencias del tipo &ldquo;<em>para salir de Emacs se
+usa C-x C-c</em>&rdquo;. Yo promuevo el uso del nombre de las funciones para dar
+ayuda, pero en cualquier caso, es mejor preguntarle a nuestra versión
+local de Emacs todo lo que necesitemos saber, puesto que conoce
+nuestros atajos de teclado al dedillo.</p>
+<p>A continuación se listan algunas opciones para obtener ayuda.</p>
+<h2 id="info">Info<a hidden class="anchor" aria-hidden="true" href="#info">#</a></h2>
+<p>Contamos con un conjunto de manuales muy detallados escritos en
+TeXinfo (el formato de documentación oficial de GNU, que usa un mismo
+archivo fuente para producir distintos formatos de salida como HTML,
+Info, PDF, XML, etc.).</p>
+<p>Mediante la función <strong>info</strong> accedemos a un índice con todos
+los manuales <em>TeXinfo</em> instalados en nuestro sistema, incluido el
+propio manual de Emacs pero también los de muchos paquetes
+extras. Están construidos como <em>hipertexto</em>, navegable con las teclas
+citadas debajo.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Atajo</th>
+          <th>Función</th>
+          <th>Descripción</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>C-h i</td>
+          <td>info</td>
+          <td>Abre el manual info</td>
+      </tr>
+      <tr>
+          <td>C-h 4 i</td>
+          <td>info-other-window</td>
+          <td>Idem, pero en otra ventana</td>
+      </tr>
+      <tr>
+          <td>[ and ]</td>
+          <td>Info-forward-node / Info-backward-node</td>
+          <td>Ir al nodo siguiente / previo</td>
+      </tr>
+      <tr>
+          <td>l and r</td>
+          <td>Info-history-back / Info-history-forward</td>
+          <td>Navegar historial hacia atrás o adelante</td>
+      </tr>
+      <tr>
+          <td>n and p</td>
+          <td>Info-next / Info-prev</td>
+          <td>Ir al nodo siguiente / previo (misma jerarquía)</td>
+      </tr>
+      <tr>
+          <td>u</td>
+          <td>Info-up</td>
+          <td>Sube un nivel a un nodo superior</td>
+      </tr>
+      <tr>
+          <td>SPC</td>
+          <td>Info-scroll-up</td>
+          <td>Scroll de una pantalla</td>
+      </tr>
+      <tr>
+          <td>TAB</td>
+          <td>Info-next-reference</td>
+          <td>Cicla entre enlaces (hiperlinks) de la página</td>
+      </tr>
+      <tr>
+          <td>RET</td>
+          <td>Info-follow-nearest-node</td>
+          <td>Abre el enlace activo</td>
+      </tr>
+      <tr>
+          <td>m</td>
+          <td>Info-menu</td>
+          <td>Pregunta por un item del menú (si hay uno) y lo abre</td>
+      </tr>
+      <tr>
+          <td>q</td>
+          <td>quit-window</td>
+          <td>Cierra la ventana con el navegador de info</td>
+      </tr>
+  </tbody>
+</table>
+<p>Info admite el uso de bookmarks (más sobre esto en otro posteo&hellip;).</p>
+<h2 id="apropos">Apropos<a hidden class="anchor" aria-hidden="true" href="#apropos">#</a></h2>
+<p>Es un comando que responde preguntas como &ldquo;¿cuáles son los comandos
+para trabajar con archivos?&rdquo;. La manera de hacerlo es usar un patrón
+de búsqueda que puede ser una palabra, una lista de palabras o una
+expresión regular. Es útil cuando no estamos seguros de lo que estamos
+buscando. Permite buscar variables y comandos, y tiene soporte para
+realizar las búsquedas con expresiones regulares.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Atajo</th>
+          <th>Función</th>
+          <th>Descripción</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>C-h a</td>
+          <td>apropos-command</td>
+          <td>Muestra todos los comandos que coinciden con el criterio de búsqueda</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>apropos</td>
+          <td>Muestra todo: funciones y variables</td>
+      </tr>
+  </tbody>
+</table>
+<p>Por ejemplo, nos sirve para buscar funciones relacionadas con archivos
+(buscaríamos: <em>file</em>) o rectángulos (<em>rectangle</em>). El resultado se
+muestra en un buffer: las funciones que incluyen <em>file</em> o <em>rectangle</em>
+en el nombre, su atajo de teclado y una breve descripción. Se puede
+navegar hasta el nombre de los comandos o variables listados y con RET
+abrir un nuevo buffer con más información.</p>
+<p>Cuando se especifica más de una palabra como patrón de búsqueda, para
+que haya coincidencia debe haber dos o más de esas palabras en el
+nombre. Por ejemplo si buscamos sobre operaciones sobre copiar o
+cortar oraciones podríamos buscar así: C-h a sentence kill yank insert.</p>
+<p>Para mayor flexibilidad se pueden usar expresiones regulares. En
+general, son expresiones de búsqueda que contienen los siguientes
+caracteres: ^$*+?.[. Funciones que terminen con &ldquo;guión y región&rdquo;:
+<em>-region$</em>, o con &ldquo;guión y rectángulo&rdquo;: <em>-rectangle$</em>.</p>
+<p>Hay varias funciones más en la familia de <em>apropos</em>. Las podemos
+buscar con <em>C-h a apropos</em>.</p>
+<h2 id="describe">Describe<a hidden class="anchor" aria-hidden="true" href="#describe">#</a></h2>
+<p>Disponemos de ayuda para todas las funciones, a la cual accedemos
+mediante el nombre de la función o con su atajo de teclado. También
+tenemos una descripción de los modos activos en el buffer, con el que
+podemos ver un listado de las funciones disponibles y sus atajos de
+teclado. Finalmente, si conocemos un prefijo está disponible una ayuda
+que indica todas las funciones que comparten ese inicio de atajo de
+teclado.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Atajo</th>
+          <th>Función</th>
+          <th>Descripción</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>C-h f</td>
+          <td>describe-function</td>
+          <td>Muestra documentación de la función en un nuevo buffer, a partir del nombre de la función</td>
+      </tr>
+      <tr>
+          <td>C-h k</td>
+          <td>describe-key</td>
+          <td>Idem anterior, pero a partir del atajo de teclado</td>
+      </tr>
+      <tr>
+          <td>C-h c</td>
+          <td>describe-key-briefly</td>
+          <td>Muestra una linea con el nombre de la función asociada al atajo, en el minibuffer</td>
+      </tr>
+      <tr>
+          <td>C-h m</td>
+          <td>describe-mode</td>
+          <td>Muestra un buffer con la información del modo mayor y sus atajos, junto con una descripción de los modos menores</td>
+      </tr>
+      <tr>
+          <td>C-h b</td>
+          <td>describe-bindings</td>
+          <td>Muestra un buffer con una lista de todas los atajos y sus definiciones</td>
+      </tr>
+      <tr>
+          <td>Prefijo C-h</td>
+          <td></td>
+          <td>Muestra un buffer con una lista de todas las posibles funciones que se pueden ejecutar completando el prefijo</td>
+      </tr>
+  </tbody>
+</table>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/emacs/">Emacs</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Certezas Dudosas</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

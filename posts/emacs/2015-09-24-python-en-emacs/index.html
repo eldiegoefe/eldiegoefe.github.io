@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Python en Emacs y otros atajos | Certezas Dudosas</title>
+<meta name="keywords" content="python, emacs, keybindings, spacemacs">
+<meta name="description" content="Spacemacs
+
+
+Anaconda-mode: Emacs tiene muchas herramientas para facilitar la
+programación en Python. En Spacemacs se puede activar
+anaconda-mode, que habilita
+una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información
+en el modeline sobre la función que se está tipeando (muestra los nombres de
+sus argumentos). Cosas de Anaconda para usar:
+
+anaconda-mode-complete (C-M-i)
+anaconda-mode-find-definitions (SPC m g g): busca el origen del
+símbolo bajo el punto. Por ejemplo: si se trata de una función,
+abre el archivo donde está definida y ubica el punto sobre el
+encabezado de la misma.
+anaconda-mode-find-assignments
+anaconda-mode-find-references
+anaconda-mode-go-back
+anaconda-mode-show-doc
+
+
+
+Entornos virtuales: se puede activar un entorno virtual donde correr
+el programa que se está desarrollando con SPC m V (pyvenv-workon,
+pero en este caso no aparecen correctamente todas las opciones, al
+menos no veo los entornos que instalé con pyenv), o también con SPC
+m v s (pyenv-mode-set, en este caso sí se ven los entornos de
+pyenv).">
+<meta name="author" content="Diego Efe">
+<link rel="canonical" href="http://localhost:1313/posts/emacs/2015-09-24-python-en-emacs/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/emacs/2015-09-24-python-en-emacs/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Certezas Dudosas (Alt + H)">Certezas Dudosas</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Python en Emacs y otros atajos
+    </h1>
+    <div class="post-meta"><span title='2015-09-24 10:00:00 +0000 UTC'>September 24, 2015</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="spacemacs">Spacemacs<a hidden class="anchor" aria-hidden="true" href="#spacemacs">#</a></h2>
+<ol>
+<li>
+<p>Anaconda-mode: Emacs tiene muchas herramientas para facilitar la
+programación en Python. En Spacemacs se puede activar
+<a href="https://github.com/proofit404/anaconda-mode">anaconda-mode</a>, que habilita
+una serie de paquetes útiles. Por ejemplo &quot;eldoc&quot; que ofrece información
+en el modeline sobre la función que se está tipeando (muestra los nombres de
+sus argumentos). Cosas de Anaconda para usar:</p>
+<ul>
+<li>anaconda-mode-complete (C-M-i)</li>
+<li>anaconda-mode-find-definitions (SPC m g g): busca el origen del
+símbolo bajo el punto. Por ejemplo: si se trata de una función,
+abre el archivo donde está definida y ubica el punto sobre el
+encabezado de la misma.</li>
+<li>anaconda-mode-find-assignments</li>
+<li>anaconda-mode-find-references</li>
+<li>anaconda-mode-go-back</li>
+<li>anaconda-mode-show-doc</li>
+</ul>
+</li>
+<li>
+<p>Entornos virtuales: se puede activar un entorno virtual donde correr
+el programa que se está desarrollando con SPC m V (pyvenv-workon,
+pero en este caso no aparecen correctamente todas las opciones, al
+menos no veo los entornos que instalé con pyenv), o también con SPC
+m v s (pyenv-mode-set, en este caso sí se ven los entornos de
+pyenv).</p>
+</li>
+<li>
+<p>Shell con entorno virtual: para acceder a un shell con el mismo
+entorno virtual que se activó (en el punto anterior) hay que hacer
+SPC a s m (shell-pop-multiterm).</p>
+</li>
+<li>
+<p>Comentarios: para comentar el bloque de lineas seleccionadas se
+utiliza SPC c l (evilnc-comment-or-uncomment-lines). También se
+puede probar con SPC ; (evilnc-comment-operator).</p>
+</li>
+<li>
+<p>Para ejecutar programas que contienen el llamado a la función
+principal con un bloque del siguiente modo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span></code></pre></div><p>hay que pulsar C-u C-c C-c (y en Spacemacs: SPC u C-c C-c).
+Previamente hay que haber elegido el entorno virtual correcto (ver
+el punto 2). De este modo funcionan los programas incluso si tienen
+panel construido con PyQt. Más info en la pregunta que hice yo
+mismo: <a href="http://emacs.stackexchange.com/questions/13357/how-to-execute-a-python-program-with-a-gui-from-emacs">How to execute a python program (with a GUI) from
+Emacs?</a>.</p>
+</li>
+</ol>
+<h2 id="yasnippets">Yasnippets<a hidden class="anchor" aria-hidden="true" href="#yasnippets">#</a></h2>
+<ol>
+<li>SPC i s (spacemacs/helm-yas). Si no están aún cargados, carga los
+snippets y ofrece un menú tipo helm para seleccionarlos. Luego
+quedan habilitados para usar el trigger (la abreviatura) seguido de
+TAB.</li>
+</ol>
+<figure>
+    <img loading="lazy" src="https://c1.staticflickr.com/1/657/21855757933_5ff671a447_b.jpg"/> <figcaption>
+            Yasnippets con Helm
+        </figcaption>
+</figure>
+
+<h2 id="tabulación">Tabulación<a hidden class="anchor" aria-hidden="true" href="#tabulación">#</a></h2>
+<ol>
+<li>C-x TAB (indent-rigidly). Selecciono las lineas, uso C-x TAB y luego
+las flechas hacia los lados para aumentar o disminuir la indentación
+manteniendo la disposición actual.</li>
+<li>También se puede tabular para respetar las necesidades del lenguaje,
+seleccionando una región y pulsando C-M-\ (indent-region). Aún
+cuando no haya ninguna indentación previa en esta región, cada linea
+se acomoda al lugar que debe ir. Igual hay que chequear porque el
+comando no puede adivinar, y hay veces que un mismo bloque puede ir
+con distintas indentaciones correctas.</li>
+</ol>
+<h2 id="spacemacs-1">Spacemacs<a hidden class="anchor" aria-hidden="true" href="#spacemacs-1">#</a></h2>
+<ol>
+<li>Para insertar texto desde el modo &quot;normal&quot; (o &quot;comando&quot;) se usa
+la letra p o P (la inserción es antes o después de la ubicación
+actual del cursor). Para pegar desde el modo &quot;insert&quot;: C-y.</li>
+<li>Se comentan (y des-comentan) lineas seleccionándolas y presionando
+SPC c l (comment-or-uncomment-line).</li>
+<li>Se borra la ventana actual con SPC w d. Obviamente sólo es posible
+cuando hay más de una ventana abierta (recordar que las ventanas en
+Emacs son las subdivisiones de la pantalla ocupadas por un buffer).</li>
+<li>Para navegar directorios se usan las combinaciones C-j y C-l para
+moverse desde un directorio hacia otro que esté un nivel por encima
+o un nivel por debajo.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/python/">Python</a></li>
+      <li><a href="http://localhost:1313/tags/emacs/">Emacs</a></li>
+      <li><a href="http://localhost:1313/tags/keybindings/">Keybindings</a></li>
+      <li><a href="http://localhost:1313/tags/spacemacs/">Spacemacs</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Certezas Dudosas</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

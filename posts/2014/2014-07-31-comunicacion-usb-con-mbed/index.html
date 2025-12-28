@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Comunicacion USB con mbed | Certezas Dudosas</title>
+<meta name="keywords" content="mbed, usb, python, electronica">
+<meta name="description" content="La comunicación mediante USB con microcontroladores me viene un escollo permanente. El protocolo en sí tiene una complejidad que dispuesto a dedicarle, sobre todo porque empecé a leer varias veces sobre el mismo y siempre me encuentro dando vueltas alrededor de detalles que parecen demasiado específicos y alejados de lo que yo necesito lograr. Decidí hacer la prueba con mbed, ya que tengo una placa kinetis frdm-kl25z de freescale, con la cual hay unos ejemplos de comunicación que parecen muy sencillos.">
+<meta name="author" content="Diego Efe">
+<link rel="canonical" href="http://localhost:1313/posts/2014/2014-07-31-comunicacion-usb-con-mbed/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2014/2014-07-31-comunicacion-usb-con-mbed/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Certezas Dudosas (Alt + H)">Certezas Dudosas</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Comunicacion USB con mbed
+    </h1>
+    <div class="post-meta"><span title='2014-07-31 10:00:00 +0000 UTC'>July 31, 2014</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>La comunicación mediante USB con microcontroladores me viene un escollo permanente. El protocolo en sí tiene una complejidad que dispuesto a dedicarle, sobre todo porque empecé a leer varias veces sobre el mismo y siempre me encuentro dando vueltas alrededor de detalles que parecen demasiado específicos y alejados de lo que yo necesito lograr. Decidí hacer la prueba con mbed, ya que tengo una placa kinetis frdm-kl25z de freescale, con la cual hay unos ejemplos de comunicación que parecen muy sencillos.</p>
+<h2 id="microcontrolador">Microcontrolador<a hidden class="anchor" aria-hidden="true" href="#microcontrolador">#</a></h2>
+<p>Del lado del mbed el programa es el siguiente:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;mbed.h&#34;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;USBHID.h&#34;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//We declare a USBHID device. Input out output reports have a length of 8 bytes
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>USBHID <span style="color:#a6e22e">hid</span>(<span style="color:#ae81ff">8</span>, <span style="color:#ae81ff">8</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//This report will contain data to be sent
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>HID_REPORT send_report;
+</span></span><span style="display:flex;"><span>HID_REPORT recv_report;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Serial <span style="color:#a6e22e">pc</span>(USBTX, USBRX);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(<span style="color:#66d9ef">void</span>) {
+</span></span><span style="display:flex;"><span>    send_report.length <span style="color:#f92672">=</span> <span style="color:#ae81ff">8</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (<span style="color:#ae81ff">1</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//Fill the report
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> send_report.length; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>        send_report.data[i] <span style="color:#f92672">=</span> rand() <span style="color:#f92672">&amp;</span> <span style="color:#ae81ff">0xff</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//Send the report
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    hid.send(<span style="color:#f92672">&amp;</span>send_report);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">//try to read a msg
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span>(hid.readNB(<span style="color:#f92672">&amp;</span>recv_report)) {
+</span></span><span style="display:flex;"><span>        pc.printf(<span style="color:#e6db74">&#34;recv: &#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> recv_report.length; i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>        pc.printf(<span style="color:#e6db74">&#34;%d &#34;</span>, recv_report.data[i]);
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        pc.printf(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\r\n</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    wait(<span style="color:#ae81ff">0.1</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>En el <a href="https://mbed.org/questions/1348/Whats-the-difference-between-read-and-re/">foro de
+mbed</a>
+preguntan cuál es la diferencia entre read y readNB, y también entre send y
+sendNB:</p>
+<blockquote>
+<p>If there is data to read, read and read_nb do the same, they return that data.
+If not, readNB will return directly that there was no data to read, while read
+blocks until there is data.</p></blockquote>
+<blockquote>
+<p>Send is pretty much the same, only then related to the output buffer. If the
+output buffer is empty, both will simply put the data in it and return. If it
+is full, non-blocking will tell there is no space, while blocking will wait
+until there is space.</p></blockquote>
+<h2 id="computadora">Computadora<a hidden class="anchor" aria-hidden="true" href="#computadora">#</a></h2>
+<p>Del lado de la computadora, el programa en python es:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Simple example on how to send and receive data to the Mbed over USB (on Linux) using pyUSB 1.0</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> usb.core    <span style="color:#75715e"># the main USB module</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> usb.util    <span style="color:#75715e"># utility functions</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> sleep
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> random
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># handler called when a report is received</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">rx_handler</span>(data):
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#39;recv: &#39;</span>, data
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">tx_handler</span>(data):
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#39;env: &#39;</span>, data
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">findHIDDevice</span>(mbed_vendor_id, mbed_product_id):
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Find device</span>
+</span></span><span style="display:flex;"><span>    hid_device <span style="color:#f92672">=</span> usb<span style="color:#f92672">.</span>core<span style="color:#f92672">.</span>find(idVendor<span style="color:#f92672">=</span>mbed_vendor_id,idProduct<span style="color:#f92672">=</span>mbed_product_id)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> hid_device:
+</span></span><span style="display:flex;"><span>    print <span style="color:#e6db74">&#34;No device connected&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    sys<span style="color:#f92672">.</span>stdout<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#39;mbed found</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> hid_device<span style="color:#f92672">.</span>is_kernel_driver_active(<span style="color:#ae81ff">0</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        hid_device<span style="color:#f92672">.</span>detach_kernel_driver(<span style="color:#ae81ff">0</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">except</span> usb<span style="color:#f92672">.</span>core<span style="color:#f92672">.</span>USBError <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>        sys<span style="color:#f92672">.</span>exit(<span style="color:#e6db74">&#34;Could not detatch kernel driver: </span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">%</span> str(e))
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># set the active configuration. With no arguments, the first</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># configuration will be the active one</span>
+</span></span><span style="display:flex;"><span>        hid_device<span style="color:#f92672">.</span>set_configuration()
+</span></span><span style="display:flex;"><span>        hid_device<span style="color:#f92672">.</span>reset()
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> usb<span style="color:#f92672">.</span>core<span style="color:#f92672">.</span>USBError <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>        sys<span style="color:#f92672">.</span>exit(<span style="color:#e6db74">&#34;Could not set configuration: </span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">%</span> str(e))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    endpoint <span style="color:#f92672">=</span> hid_device[<span style="color:#ae81ff">0</span>][(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>)][<span style="color:#ae81ff">0</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> <span style="color:#66d9ef">True</span>:
+</span></span><span style="display:flex;"><span>        data <span style="color:#f92672">=</span> [<span style="color:#ae81ff">0x0</span>] <span style="color:#f92672">*</span> <span style="color:#ae81ff">16</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">#read the data</span>
+</span></span><span style="display:flex;"><span>        bytes <span style="color:#f92672">=</span> hid_device<span style="color:#f92672">.</span>read(endpoint<span style="color:#f92672">.</span>bEndpointAddress, <span style="color:#ae81ff">8</span>)
+</span></span><span style="display:flex;"><span>        rx_handler(bytes);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">8</span>):
+</span></span><span style="display:flex;"><span>        data[i] <span style="color:#f92672">=</span> bytes[i]
+</span></span><span style="display:flex;"><span>        data[i<span style="color:#f92672">+</span><span style="color:#ae81ff">8</span>] <span style="color:#f92672">=</span> random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">255</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        tx_handler(bytes)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        hid_device<span style="color:#f92672">.</span>write(<span style="color:#ae81ff">1</span>, data)    <span style="color:#75715e"># 1 es el endpoint</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># The vendor ID and product ID used in the Mbed program</span>
+</span></span><span style="display:flex;"><span>    mbed_vendor_id <span style="color:#f92672">=</span> <span style="color:#ae81ff">0x1234</span>
+</span></span><span style="display:flex;"><span>    mbed_product_id <span style="color:#f92672">=</span> <span style="color:#ae81ff">0x0006</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Search the Mbed, attach rx handler and send data</span>
+</span></span><span style="display:flex;"><span>    findHIDDevice(mbed_vendor_id, mbed_product_id)
+</span></span></code></pre></div><h2 id="en-funcionamiento">En funcionamiento<a hidden class="anchor" aria-hidden="true" href="#en-funcionamiento">#</a></h2>
+<p>En la imagen puede verse la pantalla de emacs donde se ve el envío y
+recepción de datos.</p>
+<p><img loading="lazy" src="https://farm9.staticflickr.com/8635/16105028699_317b3557d9_b.jpg"></p>
+<h2 id="problema-resuelto">Problema resuelto<a hidden class="anchor" aria-hidden="true" href="#problema-resuelto">#</a></h2>
+<p>Hay un problema al ejecutar el programa de la computadora (lo cual hago
+usando ipython, tanto en modo terminal como en modo notebook) que
+dispara el siguiente error:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>USBError: [Errno 13] Access denied (insufficient permissions)
+</span></span></code></pre></div><p>Esto tiene que ver con los permisos para usar el USB. Una solución
+rápida es ejecutar el script de python con permisos de root, para lo
+cual alcanza con correr ipython anteponiendo sudo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ sudo ipython
+</span></span></code></pre></div><p>Recuerdo haber seguido unas instrucciones para habilitar el usuario a
+trabajar con el USB, pero no recuerdo dónde estaban y ahora no puedo
+encontrarlas (aunque salen muchas páginas si uno busca este error).</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/mbed/">Mbed</a></li>
+      <li><a href="http://localhost:1313/tags/usb/">Usb</a></li>
+      <li><a href="http://localhost:1313/tags/python/">Python</a></li>
+      <li><a href="http://localhost:1313/tags/electronica/">Electronica</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Certezas Dudosas</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

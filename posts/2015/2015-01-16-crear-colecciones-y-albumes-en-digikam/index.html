@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Crear colecciones y albumes en digiKam | Certezas Dudosas</title>
+<meta name="keywords" content="fotografia, digikam, tutorial">
+<meta name="description" content="Crear albumes en digiKam tiene un inconveniente que un usuario que intenta
+emplearlo descubre rápidamente. Es un detalle que no está bien documentado en
+los tutoriales que encontré en la web. El problema es el siguiente: sólo van a
+poder crear álbumes dentro del único álbum existente, el cual aparece tras el
+procedimiento de configuración básica, cuando digiKam se ejecuta por primera
+vez. Probablemente este álbum se llame &quot;/home/nombreusuario/Imágenes&quot;, como en
+la figura siguiente.">
+<meta name="author" content="Diego Efe">
+<link rel="canonical" href="http://localhost:1313/posts/2015/2015-01-16-crear-colecciones-y-albumes-en-digikam/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2015/2015-01-16-crear-colecciones-y-albumes-en-digikam/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Certezas Dudosas (Alt + H)">Certezas Dudosas</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Crear colecciones y albumes en digiKam
+    </h1>
+    <div class="post-meta"><span title='2015-01-15 10:00:00 +0000 UTC'>January 15, 2015</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Crear albumes en digiKam tiene un inconveniente que un usuario que intenta
+emplearlo descubre rápidamente. Es un detalle que no está bien documentado en
+los tutoriales que encontré en la web. El problema es el siguiente: sólo van a
+poder crear álbumes dentro del único álbum existente, el cual aparece tras el
+procedimiento de configuración básica, cuando digiKam se ejecuta por primera
+vez. Probablemente este álbum se llame &quot;/home/nombreusuario/Imágenes&quot;, como en
+la figura siguiente.</p>
+<p><strong>Imagen 1</strong>: al iniciar el uso de digiKam hay probablemente una sola colección
+(y un mensaje de bienvenida muy informativo pero medio fiero, con fondo azul).</p>
+<figure>
+    <img loading="lazy" src="https://farm9.staticflickr.com/8569/15667544713_c7b33ac69f_h.jpg" width="75%"/> <figcaption>
+            Imagen 1
+        </figcaption>
+</figure>
+
+<p>Para crear un álbum las instrucciones son sencillas: hay que ir al menú
+<em>Album</em> y elegir <em>Nuevo (Ctrl+N)...</em>, o también click con el botón
+derecho sobre el álbum dentro del cual queremos crearlo. <strong>El problema
+radica en que sólo nos está permitido crear nuevos álbumes dentro del
+único ya existente</strong>. Si queremos crear uno que descienda directamente
+de &quot;Álbumes&quot;, con la misma jerarquía que el que aparece por defecto
+(&quot;/home/nombreusuario/Imágenes&quot;), vamos a descubrir que la mencionada
+opción (<em>Nuevo</em>) en el menú se puede ver pero aparece en gris, no se
+puede elegir, tampoco funciona el atajo de teclado (Ctrl+N) y si
+tratamos con el ratón vemos que la opción tampoco está disponible en el
+menú contextual (sólo aparece una opción --Álbum--que en realidad es
+el título de este menú contextual):</p>
+<p><strong>Imagen 2</strong>: Un detalle ampliado de la ventana anterior. No se encuentra la
+opción, en el menú contextual, de agregar un nuevo álbum. Al hacer click derecho
+sobre Álbumes aparece el menú contextual de la figura, que sólo posee un título
+(Álbumes). ¡Qué difícil es explicar las cosas si todo se llama igual!</p>
+<figure>
+    <img loading="lazy" src="https://farm9.staticflickr.com/8683/16101480319_efb201162b_o.png"/> <figcaption>
+            Imagen 2
+        </figcaption>
+</figure>
+
+<p>En digiKam hay una diferencia de nomenclatura entre <strong>Colecciones</strong> y
+<strong>Álbumes</strong>, que no se explícita (a la colección a veces la nombran como
+&quot;álbum raíz&quot; o &quot;root album&quot;, y en las opciones aparece también
+traducido al castellano como <strong>Temas</strong>), y que ahora les comento. Las
+colecciones son los recipientes donde se almacenan los álbumes; se
+corresponden físicamente con los directorios principales dentro de los
+cuales se ubicarán las fotos en subálbumes. El programa no nos deja
+crear álbumes dependientes de &quot;Albumes&quot; porque antes debemos crear las
+&quot;Colecciones&quot;. Ya tenemos creada una colección sin habernos dado
+cuenta y es la que corresponde a /home/nombreusuario/Imágenes, pero si
+tenemos fotos con las cuales queremos trabajar, y no deseamos moverlas
+físicamente a este directorio (copiarlas o moverlas dentro de este
+directorio, da igual), entonces debemos crear una colección por cada
+carpeta donde tengamos nuestros archivos de imágenes (por ejemplo en el
+directorio /home/nombreusuario/fotografias o en un subdirectorio de un
+disco externo). Esto no es necesario cuando las fotos se encuentran en
+subdirectorios dentro de la colección existente. Vale aclarar que
+digiKam refleja el contenido de las colecciones y subálbumes como un
+navegador de archivos, y actualiza el contenido de los mismos
+inmediatamente si con un programa externo copiamos o movemos fotos desde
+y hacia los directorios de la colección.</p>
+<p>Para crear las colecciones los pasos son muy sencillos. Hay que
+dirigirse al menú &quot;Settings/Configure digiKam...&quot; y allí, en el panel
+de la izquierda, seleccionar el segundo icono desde arriba: &quot;Temas&quot;
+(en inglés es &quot;Collections&quot;).</p>
+<p><strong>Imagen 3: Una sola colección existe inicialmente, la que se creó
+(inadvertidamente) cuando atravesamos la configuración inicial de digiKam,
+durante su primera corrida.</strong></p>
+<figure>
+    <img loading="lazy" src="https://farm8.staticflickr.com/7469/15664846264_ac27f442ea_b.jpg"/> <figcaption>
+            Imagen 3
+        </figcaption>
+</figure>
+
+<p>Obviamente hay que presionar el botón &quot;Añadir colección&quot;. Por
+colecciones locales se refiere a aquellas que estén dentro del
+directorio personal del usuario (por ejemplo ~/fotografias). Las
+colecciones en medios extraibles serán para elegir colecciones en discos
+externos, pendrives, DVDs, etc. Las colecciones en redes compartidas
+sólo tendrán sentido en computadoras que se encuentren conectadas a una
+red local. Aquí les muestro cómo queda este menú de configuración una
+vez creada la colección /home/fotografo/fotografias (que se sintetiza
+como ~/fotografias):</p>
+<p><strong>Imagen 4: Configuración luego de haber añadido una colección (o &quot;álbum
+raíz&quot;).</strong></p>
+<figure>
+    <img loading="lazy" src="https://farm9.staticflickr.com/8595/16099911410_27dcbd2dea_b.jpg"/> <figcaption>
+            Imagen 4
+        </figcaption>
+</figure>
+
+<p>Volvemos a la pantalla principal de digiKam y vemos que apareció la
+nueva colección (fotografias) y al hacer click derecho con el mouse
+vemos el menú contextual, ahora completo con la opción de crear nuevos
+álbumes (dependientes de esta colección).</p>
+<p><strong>Imagen 5: Colección agregada y menú contextual.</strong></p>
+<figure>
+    <img loading="lazy" src="https://farm8.staticflickr.com/7568/16101500609_2a2ede17e6_o.png"/> <figcaption>
+            Imagen 5
+        </figcaption>
+</figure>
+
+<p>A continuación les muestro otra pantalla con algunos álbumes de muestra.</p>
+<p><strong>Imagen 6: Álbumes y fotografías de ejemplo. Si abren el administrador de
+archivos (que depende de la distribución de linux y el escritorio que
+usen, en KDE suele ser dolphin) verán una estructura idéntica de
+directorios: cada álbum es una carpeta
+&quot;física&quot;.</strong></p>
+<figure>
+    <img loading="lazy" src="https://farm9.staticflickr.com/8607/16286745132_f1665fa0b7_h.jpg"/> <figcaption>
+            Imagen 6
+        </figcaption>
+</figure>
+
+<h2 id="cambio-de-idioma-de-digikam">Cambio de idioma de digiKam<a hidden class="anchor" aria-hidden="true" href="#cambio-de-idioma-de-digikam">#</a></h2>
+<p><em>Un último tip</em>: se pueden elegir los idiomas en que se presenta digiKam
+en el menú de ayuda (Ayuda/Cambiar el idioma de la aplicación...). Es
+una opción útil, por ejemplo, para seguir un tutorial de la web que no
+está en español.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/fotografia/">Fotografia</a></li>
+      <li><a href="http://localhost:1313/tags/digikam/">Digikam</a></li>
+      <li><a href="http://localhost:1313/tags/tutorial/">Tutorial</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Certezas Dudosas</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
