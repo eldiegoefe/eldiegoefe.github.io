@@ -21,10 +21,10 @@
 &lt;p&gt;Por defecto las lineas son &lt;em&gt;lógicas&lt;/em&gt; y al escribir uno puede llegar al final de la linea y continuar escribiendo. Aparecen caracteres &amp;ldquo;raros&amp;rdquo; sobre los bordes (para indicar que la linea se continúa). Hay un ajuste de linea o &amp;ldquo;line-wrap&amp;rdquo;, de manera que el renglón inicial y el renglón que continúa constituyen una sola linea de texto (una línea &lt;em&gt;lógica&lt;/em&gt;).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Instrucciones Hugo</title>
-      <link>https://eldiegoefe.github.io/2022/12/instrucciones-hugo/</link>
+      <title>Instrucciones para actualizar el blog con Hugo</title>
+      <link>https://eldiegoefe.github.io/2022/12/instrucciones-para-actualizar-el-blog-con-hugo/</link>
       <pubDate>Sun, 11 Dec 2022 10:00:00 +0000</pubDate>
-      <guid>https://eldiegoefe.github.io/2022/12/instrucciones-hugo/</guid>
+      <guid>https://eldiegoefe.github.io/2022/12/instrucciones-para-actualizar-el-blog-con-hugo/</guid>
       <description>&lt;p&gt;Estas son instrucciones para no olvidarme cómo actualizar este mismo
 blog. Escribo las entradas y uso &lt;strong&gt;Hugo&lt;/strong&gt; para correr un servidor local e
 ir corrigiendo / agregando cosas.&lt;/p&gt;
