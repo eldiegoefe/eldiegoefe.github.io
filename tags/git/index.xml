@@ -4,7 +4,7 @@
     <title>Git on Certezas Dudosas</title>
     <link>https://eldiegoefe.github.io/tags/git/</link>
     <description>Recent content in Git on Certezas Dudosas</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>es</language>
     <lastBuildDate>Wed, 20 May 2015 10:00:00 +0000</lastBuildDate>
     <atom:link href="https://eldiegoefe.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
@@ -135,7 +135,8 @@ comandos que se ejecutan una sola vez. Por ejemplo:&lt;/p&gt;</description>
 &lt;li&gt;source&lt;/li&gt;
 &lt;li&gt;master&lt;/li&gt;
 &lt;li&gt;gh-pages&lt;/li&gt;
-&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Me cambié de máquina (a una laptop) e hice una copia de lo que había
 subido clonando el supositorio, digo el repositorio remoto. Después me
 puse a trabajar, armé nuevos post y corregí algunos otros. Hice el
