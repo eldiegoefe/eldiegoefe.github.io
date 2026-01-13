@@ -48,33 +48,5 @@ $ git push origin gh-pages
 $ cd /home/diegol/blog/certezas-dudosas
 $ git add .
 $ git commit -m "Descripción de los cambios"
-$ git push origin master
-```
-
-## Versión vieja
-
-En otro directorio tengo una copia del contenido de mi página en
-Github (*/home/diegol/blog/eldiegoefe.github.io*). Sobre este directorio
-copio y pego lo que había en /public. Capaz que quedan archivos basura
-acumulándose, pero por ahora no necesito hacer limpieza.
-
-Finalmente tengo que actualizar el repositorio de Github y subirlo:
-
-```terminal
-$ git status
-$ git add . 
-$ git commit -m "agregada tal cosa..."
-$ git push --all
-```
-
-¡Listo! Ya tengo subido el blog.
-
---- 
-
-El tema que uso para darle formato al blog se llama **FeelIt**. Lo tengo
-que clonar en un directorio dentro de certezas-dudosas
-(*blog/certezas-dudosas/themes/FeelIt*), de esta manera:
-
-```terminal
-$ git clone https://github.com/khusika/FeelIt.git themes/FeelIt
+$ git push origin main
 ```

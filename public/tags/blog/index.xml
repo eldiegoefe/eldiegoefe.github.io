@@ -4,7 +4,7 @@
     <title>Blog on Certezas Dudosas</title>
     <link>https://eldiegoefe.github.io/tags/blog/</link>
     <description>Recent content in Blog on Certezas Dudosas</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>es</language>
     <lastBuildDate>Sun, 11 Dec 2022 10:00:00 +0000</lastBuildDate>
     <atom:link href="https://eldiegoefe.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
@@ -103,7 +103,8 @@ que recordar cómo ir a los resultados siguientes (C-s) y anteriores
 &lt;li&gt;source&lt;/li&gt;
 &lt;li&gt;master&lt;/li&gt;
 &lt;li&gt;gh-pages&lt;/li&gt;
-&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Me cambié de máquina (a una laptop) e hice una copia de lo que había
 subido clonando el supositorio, digo el repositorio remoto. Después me
 puse a trabajar, armé nuevos post y corregí algunos otros. Hice el

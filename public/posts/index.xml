@@ -4,10 +4,42 @@
     <title>Posts on Certezas Dudosas</title>
     <link>https://eldiegoefe.github.io/posts/</link>
     <description>Recent content in Posts on Certezas Dudosas</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 15 Aug 2025 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Oct 2025 10:00:00 +0000</lastBuildDate>
     <atom:link href="https://eldiegoefe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ser Humano Hoy (Parte 1)</title>
+      <link>https://eldiegoefe.github.io/2025/10/ser-humano-hoy-parte-1/</link>
+      <pubDate>Tue, 07 Oct 2025 10:00:00 +0000</pubDate>
+      <guid>https://eldiegoefe.github.io/2025/10/ser-humano-hoy-parte-1/</guid>
+      <description>&lt;p&gt;Hoy es 7 de octubre, pasaron 2 años de la masacre materializada por
+los palestinos de Hamas. Que los palestinos devuelvan a los rehenes y
+a los cuerpos de los asesinados, que los israelíes devuelvan presos y
+dejen de matar gente&amp;hellip;&lt;/p&gt;
+&lt;p&gt;A veces uno cambia de ideas tan gradualmente que no sabe en qué
+momento ocurrió esa modificación en la forma de entender el mundo. No
+es este el caso. Lo que ocurrió posteriormente a esa fecha, la
+sumatoria de hechos y declaraciones, de noticias y conversaciones, ha
+sido el desencadenante y me permite una precisión notoria porque tengo
+fechados mis escritos. En el último &lt;a href=&#34;https://eldiegoefe.github.io/2025/08/ser-judio-hoy-parte-3/&#34;&gt;Ser Judío Hoy - Parte 3&lt;/a&gt; ponía en
+pie de igualdad la existencia de estados confesionales desiguales y
+persecutorios para señalar el velado antijudaismo que implica marcar
+el sionismo como racismo mientras se ignora y se calla frente a otros
+estados y grupos persecutorios, racistas y masacradores (los estados
+árabes expulsaron a sus judíos después de 1948, Irán lo hizo después
+de su &amp;ldquo;revolución islámica&amp;rdquo; de 1979, y entrado el siglo XXI en Yemen
+el slogan vigente es &amp;ldquo;Alá es grande, muerte a América, muerte a
+Israel, maldición a los judíos, victoria para el Islam&amp;rdquo;). La cuestión
+es que un crimen no justifica otro crimen, así que en lo que a mi
+respecta, conociendo la diversidad de persecuciones y horrores de
+otros países, siento cada vez de modo más intolerable los crímenes del
+Estado de Israel. O sea, en algún momento, entre aquel escrito y este,
+se me detonó la identificación judeo-israelí, lo que era duda se
+convirtió en convicción, me dejó de resultar atractiva la noción de mi
+condición histórico-nasal y me ha ganado el deseo de una apostasía
+total.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ser judio hoy (Parte 3)</title>
       <link>https://eldiegoefe.github.io/2025/08/ser-judio-hoy-parte-3/</link>
@@ -90,7 +122,8 @@ comparto una selección de las que me gustaron.&lt;/p&gt;</description>
       <description>&lt;h1 id=&#34;el-minúsculo&#34;&gt;EL MINÚSCULO&lt;/h1&gt;
 &lt;h1 id=&#34;estamos-para-el-opúsculo&#34;&gt;&lt;em&gt;Estamos para el opúsculo&lt;/em&gt;&lt;/h1&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Año I - Número 01 - 26 de Noviembre de 2023&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Año I - Número 01 - 26 de Noviembre de 2023&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;em&gt;Se terminó de teclear el 26 de Noviembre de 2023 con
 &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt; y
 &lt;a href=&#34;https://orgmode.org/&#34;&gt;Org-Mode&lt;/a&gt; en
@@ -2504,7 +2537,8 @@ que recordar cómo ir a los resultados siguientes (C-s) y anteriores
 &lt;li&gt;source&lt;/li&gt;
 &lt;li&gt;master&lt;/li&gt;
 &lt;li&gt;gh-pages&lt;/li&gt;
-&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Me cambié de máquina (a una laptop) e hice una copia de lo que había
 subido clonando el supositorio, digo el repositorio remoto. Después me
 puse a trabajar, armé nuevos post y corregí algunos otros. Hice el
@@ -3012,6 +3046,7 @@ categorías. Estos canales son prácticamente &lt;em&gt;clásicos&lt;/em&gt;:&lt
 &lt;li&gt;&lt;a href=&#34;https://chatgpt.com/&#34;&gt;ChatGPT&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://chat.deepseek.com/&#34;&gt;DeepSeek&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://aistudio.google.com/prompts/new_chat&#34;&gt;Google AI Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gemini.google.com/app&#34;&gt;Google Gemini&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://notebooklm.google.com/&#34;&gt;Notebook LM&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.perplexity.ai/&#34;&gt;Perplexity&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -3079,6 +3114,8 @@ categorías. Estos canales son prácticamente &lt;em&gt;clásicos&lt;/em&gt;:&lt
 &lt;h2 id=&#34;idiomas&#34;&gt;Idiomas&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://translate.google.com/&#34;&gt;Google Translate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dict.cc/&#34;&gt;dict.cc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dict.leo.org/&#34;&gt;dict.leo.org&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;finanzas&#34;&gt;Finanzas&lt;/h2&gt;
 &lt;ul&gt;
@@ -3165,6 +3202,14 @@ categorías. Estos canales son prácticamente &lt;em&gt;clásicos&lt;/em&gt;:&lt
 &lt;li&gt;&lt;a href=&#34;https://www.artisticarubens.com.ar/&#34;&gt;Artística Rubens&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://zonapapel.mitiendanube.com/&#34;&gt;Zona Papel&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://linktr.ee/karencampbellart&#34;&gt;Karen Campbell&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fotografía&#34;&gt;Fotografía&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://strobist.blogspot.com/&#34;&gt;Strobist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.digi-zoom.com.ar/index.php&#34;&gt;Digital Zoom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://photo.stackexchange.com/&#34;&gt;Photography StackExchange&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dzoom.org.es/&#34;&gt;DZoom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.photopills.com/es&#34;&gt;PhotoPills&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>

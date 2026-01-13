@@ -37,6 +37,7 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 - [ChatGPT](https://chatgpt.com/)
 - [DeepSeek](https://chat.deepseek.com/)
 - [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
+- [Google Gemini](https://gemini.google.com/app)
 - [Notebook LM](https://notebooklm.google.com/)
 - [Perplexity](https://www.perplexity.ai/)
 
@@ -99,6 +100,8 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 ## Idiomas
 
 - [Google Translate](https://translate.google.com/)
+- [dict.cc](https://www.dict.cc/)
+- [dict.leo.org](https://dict.leo.org/)
 
 ## Finanzas
 
@@ -185,5 +188,11 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 - [Zona Papel](https://zonapapel.mitiendanube.com/)
 - [Karen Campbell](https://linktr.ee/karencampbellart)
 
+## Fotografía
 
+- [Strobist](https://strobist.blogspot.com/)
+- [Digital Zoom](https://www.digi-zoom.com.ar/index.php)
+- [Photography StackExchange](https://photo.stackexchange.com/)
+- [DZoom](https://www.dzoom.org.es/)
+- [PhotoPills](https://www.photopills.com/es)
 
