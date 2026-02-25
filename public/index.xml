@@ -4,7 +4,7 @@
     <title>Certezas Dudosas</title>
     <link>https://eldiegoefe.github.io/</link>
     <description>Recent content on Certezas Dudosas</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.155.3</generator>
     <language>es</language>
     <lastBuildDate>Thu, 15 Jan 2026 10:00:00 +0000</lastBuildDate>
     <atom:link href="https://eldiegoefe.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -55,23 +55,6 @@ se me detonó la identificación judeo-israelí, lo que era duda se
 convirtió en convicción, me dejó de resultar atractiva la noción de mi
 condición histórico-nasal y me ha ganado el deseo de una apostasía
 total.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tractatum Judeum Filosoficum</title>
-      <link>https://eldiegoefe.github.io/2025/10/tractatum-judeum-filosoficum/</link>
-      <pubDate>Tue, 07 Oct 2025 10:00:00 +0000</pubDate>
-      <guid>https://eldiegoefe.github.io/2025/10/tractatum-judeum-filosoficum/</guid>
-      <description>&lt;p&gt;
-Un motivo por el cual ser judío me produjo siempre sensaciones
-positivas era la singularidad de esta condición en un ambiente con
-pocos judíos a mi alrededor. Aún sin ser algo realmente extraño, la
-condición judía me permitía sentirme diferente al resto, una
-característica por demás valorada en nuestra cultura occidental. A los
-coreanos por ejemplo, parece que les pinta más no sobresalir y quizás
-por eso la diplomacia argentina contemporanea tiene dificultades para
-diferenciarlos (¿o era a los chinos? ¡son todos iguales!). En algún
-punto, ser judío era entretenido y desafiante porque me convertía en
-una especie de guardián con la misión de preservar la tradición. &lt;/p&gt;</description>
     </item>
     <item>
       <title>Ser judio hoy (Parte 3)</title>
@@ -1053,7 +1036,7 @@ archivo de configuración que guardo en un repositorio privado.&lt;/p&gt;
 &lt;h3 id=&#34;opción-a-repositorio-con-la-última-versión-de-emacs&#34;&gt;Opción A: repositorio con la última versión de Emacs&lt;/h3&gt;
 &lt;p&gt;Esta es la manera más facil de instalación, para un un sistema
 descendiente de Debian (Ubuntu, Mint, etc).&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo add-apt-repository ppa:ubuntu-elisp/ppa
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo add-apt-repository ppa:ubuntu-elisp/ppa
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo apt-get update
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo apt-get install emacs-snapshot emacs-snapshot-el
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;opción-b-compilación-desde-un-terminal&#34;&gt;Opción B: compilación desde un terminal&lt;/h3&gt;
@@ -1845,10 +1828,10 @@ sagas de dudoso buen gusto.&lt;/p&gt;</description>
 para poder usar la agenda adecuadamente.&lt;/p&gt;
 &lt;p&gt;Se pueden seleccionar individualmente los archivos que forman parte de
 la agenda:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cl&#34; data-lang=&#34;cl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;setq&lt;/span&gt; org-agenda-files (&lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/mis-archivos-org/apuntes-varios.org&amp;#34;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-cl&#34; data-lang=&#34;cl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;setq&lt;/span&gt; org-agenda-files (&lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/mis-archivos-org/apuntes-varios.org&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                             &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/mis-archivos-org/acomodar.org&amp;#34;&lt;/span&gt;))
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;O sino utilizar un directorio completo:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cl&#34; data-lang=&#34;cl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;setq&lt;/span&gt; org-agenda-files &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#39;&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/mis-archivos-org&amp;#34;&lt;/span&gt;))
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-cl&#34; data-lang=&#34;cl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;setq&lt;/span&gt; org-agenda-files &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#39;&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/mis-archivos-org&amp;#34;&lt;/span&gt;))
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Se puede utilizar un archivo en particular para ir anotando al vuelo las
 ideas que se nos ocurren. Este archivo lo podremos abrir con
 &lt;em&gt;org-capture&lt;/em&gt; (C-c c). Esto nos permite volcar lo que tenemos en la
@@ -2113,10 +2096,10 @@ computador&lt;/em&gt;. Pero en algún momento volvió a andar. :)&lt;/p&gt;</des
 &lt;p&gt;&lt;em&gt;To traverse&lt;/em&gt; es el verbo que se refiere al acceso secuencial de los
 elementos de una lista. La siguiente es una forma de &amp;quot;traversear&amp;quot; una
 lista:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; cheese &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; cheeses:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; cheese &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; cheeses:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       print cheese
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Si se necesita modificar algún elemento de la lista es mejor hacer:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(len(numbers)):
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(len(numbers)):
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       numbers[i] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; numers[i] &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;agregar-elementos-a-una-lista&#34;&gt;Agregar elementos a una lista&lt;/h2&gt;
 &lt;p&gt;Se pueden agregar elementos individuales a una lista con &lt;em&gt;append&lt;/em&gt;.&lt;/p&gt;</description>
@@ -2294,7 +2277,7 @@ bien tiene mucha potencia, porque puede hacer mucho más, yo la usé para
 convertir imágenes en páginas de un archivo pdf.&lt;/p&gt;
 &lt;p&gt;Se necesita tener instalado un paquete llamado &lt;strong&gt;imagemagick&lt;/strong&gt;. Para instalarlo
 desde un terminal dependerá de la distribución, suele ser así:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo urpmi imagemagick             &lt;span style=&#34;color:#75715e&#34;&gt;# desde mageia&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo urpmi imagemagick             &lt;span style=&#34;color:#75715e&#34;&gt;# desde mageia&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo apt-get install imagemagick   &lt;span style=&#34;color:#75715e&#34;&gt;# desde ubuntu, mint, etc&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo yum install imagemagick       &lt;span style=&#34;color:#75715e&#34;&gt;# desde fedora&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Luego, para usarlo, también desde un terminal y en el directorio donde
@@ -2376,22 +2359,22 @@ extensión) y descomprimirlo, lo cual se hace con la orden:&lt;/p&gt;</descripti
 &lt;p&gt;Este es el primer snippet diseñado para automatizar el encabezado de las paginas
 hechas en restructuredText, para facilitarme la escritura de este blog. Hay
 mucha ayuda en la página de Capitao Morte (supongo que es su autor).&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-rest&#34; data-lang=&#34;rest&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# -&lt;span style=&#34;font-style:italic&#34;&gt;*- mode: snippet; require-final-newline: nil -*&lt;/span&gt;-&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;# name: encabezado&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;# key: enc&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;# expand-env: ((yas-indent-line &amp;#39;fixed))&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;# --&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-rest&#34; data-lang=&#34;rest&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# -&lt;span style=&#34;font-style:italic&#34;&gt;*- mode: snippet; require-final-newline: nil -*&lt;/span&gt;-&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# name: encabezado&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# key: enc&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# expand-env: ((yas-indent-line &amp;#39;fixed))&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# --&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;:---&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;title: &amp;#34;${1:titulo}&amp;#34;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;:date:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;${2:2014}-{3:10}-{4:31} {5:10:00}&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;:category:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;${6:$$(yas-choose-value &amp;#39;(&amp;#34;blog&amp;#34; &amp;#34;politica&amp;#34; &amp;#34;salud&amp;#34; &amp;#34;tecnicismos&amp;#34;))}&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;:tags: $7
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:---&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title: &amp;#34;${1:titulo}&amp;#34;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;:date:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;${2:2014}-{3:10}-{4:31} {5:10:00}&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;:category:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;${6:$$(yas-choose-value &amp;#39;(&amp;#34;blog&amp;#34; &amp;#34;politica&amp;#34; &amp;#34;salud&amp;#34; &amp;#34;tecnicismos&amp;#34;))}&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:tags: $7
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;:author:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Diego Efe&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;:excerpt:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;$1&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;:excerpt:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;$1&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;&lt;/span&gt;$0&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$0&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;En la linea 14 la instrucción $0 se agregó porque en algún lado decía
 que suele ponerse para indicar el lugar de salida cuando se termina de
 ejecutar el snippet.&lt;/p&gt;</description>
@@ -2739,7 +2722,7 @@ Jerome&lt;/a&gt;.
 Para instalar Pelican se puede usar &amp;quot;pip&amp;quot;, más adelante hay más detalles, pero
 como referencia veloz basta decir que se puede hacer sencillamente (en la rama
 &amp;quot;source&amp;quot; y desde el ENV que se creará más adelante):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(ENV) $ pip install pelican
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(ENV) $ pip install pelican
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;La idea para trabajar Pelican con Git es tener un directorio para el
 repositorio con el nombre de la página, y dentro de él un directorio
 para el virtualenv donde va a correr el Pelican. Por ejemplo, algo así
@@ -3082,6 +3065,7 @@ categorías. Estos canales son prácticamente &lt;em&gt;clásicos&lt;/em&gt;:&lt
 &lt;li&gt;&lt;a href=&#34;https://gemini.google.com/app&#34;&gt;Google Gemini&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://notebooklm.google.com/&#34;&gt;Notebook LM&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.perplexity.ai/&#34;&gt;Perplexity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.kimi.com/&#34;&gt;Kimi&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;videos&#34;&gt;Videos&lt;/h2&gt;
 &lt;ul&gt;

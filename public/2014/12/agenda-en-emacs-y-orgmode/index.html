@@ -211,7 +211,7 @@ iniciar la captura.">
 
 <article class="post-single">
   <header class="post-header">
-    <span title='2014-12-29 10:00:00 +0000 UTC'>December 29, 2014</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>1042 words</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+    <span title='2014-12-29 10:00:00 +0000 UTC'>December 29, 2014</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>1042 palabras</span>&nbsp;·&nbsp;<span>Diego Efe</span>
     <h1 class="post-title entry-hint-parent">Agenda en Emacs y OrgMode
     </h1>
   </header> 
@@ -220,10 +220,10 @@ iniciar la captura.">
 para poder usar la agenda adecuadamente.</p>
 <p>Se pueden seleccionar individualmente los archivos que forman parte de
 la agenda:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(<span style="color:#66d9ef">setq</span> org-agenda-files (<span style="color:#a6e22e">list</span> <span style="color:#e6db74">&#34;~/mis-archivos-org/apuntes-varios.org&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(<span style="color:#66d9ef">setq</span> org-agenda-files (<span style="color:#a6e22e">list</span> <span style="color:#e6db74">&#34;~/mis-archivos-org/apuntes-varios.org&#34;</span>
 </span></span><span style="display:flex;"><span>                             <span style="color:#e6db74">&#34;~/mis-archivos-org/acomodar.org&#34;</span>))
 </span></span></code></pre></div><p>O sino utilizar un directorio completo:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(<span style="color:#66d9ef">setq</span> org-agenda-files <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;~/mis-archivos-org&#34;</span>))
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(<span style="color:#66d9ef">setq</span> org-agenda-files <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;~/mis-archivos-org&#34;</span>))
 </span></span></code></pre></div><p>Se puede utilizar un archivo en particular para ir anotando al vuelo las
 ideas que se nos ocurren. Este archivo lo podremos abrir con
 <em>org-capture</em> (C-c c). Esto nos permite volcar lo que tenemos en la
@@ -231,15 +231,15 @@ cabeza y dejar para después su clasificación, de manera de no perder la
 idea e interrumpir nuestro flujo de trabajo lo menos posible. La nota se
 cierra con C-c C-c y se vuelve al mismo buffer donde estabamos al
 iniciar la captura.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(<span style="color:#66d9ef">setq</span> org-default-notes-file <span style="color:#e6db74">&#34;~/mis-archivos-org/inbox.org&#34;</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(<span style="color:#66d9ef">setq</span> org-default-notes-file <span style="color:#e6db74">&#34;~/mis-archivos-org/inbox.org&#34;</span>)
 </span></span></code></pre></div><p>Para abrir el inbox.org desde cualquier buffer se puede asignar un
 atajo:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span><span style="color:#75715e">;; asigna &#34;C-c o&#34; para abrir mi inbox.org sin tener que buscarlo</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span><span style="color:#75715e">;; asigna &#34;C-c o&#34; para abrir mi inbox.org sin tener que buscarlo</span>
 </span></span><span style="display:flex;"><span>(global-set-key (kbd <span style="color:#e6db74">&#34;C-c o&#34;</span>)
 </span></span><span style="display:flex;"><span>                (lambda () (interactive) (find-file <span style="color:#e6db74">&#34;~/org/inbox.org&#34;</span>)))
 </span></span></code></pre></div><p>Estos son otros comandos de configuración de org-mode que tengo
 seteados. Salvo el primero, el resto puede entenderse por inspección:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(<span style="color:#66d9ef">setq</span> org-agenda-include-diary <span style="color:#66d9ef">t</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(<span style="color:#66d9ef">setq</span> org-agenda-include-diary <span style="color:#66d9ef">t</span>)
 </span></span><span style="display:flex;"><span>(<span style="color:#66d9ef">setq</span> org-deadline-warning-days <span style="color:#ae81ff">7</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">;; Palabras clave para los TODO</span>
@@ -283,7 +283,7 @@ seteados. Salvo el primero, el resto puede entenderse por inspección:</p>
 configuradas para guardarse en archivos como inbox.org, diario-personal,
 etc. Cada nota puede tener una estructura particular, en algunos casos
 importa colocar una fecha, una etiqueta, un deadline, etc:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span><span style="color:#75715e">;; Capture templates for: TODO tasks, Notes, appointments, phone calls,</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span><span style="color:#75715e">;; Capture templates for: TODO tasks, Notes, appointments, phone calls,</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">;; meetings, and org-protocol</span>
 </span></span><span style="display:flex;"><span>(<span style="color:#66d9ef">setq</span> org-capture-templates
 </span></span><span style="display:flex;"><span>      (<span style="color:#66d9ef">quote</span> ((<span style="color:#e6db74">&#34;a&#34;</span> <span style="color:#e6db74">&#34;tarea&#34;</span> entry (file <span style="color:#e6db74">&#34;~/mis-archivos-org/inbox.org&#34;</span>)
@@ -311,7 +311,7 @@ importa colocar una fecha, una etiqueta, un deadline, etc:</p>
 </span></span></code></pre></div><p>Finalmente, para acceder a la agenda hay que invocar el comando
 <em>org-agenda</em> o configurar una combinación de teclas para su ejecución,
 habitualmente se usa C-c a:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(global-set-key <span style="color:#e6db74">&#34;\C-ca&#34;</span> <span style="color:#e6db74">&#39;org-agenda</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(global-set-key <span style="color:#e6db74">&#34;\C-ca&#34;</span> <span style="color:#e6db74">&#39;org-agenda</span>)
 </span></span></code></pre></div><p>Allí aparece un menú con las distintas opciones de visualización. A
 continuación se describen las opciones (es un resumen de la sección
 <a href="http://orgmode.org/manual/Built_002din-agenda-views.html#Built_002din-agenda-views">Built in agenda
@@ -388,12 +388,12 @@ projects</a>.</p>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://eldiegoefe.github.io/2015/01/una-noche-de-enero-con-el-rel%C3%A1mpago-verde/">
-    <span class="title">« Prev</span>
+    <span class="title">« Anterior</span>
     <br>
     <span>Una noche de enero con el Relámpago Verde</span>
   </a>
   <a class="next" href="https://eldiegoefe.github.io/2014/12/comandante-emacs-dired-mode/">
-    <span class="title">Next »</span>
+    <span class="title">Siguiente »</span>
     <br>
     <span>Comandante Emacs (dired-mode)</span>
   </a>
@@ -553,12 +553,12 @@ projects</a>.</p>
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = '¡copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 

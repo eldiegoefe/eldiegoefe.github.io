@@ -210,7 +210,7 @@ código fuente del sitio, y las páginas del blog propiamente dichas):">
 
 <article class="post-single">
   <header class="post-header">
-    <span title='2014-04-22 10:00:00 +0000 UTC'>April 22, 2014</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>1553 words</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+    <span title='2014-04-22 10:00:00 +0000 UTC'>April 22, 2014</span>&nbsp;·&nbsp;<span>8 min</span>&nbsp;·&nbsp;<span>1553 palabras</span>&nbsp;·&nbsp;<span>Diego Efe</span>
     <h1 class="post-title entry-hint-parent">Blog con Pelican y GitHub
     </h1>
   </header> 
@@ -224,26 +224,26 @@ Jerome</a>.
 Para instalar Pelican se puede usar &quot;pip&quot;, más adelante hay más detalles, pero
 como referencia veloz basta decir que se puede hacer sencillamente (en la rama
 &quot;source&quot; y desde el ENV que se creará más adelante):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ pip install pelican
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ pip install pelican
 </span></span></code></pre></div><p>La idea para trabajar Pelican con Git es tener un directorio para el
 repositorio con el nombre de la página, y dentro de él un directorio
 para el virtualenv donde va a correr el Pelican. Por ejemplo, algo así
 (más adelante se explica en qué ramas del repositorio se almacenará el
 código fuente del sitio, y las páginas del blog propiamente dichas):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ ~/documentos/nombreUsuario.github.io      <span style="color:#75715e"># para el sitio</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ ~/documentos/nombreUsuario.github.io      <span style="color:#75715e"># para el sitio</span>
 </span></span><span style="display:flex;"><span>$ ~/documentos/nombreUsuario.github.io/ENV  <span style="color:#75715e"># para el env</span>
 </span></span></code></pre></div><p>Primero armo un repositorio (vacío) en GitHub para alojar mi blog
 personal. GitHub ofrece la dirección nombreUsuario.github.io con este
 propósito. Luego clono el sitio en un directorio local donde se desea
 mantener el blog:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ cd ~/documentos
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ cd ~/documentos
 </span></span><span style="display:flex;"><span>$ git clone https://github.com/nombreUsuario/nombreUsuario.github.io
 </span></span></code></pre></div><p>Como el repositorio lo creé vacío, sin más que el README.md, entonces
 éste es el único archivo que existe en el directorio
 ~/documentos/nombreUsuario.github.io</p>
 <p>Para instalar el virtualenv (medio ambiente virtual) en el directorio
 deseado:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ virtualenv ~/documentos/nombreUsuario.github.io/ENV
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ virtualenv ~/documentos/nombreUsuario.github.io/ENV
 </span></span><span style="display:flex;"><span>$ cd ~/documentos/nombreUsuario.github.io/ENV
 </span></span><span style="display:flex;"><span>$ . bin/activate
 </span></span></code></pre></div><p>La última instrucción puede reemplazarse por &quot;source ENV/bin/activate&quot;</p>
@@ -273,7 +273,7 @@ puede agregar este renglón:</p>
 </ul>
 <p>Con git status veremos que estamos en la rama &quot;master&quot; y que falta el
 commit para agregar el archivo .gitignore. Entonces hacemos:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ git add .
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ git add .
 </span></span><span style="display:flex;"><span>(ENV) $ git commit -m &#34;Commit inicial&#34;
 </span></span></code></pre></div><p>Nuestra rama local de master queda adelantada respecto de la rama master
 en el repo externo. Esto lo avisa el sistema ante la última orden
@@ -281,7 +281,7 @@ ingresada.</p>
 <p>Dado que al repositorio externo no vamos a necesitar subir los archivos
 de Pelican y los que surjan de la configuración del sitio, entonces
 instalamos este programa en una nueva rama que llamaré &quot;source&quot;:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ git branch source
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ git branch source
 </span></span><span style="display:flex;"><span>(ENV) $ git checkout source
 </span></span></code></pre></div><p>(alternativamente estas dos instrucciones se pueden condensar en una
 sola: git checkout -b source)</p>
@@ -289,7 +289,7 @@ sola: git checkout -b source)</p>
 instala en el ENV). Hay que estar atento a que no haya errores, porque
 sino se instala mal y, por ejemplo, más tarde puede no funcionar &quot;make
 serve&quot;.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ pip install pelican     # opción 1
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ pip install pelican     # opción 1
 </span></span><span style="display:flex;"><span>(ENV) $ easy_install pelican    # opción 2
 </span></span><span style="display:flex;"><span>(ENV) $ pip install -e git://github.com/getpelican/pelican#egg=pelican
 </span></span></code></pre></div><p>La primera vez tras la instalación se debe ejecutar la orden
@@ -303,7 +303,7 @@ content y output). El site url que elijo es
 <p>El contenido de pelicanconf.py tras responder a las preguntas de
 pelican-quickstart y además editar manualmente el archivo para completar
 los datos, queda así:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env python</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env python</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># -*- coding: utf-8 -*- #</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> __future__ <span style="color:#f92672">import</span> unicode_literals
 </span></span><span style="display:flex;"><span>
@@ -338,7 +338,7 @@ los datos, queda así:</p>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Uncomment following line if you want document-relative URLs when developing</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#RELATIVE_URLS = True</span>
 </span></span></code></pre></div><p>Y el contenido de publishconf.py queda así:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env python</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env python</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># -*- coding: utf-8 -*- #</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> __future__ <span style="color:#f92672">import</span> unicode_literals
 </span></span><span style="display:flex;"><span>
@@ -368,7 +368,7 @@ contenido (para que ver algo cuando cargue el blog).</p>
 <p>Genero el sitio con make html (procesa todos los archivos del directorio
 content y aloja el sitio resultante en el directorio output) y ejecuto
 el servidor local con make serve:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ make html
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ make html
 </span></span><span style="display:flex;"><span>(ENV) $ make serve
 </span></span></code></pre></div><p>El sitio lo puedo visitar en <a href="http://localhost:8000">http://localhost:8000</a>. Veo que tiene un
 problema para encontrar el CSS, no sale bien formateado. Sin embargo,
@@ -379,10 +379,10 @@ el sitio, es usar la siguientes dos instrucciones, la primera combina
 <em>make html</em> junto con <em>make serve</em> (el sitio se regenera ante cualquier
 edición de su contenido, y permanece accesible en el localhost) y la
 segunda es para detener el servicio.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ make devserver
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ make devserver
 </span></span><span style="display:flex;"><span>(ENV) $ ./develop_server.sh stop
 </span></span></code></pre></div><p>Voy a agregar todo al branch source:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ git add .
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ git add .
 </span></span><span style="display:flex;"><span>(ENV) $ git commit -m &#34;Commit inicial de la rama source&#34;
 </span></span></code></pre></div><p>Lo que sigue es casi textual de la página de <a href="http://ntanjerome.org/blog/how-to-setup-github-user-page-with-pelican/">la página de
 Nicholas</a>,
@@ -397,9 +397,9 @@ puesta a punto inicial, crear una rama con ese nombre antes de correr el
 script, y luego hacer un merge desde la rama &quot;master&quot; con la rama
 &quot;gh-pages&quot;</p>
 <p>Si no está instalado ghp-import, se puede instalar con:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ pip install ghp-import
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ pip install ghp-import
 </span></span></code></pre></div><p>Finalmente, eston son los pasos restantes:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV)$ git branch gh-pages   # crea la rama gh-branches
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV)$ git branch gh-pages   # crea la rama gh-branches
 </span></span><span style="display:flex;"><span>(ENV)$ ghp-import output     # exporta la carpeta output desde la rama actual (source) hacia la rama gh-pages
 </span></span><span style="display:flex;"><span>(ENV)$ git checkout master   # cambia el head a la rama master
 </span></span><span style="display:flex;"><span>(ENV)$ git merge gh-pages    #
@@ -419,7 +419,7 @@ repositorio online.</p>
 ser guardados en el directorio &quot;content&quot;) es necesario efectuar los
 siguientes pasos (suponiendo que uno está actualmente en la rama
 &quot;source&quot;:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ cd /path/to/blog/ENV
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ cd /path/to/blog/ENV
 </span></span><span style="display:flex;"><span>$ . bin/activate    <span style="color:#75715e"># activa el entorno para que funcionen los progs de python (make serve, ghp-import, etc)</span>
 </span></span><span style="display:flex;"><span>(ENV)$ make html             # genera los archivos html que van a la carpeta &#34;output&#34;
 </span></span><span style="display:flex;"><span>(ENV)$ ghp-import output     # exporta la carpeta output desde la rama actual (source) hacia la rama gh-pages
@@ -433,7 +433,7 @@ siguientes pasos (suponiendo que uno está actualmente en la rama
 plugin que permite <a href="https://pypi.python.org/pypi/pelican_youtube">embeber videos de
 youtube</a> hay que
 instalarlo:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ pip install beautifulsoup4
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(ENV) $ pip install beautifulsoup4
 </span></span><span style="display:flex;"><span>(ENV) $ pip install pelican-youtube
 </span></span></code></pre></div><h3 id="problemas-con-github">Problemas con GitHub<a hidden class="anchor" aria-hidden="true" href="#problemas-con-github">#</a></h3>
 <p>Puede suceder que tras esperar media hora, luego de subir el sitio, siga
@@ -462,12 +462,12 @@ en GitHub.</p>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://eldiegoefe.github.io/2014/04/grupos-de-afinidad/">
-    <span class="title">« Prev</span>
+    <span class="title">« Anterior</span>
     <br>
     <span>Grupos de afinidad</span>
   </a>
   <a class="next" href="https://eldiegoefe.github.io/2014/04/modos-de-arruinar-la-educaci%C3%B3n-superior-parte-ii/">
-    <span class="title">Next »</span>
+    <span class="title">Siguiente »</span>
     <br>
     <span>Modos de arruinar la educación superior (Parte II)</span>
   </a>
@@ -627,12 +627,12 @@ en GitHub.</p>
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = '¡copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 

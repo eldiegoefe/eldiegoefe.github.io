@@ -4,7 +4,7 @@
     <title>Pelican on Certezas Dudosas</title>
     <link>https://eldiegoefe.github.io/tags/pelican/</link>
     <description>Recent content in Pelican on Certezas Dudosas</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.155.3</generator>
     <language>es</language>
     <lastBuildDate>Wed, 20 May 2015 10:00:00 +0000</lastBuildDate>
     <atom:link href="https://eldiegoefe.github.io/tags/pelican/index.xml" rel="self" type="application/rss+xml" />
@@ -56,7 +56,7 @@ Jerome&lt;/a&gt;.
 Para instalar Pelican se puede usar &amp;quot;pip&amp;quot;, más adelante hay más detalles, pero
 como referencia veloz basta decir que se puede hacer sencillamente (en la rama
 &amp;quot;source&amp;quot; y desde el ENV que se creará más adelante):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(ENV) $ pip install pelican
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(ENV) $ pip install pelican
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;La idea para trabajar Pelican con Git es tener un directorio para el
 repositorio con el nombre de la página, y dentro de él un directorio
 para el virtualenv donde va a correr el Pelican. Por ejemplo, algo así

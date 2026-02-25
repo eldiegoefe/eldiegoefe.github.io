@@ -4,7 +4,7 @@
     <title>Org-Mode on Certezas Dudosas</title>
     <link>https://eldiegoefe.github.io/tags/org-mode/</link>
     <description>Recent content in Org-Mode on Certezas Dudosas</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.155.3</generator>
     <language>es</language>
     <lastBuildDate>Thu, 07 Jan 2016 10:00:00 +0000</lastBuildDate>
     <atom:link href="https://eldiegoefe.github.io/tags/org-mode/index.xml" rel="self" type="application/rss+xml" />
@@ -43,10 +43,10 @@ Spacemacs).&lt;/p&gt;
 para poder usar la agenda adecuadamente.&lt;/p&gt;
 &lt;p&gt;Se pueden seleccionar individualmente los archivos que forman parte de
 la agenda:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cl&#34; data-lang=&#34;cl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;setq&lt;/span&gt; org-agenda-files (&lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/mis-archivos-org/apuntes-varios.org&amp;#34;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-cl&#34; data-lang=&#34;cl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;setq&lt;/span&gt; org-agenda-files (&lt;span style=&#34;color:#a6e22e&#34;&gt;list&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/mis-archivos-org/apuntes-varios.org&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                             &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/mis-archivos-org/acomodar.org&amp;#34;&lt;/span&gt;))
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;O sino utilizar un directorio completo:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cl&#34; data-lang=&#34;cl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;setq&lt;/span&gt; org-agenda-files &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#39;&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/mis-archivos-org&amp;#34;&lt;/span&gt;))
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-cl&#34; data-lang=&#34;cl&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;setq&lt;/span&gt; org-agenda-files &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#39;&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~/mis-archivos-org&amp;#34;&lt;/span&gt;))
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Se puede utilizar un archivo en particular para ir anotando al vuelo las
 ideas que se nos ocurren. Este archivo lo podremos abrir con
 &lt;em&gt;org-capture&lt;/em&gt; (C-c c). Esto nos permite volcar lo que tenemos en la

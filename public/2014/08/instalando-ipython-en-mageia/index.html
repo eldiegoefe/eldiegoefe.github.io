@@ -205,7 +205,7 @@ Primero hay que crear el archivo /etc/sudoers.d/01wheel">
 
 <article class="post-single">
   <header class="post-header">
-    <span title='2014-08-22 10:00:00 +0000 UTC'>August 22, 2014</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>232 words</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+    <span title='2014-08-22 10:00:00 +0000 UTC'>August 22, 2014</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>232 palabras</span>&nbsp;·&nbsp;<span>Diego Efe</span>
     <h1 class="post-title entry-hint-parent">Instalando IPython en Mageia
     </h1>
   </header> 
@@ -224,7 +224,7 @@ Históricamente en UNIX este es el grupo Wheels.</p>
 <p>Primero hay que crear el archivo <em>/etc/sudoers.d/01wheel</em></p>
 <p>Después ejecutar lo siguiente en un terminal como root (es decir, luego
 de hacer /usr/bin/su):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ echo <span style="color:#e6db74">&#34;%wheel ALL=(ALL)  ALL&#34;</span> &gt; /etc/sudoers.d/01wheel
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ echo <span style="color:#e6db74">&#34;%wheel ALL=(ALL)  ALL&#34;</span> &gt; /etc/sudoers.d/01wheel
 </span></span><span style="display:flex;"><span>$ chmod <span style="color:#ae81ff">440</span> /etc/sudoers.d/01wheel
 </span></span></code></pre></div><p>Agregar el usuario al grupo &quot;Wheel&quot;. Para ello hay que editar el
 usuario (desde Configure su computador / Administrar usuarios del
@@ -236,15 +236,15 @@ usuario que hizo la edición).</p>
 <p><strong>IMPORTANTE</strong>: para mejorar la seguridad del sistema conviene usar sudo
 o su siempre precedidos de la ruta real al comando (la explicación
 completa verla en el link original), es decir:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ /usr/bin/sudo *comando*
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ /usr/bin/sudo *comando*
 </span></span><span style="display:flex;"><span>$ /usr/bin/su *comando*
 </span></span></code></pre></div><h2 id="instalación-de-pip">Instalación de PIP<a hidden class="anchor" aria-hidden="true" href="#instalación-de-pip">#</a></h2>
 <p>Esto es muy fácil:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ /usr/bin/sudo urpmi python-setuptools
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ /usr/bin/sudo urpmi python-setuptools
 </span></span><span style="display:flex;"><span>$ /usr/bin/sudo easy_install pip
 </span></span></code></pre></div><h2 id="instalación-de-ipython">Instalación de IPython<a hidden class="anchor" aria-hidden="true" href="#instalación-de-ipython">#</a></h2>
 <p>Igual de fácil:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ /usr/bin/sudo pip install ipython
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ /usr/bin/sudo pip install ipython
 </span></span></code></pre></div>
 
   </div>
@@ -259,12 +259,12 @@ completa verla en el link original), es decir:</p>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://eldiegoefe.github.io/2014/09/grabacion-de-screencasts-para-tutoriales-de-youtube/">
-    <span class="title">« Prev</span>
+    <span class="title">« Anterior</span>
     <br>
     <span>Grabacion de screencasts para tutoriales de YouTube</span>
   </a>
   <a class="next" href="https://eldiegoefe.github.io/2014/08/keybindings-conflictivos-en-emacs/">
-    <span class="title">Next »</span>
+    <span class="title">Siguiente »</span>
     <br>
     <span>Keybindings conflictivos en Emacs</span>
   </a>
@@ -424,12 +424,12 @@ completa verla en el link original), es decir:</p>
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = '¡copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 

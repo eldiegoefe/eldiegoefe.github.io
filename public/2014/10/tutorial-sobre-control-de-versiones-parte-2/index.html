@@ -229,7 +229,7 @@ dice &quot;&#43; New repository&quot;, que nos deposita en la imagen de abajo.">
 
 <article class="post-single">
   <header class="post-header">
-    <span title='2014-10-08 10:00:00 +0000 UTC'>October 8, 2014</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>866 words</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+    <span title='2014-10-08 10:00:00 +0000 UTC'>October 8, 2014</span>&nbsp;·&nbsp;<span>5 min</span>&nbsp;·&nbsp;<span>866 palabras</span>&nbsp;·&nbsp;<span>Diego Efe</span>
     <h1 class="post-title entry-hint-parent">Tutorial sobre control de versiones (parte 2)
     </h1>
   </header> 
@@ -281,14 +281,14 @@ repositorio remoto la URL que le pasamos, y además a esa dirección le
 asignamos el alias &quot;<em>origin</em>&quot; (se suele utilizar <em>origin</em> por
 convención, pero podríamos haberlo llamado &quot;<em>farodelfindelmundo</em>&quot;).
 Podemos chequearlo con <em>git remote -v</em>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git remote add origin https://github.com/eldiegoefe/emacs.git
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git remote add origin https://github.com/eldiegoefe/emacs.git
 </span></span><span style="display:flex;"><span>$ git remote -v
 </span></span><span style="display:flex;"><span>origin  https://github.com/eldiegoefe/emacs.git (fetch)
 </span></span><span style="display:flex;"><span>origin  https://github.com/eldiegoefe/emacs.git (push)
 </span></span></code></pre></div><h2 id="subir-repo-local-al-remoto">Subir repo local al remoto<a hidden class="anchor" aria-hidden="true" href="#subir-repo-local-al-remoto">#</a></h2>
 <p>Ahora es superfacil subir los archivos de nuestro repositorio local
 hacia el repositorio remoto (en github.com):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git push origin master
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git push origin master
 </span></span></code></pre></div><p>Cuando te dicen &quot;master&quot; es porque sos grosso, sabelo. Además
 &quot;<em>master</em>&quot; es la única rama (branch) que por el momento tenemos en el
 recientemente creado repositorio remoto y vacío (se me cae un lagrimón).
@@ -304,7 +304,7 @@ contenido que no tenemos en el repositorio local (en mi caso el archivo
 con la licencia), con la orden &quot;<em>git pull</em>&quot; (<em>git push</em> empuja desde
 el local hacia el remoto, <em>git pull</em> tira desde el remoto hacia el
 local):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git pull origin master
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git pull origin master
 </span></span><span style="display:flex;"><span>warning: no common commits
 </span></span><span style="display:flex;"><span>remote: Counting objects: 3, done.
 </span></span><span style="display:flex;"><span>remote: Compressing objects: 100% (2/2), done.
@@ -323,16 +323,16 @@ mensaje de &quot;<em>commit</em>&quot; y luego da el resultado que muestro (por 
 es un jeroglífico, pero tiene sentido, eh). En mi caso, el archivo
 LICENCE que sólo estaba en el remoto, ahora está también en el local, lo
 cual puede verse haciendo:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ ls
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ ls
 </span></span><span style="display:flex;"><span>custom.el  LICENSE  preload
 </span></span></code></pre></div><p>Podemos chequear el estado del repo local:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
 </span></span><span style="display:flex;"><span># On branch master
 </span></span><span style="display:flex;"><span>nothing to commit, working directory clean
 </span></span></code></pre></div><h3 id="no-problem">No problem<a hidden class="anchor" aria-hidden="true" href="#no-problem">#</a></h3>
 <p>Ahora sí volvemos a intentar subir los archivos que faltan hacia origin
 (el repo remoto, solo, triste y abandonado):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git push origin master
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git push origin master
 </span></span><span style="display:flex;"><span>Counting objects: 12, done.
 </span></span><span style="display:flex;"><span>Delta compression using up to 4 threads.
 </span></span><span style="display:flex;"><span>Compressing objects: 100% (8/8), done.
@@ -342,7 +342,7 @@ cual puede verse haciendo:</p>
 </span></span><span style="display:flex;"><span>   e23c676..2c817b6  master -&gt; master
 </span></span></code></pre></div><p>&quot;Joyines&quot;, diría el Tano. Si ahora hiciésemos un pull desde el remoto,
 no debería pasar nada porque ambos repos son iguales. Veamos:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>git pull origin master
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>git pull origin master
 </span></span><span style="display:flex;"><span>From https://github.com/eldiegoefe/emacs
 </span></span><span style="display:flex;"><span> * branch            master     -&gt; FETCH_HEAD
 </span></span><span style="display:flex;"><span>Already up-to-date.
@@ -373,12 +373,12 @@ estoy tocando de oido, mejor veamos más adelante.
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://eldiegoefe.github.io/2014/10/m%C3%A1s-locura-con-git/">
-    <span class="title">« Prev</span>
+    <span class="title">« Anterior</span>
     <br>
     <span>Más locura con Git</span>
   </a>
   <a class="next" href="https://eldiegoefe.github.io/2014/10/emacs-y-restructuredtext/">
-    <span class="title">Next »</span>
+    <span class="title">Siguiente »</span>
     <br>
     <span>Emacs y restructuredText</span>
   </a>
@@ -538,12 +538,12 @@ estoy tocando de oido, mejor veamos más adelante.
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = '¡copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 

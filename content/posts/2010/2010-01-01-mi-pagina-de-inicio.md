@@ -40,6 +40,7 @@ Página de inicio con los enlaces a los sitios que frecuento o que no quiero olv
 - [Google Gemini](https://gemini.google.com/app)
 - [Notebook LM](https://notebooklm.google.com/)
 - [Perplexity](https://www.perplexity.ai/)
+- [Kimi](https://www.kimi.com/)
 
 ## Videos
 

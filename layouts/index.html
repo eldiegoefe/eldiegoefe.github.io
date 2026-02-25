@@ -1,0 +1,24 @@
+{{- define "main" }}
+
+{{- if .Site.Params.profileMode.enabled }}
+  {{- partial "index_profile.html" . }}
+{{- else }}
+  {{- partial "index_header.html" . }}
+{{- end -}}
+
+{{- $posts := where .Site.RegularPages "Section" "posts" }}
+{{- if $posts }}
+<div style="max-width: 760px; margin: 2rem auto; padding: 0 1.2rem; text-align: center;">
+  <h3>Últimas publicaciones</h3>
+  <ul style="list-style: none; padding: 0; font-size: 0.9rem;">
+    {{- range first 10 $posts }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      — <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02/01/2006" }}</time>
+    </li>
+    {{- end }}
+  </ul>
+</div>
+{{- end }}
+
+{{- end }}

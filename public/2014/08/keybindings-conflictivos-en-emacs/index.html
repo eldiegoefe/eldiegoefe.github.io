@@ -188,7 +188,7 @@ este último (ya que hay conflictos con ergoemacs) tuve el siguiente problema:">
 
 <article class="post-single">
   <header class="post-header">
-    <span title='2014-08-17 10:00:00 +0000 UTC'>August 17, 2014</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>285 words</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+    <span title='2014-08-17 10:00:00 +0000 UTC'>August 17, 2014</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>285 palabras</span>&nbsp;·&nbsp;<span>Diego Efe</span>
     <h1 class="post-title entry-hint-parent">Keybindings conflictivos en Emacs
     </h1>
   </header> 
@@ -206,7 +206,7 @@ ejecutaba el comando <em>move-text-up</em> que está definido en prelude.</p>
 <p>Esta combinación de teclas resultó que estaba definida en el archivo
 <strong>~/.emacs.d/core/prelude-mode.el</strong>, en el cual se encuentra la
 siguiente linea:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(define-key <span style="color:#a6e22e">map</span> [(meta shift up)]  <span style="color:#e6db74">&#39;move-text-up</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(define-key <span style="color:#a6e22e">map</span> [(meta shift up)]  <span style="color:#e6db74">&#39;move-text-up</span>)
 </span></span></code></pre></div><p>para recuperar el keybinding y que vuelva a funcionar como se espera en
 org-mode, lo primero que probé fue comentar esa linea agregándole dos ;
 al inicio. Pero de este modo, cuando toque actualizar el paquete
@@ -217,9 +217,9 @@ el keybinding correspondiente a un modo de Emacs con el siguiente
 comando (que debe incluirse en el archivo de inicialización personal,
 generalmente <strong>~/.emacs</strong> o en mi caso
 <strong>~/.emacs.d/personal/custom.el</strong>):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(define-key prelude-mode-map [(meta shift up)] <span style="color:#66d9ef">nil</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(define-key prelude-mode-map [(meta shift up)] <span style="color:#66d9ef">nil</span>)
 </span></span></code></pre></div><p>Lo mismo puede hacerse para M-S-&lt;down&gt;:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(define-key prelude-mode-map [(meta shift down)] <span style="color:#66d9ef">nil</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(define-key prelude-mode-map [(meta shift down)] <span style="color:#66d9ef">nil</span>)
 </span></span></code></pre></div><p>Obviamente esta técnica es aplicable para anular el keybinding de
 cualquier modo que se quiera desactivar.</p>
 
@@ -233,12 +233,12 @@ cualquier modo que se quiera desactivar.</p>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://eldiegoefe.github.io/2014/08/instalando-ipython-en-mageia/">
-    <span class="title">« Prev</span>
+    <span class="title">« Anterior</span>
     <br>
     <span>Instalando IPython en Mageia</span>
   </a>
   <a class="next" href="https://eldiegoefe.github.io/2014/08/a-punto-para-lisp/">
-    <span class="title">Next »</span>
+    <span class="title">Siguiente »</span>
     <br>
     <span>A punto para Lisp</span>
   </a>
@@ -398,12 +398,12 @@ cualquier modo que se quiera desactivar.</p>
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = '¡copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 

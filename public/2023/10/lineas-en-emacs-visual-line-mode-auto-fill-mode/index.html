@@ -186,7 +186,7 @@ Por defecto las lineas son lógicas y al escribir uno puede llegar al final de l
 
 <article class="post-single">
   <header class="post-header">
-    <span title='2023-10-30 10:00:00 +0000 UTC'>October 30, 2023</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>767 words</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+    <span title='2023-10-30 10:00:00 +0000 UTC'>October 30, 2023</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>767 palabras</span>&nbsp;·&nbsp;<span>Diego Efe</span>
     <h1 class="post-title entry-hint-parent">Lineas en Emacs - Visual line mode - Auto fill mode
     </h1>
   </header> 
@@ -218,7 +218,7 @@ linea, con lo cual no permite ir al inicio y final de las lineas
 <p>En este modo, al llegar a una posición prefijada en el renglón, se produce un fin de linea automáticamente (sin tener que apretar Enter). Así, cada linea lógica corresponde a una linea visible.</p>
 <p>Se activa/desactiva con auto-fill-mode. Es un modo menor, que al
 activarse se indica con <em>Fill</em> en la &ldquo;mode-line&rdquo; (la linea de estado). Puede activarse globalmente desde el init.el:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(setq-default auto-fill-function <span style="color:#e6db74">&#39;do-auto-fill</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(setq-default auto-fill-function <span style="color:#e6db74">&#39;do-auto-fill</span>)
 </span></span></code></pre></div><p>La desventaja es que si por algún motivo se achica el tamaño del
 buffer y la linea ya no entra en un renglón visible, se producirá un
 &ldquo;line-wrap&rdquo;, debiéndose realizar un auto-fill manual para corregir la
@@ -234,7 +234,7 @@ seleccionadas en un solo párrafo.</li>
 </ul>
 <p>Este último hay que definirlo en el archivo de configuración <em>init.el</em>
 de Emacs:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span><span style="color:#75715e">;; unfill-paragraph es una función para deshacer fill-paragraph</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span><span style="color:#75715e">;; unfill-paragraph es una función para deshacer fill-paragraph</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">;; https://www.emacswiki.org/emacs/UnfillParagraph</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">;;; Stefan Monnier &lt;foo at acm.org&gt;. It is the opposite of fill-paragraph</span>
 </span></span><span style="display:flex;"><span>(defun unfill-paragraph (<span style="color:#66d9ef">&amp;optional</span> region)
@@ -259,10 +259,10 @@ de Emacs:</p>
 </span></span></code></pre></div><h2 id="visual-line-mode">visual-line-mode<a hidden class="anchor" aria-hidden="true" href="#visual-line-mode">#</a></h2>
 <p>Es un modo que permite que los comandos como C-a y C-e actúen sobre las lineas visibles en vez de las lineas lógicas. Al activarse se eliminan los caracteres &ldquo;raros&rdquo; que señalan la continuidad de la linea <em>lógica</em>.</p>
 <p>Se activa/desactiva con visual-line-mode en cada buffer, o globalmente en todos los buffers con global-visual-line-mode. Es un modo menor, que al activarse se indica con <em>Wrap</em> en la &ldquo;mode-line&rdquo; (la linea de estado). Se puede agregar al <em>init.el</em> para que se active globalmente:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(global-visual-line-mode)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(global-visual-line-mode)
 </span></span></code></pre></div><p>Este modo evita el inconveniente de que las palabras queden truncadas, con la parte inicial sobre el final del renglón y el resto sobre la parte inicial del renglón siguiente. El ajuste de linea se realiza respetando las palabras completas.</p>
 <p>Puede instalarse (y activarse) el paquete <em><a href="https://github.com/joostkremers/visual-fill-column">visual-fill-column</a></em> para fijar un ancho de linea distinto al ancho del buffer (más parecido a auto-fill-mode). En <em>init.el</em> habrá que agregar:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(add-hook <span style="color:#e6db74">&#39;visual-line-mode-hook</span> <span style="color:#a6e22e">#&#39;</span>visual-fill-column-mode)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(add-hook <span style="color:#e6db74">&#39;visual-line-mode-hook</span> <span style="color:#a6e22e">#&#39;</span>visual-fill-column-mode)
 </span></span></code></pre></div><p>Puede intalarse (y activarse) el paquete <em><a href="https://elpa.gnu.org/packages/adaptive-wrap.html">adaptive-wrap</a></em> para mejorar la presentación visual de las listas (para que las lineas queden alineadas con la sangría de su primer renglón).</p>
 <p>Tampoco muestra ningún caracter raro en los bordes para indicar que la linea continua en la siguiente linea <em>visible</em>. Esto se puede cambiar con la variable visual-line-mode-fringe-indicators.</p>
 <p>Una alternativa de visualización que puede ser útil a veces es truncar las lineas (y que no se vea lo que excede al ancho del buffer). Esto se logra con M-x toggle-truncate-lines.</p>
@@ -277,12 +277,12 @@ de Emacs:</p>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://eldiegoefe.github.io/2023/11/israel-y-palestina-en-boca-de-todos-parte-06/">
-    <span class="title">« Prev</span>
+    <span class="title">« Anterior</span>
     <br>
     <span>Israel y Palestina en boca de todos - Parte 06</span>
   </a>
   <a class="next" href="https://eldiegoefe.github.io/2023/10/israel-y-palestina-en-boca-de-todos-parte-05/">
-    <span class="title">Next »</span>
+    <span class="title">Siguiente »</span>
     <br>
     <span>Israel y Palestina en boca de todos - Parte 05</span>
   </a>
@@ -442,12 +442,12 @@ de Emacs:</p>
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = '¡copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 
