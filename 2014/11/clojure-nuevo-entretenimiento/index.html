@@ -191,7 +191,7 @@ que Java está instalado:">
 
 <article class="post-single">
   <header class="post-header">
-    <span title='2014-11-27 10:00:00 +0000 UTC'>November 27, 2014</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>684 words</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+    <span title='2014-11-27 10:00:00 +0000 UTC'>November 27, 2014</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>684 palabras</span>&nbsp;·&nbsp;<span>Diego Efe</span>
     <h1 class="post-title entry-hint-parent">Clojure, nuevo entretenimiento
     </h1>
   </header> 
@@ -203,7 +203,7 @@ así que guardo aquí las instrucciones de instalación para usar Clojure con Em
 en Linux.</p>
 <p>La cuestión no es tan complicada, primero verificamos desde un terminal
 que Java está instalado:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ java -version
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ java -version
 </span></span><span style="display:flex;"><span>java version &#34;1.7.0_65&#34;
 </span></span><span style="display:flex;"><span>OpenJDK Runtime Environment (IcedTea 2.5.2) (Arch Linux build 7.u65_2.5.2-3-x86_64)
 </span></span><span style="display:flex;"><span>OpenJDK 64-Bit Server VM (build 24.65-b04, mixed mode)
@@ -240,12 +240,12 @@ si no lo instalaba yo, el mismo Prelude hubiese bajado CIDER.</p>
 órdenes desde un terminal (el resultado es la creación de un proyecto
 llamado <em>command-line-args</em> dentro de un subdirectorio que se ubica
 dentro del directorio actual en que se encuentra el terminal):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ lein new command-line-args
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ lein new command-line-args
 </span></span><span style="display:flex;"><span>$ cd command-line-args
 </span></span></code></pre></div><p>Luego desde Emacs se abre el archivo /command-line-args/project.clj y se
 lo edita para agregar al texto que ya tiene, la siguiente linea (siempre
 según el tutorial):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-clojure" data-lang="clojure"><span style="display:flex;"><span><span style="color:#e6db74">:profiles</span> {<span style="color:#e6db74">:dev</span> {<span style="color:#e6db74">:plugins</span> [[cider/cider-nrepl <span style="color:#e6db74">&#34;0.7.0&#34;</span>]]}}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-clojure" data-lang="clojure"><span style="display:flex;"><span><span style="color:#e6db74">:profiles</span> {<span style="color:#e6db74">:dev</span> {<span style="color:#e6db74">:plugins</span> [[cider/cider-nrepl <span style="color:#e6db74">&#34;0.7.0&#34;</span>]]}}
 </span></span></code></pre></div><p>Hay que cambiar la versión que allí se coloca, puesto que ya no será la
 &quot;0.7.0&quot;. En el <a href="https://github.com/clojure-emacs/cider-nrepl">github de
 cider-nrepl</a> figura la
@@ -267,7 +267,7 @@ seguramente coincide con la versión que indica el <a href="https://github.com/c
 cider-nrepl</a>). Y <strong>ojo, es
 todo con mayúsculas</strong>, no importa cómo aparezca la versión de CIDER. Y
 voilá:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-clojure" data-lang="clojure"><span style="display:flex;"><span><span style="color:#75715e">; CIDER 0.8.2alpha (package: 20141126.715) (Java 1.7.0_65, Clojure 1.6.0, nREPL 0.2.6)</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-clojure" data-lang="clojure"><span style="display:flex;"><span><span style="color:#75715e">; CIDER 0.8.2alpha (package: 20141126.715) (Java 1.7.0_65, Clojure 1.6.0, nREPL 0.2.6)</span>
 </span></span><span style="display:flex;"><span>user&gt;
 </span></span></code></pre></div><p>Para averiguar la versión instalada de cider:</p>
 <pre tabindex="0"><code class="language-terminal" data-lang="terminal">M-x cider-version
@@ -288,12 +288,12 @@ y jugar con el repl.</p>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://eldiegoefe.github.io/2014/12/artes-marciales/">
-    <span class="title">« Prev</span>
+    <span class="title">« Anterior</span>
     <br>
     <span>Artes marciales</span>
   </a>
   <a class="next" href="https://eldiegoefe.github.io/2014/11/la-fotograf%C3%ADa-en-la-era-de-lo-memorable/">
-    <span class="title">Next »</span>
+    <span class="title">Siguiente »</span>
     <br>
     <span>La fotografía en la era de lo memorable</span>
   </a>
@@ -453,12 +453,12 @@ y jugar con el repl.</p>
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = '¡copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 

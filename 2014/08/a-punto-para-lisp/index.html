@@ -204,7 +204,7 @@ extensión) y descomprimirlo, lo cual se hace con la orden:">
 
 <article class="post-single">
   <header class="post-header">
-    <span title='2014-08-13 10:00:00 +0000 UTC'>August 13, 2014</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>626 words</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+    <span title='2014-08-13 10:00:00 +0000 UTC'>August 13, 2014</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>626 palabras</span>&nbsp;·&nbsp;<span>Diego Efe</span>
     <h1 class="post-title entry-hint-parent">A punto para Lisp
     </h1>
   </header> 
@@ -222,66 +222,66 @@ Linux AMD64, <em>que no implica que esa deba ser la marca de nuestro
 microprocesador</em>) e instalarlo. Prestar atención a que el archivo bajado sea
 efectivamente un binario (posee la palabra &quot;binary&quot; en el nombre, antes de la
 extensión) y descomprimirlo, lo cual se hace con la orden:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span># sh install.sh
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span># sh install.sh
 </span></span></code></pre></div><p>(<strong>necesita permisos de root</strong>, así que hay que anteponer un sudo o
 ejecutar el terminal como root). Al final aparecen algunos mensajes
 diciendo que no se instalaron los manuales, pero más allá de eso todo
 parece andar bien, puesto que en la ventana puede leerse:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>SBCL has been installed:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>SBCL has been installed:
 </span></span><span style="display:flex;"><span> binary /usr/local/bin/sbcl
 </span></span><span style="display:flex;"><span> core and contribs in /usr/local/lib/sbcl/
 </span></span></code></pre></div><p>Luego hay que <a href="http://www.quicklisp.org/beta/">bajar quicklisp</a>, el
 hecho de que sea &quot;beta&quot; no importa, porque anda bien así desde hace
 años.</p>
 <p>Luego hay que ejecutar esto:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ sbcl --load quicklisp.lisp
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ sbcl --load quicklisp.lisp
 </span></span></code></pre></div><p>Luego hay que seguir las instrucciones que aparecen, primeramente
 teclear (el prompt dentro de Lisp en mi sistema es sólo un asterisco):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span><span style="color:#a6e22e">*</span> (quicklisp-quickstart:install)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span><span style="color:#a6e22e">*</span> (quicklisp-quickstart:install)
 </span></span></code></pre></div><p>El sistema se pone a bajar cosas, así que supongo que es necesaria la
 conexión a internet. Finaliza con este mensaje:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>==== quicklisp installed ====
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>==== quicklisp installed ====
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>   To load a system, use: (ql:quickload &#34;system-name&#34;)
+</span></span></span><span style="display:flex;"><span>   To load a system, use: (ql:quickload &#34;system-name&#34;)
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>   To find systems, use: (ql:system-apropos &#34;term&#34;)
+</span></span></span><span style="display:flex;"><span>   To find systems, use: (ql:system-apropos &#34;term&#34;)
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>   To load Quicklisp every time you start Lisp, use: (ql:add-to-init-file)
+</span></span></span><span style="display:flex;"><span>   To load Quicklisp every time you start Lisp, use: (ql:add-to-init-file)
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>   For more information, see http://www.quicklisp.org/beta/
+</span></span></span><span style="display:flex;"><span>   For more information, see http://www.quicklisp.org/beta/
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>NIL
+</span></span></span><span style="display:flex;"><span>NIL
 </span></span></code></pre></div><p>Seguimos ejecutando en el mismo terminal la siguiente instrucción:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span><span style="color:#a6e22e">*</span> (ql:add-to-init-file)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span><span style="color:#a6e22e">*</span> (ql:add-to-init-file)
 </span></span></code></pre></div><p>Funciona independientemente del directorio desde el cual hayamos
 ejecutado el terminal. Ofrece el siguiente mensaje como resultado:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>I will append the following lines to #P&#34;/home/diego/.sbclrc&#34;:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>I will append the following lines to #P&#34;/home/diego/.sbclrc&#34;:
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>  ;;; The following lines added by ql:add-to-init-file:
+</span></span></span><span style="display:flex;"><span>  ;;; The following lines added by ql:add-to-init-file:
 </span></span><span style="display:flex;"><span>  #-quicklisp
 </span></span><span style="display:flex;"><span>  (let ((quicklisp-init (merge-pathnames &#34;quicklisp/setup.lisp&#34;
 </span></span><span style="display:flex;"><span>                                         (user-homedir-pathname))))
 </span></span><span style="display:flex;"><span>    (when (probe-file quicklisp-init)
 </span></span><span style="display:flex;"><span>      (load quicklisp-init)))
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Press Enter to continue.
+</span></span></span><span style="display:flex;"><span>Press Enter to continue.
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>#P<span style="color:#e6db74">&#34;/home/diego/.sbclrc&#34;</span>
+</span></span></span><span style="display:flex;"><span>#P<span style="color:#e6db74">&#34;/home/diego/.sbclrc&#34;</span>
 </span></span></code></pre></div><p>Luego se instala slime, pero no como hacía yo desde adentro de emacs,
 sino desde el mismo terminal en el que venimos trabajando:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>* (ql:quickload &#34;quicklisp-slime-helper&#34;)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>* (ql:quickload &#34;quicklisp-slime-helper&#34;)
 </span></span></code></pre></div><p>Nuevamente se pone a bajar cosas de la red y termina con el siguiente
 mensaje, así que sabemos que lo hizo exitosamente:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>slime-helper.el installed in &#34;/home/diego/quicklisp/slime-helper.el&#34;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>slime-helper.el installed in &#34;/home/diego/quicklisp/slime-helper.el&#34;
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>To use, add this to your ~/.emacs:
+</span></span></span><span style="display:flex;"><span>To use, add this to your ~/.emacs:
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>  (load (expand-file-name &#34;~/quicklisp/slime-helper.el&#34;))
+</span></span></span><span style="display:flex;"><span>  (load (expand-file-name &#34;~/quicklisp/slime-helper.el&#34;))
 </span></span><span style="display:flex;"><span>  ;; Replace &#34;sbcl&#34; with the path to your implementation
 </span></span><span style="display:flex;"><span>  (setq inferior-lisp-program &#34;sbcl&#34;)
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
 </span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>(&#34;quicklisp-slime-helper&#34;)
+</span></span></span><span style="display:flex;"><span>(&#34;quicklisp-slime-helper&#34;)
 </span></span><span style="display:flex;"><span>*
 </span></span></code></pre></div><p>Yo no tengo archivo ~/.emacs porque instalé Prelude, así que esas tres
 lineas (desde <strong>(load</strong> hasta <strong>&quot;sbcl&quot;)</strong>) van en el archivo de
@@ -293,7 +293,7 @@ que corra.</p>
 extensión .lisp usando C-x C-f. Luego, en otro buffer, puedo hacer M-x
 slime. Da como resultado una máquina REPL como la que se espera en los
 ejemplos del capítulo 2 de Practical Common Lisp.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span><span style="color:#75715e">; SLIME 2014-06-17</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span><span style="color:#75715e">; SLIME 2014-06-17</span>
 </span></span><span style="display:flex;"><span>CL-USER&gt;
 </span></span></code></pre></div><p>Al principio había algo diferente en el video, porque cuando se pone a
 teclear en el otro buffer, el que tiene el archivo de texto con
@@ -303,7 +303,7 @@ embargo, luego empezó a funcionar igual, también con el coloreado de las
 palabras clave.</p>
 <p>Aca una versión del Hola, Mundo! para probar en el archivo .lisp (se
 compila con C-c C-c):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(defun hihi-world ()
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(defun hihi-world ()
 </span></span><span style="display:flex;"><span>  (<span style="color:#a6e22e">format</span> <span style="color:#66d9ef">t</span> <span style="color:#e6db74">&#34;hola mundo!&#34;</span>))
 </span></span></code></pre></div>
 
@@ -317,12 +317,12 @@ compila con C-c C-c):</p>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://eldiegoefe.github.io/2014/08/keybindings-conflictivos-en-emacs/">
-    <span class="title">« Prev</span>
+    <span class="title">« Anterior</span>
     <br>
     <span>Keybindings conflictivos en Emacs</span>
   </a>
   <a class="next" href="https://eldiegoefe.github.io/2014/08/primer-snippet/">
-    <span class="title">Next »</span>
+    <span class="title">Siguiente »</span>
     <br>
     <span>Primer snippet</span>
   </a>
@@ -482,12 +482,12 @@ compila con C-c C-c):</p>
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = '¡copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 

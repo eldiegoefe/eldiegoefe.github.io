@@ -198,7 +198,7 @@ lo único que instala imagemagick):">
 
 <article class="post-single">
   <header class="post-header">
-    <span title='2014-09-24 10:00:00 +0000 UTC'>September 24, 2014</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>150 words</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+    <span title='2014-09-24 10:00:00 +0000 UTC'>September 24, 2014</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>150 palabras</span>&nbsp;·&nbsp;<span>Diego Efe</span>
     <h1 class="post-title entry-hint-parent">De jpg a pdf
     </h1>
   </header> 
@@ -207,17 +207,17 @@ bien tiene mucha potencia, porque puede hacer mucho más, yo la usé para
 convertir imágenes en páginas de un archivo pdf.</p>
 <p>Se necesita tener instalado un paquete llamado <strong>imagemagick</strong>. Para instalarlo
 desde un terminal dependerá de la distribución, suele ser así:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sudo urpmi imagemagick             <span style="color:#75715e"># desde mageia</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sudo urpmi imagemagick             <span style="color:#75715e"># desde mageia</span>
 </span></span><span style="display:flex;"><span>$ sudo apt-get install imagemagick   <span style="color:#75715e"># desde ubuntu, mint, etc</span>
 </span></span><span style="display:flex;"><span>$ sudo yum install imagemagick       <span style="color:#75715e"># desde fedora</span>
 </span></span></code></pre></div><p>Luego, para usarlo, también desde un terminal y en el directorio donde
 están guardadas las imágenes, se ejecuta <strong>convert</strong> (parece que no es
 lo único que instala <strong>imagemagick</strong>):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ convert imagen.jpg archivo.pdf
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ convert imagen.jpg archivo.pdf
 </span></span></code></pre></div><p>Se pueden incluir varias imágenes en un mismo archivo:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ convert imagen1.jpg imagen2.jpg imagen3.jpg archivo.pdf
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ convert imagen1.jpg imagen2.jpg imagen3.jpg archivo.pdf
 </span></span></code></pre></div><p>E incluso generalizar con asteriscos:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ convert imagen*.jpg archivo.pdf
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ convert imagen*.jpg archivo.pdf
 </span></span></code></pre></div><p>Hay muchos ejemplos más en <a href="http://blog.desdelinux.net/como-manipular-imagenes-desde-el-terminal/">Desde
 Linux</a>.
 Y también más información haciendo <strong>man convert</strong> desde el terminal.</p>
@@ -232,12 +232,12 @@ Y también más información haciendo <strong>man convert</strong> desde el term
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://eldiegoefe.github.io/2014/10/tutorial-sobre-control-de-versiones-parte-1/">
-    <span class="title">« Prev</span>
+    <span class="title">« Anterior</span>
     <br>
     <span>Tutorial sobre control de versiones (parte 1)</span>
   </a>
   <a class="next" href="https://eldiegoefe.github.io/2014/09/grabacion-de-screencasts-para-tutoriales-de-youtube/">
-    <span class="title">Next »</span>
+    <span class="title">Siguiente »</span>
     <br>
     <span>Grabacion de screencasts para tutoriales de YouTube</span>
   </a>
@@ -397,12 +397,12 @@ Y también más información haciendo <strong>man convert</strong> desde el term
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = '¡copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 

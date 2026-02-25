@@ -197,7 +197,7 @@ sistema.">
 
 <article class="post-single">
   <header class="post-header">
-    <span title='2015-05-20 10:00:00 +0000 UTC'>May 20, 2015</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>1913 words</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+    <span title='2015-05-20 10:00:00 +0000 UTC'>May 20, 2015</span>&nbsp;·&nbsp;<span>9 min</span>&nbsp;·&nbsp;<span>1913 palabras</span>&nbsp;·&nbsp;<span>Diego Efe</span>
     <h1 class="post-title entry-hint-parent">Actualización de las instrucciones para armar un blog con Pelican y GitHub
     </h1>
   </header> 
@@ -215,7 +215,7 @@ sistema.</p>
 <p>Vamos a utilizar virtualenvwrapper para este propósito (tengo pendiente escribir
 el tutorial correspondiente). Creamos un entorno llamado <em>blogs</em> y dentro de él
 instalamos Pelican y también otras herramientas que utilizaremos posteriormente:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mkvirtualenv blogs
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mkvirtualenv blogs
 </span></span><span style="display:flex;"><span>(blogs)$ pip install pelican
 </span></span><span style="display:flex;"><span>(blogs)$ pip install beautifulsoup4
 </span></span><span style="display:flex;"><span>(blogs)$ pip install pelican-youtube
@@ -236,7 +236,7 @@ organización será la siguiente:</p>
 </ul>
 <p>Para ello debemos ejecutar las siguientes instrucciones (supongo que el
 entorno virtual sigue activado, lo cual se refleja en el prompt):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ mkdir ~/misBlogs
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ mkdir ~/misBlogs
 </span></span><span style="display:flex;"><span>(blogs)$ cd ~/misBlogs
 </span></span><span style="display:flex;"><span>(blogs)$ git clone --recursive https://github.com/getpelican/pelican-themes
 </span></span><span style="display:flex;"><span>(blogs)$ git clone --recursive https://github.com/getpelican/pelican-plugins
@@ -249,7 +249,7 @@ ajeno, de lo contrario este tutorial parecerá sánscrito avanzado. El
 repositorio recientemente creado debe clonarse en el directorio que
 fijamos anteriormente, si seguimos de la secuencia de comandos
 anteriores sólo debemos tipear:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ git clone https://github.com/nombreUsuario/nombreUsuario.github.io
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ git clone https://github.com/nombreUsuario/nombreUsuario.github.io
 </span></span></code></pre></div><p>En el archivo .gitignore (dentro del directorio
 ~/misBlogs/nombreUsuario.github.io) se deben colocar todos los archivos
 que no se desea incluir en el control de versiones. Por ejemplo, mi
@@ -267,7 +267,7 @@ configuración de Pelican para nuestro sitio, los archivos de texto con
 el contenido de cada post que vayamos escribiendo, etc. La rama
 <em>gh-pages</em> es necesaria para el procedimiento de generación del sitio
 estático. Creamos entonces ambas ramas y cambiamos hacia <strong>source</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ cd nombreUsuario.github.io
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ cd nombreUsuario.github.io
 </span></span><span style="display:flex;"><span>(blogs)$ git branch gh-pages
 </span></span><span style="display:flex;"><span>(blogs)$ git branch source
 </span></span><span style="display:flex;"><span>(blogs)$ git checkout source
@@ -276,7 +276,7 @@ estático. Creamos entonces ambas ramas y cambiamos hacia <strong>source</strong
 del sitio (nombreUsuario.github.io) se debe ejecutar por única vez la
 orden <strong>pelican-quickstart</strong> para que se generen los archivos de
 configurción de Pelican (va el guión entre las dos palabras):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ pelican-quickstart
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ pelican-quickstart
 </span></span></code></pre></div><p>Tras ese comando, y tras contestar todas las preguntas que aparecen, no
 solamente se guarda la configuración deseada (en los archivos
 <em>pelicanconfig.py</em> y <em>publishconf.py</em>), sino que se generan todos los
@@ -286,7 +286,7 @@ output). Una de las preguntas, sobre el site url debe contestarse con:
 <p>El contenido de pelicanconf.py tras responder a las preguntas de
 pelican-quickstart y además editar manualmente el archivo para completar
 los datos, queda así:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env python</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env python</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># -*- coding: utf-8 -*- #</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> __future__ <span style="color:#f92672">import</span> unicode_literals
 </span></span><span style="display:flex;"><span>
@@ -321,7 +321,7 @@ los datos, queda así:</p>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Uncomment following line if you want document-relative URLs when developing</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#RELATIVE_URLS = True</span>
 </span></span></code></pre></div><p>Y el contenido de publishconf.py queda así:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env python</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env python</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># -*- coding: utf-8 -*- #</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> __future__ <span style="color:#f92672">import</span> unicode_literals
 </span></span><span style="display:flex;"><span>
@@ -372,7 +372,7 @@ los archivos del directorio <em>content</em>, produce los archivos <em>html</em>
 aloja en el directorio <em>output</em>) se logra con <strong>make html</strong> y luego se
 ejecuta un servidor local con <strong>make serve</strong> que permite visitar el blog
 en la dirección <a href="http://localhost:8000">http://localhost:8000</a>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ make html
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ make html
 </span></span><span style="display:flex;"><span>(blogs)$ make serve
 </span></span></code></pre></div><p>En la primera corrida puede haber problemas de formato, sin embargo tras
 subir el sitio al repositorio externo, se corrobora que la página carga
@@ -390,11 +390,11 @@ desde el servidor local.</p>
 uso de pyenv, aunque no haya explicado nada antes sobre esta alternativa
 de manejo de virtualenvs. Vayamos al grano, en un terminal ejecutar
 esto:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ pyenv activate blogs
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ pyenv activate blogs
 </span></span><span style="display:flex;"><span>(blogs)$ cd ~/blogs/eldiegoefe.github.io/
 </span></span><span style="display:flex;"><span>(blogs)$ make regenerate
 </span></span></code></pre></div><p>En otro terminal, hacer lo propio:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ pyenv activate blogs
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ pyenv activate blogs
 </span></span><span style="display:flex;"><span>(blogs)$ cd ~/blogs/eldiegoefe.github.io/
 </span></span><span style="display:flex;"><span>(blogs)$ make serve
 </span></span></code></pre></div><p>De este modo el sitio se regenera ante cualquier edición de su
@@ -408,7 +408,7 @@ luego volver a ejecutar el <em>make regenerate</em>.</p>
 <h2 id="subir-el-sitio-al-repositorio-remoto">Subir el sitio al repositorio remoto<a hidden class="anchor" aria-hidden="true" href="#subir-el-sitio-al-repositorio-remoto">#</a></h2>
 <p>Una vez que estamos conformes con el contenido vamos a agregar todo al
 branch <strong>source</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ git add .
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ git add .
 </span></span><span style="display:flex;"><span>(blogs)$ git commit -m &#34;Commit inicial de la rama source&#34;
 </span></span></code></pre></div><p>De este modo nuestros archivos ya quedaron almacenados en la rama
 <strong>source</strong> de nuestro repositorio local. Pero lo que se verá al acceder
@@ -421,7 +421,7 @@ la rama &quot;gh-pages&quot; (que también ya creamos anteriormente, porque somo
 gente muy prevenida...). Finalmente se debe hacer un merge desde la
 rama <strong>master</strong> con la rama <strong>gh-pages</strong> y subir todo al repositorio
 externo. Estos son los pasos mencionados:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ ghp-import output
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ ghp-import output
 </span></span><span style="display:flex;"><span>(blogs)$ git checkout master
 </span></span><span style="display:flex;"><span>(blogs)$ git merge gh-pages
 </span></span><span style="display:flex;"><span>(blogs)$ git push --all
@@ -437,7 +437,7 @@ restructuredText (o Markdown) y se deben guardar en el directorio
 <em>content</em>, en la rama <strong>source</strong>. Tampoco hay que olvidarse de activar
 el entorno virtual correcto para que funcione Pelican y las órdenes como
 <em>make html</em> y <em>make serve</em>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ source /usr/local/bin/virtualenvwrapper.sh
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ source /usr/local/bin/virtualenvwrapper.sh
 </span></span><span style="display:flex;"><span>$ workon blogs
 </span></span><span style="display:flex;"><span>(blogs)$ cd ~/misBlogs/nombreUsuario.github.io/
 </span></span><span style="display:flex;"><span>(blogs)$ git checkout source
@@ -446,7 +446,7 @@ el entorno virtual correcto para que funcione Pelican y las órdenes como
 de estar en la rama <strong>source</strong> y llegamos al directorio <em>content</em> que es
 donde debemos almacenar los archivos de contenido (<em>.rst</em> o <em>.md</em>)</p>
 <p>Generamos el blog y arrancamos el servidor local con:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ make html
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ make html
 </span></span><span style="display:flex;"><span>(blogs)$ make serve
 </span></span></code></pre></div><p>Visitamos el blog con nuestro navegador en la dirección
 <a href="http://localhost:8000">http://localhost:8000</a></p>
@@ -457,7 +457,7 @@ regenerate</em> y <em>make serve</em> en dos terminales distintos, como expliqu�
 antes). Una vez que estemos conformes con el contenido tenemos que
 ejecutar las siguientes órdenes para subir el blog al repositorio
 externo:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ git add .
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>(blogs)$ git add .
 </span></span><span style="display:flex;"><span>(blogs)$ git commit -m &#34;mensaje del commit&#34;
 </span></span><span style="display:flex;"><span>(blogs)$ ghp-import output
 </span></span><span style="display:flex;"><span>(blogs)$ git checkout master
@@ -512,12 +512,12 @@ actualicemos ese repositorio de plugins)</p>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://eldiegoefe.github.io/2015/05/b%C3%BAsquedas-con-isearch-en-emacs/">
-    <span class="title">« Prev</span>
+    <span class="title">« Anterior</span>
     <br>
     <span>Búsquedas con isearch en Emacs</span>
   </a>
   <a class="next" href="https://eldiegoefe.github.io/2015/05/sugerencia-respecto-de-los-tutoriales-de-emacs/">
-    <span class="title">Next »</span>
+    <span class="title">Siguiente »</span>
     <br>
     <span>Sugerencia respecto de los tutoriales de Emacs</span>
   </a>
@@ -677,12 +677,12 @@ actualicemos ese repositorio de plugins)</p>
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = '¡copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 

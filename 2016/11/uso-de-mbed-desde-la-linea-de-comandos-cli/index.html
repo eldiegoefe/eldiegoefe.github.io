@@ -195,7 +195,7 @@ actividades: Emacs, y esto lo puedo hacer con el nuevo compilador offline.">
 
 <article class="post-single">
   <header class="post-header">
-    <span title='2016-11-04 10:00:00 +0000 UTC'>November 4, 2016</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>806 words</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+    <span title='2016-11-04 10:00:00 +0000 UTC'>November 4, 2016</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>806 palabras</span>&nbsp;·&nbsp;<span>Diego Efe</span>
     <h1 class="post-title entry-hint-parent">Uso de MBED desde la linea de comandos (CLI)
     </h1>
   </header> 
@@ -225,23 +225,23 @@ le asignamos. Este directorio aparece como hijo de nuestro directorio
 actual, así que antes de ejecutar el comando hay que posicionarse en la
 ubicación deseada.</p>
 <h3 id="para-mbed-os-5">Para MBED OS 5<a hidden class="anchor" aria-hidden="true" href="#para-mbed-os-5">#</a></h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed new nombre-programa
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed new nombre-programa
 </span></span><span style="display:flex;"><span>$ cd nombre-programa
 </span></span></code></pre></div><h3 id="para-mbed-os-2">Para MBED OS 2<a hidden class="anchor" aria-hidden="true" href="#para-mbed-os-2">#</a></h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed new nombre-programa --mbedlib
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed new nombre-programa --mbedlib
 </span></span><span style="display:flex;"><span>$ cd nombre-programa
 </span></span></code></pre></div><h2 id="mostrar-las-librerías-instaladas">Mostrar las librerías instaladas<a hidden class="anchor" aria-hidden="true" href="#mostrar-las-librerías-instaladas">#</a></h2>
 <p>Al inicializarse un programa, como mínimo se importan las librerías de
 MBED, ya sean las del OS 5 o del OS 2 (son diferentes entre sí). Para
 verlas:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed ls -a
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed ls -a
 </span></span></code></pre></div><h2 id="selección-de-placa-y-toolchain">Selección de placa y toolchain<a hidden class="anchor" aria-hidden="true" href="#selección-de-placa-y-toolchain">#</a></h2>
 <p>Hay que conectar la placa MBED mediante su conector USB <strong>OpenSDA</strong> (el
 que se usa para programarla) y ejecutar el siguiente comando, que nos
 dará información que necesitaremos para seleccionar placa y toolchain:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed detect
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed detect
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>[mbed] Detected K64F, port /dev/ttyACM0, mounted /media/diego/MBED
+</span></span></span><span style="display:flex;"><span>[mbed] Detected K64F, port /dev/ttyACM0, mounted /media/diego/MBED
 </span></span><span style="display:flex;"><span>[mbed] Supported toolchains for K64F
 </span></span><span style="display:flex;"><span>+--------+-----------+-----------+-----------+-----------+-----------+
 </span></span><span style="display:flex;"><span>| Target | mbed OS 2 | mbed OS 5 |    ARM    |  GCC_ARM  |    IAR    |
@@ -255,26 +255,26 @@ disponemos para trabajar con ella. <strong>Si conecto la placa KL25Z el
 sistema no la detecta, parece que el sistema sólo es compatible con las
 placas más nuevas</strong>.</p>
 <p>Para seleccionar la placa de destino donde correrá nuestro programa:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed target K64F
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed target K64F
 </span></span></code></pre></div><p>Para elegir el toolchain GCC_ARM usamos:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed toolchain GCC_ARM
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed toolchain GCC_ARM
 </span></span></code></pre></div><p>Si pedimos el estado actual de la configuración veremos lo siguiente (si
 la ejecución del comando <em>mbed new</em> se realizó desde
 /home/diego/mis-proyectos):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed config --list
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed config --list
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>[mbed] Global config:
+</span></span></span><span style="display:flex;"><span>[mbed] Global config:
 </span></span><span style="display:flex;"><span>No global configuration is set
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>[mbed] Local config (/home/diego/mis-proyectos/nombre-programa):
+</span></span></span><span style="display:flex;"><span>[mbed] Local config (/home/diego/mis-proyectos/nombre-programa):
 </span></span><span style="display:flex;"><span>TOOLCHAIN=GCC_ARM
 </span></span><span style="display:flex;"><span>TARGET=K64F
 </span></span></code></pre></div><h2 id="creación-de-programa">Creación de programa<a hidden class="anchor" aria-hidden="true" href="#creación-de-programa">#</a></h2>
 <p>En el directorio raíz del proyecto es necesario crear un archivo llamado
 <em>main.cpp</em> que contendrá el programa escrito en C++. Por ejemplo, este
 programa enciende y apaga un LED de la placa (usando OS 2):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;mbed.h&#34;</span><span style="color:#75715e">
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;mbed.h&#34;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>DigitalOut <span style="color:#a6e22e">rojo</span>(LED1);
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">togglearLed</span>(DigitalOut led)
@@ -282,7 +282,7 @@ programa enciende y apaga un LED de la placa (usando OS 2):</p>
 </span></span><span style="display:flex;"><span>    led <span style="color:#f92672">=</span> <span style="color:#f92672">!</span>led;
 </span></span><span style="display:flex;"><span>    wait(<span style="color:#ae81ff">1</span>);
 </span></span><span style="display:flex;"><span>} <span style="color:#75715e">// togglearLed
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span>(<span style="color:#ae81ff">1</span>) {
 </span></span><span style="display:flex;"><span>        togglearLed(rojo);
@@ -291,7 +291,7 @@ programa enciende y apaga un LED de la placa (usando OS 2):</p>
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h2 id="compilación-y-ejecución-del-programa">Compilación y ejecución del programa<a hidden class="anchor" aria-hidden="true" href="#compilación-y-ejecución-del-programa">#</a></h2>
 <p>La compilación se realiza con el siguiente comando:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed compile
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed compile
 </span></span></code></pre></div><p><strong>Luego hay que copiar el archivo generado por el compilador en la placa
 MBED</strong>. Este archivo (cuyo nombre corresponde al utilizado durante la
 inicialización del proyecto: &quot;nombre-programa&quot; y cuya extensión es
@@ -312,7 +312,7 @@ copiar el nombre-programa.bin hacia la placa MBED, esperar que se
 complete la transferencia y resetearla. Este es el bucle que repetiremos
 hasta lograr que nuestro programa funcione de la manera deseada.</p>
 <h2 id="resumen">Resumen<a hidden class="anchor" aria-hidden="true" href="#resumen">#</a></h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed new nombre-programa <span style="color:#f92672">(</span>--mbedlib<span style="color:#f92672">)</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mbed new nombre-programa <span style="color:#f92672">(</span>--mbedlib<span style="color:#f92672">)</span>
 </span></span><span style="display:flex;"><span>$ cd nombre-programa
 </span></span><span style="display:flex;"><span>$ mbed ls -a
 </span></span><span style="display:flex;"><span>$ mbed detect
@@ -336,12 +336,12 @@ transferencia y resetear la placa.</p>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://eldiegoefe.github.io/2016/11/freecad/">
-    <span class="title">« Prev</span>
+    <span class="title">« Anterior</span>
     <br>
     <span>FreeCAD</span>
   </a>
   <a class="next" href="https://eldiegoefe.github.io/2016/10/bibliograf%C3%ADa-sobre-tejido-a-m%C3%A1quina/">
-    <span class="title">Next »</span>
+    <span class="title">Siguiente »</span>
     <br>
     <span>Bibliografía sobre tejido a máquina</span>
   </a>
@@ -501,12 +501,12 @@ transferencia y resetear la placa.</p>
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = '¡copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 

@@ -193,7 +193,7 @@ Linux. Ahí hay dos datos importantes:">
 
 <article class="post-single">
   <header class="post-header">
-    <span title='2014-09-23 10:00:00 +0000 UTC'>September 23, 2014</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>485 words</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+    <span title='2014-09-23 10:00:00 +0000 UTC'>September 23, 2014</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>485 palabras</span>&nbsp;·&nbsp;<span>Diego Efe</span>
     <h1 class="post-title entry-hint-parent">Grabacion de screencasts para tutoriales de YouTube
     </h1>
   </header> 
@@ -233,7 +233,7 @@ sonido agregué:</p>
 <p>Para saber cuál es la tarjeta de sonido se utiliza el comando <em>arecord
 -l</em>, y dado que quiero grabar con la webcam USB uso hw:1 (porque es la
 &quot;card 1&quot;). El resultado en mi PC es el siguiente:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>**** List of CAPTURE Hardware Devices ****
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>**** List of CAPTURE Hardware Devices ****
 </span></span><span style="display:flex;"><span>card 0: PCH [HDA Intel PCH], device 0: VT2020 Analog [VT2020 Analog]
 </span></span><span style="display:flex;"><span>  Subdevices: 1/1
 </span></span><span style="display:flex;"><span>  Subdevice #0: subdevice #0
@@ -249,7 +249,7 @@ seleccionar la placa de sonido, aunque al final no se si tiene algo que
 ver el haber logrado grabar video y sonido con lo hecho desde esta
 aplicación.</p>
 <p>La orden que finalmente usé (va todo junto, es una sola linea):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>ffmpeg -f alsa -ac 2 -ab 128k -acodec pcm_s16le -i hw:1 -f x11grab
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>ffmpeg -f alsa -ac 2 -ab 128k -acodec pcm_s16le -i hw:1 -f x11grab
 </span></span><span style="display:flex;"><span>-show_region 1 -y -r 30 -s 1280x720 -i :0.0+0,0 -vcodec libx264
 </span></span><span style="display:flex;"><span>screencast.avi
 </span></span></code></pre></div><p>Tener cuidado con el nombre del archivo (en este ejemplo es
@@ -270,12 +270,12 @@ página</a>.</p>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://eldiegoefe.github.io/2014/09/de-jpg-a-pdf/">
-    <span class="title">« Prev</span>
+    <span class="title">« Anterior</span>
     <br>
     <span>De jpg a pdf</span>
   </a>
   <a class="next" href="https://eldiegoefe.github.io/2014/08/instalando-ipython-en-mageia/">
-    <span class="title">Next »</span>
+    <span class="title">Siguiente »</span>
     <br>
     <span>Instalando IPython en Mageia</span>
   </a>
@@ -435,12 +435,12 @@ página</a>.</p>
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = '¡copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 

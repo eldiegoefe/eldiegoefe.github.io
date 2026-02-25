@@ -195,7 +195,7 @@ es Meta, y que eso significa en un teclado convencional la tecla Alt).">
 
 <article class="post-single">
   <header class="post-header">
-    <span title='2014-10-08 11:00:00 +0000 UTC'>October 8, 2014</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>643 words</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+    <span title='2014-10-08 11:00:00 +0000 UTC'>October 8, 2014</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>643 palabras</span>&nbsp;·&nbsp;<span>Diego Efe</span>
     <h1 class="post-title entry-hint-parent">Escritorio cómodo y atajos de teclado
     </h1>
   </header> 
@@ -219,11 +219,11 @@ pantalla diferentes, lo que ayuda a diferenciarlos.</p>
 <p>En Emacs uso estas cosas que están buenísimas:</p>
 <p>Intercambié la funcionalidad de las letras U y X (estoy en Dvorak) con
 estas lineas en el archivo de configuración de emacs:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(keyboard-translate ?\C-x ?\C-u)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(keyboard-translate ?\C-x ?\C-u)
 </span></span><span style="display:flex;"><span>(keyboard-translate ?\C-u ?\C-x)
 </span></span></code></pre></div><p>Cambié el keybinding para ir a la linea anterior a C-t, de manera que
 queda junto a C-n, que es para ir a la linea siguiente:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(global-set-key (kbd <span style="color:#e6db74">&#34;C-t&#34;</span>) <span style="color:#e6db74">&#39;previous-line</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cl" data-lang="cl"><span style="display:flex;"><span>(global-set-key (kbd <span style="color:#e6db74">&#34;C-t&#34;</span>) <span style="color:#e6db74">&#39;previous-line</span>)
 </span></span></code></pre></div><p>Uso C-a y C-e para ir al principio y final de cada linea.</p>
 <p>Uso C-l para que se centre la ventana alrededor del cursor (muy util
 cuando estamos cerca del borde inferior de la pantalla).</p>
@@ -281,12 +281,12 @@ desea repetirse nuevamente, basta con apretar la z sola).</p>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://eldiegoefe.github.io/2014/10/tutorial-sobre-control-de-versiones-parte-3/">
-    <span class="title">« Prev</span>
+    <span class="title">« Anterior</span>
     <br>
     <span>Tutorial sobre control de versiones (parte 3)</span>
   </a>
   <a class="next" href="https://eldiegoefe.github.io/2014/10/m%C3%A1s-locura-con-git/">
-    <span class="title">Next »</span>
+    <span class="title">Siguiente »</span>
     <br>
     <span>Más locura con Git</span>
   </a>
@@ -446,12 +446,12 @@ desea repetirse nuevamente, basta con apretar la z sola).</p>
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = '¡copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 

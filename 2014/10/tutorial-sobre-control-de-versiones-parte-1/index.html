@@ -223,7 +223,7 @@ comandos que se ejecutan una sola vez. Por ejemplo:">
 
 <article class="post-single">
   <header class="post-header">
-    <span title='2014-10-06 10:00:00 +0000 UTC'>October 6, 2014</span>&nbsp;·&nbsp;<span>16 min</span>&nbsp;·&nbsp;<span>3350 words</span>&nbsp;·&nbsp;<span>Diego Efe</span>
+    <span title='2014-10-06 10:00:00 +0000 UTC'>October 6, 2014</span>&nbsp;·&nbsp;<span>16 min</span>&nbsp;·&nbsp;<span>3350 palabras</span>&nbsp;·&nbsp;<span>Diego Efe</span>
     <h1 class="post-title entry-hint-parent">Tutorial sobre control de versiones (parte 1)
     </h1>
   </header> 
@@ -240,7 +240,7 @@ Carpentry</a></p>
 <p>La primera vez que se usa Git en una máquina hay que configurar al menos el
 nombre del usuario y su email. También puede elegirse el editor por defecto. Son
 comandos que se ejecutan una sola vez. Por ejemplo:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$ git config --global user.name <span style="color:#e6db74">&#34;Vlad Dracula&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$ git config --global user.name <span style="color:#e6db74">&#34;Vlad Dracula&#34;</span>
 </span></span><span style="display:flex;"><span>$ git config --global user.email <span style="color:#e6db74">&#34;vlad@tran.sylvan.ia&#34;</span>
 </span></span><span style="display:flex;"><span>$ git config --global color.ui <span style="color:#e6db74">&#34;auto&#34;</span>
 </span></span><span style="display:flex;"><span>$ git config --global core.editor <span style="color:#e6db74">&#34;emacs&#34;</span>
@@ -252,7 +252,7 @@ todos los proyectos (repositorios) de esa computadora.</p>
 <h2 id="inicialización">Inicialización<a hidden class="anchor" aria-hidden="true" href="#inicialización">#</a></h2>
 <p>Se puede comenzar a trabajar con un proyecto usando el siguiente comando desde
 el subdirectorio en el cual se alojarán los archivos del proyecto:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$ git init
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$ git init
 </span></span></code></pre></div><p>De esta manera se crea un subdirectorio oculto (.git) donde se irá alojando todo
 el historial de archivos, en todas sus versiones, a medida que se vayan
 produciendo.</p>
@@ -270,7 +270,7 @@ se va a morder para aguantar
 <p>Si hacemos <em>&quot;git status&quot;</em> el sistema nos responde que reconoce la existencia
 de un nuevo archivo en el proyecto, que todavía el sistema de control de
 versiones no incorporó.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
 </span></span><span style="display:flex;"><span># On branch master
 </span></span><span style="display:flex;"><span>#
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Initial commit</span>
@@ -281,9 +281,9 @@ versiones no incorporó.</p>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#    va-a-escampar.txt</span>
 </span></span><span style="display:flex;"><span>nothing added to commit but untracked files present (use &#34;git add&#34; to track)
 </span></span></code></pre></div><p>Para agregar el archivo al proyecto se ejecuta:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git add va-a-escampar.txt
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git add va-a-escampar.txt
 </span></span></code></pre></div><p>Y se puede pedir el nuevo informe de situación con:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
 </span></span><span style="display:flex;"><span># On branch master
 </span></span><span style="display:flex;"><span>#
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Initial commit</span>
@@ -303,7 +303,7 @@ como cometer, hacer, encomendar, perpetrar&hellip; Ninguna de las cuales sirve p
 describir lo que sucede, así que hablaremos de <strong>comitear</strong>.</p>
 <p>Para <em>comitear</em> el estado actual del archivo se ejecuta la orden <em>git commit -m
 &quot;mensaje personal&quot;</em>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#34;Empezando a transcribir la letra de La Vela&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#34;Empezando a transcribir la letra de La Vela&#34;</span>
 </span></span><span style="display:flex;"><span>[master (root-commit) 38b86f5] Empezando a transcribir la letra de La Vela
 </span></span><span style="display:flex;"><span>1 file changed, 6 insertions(+)
 </span></span><span style="display:flex;"><span>create mode 100644 va-a-escampar.txt
@@ -318,16 +318,16 @@ para poder escribir el mensaje.</p>
 log</strong> podemos ver el historial de cambios (en orden cronológico inverso), el
 cual incluye el identificador completo de la revisión, el autor, la fecha y el
 mensaje de Git al responder al commit:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
 </span></span><span style="display:flex;"><span># On branch master
 </span></span><span style="display:flex;"><span>nothing to commit, working directory clean
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>$ git log
+</span></span></span><span style="display:flex;"><span>$ git log
 </span></span><span style="display:flex;"><span>commit 38b86f5625453732e442c127f1d4678ec8550a12
 </span></span><span style="display:flex;"><span>Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
 </span></span><span style="display:flex;"><span>Date:   Mon Oct 6 15:35:07 2014 -0300
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>   Empezando a transcribir la letra de La Vela
+</span></span></span><span style="display:flex;"><span>   Empezando a transcribir la letra de La Vela
 </span></span></code></pre></div><h2 id="cambios-o-agregados-en-un-archivo">Cambios (o agregados) en un archivo<a hidden class="anchor" aria-hidden="true" href="#cambios-o-agregados-en-un-archivo">#</a></h2>
 <blockquote>
 <p><strong>¿Dónde se guardan los cambios?</strong></p>
@@ -351,7 +351,7 @@ Sobre su pena se posa
 quiere entender para seguir
 </code></pre>
 <p>Al pedir el status del proyecto veremos:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
 </span></span><span style="display:flex;"><span># On branch master
 </span></span><span style="display:flex;"><span># Changes not staged <span style="color:#66d9ef">for</span> commit:
 </span></span><span style="display:flex;"><span>#   <span style="color:#f92672">(</span>use <span style="color:#e6db74">&#34;git add &lt;file&gt;...&#34;</span> to update what will be committed<span style="color:#f92672">)</span>
@@ -367,7 +367,7 @@ queremos guardar esos cambios (lo haremos con <em>git add</em>).</p>
 <p>Antes de agregar estos cambios podemos revisar nuestro trabajo usando
 <em>git diff</em>, que nos muestra las diferencias entre el estado actual del
 archivo y la última versión comiteada.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git diff
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git diff
 </span></span><span style="display:flex;"><span>diff --git a/va-a-escampar.txt b/va-a-escampar.txt
 </span></span><span style="display:flex;"><span>index 97ab7b0..db818ec 100644
 </span></span><span style="display:flex;"><span>--- a/va-a-escampar.txt
@@ -395,7 +395,7 @@ las diferencias (marcando con &quot;+&quot; las lineas que se agregaron).</li>
 </ol>
 <h2 id="cómo-comitear-los-cambios">Cómo comitear los cambios<a hidden class="anchor" aria-hidden="true" href="#cómo-comitear-los-cambios">#</a></h2>
 <p>Si hacemos un commit de los cambios:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#34;Agregada la segunda estrofa&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#34;Agregada la segunda estrofa&#34;</span>
 </span></span><span style="display:flex;"><span># On branch master
 </span></span><span style="display:flex;"><span># Changes not staged <span style="color:#66d9ef">for</span> commit:
 </span></span><span style="display:flex;"><span>#   <span style="color:#f92672">(</span>use <span style="color:#e6db74">&#34;git add &lt;file&gt;...&#34;</span> to update what will be committed<span style="color:#f92672">)</span>
@@ -406,7 +406,7 @@ las diferencias (marcando con &quot;+&quot; las lineas que se agregaron).</li>
 </span></span><span style="display:flex;"><span>no changes added to commit <span style="color:#f92672">(</span>use <span style="color:#e6db74">&#34;git add&#34;</span> and/or <span style="color:#e6db74">&#34;git commit -a&#34;</span><span style="color:#f92672">)</span>
 </span></span></code></pre></div><p><strong>Ups. No se comitearon los cambios porque faltó agregarlos antes</strong>.
 Entonces, haremos:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git add va-a-escampar.txt
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git add va-a-escampar.txt
 </span></span><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#34;Agregada la segunda estrofa&#34;</span>
 </span></span><span style="display:flex;"><span>[master 6ae57e3] Agregada la segunda estrofa
 </span></span><span style="display:flex;"><span>1 file changed, 5 insertions(+)
@@ -435,7 +435,7 @@ quiere la respuesta
 sabe que no es escapar.
 </code></pre>
 <p>Y analizamos las diferencias con <em>git diff</em>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git diff
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git diff
 </span></span><span style="display:flex;"><span>diff --git a/va-a-escampar.txt b/va-a-escampar.txt
 </span></span><span style="display:flex;"><span>index db818ec..0c33091 100644
 </span></span><span style="display:flex;"><span>--- a/va-a-escampar.txt
@@ -455,12 +455,12 @@ sabe que no es escapar.
 (pero no comiteada), guardada en la <em>staging area</em> (la voy a llamar
 <em>zona de preparación</em>). Si agregamos estos cambios al almacenamiento
 intermedio, veremos lo siguiente:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git add va-a-escampar.txt
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git add va-a-escampar.txt
 </span></span><span style="display:flex;"><span>$ git diff
 </span></span></code></pre></div><p>Ahora no hay ninguna salida, porque el archivo actualmente en edición es
 igual al que guardamos en la <em>zona de preparación</em>.</p>
 <p>Sin embargo, si hacemos:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git diff --staged
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git diff --staged
 </span></span><span style="display:flex;"><span>diff --git a/va-a-escampar.txt b/va-a-escampar.txt
 </span></span><span style="display:flex;"><span>index db818ec..0c33091 100644
 </span></span><span style="display:flex;"><span>--- a/va-a-escampar.txt
@@ -479,32 +479,32 @@ igual al que guardamos en la <em>zona de preparación</em>.</p>
 </span></span></code></pre></div><p>Ahora nos está mostrando las diferencias entre el último cambio
 comiteado (en el almacenamiento de largo plazo) y lo que hay en la <em>zona
 de preparación</em>. Guardemos estos cambios:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#34;Tercera estrofa agregada&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#34;Tercera estrofa agregada&#34;</span>
 </span></span><span style="display:flex;"><span>[master 8f1eec1] Tercera estrofa agregada
 </span></span><span style="display:flex;"><span> 1 file changed, 7 insertions(+)
 </span></span></code></pre></div><p>Vemos cómo quedó:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
 </span></span><span style="display:flex;"><span># On branch master
 </span></span><span style="display:flex;"><span>nothing to commit, working directory clean
 </span></span></code></pre></div><p>Y podemos examinar la historia de lo que fue sucediendo hasta ahora:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git log
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git log
 </span></span><span style="display:flex;"><span>commit 8f1eec1836a9ace8a2cbab7e2c3341efa5c3a537
 </span></span><span style="display:flex;"><span>Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
 </span></span><span style="display:flex;"><span>Date:   Mon Oct 6 19:55:10 2014 -0300
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>    Tercera estrofa agregada
+</span></span></span><span style="display:flex;"><span>    Tercera estrofa agregada
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>commit 6ae57e3d91a7a526a257df081d83a5b9be4e6d28
+</span></span></span><span style="display:flex;"><span>commit 6ae57e3d91a7a526a257df081d83a5b9be4e6d28
 </span></span><span style="display:flex;"><span>Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
 </span></span><span style="display:flex;"><span>Date:   Mon Oct 6 16:54:40 2014 -0300
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>    Agregada la segunda estrofa
+</span></span></span><span style="display:flex;"><span>    Agregada la segunda estrofa
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>commit 38b86f5625453732e442c127f1d4678ec8550a12
+</span></span></span><span style="display:flex;"><span>commit 38b86f5625453732e442c127f1d4678ec8550a12
 </span></span><span style="display:flex;"><span>Author: eldiegoefe &lt;eldiegoefe@gmail.com&gt;
 </span></span><span style="display:flex;"><span>Date:   Mon Oct 6 15:35:07 2014 -0300
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>    Empezando a transcribir la letra de La Vela
+</span></span></span><span style="display:flex;"><span>    Empezando a transcribir la letra de La Vela
 </span></span></code></pre></div><p>Resumiendo, cuando queremos hacer cambios en nuestro repositorio,
 primero tenemos que agregar los cambios a la <em>zona de preparación</em> (con
 <em>git add</em>), y luego <em>comitear</em> los cambios ensayados al repositorio (con
@@ -514,7 +514,7 @@ width=&ldquo;100.0%&rdquo;}</p>
 <h2 id="explorando-el-historial">Explorando el historial<a hidden class="anchor" aria-hidden="true" href="#explorando-el-historial">#</a></h2>
 <p>Para ver lo que cambiamos, usamos <em>git diff</em> también, pero para
 refiriéndonos a versiones viejas con la notación HEAD~1, HEAD~2, etc:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git diff HEAD~1 va-a-escampar.txt
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git diff HEAD~1 va-a-escampar.txt
 </span></span><span style="display:flex;"><span>diff --git a/va-a-escampar.txt b/va-a-escampar.txt
 </span></span><span style="display:flex;"><span>index db818ec..0c33091 100644
 </span></span><span style="display:flex;"><span>--- a/va-a-escampar.txt
@@ -530,7 +530,7 @@ refiriéndonos a versiones viejas con la notación HEAD~1, HEAD~2, etc:</p>
 </span></span><span style="display:flex;"><span>+y como sale de esta
 </span></span><span style="display:flex;"><span>+quiere la respuesta
 </span></span><span style="display:flex;"><span>+sabe que no es escapar.
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git diff HEAD~2 va-a-escampar.txt
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git diff HEAD~2 va-a-escampar.txt
 </span></span><span style="display:flex;"><span>diff --git a/va-a-escampar.txt b/va-a-escampar.txt
 </span></span><span style="display:flex;"><span>index 97ab7b0..0c33091 100644
 </span></span><span style="display:flex;"><span>--- a/va-a-escampar.txt
@@ -562,7 +562,7 @@ cambios, &quot;únicos&quot; significa realmente únicos: cada cambio a cualquie
 de archivos en cualquier máquina tiene un identificador de 40 caracteres.
 Nuestro primer commit nos dio el ID 38b86f5625453732e442c127f1d4678ec8550a12,
 así que probemos esto:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git diff 38b86f5625453732e442c127f1d4678ec8550a12 va-a-escampar.txt
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git diff 38b86f5625453732e442c127f1d4678ec8550a12 va-a-escampar.txt
 </span></span><span style="display:flex;"><span>diff --git a/va-a-escampar.txt b/va-a-escampar.txt
 </span></span><span style="display:flex;"><span>index 97ab7b0..0c33091 100644
 </span></span><span style="display:flex;"><span>--- a/va-a-escampar.txt
@@ -585,7 +585,7 @@ así que probemos esto:</p>
 </span></span><span style="display:flex;"><span>+sabe que no es escapar.
 </span></span></code></pre></div><p>Para no tipear cadenas de 40 números, Git permite usar los primeros de la
 cadena, con el mismo resultado:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git diff 38b86f5 va-a-escampar.txt
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git diff 38b86f5 va-a-escampar.txt
 </span></span></code></pre></div><h2 id="recuperar-versiones-antiguas">Recuperar versiones antiguas<a hidden class="anchor" aria-hidden="true" href="#recuperar-versiones-antiguas">#</a></h2>
 <p>De acuerdo: podemos grabar cambios a los archivos y ver qué hemos cambiado. Pero
 ¿cómo restauramos versiones viejas de las cosas? Supongamos que sobreescribimos
@@ -594,11 +594,11 @@ siguiente linea:</p>
 <pre><code>no va a escampar nada
 </code></pre>
 <p>El comando <em>cat</em> muestra el contenido del archivo:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ cat va-a-escampar.txt
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ cat va-a-escampar.txt
 </span></span><span style="display:flex;"><span>no va a escampar nada
 </span></span></code></pre></div><p>Con <em>git status</em> nos enteramos que el archivo ha cambiado, pero esos
 cambios aún no pasaron a la <em>zona de preparación</em> (<em>staging area</em>).</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
 </span></span><span style="display:flex;"><span># On branch master
 </span></span><span style="display:flex;"><span># Changes not staged <span style="color:#66d9ef">for</span> commit:
 </span></span><span style="display:flex;"><span>#   <span style="color:#f92672">(</span>use <span style="color:#e6db74">&#34;git add &lt;file&gt;...&#34;</span> to update what will be committed<span style="color:#f92672">)</span>
@@ -609,22 +609,22 @@ cambios aún no pasaron a la <em>zona de preparación</em> (<em>staging area</em
 </span></span><span style="display:flex;"><span>no changes added to commit <span style="color:#f92672">(</span>use <span style="color:#e6db74">&#34;git add&#34;</span> and/or <span style="color:#e6db74">&#34;git commit -a&#34;</span><span style="color:#f92672">)</span>
 </span></span></code></pre></div><p>Podemos volver atrás, dejando las cosas como estaban antes, usando <em>git
 checkout</em>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git checkout HEAD va-a-escampar.txt
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git checkout HEAD va-a-escampar.txt
 </span></span><span style="display:flex;"><span>$ cat va-a-escampar.txt
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Va a escampar
+</span></span></span><span style="display:flex;"><span>Va a escampar
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Hoy asume lo que venga
+</span></span></span><span style="display:flex;"><span>Hoy asume lo que venga
 </span></span><span style="display:flex;"><span>sea para bien, o todo mal.
 </span></span><span style="display:flex;"><span>y aunque pierda lo que tenga
 </span></span><span style="display:flex;"><span>se va a morder para aguantar
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Hoy que claro ve las cosas
+</span></span></span><span style="display:flex;"><span>Hoy que claro ve las cosas
 </span></span><span style="display:flex;"><span>que ayer no vio, ni va a exigir
 </span></span><span style="display:flex;"><span>Sobre su pena se posa
 </span></span><span style="display:flex;"><span>quiere entender para seguir
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>Llega la batalla
+</span></span></span><span style="display:flex;"><span>Llega la batalla
 </span></span><span style="display:flex;"><span>y contra él estalla
 </span></span><span style="display:flex;"><span>algún día va a escampar.
 </span></span><span style="display:flex;"><span>y como sale de esta
@@ -634,7 +634,7 @@ checkout</em>:</p>
 este caso, le estamos pidiendo a Git que recupere la versión del archivo
 guardada en HEAD, que fue la última revisión guardada. Si quisiéramos ir
 más atrás podríamos usar un identificador de revisión:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git checkout 38b86f5 va-a-escampar.txt
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git checkout 38b86f5 va-a-escampar.txt
 </span></span></code></pre></div><p>Es importante recordar que debemos usar el número de revisión que identifica el
 estado del repositorio antes del cambio que estamos tratando de revertir. Un
 error común es usar el número de revisión del commit en el cual hicimos el
@@ -673,10 +673,10 @@ adelante en el tiempo.</p>
 <p>Vamos a ver qué hacer con los archivos del mismo directorio que no queremos
 incluir en el sistema de control de versiones. Agregamos algunos archivos
 vacíos: a.dat</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mkdir results
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ mkdir results
 </span></span><span style="display:flex;"><span>$ touch a.dat b.dat c.dat results/a.out results/b.out
 </span></span></code></pre></div><p>Y vemos qué dice Git:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
 </span></span><span style="display:flex;"><span># On branch master
 </span></span><span style="display:flex;"><span># Untracked files:
 </span></span><span style="display:flex;"><span>#   <span style="color:#f92672">(</span>use <span style="color:#e6db74">&#34;git add &lt;file&gt;...&#34;</span> to include in what will be committed<span style="color:#f92672">)</span>
@@ -698,12 +698,12 @@ subdirectorio <em>results</em> (si cualquiera de estos archivos hubiese estado s
 parte del control de versiones, Git continuará considerándolo a pesar de figurar
 en <em>.gitignore</em>). Al listar el contenido de <em>.gitignore</em> deberíamos obtener
 esto:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ cat .gitignore
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ cat .gitignore
 </span></span><span style="display:flex;"><span>*.dat
 </span></span><span style="display:flex;"><span>results/
 </span></span></code></pre></div><p>Si pedimos el status del proyecto, la salida se verá mucho más limpia
 que antes:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status
 </span></span><span style="display:flex;"><span># On branch master
 </span></span><span style="display:flex;"><span># Untracked files:
 </span></span><span style="display:flex;"><span>#   <span style="color:#f92672">(</span>use <span style="color:#e6db74">&#34;git add &lt;file&gt;...&#34;</span> to include in what will be committed<span style="color:#f92672">)</span>
@@ -715,14 +715,14 @@ creado. Podríamos creer que no querríamos incorporarlo al control de versiones
 pero todos con quienes compartimos el repositorio probablemente querrían ignorar
 las mismas cosas que estamos ignorando nosotros. Así que agregamos y comiteamos
 este archivo (oculto, pues empieza con un punto):</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git add .gitignore
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git add .gitignore
 </span></span><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#34;Agregado del archivo de ignorancias&#34;</span>
 </span></span><span style="display:flex;"><span>$ git status
 </span></span><span style="display:flex;"><span># On branch master
 </span></span><span style="display:flex;"><span>nothing to commit, working directory clean
 </span></span></code></pre></div><p>Como un extra, al usar <em>.gitignore</em> evitamos agregar accidentalmente archivos
 que no queremos al repositorio.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git add a.dat
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git add a.dat
 </span></span><span style="display:flex;"><span>The following paths are ignored by one of your .gitignore files:
 </span></span><span style="display:flex;"><span>a.dat
 </span></span><span style="display:flex;"><span>Use -f if you really want to add them.
@@ -730,9 +730,9 @@ que no queremos al repositorio.</p>
 </span></span></code></pre></div><p>Si queremos realmente pasar por alto los seteos de <em>.gitignore</em>, podemos usar
 <em>git add -f</em> para forzar a Git a agregar algo. Siempre podemos ver la situación
 de los archivos ignorados si quisiéramos:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status --ignored
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>$ git status --ignored
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span># On branch master
+</span></span></span><span style="display:flex;"><span># On branch master
 </span></span><span style="display:flex;"><span># Ignored files:
 </span></span><span style="display:flex;"><span>#  <span style="color:#f92672">(</span>use <span style="color:#e6db74">&#34;git add -f &lt;file&gt;...&#34;</span> to include in what will be committed<span style="color:#f92672">)</span>
 </span></span><span style="display:flex;"><span>#
@@ -741,7 +741,7 @@ de los archivos ignorados si quisiéramos:</p>
 </span></span><span style="display:flex;"><span>#        c.dat
 </span></span><span style="display:flex;"><span>#        results/
 </span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">
-</span></span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010"></span>nothing to commit, working directory clean
+</span></span></span><span style="display:flex;"><span>nothing to commit, working directory clean
 </span></span></code></pre></div><h2 id="claves">Claves<a hidden class="anchor" aria-hidden="true" href="#claves">#</a></h2>
 <blockquote>
 <p>Usar <strong>git config</strong> para configurar un usuario, dirección de email,
@@ -775,12 +775,12 @@ por el sistema de control de versiones.</p>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://eldiegoefe.github.io/2014/10/emacs-y-restructuredtext/">
-    <span class="title">« Prev</span>
+    <span class="title">« Anterior</span>
     <br>
     <span>Emacs y restructuredText</span>
   </a>
   <a class="next" href="https://eldiegoefe.github.io/2014/09/de-jpg-a-pdf/">
-    <span class="title">Next »</span>
+    <span class="title">Siguiente »</span>
     <br>
     <span>De jpg a pdf</span>
   </a>
@@ -940,12 +940,12 @@ por el sistema de control de versiones.</p>
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'copiar';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = '¡copiado!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'copiar';
             }, 2000);
         }
 
