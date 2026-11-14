@@ -97,7 +97,7 @@ acerca del activismo.
    contrainformación.
 
 Este es mi pentálogo actual y provisorio. Si en el futuro se me
-ocurren más cosas quizás evoluciona hacia un futuro hexálogo o
-heptálogo. Me voy a dormir la siesta, ¡y hasta el decálogo, siempre!
+ocurren más cosas quizás evoluciona hacia un hexálogo o heptálogo. Me
+voy a dormir la siesta, ¡y hasta el decálogo, siempre!
 
 ![Poster del curso](https://live.staticflickr.com/65535/55118531509_cf9806373f_b.jpg)
