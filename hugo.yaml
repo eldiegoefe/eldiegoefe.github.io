@@ -1,9 +1,13 @@
 baseURL: https://eldiegoefe.github.io/
-languageCode: es
+defaultContentLanguage: es
 title: Certezas Dudosas
 theme: PaperMod
 disqusShortname: "eldiegoefe"
 
+languages:
+  es:
+    locale: es
+    
 permalinks:
   posts: /:year/:month/:slug/
 
@@ -24,6 +28,8 @@ taxonomies:
   series: series
 
 params:
+  author:
+    name: "Diego Efe"
   defaultTheme: auto
   disableThemeToggle: false
   ShowReadingTime: true
@@ -67,6 +73,8 @@ params:
     - name: "rss"
       url: "/index.xml"
 
-
-
-
+security:
+  enableInlineShortcodes: false
+  allowContent:
+    - '^text/org$'
+    - '^text/markdown$'
